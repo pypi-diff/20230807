@@ -830,3 +830,38 @@
 [2023-08-07 01:15:20] INFO root fetch - processPackages [CoolProp]: Remove: archive file [/home/abi/fetcher/tmp/CoolProp-6.5.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-08-07 01:15:20] INFO root fetch - main [MainThread]: End processing [CoolProp]: success
 [2023-08-07 01:15:20] INFO root fetch - main [MainThread]: Store serial: [19197918]
+[2023-08-07 01:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197918]
+[2023-08-07 01:20:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highcharts-stock
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beamer-slider
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GaussianAndBinomialDistributions202
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-project-name
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-project-stub
+[2023-08-07 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: greenery
+[2023-08-07 01:20:29] INFO root fetch - processPackages [beamer-slider]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 01:20:29] INFO root fetch - processPackages [greenery]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-08-07 01:20:29] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/d9/59/f1d14eb325bf3f6806b470fd808c364522b711906ba00ad8fc0ed716c75f/beamer-slider-0.1.8.tar.gz
+[2023-08-07 01:20:29] WARNING root fetch - processPackages [my-project-name]: Skipping, unable to determine old version
+[2023-08-07 01:20:29] INFO root fetch - main [MainThread]: End processing [my-project-name] error
+[2023-08-07 01:20:29] WARNING root fetch - processPackages [GaussianAndBinomialDistributions202]: Skipping, unable to determine old version
+[2023-08-07 01:20:29] INFO root fetch - main [MainThread]: End processing [GaussianAndBinomialDistributions202] error
+[2023-08-07 01:20:29] INFO root fetch - processPackages [highcharts-stock]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-08-07 01:20:29] WARNING root fetch - processPackages [python-project-stub]: Skipping, unable to determine old version
+[2023-08-07 01:20:29] INFO root fetch - main [MainThread]: End processing [python-project-stub] error
+[2023-08-07 01:20:29] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/93/ae/5cacf262cb7248d6b7f0bf540e58f1cc53b607cdac5b59bfe74501a4bed4/beamer-slider-0.1.9.tar.gz
+[2023-08-07 01:20:29] INFO root fetch - processPackages [greenery]: Downloading https://files.pythonhosted.org/packages/92/b1/ba4494520f95dd51b6b3ea535b0640d55fc3f7de977f2fdd945f226941a6/greenery-4.0.0.tar.gz
+[2023-08-07 01:20:29] INFO root fetch - processPackages [beamer-slider]: executing diffoscope
+[2023-08-07 01:20:29] INFO root fetch - processPackages [beamer-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamer-slider-0.1.8.tar.gz tmp/beamer-slider-0.1.9.tar.gz --markdown 20230807/b/beamer-slider/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 01:20:29] INFO root fetch - processPackages [highcharts-stock]: Downloading https://files.pythonhosted.org/packages/49/ca/fef53dbf3b1360b7eb5377e8ae6f85ab72aeb50b0dd8c5a306927001a134/highcharts_stock-1.2.1.tar.gz
+[2023-08-07 01:20:29] WARNING root fetch - processPackages [highcharts-stock]: Skipping package: exceeds size limit 11091105>=10485760
+[2023-08-07 01:20:29] INFO root fetch - main [MainThread]: End processing [highcharts-stock] error
+[2023-08-07 01:20:29] INFO root fetch - processPackages [greenery]: Downloading https://files.pythonhosted.org/packages/f0/b0/e1304eed0fe0d60ca3f480ba9cf195de4195f9f0584f5ea66c3130159eba/greenery-4.1.0.tar.gz
+[2023-08-07 01:20:30] INFO root fetch - processPackages [greenery]: executing diffoscope
+[2023-08-07 01:20:30] INFO root fetch - processPackages [greenery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenery-4.0.0.tar.gz tmp/greenery-4.1.0.tar.gz --markdown 20230807/g/greenery/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-08-07 01:20:30] INFO root fetch - processPackages [beamer-slider]: Remove: archive file [/home/abi/fetcher/tmp/beamer-slider-0.1.8.tar.gz]
+[2023-08-07 01:20:30] INFO root fetch - processPackages [beamer-slider]: Remove: archive file [/home/abi/fetcher/tmp/beamer-slider-0.1.9.tar.gz]
+[2023-08-07 01:20:30] INFO root fetch - main [MainThread]: End processing [beamer-slider]: success
+[2023-08-07 01:20:30] INFO root fetch - processPackages [greenery]: Remove: archive file [/home/abi/fetcher/tmp/greenery-4.0.0.tar.gz]
+[2023-08-07 01:20:30] INFO root fetch - processPackages [greenery]: Remove: archive file [/home/abi/fetcher/tmp/greenery-4.1.0.tar.gz]
+[2023-08-07 01:20:30] INFO root fetch - main [MainThread]: End processing [greenery]: success
+[2023-08-07 01:20:30] INFO root fetch - main [MainThread]: Store serial: [19197950]
