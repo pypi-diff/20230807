@@ -347,3 +347,72 @@
 [2023-08-07 00:32:58] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-08-07 00:32:58] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-08-07 00:32:58] INFO root fetch - main [MainThread]: Store serial: [19197697]
+[2023-08-07 00:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197697]
+[2023-08-07 00:38:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-reportable
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-tgb
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-assistant-frontend
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python2verilog
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wodoo
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellxgene-census
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysqlitepkgV2
+[2023-08-07 00:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-us
+[2023-08-07 00:38:07] INFO root fetch - processPackages [python2verilog]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [policyengine-us]: New version: [0.409.3] Old Version: [0.409.2]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/5e/55/7ed062205e56e548e008f5290628625bb2f01e02347860a1bfb917b39eae/python2verilog-0.1.0.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [py-tgb]: New version: [0.8.0] Old Version: [0.7.5]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [cellxgene-census]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-08-07 00:38:07] INFO root fetch - processPackages [edc-reportable]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-07 00:38:07] ERROR root fetch - processPackages [pysqlitepkgV2]: Unable to get metadata: No such project 'pysqlitepkgV2'
+[2023-08-07 00:38:07] INFO root fetch - main [MainThread]: End processing [pysqlitepkgV2] error
+[2023-08-07 00:38:07] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5e/64/3c04ecabe2e709674d2b49c62ed35c65af31d004ca15f371a52f850e7a1b/policyengine-us-0.409.2.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/64/5c/d4501b48931f9c772bb2a376dd64683bc41f8917ca4cf22356c9d427ccb4/music-assistant-frontend-2.0.8.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/0a/a9/390f834bd5b59aed301070b29c8ef801f397ae63faffbfa846daba2093c5/cellxgene_census-1.4.0.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [py-tgb]: Downloading https://files.pythonhosted.org/packages/2c/a5/0db5c5f2bbc76e82321802196520602eab1fc3380fff50961f1501d8be6c/py_tgb-0.7.5.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [edc-reportable]: Downloading https://files.pythonhosted.org/packages/32/8e/fa3bbcdaf5cfa3229c6f75bd797d29534f2a47895889481ab484e191bef4/edc_reportable-0.3.8-py3-none-any.whl
+[2023-08-07 00:38:07] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/6f/2b/54fef15e05d320e630c568030c8b3658c1cf8ba934ec61a73152daa8703a/python2verilog-0.1.1.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-07 00:38:07] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230807/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 00:38:07] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2023-08-07 00:38:07] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.1.0.tar.gz tmp/python2verilog-0.1.1.tar.gz --markdown 20230807/p/python2verilog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 00:38:07] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d6/fd/ab8bb7554d495a039f8e5d1a2d7ce9f13df43dfd1fb1b44a68b60aa75d24/policyengine-us-0.409.3.tar.gz
+[2023-08-07 00:38:07] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/38/c8/756c4aedbfb004aa817ee5450d13be8d000e87cc8e10a1c54bb0a2695f22/cellxgene_census-1.5.0.tar.gz
+[2023-08-07 00:38:08] INFO root fetch - processPackages [py-tgb]: Downloading https://files.pythonhosted.org/packages/73/56/6aaf26f189db0abb613cb3a406729e9e902073b88fc05ff155cf7c02c955/py_tgb-0.8.0.tar.gz
+[2023-08-07 00:38:08] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-08-07 00:38:08] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.4.0.tar.gz tmp/cellxgene_census-1.5.0.tar.gz --markdown 20230807/c/cellxgene-census/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-08-07 00:38:08] INFO root fetch - processPackages [edc-reportable]: Downloading https://files.pythonhosted.org/packages/ad/60/92ef7f4ee0c6b8425bd586e6081f940127887d57b0a229f286f84b11f584/edc_reportable-0.3.9-py3-none-any.whl
+[2023-08-07 00:38:08] INFO root fetch - processPackages [py-tgb]: executing diffoscope
+[2023-08-07 00:38:08] INFO root fetch - processPackages [py-tgb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tgb-0.7.5.tar.gz tmp/py_tgb-0.8.0.tar.gz --markdown 20230807/p/py-tgb/0.7.5-0.8.0/diff.md --exclude *.pyd
+[2023-08-07 00:38:08] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-07 00:38:08] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.409.2.tar.gz tmp/policyengine-us-0.409.3.tar.gz --markdown 20230807/p/policyengine-us/0.409.2-0.409.3/diff.md --exclude *.pyd
+[2023-08-07 00:38:08] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/86/7e/47baf1682c9c96c82e5efb5d20dc440424c7db3327fed9be80f4369c7aa6/music-assistant-frontend-2.0.9.tar.gz
+[2023-08-07 00:38:08] INFO root fetch - processPackages [edc-reportable]: executing diffoscope
+[2023-08-07 00:38:08] INFO root fetch - processPackages [edc-reportable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_reportable-0.3.8-py3-none-any.whl.zip tmp/edc_reportable-0.3.9-py3-none-any.whl.zip --markdown 20230807/e/edc-reportable/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-07 00:38:08] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-08-07 00:38:08] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.8.tar.gz tmp/music-assistant-frontend-2.0.9.tar.gz --markdown 20230807/m/music-assistant-frontend/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 00:38:08] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.1.0.tar.gz]
+[2023-08-07 00:38:08] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.1.1.tar.gz]
+[2023-08-07 00:38:08] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2023-08-07 00:38:09] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-07 00:38:09] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.4.0.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.5.0.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-08-07 00:38:09] INFO root fetch - processPackages [py-tgb]: Remove: archive file [/home/abi/fetcher/tmp/py_tgb-0.7.5.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - processPackages [py-tgb]: Remove: archive file [/home/abi/fetcher/tmp/py_tgb-0.8.0.tar.gz]
+[2023-08-07 00:38:09] INFO root fetch - main [MainThread]: End processing [py-tgb]: success
+[2023-08-07 00:38:09] INFO root fetch - processPackages [edc-reportable]: Remove: archive file [/home/abi/fetcher/tmp/edc_reportable-0.3.8-py3-none-any.whl.zip]
+[2023-08-07 00:38:09] INFO root fetch - processPackages [edc-reportable]: Remove: archive file [/home/abi/fetcher/tmp/edc_reportable-0.3.9-py3-none-any.whl.zip]
+[2023-08-07 00:38:09] INFO root fetch - main [MainThread]: End processing [edc-reportable]: success
+[2023-08-07 00:38:22] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.8.tar.gz]
+[2023-08-07 00:38:22] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
+[2023-08-07 00:38:22] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-08-07 00:38:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.2.tar.gz]
+[2023-08-07 00:38:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.3.tar.gz]
+[2023-08-07 00:38:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-07 00:38:40] INFO root fetch - main [MainThread]: Store serial: [19197722]
