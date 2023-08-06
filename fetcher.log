@@ -1018,3 +1018,60 @@
 [2023-08-07 01:36:07] INFO root fetch - processPackages [llm-strategy]: Remove: archive file [/home/abi/fetcher/tmp/llm_strategy-1.1.0.tar.gz]
 [2023-08-07 01:36:07] INFO root fetch - main [MainThread]: End processing [llm-strategy]: success
 [2023-08-07 01:36:07] INFO root fetch - main [MainThread]: Store serial: [19198016]
+[2023-08-07 01:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198016]
+[2023-08-07 01:41:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: razel
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-index
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappadata
+[2023-08-07 01:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyenphase
+[2023-08-07 01:41:15] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 01:41:15] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 01:41:16] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-07 01:41:16] INFO root fetch - processPackages [razel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 01:41:16] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [llama-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-07 01:41:16] INFO root fetch - processPackages [gpt-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-07 01:41:16] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/ce/42/f272aaf3be2fb88da665839bcbe4182c7aefce563eb575594d1d73352eb5/razel-0.1.8.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-07 01:41:16] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230807/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 01:41:16] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-07 01:41:16] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230807/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 01:41:16] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-07 01:41:16] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230807/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 01:41:16] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/16/7d/1a52250e02f7f6c4d4c04fd871c6f00bd6db0b1cb26f7f99be3503ae6d2f/razel-0.1.9.tar.gz
+[2023-08-07 01:41:16] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/1a/7c/9e8aceb37943ab1d15e27d69ed3e650c7692b3669e2d293bd325e988437f/llama_index-0.7.9.tar.gz
+[2023-08-07 01:41:17] INFO root fetch - processPackages [razel]: executing diffoscope
+[2023-08-07 01:41:17] INFO root fetch - processPackages [razel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razel-0.1.8.tar.gz tmp/razel-0.1.9.tar.gz --markdown 20230807/r/razel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 01:41:17] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fb/cd/b6cf67186f1ef0f3078acd211131fce74e74d15332fa85c6bdcdc2812534/gpt_index-0.7.9.tar.gz
+[2023-08-07 01:41:17] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-08-07 01:41:17] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.8.tar.gz tmp/llama_index-0.7.9.tar.gz --markdown 20230807/l/llama-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-07 01:41:17] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-08-07 01:41:17] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.8.tar.gz tmp/gpt_index-0.7.9.tar.gz --markdown 20230807/g/gpt-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-07 01:41:17] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-07 01:41:17] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-07 01:41:17] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-07 01:41:18] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-07 01:41:18] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-07 01:41:18] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-07 01:41:18] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.1.8.tar.gz]
+[2023-08-07 01:41:18] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.1.9.tar.gz]
+[2023-08-07 01:41:18] INFO root fetch - main [MainThread]: End processing [razel]: success
+[2023-08-07 01:41:20] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-08-07 01:41:20] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
+[2023-08-07 01:41:20] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-08-07 01:41:20] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-08-07 01:41:20] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
+[2023-08-07 01:41:20] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-08-07 01:41:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-07 01:41:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-07 01:41:22] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-07 01:41:22] INFO root fetch - main [MainThread]: Store serial: [19198034]
