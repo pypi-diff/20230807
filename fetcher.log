@@ -988,3 +988,33 @@
 [2023-08-07 01:30:56] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-07 01:30:56] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-07 01:30:56] INFO root fetch - main [MainThread]: Store serial: [19198004]
+[2023-08-07 01:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198004]
+[2023-08-07 01:36:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-07 01:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-strategy
+[2023-08-07 01:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: likeinterface
+[2023-08-07 01:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-08-07 01:36:05] INFO root fetch - processPackages [likeinterface]: New version: [1.1a0] Old Version: [1.1.0.1a0]
+[2023-08-07 01:36:05] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-07 01:36:05] INFO root fetch - processPackages [llm-strategy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 01:36:05] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-07 01:36:05] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b2/93/5ca9050d9b0daaeb5f2c2c1cb8896df530b39db40fb1cdc4bbf8cfe85813/likeinterface-1.1.0.1a0.tar.gz
+[2023-08-07 01:36:06] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-07 01:36:06] INFO root fetch - processPackages [llm-strategy]: Downloading https://files.pythonhosted.org/packages/67/37/093c94896ffb11e4cdc58eb82f337c432a2fae0e718cd0971358dcd85ee7/llm_strategy-1.0.0.tar.gz
+[2023-08-07 01:36:06] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b4/a5/242c3f091ad331edef2529661d3a6d2b8ba609874dd41e9d54e015240ca0/likeinterface-1.1a0.tar.gz
+[2023-08-07 01:36:06] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-07 01:36:06] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230807/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-07 01:36:06] INFO root fetch - processPackages [likeinterface]: executing diffoscope
+[2023-08-07 01:36:06] INFO root fetch - processPackages [likeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeinterface-1.1.0.1a0.tar.gz tmp/likeinterface-1.1a0.tar.gz --markdown 20230807/l/likeinterface/1.1.0.1a0-1.1a0/diff.md --exclude *.pyd
+[2023-08-07 01:36:06] INFO root fetch - processPackages [llm-strategy]: Downloading https://files.pythonhosted.org/packages/fa/b6/b5fd90a5a0969e53303e37498f2e4fab05462e12207e93206f5722f10eb4/llm_strategy-1.1.0.tar.gz
+[2023-08-07 01:36:06] INFO root fetch - processPackages [llm-strategy]: executing diffoscope
+[2023-08-07 01:36:06] INFO root fetch - processPackages [llm-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_strategy-1.0.0.tar.gz tmp/llm_strategy-1.1.0.tar.gz --markdown 20230807/l/llm-strategy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 01:36:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-07 01:36:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-07 01:36:06] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-07 01:36:07] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.1.0.1a0.tar.gz]
+[2023-08-07 01:36:07] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.1a0.tar.gz]
+[2023-08-07 01:36:07] INFO root fetch - main [MainThread]: End processing [likeinterface]: success
+[2023-08-07 01:36:07] INFO root fetch - processPackages [llm-strategy]: Remove: archive file [/home/abi/fetcher/tmp/llm_strategy-1.0.0.tar.gz]
+[2023-08-07 01:36:07] INFO root fetch - processPackages [llm-strategy]: Remove: archive file [/home/abi/fetcher/tmp/llm_strategy-1.1.0.tar.gz]
+[2023-08-07 01:36:07] INFO root fetch - main [MainThread]: End processing [llm-strategy]: success
+[2023-08-07 01:36:07] INFO root fetch - main [MainThread]: Store serial: [19198016]
