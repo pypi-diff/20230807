@@ -546,3 +546,50 @@
 [2023-08-07 00:54:12] INFO root fetch - processPackages [celery-types]: Remove: archive file [/home/abi/fetcher/tmp/celery-types-0.9.3.tar.gz]
 [2023-08-07 00:54:12] INFO root fetch - main [MainThread]: End processing [celery-types]: success
 [2023-08-07 00:54:12] INFO root fetch - main [MainThread]: Store serial: [19197771]
+[2023-08-07 00:59:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197771]
+[2023-08-07 00:59:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvfp
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canned-views
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappadata
+[2023-08-07 00:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sofia-redux
+[2023-08-07 00:59:21] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 00:59:21] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-08-07 00:59:21] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-07 00:59:21] WARNING root fetch - processPackages [pyvfp]: Skipping, unable to determine old version
+[2023-08-07 00:59:21] INFO root fetch - main [MainThread]: End processing [pyvfp] error
+[2023-08-07 00:59:21] INFO root fetch - processPackages [canned-views]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 00:59:21] INFO root fetch - processPackages [sofia-redux]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-07 00:59:21] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [canned-views]: Downloading https://files.pythonhosted.org/packages/34/52/105a580ae806c42ae8b8db52292b505362ffc3649e086b6e50864f54b2d6/canned-views-0.1.7.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [sofia-redux]: Downloading https://files.pythonhosted.org/packages/e5/fe/1d1a1523d1abbaf078560f4578cb5fb649d2c0bbdbb6c9c77e0e4f40a042/sofia_redux-1.3.2.tar.gz
+[2023-08-07 00:59:21] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-07 00:59:21] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230807/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 00:59:21] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-08-07 00:59:21] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230807/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-08-07 00:59:21] WARNING root fetch - processPackages [sofia-redux]: Skipping package: exceeds size limit 57940570>=10485760
+[2023-08-07 00:59:21] INFO root fetch - main [MainThread]: End processing [sofia-redux] error
+[2023-08-07 00:59:22] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-07 00:59:22] INFO root fetch - processPackages [canned-views]: Downloading https://files.pythonhosted.org/packages/b8/bd/cf262cc24a0ce4e11fa0a8f2e49b8e7938732ca29800f973b1116268206b/canned-views-0.1.8.tar.gz
+[2023-08-07 00:59:22] INFO root fetch - processPackages [canned-views]: executing diffoscope
+[2023-08-07 00:59:22] INFO root fetch - processPackages [canned-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canned-views-0.1.7.tar.gz tmp/canned-views-0.1.8.tar.gz --markdown 20230807/c/canned-views/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 00:59:22] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-07 00:59:22] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230807/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 00:59:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-08-07 00:59:23] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-07 00:59:23] INFO root fetch - processPackages [canned-views]: Remove: archive file [/home/abi/fetcher/tmp/canned-views-0.1.7.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - processPackages [canned-views]: Remove: archive file [/home/abi/fetcher/tmp/canned-views-0.1.8.tar.gz]
+[2023-08-07 00:59:23] INFO root fetch - main [MainThread]: End processing [canned-views]: success
+[2023-08-07 00:59:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-07 00:59:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-07 00:59:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-07 00:59:27] INFO root fetch - main [MainThread]: Store serial: [19197793]
