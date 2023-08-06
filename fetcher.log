@@ -748,3 +748,85 @@
 [2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
 [2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
 [2023-08-07 01:10:03] INFO root fetch - main [MainThread]: Store serial: [19197847]
+[2023-08-07 01:15:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197847]
+[2023-08-07 01:15:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-unity
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-api-dyna
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydeck-grid
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wixcf
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-unity
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beamer-slider
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: warp-attention
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CoolProp
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:15:12] WARNING root fetch - processPackages [warp-attention]: Skipping, unable to determine old version
+[2023-08-07 01:15:12] INFO root fetch - processPackages [warp-attention]: Start processing: flask-unity
+[2023-08-07 01:15:12] INFO root fetch - main [MainThread]: End processing [warp-attention] error
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ansys-api-dyna]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [pydeck-grid]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-07 01:15:12] WARNING root fetch - processPackages [wixcf]: Skipping, unable to determine old version
+[2023-08-07 01:15:12] INFO root fetch - main [MainThread]: End processing [wixcf] error
+[2023-08-07 01:15:12] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:15:12] INFO root fetch - processPackages [beamer-slider]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:15:12] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-07 01:15:12] INFO root fetch - processPackages [CoolProp]: New version: [6.5.0] Old Version: [6.4.3.post1]
+[2023-08-07 01:15:12] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:15:12] INFO root fetch - processPackages [ansys-api-dyna]: Downloading https://files.pythonhosted.org/packages/bd/fa/7e452e881df4bd9140b6f978a3c8d2e1d69bd7079fcfba595e574ff89851/ansys-api-dyna-0.2.0.tar.gz
+[2023-08-07 01:15:12] INFO root fetch - processPackages [pydeck-grid]: Downloading https://files.pythonhosted.org/packages/3a/67/ad3c8b1eda326033525e2af6aedf63be2d31655d2fbf11a56258779f2b06/pydeck-grid-0.3.2.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:15:13] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [CoolProp]: Downloading https://files.pythonhosted.org/packages/2d/ac/28af2e83e56fd72ae1e06b9b660e44858634067ee147d9e99cf6dcafdbc3/CoolProp-6.4.3.post1-cp39-cp39-win_amd64.whl
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:15:13] WARNING root fetch - processPackages [pydeck-grid]: Skipping package: exceeds size limit 12172569>=10485760
+[2023-08-07 01:15:13] INFO root fetch - main [MainThread]: End processing [pydeck-grid] error
+[2023-08-07 01:15:13] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/d9/59/f1d14eb325bf3f6806b470fd808c364522b711906ba00ad8fc0ed716c75f/beamer-slider-0.1.8.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230807/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8.tar.gz --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8.tar.gz --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8.tar.gz --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [ansys-api-dyna]: Downloading https://files.pythonhosted.org/packages/97/70/d1897ab22544cbc60c70ab04bee89f4319be6dbc43804a453654e748a66e/ansys-api-dyna-0.3.0.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [CoolProp]: Downloading https://files.pythonhosted.org/packages/32/69/a58bef4048581d83c9d9482b872b5cc9ee0c1e1c39aa3015443f566244b8/CoolProp-6.5.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-07 01:15:13] INFO root fetch - processPackages [ansys-api-dyna]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [ansys-api-dyna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-dyna-0.2.0.tar.gz tmp/ansys-api-dyna-0.3.0.tar.gz --markdown 20230807/a/ansys-api-dyna/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230807/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 01:15:13] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/93/ae/5cacf262cb7248d6b7f0bf540e58f1cc53b607cdac5b59bfe74501a4bed4/beamer-slider-0.1.9.tar.gz
+[2023-08-07 01:15:13] INFO root fetch - processPackages [beamer-slider]: executing diffoscope
+[2023-08-07 01:15:13] INFO root fetch - processPackages [beamer-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamer-slider-0.1.8.tar.gz tmp/beamer-slider-0.1.9.tar.gz --markdown 20230807/b/beamer-slider/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 01:15:14] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.7.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.8.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:15:14] INFO root fetch - processPackages [ansys-api-dyna]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-dyna-0.2.0.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - processPackages [ansys-api-dyna]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-dyna-0.3.0.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [ansys-api-dyna]: success
+[2023-08-07 01:15:14] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-08-07 01:15:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-07 01:15:14] INFO root fetch - processPackages [beamer-slider]: Remove: archive file [/home/abi/fetcher/tmp/beamer-slider-0.1.8.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - processPackages [beamer-slider]: Remove: archive file [/home/abi/fetcher/tmp/beamer-slider-0.1.9.tar.gz]
+[2023-08-07 01:15:14] INFO root fetch - main [MainThread]: End processing [beamer-slider]: success
+[2023-08-07 01:15:18] INFO root fetch - processPackages [CoolProp]: executing diffoscope
+[2023-08-07 01:15:18] INFO root fetch - processPackages [CoolProp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoolProp-6.4.3.post1-cp39-cp39-win_amd64.whl.zip tmp/CoolProp-6.5.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230807/C/CoolProp/6.4.3.post1-6.5.0/diff.md --exclude *.pyd
+[2023-08-07 01:15:20] INFO root fetch - processPackages [CoolProp]: Remove: archive file [/home/abi/fetcher/tmp/CoolProp-6.4.3.post1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 01:15:20] INFO root fetch - processPackages [CoolProp]: Remove: archive file [/home/abi/fetcher/tmp/CoolProp-6.5.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-07 01:15:20] INFO root fetch - main [MainThread]: End processing [CoolProp]: success
+[2023-08-07 01:15:20] INFO root fetch - main [MainThread]: Store serial: [19197918]

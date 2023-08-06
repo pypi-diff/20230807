@@ -1,4 +1,4 @@
-# Comparing `tmp/flask_unity-0.0.7.tar.gz` & `tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip`
+# Comparing `tmp/flask_unity-0.0.7.tar.gz` & `tmp/flask_unity-0.0.8.tar.gz`
 
 ## filetype from file(1)
 
