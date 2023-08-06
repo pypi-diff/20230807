@@ -254,3 +254,66 @@
 [2023-08-07 00:22:31] INFO root fetch - processPackages [harmony-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/harmony_toolbox-1.2.2.tar.gz]
 [2023-08-07 00:22:31] INFO root fetch - main [MainThread]: End processing [harmony-toolbox]: success
 [2023-08-07 00:22:31] INFO root fetch - main [MainThread]: Store serial: [19197645]
+[2023-08-07 00:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197645]
+[2023-08-07 00:27:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastq-dl
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtlib
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easymix
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inspect-mate-pp
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-ml
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: formal-sdk
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litenai
+[2023-08-07 00:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wodoo
+[2023-08-07 00:27:40] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 00:27:40] INFO root fetch - processPackages [tensorflow-ml]: New version: [1.1] Old Version: [1.0.4]
+[2023-08-07 00:27:40] WARNING root fetch - processPackages [inspect-mate-pp]: Skipping, unable to determine old version
+[2023-08-07 00:27:40] INFO root fetch - main [MainThread]: End processing [inspect-mate-pp] error
+[2023-08-07 00:27:40] WARNING root fetch - processPackages [easymix]: Skipping, unable to determine old version
+[2023-08-07 00:27:40] INFO root fetch - main [MainThread]: End processing [easymix] error
+[2023-08-07 00:27:40] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 00:27:40] INFO root fetch - processPackages [fastq-dl]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-07 00:27:40] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/63/e5/4174dade7d68b8c759be9aae062dc97e8c4fb35a24494bf861548081ebd5/tensorflow-ml-1.0.4.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [formal-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-07 00:27:40] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-08-07 00:27:40] INFO root fetch - processPackages [xtlib]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-08-07 00:27:40] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [fastq-dl]: Downloading https://files.pythonhosted.org/packages/3e/b2/42cd6c01c1c4c8e12eaf0c52b57aa7b188bc38f03da12e8b95dee233675d/fastq_dl-2.0.2.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/33/77/79460f1efd224b56f47fe48c7fb07060620557051c8e900acc293cfc2abb/formal-sdk-1.0.5.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/ef/88/6f35605035024352f94de86919c8fb01a5172145653a1f3dd1f7638fe591/xtlib-1.0.0rc1.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-08-07 00:27:40] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/ff/89/915e086064e0972bee6e17a86f6b0052ea05bcd48a5e021ab33b76d0f113/tensorflow-ml-1.1.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-07 00:27:40] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-08-07 00:27:40] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230807/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 00:27:40] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-07 00:27:40] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230807/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 00:27:40] INFO root fetch - processPackages [tensorflow-ml]: executing diffoscope
+[2023-08-07 00:27:40] INFO root fetch - processPackages [tensorflow-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-ml-1.0.4.tar.gz tmp/tensorflow-ml-1.1.tar.gz --markdown 20230807/t/tensorflow-ml/1.0.4-1.1/diff.md --exclude *.pyd
+[2023-08-07 00:27:41] INFO root fetch - processPackages [fastq-dl]: Downloading https://files.pythonhosted.org/packages/1d/02/e589bd29da49c3f04ad38f968ee5b67c9a9f5439bfbda7b94664d8df6ebb/fastq_dl-2.0.3.tar.gz
+[2023-08-07 00:27:41] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/3f/49/cee254591016189e3481548e7eca5d42d671de181e422f1f7f29b1dd5983/formal-sdk-1.0.6.tar.gz
+[2023-08-07 00:27:41] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/a0/01/df0f30261ee9fe10bb00ddc29344ae6aa0d8582eb47a23769c06bc782080/xtlib-1.0.0rc2.tar.gz
+[2023-08-07 00:27:41] INFO root fetch - processPackages [fastq-dl]: executing diffoscope
+[2023-08-07 00:27:41] INFO root fetch - processPackages [fastq-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq_dl-2.0.2.tar.gz tmp/fastq_dl-2.0.3.tar.gz --markdown 20230807/f/fastq-dl/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-07 00:27:41] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-08-07 00:27:41] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-1.0.5.tar.gz tmp/formal-sdk-1.0.6.tar.gz --markdown 20230807/f/formal-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-07 00:27:41] INFO root fetch - processPackages [xtlib]: executing diffoscope
+[2023-08-07 00:27:41] INFO root fetch - processPackages [xtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlib-1.0.0rc1.tar.gz tmp/xtlib-1.0.0rc2.tar.gz --markdown 20230807/x/xtlib/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-08-07 00:27:41] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.0.4.tar.gz]
+[2023-08-07 00:27:41] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.1.tar.gz]
+[2023-08-07 00:27:41] INFO root fetch - main [MainThread]: End processing [tensorflow-ml]: success
+[2023-08-07 00:27:41] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-08-07 00:27:41] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-08-07 00:27:41] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-08-07 00:27:42] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-07 00:27:42] INFO root fetch - processPackages [fastq-dl]: Remove: archive file [/home/abi/fetcher/tmp/fastq_dl-2.0.2.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - processPackages [fastq-dl]: Remove: archive file [/home/abi/fetcher/tmp/fastq_dl-2.0.3.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - main [MainThread]: End processing [fastq-dl]: success
+[2023-08-07 00:27:42] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc1.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc2.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - main [MainThread]: End processing [xtlib]: success
+[2023-08-07 00:27:42] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.5.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.6.tar.gz]
+[2023-08-07 00:27:42] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-08-07 00:27:42] INFO root fetch - main [MainThread]: Store serial: [19197676]
