@@ -949,3 +949,42 @@
 [2023-08-07 01:25:42] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-08-07 01:25:42] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-08-07 01:25:42] INFO root fetch - main [MainThread]: Store serial: [19197983]
+[2023-08-07 01:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197983]
+[2023-08-07 01:30:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-07 01:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-08-07 01:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyasic
+[2023-08-07 01:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiveviewer
+[2023-08-07 01:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-08-07 01:30:51] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiveviewer]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-07 01:30:51] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-07 01:30:51] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/a6/b7/f8bd33eff0e57dc0e80c81aa5650394e5df7fb4d6df64d441db4fca8f8a7/hiveviewer-0.2.4.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-07 01:30:51] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230807/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiveviewer]: Downloading https://files.pythonhosted.org/packages/ac/a6/80f25d12c0a72d241ae4123f0c5486759ca63c9b0994a03343e4e0f687a2/hiveviewer-0.2.5.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiveviewer]: executing diffoscope
+[2023-08-07 01:30:51] INFO root fetch - processPackages [hiveviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiveviewer-0.2.4.tar.gz tmp/hiveviewer-0.2.5.tar.gz --markdown 20230807/h/hiveviewer/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-07 01:30:51] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-08-07 01:30:51] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230807/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-07 01:30:52] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-07 01:30:52] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230807/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 01:30:52] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-07 01:30:52] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-07 01:30:52] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-07 01:30:52] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.4.tar.gz]
+[2023-08-07 01:30:52] INFO root fetch - processPackages [hiveviewer]: Remove: archive file [/home/abi/fetcher/tmp/hiveviewer-0.2.5.tar.gz]
+[2023-08-07 01:30:52] INFO root fetch - main [MainThread]: End processing [hiveviewer]: success
+[2023-08-07 01:30:52] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-08-07 01:30:52] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-08-07 01:30:52] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-08-07 01:30:56] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-07 01:30:56] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-07 01:30:56] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-07 01:30:56] INFO root fetch - main [MainThread]: Store serial: [19198004]
