@@ -416,3 +416,61 @@
 [2023-08-07 00:38:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.3.tar.gz]
 [2023-08-07 00:38:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-07 00:38:40] INFO root fetch - main [MainThread]: Store serial: [19197722]
+[2023-08-07 00:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197722]
+[2023-08-07 00:43:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kappadata
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chempotpy
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-ml
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysqlitepkgV2
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composipy
+[2023-08-07 00:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-08-07 00:43:48] INFO root fetch - processPackages [tensorflow-ml]: New version: [1.1.1] Old Version: [1.1]
+[2023-08-07 00:43:49] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 00:43:49] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/ff/89/915e086064e0972bee6e17a86f6b0052ea05bcd48a5e021ab33b76d0f113/tensorflow-ml-1.1.tar.gz
+[2023-08-07 00:43:49] ERROR root fetch - processPackages [chempotpy]: Unable to get metadata: No such project 'chempotpy'
+[2023-08-07 00:43:49] INFO root fetch - processPackages [pysqlitepkgV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 00:43:49] INFO root fetch - main [MainThread]: End processing [chempotpy] error
+[2023-08-07 00:43:49] INFO root fetch - processPackages [composipy]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-07 00:43:49] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [pysqlitepkgV2]: Downloading https://files.pythonhosted.org/packages/4c/f3/b21879ed7deb895b474542996cd050b3c4e7220fef480ee67a0e7d0f9f7a/pysqlitepkgV2-1.0.0.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-07 00:43:49] INFO root fetch - processPackages [composipy]: Downloading https://files.pythonhosted.org/packages/8d/32/119b0fab73d2f90b15bb5d55f9756b48b3951897954f5a6e401ef1091638/composipy-1.0.2.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/64/0d/2fde8dd39e7c980ca5cdbbbc85c1613d7c7f81d579f7a3a9481eb526fe0e/tensorflow-ml-1.1.1.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [tensorflow-ml]: executing diffoscope
+[2023-08-07 00:43:49] INFO root fetch - processPackages [tensorflow-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-ml-1.1.tar.gz tmp/tensorflow-ml-1.1.1.tar.gz --markdown 20230807/t/tensorflow-ml/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 00:43:49] INFO root fetch - processPackages [pysqlitepkgV2]: Downloading https://files.pythonhosted.org/packages/9a/83/71728aacb5cb4ce48d148d370dea7608806dcebcd74946dcc274a77bf38e/pysqlitepkgV2-1.1.0.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-07 00:43:49] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [composipy]: Downloading https://files.pythonhosted.org/packages/44/b3/0dfbfc84efe290c87eb293b96586917cbf80d85480e34c144f7cafbd5039/composipy-1.1.0.tar.gz
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230807/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-07 00:43:49] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230807/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-07 00:43:49] INFO root fetch - processPackages [pysqlitepkgV2]: executing diffoscope
+[2023-08-07 00:43:49] INFO root fetch - processPackages [pysqlitepkgV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlitepkgV2-1.0.0.tar.gz tmp/pysqlitepkgV2-1.1.0.tar.gz --markdown 20230807/p/pysqlitepkgV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:43:49] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-07 00:43:49] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230807/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 00:43:50] INFO root fetch - processPackages [composipy]: executing diffoscope
+[2023-08-07 00:43:50] INFO root fetch - processPackages [composipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composipy-1.0.2.tar.gz tmp/composipy-1.1.0.tar.gz --markdown 20230807/c/composipy/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:43:50] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.1.tar.gz]
+[2023-08-07 00:43:50] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.1.1.tar.gz]
+[2023-08-07 00:43:50] INFO root fetch - main [MainThread]: End processing [tensorflow-ml]: success
+[2023-08-07 00:43:50] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-07 00:43:50] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-07 00:43:50] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-07 00:43:50] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-07 00:43:50] INFO root fetch - processPackages [pysqlitepkgV2]: Remove: archive file [/home/abi/fetcher/tmp/pysqlitepkgV2-1.0.0.tar.gz]
+[2023-08-07 00:43:50] INFO root fetch - processPackages [pysqlitepkgV2]: Remove: archive file [/home/abi/fetcher/tmp/pysqlitepkgV2-1.1.0.tar.gz]
+[2023-08-07 00:43:50] INFO root fetch - main [MainThread]: End processing [pysqlitepkgV2]: success
+[2023-08-07 00:43:51] INFO root fetch - processPackages [composipy]: Remove: archive file [/home/abi/fetcher/tmp/composipy-1.0.2.tar.gz]
+[2023-08-07 00:43:51] INFO root fetch - processPackages [composipy]: Remove: archive file [/home/abi/fetcher/tmp/composipy-1.1.0.tar.gz]
+[2023-08-07 00:43:51] INFO root fetch - main [MainThread]: End processing [composipy]: success
+[2023-08-07 00:43:51] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-07 00:43:51] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-07 00:43:51] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-07 00:43:51] INFO root fetch - main [MainThread]: Store serial: [19197741]
