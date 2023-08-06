@@ -1132,3 +1132,20 @@
 [2023-08-07 01:52:44] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.1-py3-none-any.whl.zip]
 [2023-08-07 01:52:44] INFO root fetch - main [MainThread]: End processing [metafid-data]: success
 [2023-08-07 01:52:44] INFO root fetch - main [MainThread]: Store serial: [19198065]
+[2023-08-07 01:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198065]
+[2023-08-07 01:57:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-07 01:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satcfdi
+[2023-08-07 01:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openplugincore
+[2023-08-07 01:57:53] INFO root fetch - processPackages [openplugincore]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-07 01:57:53] INFO root fetch - processPackages [satcfdi]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-08-07 01:57:53] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/55/ad/9a4c18e404753aad9740b8887e1296821fbd3587bd0cd57954bfb2376aa0/openplugincore-0.6.1.tar.gz
+[2023-08-07 01:57:53] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/f2/c5/869a9d5450bc938a08e32f3c60cd547e38de8cc74e3f4a524cb6a3880c74/satcfdi-4.1.4.tar.gz
+[2023-08-07 01:57:53] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10615313>=10485760
+[2023-08-07 01:57:53] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2023-08-07 01:57:53] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/ad/6f/4e2e82e3ab0042df1236b1061a60afd3663565ab5b371fb56d1424c57b6b/openplugincore-0.6.2.tar.gz
+[2023-08-07 01:57:54] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-08-07 01:57:54] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.6.1.tar.gz tmp/openplugincore-0.6.2.tar.gz --markdown 20230807/o/openplugincore/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-07 01:57:54] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.6.1.tar.gz]
+[2023-08-07 01:57:54] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.6.2.tar.gz]
+[2023-08-07 01:57:54] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-08-07 01:57:54] INFO root fetch - main [MainThread]: Store serial: [19198071]
