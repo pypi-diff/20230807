@@ -40,3 +40,48 @@
 [2023-08-07 00:01:44] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.2.0.tar.gz]
 [2023-08-07 00:01:44] INFO root fetch - main [MainThread]: End processing [evennia]: success
 [2023-08-07 00:01:44] INFO root fetch - main [MainThread]: Store serial: [19197545]
+[2023-08-07 00:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197545]
+[2023-08-07 00:06:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hezar
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: project-arrakis
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxavi
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superpathlib
+[2023-08-07 00:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnvisionRiskRaaS
+[2023-08-07 00:06:52] INFO root fetch - processPackages [hezar]: New version: [0.21.0] Old Version: [0.20.1]
+[2023-08-07 00:06:52] WARNING root fetch - processPackages [pyxavi]: Skipping, unable to determine old version
+[2023-08-07 00:06:52] INFO root fetch - main [MainThread]: End processing [pyxavi] error
+[2023-08-07 00:06:52] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.272] Old Version: [0.0.271]
+[2023-08-07 00:06:52] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d2/17/6dd321aa26c7d4f8696464199f28ade175d25da4fac152e1031400620101/hezar-0.20.1.tar.gz
+[2023-08-07 00:06:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-07 00:06:52] INFO root fetch - processPackages [superpathlib]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-08-07 00:06:52] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a0/8a/69aeabfedeb9b81fe7dff4bb5d4b7c9de7523844b626b5b999a28d350ec7/open_interpreter-0.0.271.tar.gz
+[2023-08-07 00:06:52] WARNING root fetch - processPackages [project-arrakis]: Skipping, unable to determine old version
+[2023-08-07 00:06:52] INFO root fetch - main [MainThread]: End processing [project-arrakis] error
+[2023-08-07 00:06:53] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/e6/56/fb23e570afd4f2b263d88cb4bad5dcf45ff846c748244f3c2c0d5a01a911/hezar-0.21.0.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/61/dd/e0c4afb1620c4a2abfa009a572ada6562c00ffbd02f420ee77951f9cdb63/envisionriskraas-1.1.6.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/30/1b/6867d8eecabbae547eea1948b85f2df05c4e3c8ca0d77a76182f0b9cc1bd/superpathlib-1.0.4.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/dd/42/7944e5d0c790283717e63fe23ea1a2741b333d4f9b2adb1598a2988093aa/open_interpreter-0.0.272.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-07 00:06:53] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.20.1.tar.gz tmp/hezar-0.21.0.tar.gz --markdown 20230807/h/hezar/0.20.1-0.21.0/diff.md --exclude *.pyd
+[2023-08-07 00:06:53] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-07 00:06:53] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.271.tar.gz tmp/open_interpreter-0.0.272.tar.gz --markdown 20230807/o/open-interpreter/0.0.271-0.0.272/diff.md --exclude *.pyd
+[2023-08-07 00:06:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/b1/09/7fbb591180913966f7722e81f13662a3ec65fe3deadac7983b5ce29f80cd/envisionriskraas-1.1.7.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/31/ef/58609caba343cc55d39c770614ba4d346e599092448d26bdd520d5b651bd/superpathlib-1.1.0.tar.gz
+[2023-08-07 00:06:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-08-07 00:06:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.1.6.tar.gz tmp/envisionriskraas-1.1.7.tar.gz --markdown 20230807/E/EnvisionRiskRaaS/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-07 00:06:53] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-08-07 00:06:53] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.0.4.tar.gz tmp/superpathlib-1.1.0.tar.gz --markdown 20230807/s/superpathlib/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:06:54] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.271.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.272.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-07 00:06:54] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.4.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.1.0.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-08-07 00:06:54] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.20.1.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.0.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-07 00:06:54] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.1.6.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.1.7.tar.gz]
+[2023-08-07 00:06:54] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-08-07 00:06:54] INFO root fetch - main [MainThread]: Store serial: [19197567]
