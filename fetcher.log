@@ -173,3 +173,42 @@
 [2023-08-07 00:12:06] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
 [2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
 [2023-08-07 00:12:06] INFO root fetch - main [MainThread]: Store serial: [19197604]
+[2023-08-07 00:17:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197604]
+[2023-08-07 00:17:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poochpunt
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-word-numpy
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vios
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytetrade-recommend-model-sdk
+[2023-08-07 00:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: okn-py-updater
+[2023-08-07 00:17:14] WARNING root fetch - processPackages [random-word-numpy]: Skipping, unable to determine old version
+[2023-08-07 00:17:14] INFO root fetch - main [MainThread]: End processing [random-word-numpy] error
+[2023-08-07 00:17:14] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-07 00:17:14] WARNING root fetch - processPackages [poochpunt]: Skipping, unable to determine old version
+[2023-08-07 00:17:14] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.1.0] Old Version: [0.0.30]
+[2023-08-07 00:17:14] INFO root fetch - main [MainThread]: End processing [poochpunt] error
+[2023-08-07 00:17:14] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-07 00:17:14] INFO root fetch - processPackages [vios]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 00:17:14] WARNING root fetch - processPackages [okn-py-updater]: Skipping, unable to determine old version
+[2023-08-07 00:17:14] INFO root fetch - main [MainThread]: End processing [okn-py-updater] error
+[2023-08-07 00:17:14] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/db/ee/85138adf060a5c318979c9f1f0125b4aa257ef65db3c1f4265f8d689e5a3/vios-1.0.8-py3-none-any.whl
+[2023-08-07 00:17:14] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/44/4e/cc4083755a5a9d2a696710e6f5175844b40d8e6fb2d2be6cfb655ad9355a/bytetrade-recommend-model-sdk-0.0.30.tar.gz
+[2023-08-07 00:17:15] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/75/f9/f8b1fff3cf56f0edf95e7bddcb03741bdf4b2741c1d4be69bfa578e9add9/vios-1.0.9-py3-none-any.whl
+[2023-08-07 00:17:15] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/ce/1b/bdfedce820e2e5853650efc677de19f91b04eace471acd889c494bce98d3/bytetrade-recommend-model-sdk-0.1.0.tar.gz
+[2023-08-07 00:17:15] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-07 00:17:15] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-08-07 00:17:15] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-1.0.8-py3-none-any.whl.zip tmp/vios-1.0.9-py3-none-any.whl.zip --markdown 20230807/v/vios/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 00:17:15] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-08-07 00:17:15] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.30.tar.gz tmp/bytetrade-recommend-model-sdk-0.1.0.tar.gz --markdown 20230807/b/bytetrade-recommend-model-sdk/0.0.30-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:17:16] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-07 00:17:16] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230807/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 00:17:16] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.8-py3-none-any.whl.zip]
+[2023-08-07 00:17:16] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.9-py3-none-any.whl.zip]
+[2023-08-07 00:17:16] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-08-07 00:17:16] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.30.tar.gz]
+[2023-08-07 00:17:16] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.1.0.tar.gz]
+[2023-08-07 00:17:16] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-08-07 00:17:20] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-07 00:17:20] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-07 00:17:20] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-07 00:17:20] INFO root fetch - main [MainThread]: Store serial: [19197628]
