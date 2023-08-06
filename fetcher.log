@@ -687,3 +687,64 @@
 [2023-08-07 01:04:51] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
 [2023-08-07 01:04:51] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-08-07 01:04:51] INFO root fetch - main [MainThread]: Store serial: [19197824]
+[2023-08-07 01:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197824]
+[2023-08-07 01:10:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-unity
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvfp
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webchain
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-xmodules
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-unity
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-unity
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvfp
+[2023-08-07 01:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-unity
+[2023-08-07 01:10:00] INFO root fetch - processPackages [pyvfp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 01:10:00] INFO root fetch - processPackages [pyvfp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 01:10:00] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:10:00] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:10:00] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:10:00] INFO root fetch - processPackages [flask-unity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 01:10:01] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 01:10:01] WARNING root fetch - processPackages [webchain]: Skipping, unable to determine old version
+[2023-08-07 01:10:01] INFO root fetch - main [MainThread]: End processing [webchain] error
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: Downloading https://files.pythonhosted.org/packages/a8/7e/0bdf59dcb20cc13ced09af15707ddd2c616a70b14ff8e64a686b33a29da3/pyvfp-0.1.1.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: Downloading https://files.pythonhosted.org/packages/a8/7e/0bdf59dcb20cc13ced09af15707ddd2c616a70b14ff8e64a686b33a29da3/pyvfp-0.1.1.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/82/b5/13419fb6a4d39b03990d68aabc2ec528c8224f99634d3c4b68f4535cd16a/flask_unity-0.0.7.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: Downloading https://files.pythonhosted.org/packages/cb/eb/29999ca33b8f3db03b19cf5fdd960863e57dc704f1c20435a89d47fc0595/pyvfp-0.1.2-py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: Downloading https://files.pythonhosted.org/packages/cb/eb/29999ca33b8f3db03b19cf5fdd960863e57dc704f1c20435a89d47fc0595/pyvfp-0.1.2-py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/42/d4/663a41da6c7e9983dcf5b74dce0223aa75d719104cc95e3d7d7c35546c29/flask_unity-0.0.8-py2.py3-none-any.whl
+[2023-08-07 01:10:01] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230807/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvfp-0.1.1.tar.gz tmp/pyvfp-0.1.2-py3-none-any.whl.zip --markdown 20230807/p/pyvfp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [pyvfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvfp-0.1.1.tar.gz tmp/pyvfp-0.1.2-py3-none-any.whl.zip --markdown 20230807/p/pyvfp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:10:01] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.7.tar.gz tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 01:10:03] INFO root fetch - processPackages [pyvfp]: Remove: archive file [/home/abi/fetcher/tmp/pyvfp-0.1.1.tar.gz]
+[2023-08-07 01:10:03] INFO root fetch - processPackages [pyvfp]: Remove: archive file [/home/abi/fetcher/tmp/pyvfp-0.1.2-py3-none-any.whl.zip]
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [pyvfp]: success
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [pyvfp]: success
+[2023-08-07 01:10:03] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.7.tar.gz]
+[2023-08-07 01:10:03] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.8-py2.py3-none-any.whl.zip]
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:10:03] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-08-07 01:10:03] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:10:03] INFO root fetch - main [MainThread]: Store serial: [19197847]
