@@ -593,3 +593,97 @@
 [2023-08-07 00:59:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-07 00:59:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-07 00:59:27] INFO root fetch - main [MainThread]: Store serial: [19197793]
+[2023-08-07 01:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197793]
+[2023-08-07 01:04:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant-frontend
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phxsocket
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-unity
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_core
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intecomm-edc
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: warp-attention
+[2023-08-07 01:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: useq-schema
+[2023-08-07 01:04:35] INFO root fetch - processPackages [useq-schema]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-07 01:04:35] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230805] Old Version: [0.7.0b20230804]
+[2023-08-07 01:04:35] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-07 01:04:35] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230805] Old Version: [0.7.0b20230804]
+[2023-08-07 01:04:35] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 01:04:35] INFO root fetch - processPackages [flask-unity]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 01:04:35] WARNING root fetch - processPackages [warp-attention]: Skipping, unable to determine old version
+[2023-08-07 01:04:35] INFO root fetch - processPackages [warp-attention]: Start processing: flask-unity
+[2023-08-07 01:04:35] INFO root fetch - main [MainThread]: End processing [warp-attention] error
+[2023-08-07 01:04:36] INFO root fetch - processPackages [phxsocket]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 01:04:36] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 01:04:36] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/94/e5/7029329b27aeb99ae1bfcc5b3524b8686c966659a63f9e3bd7139eb7f6e1/useq_schema-0.4.3.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d3/6b/0c97cdb7a93d96ba1abc603572691e30c31ffa6696d82473362d13908432/tmnt-cu101-0.7.0b20230804.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [flask-unity]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 01:04:36] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/e7/7f/fbd5ae948e719e87ff6ab72eed81cf2433cd7b662edf756018e2faf30228/tmnt-0.7.0b20230804.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/64/5c/d4501b48931f9c772bb2a376dd64683bc41f8917ca4cf22356c9d427ccb4/music-assistant-frontend-2.0.8.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/04/49/5effc875635ec2163a9b7ac909cb02022e1c1813f0d0cfd2514ad8165ef2/flask_unity-0.0.4.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/04/49/5effc875635ec2163a9b7ac909cb02022e1c1813f0d0cfd2514ad8165ef2/flask_unity-0.0.4.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [phxsocket]: Downloading https://files.pythonhosted.org/packages/c5/7f/4be9cf244b5a2340d04925cdae222285e57083e5b7432f2196bfc04df5c1/phxsocket-0.1.2.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/85/3a/55a7f36602126cda3aa0bfdfc7fecd0d274b0ff8df64d2e6673a815c40aa/useq_schema-0.4.4.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d9/9b/6675654e4a996c00366a54944ecaec93c5186276d723ca0a900548b57909/tmnt-cu101-0.7.0b20230805.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-08-07 01:04:36] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230807/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/af/7f/9a28ba8f637419a1d0a1ad4e3cd07df2469bfa6c6d27496b756f81ddd99e/tmnt-0.7.0b20230805.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [useq-schema]: executing diffoscope
+[2023-08-07 01:04:36] INFO root fetch - processPackages [useq-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useq_schema-0.4.3.tar.gz tmp/useq_schema-0.4.4.tar.gz --markdown 20230807/u/useq-schema/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-07 01:04:36] INFO root fetch - processPackages [phxsocket]: Downloading https://files.pythonhosted.org/packages/9d/18/b1c10f99fcc15573f025ec993381cd9be9efdf69ed25dbeac6f373a67885/phxsocket-0.1.3.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230804.tar.gz tmp/tmnt-cu101-0.7.0b20230805.tar.gz --markdown 20230807/t/tmnt-cu101/0.7.0b20230804-0.7.0b20230805/diff.md --exclude *.pyd
+[2023-08-07 01:04:36] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-07 01:04:36] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230804.tar.gz tmp/tmnt-0.7.0b20230805.tar.gz --markdown 20230807/t/tmnt/0.7.0b20230804-0.7.0b20230805/diff.md --exclude *.pyd
+[2023-08-07 01:04:36] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2023-08-07 01:04:36] INFO root fetch - processPackages [phxsocket]: executing diffoscope
+[2023-08-07 01:04:36] INFO root fetch - processPackages [phxsocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phxsocket-0.1.2.tar.gz tmp/phxsocket-0.1.3.tar.gz --markdown 20230807/p/phxsocket/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/6f/6a/9b021d603a034e6854e7524dd3d3a1985b41042e5426804265dcc0d1a7bc/flask_unity-0.0.5-py2.py3-none-any.whl
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/6f/6a/9b021d603a034e6854e7524dd3d3a1985b41042e5426804265dcc0d1a7bc/flask_unity-0.0.5-py2.py3-none-any.whl
+[2023-08-07 01:04:37] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/86/7e/47baf1682c9c96c82e5efb5d20dc440424c7db3327fed9be80f4369c7aa6/music-assistant-frontend-2.0.9.tar.gz
+[2023-08-07 01:04:37] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-07 01:04:37] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230807/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 01:04:37] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-08-07 01:04:37] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.8.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20230807/e/edc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-07 01:04:37] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-08-07 01:04:37] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.8.tar.gz tmp/music-assistant-frontend-2.0.9.tar.gz --markdown 20230807/m/music-assistant-frontend/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.4.tar.gz tmp/flask_unity-0.0.5-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 01:04:37] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.4.tar.gz tmp/flask_unity-0.0.5-py2.py3-none-any.whl.zip --markdown 20230807/f/flask-unity/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 01:04:38] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.3.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.4.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [useq-schema]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [phxsocket]: Remove: archive file [/home/abi/fetcher/tmp/phxsocket-0.1.2.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [phxsocket]: Remove: archive file [/home/abi/fetcher/tmp/phxsocket-0.1.3.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [phxsocket]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230804.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230805.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230804.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230805.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-08-07 01:04:38] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.4.tar.gz]
+[2023-08-07 01:04:38] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.5-py2.py3-none-any.whl.zip]
+[2023-08-07 01:04:38] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:04:39] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 01:04:40] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-07 01:04:40] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-07 01:04:40] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-07 01:04:51] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.8.tar.gz]
+[2023-08-07 01:04:51] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
+[2023-08-07 01:04:51] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-08-07 01:04:51] INFO root fetch - main [MainThread]: Store serial: [19197824]
