@@ -317,3 +317,33 @@
 [2023-08-07 00:27:42] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.6.tar.gz]
 [2023-08-07 00:27:42] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
 [2023-08-07 00:27:42] INFO root fetch - main [MainThread]: Store serial: [19197676]
+[2023-08-07 00:32:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197676]
+[2023-08-07 00:32:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 00:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricsoperator
+[2023-08-07 00:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FantasyNameGenerator
+[2023-08-07 00:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-08-07 00:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oloren
+[2023-08-07 00:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: random-word-numpy
+[2023-08-07 00:32:51] WARNING root fetch - processPackages [metricsoperator]: Skipping, unable to determine old version
+[2023-08-07 00:32:51] INFO root fetch - main [MainThread]: End processing [metricsoperator] error
+[2023-08-07 00:32:51] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-07 00:32:51] WARNING root fetch - processPackages [random-word-numpy]: Skipping, unable to determine old version
+[2023-08-07 00:32:51] INFO root fetch - main [MainThread]: End processing [random-word-numpy] error
+[2023-08-07 00:32:52] WARNING root fetch - processPackages [FantasyNameGenerator]: Skipping, unable to determine old version
+[2023-08-07 00:32:52] INFO root fetch - main [MainThread]: End processing [FantasyNameGenerator] error
+[2023-08-07 00:32:52] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-07 00:32:52] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 00:32:52] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-07 00:32:52] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-08-07 00:32:52] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-07 00:32:52] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230807/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-07 00:32:53] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-07 00:32:53] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-07 00:32:53] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-07 00:32:53] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-08-07 00:32:54] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-08-07 00:32:54] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230807/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 00:32:58] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-08-07 00:32:58] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-08-07 00:32:58] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-08-07 00:32:58] INFO root fetch - main [MainThread]: Store serial: [19197697]
