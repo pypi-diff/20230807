@@ -1075,3 +1075,33 @@
 [2023-08-07 01:41:22] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-07 01:41:22] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-07 01:41:22] INFO root fetch - main [MainThread]: Store serial: [19198034]
+[2023-08-07 01:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198034]
+[2023-08-07 01:46:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-07 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-08-07 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cargo-lambda
+[2023-08-07 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formal-sdk
+[2023-08-07 01:46:31] INFO root fetch - processPackages [formal-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-07 01:46:31] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230805] Old Version: [0.3.2.dev20230804]
+[2023-08-07 01:46:31] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/33/77/79460f1efd224b56f47fe48c7fb07060620557051c8e900acc293cfc2abb/formal-sdk-1.0.5.tar.gz
+[2023-08-07 01:46:31] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/20/29/bae3f35f63c47174ca39c78a2af6ac625baa773556284a3d8c24622905ca/skyplane_nightly-0.3.2.dev20230804.tar.gz
+[2023-08-07 01:46:31] INFO root fetch - processPackages [cargo-lambda]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-07 01:46:31] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/3f/49/cee254591016189e3481548e7eca5d42d671de181e422f1f7f29b1dd5983/formal-sdk-1.0.6.tar.gz
+[2023-08-07 01:46:31] INFO root fetch - processPackages [cargo-lambda]: Downloading https://files.pythonhosted.org/packages/de/6f/de700106a963b244008299c32f6339d4991a5148c8cd16cec9db723a50f5/cargo_lambda-0.8.3-py3-none-win_amd64.whl
+[2023-08-07 01:46:31] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-08-07 01:46:31] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-1.0.5.tar.gz tmp/formal-sdk-1.0.6.tar.gz --markdown 20230807/f/formal-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-07 01:46:31] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/31/41/8117f461f3a88cc974c13c5e8707b04714a21a0738dde6ac4ca316b55fc9/skyplane_nightly-0.3.2.dev20230805.tar.gz
+[2023-08-07 01:46:31] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-08-07 01:46:31] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230804.tar.gz tmp/skyplane_nightly-0.3.2.dev20230805.tar.gz --markdown 20230807/s/skyplane-nightly/0.3.2.dev20230804-0.3.2.dev20230805/diff.md --exclude *.pyd
+[2023-08-07 01:46:32] INFO root fetch - processPackages [cargo-lambda]: Downloading https://files.pythonhosted.org/packages/dc/c8/ac648132051a60e826bd95269e04382731351b8d7aca976817bb5b463767/cargo_lambda-0.9.0-py3-none-win_amd64.whl
+[2023-08-07 01:46:32] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.5.tar.gz]
+[2023-08-07 01:46:32] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.6.tar.gz]
+[2023-08-07 01:46:32] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-08-07 01:46:32] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230804.tar.gz]
+[2023-08-07 01:46:32] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230805.tar.gz]
+[2023-08-07 01:46:32] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-08-07 01:46:33] INFO root fetch - processPackages [cargo-lambda]: executing diffoscope
+[2023-08-07 01:46:33] INFO root fetch - processPackages [cargo-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_lambda-0.8.3-py3-none-win_amd64.whl.zip tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip --markdown 20230807/c/cargo-lambda/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 01:47:17] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.8.3-py3-none-win_amd64.whl.zip]
+[2023-08-07 01:47:17] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip]
+[2023-08-07 01:47:17] INFO root fetch - main [MainThread]: End processing [cargo-lambda]: success
+[2023-08-07 01:47:17] INFO root fetch - main [MainThread]: Store serial: [19198048]
