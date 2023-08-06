@@ -1105,3 +1105,30 @@
 [2023-08-07 01:47:17] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip]
 [2023-08-07 01:47:17] INFO root fetch - main [MainThread]: End processing [cargo-lambda]: success
 [2023-08-07 01:47:17] INFO root fetch - main [MainThread]: Store serial: [19198048]
+[2023-08-07 01:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198048]
+[2023-08-07 01:52:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-07 01:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metafid-data
+[2023-08-07 01:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nl2query
+[2023-08-07 01:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycromanager
+[2023-08-07 01:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: document-batcher
+[2023-08-07 01:52:43] WARNING root fetch - processPackages [nl2query]: Skipping, unable to determine old version
+[2023-08-07 01:52:43] INFO root fetch - main [MainThread]: End processing [nl2query] error
+[2023-08-07 01:52:43] WARNING root fetch - processPackages [document-batcher]: Skipping, unable to determine old version
+[2023-08-07 01:52:43] INFO root fetch - main [MainThread]: End processing [document-batcher] error
+[2023-08-07 01:52:43] INFO root fetch - processPackages [metafid-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 01:52:43] INFO root fetch - processPackages [pycromanager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 01:52:43] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/d6/d9/1ce85c91ef199b7d1708815ec30a2d301885401029eedbebca5beefd61a3/pycromanager-0.8.0.tar.gz
+[2023-08-07 01:52:43] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/ef/35/5992ab03f7af7f00a60af32ce09b654fa50576aea849945baf61dee1e25b/metafid_data-0.1.0-py3-none-any.whl
+[2023-08-07 01:52:43] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/e5/5d/188606415b768217f9830aa158f48062823ef69352eac8938f194b7b35d6/pycromanager-0.9.0.tar.gz
+[2023-08-07 01:52:43] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/ce/4e/0cf2d1493176673b64e7c19bd73d949e0ffb6543b3e26f7966228fec9f21/metafid_data-0.1.1-py3-none-any.whl
+[2023-08-07 01:52:43] INFO root fetch - processPackages [pycromanager]: executing diffoscope
+[2023-08-07 01:52:43] INFO root fetch - processPackages [pycromanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycromanager-0.8.0.tar.gz tmp/pycromanager-0.9.0.tar.gz --markdown 20230807/p/pycromanager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 01:52:44] INFO root fetch - processPackages [metafid-data]: executing diffoscope
+[2023-08-07 01:52:44] INFO root fetch - processPackages [metafid-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafid_data-0.1.0-py3-none-any.whl.zip tmp/metafid_data-0.1.1-py3-none-any.whl.zip --markdown 20230807/m/metafid-data/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 01:52:44] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.8.0.tar.gz]
+[2023-08-07 01:52:44] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.9.0.tar.gz]
+[2023-08-07 01:52:44] INFO root fetch - main [MainThread]: End processing [pycromanager]: success
+[2023-08-07 01:52:44] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.0-py3-none-any.whl.zip]
+[2023-08-07 01:52:44] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.1-py3-none-any.whl.zip]
+[2023-08-07 01:52:44] INFO root fetch - main [MainThread]: End processing [metafid-data]: success
+[2023-08-07 01:52:44] INFO root fetch - main [MainThread]: Store serial: [19198065]
