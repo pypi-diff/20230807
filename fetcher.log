@@ -506,3 +506,43 @@
 [2023-08-07 00:49:01] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.8.tar.gz]
 [2023-08-07 00:49:01] INFO root fetch - main [MainThread]: End processing [calfcv]: success
 [2023-08-07 00:49:01] INFO root fetch - main [MainThread]: Store serial: [19197756]
+[2023-08-07 00:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197756]
+[2023-08-07 00:54:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2023-08-07 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bactopia
+[2023-08-07 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudflare-gateway-adblocking
+[2023-08-07 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celery-types
+[2023-08-07 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wodoo
+[2023-08-07 00:54:10] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 00:54:10] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 00:54:10] WARNING root fetch - processPackages [cloudflare-gateway-adblocking]: Skipping, unable to determine old version
+[2023-08-07 00:54:10] INFO root fetch - main [MainThread]: End processing [cloudflare-gateway-adblocking] error
+[2023-08-07 00:54:10] INFO root fetch - processPackages [bactopia]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-07 00:54:10] INFO root fetch - processPackages [celery-types]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-07 00:54:10] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-07 00:54:10] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-07 00:54:10] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/7f/8f/4871934c1fcb1d15846e2d353dfd6077b6f3c5c6c23892c5450808cd175d/celery-types-0.9.2.tar.gz
+[2023-08-07 00:54:10] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-07 00:54:10] INFO root fetch - processPackages [bactopia]: Downloading https://files.pythonhosted.org/packages/05/5e/29eebcdd2d22ecf5de748bbaaf69b89517873e9108d7f96578731a20e377/bactopia-1.0.4.tar.gz
+[2023-08-07 00:54:11] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-07 00:54:11] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-07 00:54:11] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230807/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 00:54:11] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-07 00:54:11] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230807/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 00:54:11] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/03/3e/045d508416cfbaf5b23b0546854e86f8d3c5eb6b2fc28f2fee5c7fe4d215/celery-types-0.9.3.tar.gz
+[2023-08-07 00:54:11] INFO root fetch - processPackages [bactopia]: Downloading https://files.pythonhosted.org/packages/95/c6/713724603d399f47d0da7fb8edd35415a39c6f0a0e740e3b1cd3677f7c7a/bactopia-1.0.5.tar.gz
+[2023-08-07 00:54:11] INFO root fetch - processPackages [celery-types]: executing diffoscope
+[2023-08-07 00:54:11] INFO root fetch - processPackages [celery-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-types-0.9.2.tar.gz tmp/celery-types-0.9.3.tar.gz --markdown 20230807/c/celery-types/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-07 00:54:11] INFO root fetch - processPackages [bactopia]: executing diffoscope
+[2023-08-07 00:54:11] INFO root fetch - processPackages [bactopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bactopia-1.0.4.tar.gz tmp/bactopia-1.0.5.tar.gz --markdown 20230807/b/bactopia/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-07 00:54:12] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-07 00:54:12] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-07 00:54:12] INFO root fetch - processPackages [bactopia]: Remove: archive file [/home/abi/fetcher/tmp/bactopia-1.0.4.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - processPackages [bactopia]: Remove: archive file [/home/abi/fetcher/tmp/bactopia-1.0.5.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - main [MainThread]: End processing [bactopia]: success
+[2023-08-07 00:54:12] INFO root fetch - processPackages [celery-types]: Remove: archive file [/home/abi/fetcher/tmp/celery-types-0.9.2.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - processPackages [celery-types]: Remove: archive file [/home/abi/fetcher/tmp/celery-types-0.9.3.tar.gz]
+[2023-08-07 00:54:12] INFO root fetch - main [MainThread]: End processing [celery-types]: success
+[2023-08-07 00:54:12] INFO root fetch - main [MainThread]: Store serial: [19197771]
