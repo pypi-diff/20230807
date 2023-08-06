@@ -85,3 +85,91 @@
 [2023-08-07 00:06:54] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.1.7.tar.gz]
 [2023-08-07 00:06:54] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
 [2023-08-07 00:06:54] INFO root fetch - main [MainThread]: Store serial: [19197567]
+[2023-08-07 00:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197567]
+[2023-08-07 00:12:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricsoperator
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyecs
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poonia
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: instagrapi
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-pretrained
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superpathlib
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipcoloradditionV1
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yalexs
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Random-Word-Numpy
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipcoloradditionV1
+[2023-08-07 00:12:03] INFO root fetch - processPackages [easyecs]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [superpathlib]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [poonia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-07 00:12:03] WARNING root fetch - processPackages [metricsoperator]: Skipping, unable to determine old version
+[2023-08-07 00:12:03] INFO root fetch - processPackages [metricsoperator]: Start processing: letterboxd-stats
+[2023-08-07 00:12:03] INFO root fetch - main [MainThread]: End processing [metricsoperator] error
+[2023-08-07 00:12:03] WARNING root fetch - processPackages [Random-Word-Numpy]: Skipping, unable to determine old version
+[2023-08-07 00:12:03] INFO root fetch - main [MainThread]: End processing [Random-Word-Numpy] error
+[2023-08-07 00:12:03] INFO root fetch - processPackages [pipcoloradditionV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [pipcoloradditionV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [yalexs]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/d5/94/9150da31631029ada70feae291f2c4179e55f5974690e7f6ac5314c4bd38/easyecs-0.5.1.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/30/1b/6867d8eecabbae547eea1948b85f2df05c4e3c8ca0d77a76182f0b9cc1bd/superpathlib-1.0.4.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/76/d7/2e3379f2e2033e99f5743565c35eea3290a0d8c64d972b61d72a5f58d114/instagrapi-1.9.8.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [poonia]: Downloading https://files.pythonhosted.org/packages/c0/9a/d2fa5b974fa18c1244709a14876136ce2e769b9dccea53484d9374d9c2fa/poonia-0.1.8.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [letterboxd-stats]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-07 00:12:03] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/d7/60/7f5bcd2ea070ee3306811e7a59a3e9c491d4bfe5a94b8afb718989017f28/yalexs-1.5.1.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [pipcoloradditionV1]: Downloading https://files.pythonhosted.org/packages/b6/52/0acd73f0b36b535769b02811fa9782b3d74996eb8a879c9edf4b38fb8760/pipcoloradditionV1-1.0.0.tar.gz
+[2023-08-07 00:12:03] INFO root fetch - processPackages [pipcoloradditionV1]: Downloading https://files.pythonhosted.org/packages/b6/52/0acd73f0b36b535769b02811fa9782b3d74996eb8a879c9edf4b38fb8760/pipcoloradditionV1-1.0.0.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/31/ef/58609caba343cc55d39c770614ba4d346e599092448d26bdd520d5b651bd/superpathlib-1.1.0.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/36/67/41f2f89a7201dd702d82add01be8291c698b77a1313fe560bad607d34fca/easyecs-0.6.0.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/b4/d6/47ae1e2a891ba120c30e3ae1f80317d2ff1e61b09d2911505c9b3e753381/letterboxd_stats-0.2.6.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/1a/d8/c991a85c48ec7f9c0e137bdaebffcfe17e3a14ceb51fbce4a4e3742df665/instagrapi-1.9.9.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [poonia]: Downloading https://files.pythonhosted.org/packages/09/db/c75f9a2a193bcbbbbad0543dba1745517caa715e67629b7828fd529e22ee/poonia-0.1.9.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.0.4.tar.gz tmp/superpathlib-1.1.0.tar.gz --markdown 20230807/s/superpathlib/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.5.1.tar.gz tmp/easyecs-0.6.0.tar.gz --markdown 20230807/e/easyecs/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/2d/e1/0bc7218e0553972911eb51598cc697f20f3190f44ad35706b2dbea3c1ae5/yalexs-1.5.2.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: Downloading https://files.pythonhosted.org/packages/e8/5c/f5e3e9331c991d5b35ebc98d2fc485a363b600bed8a9a77773d7f09d611c/pipcoloradditionV1-1.1.0.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230807/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [poonia]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [poonia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poonia-0.1.8.tar.gz tmp/poonia-0.1.9.tar.gz --markdown 20230807/p/poonia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: Downloading https://files.pythonhosted.org/packages/e8/5c/f5e3e9331c991d5b35ebc98d2fc485a363b600bed8a9a77773d7f09d611c/pipcoloradditionV1-1.1.0.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/bc/34/559251ce1e83ea6fac63c5321ce3cbb1ced15593804a17fa93037d8c5ba1/letterboxd_stats-0.2.7.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [yalexs]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [yalexs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs-1.5.1.tar.gz tmp/yalexs-1.5.2.tar.gz --markdown 20230807/y/yalexs/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcoloradditionV1-1.0.0.tar.gz tmp/pipcoloradditionV1-1.1.0.tar.gz --markdown 20230807/p/pipcoloradditionV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [pipcoloradditionV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcoloradditionV1-1.0.0.tar.gz tmp/pipcoloradditionV1-1.1.0.tar.gz --markdown 20230807/p/pipcoloradditionV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [letterboxd-stats]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [letterboxd-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterboxd_stats-0.2.6.tar.gz tmp/letterboxd_stats-0.2.7.tar.gz --markdown 20230807/l/letterboxd-stats/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-07 00:12:04] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-08-07 00:12:04] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230807/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 00:12:05] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.0.4.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.1.0.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-08-07 00:12:05] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.5.1.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.6.0.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-07 00:12:05] INFO root fetch - processPackages [poonia]: Remove: archive file [/home/abi/fetcher/tmp/poonia-0.1.8.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - processPackages [poonia]: Remove: archive file [/home/abi/fetcher/tmp/poonia-0.1.9.tar.gz]
+[2023-08-07 00:12:05] INFO root fetch - main [MainThread]: End processing [poonia]: success
+[2023-08-07 00:12:06] INFO root fetch - processPackages [pipcoloradditionV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcoloradditionV1-1.0.0.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - processPackages [pipcoloradditionV1]: Remove: archive file [/home/abi/fetcher/tmp/pipcoloradditionV1-1.1.0.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [pipcoloradditionV1]: success
+[2023-08-07 00:12:06] INFO root fetch - processPackages [instagrapi]: Remove: archive file [/home/abi/fetcher/tmp/instagrapi-1.9.8.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - processPackages [instagrapi]: Remove: archive file [/home/abi/fetcher/tmp/instagrapi-1.9.9.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-08-07 00:12:06] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.6.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.7.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
+[2023-08-07 00:12:06] INFO root fetch - processPackages [yalexs]: Remove: archive file [/home/abi/fetcher/tmp/yalexs-1.5.1.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - processPackages [yalexs]: Remove: archive file [/home/abi/fetcher/tmp/yalexs-1.5.2.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [yalexs]: success
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [pipcoloradditionV1]: success
+[2023-08-07 00:12:06] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-08-07 00:12:06] INFO root fetch - main [MainThread]: Store serial: [19197604]
