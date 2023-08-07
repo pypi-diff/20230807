@@ -7543,3 +7543,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:10:27] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.77.tar.gz]
 [2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [adafri]: success
 [2023-08-07 07:10:27] INFO root fetch - main [MainThread]: Store serial: [19200673]
+[2023-08-07 07:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200673]
+[2023-08-07 07:15:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didipack
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metricsoperator
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: racadm
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysesh
+[2023-08-07 07:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-08-07 07:15:36] WARNING root fetch - processPackages [pysesh]: Skipping, unable to determine old version
+[2023-08-07 07:15:36] INFO root fetch - main [MainThread]: End processing [pysesh] error
+[2023-08-07 07:15:36] INFO root fetch - processPackages [metricsoperator]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-07 07:15:36] INFO root fetch - processPackages [didipack]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-08-07 07:15:36] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.1] Old Version: [0.4.0.2]
+[2023-08-07 07:15:36] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-07 07:15:36] WARNING root fetch - processPackages [racadm]: Skipping, unable to determine old version
+[2023-08-07 07:15:36] INFO root fetch - main [MainThread]: End processing [racadm] error
+[2023-08-07 07:15:36] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/d2/e6/057cff77d5b6c241c8a437bec1e1a85ecdfc8aba2bd150f8a10b14e6ca59/didipack-4.0.0.tar.gz
+[2023-08-07 07:15:36] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/8d/82/8b53b388dde7b2071f961feb7321ef6f18b951e85830fbb186eb9a39cb15/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz
+[2023-08-07 07:15:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9f/d3/cbf0afb1eb45bf03446171253ff9a2543a3183c838258bd07dfb10ba1e7a/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-07 07:15:36] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/6a/c2/75cb786e1da71e748240d935b00599d4e70c5a42f0de25422ccd76932214/metricsoperator-0.0.0.tar.gz
+[2023-08-07 07:15:36] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/3a/7b/9647a6cbc70d1ad90ad472c305d0f0a63b8ced92515f5bfaa5103e762b74/didipack-4.0.1.tar.gz
+[2023-08-07 07:15:37] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/5b/56/6d5f3c849b923aba0d834ae9d72ceecf932c8f57af15bd6c3201875d1b56/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz
+[2023-08-07 07:15:37] INFO root fetch - processPackages [didipack]: executing diffoscope
+[2023-08-07 07:15:37] INFO root fetch - processPackages [didipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didipack-4.0.0.tar.gz tmp/didipack-4.0.1.tar.gz --markdown 20230807/d/didipack/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-07 07:15:37] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/9e/f1/8d911d6527917c3306e417dbf735df9a932a896854c5f93fe4fdace693dd/metricsoperator-0.0.1.tar.gz
+[2023-08-07 07:15:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/37/f6/0167b1b5c441cb28ea2f55edaaefe0f92d8ad58d5dd3ff4243310944a53e/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-07 07:15:37] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-07 07:15:37] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz --markdown 20230807/n/nonebot-plugin-stable-diffusion-diao/0.4.0.2-0.4.1/diff.md --exclude *.pyd
+[2023-08-07 07:15:37] INFO root fetch - processPackages [metricsoperator]: executing diffoscope
+[2023-08-07 07:15:37] INFO root fetch - processPackages [metricsoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricsoperator-0.0.0.tar.gz tmp/metricsoperator-0.0.1.tar.gz --markdown 20230807/m/metricsoperator/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-07 07:15:37] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-07 07:15:37] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230807/t/tflite-runtime-nightly/2.15.0.dev20230804-2.15.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-07 07:15:38] INFO root fetch - processPackages [didipack]: Remove: archive file [/home/abi/fetcher/tmp/didipack-4.0.0.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - processPackages [didipack]: Remove: archive file [/home/abi/fetcher/tmp/didipack-4.0.1.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - main [MainThread]: End processing [didipack]: success
+[2023-08-07 07:15:38] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-07 07:15:38] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.0.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.1.tar.gz]
+[2023-08-07 07:15:38] INFO root fetch - main [MainThread]: End processing [metricsoperator]: success
+[2023-08-07 07:15:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-07 07:15:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-07 07:15:38] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-07 07:15:38] INFO root fetch - main [MainThread]: Store serial: [19200707]
