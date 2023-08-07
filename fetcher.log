@@ -7588,3 +7588,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:15:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-08-07 07:15:38] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-08-07 07:15:38] INFO root fetch - main [MainThread]: Store serial: [19200707]
+[2023-08-07 07:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200707]
+[2023-08-07 07:20:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrnet
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thresh
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-hr-payroll-batch
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-hr-payroll-batch-work-log
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-hr-payroll-timesheet
+[2023-08-07 07:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-hr-payroll
+[2023-08-07 07:20:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230806] Old Version: [0.5.4.dev20230805]
+[2023-08-07 07:20:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/5b/d5/60a6aaad292536e97022140eeb27bd6fe415c0463445bcee5d84785ca882/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz
+[2023-08-07 07:20:47] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-payroll-timesheet]: Skipping, unable to determine old version
+[2023-08-07 07:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-payroll-timesheet] error
+[2023-08-07 07:20:47] WARNING root fetch - processPackages [qrnet]: Skipping, unable to determine old version
+[2023-08-07 07:20:47] INFO root fetch - main [MainThread]: End processing [qrnet] error
+[2023-08-07 07:20:47] INFO root fetch - processPackages [thresh]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-07 07:20:47] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: Skipping, unable to determine old version
+[2023-08-07 07:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-payroll] error
+[2023-08-07 07:20:47] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-payroll-batch-work-log]: Skipping, unable to determine old version
+[2023-08-07 07:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-payroll-batch-work-log] error
+[2023-08-07 07:20:47] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-payroll-batch]: Skipping, unable to determine old version
+[2023-08-07 07:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-payroll-batch] error
+[2023-08-07 07:20:47] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 07:20:47] INFO root fetch - processPackages [thresh]: Downloading https://files.pythonhosted.org/packages/d9/80/7384e948b943a041a1c1fd8f4f5e94e424e7a63064d760d56aa42b4cd8d5/thresh-0.1.0.tar.gz
+[2023-08-07 07:20:47] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-07 07:20:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/f1/70/d5daf95b8c767cd20330d3c2cd8d144e61b2aaeb4679f86e2bcc3f078e28/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz
+[2023-08-07 07:20:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-07 07:20:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz --markdown 20230807/r/rapidpe-rift-pipe/0.5.4.dev20230805-0.5.4.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 07:20:47] INFO root fetch - processPackages [thresh]: Downloading https://files.pythonhosted.org/packages/53/26/b211a95d05fae5f582f7731d91c0c5a9835fa81e3fb549ed25a89210ea12/thresh-1.0.0.tar.gz
+[2023-08-07 07:20:48] INFO root fetch - processPackages [thresh]: executing diffoscope
+[2023-08-07 07:20:48] INFO root fetch - processPackages [thresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thresh-0.1.0.tar.gz tmp/thresh-1.0.0.tar.gz --markdown 20230807/t/thresh/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 07:20:48] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-07 07:20:48] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-07 07:20:48] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230807/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 07:20:48] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz]
+[2023-08-07 07:20:48] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz]
+[2023-08-07 07:20:48] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-07 07:20:48] INFO root fetch - processPackages [thresh]: Remove: archive file [/home/abi/fetcher/tmp/thresh-0.1.0.tar.gz]
+[2023-08-07 07:20:48] INFO root fetch - processPackages [thresh]: Remove: archive file [/home/abi/fetcher/tmp/thresh-1.0.0.tar.gz]
+[2023-08-07 07:20:48] INFO root fetch - main [MainThread]: End processing [thresh]: success
+[2023-08-07 07:20:49] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-07 07:20:49] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-07 07:20:49] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-07 07:20:49] INFO root fetch - main [MainThread]: Store serial: [19200754]
