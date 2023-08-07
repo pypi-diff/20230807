@@ -1281,3 +1281,89 @@
 [2023-08-07 02:08:18] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230806.post411.tar.gz]
 [2023-08-07 02:08:18] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-08-07 02:08:18] INFO root fetch - main [MainThread]: Store serial: [19198121]
+[2023-08-07 02:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19198121]
+[2023-08-07 02:13:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bazos
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bazos
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metafid-data
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aws-discord-notifiers
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyenphase
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-nightly
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mct-quantizers-nightly
+[2023-08-07 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysqlitekitsV1
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [metafid-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230806.post1026] Old Version: [1.2.0.20230805.post1053]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: New version: [0.0.6] Old Version: [0.0.1]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: New version: [0.0.6] Old Version: [0.0.1]
+[2023-08-07 02:13:28] WARNING root fetch - processPackages [pysqlitekitsV1]: Skipping, unable to determine old version
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pysqlitekitsV1]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-07 02:13:28] INFO root fetch - main [MainThread]: End processing [pysqlitekitsV1] error
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230807] Old Version: [3.2.0.dev20230806]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/ef/35/5992ab03f7af7f00a60af32ce09b654fa50576aea849945baf61dee1e25b/metafid_data-0.1.0-py3-none-any.whl
+[2023-08-07 02:13:28] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/74/84/d61c89f64fb210581b31dbf50761a409f49c0d36a61e3299f7f627139dc6/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/7a/ef/38eaeee48eba0d88eb274d33f18db52580a67ed27d73c8507748d720e423/bazos-0.0.1.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/7a/ef/38eaeee48eba0d88eb274d33f18db52580a67ed27d73c8507748d720e423/bazos-0.0.1.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/1e/58/04d89820e5f8bd8d1046d21dd46f1d66065ca11050aeed4c4b6685b26895/openbb_nightly-3.2.0.dev20230806.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-08-07 02:13:28] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20908061>=10485760
+[2023-08-07 02:13:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/ce/4e/0cf2d1493176673b64e7c19bd73d949e0ffb6543b3e26f7966228fec9f21/metafid_data-0.1.1-py3-none-any.whl
+[2023-08-07 02:13:28] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-07 02:13:28] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-07 02:13:28] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230807/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/64/4e/3c1a3f34a926063d303d0a049a2cb25e08375296d981d8c019673701f91d/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [metafid-data]: executing diffoscope
+[2023-08-07 02:13:28] INFO root fetch - processPackages [metafid-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafid_data-0.1.0-py3-none-any.whl.zip tmp/metafid_data-0.1.1-py3-none-any.whl.zip --markdown 20230807/m/metafid-data/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/9c/28/263e746ec8615cec9573df02594410244525481853d081a680362d7018d4/bazos-0.0.6.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/9c/28/263e746ec8615cec9573df02594410244525481853d081a680362d7018d4/bazos-0.0.6.tar.gz
+[2023-08-07 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-07 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz --markdown 20230807/m/mct-quantizers-nightly/1.2.0.20230805.post1053-1.2.0.20230806.post1026/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-07 02:13:29] INFO root fetch - processPackages [bazos]: executing diffoscope
+[2023-08-07 02:13:29] INFO root fetch - processPackages [bazos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazos-0.0.1.tar.gz tmp/bazos-0.0.6.tar.gz --markdown 20230807/b/bazos/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [bazos]: executing diffoscope
+[2023-08-07 02:13:29] INFO root fetch - processPackages [bazos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazos-0.0.1.tar.gz tmp/bazos-0.0.6.tar.gz --markdown 20230807/b/bazos/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230807/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-08-07 02:13:29] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230807/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-07 02:13:29] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230807/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-07 02:13:29] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.0-py3-none-any.whl.zip]
+[2023-08-07 02:13:29] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.1-py3-none-any.whl.zip]
+[2023-08-07 02:13:29] INFO root fetch - main [MainThread]: End processing [metafid-data]: success
+[2023-08-07 02:13:29] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-07 02:13:29] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-07 02:13:29] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-07 02:13:30] INFO root fetch - processPackages [bazos]: Remove: archive file [/home/abi/fetcher/tmp/bazos-0.0.1.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - processPackages [bazos]: Remove: archive file [/home/abi/fetcher/tmp/bazos-0.0.6.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - main [MainThread]: End processing [bazos]: success
+[2023-08-07 02:13:30] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-07 02:13:30] INFO root fetch - main [MainThread]: End processing [bazos]: success
+[2023-08-07 02:13:30] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-07 02:13:30] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-07 02:13:31] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-07 02:13:31] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-07 02:13:31] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-07 02:13:32] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-08-07 02:13:32] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-08-07 02:13:32] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-08-07 02:13:32] INFO root fetch - main [MainThread]: Store serial: [19198153]
