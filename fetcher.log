@@ -17717,3 +17717,162 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:40:26] INFO root fetch - processPackages [pyfda]: Remove: archive file [/home/abi/fetcher/tmp/pyfda-0.8.0a3.tar.gz]
 [2023-08-07 13:40:26] INFO root fetch - main [MainThread]: End processing [pyfda]: success
 [2023-08-07 13:40:26] INFO root fetch - main [MainThread]: Store serial: [19204943]
+[2023-08-07 13:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204943]
+[2023-08-07 13:45:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataflows-airtable
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dp-cubed
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dstrial1
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perms
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowmatic
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: survey-report-generator
+[2023-08-07 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ersilia
+[2023-08-07 13:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyperiontf
+[2023-08-07 13:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypomes-core
+[2023-08-07 13:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tlv
+[2023-08-07 13:45:35] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [flowmatic]: New version: [0.1.0.6] Old Version: [0.1.0.5]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [pypomes-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [tlv]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-07 13:45:35] WARNING root fetch - processPackages [perms]: Skipping, unable to determine old version
+[2023-08-07 13:45:35] INFO root fetch - processPackages [perms]: Start processing: dapla-toolbelt
+[2023-08-07 13:45:35] INFO root fetch - main [MainThread]: End processing [perms] error
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dataflows-airtable]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/61/f9/57d54d81dbf80e8187b1b82f045ccb345386a118478e09dcff68648e9b89/survey_report_generator-0.0.6.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dstrial1]: New version: [0.3] Old Version: [0.2]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dp-cubed]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 13:45:35] WARNING root fetch - processPackages [hyperiontf]: Skipping, unable to determine old version
+[2023-08-07 13:45:35] INFO root fetch - processPackages [hyperiontf]: Start processing: lbplatformutils
+[2023-08-07 13:45:35] INFO root fetch - main [MainThread]: End processing [hyperiontf] error
+[2023-08-07 13:45:35] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/4a/6e/a8cf705bb3617d14693d6097c3ab139a72532b2d52163b67fb42458b4dd5/flowmatic-0.1.0.5.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dapla-toolbelt]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/84/63/16fd95f63152f43c1594c454dfddebff68639fbb1dcb87c005908c1cbc8a/pypomes_core-0.2.3.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/12/86/9781bc2d73491e015957966813f0bef3a200f0c019b868ee4028f97d99df/tlv-1.4.2.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dataflows-airtable]: Downloading https://files.pythonhosted.org/packages/fe/e8/41af44898c0465e53725f26d32a52eafce31acc3022ac94b8ece0224fab4/dataflows-airtable-0.1.2.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [lbplatformutils]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/a0/e2/b8828753738303e41b66dd5743068bc7fd5627963e3eb47c185218bdfecb/dstrial1-0.2.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dp-cubed]: Downloading https://files.pythonhosted.org/packages/5b/15/00ccb8dd6e182214407c31aa143d9f10a0b9e44a6c28c1a85489b9f4e01e/dp-cubed-0.3.0.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/f5/9b/c5ba82db2fd4566ba09c4736ef311347f975a2bacf07bcad3e0cfb773ca4/dapla_toolbelt-1.8.0.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/91/d8/2ee6336f59a487ffd149164e2f939ac0e7b549b15567e8bbb67354973bf7/pypomes_core-0.2.4.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/13/f4/9c64e43507cb39493a0ee3da87e11532ec1525058addfa1b636fd55a7ac0/survey_report_generator-0.0.7.tar.gz
+[2023-08-07 13:45:35] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/dc/4f/f104cef51454fac096bfd4e71b5648158067a743aa26013551098e59fa09/flowmatic-0.1.0.6.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [lbplatformutils]: Downloading https://files.pythonhosted.org/packages/ca/d1/5deb569939615e44b80323791a7e77f35216d327fe133b4f268daa88ab75/LbPlatformUtils-4.3.7.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.2.3.tar.gz tmp/pypomes_core-0.2.4.tar.gz --markdown 20230807/p/pypomes-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/08/8f/28e4979a18d8557a48de92e76decba7e0d78396ad72062ada4ca76938080/dstrial1-0.3.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dataflows-airtable]: Downloading https://files.pythonhosted.org/packages/6e/b1/c35364e05baefc676658414de29ee52c47aebd520d23d5b539a9630f3567/dataflows-airtable-0.1.3.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.0.5.tar.gz tmp/flowmatic-0.1.0.6.tar.gz --markdown 20230807/f/flowmatic/0.1.0.5-0.1.0.6/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/63/25/2ab77656a4a549c73f2bce98cd30ce8572841bcaf16a5c3ac6ad07f7f15c/tlv-1.4.3.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/ab/c4/46d079c56414c488f93e5b1b2428e8a3dda3908106a28b5bfa1b3e5a1dd3/dapla_toolbelt-1.8.1.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dp-cubed]: Downloading https://files.pythonhosted.org/packages/73/eb/f563dd17e16e5e55c85fdd4915db9bd342944ad80cdafa35fae1428b3566/dp-cubed-0.3.1.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.6.tar.gz tmp/survey_report_generator-0.0.7.tar.gz --markdown 20230807/s/survey-report-generator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dstrial1]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dstrial1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstrial1-0.2.tar.gz tmp/dstrial1-0.3.tar.gz --markdown 20230807/d/dstrial1/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [lbplatformutils]: Downloading https://files.pythonhosted.org/packages/91/79/2c962af7c8281e35d8ca3a967a7a4335098a9668bfee65807fa3369e9f45/LbPlatformUtils-4.3.8.tar.gz
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dataflows-airtable]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dataflows-airtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows-airtable-0.1.2.tar.gz tmp/dataflows-airtable-0.1.3.tar.gz --markdown 20230807/d/dataflows-airtable/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [tlv]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [tlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlv-1.4.2.tar.gz tmp/tlv-1.4.3.tar.gz --markdown 20230807/t/tlv/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dapla-toolbelt]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dapla-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt-1.8.0.tar.gz tmp/dapla_toolbelt-1.8.1.tar.gz --markdown 20230807/d/dapla-toolbelt/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dp-cubed]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [dp-cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-cubed-0.3.0.tar.gz tmp/dp-cubed-0.3.1.tar.gz --markdown 20230807/d/dp-cubed/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-07 13:45:36] INFO root fetch - processPackages [lbplatformutils]: executing diffoscope
+[2023-08-07 13:45:36] INFO root fetch - processPackages [lbplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbPlatformUtils-4.3.7.tar.gz tmp/LbPlatformUtils-4.3.8.tar.gz --markdown 20230807/l/lbplatformutils/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-08-07 13:45:37] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-08-07 13:45:37] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-08-07 13:45:37] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230807/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 13:45:37] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.3.tar.gz]
+[2023-08-07 13:45:37] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.4.tar.gz]
+[2023-08-07 13:45:37] INFO root fetch - processPackages [pypomes-core]: Start processing: mapillary
+[2023-08-07 13:45:37] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-08-07 13:45:37] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.5.tar.gz]
+[2023-08-07 13:45:37] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.6.tar.gz]
+[2023-08-07 13:45:37] INFO root fetch - processPackages [flowmatic]: Start processing: odoo-addon-base-translation-field-label
+[2023-08-07 13:45:37] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [mapillary]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 13:45:38] WARNING root fetch - processPackages [odoo-addon-base-translation-field-label]: Skipping, unable to determine old version
+[2023-08-07 13:45:38] INFO root fetch - processPackages [odoo-addon-base-translation-field-label]: Start processing: chainsyncer
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-translation-field-label] error
+[2023-08-07 13:45:38] INFO root fetch - processPackages [chainsyncer]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.6.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.7.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [survey-report-generator]: Start processing: luminesce-sdk-preview
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.2.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.3.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dstrial1]: Start processing: lazyauto
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [dstrial1]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [mapillary]: Downloading https://files.pythonhosted.org/packages/1d/06/e1b6891f023b1e76778d35d76605021e4d9109f24f631427ca750287245b/mapillary-1.0.8.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.2.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.3.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [tlv]: Start processing: invenio-config-tuw
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [tlv]: success
+[2023-08-07 13:45:38] WARNING root fetch - processPackages [lazyauto]: Skipping, unable to determine old version
+[2023-08-07 13:45:38] INFO root fetch - processPackages [lazyauto]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [lazyauto] error
+[2023-08-07 13:45:38] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/e4/c7/09786e109c9569c3e4fc94c975cba88f46aafc55fe2cea0bdc3f3e6800ff/chainsyncer-0.8.0.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [invenio-config-tuw]: New version: [2023.2.7] Old Version: [2023.2.6]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dataflows-airtable]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-airtable-0.1.2.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dataflows-airtable]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-airtable-0.1.3.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dataflows-airtable]: Start processing: bamt
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [dataflows-airtable]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.8.0.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.8.1.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [lbplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/LbPlatformUtils-4.3.7.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [lbplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/LbPlatformUtils-4.3.8.tar.gz]
+[2023-08-07 13:45:38] INFO root fetch - main [MainThread]: End processing [lbplatformutils]: success
+[2023-08-07 13:45:38] INFO root fetch - processPackages [bamt]: New version: [1.1.45] Old Version: [1.1.44]
+[2023-08-07 13:45:38] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/fd/32/b9d8930acec2bfc51a3f94b21a7482bcb8345076cf85375eadf5f335250f/chainsyncer-0.8.1.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [invenio-config-tuw]: Downloading https://files.pythonhosted.org/packages/7e/3f/f84974159829ee925a02c1d3460c0b6932515be35e3a4005f6123ef5ab55/invenio-config-tuw-2023.2.6.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/24/17/e56fe22d54d99c91c7ea1f48360248c5af27ac652813abfa71ec4a410c7e/bamt-1.1.44.tar.gz
+[2023-08-07 13:45:38] INFO root fetch - processPackages [mapillary]: Downloading https://files.pythonhosted.org/packages/ad/f7/7cb9e91c4b5ec2a8549505caa626cf7dc8316c36908ec552ebfbfc8365e0/mapillary-1.0.9.tar.gz
+[2023-08-07 13:45:39] INFO root fetch - processPackages [chainsyncer]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [chainsyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsyncer-0.8.0.tar.gz tmp/chainsyncer-0.8.1.tar.gz --markdown 20230807/c/chainsyncer/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-07 13:45:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-07 13:45:39] INFO root fetch - processPackages [mapillary]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [mapillary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary-1.0.8.tar.gz tmp/mapillary-1.0.9.tar.gz --markdown 20230807/m/mapillary/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 13:45:39] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230807/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-07 13:45:39] INFO root fetch - processPackages [invenio-config-tuw]: Downloading https://files.pythonhosted.org/packages/22/eb/0cf08dd170f8c01957d4b4a646eef89bf19f2dd8b9f7ae3b12be6b65c8aa/invenio-config-tuw-2023.2.7.tar.gz
+[2023-08-07 13:45:39] INFO root fetch - processPackages [dp-cubed]: Remove: archive file [/home/abi/fetcher/tmp/dp-cubed-0.3.0.tar.gz]
+[2023-08-07 13:45:39] INFO root fetch - processPackages [dp-cubed]: Remove: archive file [/home/abi/fetcher/tmp/dp-cubed-0.3.1.tar.gz]
+[2023-08-07 13:45:39] INFO root fetch - main [MainThread]: End processing [dp-cubed]: success
+[2023-08-07 13:45:39] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/0a/95/68c352b9127bc49c7b60bc865310fb007dec97a4d3bf284a86327b512935/bamt-1.1.45.tar.gz
+[2023-08-07 13:45:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-08-07 13:45:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 13:45:39] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamt-1.1.44.tar.gz tmp/bamt-1.1.45.tar.gz --markdown 20230807/b/bamt/1.1.44-1.1.45/diff.md --exclude *.pyd
+[2023-08-07 13:45:39] INFO root fetch - processPackages [invenio-config-tuw]: executing diffoscope
+[2023-08-07 13:45:39] INFO root fetch - processPackages [invenio-config-tuw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-config-tuw-2023.2.6.tar.gz tmp/invenio-config-tuw-2023.2.7.tar.gz --markdown 20230807/i/invenio-config-tuw/2023.2.6-2023.2.7/diff.md --exclude *.pyd
+[2023-08-07 13:45:40] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-08-07 13:45:40] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.8.0.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.8.1.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - main [MainThread]: End processing [chainsyncer]: success
+[2023-08-07 13:45:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-08-07 13:45:40] INFO root fetch - processPackages [invenio-config-tuw]: Remove: archive file [/home/abi/fetcher/tmp/invenio-config-tuw-2023.2.6.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - processPackages [invenio-config-tuw]: Remove: archive file [/home/abi/fetcher/tmp/invenio-config-tuw-2023.2.7.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - main [MainThread]: End processing [invenio-config-tuw]: success
+[2023-08-07 13:45:40] INFO root fetch - processPackages [mapillary]: Remove: archive file [/home/abi/fetcher/tmp/mapillary-1.0.8.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - processPackages [mapillary]: Remove: archive file [/home/abi/fetcher/tmp/mapillary-1.0.9.tar.gz]
+[2023-08-07 13:45:40] INFO root fetch - main [MainThread]: End processing [mapillary]: success
+[2023-08-07 13:45:41] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-07 13:45:41] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-07 13:45:41] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-07 13:45:41] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.44.tar.gz]
+[2023-08-07 13:45:41] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.45.tar.gz]
+[2023-08-07 13:45:41] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-08-07 13:45:41] INFO root fetch - main [MainThread]: Store serial: [19205010]
