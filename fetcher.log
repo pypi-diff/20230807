@@ -6125,3 +6125,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:07:48] INFO root fetch - processPackages [injective-py]: Remove: archive file [/home/abi/fetcher/tmp/injective-py-0.7.0.5.tar.gz]
 [2023-08-07 05:07:48] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-08-07 05:07:48] INFO root fetch - main [MainThread]: Store serial: [19199983]
+[2023-08-07 05:12:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199983]
+[2023-08-07 05:12:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AiBot.py
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linearwavetheory
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calfcv
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exotic
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sakib-helpers
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: normalize-json
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rivian-python-client
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WinDbg-Copilot
+[2023-08-07 05:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: YandexHome
+[2023-08-07 05:12:58] INFO root fetch - processPackages [calfcv]: New version: [0.1.1] Old Version: [0.0.8]
+[2023-08-07 05:12:58] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 05:12:58] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 05:12:58] INFO root fetch - processPackages [rivian-python-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 05:12:58] WARNING root fetch - processPackages [AiBot.py]: Skipping, unable to determine old version
+[2023-08-07 05:12:58] INFO root fetch - main [MainThread]: End processing [AiBot.py] error
+[2023-08-07 05:12:58] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/3e/23/711cb250e4bf95a971ed99c65b906bf98cdda9d7c02183d02f00d70657e6/calfcv-0.0.8.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [linearwavetheory]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 05:12:58] INFO root fetch - processPackages [sakib-helpers]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 05:12:58] WARNING root fetch - processPackages [normalize-json]: Skipping, unable to determine old version
+[2023-08-07 05:12:58] INFO root fetch - main [MainThread]: End processing [normalize-json] error
+[2023-08-07 05:12:58] INFO root fetch - processPackages [exotic]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-07 05:12:58] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/17/74/034d137ee94a9bb120167e97c93bb1f0e5b5195848473311bfcf64a98bf4/rivian_python_client-1.0.1.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [sakib-helpers]: Downloading https://files.pythonhosted.org/packages/9d/64/aca5945209f371df11b735deaac5d07cb7f6a721f292b8f0bc8d31d6656d/sakib_helpers-0.0.2.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/cb/6a/a922e44c0f51789ba6a788e5ab802c8cfa3d755bcf7d3a7b59653a9c97e7/linearwavetheory-0.0.1.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/f0/b5/e801f540868c25b0b80ba529cf8a2dfb341aea2db5933c245acd894a590b/calfcv-0.1.1.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/ca/46/d03c7ed623255d2947cf0fba337a16b5586483abb0ba26895eeacd2765eb/exotic-3.1.0.zip
+[2023-08-07 05:12:58] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-07 05:12:58] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230807/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 05:12:58] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 05:12:58] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:12:58] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 05:12:58] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.8.tar.gz tmp/calfcv-0.1.1.tar.gz --markdown 20230807/c/calfcv/0.0.8-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 05:12:58] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/d7/21/77070c90dd4701a96e623e0baebf22c7b913f166b7b5d0b656a83eaa58b8/rivian_python_client-1.0.2.tar.gz
+[2023-08-07 05:12:58] INFO root fetch - processPackages [sakib-helpers]: Downloading https://files.pythonhosted.org/packages/29/82/c6b13fb9a2def54e73242c31c698cb26ad232ddddfcb8d62fd75063d32dc/sakib_helpers-0.0.3.tar.gz
+[2023-08-07 05:12:59] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/ad/48/c94142957a3b34248d25f55d0af5348cd66c4f04d505578a43cb1912d2ab/linearwavetheory-0.0.2.tar.gz
+[2023-08-07 05:12:59] INFO root fetch - processPackages [rivian-python-client]: executing diffoscope
+[2023-08-07 05:12:59] INFO root fetch - processPackages [rivian-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivian_python_client-1.0.1.tar.gz tmp/rivian_python_client-1.0.2.tar.gz --markdown 20230807/r/rivian-python-client/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 05:12:59] INFO root fetch - processPackages [sakib-helpers]: executing diffoscope
+[2023-08-07 05:12:59] INFO root fetch - processPackages [sakib-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakib_helpers-0.0.2.tar.gz tmp/sakib_helpers-0.0.3.tar.gz --markdown 20230807/s/sakib-helpers/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 05:12:59] INFO root fetch - processPackages [linearwavetheory]: executing diffoscope
+[2023-08-07 05:12:59] INFO root fetch - processPackages [linearwavetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearwavetheory-0.0.1.tar.gz tmp/linearwavetheory-0.0.2.tar.gz --markdown 20230807/l/linearwavetheory/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 05:12:59] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-07 05:12:59] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/33/fd/ad014e93ebe5ce9646e4011d20ea4c555e2bb74b9d70f1a9c2f85eba3dc9/exotic-3.2.0.zip
+[2023-08-07 05:12:59] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.8.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.1.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 05:12:59] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 05:12:59] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 05:13:00] INFO root fetch - processPackages [sakib-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sakib_helpers-0.0.2.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - processPackages [sakib-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sakib_helpers-0.0.3.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - main [MainThread]: End processing [sakib-helpers]: success
+[2023-08-07 05:13:00] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-1.0.1.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-1.0.2.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - main [MainThread]: End processing [rivian-python-client]: success
+[2023-08-07 05:13:00] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.1.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.2.tar.gz]
+[2023-08-07 05:13:00] INFO root fetch - main [MainThread]: End processing [linearwavetheory]: success
+[2023-08-07 05:13:00] INFO root fetch - processPackages [exotic]: executing diffoscope
+[2023-08-07 05:13:00] INFO root fetch - processPackages [exotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotic-3.1.0.zip tmp/exotic-3.2.0.zip --markdown 20230807/e/exotic/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-07 05:13:01] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.1.0.zip]
+[2023-08-07 05:13:01] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.2.0.zip]
+[2023-08-07 05:13:01] INFO root fetch - main [MainThread]: End processing [exotic]: success
+[2023-08-07 05:13:01] INFO root fetch - main [MainThread]: Store serial: [19200018]
