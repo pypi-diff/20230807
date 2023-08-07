@@ -8962,3 +8962,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:49:55] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-07 08:49:55] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
 [2023-08-07 08:49:55] INFO root fetch - main [MainThread]: Store serial: [19201447]
+[2023-08-07 08:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201447]
+[2023-08-07 08:55:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elefantolib-events
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygame-ce
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-role
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zcc-helper
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitignore-parser
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scidmcli
+[2023-08-07 08:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raftify
+[2023-08-07 08:55:04] INFO root fetch - processPackages [elefantolib-events]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [zcc-helper]: New version: [3.2.dev3] Old Version: [3.2.dev2]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [xj-role]: New version: [1.0.94] Old Version: [1.0.92]
+[2023-08-07 08:55:04] WARNING root fetch - processPackages [scidmcli]: Skipping, unable to determine old version
+[2023-08-07 08:55:04] INFO root fetch - processPackages [scidmcli]: Start processing: django-restit
+[2023-08-07 08:55:04] INFO root fetch - main [MainThread]: End processing [scidmcli] error
+[2023-08-07 08:55:04] INFO root fetch - processPackages [gitignore-parser]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [raftify]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/ca/01/fd970ffa7ad1cbdf4c1ff522a51d601030c03dd092cb96115220847fa6cd/zcc-helper-3.2.dev2.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230807065003] Old Version: [2.2.1.dev20230805175703]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/20/fa/360cdac36772a9f85b658a3d1da35a3bc4372fbeae816243c5840f13197e/raftify-0.0.4-py3-none-any.whl
+[2023-08-07 08:55:04] INFO root fetch - processPackages [elefantolib-events]: Downloading https://files.pythonhosted.org/packages/f4/75/943a7325c0862deb217df636b2305d0a45a4436568f7fb2438a3a1662948/elefantolib_events-0.5.0.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pygame-ce]: New version: [2.3.1.dev4] Old Version: [2.3.1.dev2]
+[2023-08-07 08:55:04] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/6f/af/ab199ed186ddb74f0177a7a99f1473685dca71f5e647c3cec12e4f67385d/django_restit-4.1.8.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/a1/42/a6cc52efa9b52e0cfb039758765607ba4d2528f39ccee28562fa0b2fabf1/xj_role-1.0.92.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [gitignore-parser]: Downloading https://files.pythonhosted.org/packages/49/68/9648c74ddfa2b534103e77f65c6da85b2b7dbb664fbb0d454d394b326594/gitignore_parser-0.1.5.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/0b/94/1512281f8fe136ca12bc264786fe17c13a52605d3b58447f54c3411674b5/zcc-helper-3.2.dev3.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-07 08:55:04] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1b/6f/e54e649be63702276255f66d66ab51b52686b19a1b9e9a9fc7d588eaf15c/localstack-core-2.2.1.dev20230805175703.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pygame-ce]: Downloading https://files.pythonhosted.org/packages/50/a9/06de3b70d4af48069264a04fc6d0a76ab18a916c34fc410f30504f44c280/pygame-ce-2.3.1.dev2.tar.gz
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 08:55:04] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 08:55:04] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-08-07 08:55:04] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.2.dev2.tar.gz tmp/zcc-helper-3.2.dev3.tar.gz --markdown 20230807/z/zcc-helper/3.2.dev2-3.2.dev3/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] WARNING root fetch - processPackages [pygame-ce]: Skipping package: exceeds size limit 13883622>=10485760
+[2023-08-07 08:55:05] INFO root fetch - main [MainThread]: End processing [pygame-ce] error
+[2023-08-07 08:55:05] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/0e/04/63e788bf7ebbcef3a2631435360b07492d0130662e2c955df89d1c9c301c/django_restit-4.1.9.tar.gz
+[2023-08-07 08:55:05] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/8a/e9/974e571694ecb9c8a48c53b07ffd0d356898cad6b5de841775abd27fad61/raftify-0.0.5-py3-none-any.whl
+[2023-08-07 08:55:05] INFO root fetch - processPackages [gitignore-parser]: Downloading https://files.pythonhosted.org/packages/f1/90/44a5e14a88e90740d28a93e722dbd9c092c78f931f0d23ee31ae55aca2df/gitignore_parser-0.1.6.tar.gz
+[2023-08-07 08:55:05] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/46/25/1f3ffc7e9d9d7bdae08e9388ed52b8a4ba0ead07b6468cdf413b34b73744/xj_role-1.0.94.tar.gz
+[2023-08-07 08:55:05] INFO root fetch - processPackages [elefantolib-events]: Downloading https://files.pythonhosted.org/packages/43/86/61d12fbc51db2731344e802c55fbc46f046a4d74b5c677f0b8a72cf1512d/elefantolib_events-0.6.0.tar.gz
+[2023-08-07 08:55:05] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.4-py3-none-any.whl.zip tmp/raftify-0.0.5-py3-none-any.whl.zip --markdown 20230807/r/raftify/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230807/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] INFO root fetch - processPackages [gitignore-parser]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [gitignore-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitignore_parser-0.1.5.tar.gz tmp/gitignore_parser-0.1.6.tar.gz --markdown 20230807/g/gitignore-parser/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-07 08:55:05] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.92.tar.gz tmp/xj_role-1.0.94.tar.gz --markdown 20230807/x/xj-role/1.0.92-1.0.94/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] INFO root fetch - processPackages [elefantolib-events]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [elefantolib-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_events-0.5.0.tar.gz tmp/elefantolib_events-0.6.0.tar.gz --markdown 20230807/e/elefantolib-events/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-07 08:55:05] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3d/a8/b472ec4ea89da378577b60e954f732852fc954f05c3db1802c14fcf86d57/localstack-core-2.2.1.dev20230807065003.tar.gz
+[2023-08-07 08:55:05] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-07 08:55:05] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230807/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-07 08:55:06] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-07 08:55:06] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230805175703.tar.gz tmp/localstack-core-2.2.1.dev20230807065003.tar.gz --markdown 20230807/l/localstack-core/2.2.1.dev20230805175703-2.2.1.dev20230807065003/diff.md --exclude *.pyd
+[2023-08-07 08:55:07] INFO root fetch - processPackages [elefantolib-events]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_events-0.5.0.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [elefantolib-events]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_events-0.6.0.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [elefantolib-events]: success
+[2023-08-07 08:55:07] INFO root fetch - processPackages [gitignore-parser]: Remove: archive file [/home/abi/fetcher/tmp/gitignore_parser-0.1.5.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [gitignore-parser]: Remove: archive file [/home/abi/fetcher/tmp/gitignore_parser-0.1.6.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [gitignore-parser]: success
+[2023-08-07 08:55:07] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 08:55:07] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev2.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev3.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-08-07 08:55:07] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.4-py3-none-any.whl.zip]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.5-py3-none-any.whl.zip]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-07 08:55:07] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.92.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.94.tar.gz]
+[2023-08-07 08:55:07] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-08-07 08:55:10] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-08-07 08:55:10] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-08-07 08:55:10] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-08-07 08:55:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-07 08:55:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-07 08:55:10] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-07 08:55:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230805175703.tar.gz]
+[2023-08-07 08:55:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807065003.tar.gz]
+[2023-08-07 08:55:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-07 08:55:12] INFO root fetch - main [MainThread]: Store serial: [19201509]
