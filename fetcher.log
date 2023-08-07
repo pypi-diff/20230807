@@ -6756,3 +6756,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:00:14] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.9.tar.gz]
 [2023-08-07 06:00:14] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-08-07 06:00:14] INFO root fetch - main [MainThread]: Store serial: [19200262]
+[2023-08-07 06:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200262]
+[2023-08-07 06:05:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evals-nightly
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylint-sarif-unofficial
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: normalize-json
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-adapter-qqguild
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calfcv
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baram
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RuletaEuropea
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctrlutils
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdsfactory
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: casbin-async-sqlalchemy-adapter
+[2023-08-07 06:05:23] WARNING root fetch - processPackages [RuletaEuropea]: Skipping, unable to determine old version
+[2023-08-07 06:05:23] INFO root fetch - processPackages [RuletaEuropea]: Start processing: chromedriver-binary
+[2023-08-07 06:05:23] INFO root fetch - main [MainThread]: End processing [RuletaEuropea] error
+[2023-08-07 06:05:23] INFO root fetch - processPackages [normalize-json]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [baram]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [calfcv]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [gdsfactory]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/4c/96/b460da49a4c15f5e3f2985941ce665f77b7359b5afff433c5dcbd3d1633a/baram-0.3.1.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230806] Old Version: [1.0.3.dev20230805]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [pylint-sarif-unofficial]: New version: [0.2.1a0] Old Version: [0.2.0a0]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [nonebot-adapter-qqguild]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [ctrlutils]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-08-07 06:05:23] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [normalize-json]: Downloading https://files.pythonhosted.org/packages/81/c9/0ee46a041fbc45f863047a3ba3b295d3758d169340f2ee752793e1b2a0ec/normalize_json-0.0.1.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/f0/b5/e801f540868c25b0b80ba529cf8a2dfb341aea2db5933c245acd894a590b/calfcv-0.1.1.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/34/58/dd7d0a7fd24324ec735c038ea3b444ae131d460c4901ea2d2215b7c05497/gdsfactory-7.1.0.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Downloading https://files.pythonhosted.org/packages/6a/34/8dc5351a724e57530bf22264bdee877a50f3fb7f3a90b51fdd9b46d9138b/nonebot_adapter_qqguild-0.2.3.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/fe/f4/f9f05b2d78de9ff7705c2d7f24e023cd14ed9995d73dd8048d285f13176d/pylint_sarif_unofficial-0.2.0a0.tar.gz
+[2023-08-07 06:05:23] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ed/99/964bcdc408226bc266d5676afa1c114aae27d7f18e8f0de175ce557aa1fb/evals-nightly-1.0.3.dev20230805.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/5d/39/568714e60c0167761584f90b5e0ae5073d5aa8a30f873a2a8331452d34f9/casbin_async_sqlalchemy_adapter-1.2.0.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/5a/6a/6b9766c78a5aab85f9e1fac5dd762e4af783beb8ee81afa1c585e011d745/baram-0.3.2.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [ctrlutils]: Downloading https://files.pythonhosted.org/packages/94/d9/62dd374750b8355d77319258ca74f74401bce4f1ae8a6f2e2f51d3c18d44/ctrlutils-1.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 06:05:24] INFO root fetch - processPackages [baram]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [baram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baram-0.3.1.tar.gz tmp/baram-0.3.2.tar.gz --markdown 20230807/b/baram/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [normalize-json]: Downloading https://files.pythonhosted.org/packages/32/a8/3704f3ecba1ef389a43762e7e5c19b4d599e8ec39133eff7ee2782a24ccc/normalize_json-0.0.2.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Downloading https://files.pythonhosted.org/packages/e5/1c/1d7e150d886146a6d7df936378ee57a053b77faa46bfc3f253a9b4114285/nonebot_adapter_qqguild-0.2.4.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/04/5b/032df3e041e8257bf980d296968a55b89c8043092848a294872e5bf15890/gdsfactory-7.1.1.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/0a/c2/ee5d177822b62927d4ddd02cc1021b1eaa3258eb180ce895a9cc331aeff0/pylint_sarif_unofficial-0.2.1a0.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230807/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/13/62/d9f0d98e8cc5e190e4897e581e1dea2671857bf17b3bfc52a6a6656dc0cb/casbin_async_sqlalchemy_adapter-1.3.0.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/77/2e/aa0bf61502e7e213106f88cac24c11b2156712a07083fc61a328ece3976e/evals-nightly-1.0.3.dev20230806.tar.gz
+[2023-08-07 06:05:24] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.1.tar.gz tmp/calfcv-0.1.3.tar.gz --markdown 20230807/c/calfcv/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [nonebot-adapter-qqguild]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [nonebot-adapter-qqguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_qqguild-0.2.3.tar.gz tmp/nonebot_adapter_qqguild-0.2.4.tar.gz --markdown 20230807/n/nonebot-adapter-qqguild/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [normalize-json]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [normalize-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normalize_json-0.0.1.tar.gz tmp/normalize_json-0.0.2.tar.gz --markdown 20230807/n/normalize-json/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [ctrlutils]: Downloading https://files.pythonhosted.org/packages/35/34/a7e34de80647ad927d8cfdfba4f02b8a553ea7a749f58a3a13bf1f7febfe/ctrlutils-1.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 06:05:24] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin_async_sqlalchemy_adapter-1.2.0.tar.gz tmp/casbin_async_sqlalchemy_adapter-1.3.0.tar.gz --markdown 20230807/c/casbin-async-sqlalchemy-adapter/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.1.0.tar.gz tmp/gdsfactory-7.1.1.tar.gz --markdown 20230807/g/gdsfactory/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [pylint-sarif-unofficial]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [pylint-sarif-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz tmp/pylint_sarif_unofficial-0.2.1a0.tar.gz --markdown 20230807/p/pylint-sarif-unofficial/0.2.0a0-0.2.1a0/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230805.tar.gz tmp/evals-nightly-1.0.3.dev20230806.tar.gz --markdown 20230807/e/evals-nightly/1.0.3.dev20230805-1.0.3.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 06:05:24] INFO root fetch - processPackages [ctrlutils]: executing diffoscope
+[2023-08-07 06:05:24] INFO root fetch - processPackages [ctrlutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrlutils-1.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ctrlutils-1.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/c/ctrlutils/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-08-07 06:05:25] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.1.tar.gz]
+[2023-08-07 06:05:25] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.2.tar.gz]
+[2023-08-07 06:05:25] INFO root fetch - main [MainThread]: End processing [baram]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qqguild-0.2.3.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qqguild-0.2.4.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-qqguild]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [normalize-json]: Remove: archive file [/home/abi/fetcher/tmp/normalize_json-0.0.1.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [normalize-json]: Remove: archive file [/home/abi/fetcher/tmp/normalize_json-0.0.2.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [normalize-json]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.1.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_async_sqlalchemy_adapter-1.2.0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_async_sqlalchemy_adapter-1.3.0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [casbin-async-sqlalchemy-adapter]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.1a0.tar.gz]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [pylint-sarif-unofficial]: success
+[2023-08-07 06:05:26] INFO root fetch - processPackages [ctrlutils]: Remove: archive file [/home/abi/fetcher/tmp/ctrlutils-1.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 06:05:26] INFO root fetch - processPackages [ctrlutils]: Remove: archive file [/home/abi/fetcher/tmp/ctrlutils-1.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 06:05:26] INFO root fetch - main [MainThread]: End processing [ctrlutils]: success
+[2023-08-07 06:05:27] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230805.tar.gz]
+[2023-08-07 06:05:27] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230806.tar.gz]
+[2023-08-07 06:05:27] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-07 06:05:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.0.tar.gz]
+[2023-08-07 06:05:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.1.tar.gz]
+[2023-08-07 06:05:28] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-08-07 06:05:28] INFO root fetch - main [MainThread]: Store serial: [19200299]
