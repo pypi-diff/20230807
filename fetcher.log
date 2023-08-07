@@ -7878,3 +7878,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:46:49] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a5.tar.gz]
 [2023-08-07 07:46:49] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
 [2023-08-07 07:46:49] INFO root fetch - main [MainThread]: Store serial: [19200870]
+[2023-08-07 07:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200870]
+[2023-08-07 07:51:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mygrader
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: froog
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sanctify
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wkey
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thresh
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openprotein-python
+[2023-08-07 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysesh
+[2023-08-07 07:51:58] INFO root fetch - processPackages [mygrader]: New version: [0.1.41] Old Version: [0.1.4]
+[2023-08-07 07:51:58] INFO root fetch - processPackages [thresh]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-07 07:51:58] INFO root fetch - processPackages [froog]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 07:51:58] INFO root fetch - processPackages [sanctify]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 07:51:58] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/0b/e0/6b0311100e3a29021a40c5e8bd617d3360d63f8f7525577bc9763d9f40fe/mygrader-0.1.4.tar.gz
+[2023-08-07 07:51:58] WARNING root fetch - processPackages [wkey]: Skipping, unable to determine old version
+[2023-08-07 07:51:58] INFO root fetch - main [MainThread]: End processing [wkey] error
+[2023-08-07 07:51:58] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2023-08-07 07:51:58] INFO root fetch - processPackages [thresh]: Downloading https://files.pythonhosted.org/packages/d9/80/7384e948b943a041a1c1fd8f4f5e94e424e7a63064d760d56aa42b4cd8d5/thresh-0.1.0.tar.gz
+[2023-08-07 07:51:58] WARNING root fetch - processPackages [pysesh]: Skipping, unable to determine old version
+[2023-08-07 07:51:58] INFO root fetch - main [MainThread]: End processing [pysesh] error
+[2023-08-07 07:51:58] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/54/d6/89716a8e15c0f799165508d2b3e1c29d3a05027eeb6fbb5e92f6dc903c5e/froog-0.2.2.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/b8/6d/114c7209bfc73aa2c678efc9a9fe3bf0df5ad1ca77c03085f8d07fe7de01/sanctify-1.1.8.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [thresh]: Downloading https://files.pythonhosted.org/packages/53/26/b211a95d05fae5f582f7731d91c0c5a9835fa81e3fb549ed25a89210ea12/thresh-1.0.0.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/b4/61/211bf81a6293e992c01e999bdbecba36dc4cbefeebeddbf24229b4847cfe/openprotein_python-0.1.2b1.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/30/b9/9a747583719fc104a9e0164eb080c84adf5415b38703b51c34d8599c66aa/froog-0.2.3.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/34/00/7d01403226faa50066de55cbadd77a6342401c80d5fa4271780a71679bf3/mygrader-0.1.41.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [thresh]: executing diffoscope
+[2023-08-07 07:51:59] INFO root fetch - processPackages [thresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thresh-0.1.0.tar.gz tmp/thresh-1.0.0.tar.gz --markdown 20230807/t/thresh/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 07:51:59] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-08-07 07:51:59] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.2.2.tar.gz tmp/froog-0.2.3.tar.gz --markdown 20230807/f/froog/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 07:51:59] INFO root fetch - processPackages [mygrader]: executing diffoscope
+[2023-08-07 07:51:59] INFO root fetch - processPackages [mygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrader-0.1.4.tar.gz tmp/mygrader-0.1.41.tar.gz --markdown 20230807/m/mygrader/0.1.4-0.1.41/diff.md --exclude *.pyd
+[2023-08-07 07:51:59] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/a1/24/830b9161d0dfc739b5897e6b7e48159e2059b05700956a7fc9f4d829bcce/sanctify-1.1.9.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/86/eb/da1744620467c236b88022f7f49ef25f5e8563686c9ba8dd48f82e67d8e1/openprotein_python-0.1.2b2.tar.gz
+[2023-08-07 07:51:59] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2023-08-07 07:51:59] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.1.8.tar.gz tmp/sanctify-1.1.9.tar.gz --markdown 20230807/s/sanctify/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 07:51:59] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-07 07:51:59] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.2b1.tar.gz tmp/openprotein_python-0.1.2b2.tar.gz --markdown 20230807/o/openprotein-python/0.1.2b1-0.1.2b2/diff.md --exclude *.pyd
+[2023-08-07 07:52:00] INFO root fetch - processPackages [thresh]: Remove: archive file [/home/abi/fetcher/tmp/thresh-0.1.0.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - processPackages [thresh]: Remove: archive file [/home/abi/fetcher/tmp/thresh-1.0.0.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [thresh]: success
+[2023-08-07 07:52:00] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.4.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.41.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [mygrader]: success
+[2023-08-07 07:52:00] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.2.2.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.2.3.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-08-07 07:52:00] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b1.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b2.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-07 07:52:00] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.1.8.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.1.9.tar.gz]
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2023-08-07 07:52:00] INFO root fetch - main [MainThread]: Store serial: [19200898]
