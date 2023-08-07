@@ -6372,3 +6372,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:28:37] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
 [2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [prompttools]: success
 [2023-08-07 05:28:37] INFO root fetch - main [MainThread]: Store serial: [19200094]
+[2023-08-07 05:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200094]
+[2023-08-07 05:33:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astx
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuto
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchmtl
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-custom
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluidsdk
+[2023-08-07 05:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tpf
+[2023-08-07 05:33:46] INFO root fetch - processPackages [selenium-custom]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-08-07 05:33:46] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 05:33:46] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2023-08-07 05:33:46] INFO root fetch - processPackages [astx]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-07 05:33:46] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/27/4a/8c3f38f7332e88bb9ffb405d5077576f1f843903aa67bf948775ca7fa81c/selenium-custom-4.2.1.tar.gz
+[2023-08-07 05:33:46] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-08-07 05:33:46] INFO root fetch - processPackages [torchmtl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 05:33:46] INFO root fetch - processPackages [fluidsdk]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.3.0.1] Old Version: [16.0.1.3.0]
+[2023-08-07 05:33:47] WARNING root fetch - processPackages [tpf]: Skipping, unable to determine old version
+[2023-08-07 05:33:47] INFO root fetch - main [MainThread]: End processing [tpf] error
+[2023-08-07 05:33:47] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/5a/5d/4da1a8625745c0767f731ae3ce0a8c01a71794671c49b30a2caef0251993/astx-0.1.0.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2023-08-07 05:33:47] INFO root fetch - processPackages [torchmtl]: Downloading https://files.pythonhosted.org/packages/09/86/10b94eaf0f7c26bcc4b2a6febceffb0aad0084cec7995f2a55b85b1eaabc/torchmtl-0.1.8.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/48/11/d212c6a506ef6dd07d43289ec764623aa065a810ba1bc3290efb7023152f/fluidsdk-0.4.5.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/f4/78/3d5957d975a747d452ded6c1059fb5cc25967ad4a17cba5c4c14ba676771/odoo_addon_helpdesk_mgmt-16.0.1.3.0-py3-none-any.whl
+[2023-08-07 05:33:47] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-08-07 05:33:47] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230807/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:33:47] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/cf/fe/b546a5f43a1c3e579bf3bf227abf7ec373798bef438be036370176c85315/selenium-custom-4.2.2.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/44/91/d0a6c1a7d10dd6e1702c1fd3183b71c432fd023ee7526556330bed9b383d/astx-0.2.0.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/e4/42/9d8b92f8f32744ee4066546e2a97bdaa0ff112ae7f04b94f579846ec946e/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl
+[2023-08-07 05:33:47] INFO root fetch - processPackages [torchmtl]: Downloading https://files.pythonhosted.org/packages/2c/9d/1dfb2a8645db32299c9b42e9376f198ddade0ed0721a176c97cfb9173fbb/torchmtl-0.1.9.tar.gz
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2023-08-07 05:33:47] INFO root fetch - processPackages [astx]: executing diffoscope
+[2023-08-07 05:33:47] INFO root fetch - processPackages [astx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astx-0.1.0.tar.gz tmp/astx-0.2.0.tar.gz --markdown 20230807/a/astx/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 05:33:47] INFO root fetch - processPackages [selenium-custom]: executing diffoscope
+[2023-08-07 05:33:47] INFO root fetch - processPackages [selenium-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-custom-4.2.1.tar.gz tmp/selenium-custom-4.2.2.tar.gz --markdown 20230807/s/selenium-custom/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-08-07 05:33:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-helpdesk-mgmt/16.0.1.3.0-16.0.1.3.0.1/diff.md --exclude *.pyd
+[2023-08-07 05:33:47] INFO root fetch - processPackages [torchmtl]: executing diffoscope
+[2023-08-07 05:33:47] INFO root fetch - processPackages [torchmtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmtl-0.1.8.tar.gz tmp/torchmtl-0.1.9.tar.gz --markdown 20230807/t/torchmtl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 05:33:47] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/47/42/89739c0620ba0bc5d738eeeec6134d52395c7288262cbf95f295e539eb8f/fluidsdk-0.4.6.tar.gz
+[2023-08-07 05:33:48] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-08-07 05:33:48] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/diff.md --exclude *.pyd
+[2023-08-07 05:33:48] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.8-py3-none-any.whl.zip]
+[2023-08-07 05:33:48] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.9.tar.gz]
+[2023-08-07 05:33:48] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-08-07 05:33:48] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-08-07 05:33:48] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.4.5.tar.gz tmp/fluidsdk-0.4.6.tar.gz --markdown 20230807/f/fluidsdk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-07 05:33:48] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.1.0.tar.gz]
+[2023-08-07 05:33:48] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.2.0.tar.gz]
+[2023-08-07 05:33:48] INFO root fetch - main [MainThread]: End processing [astx]: success
+[2023-08-07 05:33:48] INFO root fetch - processPackages [torchmtl]: Remove: archive file [/home/abi/fetcher/tmp/torchmtl-0.1.8.tar.gz]
+[2023-08-07 05:33:48] INFO root fetch - processPackages [torchmtl]: Remove: archive file [/home/abi/fetcher/tmp/torchmtl-0.1.9.tar.gz]
+[2023-08-07 05:33:48] INFO root fetch - main [MainThread]: End processing [torchmtl]: success
+[2023-08-07 05:33:49] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-08-07 05:33:49] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2023-08-07 05:33:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-08-07 05:33:49] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.1.tar.gz]
+[2023-08-07 05:33:49] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.2.tar.gz]
+[2023-08-07 05:33:49] INFO root fetch - main [MainThread]: End processing [selenium-custom]: success
+[2023-08-07 05:33:49] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2023-08-07 05:33:49] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2023-08-07 05:33:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-08-07 05:33:53] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.5.tar.gz]
+[2023-08-07 05:33:53] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.6.tar.gz]
+[2023-08-07 05:33:53] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-08-07 05:33:53] INFO root fetch - main [MainThread]: Store serial: [19200115]
