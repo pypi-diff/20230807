@@ -8618,3 +8618,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:29:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230807.tar.gz]
 [2023-08-07 08:29:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-08-07 08:29:03] INFO root fetch - main [MainThread]: Store serial: [19201230]
+[2023-08-07 08:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201230]
+[2023-08-07 08:34:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytrend
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypymedia
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FeinCMS
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-ci
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SeedrClient
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subtraction-package
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cheapcone
+[2023-08-07 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-07 08:34:14] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.7b28] Old Version: [0.0.7b27]
+[2023-08-07 08:34:14] WARNING root fetch - processPackages [cheapcone]: Skipping, unable to determine old version
+[2023-08-07 08:34:14] INFO root fetch - processPackages [cheapcone]: Start processing: charidotella
+[2023-08-07 08:34:14] INFO root fetch - main [MainThread]: End processing [cheapcone] error
+[2023-08-07 08:34:14] INFO root fetch - processPackages [hypymedia]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 08:34:14] WARNING root fetch - processPackages [subtraction-package]: Skipping, unable to determine old version
+[2023-08-07 08:34:14] INFO root fetch - processPackages [subtraction-package]: Start processing: passwordless-38
+[2023-08-07 08:34:14] INFO root fetch - main [MainThread]: End processing [subtraction-package] error
+[2023-08-07 08:34:14] INFO root fetch - processPackages [SeedrClient]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [FeinCMS]: New version: [23.8.0] Old Version: [23.1.0]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/22/46/e4f3d9daedf8a581b255e9ea5aac945242efe3b60bde96f9d500e5f35f06/hatch_ci-0.0.7b27.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [findmyorder]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a3/05/f4050bdfd14ae29f479cfdaa0f44470c51ee42dedc68b4f72e75b6f3ab72/hypymedia-0.1.7.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [charidotella]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [passwordless-38]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 08:34:14] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/55/11/d5f60121b339b6bad1a9495d09822215b873b49661549cc8b26c3a4a9a6c/findmyorder-1.7.7.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/71/af/003ba315d2682142bea332bd4a28623bd120f86e5155650ae0649eba6d26/SeedrClient-0.1.4.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/50/b6/2ac374929e0e72efb3ec3b9751db4c60f3f5d2cf678ed9e926fcedd11ce5/FeinCMS-23.1.0.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/d8/b3/5452d35fcefc7a71fc172a1bc14a9dc79513cde63e37a47924fcc8a7d358/charidotella-2.1.1.tar.gz
+[2023-08-07 08:34:14] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f1/eb/0c1d2a292851ded8ad68e0c9477c32219ce044c9d663d1f9d1f797908c9a/hypymedia-0.1.8.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [passwordless-38]: Downloading https://files.pythonhosted.org/packages/8e/00/4738cc16d2383095ea2ad262074a07767df2ae8e4de819909e44321e7f37/passwordless-38-0.0.1.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/79/47/224e799a3c6b9003e087d8bcdc0af206ada4995876955e9015a2db5f56a3/hatch_ci-0.0.7b28.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/76/fa/e2d0720c723c9d6b9a5d49be5b1c636f6b9196468f1ebd625a035ba48841/findmyorder-1.7.8.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.7.tar.gz tmp/hypymedia-0.1.8.tar.gz --markdown 20230807/h/hypymedia/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230807/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.7b27.tar.gz tmp/hatch_ci-0.0.7b28.tar.gz --markdown 20230807/h/hatch-ci/0.0.7b27-0.0.7b28/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230807/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/05/02/d19c6c8f95953c2cc5225fa52785f6d22238d05ab36a5667667eeb050b4d/SeedrClient-0.1.5.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/9a/50/149d48f7a67473b0cb058e70a529080e61b7745dc7469821d82f8f2490f3/FeinCMS-23.8.0.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.7.tar.gz tmp/findmyorder-1.7.8.tar.gz --markdown 20230807/f/findmyorder/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/39/d3/355fe67f6f4d2cd5ecf47a0d9663de17d66f8dbcfabd499903f81f6a1193/charidotella-2.1.2.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [passwordless-38]: Downloading https://files.pythonhosted.org/packages/21/3c/64ee0f9759b102a28542d2cbebfbf05989cac2aa17775ee8688918d49038/passwordless-38-0.0.2.tar.gz
+[2023-08-07 08:34:15] INFO root fetch - processPackages [SeedrClient]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [SeedrClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeedrClient-0.1.4.tar.gz tmp/SeedrClient-0.1.5.tar.gz --markdown 20230807/S/SeedrClient/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [FeinCMS]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [FeinCMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeinCMS-23.1.0.tar.gz tmp/FeinCMS-23.8.0.tar.gz --markdown 20230807/F/FeinCMS/23.1.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 08:34:15] INFO root fetch - processPackages [passwordless-38]: executing diffoscope
+[2023-08-07 08:34:15] INFO root fetch - processPackages [passwordless-38]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordless-38-0.0.1.tar.gz tmp/passwordless-38-0.0.2.tar.gz --markdown 20230807/p/passwordless-38/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 08:34:16] INFO root fetch - processPackages [charidotella]: executing diffoscope
+[2023-08-07 08:34:16] INFO root fetch - processPackages [charidotella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charidotella-2.1.1.tar.gz tmp/charidotella-2.1.2.tar.gz --markdown 20230807/c/charidotella/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-07 08:34:16] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.7.tar.gz]
+[2023-08-07 08:34:16] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.8.tar.gz]
+[2023-08-07 08:34:16] INFO root fetch - processPackages [hypymedia]: Start processing: vellum-ai
+[2023-08-07 08:34:16] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [talkytrend]: Start processing: vijay-test-poetry-1
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-08-07 08:34:17] WARNING root fetch - processPackages [vijay-test-poetry-1]: Skipping, unable to determine old version
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1] error
+[2023-08-07 08:34:17] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-08-07 08:34:17] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.4.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.5.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [SeedrClient]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.7.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.8.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [passwordless-38]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-38-0.0.1.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [passwordless-38]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-38-0.0.2.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [passwordless-38]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-08-07 08:34:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b27.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b28.tar.gz]
+[2023-08-07 08:34:17] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 08:34:17] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-08-07 08:34:17] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230807/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 08:34:18] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/FeinCMS-23.1.0.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/FeinCMS-23.8.0.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - main [MainThread]: End processing [FeinCMS]: success
+[2023-08-07 08:34:18] INFO root fetch - processPackages [charidotella]: Remove: archive file [/home/abi/fetcher/tmp/charidotella-2.1.1.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - processPackages [charidotella]: Remove: archive file [/home/abi/fetcher/tmp/charidotella-2.1.2.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - main [MainThread]: End processing [charidotella]: success
+[2023-08-07 08:34:18] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-08-07 08:34:18] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-08-07 08:34:18] INFO root fetch - main [MainThread]: Store serial: [19201311]
