@@ -22907,3 +22907,135 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:26:31] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.9.tar.gz]
 [2023-08-07 17:26:31] INFO root fetch - main [MainThread]: End processing [genefeast]: success
 [2023-08-07 17:26:31] INFO root fetch - main [MainThread]: Store serial: [19207288]
+[2023-08-07 17:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207288]
+[2023-08-07 17:31:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycode
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: littlefs-python
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-helper
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-order-line-menu
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clr-loader
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tvscreener
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-editor
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-editor-dev
+[2023-08-07 17:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-08-07 17:31:40] INFO root fetch - processPackages [cycode]: New version: [1.0.1.dev1] Old Version: [1.0.0]
+[2023-08-07 17:31:40] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 17:31:40] WARNING root fetch - processPackages [music-helper]: Skipping, unable to determine old version
+[2023-08-07 17:31:40] INFO root fetch - processPackages [music-helper]: Start processing: jlogr
+[2023-08-07 17:31:40] INFO root fetch - main [MainThread]: End processing [music-helper] error
+[2023-08-07 17:31:40] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 17:31:40] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-07 17:31:40] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/f1/29/5225ef43f33e036a01f11a236c66f9247a6ec45c04177692a7ea6de42ee5/cycode-1.0.0.tar.gz
+[2023-08-07 17:31:41] WARNING root fetch - processPackages [tvscreener]: Skipping, unable to determine old version
+[2023-08-07 17:31:41] INFO root fetch - processPackages [tvscreener]: Start processing: langchain
+[2023-08-07 17:31:41] INFO root fetch - main [MainThread]: End processing [tvscreener] error
+[2023-08-07 17:31:41] INFO root fetch - processPackages [clr-loader]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [littlefs-python]: New version: [0.6.2] Old Version: [0.5.0]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [jlogr]: New version: [0.1.205] Old Version: [0.1.204]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [clr-loader]: Downloading https://files.pythonhosted.org/packages/9f/e1/f4cc4f8df500c94efd9ea4b1f24435150951ef7a861a1015897eb583e36b/clr_loader-0.2.5.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/31/b2/002a67af0947c21e4ecc549c7e43ce4f724dda179091374547970364b3f4/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl
+[2023-08-07 17:31:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [littlefs-python]: Downloading https://files.pythonhosted.org/packages/b0/a2/6acab6c091912b50c67950b0a1daa82afddcfa4606ca70e3a3ab858f26e9/littlefs-python-0.5.0.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/76/b4/10e2785e7efc49b8ba53f0a5a0df642baf1f73de4edb7e630a01f630082c/jlogr-0.1.204.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/95/2a/4f5d6922a146be3f09f946901cf8b058c6741191dc80f0e2aa8693701040/cycode-1.0.1.dev1.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-08-07 17:31:41] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.0.0.tar.gz tmp/cycode-1.0.1.dev1.tar.gz --markdown 20230807/c/cycode/1.0.0-1.0.1.dev1/diff.md --exclude *.pyd
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230807/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 17:31:41] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [clr-loader]: Downloading https://files.pythonhosted.org/packages/e1/e6/745f553e29969e7c944bdeed073b93241f84b9471d1ad34d78ab12b49fab/clr_loader-0.2.6.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/85/99/9a2d35064bed6f8e2a9f024f91847a6ab49686ac26a397f5f2004c415eca/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl
+[2023-08-07 17:31:41] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/70/74/68b518804a7c549d81c64c2b6a487c27d40d3daee45f053ca535a4a2369a/jlogr-0.1.205.tar.gz
+[2023-08-07 17:31:41] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-08-07 17:31:41] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230807/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [clr-loader]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [clr-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clr_loader-0.2.5.tar.gz tmp/clr_loader-0.2.6.tar.gz --markdown 20230807/c/clr-loader/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [littlefs-python]: Downloading https://files.pythonhosted.org/packages/24/2d/e5b34252a8f168f3d3c43b8c39929e3236ee76e92429a664054065473872/littlefs-python-0.6.2.tar.gz
+[2023-08-07 17:31:42] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-08-07 17:31:42] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230807/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.204.tar.gz tmp/jlogr-0.1.205.tar.gz --markdown 20230807/j/jlogr/0.1.204-0.1.205/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-sale-order-line-menu/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-08-07 17:31:42] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230807/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230807/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-08-07 17:31:42] INFO root fetch - processPackages [littlefs-python]: executing diffoscope
+[2023-08-07 17:31:42] INFO root fetch - processPackages [littlefs-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/littlefs-python-0.5.0.tar.gz tmp/littlefs-python-0.6.2.tar.gz --markdown 20230807/l/littlefs-python/0.5.0-0.6.2/diff.md --exclude *.pyd
+[2023-08-07 17:31:43] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [je-editor]: Start processing: bellows
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.0.0.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.0.1.dev1.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [cycode]: Start processing: edx-enterprise
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [bellows]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [hagrid]: Start processing: fontmake
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [edx-enterprise]: New version: [4.0.9] Old Version: [4.0.7]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [bellows]: Downloading https://files.pythonhosted.org/packages/76/8a/92bc389564609e89b14df7a0f249406d90cdf45036e4dc8239a9f5a37036/bellows-0.6.0.tar.gz
+[2023-08-07 17:31:43] INFO root fetch - processPackages [fontmake]: New version: [3.7.1] Old Version: [3.7.0b3]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.204.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.205.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [jlogr]: Start processing: jourdanhub
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Start processing: simplebardapi
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-menu]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [clr-loader]: Remove: archive file [/home/abi/fetcher/tmp/clr_loader-0.2.5.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [clr-loader]: Remove: archive file [/home/abi/fetcher/tmp/clr_loader-0.2.6.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [clr-loader]: success
+[2023-08-07 17:31:43] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-08-07 17:31:43] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-08-07 17:31:44] WARNING root fetch - processPackages [simplebardapi]: Skipping, unable to determine old version
+[2023-08-07 17:31:44] INFO root fetch - main [MainThread]: End processing [simplebardapi] error
+[2023-08-07 17:31:44] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/9a/66/c9bdb12432992276d807c591735eef504ed7fa36f1d0605c8ef4547bff8e/edx-enterprise-4.0.7.tar.gz
+[2023-08-07 17:31:44] WARNING root fetch - processPackages [jourdanhub]: Skipping, unable to determine old version
+[2023-08-07 17:31:44] INFO root fetch - main [MainThread]: End processing [jourdanhub] error
+[2023-08-07 17:31:44] INFO root fetch - processPackages [fontmake]: Downloading https://files.pythonhosted.org/packages/7b/e6/4274be635e7eab5d99eb70603b1d3ab83d8ea39b66816ac52cb64116e1a0/fontmake-3.7.0b3.zip
+[2023-08-07 17:31:44] INFO root fetch - processPackages [bellows]: Downloading https://files.pythonhosted.org/packages/2a/f1/22e8f99e4ecdb6677c6965caa375e9f67608b5ec3f506a96a4b70ccc367e/bellows-0.7.0.tar.gz
+[2023-08-07 17:31:44] INFO root fetch - processPackages [bellows]: executing diffoscope
+[2023-08-07 17:31:44] INFO root fetch - processPackages [bellows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellows-0.6.0.tar.gz tmp/bellows-0.7.0.tar.gz --markdown 20230807/b/bellows/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-07 17:31:44] INFO root fetch - processPackages [fontmake]: Downloading https://files.pythonhosted.org/packages/e3/cb/b471610e56bb7bf18125bcc7a31c078185fc660444b6097fe9eaba27db74/fontmake-3.7.1.zip
+[2023-08-07 17:31:44] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/41/a1/ea3afc062f41c5e90588c8f8b1d00da1728a54d47e0bf2ea05d1a7ed31f7/edx-enterprise-4.0.9.tar.gz
+[2023-08-07 17:31:44] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-08-07 17:31:44] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-08-07 17:31:44] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-08-07 17:31:44] INFO root fetch - processPackages [fontmake]: executing diffoscope
+[2023-08-07 17:31:44] INFO root fetch - processPackages [fontmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontmake-3.7.0b3.zip tmp/fontmake-3.7.1.zip --markdown 20230807/f/fontmake/3.7.0b3-3.7.1/diff.md --exclude *.pyd
+[2023-08-07 17:31:44] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-08-07 17:31:44] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.0.7.tar.gz tmp/edx-enterprise-4.0.9.tar.gz --markdown 20230807/e/edx-enterprise/4.0.7-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:31:44] INFO root fetch - processPackages [littlefs-python]: Remove: archive file [/home/abi/fetcher/tmp/littlefs-python-0.5.0.tar.gz]
+[2023-08-07 17:31:44] INFO root fetch - processPackages [littlefs-python]: Remove: archive file [/home/abi/fetcher/tmp/littlefs-python-0.6.2.tar.gz]
+[2023-08-07 17:31:44] INFO root fetch - main [MainThread]: End processing [littlefs-python]: success
+[2023-08-07 17:31:45] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-08-07 17:31:45] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-08-07 17:31:45] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-08-07 17:31:45] INFO root fetch - processPackages [bellows]: Remove: archive file [/home/abi/fetcher/tmp/bellows-0.6.0.tar.gz]
+[2023-08-07 17:31:45] INFO root fetch - processPackages [bellows]: Remove: archive file [/home/abi/fetcher/tmp/bellows-0.7.0.tar.gz]
+[2023-08-07 17:31:45] INFO root fetch - main [MainThread]: End processing [bellows]: success
+[2023-08-07 17:31:47] INFO root fetch - processPackages [fontmake]: Remove: archive file [/home/abi/fetcher/tmp/fontmake-3.7.0b3.zip]
+[2023-08-07 17:31:47] INFO root fetch - processPackages [fontmake]: Remove: archive file [/home/abi/fetcher/tmp/fontmake-3.7.1.zip]
+[2023-08-07 17:31:47] INFO root fetch - main [MainThread]: End processing [fontmake]: success
+[2023-08-07 17:31:48] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.7.tar.gz]
+[2023-08-07 17:31:48] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.9.tar.gz]
+[2023-08-07 17:31:48] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-08-07 17:31:48] INFO root fetch - main [MainThread]: Store serial: [19207397]
