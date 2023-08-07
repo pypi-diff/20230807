@@ -4924,3 +4924,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 03:33:14] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
 [2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [shady-island]: success
 [2023-08-07 03:33:14] INFO root fetch - main [MainThread]: Store serial: [19199510]
+[2023-08-07 03:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199510]
+[2023-08-07 03:38:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HaploDynamics
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytiva
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formkit-ninja
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ofscraper
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gentopia
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-08-07 03:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protonmail-api-client
+[2023-08-07 03:38:22] WARNING root fetch - processPackages [protonmail-api-client]: Skipping, unable to determine old version
+[2023-08-07 03:38:22] INFO root fetch - main [MainThread]: End processing [protonmail-api-client] error
+[2023-08-07 03:38:23] INFO root fetch - processPackages [ofscraper]: New version: [3.0] Old Version: [2.7.9]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b4] Old Version: [0.1b3]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [gentopia]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/40/f8/9d11c48ba4f944a7c5f69629bae3b4d8548230970873e828fcea27d61aec/ofscraper-2.7.9.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [pytiva]: New version: [2023.8.6] Old Version: [2023.5.5]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [formkit-ninja]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-08-07 03:38:23] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/ff/b7/ee3221356d66d5cd16d9310fc30dbb3fe4efcc4ee30b8c1e1c6acc36a58e/HaploDynamics-0.1b3.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [gentopia]: Downloading https://files.pythonhosted.org/packages/a3/1d/728a1b1a8fa868601e3a036149cb81fec041a7eeebb0bc1d7fba428e6631/gentopia-0.0.2.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [pytiva]: Downloading https://files.pythonhosted.org/packages/00/a1/39eb12b7229704265252c4e30017f35372307d5271b2ff4d88352fcd952d/pytiva-2023.5.5.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [formkit-ninja]: Downloading https://files.pythonhosted.org/packages/ee/bf/980b0119ed2a3947fde9167749277bcf0c653f523f4e296f64d6b2b2947a/formkit_ninja-0.4.0a0.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f8/36/8815e21ddbe3f0de1f9be48d963f3830f7e351553f3aec62bed7abcc4df9/ofscraper-3.0.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/21/e6/544f0527a989ee9d1b64855194c3abb656f5683667df48a87f0aec8cc6c7/HaploDynamics-0.1b4.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 03:38:23] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.7.9.tar.gz tmp/ofscraper-3.0.tar.gz --markdown 20230807/o/ofscraper/2.7.9-3.0/diff.md --exclude *.pyd
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230807/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:38:23] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 03:38:23] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b3.tar.gz tmp/HaploDynamics-0.1b4.tar.gz --markdown 20230807/H/HaploDynamics/0.1b3-0.1b4/diff.md --exclude *.pyd
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230807/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-07 03:38:23] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230807/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:38:23] INFO root fetch - processPackages [formkit-ninja]: Downloading https://files.pythonhosted.org/packages/2d/16/f8427b652a2093abf492bfd8b0d1a92484f29f6c130b06ccdd54d2b05baf/formkit_ninja-0.4.0a1.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [pytiva]: Downloading https://files.pythonhosted.org/packages/e0/b4/a12b5ea2a96f08c93780e92f67e38fc618b0abd401fd5dfa8825d61b3824/pytiva-2023.8.6.tar.gz
+[2023-08-07 03:38:23] INFO root fetch - processPackages [gentopia]: Downloading https://files.pythonhosted.org/packages/60/4c/962ce2daa571c8f4f3789cf7ff9a262864b9d1403c838846df2730acd7b2/gentopia-0.0.3.tar.gz
+[2023-08-07 03:38:24] INFO root fetch - processPackages [formkit-ninja]: executing diffoscope
+[2023-08-07 03:38:24] INFO root fetch - processPackages [formkit-ninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formkit_ninja-0.4.0a0.tar.gz tmp/formkit_ninja-0.4.0a1.tar.gz --markdown 20230807/f/formkit-ninja/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-08-07 03:38:24] INFO root fetch - processPackages [gentopia]: executing diffoscope
+[2023-08-07 03:38:24] INFO root fetch - processPackages [gentopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentopia-0.0.2.tar.gz tmp/gentopia-0.0.3.tar.gz --markdown 20230807/g/gentopia/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 03:38:24] INFO root fetch - processPackages [pytiva]: executing diffoscope
+[2023-08-07 03:38:24] INFO root fetch - processPackages [pytiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiva-2023.5.5.tar.gz tmp/pytiva-2023.8.6.tar.gz --markdown 20230807/p/pytiva/2023.5.5-2023.8.6/diff.md --exclude *.pyd
+[2023-08-07 03:38:25] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b3.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b4.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [formkit-ninja]: Remove: archive file [/home/abi/fetcher/tmp/formkit_ninja-0.4.0a0.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [formkit-ninja]: Remove: archive file [/home/abi/fetcher/tmp/formkit_ninja-0.4.0a1.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [formkit-ninja]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [pytiva]: Remove: archive file [/home/abi/fetcher/tmp/pytiva-2023.5.5.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [pytiva]: Remove: archive file [/home/abi/fetcher/tmp/pytiva-2023.8.6.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [pytiva]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.9.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 03:38:25] INFO root fetch - processPackages [gentopia]: Remove: archive file [/home/abi/fetcher/tmp/gentopia-0.0.2.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - processPackages [gentopia]: Remove: archive file [/home/abi/fetcher/tmp/gentopia-0.0.3.tar.gz]
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [gentopia]: success
+[2023-08-07 03:38:25] INFO root fetch - main [MainThread]: Store serial: [19199538]
