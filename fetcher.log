@@ -15275,3 +15275,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:56:22] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
 [2023-08-07 11:56:22] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
 [2023-08-07 11:56:22] INFO root fetch - main [MainThread]: Store serial: [19203832]
+[2023-08-07 12:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203832]
+[2023-08-07 12:01:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LAM
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nts-everdrone
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invision-client-python
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mknotebooks
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knifes
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-data
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mercury
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-common
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covmatic-robotmanager
+[2023-08-07 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agenta
+[2023-08-07 12:01:32] INFO root fetch - processPackages [invision-client-python]: New version: [1.3.0b1] Old Version: [1.0.0]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [mknotebooks]: New version: [0.7.1.post0.dev98] Old Version: [0.7.1.post0.dev96]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [knifes]: New version: [0.8.94] Old Version: [0.8.93]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [nts-everdrone]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [covmatic-robotmanager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [mercury]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [invision-client-python]: Downloading https://files.pythonhosted.org/packages/b2/9f/c3185275034c7e762beff835d59634afcc491e34e6606de8e0ec4d5e8b27/invision-client-python-1.0.0.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [agenta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [LAM]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/06/73/4daa9d40fe70e75126a464ec657623aa8ce1937aabf57c9835bed0d1dbf7/mknotebooks-0.7.1.post0.dev96-py3-none-any.whl
+[2023-08-07 12:01:32] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-07 12:01:32] INFO root fetch - processPackages [nts-everdrone]: Downloading https://files.pythonhosted.org/packages/a5/e1/243e3ae91d87f3018710eb7ec0fa3e717d147669f486fb8a392d5a6bfc70/nts-everdrone-1.1.9.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/54/58/906daf05d6d7fdefc2cc3365e5f3fda688c18bf8435ae83a345838b7be84/knifes-0.8.93.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [covmatic-robotmanager]: Downloading https://files.pythonhosted.org/packages/03/ef/58fab9146491c620bf0c72a0bac743db8a52510b8655bfed549794947a8a/covmatic_robotmanager-0.0.3.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/53/18/b07d94989ee90131d3613e7d23c875ec5ec84a29c347f6d385cc6537aa25/mercury-2.3.1.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [LAM]: Downloading https://files.pythonhosted.org/packages/c6/76/f7177abe1e12ee04f33a0719730e09fed3c81f9556071c0c0c762831a5ab/LAM-0.4.6.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-08-07 12:01:32] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/a6/28/44e30456843fe09def7d1b572c110a191e767c74111bb9ed7e4b12652572/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl
+[2023-08-07 12:01:32] INFO root fetch - processPackages [invision-client-python]: Downloading https://files.pythonhosted.org/packages/b8/f7/8a216b9b9981d82c70642c1da5a4a2eecf354d7219d7f7abf8cb70bd35be/invision-client-python-1.3.0b1.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [mknotebooks]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [mknotebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknotebooks-0.7.1.post0.dev96-py3-none-any.whl.zip tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip --markdown 20230807/m/mknotebooks/0.7.1.post0.dev96-0.7.1.post0.dev98/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [nts-everdrone]: Downloading https://files.pythonhosted.org/packages/ad/62/2342bbee09ecefcc02ca7a5042a06b3784caf6a04bb397ab74948c6e9a37/nts-everdrone-1.2.0.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [invision-client-python]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [invision-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invision-client-python-1.0.0.tar.gz tmp/invision-client-python-1.3.0b1.tar.gz --markdown 20230807/i/invision-client-python/1.0.0-1.3.0b1/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a1/f5c1eb9f8187ae9a764509b4089ac6ed188c31a48d597c870666d26d0c6f/agenta-0.1.9.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e6/c5/2c28ad9d24faa27879835530c4d81a17aff442f020a2095a0b3a75fe317b/knifes-0.8.94.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [covmatic-robotmanager]: Downloading https://files.pythonhosted.org/packages/aa/d4/7cee0935977479d15e35f66aef5ce50b31da67a4a64906400dc55986a962/covmatic_robotmanager-0.0.4.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [nts-everdrone]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [nts-everdrone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nts-everdrone-1.1.9.tar.gz tmp/nts-everdrone-1.2.0.tar.gz --markdown 20230807/n/nts-everdrone/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.8.tar.gz tmp/agenta-0.1.9.tar.gz --markdown 20230807/a/agenta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [covmatic-robotmanager]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [covmatic-robotmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covmatic_robotmanager-0.0.3.tar.gz tmp/covmatic_robotmanager-0.0.4.tar.gz --markdown 20230807/c/covmatic-robotmanager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/cb/4e/047c4c34630da3cd06769bc8ca554dde067a25931a5604561df4668e4183/mercury-2.3.2.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [LAM]: Downloading https://files.pythonhosted.org/packages/78/2b/33b6237588d80bef1b35be0d9aaefbafff82aef8d3dc1f28c3c3047096f9/LAM-0.4.7.tar.gz
+[2023-08-07 12:01:33] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.93.tar.gz tmp/knifes-0.8.94.tar.gz --markdown 20230807/k/knifes/0.8.93-0.8.94/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230807/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230807/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [LAM]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [LAM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LAM-0.4.6.tar.gz tmp/LAM-0.4.7.tar.gz --markdown 20230807/L/LAM/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-07 12:01:33] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-08-07 12:01:33] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.3.1.tar.gz tmp/mercury-2.3.2.tar.gz --markdown 20230807/m/mercury/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-08-07 12:01:34] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.7.1.post0.dev96-py3-none-any.whl.zip]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [mknotebooks]: Start processing: mknotebooks
+[2023-08-07 12:01:34] INFO root fetch - main [MainThread]: End processing [mknotebooks]: success
+[2023-08-07 12:01:34] INFO root fetch - processPackages [mknotebooks]: New version: [0.8.0] Old Version: [0.7.1.post0.dev98]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [nts-everdrone]: Remove: archive file [/home/abi/fetcher/tmp/nts-everdrone-1.1.9.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [nts-everdrone]: Remove: archive file [/home/abi/fetcher/tmp/nts-everdrone-1.2.0.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - main [MainThread]: End processing [nts-everdrone]: success
+[2023-08-07 12:01:34] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/a6/28/44e30456843fe09def7d1b572c110a191e767c74111bb9ed7e4b12652572/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl
+[2023-08-07 12:01:34] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.9.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-08-07 12:01:34] INFO root fetch - processPackages [covmatic-robotmanager]: Remove: archive file [/home/abi/fetcher/tmp/covmatic_robotmanager-0.0.3.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [covmatic-robotmanager]: Remove: archive file [/home/abi/fetcher/tmp/covmatic_robotmanager-0.0.4.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - main [MainThread]: End processing [covmatic-robotmanager]: success
+[2023-08-07 12:01:34] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-08-07 12:01:34] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-08-07 12:01:35] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/54/40/2f69d9858c06d3fd9232fe7ead0c828cc3d64783edb98476782a7f125977/mknotebooks-0.8.0-py3-none-any.whl
+[2023-08-07 12:01:35] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-08-07 12:01:35] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.93.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.94.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-08-07 12:01:35] INFO root fetch - processPackages [invision-client-python]: Remove: archive file [/home/abi/fetcher/tmp/invision-client-python-1.0.0.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - processPackages [invision-client-python]: Remove: archive file [/home/abi/fetcher/tmp/invision-client-python-1.3.0b1.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - main [MainThread]: End processing [invision-client-python]: success
+[2023-08-07 12:01:35] INFO root fetch - processPackages [mknotebooks]: executing diffoscope
+[2023-08-07 12:01:35] INFO root fetch - processPackages [mknotebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip tmp/mknotebooks-0.8.0-py3-none-any.whl.zip --markdown 20230807/m/mknotebooks/0.7.1.post0.dev98-0.8.0/diff.md --exclude *.pyd
+[2023-08-07 12:01:35] INFO root fetch - processPackages [LAM]: Remove: archive file [/home/abi/fetcher/tmp/LAM-0.4.6.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - processPackages [LAM]: Remove: archive file [/home/abi/fetcher/tmp/LAM-0.4.7.tar.gz]
+[2023-08-07 12:01:35] INFO root fetch - main [MainThread]: End processing [LAM]: success
+[2023-08-07 12:01:36] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip]
+[2023-08-07 12:01:36] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0-py3-none-any.whl.zip]
+[2023-08-07 12:01:36] INFO root fetch - main [MainThread]: End processing [mknotebooks]: success
+[2023-08-07 12:03:50] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.3.1.tar.gz]
+[2023-08-07 12:03:50] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.3.2.tar.gz]
+[2023-08-07 12:03:50] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-08-07 12:03:50] INFO root fetch - main [MainThread]: Store serial: [19203866]
