@@ -16391,3 +16391,152 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:47:08] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.9.0.tar.gz]
 [2023-08-07 12:47:08] INFO root fetch - main [MainThread]: End processing [mercuryclient]: success
 [2023-08-07 12:47:08] INFO root fetch - main [MainThread]: Store serial: [19204388]
+[2023-08-07 12:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204388]
+[2023-08-07 12:52:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survey-report-generator
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-cruddy-framework
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aggregationslib
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-text-input-dnd-sortable
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pertpy
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: traits
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-docstring-description
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tungstenkit
+[2023-08-07 12:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AiBot.py
+[2023-08-07 12:52:17] INFO root fetch - processPackages [aggregationslib]: New version: [0.0.252] Old Version: [0.0.251]
+[2023-08-07 12:52:17] WARNING root fetch - processPackages [AiBot.py]: Skipping, unable to determine old version
+[2023-08-07 12:52:17] INFO root fetch - processPackages [AiBot.py]: Start processing: myllm
+[2023-08-07 12:52:17] INFO root fetch - main [MainThread]: End processing [AiBot.py] error
+[2023-08-07 12:52:17] INFO root fetch - processPackages [pertpy]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [hatch-docstring-description]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-08-07 12:52:17] WARNING root fetch - processPackages [st-text-input-dnd-sortable]: Skipping, unable to determine old version
+[2023-08-07 12:52:17] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-07 12:52:17] INFO root fetch - main [MainThread]: End processing [st-text-input-dnd-sortable] error
+[2023-08-07 12:52:17] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [traits]: New version: [6.4.2] Old Version: [6.4.1]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [myllm]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [aggregationslib]: Downloading https://files.pythonhosted.org/packages/e6/80/55d0ec283c696a42eb7aaa6bc562e54a07b43a3930b52a08ce53dd7762d4/aggregationslib-0.0.251.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [hatch-docstring-description]: Downloading https://files.pythonhosted.org/packages/f0/9b/466b8be282e495cf9b06c718223197ae443c0ffdb88c28d4945cfc5b181b/hatch_docstring_description-1.0.1.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-08-07 12:52:17] INFO root fetch - processPackages [pertpy]: Downloading https://files.pythonhosted.org/packages/ca/3a/f29b4f6a8ec51bc7cfa7fd39c2e967799eca7f4f5f78ed971b9efd6493e8/pertpy-0.4.0.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 12:52:17] INFO root fetch - processPackages [traits]: Downloading https://files.pythonhosted.org/packages/ca/72/8d08717884ac41811c4cdbd5bce3101a3df64e0a1890aab7b1a1311c1f50/traits-6.4.1.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/29/51/806b962f94ef60223a438b90c38fa1e59c0c1e74654ec307d1299292cef7/myllm-1.1.0.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/62/50/371282e8571888cdcda7032e59677699c51fbcf14b8de9067e676ba9edbc/survey_report_generator-0.0.3.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/9e/9d/ba6adce1c5e221a88daa7b8590a6a91e439b64dfd480b4cf26ff4c485e1a/tungstenkit-0.1.6.tar.gz
+[2023-08-07 12:52:17] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [aggregationslib]: Downloading https://files.pythonhosted.org/packages/ae/46/393a6de93cff03aec94b9053c55ea6a89fb8af3adb46394696089177c53d/aggregationslib-0.0.252.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [hatch-docstring-description]: Downloading https://files.pythonhosted.org/packages/ea/44/a85563433f1e01efd5c681c8232b2c7517e58c6628954cb9555286094dcc/hatch_docstring_description-1.0.2.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pertpy]: Downloading https://files.pythonhosted.org/packages/8a/f5/8bc46a2eaf20a11bf9686b42204c9acdfce593ab0fa0a58c66218752cf0f/pertpy-0.5.0.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-08-07 12:52:18] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/3f/48/0730551a5a2c968cf8e5798526a6868ddcd32518288e61a1b3f6984d0264/myllm-1.2.0.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [aggregationslib]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [aggregationslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregationslib-0.0.251.tar.gz tmp/aggregationslib-0.0.252.tar.gz --markdown 20230807/a/aggregationslib/0.0.251-0.0.252/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [hatch-docstring-description]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [hatch-docstring-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_docstring_description-1.0.1.tar.gz tmp/hatch_docstring_description-1.0.2.tar.gz --markdown 20230807/h/hatch-docstring-description/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/5a/98/5792204b830667149f9db249c666abc3355170e9ebabaae1f9b0fe718469/tungstenkit-0.1.7.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pertpy]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pertpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertpy-0.4.0.tar.gz tmp/pertpy-0.5.0.tar.gz --markdown 20230807/p/pertpy/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [myllm]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [myllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-1.1.0.tar.gz tmp/myllm-1.2.0.tar.gz --markdown 20230807/m/myllm/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-07 12:52:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230807/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-08-07 12:52:18] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230807/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.6.tar.gz tmp/tungstenkit-0.1.7.tar.gz --markdown 20230807/t/tungstenkit/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 12:52:18] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/fd/f2/e53aa9afd334c4eb6c132342fc17af4d0a8e3d589ef7645aa8196738d72d/survey_report_generator-0.0.4.tar.gz
+[2023-08-07 12:52:19] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-07 12:52:19] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.3.tar.gz tmp/survey_report_generator-0.0.4.tar.gz --markdown 20230807/s/survey-report-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 12:52:19] INFO root fetch - processPackages [hatch-docstring-description]: Remove: archive file [/home/abi/fetcher/tmp/hatch_docstring_description-1.0.1.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [hatch-docstring-description]: Remove: archive file [/home/abi/fetcher/tmp/hatch_docstring_description-1.0.2.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [hatch-docstring-description]: Start processing: entity-type-local
+[2023-08-07 12:52:19] INFO root fetch - main [MainThread]: End processing [hatch-docstring-description]: success
+[2023-08-07 12:52:19] INFO root fetch - processPackages [aggregationslib]: Remove: archive file [/home/abi/fetcher/tmp/aggregationslib-0.0.251.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [aggregationslib]: Remove: archive file [/home/abi/fetcher/tmp/aggregationslib-0.0.252.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [aggregationslib]: Start processing: dcustat
+[2023-08-07 12:52:19] INFO root fetch - main [MainThread]: End processing [aggregationslib]: success
+[2023-08-07 12:52:19] INFO root fetch - processPackages [traits]: Downloading https://files.pythonhosted.org/packages/73/29/3c105ce8464a9993c1437a4922f3f9b48572cd49a49ff5180c4daf447426/traits-6.4.2.tar.gz
+[2023-08-07 12:52:19] INFO root fetch - processPackages [entity-type-local]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 12:52:19] WARNING root fetch - processPackages [dcustat]: Skipping, unable to determine old version
+[2023-08-07 12:52:19] INFO root fetch - processPackages [dcustat]: Start processing: eoshep
+[2023-08-07 12:52:19] INFO root fetch - main [MainThread]: End processing [dcustat] error
+[2023-08-07 12:52:19] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.1.0.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.0.tar.gz]
+[2023-08-07 12:52:19] INFO root fetch - processPackages [myllm]: Start processing: skcan-compare
+[2023-08-07 12:52:19] INFO root fetch - main [MainThread]: End processing [myllm]: success
+[2023-08-07 12:52:19] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1346] Old Version: [1.0.9.dev1344]
+[2023-08-07 12:52:20] WARNING root fetch - processPackages [skcan-compare]: Skipping, unable to determine old version
+[2023-08-07 12:52:20] INFO root fetch - processPackages [skcan-compare]: Start processing: grblhud
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [skcan-compare] error
+[2023-08-07 12:52:20] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [fastapi-cruddy-framework]: Start processing: sotrans-fastapi-keycloak
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-08-07 12:52:20] INFO root fetch - processPackages [entity-type-local]: Downloading https://files.pythonhosted.org/packages/7f/7c/9a2bda6524f4f39f1e9046a51288ed1713d8d7212ca14d6f0d9de6b276a1/entity-type-local-0.0.5.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [grblhud]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: calfcv
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-07 12:52:20] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/2b/2d/67cb59487b240821110855505de508b73d0ba3407372b12587214a0c08b6/eoshep-1.0.9.dev1344-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:52:20] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/d8/39/c2e5445905375a0d967eca8d3e04bda1b3e3824bccc235ec8d51f61d727c/sotrans_fastapi_keycloak-0.0.8.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pertpy]: Remove: archive file [/home/abi/fetcher/tmp/pertpy-0.4.0.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pertpy]: Remove: archive file [/home/abi/fetcher/tmp/pertpy-0.5.0.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [pertpy]: Start processing: dstrial1
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [pertpy]: success
+[2023-08-07 12:52:20] WARNING root fetch - processPackages [dstrial1]: Skipping, unable to determine old version
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [dstrial1] error
+[2023-08-07 12:52:20] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [grblhud]: Downloading https://files.pythonhosted.org/packages/14/01/aacf9a22d494dd1a258d379d496ce31f5bb796b0f34d8188a0c91b5775cc/grblhud-1.1.0.tar.gz
+[2023-08-07 12:52:20] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78270924>=10485760
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-08-07 12:52:20] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-08-07 12:52:20] INFO root fetch - processPackages [entity-type-local]: Downloading https://files.pythonhosted.org/packages/32/3b/dfceb3433aedf5d33ff9e412a9abf1d0d959539fd99d43e2453b0de679de/entity-type-local-0.0.6.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.3.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.4.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-07 12:52:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/22/ac/715eff348a6b899fe8fa552656eab2ab8a54d523543a4829f937df74ce34/sotrans_fastapi_keycloak-0.0.9.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [grblhud]: Downloading https://files.pythonhosted.org/packages/4d/02/a4841491215175f9baeca5fee85d9a4ff154708f37902660df1c9596f303/grblhud-1.2.0.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [entity-type-local]: executing diffoscope
+[2023-08-07 12:52:20] INFO root fetch - processPackages [entity-type-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity-type-local-0.0.5.tar.gz tmp/entity-type-local-0.0.6.tar.gz --markdown 20230807/e/entity-type-local/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 12:52:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-07 12:52:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz --markdown 20230807/s/sotrans-fastapi-keycloak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:52:20] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.6.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.7.tar.gz]
+[2023-08-07 12:52:20] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-08-07 12:52:20] INFO root fetch - processPackages [grblhud]: executing diffoscope
+[2023-08-07 12:52:20] INFO root fetch - processPackages [grblhud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grblhud-1.1.0.tar.gz tmp/grblhud-1.2.0.tar.gz --markdown 20230807/g/grblhud/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 12:52:20] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 12:52:20] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 12:52:20] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 12:52:20] INFO root fetch - processPackages [traits]: executing diffoscope
+[2023-08-07 12:52:20] INFO root fetch - processPackages [traits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traits-6.4.1.tar.gz tmp/traits-6.4.2.tar.gz --markdown 20230807/t/traits/6.4.1-6.4.2/diff.md --exclude *.pyd
+[2023-08-07 12:52:21] INFO root fetch - processPackages [entity-type-local]: Remove: archive file [/home/abi/fetcher/tmp/entity-type-local-0.0.5.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - processPackages [entity-type-local]: Remove: archive file [/home/abi/fetcher/tmp/entity-type-local-0.0.6.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - main [MainThread]: End processing [entity-type-local]: success
+[2023-08-07 12:52:21] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-07 12:52:21] INFO root fetch - processPackages [grblhud]: Remove: archive file [/home/abi/fetcher/tmp/grblhud-1.1.0.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - processPackages [grblhud]: Remove: archive file [/home/abi/fetcher/tmp/grblhud-1.2.0.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - main [MainThread]: End processing [grblhud]: success
+[2023-08-07 12:52:21] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 12:52:21] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 12:52:25] INFO root fetch - processPackages [traits]: Remove: archive file [/home/abi/fetcher/tmp/traits-6.4.1.tar.gz]
+[2023-08-07 12:52:25] INFO root fetch - processPackages [traits]: Remove: archive file [/home/abi/fetcher/tmp/traits-6.4.2.tar.gz]
+[2023-08-07 12:52:25] INFO root fetch - main [MainThread]: End processing [traits]: success
+[2023-08-07 12:52:25] INFO root fetch - main [MainThread]: Store serial: [19204451]
