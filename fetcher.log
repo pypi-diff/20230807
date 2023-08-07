@@ -14262,3 +14262,135 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:17:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-08-07 11:17:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-08-07 11:17:20] INFO root fetch - main [MainThread]: Store serial: [19203428]
+[2023-08-07 11:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203428]
+[2023-08-07 11:22:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdfobj
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-api
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlsuite
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: namekoplus
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: octo-api-client
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scilightcon
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: processoptim
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: berryworld
+[2023-08-07 11:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langBOTs
+[2023-08-07 11:22:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [scilightcon]: New version: [0.2.0.post2] Old Version: [0.2.0.post1]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [processoptim]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [via-api]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [mlsuite]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [octo-api-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 11:22:29] WARNING root fetch - processPackages [rdfobj]: Skipping, unable to determine old version
+[2023-08-07 11:22:29] INFO root fetch - processPackages [rdfobj]: Start processing: tensorflow-ml
+[2023-08-07 11:22:29] INFO root fetch - main [MainThread]: End processing [rdfobj] error
+[2023-08-07 11:22:29] INFO root fetch - processPackages [langBOTs]: New version: [0.0.31] Old Version: [0.0.2]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/a7/3c/7507f1c471e76058b8d29a1bd2f3c054d314b233fdc1faebc88d5d0d36ca/scilightcon-0.2.0.post1.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/d3/51/deb46a6435ede4670abd6e21cf00b1da5a9aa34af29c669f20d0242b9924/processoptim-0.2.8-py3-none-any.whl
+[2023-08-07 11:22:29] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/6b/ab/042291fec2a8648f180436fd7d645229a0e360ca635e117e2b9621a8c02c/via-api-2.4.0.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [tensorflow-ml]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-07 11:22:29] INFO root fetch - processPackages [octo-api-client]: Downloading https://files.pythonhosted.org/packages/68/df/6c9c5caba261ea4df1e68bc7d4eb2202d0724ad308df810bbcc919d518ad/octo_api_client-1.1.4.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [mlsuite]: Downloading https://files.pythonhosted.org/packages/d2/c7/ee5fc772d93fb2b3b094516d014ed8d5ec9f056cb5685a3fd9da2d64a619/mlsuite-2.1.5.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [langBOTs]: Downloading https://files.pythonhosted.org/packages/a5/30/d319fbf1980700fde8bf000a94052d660c1a1613d26d5b6058af6d139304/langBOTs-0.0.2.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-08-07 11:22:29] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/64/0d/2fde8dd39e7c980ca5cdbbbc85c1613d7c7f81d579f7a3a9481eb526fe0e/tensorflow-ml-1.1.1.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/b3/6d/210ef3dac51de3a01d9919143382b2e82f5d06e587b9a4cee6f21d2d4013/via-api-2.5.0.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-08-07 11:22:29] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.4.0.tar.gz tmp/via-api-2.5.0.tar.gz --markdown 20230807/v/via-api/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/85/7a/9701ba1b00e6ede0b88cde316a45365084197084adabf28304e4c0f92967/scilightcon-0.2.0.post2.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230807/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [mlsuite]: Downloading https://files.pythonhosted.org/packages/15/1f/ae5369717e14e1ee4d3a49983198d81b0cc177301e3fd7f1bb4e39d92656/mlsuite-2.1.6.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [octo-api-client]: Downloading https://files.pythonhosted.org/packages/45/b4/43e2a05b86ef78ccc0d4f4bc654c1717987a75bfe264719b4563fd7ff532/octo_api_client-1.1.5.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-08-07 11:22:30] INFO root fetch - processPackages [langBOTs]: Downloading https://files.pythonhosted.org/packages/63/3a/5a960e416693bed8cf0a27627df8f842ad84e0594a4148dc080b906f961c/langBOTs-0.0.31.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [mlsuite]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [mlsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsuite-2.1.5.tar.gz tmp/mlsuite-2.1.6.tar.gz --markdown 20230807/m/mlsuite/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [octo-api-client]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [octo-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octo_api_client-1.1.4.tar.gz tmp/octo_api_client-1.1.5.tar.gz --markdown 20230807/o/octo-api-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [tensorflow-ml]: Downloading https://files.pythonhosted.org/packages/a6/34/1b2f28266e43480cc228118cb9aefa7966254ed69f470147f4517615ca5c/tensorflow-ml-1.1.2.tar.gz
+[2023-08-07 11:22:30] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230807/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [langBOTs]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [langBOTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langBOTs-0.0.2.tar.gz tmp/langBOTs-0.0.31.tar.gz --markdown 20230807/l/langBOTs/0.0.2-0.0.31/diff.md --exclude *.pyd
+[2023-08-07 11:22:30] INFO root fetch - processPackages [tensorflow-ml]: executing diffoscope
+[2023-08-07 11:22:30] INFO root fetch - processPackages [tensorflow-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-ml-1.1.1.tar.gz tmp/tensorflow-ml-1.1.2.tar.gz --markdown 20230807/t/tensorflow-ml/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-07 11:22:31] INFO root fetch - processPackages [scilightcon]: executing diffoscope
+[2023-08-07 11:22:31] INFO root fetch - processPackages [scilightcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scilightcon-0.2.0.post1.tar.gz tmp/scilightcon-0.2.0.post2.tar.gz --markdown 20230807/s/scilightcon/0.2.0.post1-0.2.0.post2/diff.md --exclude *.pyd
+[2023-08-07 11:22:31] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/8e/7b/57645c2f9f6be1bf5248e591ac858fbcb49c5dbee4b182cd83a586352eae/processoptim-0.2.9-py3-none-any.whl
+[2023-08-07 11:22:33] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-07 11:22:33] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.8-py3-none-any.whl.zip tmp/processoptim-0.2.9-py3-none-any.whl.zip --markdown 20230807/p/processoptim/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 11:22:33] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.4.0.tar.gz]
+[2023-08-07 11:22:33] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.5.0.tar.gz]
+[2023-08-07 11:22:33] INFO root fetch - processPackages [via-api]: Start processing: upkie
+[2023-08-07 11:22:33] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-07 11:22:33] INFO root fetch - processPackages [upkie]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [namekoplus]: Start processing: spanishconjugator
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/1c/76/df0604dfabf1896046be4d7326fd00e88fbcadfe855b5a1a4954cf5738d3/upkie-1.3.1.tar.gz
+[2023-08-07 11:22:34] INFO root fetch - processPackages [octo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/octo_api_client-1.1.4.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [octo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/octo_api_client-1.1.5.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [octo-api-client]: Start processing: spanishconjugator
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [octo-api-client]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [langBOTs]: Remove: archive file [/home/abi/fetcher/tmp/langBOTs-0.0.2.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [mlsuite]: Remove: archive file [/home/abi/fetcher/tmp/mlsuite-2.1.5.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [langBOTs]: Remove: archive file [/home/abi/fetcher/tmp/langBOTs-0.0.31.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [mlsuite]: Remove: archive file [/home/abi/fetcher/tmp/mlsuite-2.1.6.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [langBOTs]: Start processing: pydivkit
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [langBOTs]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [mlsuite]: Start processing: check-gitlab-scheduler
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [mlsuite]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.1.1.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [tensorflow-ml]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-ml-1.1.2.tar.gz]
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [tensorflow-ml]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-08-07 11:22:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-07 11:22:34] INFO root fetch - processPackages [pydivkit]: New version: [27.1.0] Old Version: [27.0.0]
+[2023-08-07 11:22:34] WARNING root fetch - processPackages [check-gitlab-scheduler]: Skipping, unable to determine old version
+[2023-08-07 11:22:34] INFO root fetch - main [MainThread]: End processing [check-gitlab-scheduler] error
+[2023-08-07 11:22:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-07 11:22:34] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/3c/12/641491030f29d19992884e931bdf23b486189fa02de3f21635f9e5f39a82/upkie-1.3.2.tar.gz
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-07 11:22:35] INFO root fetch - processPackages [upkie]: executing diffoscope
+[2023-08-07 11:22:35] INFO root fetch - processPackages [upkie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upkie-1.3.1.tar.gz tmp/upkie-1.3.2.tar.gz --markdown 20230807/u/upkie/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-07 11:22:35] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/f4/66/b4db48500283173c59135f7912f0b821c04f47baa418c8dc6d5ad7568217/pydivkit-27.0.0.tar.gz
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230807/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-07 11:22:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230807/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-07 11:22:35] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/94/a7/bbd529a322ccdb75ae893ff80bf7be1d7bb4a79b38ca4fc4f3ba6651e9c8/pydivkit-27.1.0.tar.gz
+[2023-08-07 11:22:35] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2023-08-07 11:22:35] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-27.0.0.tar.gz tmp/pydivkit-27.1.0.tar.gz --markdown 20230807/p/pydivkit/27.0.0-27.1.0/diff.md --exclude *.pyd
+[2023-08-07 11:22:36] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-08-07 11:22:36] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-08-07 11:22:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-08-07 11:22:37] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.post1.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.post2.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - main [MainThread]: End processing [scilightcon]: success
+[2023-08-07 11:22:37] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.3.1.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.3.2.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - main [MainThread]: End processing [upkie]: success
+[2023-08-07 11:22:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-07 11:22:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-07 11:22:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-07 11:22:37] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.8-py3-none-any.whl.zip]
+[2023-08-07 11:22:37] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.9-py3-none-any.whl.zip]
+[2023-08-07 11:22:37] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-07 11:22:38] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-27.0.0.tar.gz]
+[2023-08-07 11:22:38] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-27.1.0.tar.gz]
+[2023-08-07 11:22:38] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2023-08-07 11:22:38] INFO root fetch - main [MainThread]: Store serial: [19203478]
