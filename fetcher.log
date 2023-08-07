@@ -8084,3 +8084,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:02:50] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.4.6b2.tar.gz]
 [2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [switch-api]: success
 [2023-08-07 08:02:50] INFO root fetch - main [MainThread]: Store serial: [19200965]
+[2023-08-07 08:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200965]
+[2023-08-07 08:07:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlglot
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mygrader
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shared-atomic-enterprise
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: t3qai-client
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafri
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyimporters-csv
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypymedia
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bw-matchbox
+[2023-08-07 08:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NBRB-bki-xml-read
+[2023-08-07 08:07:59] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [mygrader]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [adafri]: New version: [0.0.81] Old Version: [0.0.80.2]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [bw-matchbox]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/34/00/7d01403226faa50066de55cbadd77a6342401c80d5fa4271780a71679bf3/mygrader-0.1.41.tar.gz
+[2023-08-07 08:07:59] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 08:07:59] INFO root fetch - processPackages [NBRB-bki-xml-read]: New version: [0.0.post1] Old Version: [0.0.2]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [t3qai-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [hypymedia]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.0.0] Old Version: [5!2.3.6]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9a/e6/275c381fc10389fabcfb7755bef75b915645a0cb6adcccc00fc2f9f01084/adafri-0.0.80.2.tar.gz
+[2023-08-07 08:07:59] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-07 08:07:59] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-08-07 08:07:59] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/5c/fe/e2a14b739c946d7fff7e7b2c3d3887ff4afe11720f3c5e8f9c0987753045/bw_matchbox-0.7.0.tar.gz
+[2023-08-07 08:07:59] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/41/ee/14d8179b85de20fc7ebf06d317b2d269eebd54a8acf6ad6cb8cf6ff284ea/t3qai_client-1.1.4-py3-none-any.whl
+[2023-08-07 08:07:59] INFO root fetch - processPackages [NBRB-bki-xml-read]: Downloading https://files.pythonhosted.org/packages/c1/2a/1a5a57f2146704bf727714a693bad5ac867254dc1215b16c06dd23a3ecb7/NBRB-bki-xml-read-0.0.2.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/a3/05/f4050bdfd14ae29f479cfdaa0f44470c51ee42dedc68b4f72e75b6f3ab72/hypymedia-0.1.7.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-08-07 08:08:00] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/12/c2/f7a6b186a22deca30bb19a5ebde8f0ef203f4070b8356866455dccc96037/mygrader-0.1.42.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/85/3c0621f7e4afb15e876da45a6d574be7beaae80d3bc111c5cd0688b2c576/adafri-0.0.81.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [mygrader]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [mygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrader-0.1.41.tar.gz tmp/mygrader-0.1.42.tar.gz --markdown 20230807/m/mygrader/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/24/c3/d70e3c6c0d8589e402551bf64005d4f240c7f9830ad0393bbf04646351b3/bw_matchbox-0.7.1.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230807/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.80.2.tar.gz tmp/adafri-0.0.81.tar.gz --markdown 20230807/a/adafri/0.0.80.2-0.0.81/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [NBRB-bki-xml-read]: Downloading https://files.pythonhosted.org/packages/f8/a2/c10d1f1fe18164d12815809e6824e8e5511089fd00cad3e8661b717e37f2/NBRB-bki-xml-read-0.0.post1.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [hypymedia]: Downloading https://files.pythonhosted.org/packages/f1/eb/0c1d2a292851ded8ad68e0c9477c32219ce044c9d663d1f9d1f797908c9a/hypymedia-0.1.8.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-0.7.0.tar.gz tmp/bw_matchbox-0.7.1.tar.gz --markdown 20230807/b/bw-matchbox/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-08-07 08:08:00] INFO root fetch - processPackages [NBRB-bki-xml-read]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [NBRB-bki-xml-read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NBRB-bki-xml-read-0.0.2.tar.gz tmp/NBRB-bki-xml-read-0.0.post1.tar.gz --markdown 20230807/N/NBRB-bki-xml-read/0.0.2-0.0.post1/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/11/8e/2225f7a88872e793fbdefc5644eea32bca410b9474020cf364cf015d3210/t3qai_client-1.1.5-py3-none-any.whl
+[2023-08-07 08:08:00] INFO root fetch - processPackages [hypymedia]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [hypymedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypymedia-0.1.7.tar.gz tmp/hypymedia-0.1.8.tar.gz --markdown 20230807/h/hypymedia/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-07 08:08:00] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230807/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [t3qai-client]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [t3qai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t3qai_client-1.1.4-py3-none-any.whl.zip tmp/t3qai_client-1.1.5-py3-none-any.whl.zip --markdown 20230807/t/t3qai-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 08:08:00] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-07 08:08:00] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip --markdown 20230807/s/shared-atomic-enterprise/5!2.3.6-5!3.0.0/diff.md --exclude *.pyd
+[2023-08-07 08:08:01] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.41.tar.gz]
+[2023-08-07 08:08:01] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.42.tar.gz]
+[2023-08-07 08:08:01] INFO root fetch - processPackages [mygrader]: Start processing: graia-amnesia
+[2023-08-07 08:08:01] INFO root fetch - main [MainThread]: End processing [mygrader]: success
+[2023-08-07 08:08:01] INFO root fetch - processPackages [graia-amnesia]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-07 08:08:01] INFO root fetch - processPackages [graia-amnesia]: Downloading https://files.pythonhosted.org/packages/47/8d/7bc2e062901149d49a182b159a4b47e2b27b3a5897fd8e8fd85771c4e48a/graia_amnesia-0.8.0.tar.gz
+[2023-08-07 08:08:01] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.80.2.tar.gz]
+[2023-08-07 08:08:01] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.81.tar.gz]
+[2023-08-07 08:08:01] INFO root fetch - processPackages [adafri]: Start processing: secretflow
+[2023-08-07 08:08:01] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [graia-amnesia]: Downloading https://files.pythonhosted.org/packages/df/84/d3d7f5b5d14da58747fc46ed5eb0c69998df2c991f99c5d6698912f4b926/graia_amnesia-0.8.1.tar.gz
+[2023-08-07 08:08:02] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.7.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [hypymedia]: Remove: archive file [/home/abi/fetcher/tmp/hypymedia-0.1.8.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow]: New version: [1.1.0b0.dev0] Old Version: [1.0.0b3]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [hypymedia]: Start processing: secretflow-lite
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [hypymedia]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [pyimporters-csv]: Start processing: jzd
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 08:08:02] WARNING root fetch - processPackages [jzd]: Skipping, unable to determine old version
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [jzd] error
+[2023-08-07 08:08:02] INFO root fetch - processPackages [NBRB-bki-xml-read]: Remove: archive file [/home/abi/fetcher/tmp/NBRB-bki-xml-read-0.0.2.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [NBRB-bki-xml-read]: Remove: archive file [/home/abi/fetcher/tmp/NBRB-bki-xml-read-0.0.post1.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [NBRB-bki-xml-read]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [graia-amnesia]: executing diffoscope
+[2023-08-07 08:08:02] INFO root fetch - processPackages [graia-amnesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia_amnesia-0.8.0.tar.gz tmp/graia_amnesia-0.8.1.tar.gz --markdown 20230807/g/graia-amnesia/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-07 08:08:02] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.4-py3-none-any.whl.zip]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.5-py3-none-any.whl.zip]
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [t3qai-client]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow-lite]: New version: [1.1.0b0.dev0] Old Version: [1.0.0b3]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/1a/53/6e2e67b36d19bea1b8974abe51f963ec45db5e170925971e3f72fc727ec9/secretflow-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/cd/5e/3e6237c0415c67f2cac85afd6a3d077e691505349287b5d11d598cb1d260/secretflow_lite-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-08-07 08:08:02] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.7.0.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.7.1.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-08-07 08:08:02] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/a4/2e/d7580cbdf0a5ca35f051893f48e69944b0ec7252c29549e974da623b411b/secretflow-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/72/8a/0ec87d6c1121c594371f25bfdf76d0a93d74ab9dec957dac43584ffbc184/secretflow_lite-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-08-07 08:08:02] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230807/s/secretflow/1.0.0b3-1.1.0b0.dev0/diff.md --exclude *.pyd
+[2023-08-07 08:08:03] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2023-08-07 08:08:03] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230807/s/secretflow-lite/1.0.0b3-1.1.0b0.dev0/diff.md --exclude *.pyd
+[2023-08-07 08:08:03] INFO root fetch - processPackages [graia-amnesia]: Remove: archive file [/home/abi/fetcher/tmp/graia_amnesia-0.8.0.tar.gz]
+[2023-08-07 08:08:03] INFO root fetch - processPackages [graia-amnesia]: Remove: archive file [/home/abi/fetcher/tmp/graia_amnesia-0.8.1.tar.gz]
+[2023-08-07 08:08:03] INFO root fetch - main [MainThread]: End processing [graia-amnesia]: success
+[2023-08-07 08:08:05] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-08-07 08:08:05] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-08-07 08:08:05] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2023-08-07 08:08:05] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b3-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-08-07 08:08:05] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.1.0b0.dev0-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-08-07 08:08:05] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-08-07 08:08:08] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-08-07 08:08:08] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-07 08:08:08] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-07 08:08:08] INFO root fetch - main [MainThread]: Store serial: [19201011]
