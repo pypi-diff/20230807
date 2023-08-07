@@ -11026,3 +11026,156 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 10:26:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-07 10:26:45] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-07 10:26:45] INFO root fetch - main [MainThread]: Store serial: [19202292]
+[2023-08-07 10:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202292]
+[2023-08-07 10:31:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcana-xnat
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotPervasiveServiceSDK
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-plugins
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skcan-compare
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgs-api-client
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sh
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: namekoplus
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scidmcli
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mnzipcode
+[2023-08-07 10:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ul-data-aggregator-sdk
+[2023-08-07 10:31:55] INFO root fetch - processPackages [sh]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [scidmcli]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.24] Old Version: [0.1.23]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [pyimporters-plugins]: New version: [0.4.99] Old Version: [0.4.97]
+[2023-08-07 10:31:55] WARNING root fetch - processPackages [skcan-compare]: Skipping, unable to determine old version
+[2023-08-07 10:31:55] INFO root fetch - processPackages [skcan-compare]: Start processing: PyMouseKey
+[2023-08-07 10:31:55] INFO root fetch - main [MainThread]: End processing [skcan-compare] error
+[2023-08-07 10:31:55] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [arcana-xnat]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.13.0]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [scidmcli]: Downloading https://files.pythonhosted.org/packages/d9/ba/774d5e1a11a231b2437ddc80ebcf00780637f5051041883ffa87c1f12dde/scidmcli-0.0.0.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/20/5d/5a32e813824b9f5b5151435ddc1dd7f790858965a3281c4b07d259af3ece/mnzipcode-0.1.23.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-08-07 10:31:55] INFO root fetch - processPackages [sh]: Downloading https://files.pythonhosted.org/packages/b7/96/18aa20a143e2eaf1f0b4ae41a5ec57fd45b76b4a76cc4a07ffb476161ae3/sh-2.0.3.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/ab/b2/ec39695a2b31bb3a4a27b26a9e7ab16455e331ef31e9acbf6850b21eb8db/iotPervasiveServiceSDK-0.0.8.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [PyMouseKey]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 10:31:55] INFO root fetch - processPackages [pyimporters-plugins]: Downloading https://files.pythonhosted.org/packages/04/a6/d9a3f5bb3b7b330192c05eb8bc389a94411023dccb705221361ef64037ff/pyimporters-plugins-0.4.97.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [arcana-xnat]: Downloading https://files.pythonhosted.org/packages/9a/d1/b394a1d837a2633cc14534881e3000a26ba9487785cb1d9baa5ad598a23b/arcana_xnat-0.3.1.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/db/05/e8b1abc227ab0c37308290bdb67efc8bb616df56fd963ce06b0e6effa01d/ul-data-aggregator-sdk-8.13.0.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [PyMouseKey]: Downloading https://files.pythonhosted.org/packages/f3/f3/b422e5c4d6ff67b8bd43b3ede15683362e9b4298ce2ed0917dd94dc3cadf/PyMouseKey-1.0.8-py3-none-any.whl
+[2023-08-07 10:31:55] INFO root fetch - processPackages [scidmcli]: Downloading https://files.pythonhosted.org/packages/75/66/0fa04574ef8cdb8476766f6ea4caaaf80caf0369398d5d85ccba84e12971/scidmcli-0.0.1.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-08-07 10:31:55] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/a4/f0/d352d8a8fa515734bb1c7fefed290023aa25eae16a045cc79c4d66f6e27e/mnzipcode-0.1.24.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/99/05/fb09f700386dfc2511fdfce989940ddfb03f0f602b86e6f99c3c498a46f2/iotPervasiveServiceSDK-0.0.9.tar.gz
+[2023-08-07 10:31:55] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 10:31:55] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [sh]: Downloading https://files.pythonhosted.org/packages/f3/54/ea1fe5ab317a4d942c71d80df534343cf148739f716ca6224ebcec83cb10/sh-2.0.4.tar.gz
+[2023-08-07 10:31:56] INFO root fetch - processPackages [scidmcli]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [scidmcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scidmcli-0.0.0.tar.gz tmp/scidmcli-0.0.1.tar.gz --markdown 20230807/s/scidmcli/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [pyimporters-plugins]: Downloading https://files.pythonhosted.org/packages/a0/9e/f35c7f182c8361e393c2de52c452744ce2d8bceb7223f1413f661571e354/pyimporters-plugins-0.4.99.tar.gz
+[2023-08-07 10:31:56] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230807/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.8.tar.gz tmp/iotPervasiveServiceSDK-0.0.9.tar.gz --markdown 20230807/i/iotPervasiveServiceSDK/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [arcana-xnat]: Downloading https://files.pythonhosted.org/packages/aa/3a/1e9fe3b2d91c2ba20ee1dd574a3a1eefe65f6c6dd7e9c7c9c26ba6b6da5f/arcana_xnat-0.3.2.tar.gz
+[2023-08-07 10:31:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-08-07 10:31:56] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.23.tar.gz tmp/mnzipcode-0.1.24.tar.gz --markdown 20230807/m/mnzipcode/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [PyMouseKey]: Downloading https://files.pythonhosted.org/packages/a7/fc/84a41d5e6bc45fd19323ed843c792ed34c07a238ba1124e0c2c854e5b7cc/PyMouseKey-1.0.9-py3-none-any.whl
+[2023-08-07 10:31:56] INFO root fetch - processPackages [pyimporters-plugins]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [pyimporters-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-plugins-0.4.97.tar.gz tmp/pyimporters-plugins-0.4.99.tar.gz --markdown 20230807/p/pyimporters-plugins/0.4.97-0.4.99/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [sh]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-2.0.3.tar.gz tmp/sh-2.0.4.tar.gz --markdown 20230807/s/sh/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [arcana-xnat]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [arcana-xnat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana_xnat-0.3.1.tar.gz tmp/arcana_xnat-0.3.2.tar.gz --markdown 20230807/a/arcana-xnat/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [PyMouseKey]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [PyMouseKey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMouseKey-1.0.8-py3-none-any.whl.zip tmp/PyMouseKey-1.0.9-py3-none-any.whl.zip --markdown 20230807/P/PyMouseKey/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:31:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-08-07 10:31:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.13.0.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230807/u/ul-data-aggregator-sdk/8.13.0-8.9.5/diff.md --exclude *.pyd
+[2023-08-07 10:31:57] INFO root fetch - processPackages [scidmcli]: Remove: archive file [/home/abi/fetcher/tmp/scidmcli-0.0.0.tar.gz]
+[2023-08-07 10:31:57] INFO root fetch - processPackages [scidmcli]: Remove: archive file [/home/abi/fetcher/tmp/scidmcli-0.0.1.tar.gz]
+[2023-08-07 10:31:57] INFO root fetch - processPackages [scidmcli]: Start processing: receptor-utils
+[2023-08-07 10:31:57] INFO root fetch - main [MainThread]: End processing [scidmcli]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [receptor-utils]: New version: [0.0.5] Old Version: [0.0.41]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.23.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.24.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [mnzipcode]: Start processing: lucidwallet
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [namekoplus]: Start processing: gamutrf
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [receptor-utils]: Downloading https://files.pythonhosted.org/packages/77/42/ccbade52fa5c983cf7171ae24988dfe47e964d217c085804538bc91ac99f/receptor_utils-0.0.41.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [PyMouseKey]: Remove: archive file [/home/abi/fetcher/tmp/PyMouseKey-1.0.8-py3-none-any.whl.zip]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [sh]: Remove: archive file [/home/abi/fetcher/tmp/sh-2.0.3.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [PyMouseKey]: Remove: archive file [/home/abi/fetcher/tmp/PyMouseKey-1.0.9-py3-none-any.whl.zip]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [sh]: Remove: archive file [/home/abi/fetcher/tmp/sh-2.0.4.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [PyMouseKey]: Start processing: exasol-integration-test-docker-environment
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [PyMouseKey]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [sh]: Start processing: function-tools
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [sh]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [pyimporters-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-plugins-0.4.97.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/76/de/e2aefe0fce91b5d8e0c7cc1e801726e79651af5a63b1d0460bd1d9f8bfc6/lucidwallet-0.1.0.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [pyimporters-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-plugins-0.4.99.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [pyimporters-plugins]: Start processing: bhe-nikutils
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [pyimporters-plugins]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [function-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [vgs-api-client]: Start processing: snakemake
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.8.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.9.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [arcana-xnat]: Remove: archive file [/home/abi/fetcher/tmp/arcana_xnat-0.3.1.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [arcana-xnat]: Remove: archive file [/home/abi/fetcher/tmp/arcana_xnat-0.3.2.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: New version: [2.0.0] Old Version: [1.7.1]
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [arcana-xnat]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [receptor-utils]: Downloading https://files.pythonhosted.org/packages/e1/56/f5dc8a01d2e5977e8a330f24df2083d3fb89d800cf9445903a92f1c46263/receptor_utils-0.0.5.tar.gz
+[2023-08-07 10:31:58] WARNING root fetch - processPackages [bhe-nikutils]: Skipping, unable to determine old version
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [bhe-nikutils] error
+[2023-08-07 10:31:58] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.13.0.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-08-07 10:31:58] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-08-07 10:31:58] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-08-07 10:31:58] INFO root fetch - processPackages [receptor-utils]: executing diffoscope
+[2023-08-07 10:31:58] INFO root fetch - processPackages [receptor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptor_utils-0.0.41.tar.gz tmp/receptor_utils-0.0.5.tar.gz --markdown 20230807/r/receptor-utils/0.0.41-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 10:31:58] INFO root fetch - processPackages [function-tools]: Downloading https://files.pythonhosted.org/packages/09/a1/ab68025b8b448d127db5e96b42f1a7d52bb8f46a3359a95476645d87058f/function-tools-0.4.0.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/c6/9c/c4a5960de8e5f71868f1f14ac50bd3f52c4438d5608e54b1dbd3114deaf2/lucidwallet-0.1.2.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Downloading https://files.pythonhosted.org/packages/31/19/2125639083008e63875da08f847e02c0ed747489c43e7adfca6500a99fb4/exasol_integration_test_docker_environment-1.7.1.tar.gz
+[2023-08-07 10:31:58] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-07 10:31:58] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.0.tar.gz tmp/lucidwallet-0.1.2.tar.gz --markdown 20230807/l/lucidwallet/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:31:59] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-08-07 10:31:59] INFO root fetch - processPackages [function-tools]: Downloading https://files.pythonhosted.org/packages/35/2a/cb2a3813f24a9dd29253c9b79d1a9a66739dedb3717336f8e45c124d7f11/function-tools-0.5.0.tar.gz
+[2023-08-07 10:31:59] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-08-07 10:31:59] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-08-07 10:31:59] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230807/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-07 10:31:59] INFO root fetch - processPackages [function-tools]: executing diffoscope
+[2023-08-07 10:31:59] INFO root fetch - processPackages [function-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-tools-0.4.0.tar.gz tmp/function-tools-0.5.0.tar.gz --markdown 20230807/f/function-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-07 10:31:59] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Downloading https://files.pythonhosted.org/packages/0f/6b/29abfa53777f9308efb817597d360e3daf68bc9b7d71fab9a0e144a51352/exasol_integration_test_docker_environment-2.0.0.tar.gz
+[2023-08-07 10:31:59] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: executing diffoscope
+[2023-08-07 10:31:59] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_integration_test_docker_environment-1.7.1.tar.gz tmp/exasol_integration_test_docker_environment-2.0.0.tar.gz --markdown 20230807/e/exasol-integration-test-docker-environment/1.7.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 10:31:59] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-08-07 10:31:59] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-08-07 10:31:59] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230807/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-08-07 10:31:59] INFO root fetch - processPackages [receptor-utils]: Remove: archive file [/home/abi/fetcher/tmp/receptor_utils-0.0.41.tar.gz]
+[2023-08-07 10:31:59] INFO root fetch - processPackages [receptor-utils]: Remove: archive file [/home/abi/fetcher/tmp/receptor_utils-0.0.5.tar.gz]
+[2023-08-07 10:31:59] INFO root fetch - main [MainThread]: End processing [receptor-utils]: success
+[2023-08-07 10:32:00] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.0.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.2.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-07 10:32:00] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.8.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.9.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-08-07 10:32:00] INFO root fetch - processPackages [function-tools]: Remove: archive file [/home/abi/fetcher/tmp/function-tools-0.4.0.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - processPackages [function-tools]: Remove: archive file [/home/abi/fetcher/tmp/function-tools-0.5.0.tar.gz]
+[2023-08-07 10:32:00] INFO root fetch - main [MainThread]: End processing [function-tools]: success
+[2023-08-07 10:32:01] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-08-07 10:32:01] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-08-07 10:32:01] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-08-07 10:32:01] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Remove: archive file [/home/abi/fetcher/tmp/exasol_integration_test_docker_environment-1.7.1.tar.gz]
+[2023-08-07 10:32:01] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Remove: archive file [/home/abi/fetcher/tmp/exasol_integration_test_docker_environment-2.0.0.tar.gz]
+[2023-08-07 10:32:01] INFO root fetch - main [MainThread]: End processing [exasol-integration-test-docker-environment]: success
+[2023-08-07 10:32:01] INFO root fetch - main [MainThread]: Store serial: [19202351]
