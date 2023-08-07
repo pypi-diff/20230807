@@ -23218,3 +23218,123 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:37:05] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554482720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-07 17:37:05] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-08-07 17:37:05] INFO root fetch - main [MainThread]: Store serial: [19207455]
+[2023-08-07 17:42:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207455]
+[2023-08-07 17:42:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regex-inference
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jfrog-client
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OctoBot-Commons
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: db-plugins
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symbol-sdk-python
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mail-sending-program
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genefeast
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-discount-display-amount
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: btgsolutions-dataservices-python-client
+[2023-08-07 17:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: YeaZ
+[2023-08-07 17:42:18] INFO root fetch - processPackages [genefeast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [YeaZ]: New version: [1.0.2rc1] Old Version: [1.0.1]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [regex-inference]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [genefeast]: Downloading https://files.pythonhosted.org/packages/fd/8e/3b3860667fdc54d8b40ad73d465e351d3fa59a7e75162ff8bb42f3ea92cb/genefeast-0.0.8.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [db-plugins]: New version: [5.1.1a1] Old Version: [5.1.1a0]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [0.5.1] Old Version: [0.5]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [jfrog-client]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [mail-sending-program]: New version: [1.5] Old Version: [1.4]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [symbol-sdk-python]: New version: [3.1.0] Old Version: [3.0.7]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: New version: [14.0.1.3.0] Old Version: [14.0.1.1.1.dev2]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-07 17:42:18] INFO root fetch - processPackages [db-plugins]: Downloading https://files.pythonhosted.org/packages/63/cd/d259cc89878d54b3df30dade51cdea3ca209ffb821850e853ab6487cb4a5/db_plugins-5.1.1a0.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [YeaZ]: Downloading https://files.pythonhosted.org/packages/73/4c/b785d4f48115f69482c2c5c7608cbd448661984deaab9e3546ea85fb0c0b/YeaZ-1.0.1.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [jfrog-client]: Downloading https://files.pythonhosted.org/packages/a2/e5/0162d311ef1f7ec80fe025637d7ce5c993b0ba4053f6e1461f48ff9777f0/jfrog-client-0.0.2.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/5e/d8/bb53cb55fa56bc11d180824abececde8ebaef2f79dc8c8e3306a683df48c/regex-inference-0.0.7.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [mail-sending-program]: Downloading https://files.pythonhosted.org/packages/1a/cb/d0135b9e196d3e79b5661e7d49ef9d2f706737d2a75d1fa6f1cd3bcd2d08/mail%20sending%20program-1.4.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/1b/a3/16644c3070ae8163d24480d6a1b6d5e9ecbbe25d4ba7d9655bdc61e27f53/symbol-sdk-python-3.0.7.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/ae/b4/137962c912e84f9b8f3ea822e9befe2bea20d95225032a76386c3344ab9d/odoo14_addon_sale_discount_display_amount-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-08-07 17:42:18] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/ac/7f/9279c3d9f4e8eb131ba047a81526643d6599b29a25faebe60da39a6ce7ba/btgsolutions-dataservices-python-client-0.5.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/d1/70/aae7728728bb494972e639d7fa912e43f672174c96673812eaa3f9821d42/OctoBot-Commons-1.9.8.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [db-plugins]: Downloading https://files.pythonhosted.org/packages/25/74/6f781d05833c5153d82a95e8c328642590b0a9eb67842d04264a9bc9130a/db_plugins-5.1.1a1.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [genefeast]: Downloading https://files.pythonhosted.org/packages/28/77/7db3b89c3a2f4b506e454c54da98762ed0d18317601e5927e28558871ae3/genefeast-0.0.9.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [jfrog-client]: Downloading https://files.pythonhosted.org/packages/e8/16/ee660850e9ffcc88c6deb9bed9e5a552333e70ee0422d27e3f37d88e027f/jfrog-client-0.1.0.tar.gz
+[2023-08-07 17:42:18] INFO root fetch - processPackages [mail-sending-program]: Downloading https://files.pythonhosted.org/packages/1f/06/ffe5676dbf99f51d0d78d17f26336bfa16e89527e9bcd17efc584e80afd3/mail_sending_program-1.5-py3-none-any.whl
+[2023-08-07 17:42:18] INFO root fetch - processPackages [db-plugins]: executing diffoscope
+[2023-08-07 17:42:18] INFO root fetch - processPackages [db-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_plugins-5.1.1a0.tar.gz tmp/db_plugins-5.1.1a1.tar.gz --markdown 20230807/d/db-plugins/5.1.1a0-5.1.1a1/diff.md --exclude *.pyd
+[2023-08-07 17:42:18] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/04/1f/15c41432308dedc5c4936b84ce7b30842842a8f14061eaa99f202dadd5d6/regex-inference-0.0.8.tar.gz
+[2023-08-07 17:42:19] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/54/71/f229ff0df57c1384a434b31f26ec53c7a9d7093fe2aecb716fcf529a5bd8/btgsolutions-dataservices-python-client-0.5.1.tar.gz
+[2023-08-07 17:42:19] INFO root fetch - processPackages [YeaZ]: Downloading https://files.pythonhosted.org/packages/22/bc/1280d360d8c7fe5118936d7a51d97fcb09497547cfa7102a36c2d12bcda4/YeaZ-1.0.2rc1.tar.gz
+[2023-08-07 17:42:19] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/67/7a/d65c5df4b96aa1367ec2bbcb9c3d43a52fd7d1758beac95cd7a6de116d66/odoo14_addon_sale_discount_display_amount-14.0.1.3.0-py3-none-any.whl
+[2023-08-07 17:42:19] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/c9/88/6974930114bda39ad842a32e1c00a0fdf5592f27ff5d3e0a3b29aab15f76/OctoBot-Commons-1.9.9.tar.gz
+[2023-08-07 17:42:19] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/e7/fe/2ecc1d07d8a11d528af4621723a8dfccd981bec97e8c914e49457a6dce22/symbol_sdk_python-3.1.0.tar.gz
+[2023-08-07 17:42:19] INFO root fetch - processPackages [jfrog-client]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [jfrog-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfrog-client-0.0.2.tar.gz tmp/jfrog-client-0.1.0.tar.gz --markdown 20230807/j/jfrog-client/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [mail-sending-program]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [mail-sending-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail sending program-1.4.tar.gz tmp/mail_sending_program-1.5-py3-none-any.whl.zip --markdown 20230807/m/mail-sending-program/1.4-1.5/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.7.tar.gz tmp/regex-inference-0.0.8.tar.gz --markdown 20230807/r/regex-inference/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-0.5.tar.gz tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz --markdown 20230807/b/btgsolutions-dataservices-python-client/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_discount_display_amount-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_discount_display_amount-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-sale-discount-display-amount/14.0.1.1.1.dev2-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [symbol-sdk-python]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [symbol-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbol-sdk-python-3.0.7.tar.gz tmp/symbol_sdk_python-3.1.0.tar.gz --markdown 20230807/s/symbol-sdk-python/3.0.7-3.1.0/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.8.tar.gz tmp/OctoBot-Commons-1.9.9.tar.gz --markdown 20230807/O/OctoBot-Commons/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [YeaZ]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [YeaZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YeaZ-1.0.1.tar.gz tmp/YeaZ-1.0.2rc1.tar.gz --markdown 20230807/Y/YeaZ/1.0.1-1.0.2rc1/diff.md --exclude *.pyd
+[2023-08-07 17:42:19] INFO root fetch - processPackages [genefeast]: executing diffoscope
+[2023-08-07 17:42:19] INFO root fetch - processPackages [genefeast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genefeast-0.0.8.tar.gz tmp/genefeast-0.0.9.tar.gz --markdown 20230807/g/genefeast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:42:20] INFO root fetch - processPackages [db-plugins]: Remove: archive file [/home/abi/fetcher/tmp/db_plugins-5.1.1a0.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [db-plugins]: Remove: archive file [/home/abi/fetcher/tmp/db_plugins-5.1.1a1.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [db-plugins]: Start processing: pepperize.cdk-vpc
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [db-plugins]: success
+[2023-08-07 17:42:20] INFO root fetch - processPackages [mail-sending-program]: Remove: archive file [/home/abi/fetcher/tmp/mail sending program-1.4.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [mail-sending-program]: Remove: archive file [/home/abi/fetcher/tmp/mail_sending_program-1.5-py3-none-any.whl.zip]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [mail-sending-program]: Start processing: django-query-tools
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [mail-sending-program]: success
+[2023-08-07 17:42:20] INFO root fetch - processPackages [django-query-tools]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/57/9d/ca8021a33b34af50f17ee9ac8bb782a7c60527f05e8b618782b5076bce18/django_query_tools-0.2.1.tar.gz
+[2023-08-07 17:42:20] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.7.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.8.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [regex-inference]: Start processing: logfly
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-07 17:42:20] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [jfrog-client]: Remove: archive file [/home/abi/fetcher/tmp/jfrog-client-0.0.2.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [jfrog-client]: Remove: archive file [/home/abi/fetcher/tmp/jfrog-client-0.1.0.tar.gz]
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [jfrog-client]: success
+[2023-08-07 17:42:20] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_discount_display_amount-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-08-07 17:42:20] INFO root fetch - processPackages [odoo14-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_discount_display_amount-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-08-07 17:42:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-discount-display-amount]: success
+[2023-08-07 17:42:20] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-08-07 17:42:21] INFO root fetch - processPackages [logfly]: New version: [2.5] Old Version: [2.4]
+[2023-08-07 17:42:21] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol-sdk-python-3.0.7.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.1.0.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - main [MainThread]: End processing [symbol-sdk-python]: success
+[2023-08-07 17:42:21] INFO root fetch - processPackages [YeaZ]: Remove: archive file [/home/abi/fetcher/tmp/YeaZ-1.0.1.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - processPackages [YeaZ]: Remove: archive file [/home/abi/fetcher/tmp/YeaZ-1.0.2rc1.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - main [MainThread]: End processing [YeaZ]: success
+[2023-08-07 17:42:21] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/24/62/aeff01693790d518069840feca1013cc639bb93019c31cb8279ac40d4d18/django_query_tools-0.3.0-py3-none-any.whl
+[2023-08-07 17:42:21] INFO root fetch - processPackages [django-query-tools]: executing diffoscope
+[2023-08-07 17:42:21] INFO root fetch - processPackages [django-query-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_tools-0.2.1.tar.gz tmp/django_query_tools-0.3.0-py3-none-any.whl.zip --markdown 20230807/d/django-query-tools/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 17:42:21] INFO root fetch - processPackages [logfly]: Downloading https://files.pythonhosted.org/packages/81/32/54e65a7c323a26651b9c98831d57737a85325398cc29903609e673c5cce5/logfly-2.4.tar.gz
+[2023-08-07 17:42:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-08-07 17:42:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-08-07 17:42:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 17:42:21] INFO root fetch - processPackages [logfly]: Downloading https://files.pythonhosted.org/packages/ca/cc/85db72e7a1d7b4afd465bce1e97444b317889c7dd31793fe9d7bb3baae0b/logfly-2.5.tar.gz
+[2023-08-07 17:42:21] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.8.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.9.tar.gz]
+[2023-08-07 17:42:21] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-08-07 17:42:21] INFO root fetch - processPackages [logfly]: executing diffoscope
+[2023-08-07 17:42:21] INFO root fetch - processPackages [logfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfly-2.4.tar.gz tmp/logfly-2.5.tar.gz --markdown 20230807/l/logfly/2.4-2.5/diff.md --exclude *.pyd
+[2023-08-07 17:42:22] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.2.1.tar.gz]
+[2023-08-07 17:42:22] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.3.0-py3-none-any.whl.zip]
+[2023-08-07 17:42:22] INFO root fetch - main [MainThread]: End processing [django-query-tools]: success
+[2023-08-07 17:42:22] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-08-07 17:42:22] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-08-07 17:42:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-08-07 17:42:22] INFO root fetch - processPackages [logfly]: Remove: archive file [/home/abi/fetcher/tmp/logfly-2.4.tar.gz]
+[2023-08-07 17:42:22] INFO root fetch - processPackages [logfly]: Remove: archive file [/home/abi/fetcher/tmp/logfly-2.5.tar.gz]
+[2023-08-07 17:42:22] INFO root fetch - main [MainThread]: End processing [logfly]: success
+[2023-08-07 17:42:24] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.8.tar.gz]
+[2023-08-07 17:42:24] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.9.tar.gz]
+[2023-08-07 17:42:24] INFO root fetch - main [MainThread]: End processing [genefeast]: success
+[2023-08-07 17:42:24] INFO root fetch - main [MainThread]: Store serial: [19207496]
