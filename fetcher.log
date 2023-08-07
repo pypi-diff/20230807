@@ -9643,3 +9643,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:26:55] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.9.tar.gz]
 [2023-08-07 09:26:55] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-08-07 09:26:55] INFO root fetch - main [MainThread]: Store serial: [19201786]
+[2023-08-07 09:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201786]
+[2023-08-07 09:32:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-negar
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyecs
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scilightcon
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shawn-api
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vscode.dev
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image2layout-computer-vision
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: verma
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySideSix-Frameless-Window
+[2023-08-07 09:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spiderx
+[2023-08-07 09:32:04] WARNING root fetch - processPackages [scilightcon]: Skipping, unable to determine old version
+[2023-08-07 09:32:04] INFO root fetch - main [MainThread]: End processing [scilightcon] error
+[2023-08-07 09:32:04] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-08-07 09:32:04] WARNING root fetch - processPackages [vscode.dev]: Skipping, unable to determine old version
+[2023-08-07 09:32:04] INFO root fetch - main [MainThread]: End processing [vscode.dev] error
+[2023-08-07 09:32:04] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 09:32:04] INFO root fetch - processPackages [PySideSix-Frameless-Window]: New version: [0.3.0] Old Version: [0.1.2]
+[2023-08-07 09:32:04] INFO root fetch - processPackages [python-negar]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-07 09:32:04] WARNING root fetch - processPackages [verma]: Skipping, unable to determine old version
+[2023-08-07 09:32:04] INFO root fetch - main [MainThread]: End processing [verma] error
+[2023-08-07 09:32:04] INFO root fetch - processPackages [shawn-api]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-07 09:32:04] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [easyecs]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-07 09:32:04] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/26/2a/45df72b14fdf03ae0854221b922468ea4cc3d9e084b0ad660f28adbba43a/image2layout_computer_vision-0.1.1.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/8e/c9/f60712114fca59e57d0b65c2c2f2bd88dc36b9bac5b23b96762aa36e0b1a/shawn_api-0.3.4.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/db/da/347b81429762818754ae4a2d3a571eb5c5585b05baab96ca98b8288e482c/PySideSix-Frameless-Window-0.1.2.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/b6/44/107510aebcd72a01b9b8d4355bfe39b68424be350a42d94bc7022a41ff38/python-negar-1.2.5.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/c7/4a/64dc335119f7eb4b27534295dba20e92557a25ee04443efb650d8e2e2ac7/easyecs-0.7.0.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/cc/4b/03d097b0f49a6d447fed9f28264684319ea65a346802553c24266db4fc74/image2layout_computer_vision-0.1.2.tar.gz
+[2023-08-07 09:32:04] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-08-07 09:32:04] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230807/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-08-07 09:32:05] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/00/21/e004f4ac71ae2e5d8fe78e68391998e10f747e1b0b36979a17658604d56d/PySideSix-Frameless-Window-0.3.0.tar.gz
+[2023-08-07 09:32:05] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/a4/bb/5cef69c79cb24bfe9b81d95f72d231b9142f5a34e5c4e0b862fc34b012a5/python-negar-1.2.6.tar.gz
+[2023-08-07 09:32:05] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/39/d3/9c4986bf31837a39d1c1bd64ee35f31417a2f2b0f2fa5a3d31ac14250e23/shawn_api-0.3.5.tar.gz
+[2023-08-07 09:32:05] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/dc/e7/64d117466f62d724a042962e47212579663ffd6ec5ef2eb099b78f856d08/easyecs-0.7.1.tar.gz
+[2023-08-07 09:32:05] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-07 09:32:05] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.1.1.tar.gz tmp/image2layout_computer_vision-0.1.2.tar.gz --markdown 20230807/i/image2layout-computer-vision/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 09:32:05] INFO root fetch - processPackages [PySideSix-Frameless-Window]: executing diffoscope
+[2023-08-07 09:32:05] INFO root fetch - processPackages [PySideSix-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideSix-Frameless-Window-0.1.2.tar.gz tmp/PySideSix-Frameless-Window-0.3.0.tar.gz --markdown 20230807/P/PySideSix-Frameless-Window/0.1.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 09:32:05] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2023-08-07 09:32:05] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.5.tar.gz tmp/python-negar-1.2.6.tar.gz --markdown 20230807/p/python-negar/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-07 09:32:05] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-07 09:32:05] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.7.0.tar.gz tmp/easyecs-0.7.1.tar.gz --markdown 20230807/e/easyecs/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-07 09:32:05] INFO root fetch - processPackages [shawn-api]: executing diffoscope
+[2023-08-07 09:32:05] INFO root fetch - processPackages [shawn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shawn_api-0.3.4.tar.gz tmp/shawn_api-0.3.5.tar.gz --markdown 20230807/s/shawn-api/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-07 09:32:06] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.1.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.2.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-07 09:32:06] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-08-07 09:32:06] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.4.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.5.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [shawn-api]: success
+[2023-08-07 09:32:06] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.5.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.6.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2023-08-07 09:32:06] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.7.0.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.7.1.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-07 09:32:06] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.1.2.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.3.0.tar.gz]
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [PySideSix-Frameless-Window]: success
+[2023-08-07 09:32:06] INFO root fetch - main [MainThread]: Store serial: [19201815]
