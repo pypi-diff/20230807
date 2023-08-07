@@ -10915,3 +10915,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 10:21:19] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
 [2023-08-07 10:21:19] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
 [2023-08-07 10:21:19] INFO root fetch - main [MainThread]: Store serial: [19202242]
+[2023-08-07 10:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202242]
+[2023-08-07 10:26:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lucidwallet
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgs-api-client
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aurori
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imephu
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: profile-instagram-graphql-imp-local-python-package-local
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-model-optimization-nightly
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nova-python
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baimomcsm-api
+[2023-08-07 10:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-l10n-es-ticketbai-pos
+[2023-08-07 10:26:29] WARNING root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Skipping, unable to determine old version
+[2023-08-07 10:26:29] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Start processing: Orange3-Fairness
+[2023-08-07 10:26:29] INFO root fetch - main [MainThread]: End processing [profile-instagram-graphql-imp-local-python-package-local] error
+[2023-08-07 10:26:29] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 10:26:29] WARNING root fetch - processPackages [lucidwallet]: Skipping, unable to determine old version
+[2023-08-07 10:26:29] INFO root fetch - processPackages [lucidwallet]: Start processing: namekoplus
+[2023-08-07 10:26:29] INFO root fetch - main [MainThread]: End processing [lucidwallet] error
+[2023-08-07 10:26:29] INFO root fetch - processPackages [baimomcsm-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [imephu]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: New version: [12.0.1.0.6] Old Version: [12.0.1.0.5]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [aurori]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-07 10:26:29] WARNING root fetch - processPackages [nova-python]: Skipping, unable to determine old version
+[2023-08-07 10:26:29] INFO root fetch - processPackages [nova-python]: Start processing: checkov
+[2023-08-07 10:26:29] INFO root fetch - main [MainThread]: End processing [nova-python] error
+[2023-08-07 10:26:29] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230807] Old Version: [0.7.5.dev20230806]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/a9/68/df0c3fcd3fd9ac155ae7aea535f54339ad6eddc3176b888940cd788647a2/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl
+[2023-08-07 10:26:29] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/93/58/c9731490d68c28c4b7cc9f365ab045ac08f1cec2031b25576ceb05244cb8/baimomcsm_api-0.0.4.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/7a/8e/bfce0c2a42e904c8fec6a9238e0b889932922c45d01a4b6ec9db22b32eff/imephu-0.5.0.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/24/c2/73e17d0af7c0cffa5692441bb015ab56e57dfd539d2b7c2deef83904651d/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.5-py3-none-any.whl
+[2023-08-07 10:26:29] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/27/b2/6f3f9bff19f4f45247ac6f21d4b201fd15dfef443dcdfc74eaef1e413980/aurori-1.0.1.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [Orange3-Fairness]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 10:26:29] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-08-07 10:26:29] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/64/34/f7e866aa993c39184213831b814d9c0745ab41152e17c909df02e29291ba/baimomcsm_api-0.0.5.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/98/6f/05ede0a0293e5bffd292e2c98b3dda92bacb6c16d54093eb2085b160dfa8/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl
+[2023-08-07 10:26:29] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 10:26:29] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 10:26:29] INFO root fetch - processPackages [Orange3-Fairness]: Downloading https://files.pythonhosted.org/packages/bb/f1/d9cfe6adf8de8cbfd7099cff021cffe739cf704d7f6733c74c19ae293013/Orange3-Fairness-0.1.0.tar.gz
+[2023-08-07 10:26:29] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/23/df/875963668a51ff981d906552e835a42d0ff0990d32106109c9eed9bb53ca/aurori-1.1.0.tar.gz
+[2023-08-07 10:26:30] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230807/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/34/d5/3c482cd80c3cd8786a2af372e8f137414f5df949134a0d688d3ac2d795ca/imephu-0.6.0.tar.gz
+[2023-08-07 10:26:30] INFO root fetch - processPackages [baimomcsm-api]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [baimomcsm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baimomcsm_api-0.0.4.tar.gz tmp/baimomcsm_api-0.0.5.tar.gz --markdown 20230807/b/baimomcsm-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-07 10:26:30] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/49/eb/425f208a35a66d11f75b9b1e0ad48519445d649a50c727af884d68a1d49b/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.6-py3-none-any.whl
+[2023-08-07 10:26:30] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl.zip --markdown 20230807/t/tf-model-optimization-nightly/0.7.5.dev20230806-0.7.5.dev20230807/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230807/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-08-07 10:26:30] INFO root fetch - processPackages [imephu]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [imephu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imephu-0.5.0.tar.gz tmp/imephu-0.6.0.tar.gz --markdown 20230807/i/imephu/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [aurori]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [aurori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurori-1.0.1.tar.gz tmp/aurori-1.1.0.tar.gz --markdown 20230807/a/aurori/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [Orange3-Fairness]: Downloading https://files.pythonhosted.org/packages/ea/d7/c6b1aa145af6d5982b227e015a61d0e54c95426c480ebcec0bac9448a7b0/Orange3-Fairness-0.1.1.tar.gz
+[2023-08-07 10:26:30] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230807/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [Orange3-Fairness]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [Orange3-Fairness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Fairness-0.1.0.tar.gz tmp/Orange3-Fairness-0.1.1.tar.gz --markdown 20230807/O/Orange3-Fairness/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 10:26:30] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-08-07 10:26:30] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.5-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.6-py3-none-any.whl.zip --markdown 20230807/o/odoo12-addon-l10n-es-ticketbai-pos/12.0.1.0.5-12.0.1.0.6/diff.md --exclude *.pyd
+[2023-08-07 10:26:31] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 10:26:31] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 10:26:31] INFO root fetch - processPackages [namekoplus]: Start processing: letterboxd-stats
+[2023-08-07 10:26:31] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 10:26:31] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.4.tar.gz]
+[2023-08-07 10:26:31] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.5.tar.gz]
+[2023-08-07 10:26:31] INFO root fetch - main [MainThread]: End processing [baimomcsm-api]: success
+[2023-08-07 10:26:31] INFO root fetch - processPackages [letterboxd-stats]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 10:26:32] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/b4/d6/47ae1e2a891ba120c30e3ae1f80317d2ff1e61b09d2911505c9b3e753381/letterboxd_stats-0.2.6.tar.gz
+[2023-08-07 10:26:32] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/bc/34/559251ce1e83ea6fac63c5321ce3cbb1ced15593804a17fa93037d8c5ba1/letterboxd_stats-0.2.7.tar.gz
+[2023-08-07 10:26:32] INFO root fetch - processPackages [imephu]: Remove: archive file [/home/abi/fetcher/tmp/imephu-0.5.0.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [imephu]: Remove: archive file [/home/abi/fetcher/tmp/imephu-0.6.0.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [imephu]: success
+[2023-08-07 10:26:32] INFO root fetch - processPackages [letterboxd-stats]: executing diffoscope
+[2023-08-07 10:26:32] INFO root fetch - processPackages [letterboxd-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterboxd_stats-0.2.6.tar.gz tmp/letterboxd_stats-0.2.7.tar.gz --markdown 20230807/l/letterboxd-stats/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-07 10:26:32] INFO root fetch - processPackages [Orange3-Fairness]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Fairness-0.1.0.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [Orange3-Fairness]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Fairness-0.1.1.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [Orange3-Fairness]: success
+[2023-08-07 10:26:32] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-1.0.1.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-1.1.0.tar.gz]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [aurori]: success
+[2023-08-07 10:26:32] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl.zip]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl.zip]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-08-07 10:26:32] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-08-07 10:26:32] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-08-07 10:26:32] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-08-07 10:26:33] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.6.tar.gz]
+[2023-08-07 10:26:33] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.7.tar.gz]
+[2023-08-07 10:26:33] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
+[2023-08-07 10:26:39] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.5-py3-none-any.whl.zip]
+[2023-08-07 10:26:39] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_pos-12.0.1.0.6-py3-none-any.whl.zip]
+[2023-08-07 10:26:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai-pos]: success
+[2023-08-07 10:26:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-07 10:26:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-07 10:26:45] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-07 10:26:45] INFO root fetch - main [MainThread]: Store serial: [19202292]
