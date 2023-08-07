@@ -5741,3 +5741,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:36:40] INFO root fetch - processPackages [disposable-email-domains]: Remove: archive file [/home/abi/fetcher/tmp/disposable-email-domains-0.0.93.tar.gz]
 [2023-08-07 04:36:40] INFO root fetch - main [MainThread]: End processing [disposable-email-domains]: success
 [2023-08-07 04:36:40] INFO root fetch - main [MainThread]: Store serial: [19199830]
+[2023-08-07 04:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199830]
+[2023-08-07 04:41:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipfontingpkg
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WinDbg-Copilot
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-custom
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipfontingpkg
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generic-grader
+[2023-08-07 04:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafri
+[2023-08-07 04:41:49] INFO root fetch - processPackages [adafri]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 04:41:49] WARNING root fetch - processPackages [selenium-custom]: Skipping, unable to determine old version
+[2023-08-07 04:41:49] INFO root fetch - main [MainThread]: End processing [selenium-custom] error
+[2023-08-07 04:41:49] INFO root fetch - processPackages [generic-grader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 04:41:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f9/0e/dfdb45de8126e2c0d87dfa3aebb40af54f1b250d7cfe385614404e8b6c28/adafri-0.0.74.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: Downloading https://files.pythonhosted.org/packages/4c/e2/d86e86b40050ceb6e9e231be8126a42c27557dceb4fe48c1d09d4ac3abf2/pipfontingpkg-1.0.0.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: Downloading https://files.pythonhosted.org/packages/4c/e2/d86e86b40050ceb6e9e231be8126a42c27557dceb4fe48c1d09d4ac3abf2/pipfontingpkg-1.0.0.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [generic-grader]: Downloading https://files.pythonhosted.org/packages/79/98/fcda7e9dd8c14082d421a544c516f2a2ba32abcafa7d5f456ae9fda089f7/generic_grader-0.0.2.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/54/88/b7aab8bd0bc054f73082055d2383e7999c8e236205b901372fcc041812cb/adafri-0.0.75.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 04:41:49] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.74.tar.gz tmp/adafri-0.0.75.tar.gz --markdown 20230807/a/adafri/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: Downloading https://files.pythonhosted.org/packages/6a/2f/d086c2c6c08d392f58f7b9fc11836ae35f884fdcfdd293b0d09ccd1c4f25/pipfontingpkg-1.1.0.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [pipfontingpkg]: Downloading https://files.pythonhosted.org/packages/6a/2f/d086c2c6c08d392f58f7b9fc11836ae35f884fdcfdd293b0d09ccd1c4f25/pipfontingpkg-1.1.0.tar.gz
+[2023-08-07 04:41:49] INFO root fetch - processPackages [generic-grader]: Downloading https://files.pythonhosted.org/packages/3f/7a/389d4b2bba45cb3a4596ed05c5ef93a6fcb1111e10fd230058f8ff52ba74/generic_grader-0.0.3-py3-none-any.whl
+[2023-08-07 04:41:50] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 04:41:50] INFO root fetch - processPackages [generic-grader]: executing diffoscope
+[2023-08-07 04:41:50] INFO root fetch - processPackages [generic-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic_grader-0.0.2.tar.gz tmp/generic_grader-0.0.3-py3-none-any.whl.zip --markdown 20230807/g/generic-grader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 04:41:50] INFO root fetch - processPackages [pipfontingpkg]: executing diffoscope
+[2023-08-07 04:41:50] INFO root fetch - processPackages [pipfontingpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipfontingpkg-1.0.0.tar.gz tmp/pipfontingpkg-1.1.0.tar.gz --markdown 20230807/p/pipfontingpkg/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 04:41:50] INFO root fetch - processPackages [pipfontingpkg]: executing diffoscope
+[2023-08-07 04:41:50] INFO root fetch - processPackages [pipfontingpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipfontingpkg-1.0.0.tar.gz tmp/pipfontingpkg-1.1.0.tar.gz --markdown 20230807/p/pipfontingpkg/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 04:41:50] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 04:41:50] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 04:41:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.74.tar.gz]
+[2023-08-07 04:41:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.75.tar.gz]
+[2023-08-07 04:41:50] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 04:41:50] INFO root fetch - processPackages [generic-grader]: Remove: archive file [/home/abi/fetcher/tmp/generic_grader-0.0.2.tar.gz]
+[2023-08-07 04:41:50] INFO root fetch - processPackages [generic-grader]: Remove: archive file [/home/abi/fetcher/tmp/generic_grader-0.0.3-py3-none-any.whl.zip]
+[2023-08-07 04:41:50] INFO root fetch - main [MainThread]: End processing [generic-grader]: success
+[2023-08-07 04:41:51] INFO root fetch - processPackages [pipfontingpkg]: Remove: archive file [/home/abi/fetcher/tmp/pipfontingpkg-1.0.0.tar.gz]
+[2023-08-07 04:41:51] INFO root fetch - processPackages [pipfontingpkg]: Remove: archive file [/home/abi/fetcher/tmp/pipfontingpkg-1.1.0.tar.gz]
+[2023-08-07 04:41:51] INFO root fetch - main [MainThread]: End processing [pipfontingpkg]: success
+[2023-08-07 04:41:51] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 04:41:51] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 04:41:51] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 04:41:51] INFO root fetch - main [MainThread]: End processing [pipfontingpkg]: success
+[2023-08-07 04:41:51] INFO root fetch - main [MainThread]: Store serial: [19199854]
