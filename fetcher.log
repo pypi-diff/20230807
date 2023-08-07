@@ -8804,3 +8804,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:39:30] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
 [2023-08-07 08:39:30] INFO root fetch - main [MainThread]: End processing [jijzept]: success
 [2023-08-07 08:39:30] INFO root fetch - main [MainThread]: Store serial: [19201362]
+[2023-08-07 08:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201362]
+[2023-08-07 08:44:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dream-river
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rebotics-sdk
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openi-beta
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monsterapi
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LabGym
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IOmatchbox
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xfem
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mknodes
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: engression
+[2023-08-07 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timedctl
+[2023-08-07 08:44:39] INFO root fetch - processPackages [openi-beta]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-07 08:44:39] WARNING root fetch - processPackages [monsterapi]: Skipping, unable to determine old version
+[2023-08-07 08:44:39] INFO root fetch - main [MainThread]: End processing [monsterapi] error
+[2023-08-07 08:44:39] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [engression]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [timedctl]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d9/55/a90b9e4875bfeaab89840bf2c8f8dd31f282c8a6fbbfaff57d02cb06545c/openi-beta-2.0.7.tar.gz
+[2023-08-07 08:44:39] INFO root fetch - processPackages [LabGym]: New version: [2.1] Old Version: [1.9.9]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [dream-river]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [IOmatchbox]: New version: [0.22] Old Version: [0.21]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-07 08:44:39] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post6.dev0]
+[2023-08-07 08:44:39] INFO root fetch - processPackages [engression]: Downloading https://files.pythonhosted.org/packages/67/91/492842680745dd91a4930aac73215a0b5375aa556b93a5fce6e15a4f4e7c/engression-0.1.0.tar.gz
+[2023-08-07 08:44:39] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/a9/fc/64ddb72158f90a7b495ba108e30e151148dd95086ce4d2c0891a5fda2c97/timedctl-5.2.0.tar.gz
+[2023-08-07 08:44:39] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/b9/e4/77edc8bda3fbba134dc9bb9f6504b0b31d4baee57db47432f552642c2288/dream_river-0.0.7.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/94/8d/e1f1f26b17415b46f403f4fd4590c3d41fa707a37be9a7aca900bbc148b5/LabGym-1.9.9.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/f8/ea/29948b88e71188c1ac69eaadc367bb5b788083bf99a1eaecc536e15e13da/xfem-2.1.2303.post6.dev0.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/51/42/44ea07942f533199ca0de02b012acc1bfa40ce0ee53819da669c27e910f0/openi-beta-2.0.8.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [IOmatchbox]: Downloading https://files.pythonhosted.org/packages/6a/01/605a7cb69f024d1b3f6109637f1a7c9c255ef266ce727d4e3e1bed8b4b90/IOmatchbox-0.21.tar.gz
+[2023-08-07 08:44:40] WARNING root fetch - processPackages [LabGym]: Skipping package: exceeds size limit 53615774>=10485760
+[2023-08-07 08:44:40] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-08-07 08:44:40] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.7.tar.gz tmp/openi-beta-2.0.8.tar.gz --markdown 20230807/o/openi-beta/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [engression]: Downloading https://files.pythonhosted.org/packages/2c/55/4e1d100949ab2f0523eea8369d660fd3e6b1153744635a21bc8997cf2679/engression-0.1.1.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230807/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/63/7b/beae78c228f5a0e65c820494110e8824cd7ff9e2a712d8e572ef7d6b623c/timedctl-5.3.0.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/c3/c8/ddb533211dd210194289ddc89519532a169d7183d8058f77bf2b1379d784/dream_river-0.0.8.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-5.2.0.tar.gz tmp/timedctl-5.3.0.tar.gz --markdown 20230807/t/timedctl/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [dream-river]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [dream-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_river-0.0.7.tar.gz tmp/dream_river-0.0.8.tar.gz --markdown 20230807/d/dream-river/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [IOmatchbox]: Downloading https://files.pythonhosted.org/packages/f8/42/1210fc4dfe4fd2183150621a1629650a719df061fd85710a77fddc253a3f/IOmatchbox-0.22.tar.gz
+[2023-08-07 08:44:40] INFO root fetch - processPackages [engression]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [engression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engression-0.1.0.tar.gz tmp/engression-0.1.1.tar.gz --markdown 20230807/e/engression/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230807/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 08:44:40] INFO root fetch - processPackages [IOmatchbox]: executing diffoscope
+[2023-08-07 08:44:40] INFO root fetch - processPackages [IOmatchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOmatchbox-0.21.tar.gz tmp/IOmatchbox-0.22.tar.gz --markdown 20230807/I/IOmatchbox/0.21-0.22/diff.md --exclude *.pyd
+[2023-08-07 08:44:41] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2023-08-07 08:44:41] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-08-07 08:44:41] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post6.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20230807/x/xfem/2.1.2303.post6.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2023-08-07 08:44:42] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.7.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.8.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [engression]: Remove: archive file [/home/abi/fetcher/tmp/engression-0.1.0.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [engression]: Remove: archive file [/home/abi/fetcher/tmp/engression-0.1.1.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [engression]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.2.0.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.3.0.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.7.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.8.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [dream-river]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [IOmatchbox]: Remove: archive file [/home/abi/fetcher/tmp/IOmatchbox-0.21.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [IOmatchbox]: Remove: archive file [/home/abi/fetcher/tmp/IOmatchbox-0.22.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [IOmatchbox]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-07 08:44:42] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-08-07 08:44:42] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-08-07 08:44:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post6.dev0.tar.gz]
+[2023-08-07 08:44:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2023-08-07 08:44:43] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-08-07 08:44:43] INFO root fetch - main [MainThread]: Store serial: [19201396]
