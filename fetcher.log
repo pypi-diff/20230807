@@ -10806,3 +10806,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 10:16:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-08-07 10:16:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-08-07 10:16:05] INFO root fetch - main [MainThread]: Store serial: [19202207]
+[2023-08-07 10:21:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202207]
+[2023-08-07 10:21:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybotrade-indicators
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namekoplus
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahbicht
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ahbicht
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iotPervasiveServiceSDK
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretflow-rayfed
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tomodachi-testcontainers
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-bccr
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-relion
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: processoptim
+[2023-08-07 10:21:14] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [processoptim]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.17.65]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [secretflow-rayfed]: New version: [0.2.0a0] Old Version: [0.1.1a4]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [scipion-em-relion]: New version: [4.0b8] Old Version: [4.0b7]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ahbicht]: New version: [0.6.0b0] Old Version: [0.6.0a0]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ahbicht]: New version: [0.6.0b0] Old Version: [0.6.0a0]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [cybotrade-indicators]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [tomodachi-testcontainers]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 10:21:14] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/de/91/eb7c9ec519f84001b10fecc822385817c691a1079585ea58550c0e41c550/processoptim-0.2.6-py3-none-any.whl
+[2023-08-07 10:21:14] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/ab/b2/ec39695a2b31bb3a4a27b26a9e7ab16455e331ef31e9acbf6850b21eb8db/iotPervasiveServiceSDK-0.0.8.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/d5/29/8f1fd6297e1e62a5cb75dac11461e55e24939ba42b6bbd22242feb15ae56/antchain_bccr-1.17.65.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/97/24/fdc0318a4ee330c312c76f0bdf2bc8f66ed8432ed51f37bda458fd954d50/ahbicht-0.6.0a0.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/97/24/fdc0318a4ee330c312c76f0bdf2bc8f66ed8432ed51f37bda458fd954d50/ahbicht-0.6.0a0.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/ba/29/48e6bf2a1d2917fe31fafc72889e5bf07b27a6782af7ca15001e45e48a4f/secretflow_rayfed-0.1.1a4-py3-none-any.whl
+[2023-08-07 10:21:14] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [tomodachi-testcontainers]: Downloading https://files.pythonhosted.org/packages/22/65/d3b39ec90db6dbffc8d82634edb06dfc0a0706625ba9f8982de39d248975/tomodachi_testcontainers-0.3.1.tar.gz
+[2023-08-07 10:21:14] INFO root fetch - processPackages [scipion-em-relion]: Downloading https://files.pythonhosted.org/packages/88/32/60934de2edb021fd3e916d18e7239809db0c22b0a8414540eb3222a26c61/scipion-em-relion-4.0b7.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [cybotrade-indicators]: Downloading https://files.pythonhosted.org/packages/85/23/d46c4f615bf1df5acbe6ef0273c1e45bd0bdde42e37bb2c973efd24b41e6/cybotrade-indicators-0.0.4.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/99/05/fb09f700386dfc2511fdfce989940ddfb03f0f602b86e6f99c3c498a46f2/iotPervasiveServiceSDK-0.0.9.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.8.tar.gz tmp/iotPervasiveServiceSDK-0.0.9.tar.gz --markdown 20230807/i/iotPervasiveServiceSDK/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/6c/bd/e69901ed288a8254ae464ceae1d3de73e11fdf4859f9d4de4bb2a6883491/secretflow_rayfed-0.2.0a0-py3-none-any.whl
+[2023-08-07 10:21:15] INFO root fetch - processPackages [tomodachi-testcontainers]: Downloading https://files.pythonhosted.org/packages/26/c1/3d5fab72888eabfe224224ecb20acc9c1bf229e618f621fa063a5be20b23/tomodachi_testcontainers-0.3.2.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [cybotrade-indicators]: Downloading https://files.pythonhosted.org/packages/50/dd/6827810f1dd37488263391247b17cfff7010337fcf63e44178b4e9c0ae56/cybotrade-indicators-0.0.5.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [scipion-em-relion]: Downloading https://files.pythonhosted.org/packages/f5/59/9be03469e00184395dd4ec32e2964b29e69d6f8c7eddc66bd1e4ffed7086/scipion-em-relion-4.0b8.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.17.65.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20230807/a/antchain-bccr/1.17.65-1.8.15/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/62/33/640ca62f420777feed448b8de0a7eaac7f657a9fa431c09896650028712e/ahbicht-0.6.0b0.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/62/33/640ca62f420777feed448b8de0a7eaac7f657a9fa431c09896650028712e/ahbicht-0.6.0b0.tar.gz
+[2023-08-07 10:21:15] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/3c/be/f47ef4dc10abdacbd0e829aae68c251a5f3b7b7df7dcffa4c7370181e6c6/processoptim-0.2.7-py3-none-any.whl
+[2023-08-07 10:21:15] INFO root fetch - processPackages [tomodachi-testcontainers]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [tomodachi-testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomodachi_testcontainers-0.3.1.tar.gz tmp/tomodachi_testcontainers-0.3.2.tar.gz --markdown 20230807/t/tomodachi-testcontainers/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [secretflow-rayfed]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [secretflow-rayfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_rayfed-0.1.1a4-py3-none-any.whl.zip tmp/secretflow_rayfed-0.2.0a0-py3-none-any.whl.zip --markdown 20230807/s/secretflow-rayfed/0.1.1a4-0.2.0a0/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [cybotrade-indicators]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [cybotrade-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybotrade-indicators-0.0.4.tar.gz tmp/cybotrade-indicators-0.0.5.tar.gz --markdown 20230807/c/cybotrade-indicators/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [scipion-em-relion]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [scipion-em-relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-relion-4.0b7.tar.gz tmp/scipion-em-relion-4.0b8.tar.gz --markdown 20230807/s/scipion-em-relion/4.0b7-4.0b8/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahbicht-0.6.0a0.tar.gz tmp/ahbicht-0.6.0b0.tar.gz --markdown 20230807/a/ahbicht/0.6.0a0-0.6.0b0/diff.md --exclude *.pyd
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: executing diffoscope
+[2023-08-07 10:21:15] INFO root fetch - processPackages [ahbicht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahbicht-0.6.0a0.tar.gz tmp/ahbicht-0.6.0b0.tar.gz --markdown 20230807/a/ahbicht/0.6.0a0-0.6.0b0/diff.md --exclude *.pyd
+[2023-08-07 10:21:16] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-07 10:21:16] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.6-py3-none-any.whl.zip tmp/processoptim-0.2.7-py3-none-any.whl.zip --markdown 20230807/p/processoptim/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-07 10:21:16] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 10:21:16] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 10:21:16] INFO root fetch - processPackages [namekoplus]: Start processing: fluxwallet
+[2023-08-07 10:21:16] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 10:21:16] INFO root fetch - processPackages [fluxwallet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 10:21:16] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/1c/04/e72f3ad371daa21d00fcb53d837a34d0705f8a65c3d7e6030f4e3eb67331/fluxwallet-0.1.1.tar.gz
+[2023-08-07 10:21:16] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.8.tar.gz]
+[2023-08-07 10:21:16] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.9.tar.gz]
+[2023-08-07 10:21:16] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Start processing: web3-ethereum-defi
+[2023-08-07 10:21:16] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-07 10:21:17] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/31/49/5d8215baed4bfc61d4cdd626ec61b146942d5544786df589ab76e2172679/fluxwallet-0.1.2.tar.gz
+[2023-08-07 10:21:17] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.17.65.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2023-08-07 10:21:17] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [tomodachi-testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi_testcontainers-0.3.1.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [tomodachi-testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi_testcontainers-0.3.2.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [fluxwallet]: executing diffoscope
+[2023-08-07 10:21:17] INFO root fetch - main [MainThread]: End processing [tomodachi-testcontainers]: success
+[2023-08-07 10:21:17] INFO root fetch - processPackages [fluxwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxwallet-0.1.1.tar.gz tmp/fluxwallet-0.1.2.tar.gz --markdown 20230807/f/fluxwallet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:21:17] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.1.1a4-py3-none-any.whl.zip]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.2.0a0-py3-none-any.whl.zip]
+[2023-08-07 10:21:17] INFO root fetch - main [MainThread]: End processing [secretflow-rayfed]: success
+[2023-08-07 10:21:17] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-08-07 10:21:17] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-08-07 10:21:17] INFO root fetch - processPackages [scipion-em-relion]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-relion-4.0b7.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - processPackages [scipion-em-relion]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-relion-4.0b8.tar.gz]
+[2023-08-07 10:21:17] INFO root fetch - main [MainThread]: End processing [scipion-em-relion]: success
+[2023-08-07 10:21:18] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-08-07 10:21:18] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230807/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-07 10:21:18] INFO root fetch - processPackages [cybotrade-indicators]: Remove: archive file [/home/abi/fetcher/tmp/cybotrade-indicators-0.0.4.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - processPackages [cybotrade-indicators]: Remove: archive file [/home/abi/fetcher/tmp/cybotrade-indicators-0.0.5.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - main [MainThread]: End processing [cybotrade-indicators]: success
+[2023-08-07 10:21:18] INFO root fetch - processPackages [ahbicht]: Remove: archive file [/home/abi/fetcher/tmp/ahbicht-0.6.0a0.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - processPackages [ahbicht]: Remove: archive file [/home/abi/fetcher/tmp/ahbicht-0.6.0b0.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - main [MainThread]: End processing [ahbicht]: success
+[2023-08-07 10:21:18] INFO root fetch - main [MainThread]: End processing [ahbicht]: success
+[2023-08-07 10:21:18] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.1.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.2.tar.gz]
+[2023-08-07 10:21:18] INFO root fetch - main [MainThread]: End processing [fluxwallet]: success
+[2023-08-07 10:21:18] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.6-py3-none-any.whl.zip]
+[2023-08-07 10:21:18] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.7-py3-none-any.whl.zip]
+[2023-08-07 10:21:18] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-07 10:21:19] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-08-07 10:21:19] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-08-07 10:21:19] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-08-07 10:21:19] INFO root fetch - main [MainThread]: Store serial: [19202242]
