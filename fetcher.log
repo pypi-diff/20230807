@@ -7738,3 +7738,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:31:11] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.9.tar.gz]
 [2023-08-07 07:31:11] INFO root fetch - main [MainThread]: End processing [arcan]: success
 [2023-08-07 07:31:11] INFO root fetch - main [MainThread]: Store serial: [19200814]
+[2023-08-07 07:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200814]
+[2023-08-07 07:36:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-07 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysesh
+[2023-08-07 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifgen
+[2023-08-07 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-08-07 07:36:20] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-07 07:36:20] INFO root fetch - processPackages [pysesh]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 07:36:20] WARNING root fetch - processPackages [ifgen]: Skipping, unable to determine old version
+[2023-08-07 07:36:20] INFO root fetch - main [MainThread]: End processing [ifgen] error
+[2023-08-07 07:36:20] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-07 07:36:20] INFO root fetch - processPackages [pysesh]: Downloading https://files.pythonhosted.org/packages/12/85/24625fa720dcf3f166447ef44dca5f04ddfed667fa790ede3a5f2a67a94e/pysesh-0.1.2.tar.gz
+[2023-08-07 07:36:20] INFO root fetch - processPackages [pysesh]: Downloading https://files.pythonhosted.org/packages/e8/2c/a782046a2128d7b34654773d31040e360fe789c4c7b98af63cf1a9f3bf6a/pysesh-0.1.3.tar.gz
+[2023-08-07 07:36:20] INFO root fetch - processPackages [pysesh]: executing diffoscope
+[2023-08-07 07:36:20] INFO root fetch - processPackages [pysesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysesh-0.1.2.tar.gz tmp/pysesh-0.1.3.tar.gz --markdown 20230807/p/pysesh/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 07:36:20] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-07 07:36:21] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-07 07:36:21] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230807/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 07:36:21] INFO root fetch - processPackages [pysesh]: Remove: archive file [/home/abi/fetcher/tmp/pysesh-0.1.2.tar.gz]
+[2023-08-07 07:36:21] INFO root fetch - processPackages [pysesh]: Remove: archive file [/home/abi/fetcher/tmp/pysesh-0.1.3.tar.gz]
+[2023-08-07 07:36:21] INFO root fetch - main [MainThread]: End processing [pysesh]: success
+[2023-08-07 07:36:25] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-07 07:36:25] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-07 07:36:25] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-07 07:36:25] INFO root fetch - main [MainThread]: Store serial: [19200825]
