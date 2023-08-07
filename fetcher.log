@@ -5708,3 +5708,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:31:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.6.tar.gz]
 [2023-08-07 04:31:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-08-07 04:31:24] INFO root fetch - main [MainThread]: Store serial: [19199810]
+[2023-08-07 04:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199810]
+[2023-08-07 04:36:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-07 04:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eliasliu
+[2023-08-07 04:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplematrixbotlib
+[2023-08-07 04:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparc-flow
+[2023-08-07 04:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: disposable-email-domains
+[2023-08-07 04:36:38] INFO root fetch - processPackages [eliasliu]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 04:36:38] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/3c/6a/72ef6eb66f5b53e3b067644bb2baacb9d1f611e90976d4c615feba1ef4c9/eliasliu-0.1.3.tar.gz
+[2023-08-07 04:36:38] WARNING root fetch - processPackages [sparc-flow]: Skipping, unable to determine old version
+[2023-08-07 04:36:38] INFO root fetch - main [MainThread]: End processing [sparc-flow] error
+[2023-08-07 04:36:38] INFO root fetch - processPackages [simplematrixbotlib]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-07 04:36:38] INFO root fetch - processPackages [disposable-email-domains]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-08-07 04:36:38] INFO root fetch - processPackages [simplematrixbotlib]: Downloading https://files.pythonhosted.org/packages/54/ea/569ec77684a76189854efe8421e6e6dd8be84497902d37b4b5792912038b/simplematrixbotlib-2.9.0.tar.gz
+[2023-08-07 04:36:39] INFO root fetch - processPackages [disposable-email-domains]: Downloading https://files.pythonhosted.org/packages/40/4a/64e3ee80e1750d1cf2535ba8c702db9943fe587221b0a5b2195a1d1c6e9d/disposable-email-domains-0.0.92.tar.gz
+[2023-08-07 04:36:39] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/4f/f0/caa6ed9613493547ae0324ee86bb80e6507558e4958a98be0c5eac034c79/eliasliu-0.1.4.tar.gz
+[2023-08-07 04:36:39] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 04:36:39] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.3.tar.gz tmp/eliasliu-0.1.4.tar.gz --markdown 20230807/e/eliasliu/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 04:36:39] INFO root fetch - processPackages [simplematrixbotlib]: Downloading https://files.pythonhosted.org/packages/9a/64/2bad2197eed78bd6102c3689d2b06873c4b0701bf6629e9eb7db00f0c28d/simplematrixbotlib-2.9.1.tar.gz
+[2023-08-07 04:36:39] INFO root fetch - processPackages [disposable-email-domains]: Downloading https://files.pythonhosted.org/packages/c5/be/5b464b1ce7a5a5f0888c1ae07e7d5301efedc2dca56d0055ed9fd437c7c1/disposable-email-domains-0.0.93.tar.gz
+[2023-08-07 04:36:39] INFO root fetch - processPackages [simplematrixbotlib]: executing diffoscope
+[2023-08-07 04:36:39] INFO root fetch - processPackages [simplematrixbotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplematrixbotlib-2.9.0.tar.gz tmp/simplematrixbotlib-2.9.1.tar.gz --markdown 20230807/s/simplematrixbotlib/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-08-07 04:36:39] INFO root fetch - processPackages [disposable-email-domains]: executing diffoscope
+[2023-08-07 04:36:39] INFO root fetch - processPackages [disposable-email-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disposable-email-domains-0.0.92.tar.gz tmp/disposable-email-domains-0.0.93.tar.gz --markdown 20230807/d/disposable-email-domains/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-08-07 04:36:40] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.3.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.4.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 04:36:40] INFO root fetch - processPackages [simplematrixbotlib]: Remove: archive file [/home/abi/fetcher/tmp/simplematrixbotlib-2.9.0.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - processPackages [simplematrixbotlib]: Remove: archive file [/home/abi/fetcher/tmp/simplematrixbotlib-2.9.1.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - main [MainThread]: End processing [simplematrixbotlib]: success
+[2023-08-07 04:36:40] INFO root fetch - processPackages [disposable-email-domains]: Remove: archive file [/home/abi/fetcher/tmp/disposable-email-domains-0.0.92.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - processPackages [disposable-email-domains]: Remove: archive file [/home/abi/fetcher/tmp/disposable-email-domains-0.0.93.tar.gz]
+[2023-08-07 04:36:40] INFO root fetch - main [MainThread]: End processing [disposable-email-domains]: success
+[2023-08-07 04:36:40] INFO root fetch - main [MainThread]: Store serial: [19199830]
