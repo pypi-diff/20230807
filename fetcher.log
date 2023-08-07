@@ -9934,3 +9934,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:44:28] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.1-py3-none-any.whl.zip]
 [2023-08-07 09:44:28] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-08-07 09:44:28] INFO root fetch - main [MainThread]: Store serial: [19201926]
+[2023-08-07 09:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201926]
+[2023-08-07 09:49:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-ocean
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-worksdone-utils
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scilightcon
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonschema
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheapcone
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide2-Frameless-Window
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exonviz
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: namekoplus
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2023-08-07 09:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: filter-data-options
+[2023-08-07 09:49:37] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [py-worksdone-utils]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-07 09:49:37] WARNING root fetch - processPackages [filter-data-options]: Skipping, unable to determine old version
+[2023-08-07 09:49:37] INFO root fetch - processPackages [filter-data-options]: Start processing: scidmcli
+[2023-08-07 09:49:37] INFO root fetch - main [MainThread]: End processing [filter-data-options] error
+[2023-08-07 09:49:37] INFO root fetch - processPackages [scilightcon]: New version: [0.2.0.post1] Old Version: [0.2.0]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [port-ocean]: New version: [0.1.4.dev4] Old Version: [0.1.4.dev3]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [PySide2-Frameless-Window]: New version: [0.3.0] Old Version: [0.1.3]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 09:49:37] INFO root fetch - processPackages [cheapcone]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [exonviz]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/d1/ea/f0b147fc771617d6deb9572eb0a23031675ea00bddc8ce6dea3361380dd1/py-worksdone-utils-1.0.7.tar.gz
+[2023-08-07 09:49:37] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5782405498] Old Version: [2.0.0.dev5762536547]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/2d/74/9e788a8572661e1b9654853abc72d2e24b8806afafdca81cdbe26cb55665/scilightcon-0.2.0.tar.gz
+[2023-08-07 09:49:37] INFO root fetch - processPackages [scidmcli]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-07 09:49:37] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-08-07 09:49:37] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/1c/96/8361d66a01db0352454dab9f2019114e8aea6ceda92585b6e763781aaa04/port_ocean-0.1.4.dev3.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/c5/6b/0f7f7c14225b89b61fc60b56213a163f4f7bb1f82f167bed858d2b539a3a/cheapcone-0.1.2.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/f2/d3/cc78a64f65ab042d08b3ba4d9466aeea0902dc104a64015019e772708f65/exonviz-0.1.3.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/ce/99/aeb1ed68efccfc10dc10aac5e243fa715ddf3cd1e10966ca986b3926c130/PySide2-Frameless-Window-0.1.3.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/df/b0/d8f14409ca01fd1f54efdb89cb51552b0f6ef96e71db30e0074e764c75a2/th2_data_services-2.0.0.dev5762536547.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [scidmcli]: Downloading https://files.pythonhosted.org/packages/d9/ba/774d5e1a11a231b2437ddc80ebcf00780637f5051041883ffa87c1f12dde/scidmcli-0.0.0.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/c4/1a/486657ecad2794b86ffa2dad32ba93396451e9fa5fb10111415cedeec797/py-worksdone-utils-1.0.8.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [py-worksdone-utils]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [py-worksdone-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-worksdone-utils-1.0.7.tar.gz tmp/py-worksdone-utils-1.0.8.tar.gz --markdown 20230807/p/py-worksdone-utils/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/3a/45/bd93a07b68a831d289317d6dac5a8cc5f678a65b16582cd7cb6571a8a3dc/cheapcone-0.1.3.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/65/84/2cc5c34c5912dc1aace6e7038fda8b56975a95a089509e87278064440b13/PySide2-Frameless-Window-0.3.0.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [exonviz]: Downloading https://files.pythonhosted.org/packages/75/00/cf3305d5682d43f1ba017b34ee54a539f2f4650e75d1e8435f7046a43ed5/exonviz-0.1.4.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/87/14/a5221942a31f8d36ed451c8ee4ea1026de4cfb6b58fbb379eba622b75ced/port_ocean-0.1.4.dev4.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230807/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [scidmcli]: Downloading https://files.pythonhosted.org/packages/75/66/0fa04574ef8cdb8476766f6ea4caaaf80caf0369398d5d85ccba84e12971/scidmcli-0.0.1.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/ee/00/7bf2a11aee0ff2d3a5ea8e31c5cc0655f326d2cfd23fc4f8d8efb2577161/th2_data_services-2.0.0.dev5782405498.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/a7/3c/7507f1c471e76058b8d29a1bd2f3c054d314b233fdc1faebc88d5d0d36ca/scilightcon-0.2.0.post1.tar.gz
+[2023-08-07 09:49:38] INFO root fetch - processPackages [PySide2-Frameless-Window]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [PySide2-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Frameless-Window-0.1.3.tar.gz tmp/PySide2-Frameless-Window-0.3.0.tar.gz --markdown 20230807/P/PySide2-Frameless-Window/0.1.3-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.2.tar.gz tmp/cheapcone-0.1.3.tar.gz --markdown 20230807/c/cheapcone/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [exonviz]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [exonviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exonviz-0.1.3.tar.gz tmp/exonviz-0.1.4.tar.gz --markdown 20230807/e/exonviz/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.4.dev3.tar.gz tmp/port_ocean-0.1.4.dev4.tar.gz --markdown 20230807/p/port-ocean/0.1.4.dev3-0.1.4.dev4/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [scidmcli]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [scidmcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scidmcli-0.0.0.tar.gz tmp/scidmcli-0.0.1.tar.gz --markdown 20230807/s/scidmcli/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-07 09:49:38] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-08-07 09:49:38] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5762536547.tar.gz tmp/th2_data_services-2.0.0.dev5782405498.tar.gz --markdown 20230807/t/th2-data-services/2.0.0.dev5762536547-2.0.0.dev5782405498/diff.md --exclude *.pyd
+[2023-08-07 09:49:39] INFO root fetch - processPackages [scilightcon]: executing diffoscope
+[2023-08-07 09:49:39] INFO root fetch - processPackages [scilightcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scilightcon-0.2.0.tar.gz tmp/scilightcon-0.2.0.post1.tar.gz --markdown 20230807/s/scilightcon/0.2.0-0.2.0.post1/diff.md --exclude *.pyd
+[2023-08-07 09:49:39] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.7.tar.gz]
+[2023-08-07 09:49:39] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.8.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [py-worksdone-utils]: Start processing: eliasliu
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [py-worksdone-utils]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [eliasliu]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/8e/37/014cb0c3957792bc671e6e56c6d1c6d3fc539a844417a091de63712bccdb/eliasliu-0.1.7.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [namekoplus]: Start processing: yellowdog-python-examples
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.2.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.3.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [cheapcone]: Start processing: pykoi
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [scidmcli]: Remove: archive file [/home/abi/fetcher/tmp/scidmcli-0.0.0.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [scidmcli]: Remove: archive file [/home/abi/fetcher/tmp/scidmcli-0.0.1.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [scidmcli]: Start processing: flexible-dict
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [scidmcli]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [pykoi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [PySide2-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Frameless-Window-0.1.3.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [PySide2-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Frameless-Window-0.3.0.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [PySide2-Frameless-Window]: Start processing: python-negar
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [PySide2-Frameless-Window]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [python-negar]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [flexible-dict]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.3.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [exonviz]: Remove: archive file [/home/abi/fetcher/tmp/exonviz-0.1.4.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [exonviz]: Start processing: MyOverlay
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [exonviz]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/b6/44/107510aebcd72a01b9b8d4355bfe39b68424be350a42d94bc7022a41ff38/python-negar-1.2.5.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [MyOverlay]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/fb/5b/cbcd9ea1a1de65ed5edb1e896b52de3ff811ba8ebb674f31e6855554cda4/MyOverlay-0.2.2.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5762536547.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5782405498.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [th2-data-services]: Start processing: mwsqlite
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.4.dev3.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.4.dev4.tar.gz]
+[2023-08-07 09:49:40] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 09:49:40] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.7.tar.gz tmp/eliasliu-0.1.8.tar.gz --markdown 20230807/e/eliasliu/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 09:49:40] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-08-07 09:49:40] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/89/62/2fa2c5ee18936f7d2a359e2fa0be77b31f2dfe199d067650b198454de5a6/pykoi-0.0.2.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/74/c9/37c3ca5c1efa85d676e271234bf5be97ed2523ed0b6f7f5848ee42a0df2e/flexible_dict-1.1.3.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-08-07 09:49:40] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/a4/bb/5cef69c79cb24bfe9b81d95f72d231b9142f5a34e5c4e0b862fc34b012a5/python-negar-1.2.6.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [mwsqlite]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-07 09:49:41] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/36/dc/29fd57bcd0c555bf54fdc52d061798c5e274eebc4438c3c73526255ab69c/MyOverlay-0.2.3.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.5.tar.gz tmp/python-negar-1.2.6.tar.gz --markdown 20230807/p/python-negar/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-07 09:49:41] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230807/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:49:41] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/e7/53/982953f7515c711390ed99fba2e0e505aab5ea3ecf971b82804d8b5a55c0/pykoi-0.0.3.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.2.2.tar.gz tmp/MyOverlay-0.2.3.tar.gz --markdown 20230807/M/MyOverlay/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 09:49:41] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/7a/ef/5191deafbed14f665f920deb55a1165abb16571e5f279fd9292500d5aa88/mwsqlite-1.3.0.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/57/72/8618630634a04aa520b04e22708373af158a5d4789a26c29e2627a575cc1/flexible_dict-1.1.4.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [pykoi]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [pykoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoi-0.0.2.tar.gz tmp/pykoi-0.0.3.tar.gz --markdown 20230807/p/pykoi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 09:49:41] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.1.3.tar.gz tmp/flexible_dict-1.1.4.tar.gz --markdown 20230807/f/flexible-dict/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-07 09:49:41] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/79/4a/ece7df9cda0bf017d02e7bec28c783d51be2562a120cee3305f54f41063c/mwsqlite-1.3.1.tar.gz
+[2023-08-07 09:49:41] INFO root fetch - processPackages [mwsqlite]: executing diffoscope
+[2023-08-07 09:49:41] INFO root fetch - processPackages [mwsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwsqlite-1.3.0.tar.gz tmp/mwsqlite-1.3.1.tar.gz --markdown 20230807/m/mwsqlite/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-07 09:49:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.7.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.post1.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [scilightcon]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.2.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.3.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.0.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.1.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.5.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.6.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.3.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.4.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2023-08-07 09:49:42] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.3.0.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.3.1.tar.gz]
+[2023-08-07 09:49:42] INFO root fetch - main [MainThread]: End processing [mwsqlite]: success
+[2023-08-07 09:49:43] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.2.tar.gz]
+[2023-08-07 09:49:43] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.3.tar.gz]
+[2023-08-07 09:49:43] INFO root fetch - main [MainThread]: End processing [pykoi]: success
+[2023-08-07 09:49:43] INFO root fetch - main [MainThread]: Store serial: [19201978]
