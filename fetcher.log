@@ -6852,3 +6852,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:05:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.1.tar.gz]
 [2023-08-07 06:05:28] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-08-07 06:05:28] INFO root fetch - main [MainThread]: Store serial: [19200299]
+[2023-08-07 06:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200299]
+[2023-08-07 06:10:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylint-sarif-unofficial
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-devkit
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csklearing
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ivy-vision
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybadger
+[2023-08-07 06:10:36] INFO root fetch - processPackages [pylint-sarif-unofficial]: New version: [0.2.1a0] Old Version: [0.2.0a0]
+[2023-08-07 06:10:36] WARNING root fetch - processPackages [csklearing]: Skipping, unable to determine old version
+[2023-08-07 06:10:36] INFO root fetch - main [MainThread]: End processing [csklearing] error
+[2023-08-07 06:10:36] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 06:10:36] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/fe/f4/f9f05b2d78de9ff7705c2d7f24e023cd14ed9995d73dd8048d285f13176d/pylint_sarif_unofficial-0.2.0a0.tar.gz
+[2023-08-07 06:10:36] INFO root fetch - processPackages [ivy-vision]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 06:10:36] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-07 06:10:36] WARNING root fetch - processPackages [pybadger]: Skipping, unable to determine old version
+[2023-08-07 06:10:36] INFO root fetch - main [MainThread]: End processing [pybadger] error
+[2023-08-07 06:10:37] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/0a/c2/ee5d177822b62927d4ddd02cc1021b1eaa3258eb180ce895a9cc331aeff0/pylint_sarif_unofficial-0.2.1a0.tar.gz
+[2023-08-07 06:10:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-07 06:10:37] INFO root fetch - processPackages [ivy-vision]: Downloading https://files.pythonhosted.org/packages/52/27/254ed9521e85638dbe011c10082ef61ba50810291ef4a713a72b66e49d44/ivy-vision-1.1.8.tar.gz
+[2023-08-07 06:10:37] INFO root fetch - processPackages [pylint-sarif-unofficial]: executing diffoscope
+[2023-08-07 06:10:37] INFO root fetch - processPackages [pylint-sarif-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz tmp/pylint_sarif_unofficial-0.2.1a0.tar.gz --markdown 20230807/p/pylint-sarif-unofficial/0.2.0a0-0.2.1a0/diff.md --exclude *.pyd
+[2023-08-07 06:10:37] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-07 06:10:37] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230807/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:10:37] INFO root fetch - processPackages [ivy-vision]: Downloading https://files.pythonhosted.org/packages/de/54/6b0098c75a6f799e7458df16929f10727b906addf8db190aed1a6688c35e/ivy-vision-1.1.9.tar.gz
+[2023-08-07 06:10:37] INFO root fetch - processPackages [ivy-vision]: executing diffoscope
+[2023-08-07 06:10:37] INFO root fetch - processPackages [ivy-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-vision-1.1.8.tar.gz tmp/ivy-vision-1.1.9.tar.gz --markdown 20230807/i/ivy-vision/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:10:37] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz]
+[2023-08-07 06:10:37] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.1a0.tar.gz]
+[2023-08-07 06:10:37] INFO root fetch - main [MainThread]: End processing [pylint-sarif-unofficial]: success
+[2023-08-07 06:10:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-07 06:10:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-07 06:10:38] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-07 06:10:38] INFO root fetch - processPackages [ivy-vision]: Remove: archive file [/home/abi/fetcher/tmp/ivy-vision-1.1.8.tar.gz]
+[2023-08-07 06:10:38] INFO root fetch - processPackages [ivy-vision]: Remove: archive file [/home/abi/fetcher/tmp/ivy-vision-1.1.9.tar.gz]
+[2023-08-07 06:10:38] INFO root fetch - main [MainThread]: End processing [ivy-vision]: success
+[2023-08-07 06:10:38] INFO root fetch - main [MainThread]: Store serial: [19200316]
