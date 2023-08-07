@@ -18605,3 +18605,99 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:27:45] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.1.0.tar.gz]
 [2023-08-07 14:27:45] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-08-07 14:27:45] INFO root fetch - main [MainThread]: Store serial: [19205328]
+[2023-08-07 14:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205328]
+[2023-08-07 14:32:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calfcv
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dstrial1
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-aws-utils
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethz-iam-webservice
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dgarbsutils
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nxtomo
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjt
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sherpa-onnx
+[2023-08-07 14:32:54] INFO root fetch - processPackages [pyjt]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [dstrial1]: New version: [0.3] Old Version: [0.2]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [nxtomo]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [ethz-iam-webservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [cg]: New version: [40.6.0] Old Version: [40.5.1]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/a5/02/8fabdd5acab18608587143fbe0aa4007d73d25a4201caa1abec25b1326f1/pyjt-0.5.0.tar.gz
+[2023-08-07 14:32:54] INFO root fetch - processPackages [databricks-aws-utils]: New version: [1.4.0b1] Old Version: [1.4.0]
+[2023-08-07 14:32:54] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/a0/e2/b8828753738303e41b66dd5743068bc7fd5627963e3eb47c185218bdfecb/dstrial1-0.2.tar.gz
+[2023-08-07 14:32:54] INFO root fetch - processPackages [dgarbsutils]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-08-07 14:32:55] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-07 14:32:55] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-07 14:32:55] INFO root fetch - processPackages [nxtomo]: Downloading https://files.pythonhosted.org/packages/23/08/cb4866a227e4e0a55f6d2964a75f730a492cbefccc615f45400d70d38bb9/nxtomo-0.2.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/8c/e7/e86b9ab3dc10ee295c246839ed262d98db339cf5f0c4b0ad751abd78b5c6/cg-40.5.1.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/a0/b8/d1ceeb21e4df6430560bf8205b61fd0829feed79dc5115bed620fb139287/ethz_iam_webservice-0.8.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/0e/dc/5233390313dbfa5dcefdc5a553244acdae15a3f3c46b0a40f3c5abaf096d/databricks_aws_utils-1.4.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/a9/4e/2b69e50da90adeacb7f94e88be96753ef58ec66d8f8724ae7d96b3bd720e/sherpa-onnx-1.6.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/08/8f/28e4979a18d8557a48de92e76decba7e0d78396ad72062ada4ca76938080/dstrial1-0.3.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [dgarbsutils]: Downloading https://files.pythonhosted.org/packages/04/f5/95419599322938fbf632155ddd09929ba2d6a861a33dab29e06898b7b28f/dgarbsutils-1.5.9.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [nxtomo]: Downloading https://files.pythonhosted.org/packages/33/76/88722797958a954f0d084e59e527f35463f1ee413919904bdc6a40ab2bb5/nxtomo-1.0.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/35/77/e2932d661ded91b777c47b01a516faedf1879176c2cdb301d12c4051015f/pyjt-0.5.1.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [dstrial1]: executing diffoscope
+[2023-08-07 14:32:55] INFO root fetch - processPackages [dstrial1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstrial1-0.2.tar.gz tmp/dstrial1-0.3.tar.gz --markdown 20230807/d/dstrial1/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-07 14:32:55] INFO root fetch - processPackages [nxtomo]: executing diffoscope
+[2023-08-07 14:32:55] INFO root fetch - processPackages [nxtomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomo-0.2.0.tar.gz tmp/nxtomo-1.0.0.tar.gz --markdown 20230807/n/nxtomo/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 14:32:55] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-07 14:32:55] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.5.0.tar.gz tmp/pyjt-0.5.1.tar.gz --markdown 20230807/p/pyjt/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-07 14:32:55] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/e4/15/93a9072f17bd8382ce8378dad0d83dd2ee7773ed7b447c01f2c9967918d4/databricks_aws_utils-1.4.0b1.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/d0/97/69afe508386104d4ca7bb45f423f85cc7c225867fa33af2a28a7b42b21a8/ethz_iam_webservice-0.9.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/94/ad/fef7da2f4dae4a76ca04f6b5317c6bafd6bcd793cb1ece14cba3908806a2/sherpa-onnx-1.6.1.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [dgarbsutils]: Downloading https://files.pythonhosted.org/packages/a1/23/bae27b8cef063a260fc74a755b6fc0d67e7c77083abb0b88376faf9a2462/dgarbsutils-1.6.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4a/49/2f596195380c80cc0d0b7c547e6c2da45eb79a3c8018cba707d493c04284/cg-40.6.0.tar.gz
+[2023-08-07 14:32:55] INFO root fetch - processPackages [databricks-aws-utils]: executing diffoscope
+[2023-08-07 14:32:55] INFO root fetch - processPackages [databricks-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_aws_utils-1.4.0.tar.gz tmp/databricks_aws_utils-1.4.0b1.tar.gz --markdown 20230807/d/databricks-aws-utils/1.4.0-1.4.0b1/diff.md --exclude *.pyd
+[2023-08-07 14:32:55] INFO root fetch - processPackages [ethz-iam-webservice]: executing diffoscope
+[2023-08-07 14:32:55] INFO root fetch - processPackages [ethz-iam-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethz_iam_webservice-0.8.0.tar.gz tmp/ethz_iam_webservice-0.9.0.tar.gz --markdown 20230807/e/ethz-iam-webservice/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 14:32:56] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 14:32:56] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 14:32:56] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-08-07 14:32:56] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230807/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-07 14:32:56] INFO root fetch - processPackages [dgarbsutils]: executing diffoscope
+[2023-08-07 14:32:56] INFO root fetch - processPackages [dgarbsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgarbsutils-1.5.9.tar.gz tmp/dgarbsutils-1.6.0.tar.gz --markdown 20230807/d/dgarbsutils/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-08-07 14:32:56] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-08-07 14:32:56] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.6.0.tar.gz tmp/sherpa-onnx-1.6.1.tar.gz --markdown 20230807/s/sherpa-onnx/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-07 14:32:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-08-07 14:32:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.5.1.tar.gz tmp/cg-40.6.0.tar.gz --markdown 20230807/c/cg/40.5.1-40.6.0/diff.md --exclude *.pyd
+[2023-08-07 14:32:57] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.2.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.3.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [dstrial1]: Start processing: dycodebase
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [dstrial1]: success
+[2023-08-07 14:32:57] ERROR root fetch - processPackages [dycodebase]: Unable to get metadata: No such project 'dycodebase'
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [dycodebase] error
+[2023-08-07 14:32:57] INFO root fetch - processPackages [nxtomo]: Remove: archive file [/home/abi/fetcher/tmp/nxtomo-0.2.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [nxtomo]: Remove: archive file [/home/abi/fetcher/tmp/nxtomo-1.0.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [nxtomo]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.5.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.5.1.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.4.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [databricks-aws-utils]: Remove: archive file [/home/abi/fetcher/tmp/databricks_aws_utils-1.4.0b1.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [databricks-aws-utils]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.6.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.6.1.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [dgarbsutils]: Remove: archive file [/home/abi/fetcher/tmp/dgarbsutils-1.5.9.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [dgarbsutils]: Remove: archive file [/home/abi/fetcher/tmp/dgarbsutils-1.6.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [dgarbsutils]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.8.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.9.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [ethz-iam-webservice]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 14:32:57] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-08-07 14:32:57] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-08-07 14:33:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.5.1.tar.gz]
+[2023-08-07 14:33:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.6.0.tar.gz]
+[2023-08-07 14:33:02] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-08-07 14:33:02] INFO root fetch - main [MainThread]: Store serial: [19205375]
