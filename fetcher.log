@@ -5392,3 +5392,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:10:25] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.4.2.tar.gz]
 [2023-08-07 04:10:25] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
 [2023-08-07 04:10:25] INFO root fetch - main [MainThread]: Store serial: [19199690]
+[2023-08-07 04:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199690]
+[2023-08-07 04:15:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbplatformutils
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspkio
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flagai
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stixorm
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgq
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HaploDynamics
+[2023-08-07 04:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webint
+[2023-08-07 04:15:34] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b6] Old Version: [0.1b5]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [pyspkio]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [stixorm]: New version: [0.2.6] Old Version: [0.1.9]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [flagai]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [lbplatformutils]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [pyspkio]: Downloading https://files.pythonhosted.org/packages/43/f6/b2e0db70544d87ffaf0f81a68de0e144d8bdc4c55060b370f64f58719df1/pyspkio-0.0.1.tar.gz
+[2023-08-07 04:15:34] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/39/49/52a7bb0a4adff1fa4d929be05274c8c43c16060521ad5ba37d23324dd537/HaploDynamics-0.1b5.tar.gz
+[2023-08-07 04:15:34] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [bgq]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-08-07 04:15:34] INFO root fetch - processPackages [stixorm]: Downloading https://files.pythonhosted.org/packages/b3/0a/f5494fad99287ddad40b651018cf197aabf2d44a0d245a653ffca477c00e/stixorm-0.1.9.tar.gz
+[2023-08-07 04:15:34] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/98/22/d2b1c5f142a8f53936648742c4cb1ada45830dd1d414a5eac2d03c990dae/flagai-1.7.3.tar.gz
+[2023-08-07 04:15:34] INFO root fetch - processPackages [lbplatformutils]: Downloading https://files.pythonhosted.org/packages/ca/d1/5deb569939615e44b80323791a7e77f35216d327fe133b4f268daa88ab75/LbPlatformUtils-4.3.7.tar.gz
+[2023-08-07 04:15:34] INFO root fetch - processPackages [bgq]: Downloading https://files.pythonhosted.org/packages/cc/80/93170722d0a96ac83de9a1ce59a53b342bd526bffd7f62b6963acc618774/bgq-0.1.4.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/42/4b/ccc995b423281681af4329fc9b74ebca49b5bf43a516d576459c419b486b/webint-0.1.8.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/42/4b/ccc995b423281681af4329fc9b74ebca49b5bf43a516d576459c419b486b/webint-0.1.8.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [pyspkio]: Downloading https://files.pythonhosted.org/packages/71/0c/1add95eea5f6e2c5744a7bb2c89c99309788c602ea365d0b8d5568a3f89d/pyspkio-0.0.2.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/e6/e2/f34b1441597501d26a1578418b5f868f0ef52fd48282ea58b6dd6dd641c2/HaploDynamics-0.1b6.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [stixorm]: Downloading https://files.pythonhosted.org/packages/55/dc/7f8a3d02da361e706f7ebc1246660080ac3901c8f363c29fd365456f764e/stixorm-0.2.6-py3-none-any.whl
+[2023-08-07 04:15:35] INFO root fetch - processPackages [pyspkio]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [pyspkio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspkio-0.0.1.tar.gz tmp/pyspkio-0.0.2.tar.gz --markdown 20230807/p/pyspkio/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b5.tar.gz tmp/HaploDynamics-0.1b6.tar.gz --markdown 20230807/H/HaploDynamics/0.1b5-0.1b6/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/a5/42/b01c16d25a184e28d676083bd5becfcb05b95d66c2a5dfb1615f518b2d1d/flagai-1.7.4-py3-none-any.whl
+[2023-08-07 04:15:35] INFO root fetch - processPackages [bgq]: Downloading https://files.pythonhosted.org/packages/7a/04/b1edad8bbbb84fa5f557b9b7b1742814d4fc5668738dbd5462b9ffff664c/bgq-0.1.5.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [stixorm]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [stixorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stixorm-0.1.9.tar.gz tmp/stixorm-0.2.6-py3-none-any.whl.zip --markdown 20230807/s/stixorm/0.1.9-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lbplatformutils]: Downloading https://files.pythonhosted.org/packages/91/79/2c962af7c8281e35d8ca3a967a7a4335098a9668bfee65807fa3369e9f45/LbPlatformUtils-4.3.8.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [bgq]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [bgq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgq-0.1.4.tar.gz tmp/bgq-0.1.5.tar.gz --markdown 20230807/b/bgq/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-08-07 04:15:35] INFO root fetch - processPackages [flagai]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [flagai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagai-1.7.3.tar.gz tmp/flagai-1.7.4-py3-none-any.whl.zip --markdown 20230807/f/flagai/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lbplatformutils]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lbplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbPlatformUtils-4.3.7.tar.gz tmp/LbPlatformUtils-4.3.8.tar.gz --markdown 20230807/l/lbplatformutils/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-08-07 04:15:35] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230807/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-08-07 04:15:36] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b5.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b6.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 04:15:36] INFO root fetch - processPackages [bgq]: Remove: archive file [/home/abi/fetcher/tmp/bgq-0.1.4.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [bgq]: Remove: archive file [/home/abi/fetcher/tmp/bgq-0.1.5.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [bgq]: success
+[2023-08-07 04:15:36] INFO root fetch - processPackages [pyspkio]: Remove: archive file [/home/abi/fetcher/tmp/pyspkio-0.0.1.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [pyspkio]: Remove: archive file [/home/abi/fetcher/tmp/pyspkio-0.0.2.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [pyspkio]: success
+[2023-08-07 04:15:36] INFO root fetch - processPackages [lbplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/LbPlatformUtils-4.3.7.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [lbplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/LbPlatformUtils-4.3.8.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [lbplatformutils]: success
+[2023-08-07 04:15:36] INFO root fetch - processPackages [stixorm]: Remove: archive file [/home/abi/fetcher/tmp/stixorm-0.1.9.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [stixorm]: Remove: archive file [/home/abi/fetcher/tmp/stixorm-0.2.6-py3-none-any.whl.zip]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [stixorm]: success
+[2023-08-07 04:15:36] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.3.tar.gz]
+[2023-08-07 04:15:36] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.4-py3-none-any.whl.zip]
+[2023-08-07 04:15:36] INFO root fetch - main [MainThread]: End processing [flagai]: success
+[2023-08-07 04:15:37] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/f4/be/5553cc674f3905c35a02f9069bad2384cbae83ac40e14f3949e72c082fa7/webint-0.1.9.tar.gz
+[2023-08-07 04:15:37] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/f4/be/5553cc674f3905c35a02f9069bad2384cbae83ac40e14f3949e72c082fa7/webint-0.1.9.tar.gz
+[2023-08-07 04:15:37] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-08-07 04:15:37] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-08-07 04:15:37] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-08-07 04:15:38] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-08-07 04:15:38] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230807/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 04:15:38] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-08-07 04:15:38] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230807/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 04:15:43] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.8.tar.gz]
+[2023-08-07 04:15:43] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.9.tar.gz]
+[2023-08-07 04:15:43] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-08-07 04:15:43] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-08-07 04:15:43] INFO root fetch - main [MainThread]: Store serial: [19199713]
