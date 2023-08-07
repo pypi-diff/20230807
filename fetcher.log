@@ -9162,3 +9162,128 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:00:26] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
 [2023-08-07 09:00:26] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
 [2023-08-07 09:00:26] INFO root fetch - main [MainThread]: Store serial: [19201609]
+[2023-08-07 09:05:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201609]
+[2023-08-07 09:05:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-mcversion
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namekoplus
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyers-sdk
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image2layout-computer-vision
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.target
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmergenetyper
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-devkit
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-vpc20160428-py2
+[2023-08-07 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-vpc20160428
+[2023-08-07 09:05:35] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [fyers-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [kmergenetyper]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [alibabacloud-vpc20160428]: New version: [4.0.0] Old Version: [3.0.1]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/a0/e3/d2e3d7bd11ab615beb658ffef382c963937ec7b86218e32582645163b34b/image2layout_computer_vision-0.1.0.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-07 09:05:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/87/01/72ec1135b618cbb7939a797fc240c675811aac2600f01e5030c1867539a3/fyers_sdk-2.1.5.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/c1/3f/69e6680d6499432d9f71a2693a5955b5a362e06bf0835c6385b4ead48472/alibabacloud_vpc20160428-3.0.1.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/5d/ae/321fdf636e730e328a51851060905d6ad88481ecfc38352aafe0bb250ef7/kmergenetyper-1.0.9.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/90/9e/d77f599dced6be6065c2b0f53da96be15485eb2c7ed66d464923e2d5a006/nonebot-plugin-mcversion-0.2.2.tar.gz
+[2023-08-07 09:05:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/ed/f1/8e2eaafa0c87a4bbdce1cf772e08c1b83012fd99bf5bf85c617566552f99/alibabacloud_vpc20160428_py2-2.0.0.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-07 09:05:36] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-08-07 09:05:36] INFO root fetch - processPackages [dissect.target]: Start processing: sphractal
+[2023-08-07 09:05:36] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-08-07 09:05:36] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/26/2a/45df72b14fdf03ae0854221b922468ea4cc3d9e084b0ad660f28adbba43a/image2layout_computer_vision-0.1.1.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 09:05:36] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230807/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.1.0.tar.gz tmp/image2layout_computer_vision-0.1.1.tar.gz --markdown 20230807/i/image2layout-computer-vision/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/b2/bf/c19e8992435dcf3f6157fcf0e5f0d36b0bfb67a6eaadc7b2da3c14cc2f64/kmergenetyper-1.1.0.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/a7/d9/f9b392877c9e20e5e2bc4772d6ac17770f86281b653ddd42191e59047a30/alibabacloud_vpc20160428-4.0.0.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/ad/8b/72e178ad01795f543d0c9d6139bdb82500fcb10c9c5e5723b2434a3a2ce0/nonebot-plugin-mcversion-0.2.3.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/1d/b0/a30c197f87f96ac74ade7d1bd244934403f05e93590ba2a04933dc40d6f7/fyers_sdk-2.1.6.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/96/24/8942a5db849b7b66e70640f9aa68cb30ba7645110508717e07d472f68738/alibabacloud_vpc20160428_py2-3.0.0.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-07 09:05:36] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230807/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.1.5.tar.gz tmp/fyers_sdk-2.1.6.tar.gz --markdown 20230807/f/fyers-sdk/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.2.tar.gz tmp/nonebot-plugin-mcversion-0.2.3.tar.gz --markdown 20230807/n/nonebot-plugin-mcversion/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.9.tar.gz tmp/kmergenetyper-1.1.0.tar.gz --markdown 20230807/k/kmergenetyper/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428-3.0.1.tar.gz tmp/alibabacloud_vpc20160428-4.0.0.tar.gz --markdown 20230807/a/alibabacloud-vpc20160428/3.0.1-4.0.0/diff.md --exclude *.pyd
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: executing diffoscope
+[2023-08-07 09:05:36] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428_py2-2.0.0.tar.gz tmp/alibabacloud_vpc20160428_py2-3.0.0.tar.gz --markdown 20230807/a/alibabacloud-vpc20160428-py2/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-08-07 09:05:37] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-07 09:05:37] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-07 09:05:37] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230807/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 09:05:38] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.5.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.6.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [fyers-sdk]: Start processing: ofscraper
+[2023-08-07 09:05:38] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-08-07 09:05:38] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [namekoplus]: Start processing: odoo-addon-mail-multicompany
+[2023-08-07 09:05:38] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 09:05:38] INFO root fetch - processPackages [ofscraper]: New version: [3.0.1] Old Version: [3.0]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.0.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.1.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [image2layout-computer-vision]: Start processing: kmergenetyper
+[2023-08-07 09:05:38] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-07 09:05:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-07 09:05:38] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-07 09:05:38] INFO root fetch - processPackages [kmergenetyper]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-07 09:05:38] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f8/36/8815e21ddbe3f0de1f9be48d963f3830f7e351553f3aec62bed7abcc4df9/ofscraper-3.0.tar.gz
+[2023-08-07 09:05:39] INFO root fetch - processPackages [kmergenetyper]: Remove: archive file [/home/abi/fetcher/tmp/kmergenetyper-1.0.9.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - processPackages [kmergenetyper]: Remove: archive file [/home/abi/fetcher/tmp/kmergenetyper-1.1.0.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-08-07 09:05:39] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-07 09:05:39] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.2.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.3.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-08-07 09:05:39] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-07 09:05:39] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-07 09:05:39] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Downloading https://files.pythonhosted.org/packages/47/f1/6b33b729737aaa70f7b83d124671330002c499c44026367a59d13d0d6b78/odoo_addon_mail_multicompany-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-07 09:05:39] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/b2/bf/c19e8992435dcf3f6157fcf0e5f0d36b0bfb67a6eaadc7b2da3c14cc2f64/kmergenetyper-1.1.0.tar.gz
+[2023-08-07 09:05:39] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/c3/29/c778c1e6c640b74a6de9a8d0eb827a9c433b6d4286bbc793b181b2f9dc41/ofscraper-3.0.1.tar.gz
+[2023-08-07 09:05:39] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-08-07 09:05:39] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.9.tar.gz tmp/kmergenetyper-1.1.0.tar.gz --markdown 20230807/k/kmergenetyper/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:05:39] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 09:05:39] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.tar.gz tmp/ofscraper-3.0.1.tar.gz --markdown 20230807/o/ofscraper/3.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-07 09:05:39] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Downloading https://files.pythonhosted.org/packages/e9/76/f7acb228706b33cb0d8b433a7ec00c5e334c1e9e0da334ed4aaa553fee31/odoo_addon_mail_multicompany-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-07 09:05:39] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: executing diffoscope
+[2023-08-07 09:05:39] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_multicompany-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_multicompany-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-mail-multicompany/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-07 09:05:40] ERROR root fetch - processPackages [kmergenetyper]: Diffoscope failed: time="2023-08-07T09:05:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/kmergenetyper-1.0.9.tar.gz: No such file or directory
+
+[2023-08-07 09:05:40] INFO root fetch - main [MainThread]: End processing [kmergenetyper] error
+[2023-08-07 09:05:40] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_multicompany-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-07 09:05:40] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_multicompany-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-07 09:05:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-multicompany]: success
+[2023-08-07 09:05:40] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.tar.gz]
+[2023-08-07 09:05:40] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.1.tar.gz]
+[2023-08-07 09:05:40] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 09:05:41] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-2.0.0.tar.gz]
+[2023-08-07 09:05:41] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-3.0.0.tar.gz]
+[2023-08-07 09:05:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428-py2]: success
+[2023-08-07 09:05:41] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-3.0.1.tar.gz]
+[2023-08-07 09:05:41] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-4.0.0.tar.gz]
+[2023-08-07 09:05:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
+[2023-08-07 09:05:41] INFO root fetch - main [MainThread]: Store serial: [19201660]
