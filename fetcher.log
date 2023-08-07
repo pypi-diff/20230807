@@ -6441,3 +6441,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:33:53] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.6.tar.gz]
 [2023-08-07 05:33:53] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
 [2023-08-07 05:33:53] INFO root fetch - main [MainThread]: Store serial: [19200115]
+[2023-08-07 05:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200115]
+[2023-08-07 05:39:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tpf
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: potnanny
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owologs
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroimager
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stixorm
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylinks
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runpod
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aespark
+[2023-08-07 05:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RuletaEuropea
+[2023-08-07 05:39:02] WARNING root fetch - processPackages [owologs]: Skipping, unable to determine old version
+[2023-08-07 05:39:02] INFO root fetch - main [MainThread]: End processing [owologs] error
+[2023-08-07 05:39:02] WARNING root fetch - processPackages [tpf]: Skipping, unable to determine old version
+[2023-08-07 05:39:02] INFO root fetch - main [MainThread]: End processing [tpf] error
+[2023-08-07 05:39:02] INFO root fetch - processPackages [stixorm]: New version: [0.2.9.4] Old Version: [0.2.6]
+[2023-08-07 05:39:02] INFO root fetch - processPackages [neuroimager]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-07 05:39:02] WARNING root fetch - processPackages [RuletaEuropea]: Skipping, unable to determine old version
+[2023-08-07 05:39:02] INFO root fetch - main [MainThread]: End processing [RuletaEuropea] error
+[2023-08-07 05:39:02] WARNING root fetch - processPackages [pylinks]: Skipping, unable to determine old version
+[2023-08-07 05:39:02] INFO root fetch - main [MainThread]: End processing [pylinks] error
+[2023-08-07 05:39:02] INFO root fetch - processPackages [potnanny]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-08-07 05:39:02] INFO root fetch - processPackages [runpod]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 05:39:02] INFO root fetch - processPackages [stixorm]: Downloading https://files.pythonhosted.org/packages/55/dc/7f8a3d02da361e706f7ebc1246660080ac3901c8f363c29fd365456f764e/stixorm-0.2.6-py3-none-any.whl
+[2023-08-07 05:39:02] INFO root fetch - processPackages [aespark]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 05:39:02] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/85/f3/4306391e40d673506cec1f003080e622494fd7b1956aff1b8035c78bcd73/neuroimager-0.0.9.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/ca/60/ca14e149eb4665c8798f003c9a31f1dbdb33fc2628aa22306a80df924a98/potnanny-0.1.3.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/62/d5/e3430b5849e3d4c64441f8279a249a5595997c7b2852db547fd20a5753ad/runpod-1.0.0.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/e3/f9/d00c00bc6205a0c69f1243e49a403ac07cfb4c160bda01c36932c45cacf8/aespark-0.0.6.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [stixorm]: Downloading https://files.pythonhosted.org/packages/60/a7/59797c47d88aff46b1fe837e7631e5619bfa868ecb7cdaac21959f52961b/stixorm-0.2.9.4.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/5f/a4/e92987fb59b2f04e3cc4cff11c18242fd38ed2da74d0d72d9b14fa35b882/neuroimager-0.1.0.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/eb/03/062289446536be11ba35a2f550dd046ddbb523dde2a677bc0f4e11107756/runpod-1.0.1.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/ed/7c/48652fd859d7ee17f7269c2cca63d6085d64bbb22cd9d2001ec13e55a9cc/potnanny-0.1.5.tar.gz
+[2023-08-07 05:39:02] INFO root fetch - processPackages [stixorm]: executing diffoscope
+[2023-08-07 05:39:02] INFO root fetch - processPackages [stixorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stixorm-0.2.6-py3-none-any.whl.zip tmp/stixorm-0.2.9.4.tar.gz --markdown 20230807/s/stixorm/0.2.6-0.2.9.4/diff.md --exclude *.pyd
+[2023-08-07 05:39:02] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-08-07 05:39:02] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.9.tar.gz tmp/neuroimager-0.1.0.tar.gz --markdown 20230807/n/neuroimager/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 05:39:02] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-08-07 05:39:02] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-1.0.0.tar.gz tmp/runpod-1.0.1.tar.gz --markdown 20230807/r/runpod/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 05:39:02] INFO root fetch - processPackages [potnanny]: executing diffoscope
+[2023-08-07 05:39:02] INFO root fetch - processPackages [potnanny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potnanny-0.1.3.tar.gz tmp/potnanny-0.1.5.tar.gz --markdown 20230807/p/potnanny/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 05:39:03] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/ac/d6/56437e5135d2b5c5557dc824cc3999e9678cb81de8d70dca3c0536c340c8/aespark-0.0.7.tar.gz
+[2023-08-07 05:39:03] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.9.tar.gz]
+[2023-08-07 05:39:03] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.1.0.tar.gz]
+[2023-08-07 05:39:03] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-08-07 05:39:03] INFO root fetch - processPackages [stixorm]: Remove: archive file [/home/abi/fetcher/tmp/stixorm-0.2.6-py3-none-any.whl.zip]
+[2023-08-07 05:39:03] INFO root fetch - processPackages [stixorm]: Remove: archive file [/home/abi/fetcher/tmp/stixorm-0.2.9.4.tar.gz]
+[2023-08-07 05:39:03] INFO root fetch - main [MainThread]: End processing [stixorm]: success
+[2023-08-07 05:39:04] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-1.0.0.tar.gz]
+[2023-08-07 05:39:04] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-1.0.1.tar.gz]
+[2023-08-07 05:39:04] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-08-07 05:39:04] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-08-07 05:39:04] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.6.tar.gz tmp/aespark-0.0.7.tar.gz --markdown 20230807/a/aespark/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 05:39:08] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.3.tar.gz]
+[2023-08-07 05:39:08] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.5.tar.gz]
+[2023-08-07 05:39:08] INFO root fetch - main [MainThread]: End processing [potnanny]: success
+[2023-08-07 05:39:09] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.6.tar.gz]
+[2023-08-07 05:39:09] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.7.tar.gz]
+[2023-08-07 05:39:09] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-08-07 05:39:09] INFO root fetch - main [MainThread]: Store serial: [19200156]
