@@ -18917,3 +18917,117 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:43:57] INFO root fetch - processPackages [streamlit-feedback]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-feedback-0.0.7.tar.gz]
 [2023-08-07 14:43:57] INFO root fetch - main [MainThread]: End processing [streamlit-feedback]: success
 [2023-08-07 14:43:57] INFO root fetch - main [MainThread]: Store serial: [19205474]
+[2023-08-07 14:49:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205474]
+[2023-08-07 14:49:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dgarbsutils
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berryworld
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dstrial1
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lark-oapi
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlaas-sdk
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-08-07 14:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utfuzz
+[2023-08-07 14:49:07] INFO root fetch - processPackages [dstrial1]: New version: [0.4] Old Version: [0.3]
+[2023-08-07 14:49:07] INFO root fetch - processPackages [utfuzz]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 14:49:07] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-08-07 14:49:07] INFO root fetch - processPackages [mlaas-sdk]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-08-07 14:49:07] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 14:49:07] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-08-07 14:49:08] INFO root fetch - processPackages [kfish]: New version: [99.0.202308071246] Old Version: [99.0.202308041935]
+[2023-08-07 14:49:08] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dgarbsutils]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-08-07 14:49:08] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230807124321] Old Version: [2.2.1.dev20230807112741]
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/08/8f/28e4979a18d8557a48de92e76decba7e0d78396ad72062ada4ca76938080/dstrial1-0.3.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/00/21/b2e8577d974e7783cf2c6906bc58da0031b4e42275b4ee2bb2536e0840a3/utfuzz-0.1.1.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-08-07 14:49:08] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [mlaas-sdk]: Downloading https://files.pythonhosted.org/packages/8a/ae/6cb8ad524b0050a5e7e3109eb2ad132fad51535f18169db8dcb0b0106de9/mlaas_sdk-0.5.0.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dgarbsutils]: Downloading https://files.pythonhosted.org/packages/a1/23/bae27b8cef063a260fc74a755b6fc0d67e7c77083abb0b88376faf9a2462/dgarbsutils-1.6.0.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/db/89/d513f03ed62dcdcc01cb27016c2024510981035e3eee919442d6bef15fd4/lark-oapi-1.0.8.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ff/31/d8239402a6ea3579636c729ad5ad63212d2206b2ed9c26d1a043d28dfda8/kfish-99.0.202308041935-py3-none-any.whl
+[2023-08-07 14:49:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/68/94/5e827425a12d5dab63f8bbfef116367daf7cac718b90e54688fe305380a2/localstack-core-2.2.1.dev20230807112741.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/68/f0/efb6e0e807d85d1c1b96387aba86c05dc237d0f19e827b37ccf26707dfe3/dstrial1-0.4.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/e2/9f/88db7e352e511566ba28411f014d61b46f14eb08bed4dd4617ccf1bea7b3/utfuzz-0.1.2.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [mlaas-sdk]: Downloading https://files.pythonhosted.org/packages/6c/0e/768f44b6e042280b8a7f19b03554788f3c471d832bf3511432c1326d8639/mlaas_sdk-1.0.0.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dgarbsutils]: Downloading https://files.pythonhosted.org/packages/e4/c8/b0ac5c54c903a708920a2843dd72de083865b2ec1a5d3645823b30740166/dgarbsutils-1.6.2.tar.gz
+[2023-08-07 14:49:08] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-07 14:49:08] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230807/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 14:49:08] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-08-07 14:49:08] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230807/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dstrial1]: executing diffoscope
+[2023-08-07 14:49:08] INFO root fetch - processPackages [dstrial1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstrial1-0.3.tar.gz tmp/dstrial1-0.4.tar.gz --markdown 20230807/d/dstrial1/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-07 14:49:08] INFO root fetch - processPackages [mlaas-sdk]: executing diffoscope
+[2023-08-07 14:49:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bf/2b/11b9c4ea5fb75aed125cd2a08dcb71c9193522e61e4d9ab989e870243b63/kfish-99.0.202308071246-py3-none-any.whl
+[2023-08-07 14:49:08] INFO root fetch - processPackages [mlaas-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlaas_sdk-0.5.0.tar.gz tmp/mlaas_sdk-1.0.0.tar.gz --markdown 20230807/m/mlaas-sdk/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.1.tar.gz tmp/utfuzz-0.1.2.tar.gz --markdown 20230807/u/utfuzz/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/54/5c/43b33703e89b8ae3ca3af64b707a85cc1cc141695a8a96ef3ad9a5e279a8/lark-oapi-1.0.9.tar.gz
+[2023-08-07 14:49:09] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230807/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [dgarbsutils]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [dgarbsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgarbsutils-1.6.0.tar.gz tmp/dgarbsutils-1.6.2.tar.gz --markdown 20230807/d/dgarbsutils/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/51/c5/efdcf52330f31b818f1c5e6f837df184609479107e021460a7a22c7353ab/localstack-core-2.2.1.dev20230807124321.tar.gz
+[2023-08-07 14:49:09] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308041935-py3-none-any.whl.zip tmp/kfish-99.0.202308071246-py3-none-any.whl.zip --markdown 20230807/k/kfish/99.0.202308041935-99.0.202308071246/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.8.tar.gz tmp/lark-oapi-1.0.9.tar.gz --markdown 20230807/l/lark-oapi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:49:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-07 14:49:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230807112741.tar.gz tmp/localstack-core-2.2.1.dev20230807124321.tar.gz --markdown 20230807/l/localstack-core/2.2.1.dev20230807112741-2.2.1.dev20230807124321/diff.md --exclude *.pyd
+[2023-08-07 14:49:10] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.3.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.4.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [dstrial1]: Start processing: deduce
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [dstrial1]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [deduce]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.1.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.2.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [utfuzz]: Start processing: LineageTree
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [LineageTree]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [deduce]: Downloading https://files.pythonhosted.org/packages/f6/4a/d79ce593caaa7cefe098c84c0116f7e82017d3ab3c54cf2e6434bd3d457b/deduce-2.0.3.tar.gz
+[2023-08-07 14:49:10] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [TheSilent]: Start processing: ssl-sniffer
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [dgarbsutils]: Remove: archive file [/home/abi/fetcher/tmp/dgarbsutils-1.6.0.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [dgarbsutils]: Remove: archive file [/home/abi/fetcher/tmp/dgarbsutils-1.6.2.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [dgarbsutils]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [mlaas-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlaas_sdk-0.5.0.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [mlaas-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlaas_sdk-1.0.0.tar.gz]
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [mlaas-sdk]: success
+[2023-08-07 14:49:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308041935-py3-none-any.whl.zip]
+[2023-08-07 14:49:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308071246-py3-none-any.whl.zip]
+[2023-08-07 14:49:10] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-07 14:49:11] INFO root fetch - processPackages [LineageTree]: Downloading https://files.pythonhosted.org/packages/d7/93/d1034cf8f2f00e5b2f0d9472ae788346aff3fe18919bdda4ec2c5da0067f/LineageTree-1.1.0.tar.gz
+[2023-08-07 14:49:11] WARNING root fetch - processPackages [ssl-sniffer]: Skipping, unable to determine old version
+[2023-08-07 14:49:11] INFO root fetch - main [MainThread]: End processing [ssl-sniffer] error
+[2023-08-07 14:49:11] INFO root fetch - processPackages [deduce]: Downloading https://files.pythonhosted.org/packages/e7/de/fcdf65c55c0cbff08a15e4ac1589086434280054d964507e9fff4d9c3e64/deduce-2.1.0.tar.gz
+[2023-08-07 14:49:11] INFO root fetch - processPackages [deduce]: executing diffoscope
+[2023-08-07 14:49:11] INFO root fetch - processPackages [deduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deduce-2.0.3.tar.gz tmp/deduce-2.1.0.tar.gz --markdown 20230807/d/deduce/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-08-07 14:49:11] INFO root fetch - processPackages [LineageTree]: Downloading https://files.pythonhosted.org/packages/d9/24/702d79b77627088959787eead1e9d3632e43cbe78340fcc7de714202d1a6/LineageTree-1.2.0.tar.gz
+[2023-08-07 14:49:11] INFO root fetch - processPackages [LineageTree]: executing diffoscope
+[2023-08-07 14:49:11] INFO root fetch - processPackages [LineageTree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LineageTree-1.1.0.tar.gz tmp/LineageTree-1.2.0.tar.gz --markdown 20230807/L/LineageTree/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 14:49:12] INFO root fetch - processPackages [LineageTree]: Remove: archive file [/home/abi/fetcher/tmp/LineageTree-1.1.0.tar.gz]
+[2023-08-07 14:49:12] INFO root fetch - processPackages [LineageTree]: Remove: archive file [/home/abi/fetcher/tmp/LineageTree-1.2.0.tar.gz]
+[2023-08-07 14:49:12] INFO root fetch - main [MainThread]: End processing [LineageTree]: success
+[2023-08-07 14:49:12] INFO root fetch - processPackages [deduce]: Remove: archive file [/home/abi/fetcher/tmp/deduce-2.0.3.tar.gz]
+[2023-08-07 14:49:12] INFO root fetch - processPackages [deduce]: Remove: archive file [/home/abi/fetcher/tmp/deduce-2.1.0.tar.gz]
+[2023-08-07 14:49:12] INFO root fetch - main [MainThread]: End processing [deduce]: success
+[2023-08-07 14:49:13] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-08-07 14:49:13] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-08-07 14:49:13] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-08-07 14:49:14] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807112741.tar.gz]
+[2023-08-07 14:49:14] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807124321.tar.gz]
+[2023-08-07 14:49:14] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-07 14:50:03] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
+[2023-08-07 14:50:03] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.9.tar.gz]
+[2023-08-07 14:50:03] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-08-07 14:50:03] INFO root fetch - main [MainThread]: Store serial: [19205524]
