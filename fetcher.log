@@ -7425,3 +7425,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:00:05] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
 [2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [tremolo]: success
 [2023-08-07 07:00:05] INFO root fetch - main [MainThread]: Store serial: [19200617]
+[2023-08-07 07:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200617]
+[2023-08-07 07:05:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-07 07:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: casdoor
+[2023-08-07 07:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systeminfo-python3
+[2023-08-07 07:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysesh
+[2023-08-07 07:05:13] WARNING root fetch - processPackages [systeminfo-python3]: Skipping, unable to determine old version
+[2023-08-07 07:05:13] INFO root fetch - main [MainThread]: End processing [systeminfo-python3] error
+[2023-08-07 07:05:13] WARNING root fetch - processPackages [pysesh]: Skipping, unable to determine old version
+[2023-08-07 07:05:13] INFO root fetch - main [MainThread]: End processing [pysesh] error
+[2023-08-07 07:05:13] INFO root fetch - processPackages [casdoor]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-07 07:05:14] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/b5/0d/ea0d365eef0e2cb9337578d932d25f5442b13bff76e2ce2f56d63355a341/casdoor-1.8.0.tar.gz
+[2023-08-07 07:05:14] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/40/23/ec811b0c57811259c23a5c1705697b64f4fe5a0a20fe40a04adbf8e1ab18/casdoor-1.9.0.tar.gz
+[2023-08-07 07:05:14] INFO root fetch - processPackages [casdoor]: executing diffoscope
+[2023-08-07 07:05:14] INFO root fetch - processPackages [casdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casdoor-1.8.0.tar.gz tmp/casdoor-1.9.0.tar.gz --markdown 20230807/c/casdoor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 07:05:15] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.8.0.tar.gz]
+[2023-08-07 07:05:15] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
+[2023-08-07 07:05:15] INFO root fetch - main [MainThread]: End processing [casdoor]: success
+[2023-08-07 07:05:15] INFO root fetch - main [MainThread]: Store serial: [19200636]
