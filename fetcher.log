@@ -18701,3 +18701,117 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:33:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.6.0.tar.gz]
 [2023-08-07 14:33:02] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-08-07 14:33:02] INFO root fetch - main [MainThread]: Store serial: [19205375]
+[2023-08-07 14:38:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205375]
+[2023-08-07 14:38:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redlog
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projkit
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cougar
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moosez
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casdoor
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utfuzz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scribeauth
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-nightly
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ofscraper
+[2023-08-07 14:38:12] WARNING root fetch - processPackages [utfuzz]: Skipping, unable to determine old version
+[2023-08-07 14:38:12] INFO root fetch - processPackages [utfuzz]: Start processing: projen
+[2023-08-07 14:38:12] INFO root fetch - main [MainThread]: End processing [utfuzz] error
+[2023-08-07 14:38:12] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [casdoor]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ofscraper]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [cougar]: New version: [0.3.6] Old Version: [0.3.3]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [projen]: New version: [0.72.4] Old Version: [0.72.3]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [redlog]: New version: [1.3] Old Version: [1.2]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [projkit]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [scribeauth]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/7f/8b/349982f6dc68fa33e82e8630f652e6227f397824a1ca075d5a1073696fd4/ofscraper-3.0.2.tar.gz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/5e/75/2525d1f83e9decfb594a8452f983157263f99e3f1ce2fb37a320eea41fca/projen-0.72.3.tar.gz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/8c/fb/a6eb9d40c6dd219165d01c77c141a9afd5c0250d567104e07ed0ac14c44e/cougar-0.3.3.tar.gz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [redlog]: Downloading https://files.pythonhosted.org/packages/15/4a/f1f026171c6f2e2a4f4b2d61631c51f210edac6391830b20544aa81ff431/redlog-1.2-py3-none-any.whl
+[2023-08-07 14:38:12] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-08-07 14:38:12] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/b5/0d/ea0d365eef0e2cb9337578d932d25f5442b13bff76e2ce2f56d63355a341/casdoor-1.8.0.tar.gz
+[2023-08-07 14:38:12] INFO root fetch - processPackages [projkit]: Downloading https://files.pythonhosted.org/packages/a0/1f/619d31bfaab6fd980d756bc2086ebdf024206aa9708bd7e016c547f90b51/projkit-0.1.0.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [scribeauth]: Downloading https://files.pythonhosted.org/packages/d0/20/de2b5823d75b095a9a2590c95920af79b86201a00bd388e1bde3a21e9e0c/scribeauth-1.0.6-py3-none-any.whl
+[2023-08-07 14:38:13] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/40/23/ec811b0c57811259c23a5c1705697b64f4fe5a0a20fe40a04adbf8e1ab18/casdoor-1.9.0.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/cc/ae/10d849eef136cc4b52f6f1ef8e12aa3738f301d4dcd956f7e26afe6a6014/ofscraper-3.0.3.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [redlog]: Downloading https://files.pythonhosted.org/packages/9a/16/cfb1d32dad518be89de8ac4978cd3366bdd287ebb03b2200ecc2256e1b2c/redlog-1.3-py3-none-any.whl
+[2023-08-07 14:38:13] INFO root fetch - processPackages [projkit]: Downloading https://files.pythonhosted.org/packages/60/cc/64e565758b28f54f0c08bbad8bea5b4e22fa1e32062017ff69031f68e067/projkit-0.1.2.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/c7/7e/16a9c8c4158e7a6d585ead156a4546b54bc0f93c70c2fad74fa733c07167/cougar-0.3.6.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [casdoor]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [casdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casdoor-1.8.0.tar.gz tmp/casdoor-1.9.0.tar.gz --markdown 20230807/c/casdoor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [scribeauth]: Downloading https://files.pythonhosted.org/packages/f8/e7/5d174772126fb06cbaf4a81aae0e114d435164330adf92140f6e4e62e637/scribeauth-1.0.8-py3-none-any.whl
+[2023-08-07 14:38:13] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230807/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/96/4a/427eb5d5d7a4d3cf733e1e54a34deb63bf4763d07b4216e61df3485b364d/projen-0.72.4.tar.gz
+[2023-08-07 14:38:13] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.2.tar.gz tmp/ofscraper-3.0.3.tar.gz --markdown 20230807/o/ofscraper/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [redlog]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [redlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redlog-1.2-py3-none-any.whl.zip tmp/redlog-1.3-py3-none-any.whl.zip --markdown 20230807/r/redlog/1.2-1.3/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [projkit]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [projkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projkit-0.1.0.tar.gz tmp/projkit-0.1.2.tar.gz --markdown 20230807/p/projkit/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.3.3.tar.gz tmp/cougar-0.3.6.tar.gz --markdown 20230807/c/cougar/0.3.3-0.3.6/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230807/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-07 14:38:13] INFO root fetch - processPackages [scribeauth]: executing diffoscope
+[2023-08-07 14:38:13] INFO root fetch - processPackages [scribeauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribeauth-1.0.6-py3-none-any.whl.zip tmp/scribeauth-1.0.8-py3-none-any.whl.zip --markdown 20230807/s/scribeauth/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-08-07 14:38:14] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-08-07 14:38:14] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.72.3.tar.gz tmp/projen-0.72.4.tar.gz --markdown 20230807/p/projen/0.72.3-0.72.4/diff.md --exclude *.pyd
+[2023-08-07 14:38:14] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-08-07 14:38:15] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.8.0.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [casdoor]: Start processing: pyfireconsole
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [casdoor]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [projkit]: Remove: archive file [/home/abi/fetcher/tmp/projkit-0.1.0.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [projkit]: Remove: archive file [/home/abi/fetcher/tmp/projkit-0.1.2.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [projkit]: Start processing: joseki
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [projkit]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [pyfireconsole]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-08-07 14:38:15] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230807/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-08-07 14:38:15] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/6f/f8/80a2d95c48204269a053247b04d862c4c235d254e9d27af840f78eaad292/pyfireconsole-0.0.3.tar.gz
+[2023-08-07 14:38:15] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [joseki]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [redlog]: Remove: archive file [/home/abi/fetcher/tmp/redlog-1.2-py3-none-any.whl.zip]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [redlog]: Remove: archive file [/home/abi/fetcher/tmp/redlog-1.3-py3-none-any.whl.zip]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [redlog]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.3.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.6.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [scribeauth]: Remove: archive file [/home/abi/fetcher/tmp/scribeauth-1.0.6-py3-none-any.whl.zip]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [scribeauth]: Remove: archive file [/home/abi/fetcher/tmp/scribeauth-1.0.8-py3-none-any.whl.zip]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [scribeauth]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/e7/15/2c9f9e37caa2c147d9803b877657f75ed72abc32f905fc38087feea8ed87/pyfireconsole-0.0.4.tar.gz
+[2023-08-07 14:38:15] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.2.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.3.tar.gz]
+[2023-08-07 14:38:15] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 14:38:15] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/42/85/242aab42bfb8b9ca8c95e761eac562c944cea8bcf7431fb3be1d8359aa12/joseki-2.3.0.tar.gz
+[2023-08-07 14:38:15] INFO root fetch - processPackages [pyfireconsole]: executing diffoscope
+[2023-08-07 14:38:15] INFO root fetch - processPackages [pyfireconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfireconsole-0.0.3.tar.gz tmp/pyfireconsole-0.0.4.tar.gz --markdown 20230807/p/pyfireconsole/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 14:38:16] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/6f/d4/15ef67953543a898996eb9b304a6496d61fa3b247d1cd60af1d7161289a7/joseki-2.4.0.tar.gz
+[2023-08-07 14:38:16] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.72.3.tar.gz]
+[2023-08-07 14:38:16] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.72.4.tar.gz]
+[2023-08-07 14:38:16] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-08-07 14:38:16] INFO root fetch - processPackages [joseki]: executing diffoscope
+[2023-08-07 14:38:16] INFO root fetch - processPackages [joseki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joseki-2.3.0.tar.gz tmp/joseki-2.4.0.tar.gz --markdown 20230807/j/joseki/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-07 14:38:16] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.3.tar.gz]
+[2023-08-07 14:38:16] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.4.tar.gz]
+[2023-08-07 14:38:16] INFO root fetch - main [MainThread]: End processing [pyfireconsole]: success
+[2023-08-07 14:38:17] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.3.0.tar.gz]
+[2023-08-07 14:38:17] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.4.0.tar.gz]
+[2023-08-07 14:38:17] INFO root fetch - main [MainThread]: End processing [joseki]: success
+[2023-08-07 14:38:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-08-07 14:38:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-08-07 14:38:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-08-07 14:38:24] INFO root fetch - main [MainThread]: Store serial: [19205429]
