@@ -21013,3 +21013,111 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:04:48] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.6.tar.gz]
 [2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
 [2023-08-07 16:04:48] INFO root fetch - main [MainThread]: Store serial: [19206460]
+[2023-08-07 16:09:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206460]
+[2023-08-07 16:09:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p2pfl
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OctoBot-Commons
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-blocks
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ehyd-tools
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apexpro
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psyke
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arrex
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: detool
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omniinfer-client
+[2023-08-07 16:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wowipy
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ehyd-tools]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wowipy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wagtail-blocks]: New version: [1.0.1] Old Version: [0.8.1]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/580d1412fd21c2c68b5f2b81676f545b885a111295d8c0659364eae393ff/ehyd_tools-0.1.dev8-py3-none-any.whl
+[2023-08-07 16:09:58] INFO root fetch - processPackages [p2pfl]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [omniinfer-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-07 16:09:58] WARNING root fetch - processPackages [apexpro]: Skipping, unable to determine old version
+[2023-08-07 16:09:58] INFO root fetch - processPackages [apexpro]: Start processing: ds-caselaw-marklogic-api-client
+[2023-08-07 16:09:58] INFO root fetch - main [MainThread]: End processing [apexpro] error
+[2023-08-07 16:09:58] INFO root fetch - processPackages [detool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [arrex]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev9] Old Version: [0.4.9.dev8]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/d1/70/aae7728728bb494972e639d7fa912e43f672174c96673812eaa3f9821d42/OctoBot-Commons-1.9.8.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wagtail-blocks]: Downloading https://files.pythonhosted.org/packages/7f/98/687cae15cb4648b3f9590f092a66908def0e8313cfa3116317c3f3b4ede3/wagtail_blocks-0.8.1.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/a2/f4/dcb4ad2e5d49511fbbeecd3416ea7ad8cbc2cd652725055ceeab94dcb38f/wowipy-1.1.8.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-08-07 16:09:58] INFO root fetch - processPackages [p2pfl]: Downloading https://files.pythonhosted.org/packages/6b/b5/b45be5898d97745bb5ddd4792ef54b6142af141a4aca5a06fce242a2e06d/p2pfl-0.1.6.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/66/b7/1e15bde8bed8da2e7357a2533915c1c30ed17edb7ae5e0240d61a277d583/omniinfer_client-0.1.0.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [arrex]: Downloading https://files.pythonhosted.org/packages/41/85/16b96095e85a0c3e1975ab39ca78c1bf4973aad30359e6c43fcf57b1639d/arrex-0.5.1.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/b5/1e/43e19db96e4baea057f5ddf343b9e88cb0934288e90cf6d5be3bc762a33d/detool-1.0.8.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/fa/71/890662a4c7175c02291d438aaae2a96065aa0ae111835cbc5f33db1c3e23/ehyd_tools-0.1.dev9-py3-none-any.whl
+[2023-08-07 16:09:58] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/58/85/6147396e1ee43b6657869d503e8864e087e8af4c86a69aa0d21e8442e50b/psyke-0.4.9.dev8.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/c9/88/6974930114bda39ad842a32e1c00a0fdf5592f27ff5d3e0a3b29aab15f76/OctoBot-Commons-1.9.9.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wagtail-blocks]: Downloading https://files.pythonhosted.org/packages/7d/6f/230eb648ad448295617b4e73492b820936b51a1f5f5a80366b591c310927/wagtail_blocks-1.0.1.tar.gz
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ehyd-tools]: executing diffoscope
+[2023-08-07 16:09:58] INFO root fetch - processPackages [ehyd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip --markdown 20230807/e/ehyd-tools/0.1.dev8-0.1.dev9/diff.md --exclude *.pyd
+[2023-08-07 16:09:58] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/32/bb/d6eeee8eec26bdb5f810287bcd04de457ec80321d0f355cb7693224873a2/wowipy-1.1.9.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [p2pfl]: Downloading https://files.pythonhosted.org/packages/fa/47/646a5d9f1f468848bf07d54c1358471e337ebd457898e4cc5db5ed4106b7/p2pfl-0.1.7.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.8.tar.gz tmp/OctoBot-Commons-1.9.9.tar.gz --markdown 20230807/O/OctoBot-Commons/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.8.tar.gz tmp/wowipy-1.1.9.tar.gz --markdown 20230807/w/wowipy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/8d/15/86a1e81bad26fedf5e9bd6ab7b2647f074d5583ae04d787812e4581c9cdc/omniinfer_client-0.2.0.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [wagtail-blocks]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [wagtail-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_blocks-0.8.1.tar.gz tmp/wagtail_blocks-1.0.1.tar.gz --markdown 20230807/w/wagtail-blocks/0.8.1-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/01/4b/99a7cd429958e6401506016436fd2578fedec5c796efb092377a087bac4d/detool-1.0.9.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [arrex]: Downloading https://files.pythonhosted.org/packages/e4/97/8568fc9a2bf3d18c8937671b5545620584a791d0fa4333485f6d50ecd680/arrex-0.5.2.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [p2pfl]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [p2pfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2pfl-0.1.6.tar.gz tmp/p2pfl-0.1.7.tar.gz --markdown 20230807/p/p2pfl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/15/d4/b851e7d22e51eb36d2fb9795da0dda8f93018d6d15b54b8ef5ade09be088/psyke-0.4.9.dev9.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [omniinfer-client]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [omniinfer-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniinfer_client-0.1.0.tar.gz tmp/omniinfer_client-0.2.0.tar.gz --markdown 20230807/o/omniinfer-client/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [detool]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [detool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detool-1.0.8.tar.gz tmp/detool-1.0.9.tar.gz --markdown 20230807/d/detool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-08-07 16:09:59] INFO root fetch - processPackages [arrex]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [arrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrex-0.5.1.tar.gz tmp/arrex-0.5.2.tar.gz --markdown 20230807/a/arrex/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev8.tar.gz tmp/psyke-0.4.9.dev9.tar.gz --markdown 20230807/p/psyke/0.4.9.dev8-0.4.9.dev9/diff.md --exclude *.pyd
+[2023-08-07 16:09:59] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-08-07 16:09:59] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230807/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-08-07 16:10:00] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [ehyd-tools]: Start processing: dark-matter
+[2023-08-07 16:10:00] INFO root fetch - main [MainThread]: End processing [ehyd-tools]: success
+[2023-08-07 16:10:00] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.8.tar.gz]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.9.tar.gz]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [wowipy]: Start processing: s2vit
+[2023-08-07 16:10:00] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-08-07 16:10:00] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-08-07 16:10:00] WARNING root fetch - processPackages [s2vit]: Skipping, unable to determine old version
+[2023-08-07 16:10:00] INFO root fetch - main [MainThread]: End processing [s2vit] error
+[2023-08-07 16:10:00] INFO root fetch - processPackages [wagtail-blocks]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_blocks-0.8.1.tar.gz]
+[2023-08-07 16:10:00] INFO root fetch - processPackages [wagtail-blocks]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_blocks-1.0.1.tar.gz]
+[2023-08-07 16:10:00] INFO root fetch - main [MainThread]: End processing [wagtail-blocks]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.1.0.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.2.0.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [omniinfer-client]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.0.8.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.0.9.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [detool]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [p2pfl]: Remove: archive file [/home/abi/fetcher/tmp/p2pfl-0.1.6.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [p2pfl]: Remove: archive file [/home/abi/fetcher/tmp/p2pfl-0.1.7.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [p2pfl]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-08-07 16:10:01] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev8.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev9.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [arrex]: Remove: archive file [/home/abi/fetcher/tmp/arrex-0.5.1.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [arrex]: Remove: archive file [/home/abi/fetcher/tmp/arrex-0.5.2.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.8.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [arrex]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.9.tar.gz]
+[2023-08-07 16:10:01] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-08-07 16:10:01] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 16:10:01] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:10:02] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-08-07 16:10:02] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-08-07 16:10:02] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-08-07 16:10:02] INFO root fetch - main [MainThread]: Store serial: [19206497]
