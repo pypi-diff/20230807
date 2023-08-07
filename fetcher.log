@@ -7373,3 +7373,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:54:54] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.6.tar.gz]
 [2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [material-zui]: success
 [2023-08-07 06:54:54] INFO root fetch - main [MainThread]: Store serial: [19200589]
+[2023-08-07 06:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200589]
+[2023-08-07 07:00:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xuanyuan
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: didipack
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tremolo
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XuanYuan
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkey-sklearn
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-devkit
+[2023-08-07 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: didipack
+[2023-08-07 07:00:03] INFO root fetch - processPackages [checkey-sklearn]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-07 07:00:03] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 07:00:03] WARNING root fetch - processPackages [XuanYuan]: Skipping, unable to determine old version
+[2023-08-07 07:00:03] INFO root fetch - main [MainThread]: End processing [XuanYuan] error
+[2023-08-07 07:00:03] WARNING root fetch - processPackages [xuanyuan]: Skipping, unable to determine old version
+[2023-08-07 07:00:03] INFO root fetch - main [MainThread]: End processing [xuanyuan] error
+[2023-08-07 07:00:03] INFO root fetch - processPackages [checkey-sklearn]: Downloading https://files.pythonhosted.org/packages/32/3f/0c434a4801fa54bd60787c26852988ec8876c73df5a3db27c31351bf40eb/checkey-sklearn-0.0.1.tar.gz
+[2023-08-07 07:00:03] INFO root fetch - processPackages [didipack]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-08-07 07:00:03] INFO root fetch - processPackages [didipack]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-08-07 07:00:03] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 07:00:03] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-07 07:00:03] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/d2/e6/057cff77d5b6c241c8a437bec1e1a85ecdfc8aba2bd150f8a10b14e6ca59/didipack-4.0.0.tar.gz
+[2023-08-07 07:00:03] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/d2/e6/057cff77d5b6c241c8a437bec1e1a85ecdfc8aba2bd150f8a10b14e6ca59/didipack-4.0.0.tar.gz
+[2023-08-07 07:00:03] INFO root fetch - processPackages [checkey-sklearn]: Downloading https://files.pythonhosted.org/packages/2d/9f/d915d247b14d8571189389ea42c9d93c3f359dc6ef4e872e9982ba816de1/checkey-sklearn-0.1.0.tar.gz
+[2023-08-07 07:00:03] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-07 07:00:04] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-08-07 07:00:04] INFO root fetch - processPackages [checkey-sklearn]: executing diffoscope
+[2023-08-07 07:00:04] INFO root fetch - processPackages [checkey-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkey-sklearn-0.0.1.tar.gz tmp/checkey-sklearn-0.1.0.tar.gz --markdown 20230807/c/checkey-sklearn/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 07:00:04] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-07 07:00:04] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230807/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/3a/7b/9647a6cbc70d1ad90ad472c305d0f0a63b8ced92515f5bfaa5103e762b74/didipack-4.0.1.tar.gz
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: Downloading https://files.pythonhosted.org/packages/3a/7b/9647a6cbc70d1ad90ad472c305d0f0a63b8ced92515f5bfaa5103e762b74/didipack-4.0.1.tar.gz
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: executing diffoscope
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didipack-4.0.0.tar.gz tmp/didipack-4.0.1.tar.gz --markdown 20230807/d/didipack/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-07 07:00:04] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: executing diffoscope
+[2023-08-07 07:00:04] INFO root fetch - processPackages [didipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didipack-4.0.0.tar.gz tmp/didipack-4.0.1.tar.gz --markdown 20230807/d/didipack/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-07 07:00:04] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-08-07 07:00:04] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230807/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 07:00:05] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-07 07:00:05] INFO root fetch - processPackages [checkey-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/checkey-sklearn-0.0.1.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - processPackages [checkey-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/checkey-sklearn-0.1.0.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [checkey-sklearn]: success
+[2023-08-07 07:00:05] INFO root fetch - processPackages [didipack]: Remove: archive file [/home/abi/fetcher/tmp/didipack-4.0.0.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - processPackages [didipack]: Remove: archive file [/home/abi/fetcher/tmp/didipack-4.0.1.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [didipack]: success
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [didipack]: success
+[2023-08-07 07:00:05] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-08-07 07:00:05] INFO root fetch - main [MainThread]: Store serial: [19200617]
