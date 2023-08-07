@@ -20037,3 +20037,114 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
 [2023-08-07 15:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-08-07 15:32:42] INFO root fetch - main [MainThread]: Store serial: [19205990]
+[2023-08-07 15:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205990]
+[2023-08-07 15:37:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utfuzz
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: b-stage-deployment
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Seance
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfsd
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-bma220
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coh-summarizer
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kioss
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: savantaudio-client
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arcl
+[2023-08-07 15:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micropython-qmc5883l
+[2023-08-07 15:37:52] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [utfuzz]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [Seance]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [micropython-qmc5883l]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/e2/9f/88db7e352e511566ba28411f014d61b46f14eb08bed4dd4617ccf1bea7b3/utfuzz-0.1.2.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [b-stage-deployment]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [coh-summarizer]: New version: [0.2] Old Version: [0.1]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [micropython-bma220]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [arcl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [kioss]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [savantaudio-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 15:37:52] INFO root fetch - processPackages [Seance]: Downloading https://files.pythonhosted.org/packages/ab/c7/1abfea0b612dae15772ac4acd4f75b1f572e022a6f58792ddeaf12288c65/Seance-0.0.6-py3-none-any.whl
+[2023-08-07 15:37:52] INFO root fetch - processPackages [b-stage-deployment]: Downloading https://files.pythonhosted.org/packages/69/e2/a7301f97dfa9ed7a66829814aa993e4fc9dc6e79fddeea16c9c4410477d2/b_stage_deployment-0.0.4.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [micropython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/c5/1b/c9a5cd553cc8b94cb78ece50ed624616d95055c64f229bf495a3390e6b97/micropython-qmc5883l-0.1.1.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [micropython-bma220]: Downloading https://files.pythonhosted.org/packages/68/bb/a61fa5b74b40312384fb4a54c5551b14f6b9c6c277bd69ed3f4fadcbb1a3/micropython-bma220-0.1.1.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [coh-summarizer]: Downloading https://files.pythonhosted.org/packages/b1/87/2d218f89e5be541ce86c7fc13b4fbbcc102aebe8ca5a8ab109dfc396abf9/coh-summarizer-0.1.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/97/10/4f51e75a484c85e9c6901b8cff8c2156e5664b2578af2e0442b8d7bd25e9/kioss-0.2.8.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [Seance]: Downloading https://files.pythonhosted.org/packages/be/c5/c768fb0b57d46968a0d944fa4a20d2b268998ee540e9a81b9db00cbe1953/Seance-0.0.7-py3-none-any.whl
+[2023-08-07 15:37:52] INFO root fetch - processPackages [savantaudio-client]: Downloading https://files.pythonhosted.org/packages/12/b3/8082db4367e69f8f1cea7017284ca602950328584167765370a2ce910c20/savantaudio-client-0.1.8.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/d6/ec/31bd88000c53ac7e4ec01d062e34b331ed0fe8c6417ad67a1462f5ac9817/arcl-1.7.8.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [Seance]: executing diffoscope
+[2023-08-07 15:37:52] INFO root fetch - processPackages [Seance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seance-0.0.6-py3-none-any.whl.zip tmp/Seance-0.0.7-py3-none-any.whl.zip --markdown 20230807/S/Seance/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 15:37:52] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/99/be/ee18aa55b4c621bd4c288fc8bd22d73fd32f925f1e2c29edb6a1e61c1988/utfuzz-0.1.3.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [b-stage-deployment]: Downloading https://files.pythonhosted.org/packages/82/3e/a3ad175783d772e2e3543125b5449a5dee095ca4dcfe2d8a6619c884dd59/b_stage_deployment-1.0.1.tar.gz
+[2023-08-07 15:37:52] INFO root fetch - processPackages [micropython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/fc/32/dc6946fc34720f12a37760da2db195da256be136bc447a6f9b6c32452c8a/micropython-qmc5883l-0.1.2.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230807/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.2.tar.gz tmp/utfuzz-0.1.3.tar.gz --markdown 20230807/u/utfuzz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [micropython-bma220]: Downloading https://files.pythonhosted.org/packages/3d/9f/9339f1a5aade56bf904a5e4dfd3257a9f7811ddda1931bb6ffaf099a5c22/micropython-bma220-0.1.2.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [b-stage-deployment]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [b-stage-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_stage_deployment-0.0.4.tar.gz tmp/b_stage_deployment-1.0.1.tar.gz --markdown 20230807/b/b-stage-deployment/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [micropython-qmc5883l]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [micropython-qmc5883l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-qmc5883l-0.1.1.tar.gz tmp/micropython-qmc5883l-0.1.2.tar.gz --markdown 20230807/m/micropython-qmc5883l/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/5a/e7/8c9f3f533f4f7dd02c84fd126c3c22b3e6603d5017b43a334c0aa4f84c0c/kioss-0.2.9.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [coh-summarizer]: Downloading https://files.pythonhosted.org/packages/07/70/254221f03779585ed5f7a5f73d33c0d50e0b888226e7a175a35b3889dd40/coh_summarizer-0.2.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [savantaudio-client]: Downloading https://files.pythonhosted.org/packages/2c/90/b6bbc13045292ac0a631a821575fea2b377d9fd2aa75ac165f355713a8b8/savantaudio-client-0.1.9.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/91/a4/0daaa70142b3b96215b0b529cb3679b7c79b398c1c53d3429d032582621b/arcl-1.7.9.tar.gz
+[2023-08-07 15:37:53] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.8.tar.gz tmp/kioss-0.2.9.tar.gz --markdown 20230807/k/kioss/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [coh-summarizer]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [coh-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coh-summarizer-0.1.tar.gz tmp/coh_summarizer-0.2.tar.gz --markdown 20230807/c/coh-summarizer/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [micropython-bma220]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [micropython-bma220]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bma220-0.1.1.tar.gz tmp/micropython-bma220-0.1.2.tar.gz --markdown 20230807/m/micropython-bma220/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [savantaudio-client]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [arcl]: executing diffoscope
+[2023-08-07 15:37:53] INFO root fetch - processPackages [savantaudio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savantaudio-client-0.1.8.tar.gz tmp/savantaudio-client-0.1.9.tar.gz --markdown 20230807/s/savantaudio-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 15:37:53] INFO root fetch - processPackages [arcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcl-1.7.8.tar.gz tmp/arcl-1.7.9.tar.gz --markdown 20230807/a/arcl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-07 15:37:54] INFO root fetch - processPackages [Seance]: Remove: archive file [/home/abi/fetcher/tmp/Seance-0.0.6-py3-none-any.whl.zip]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [Seance]: Remove: archive file [/home/abi/fetcher/tmp/Seance-0.0.7-py3-none-any.whl.zip]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [Seance]: Start processing: utfuzz
+[2023-08-07 15:37:54] INFO root fetch - main [MainThread]: End processing [Seance]: success
+[2023-08-07 15:37:54] INFO root fetch - processPackages [utfuzz]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/a8/7e/ff87fb7dec95ad20ffdd8b141a628471a618064754a21c3806566017bf73/utfuzz-0.1.4.tar.gz
+[2023-08-07 15:37:54] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.2.tar.gz]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.3.tar.gz]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [utfuzz]: Start processing: micrOSDevToolKit
+[2023-08-07 15:37:54] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 15:37:54] INFO root fetch - processPackages [b-stage-deployment]: Remove: archive file [/home/abi/fetcher/tmp/b_stage_deployment-0.0.4.tar.gz]
+[2023-08-07 15:37:54] INFO root fetch - processPackages [b-stage-deployment]: Remove: archive file [/home/abi/fetcher/tmp/b_stage_deployment-1.0.1.tar.gz]
+[2023-08-07 15:37:54] INFO root fetch - main [MainThread]: End processing [b-stage-deployment]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.22.0] Old Version: [1.21.5]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/78/4d/35d3fef79a267dbc7cdd95c9dcd8865ab1e7a194b53460c17db370399f4f/utfuzz-0.1.5.tar.gz
+[2023-08-07 15:37:55] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.8.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.9.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [arcl]: Remove: archive file [/home/abi/fetcher/tmp/arcl-1.7.8.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [arcl]: Remove: archive file [/home/abi/fetcher/tmp/arcl-1.7.9.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [arcl]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micropython-qmc5883l]: Remove: archive file [/home/abi/fetcher/tmp/micropython-qmc5883l-0.1.1.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micropython-qmc5883l]: Remove: archive file [/home/abi/fetcher/tmp/micropython-qmc5883l-0.1.2.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [micropython-qmc5883l]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 15:37:55] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.4.tar.gz tmp/utfuzz-0.1.5.tar.gz --markdown 20230807/u/utfuzz/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/f7/d7/c35f901894e9dbe5fa58fef70790c57f59610e57ad8e57a2a6e33bec6d9b/micrOSDevToolKit-1.21.5.tar.gz
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micropython-bma220]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma220-0.1.1.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [micropython-bma220]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma220-0.1.2.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [micropython-bma220]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [coh-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/coh-summarizer-0.1.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [coh-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/coh_summarizer-0.2.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [coh-summarizer]: success
+[2023-08-07 15:37:55] INFO root fetch - processPackages [savantaudio-client]: Remove: archive file [/home/abi/fetcher/tmp/savantaudio-client-0.1.8.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - processPackages [savantaudio-client]: Remove: archive file [/home/abi/fetcher/tmp/savantaudio-client-0.1.9.tar.gz]
+[2023-08-07 15:37:55] INFO root fetch - main [MainThread]: End processing [savantaudio-client]: success
+[2023-08-07 15:37:56] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/57/e4/a6744de5cea3848d640d4c958f41f710c54384ff0a94334949ce5967cb3d/micrOSDevToolKit-1.22.0.tar.gz
+[2023-08-07 15:37:56] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.4.tar.gz]
+[2023-08-07 15:37:56] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.5.tar.gz]
+[2023-08-07 15:37:56] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 15:37:59] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-08-07 15:37:59] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.21.5.tar.gz tmp/micrOSDevToolKit-1.22.0.tar.gz --markdown 20230807/m/micrOSDevToolKit/1.21.5-1.22.0/diff.md --exclude *.pyd
+[2023-08-07 15:38:02] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.5.tar.gz]
+[2023-08-07 15:38:02] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.22.0.tar.gz]
+[2023-08-07 15:38:02] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-08-07 15:38:02] INFO root fetch - main [MainThread]: Store serial: [19206031]
