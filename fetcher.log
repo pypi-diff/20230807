@@ -20863,3 +20863,153 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:59:34] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.9.tar.gz]
 [2023-08-07 15:59:34] INFO root fetch - main [MainThread]: End processing [gluonts]: success
 [2023-08-07 15:59:34] INFO root fetch - main [MainThread]: Store serial: [19206382]
+[2023-08-07 16:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206382]
+[2023-08-07 16:04:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-htu21df
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbutils3-gonzalo123
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rasa-sdk
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-ds3502
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-utilties
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AppiumExtended
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-saml2-auth-multi
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idem-vmware-alb
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sumt
+[2023-08-07 16:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dstrial1
+[2023-08-07 16:04:44] WARNING root fetch - processPackages [django-saml2-auth-multi]: Skipping, unable to determine old version
+[2023-08-07 16:04:44] INFO root fetch - processPackages [django-saml2-auth-multi]: Start processing: odoo13-addon-account-invoice-refund-link
+[2023-08-07 16:04:44] INFO root fetch - main [MainThread]: End processing [django-saml2-auth-multi] error
+[2023-08-07 16:04:44] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [dstrial1]: New version: [0.5] Old Version: [0.4]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [openai-utilties]: New version: [1.1] Old Version: [1.0]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [sumt]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [rasa-sdk]: New version: [3.8.0a1] Old Version: [3.7.0b1]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [micropython-ds3502]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [micropython-htu21df]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 16:04:44] WARNING root fetch - processPackages [dbutils3-gonzalo123]: Skipping, unable to determine old version
+[2023-08-07 16:04:44] INFO root fetch - processPackages [idem-vmware-alb]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [dbutils3-gonzalo123]: Start processing: myllm
+[2023-08-07 16:04:44] INFO root fetch - main [MainThread]: End processing [dbutils3-gonzalo123] error
+[2023-08-07 16:04:44] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: New version: [13.0.1.1.3] Old Version: [13.0.1.1.2]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/68/f0/efb6e0e807d85d1c1b96387aba86c05dc237d0f19e827b37ccf26707dfe3/dstrial1-0.4.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [openai-utilties]: Downloading https://files.pythonhosted.org/packages/19/1e/bc3177f58a385dce421ab4c1b0d297dff2ddf01803dddc16afd5245119e4/openai-utilties-1.0.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/5e/d6/e6e19e4434976ff1f65169bab724db36fbffff388a28c5a2a4a5af49190e/sumt-3.2.6.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [micropython-ds3502]: Downloading https://files.pythonhosted.org/packages/bc/c3/03d9ac1eec7ccc15fa0484901570f67e526fc83a5b1e294f8c57e4133d0d/micropython-ds3502-0.1.1.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [micropython-htu21df]: Downloading https://files.pythonhosted.org/packages/aa/30/0e422622802adb90583ac0fcfaae33d00430d8e54e2c21813a06f504f9de/micropython-htu21df-0.1.1.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [myllm]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-07 16:04:44] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/6d/e7/dee82eaf3fc5441a6639af9d6f1d2d6fbc44607f3b8ce364931ba05db13a/rasa_sdk-3.7.0b1.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [idem-vmware-alb]: Downloading https://files.pythonhosted.org/packages/f7/01/00e2a632ddf885810318067193998cfca37d087c6d998843d86573b19d12/idem_vmware_alb-0.3.0.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/a7/b8/65c2cc1f0faf59aa919e8102fd37d78cb2c6fc7ff31f7d2f81f0520f78e5/odoo13_addon_account_invoice_refund_link-13.0.1.1.2-py3-none-any.whl
+[2023-08-07 16:04:44] INFO root fetch - processPackages [openai-utilties]: Downloading https://files.pythonhosted.org/packages/50/17/6c6b2807d85c2c156ef33698b465ec3f332cfba2ce24e11c311dc93d6ea0/openai-utilties-1.1.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/7e/3d/231e7b5a5dbdf5817560f294c6618f5091bf43a7e77bf364134d82170d28/myllm-1.2.3.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [dstrial1]: Downloading https://files.pythonhosted.org/packages/26/91/895cb07ef0ea571bbc331860a25bee08db1c86ab623ebe72a9877221454d/dstrial1-0.5.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/4d/f0/e5dd2d3e7562ebbfcba434ed8f7e2b9f1fa54c67a42e41e2bec2dcae8abc/sumt-3.2.7.tar.gz
+[2023-08-07 16:04:44] INFO root fetch - processPackages [openai-utilties]: executing diffoscope
+[2023-08-07 16:04:44] INFO root fetch - processPackages [openai-utilties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-utilties-1.0.tar.gz tmp/openai-utilties-1.1.tar.gz --markdown 20230807/o/openai-utilties/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-ds3502]: Downloading https://files.pythonhosted.org/packages/db/0c/42d8bd03dbb948780d98523c438a414c093009942f8788a42501ba805250/micropython-ds3502-0.1.2.tar.gz
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-htu21df]: Downloading https://files.pythonhosted.org/packages/48/c7/84c86e7caf0e5ee590d41319bac028ec6a3a272a5560669b6dfe5a845f24/micropython-htu21df-0.1.2.tar.gz
+[2023-08-07 16:04:45] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230807/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [rasa-sdk]: Downloading https://files.pythonhosted.org/packages/13/07/e8fd984726eabbcf3af83f9550dcc99a41dcfca13ee07da7c1335be13bda/rasa_sdk-3.8.0a1.tar.gz
+[2023-08-07 16:04:45] INFO root fetch - processPackages [dstrial1]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [dstrial1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstrial1-0.4.tar.gz tmp/dstrial1-0.5.tar.gz --markdown 20230807/d/dstrial1/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/2f/57/e0cc378da803f253224196d9531ae74a64e5972f34257ec2b6991d7ba378/odoo13_addon_account_invoice_refund_link-13.0.1.1.3-py3-none-any.whl
+[2023-08-07 16:04:45] INFO root fetch - processPackages [sumt]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [sumt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumt-3.2.6.tar.gz tmp/sumt-3.2.7.tar.gz --markdown 20230807/s/sumt/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-ds3502]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-ds3502]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-ds3502-0.1.1.tar.gz tmp/micropython-ds3502-0.1.2.tar.gz --markdown 20230807/m/micropython-ds3502/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [idem-vmware-alb]: Downloading https://files.pythonhosted.org/packages/07/bf/0f4d1a28d0801bc4e708c05878a5ec2543607867e3d01a2fe1a879c58010/idem_vmware_alb-0.4.0.tar.gz
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-htu21df]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [micropython-htu21df]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-htu21df-0.1.1.tar.gz tmp/micropython-htu21df-0.1.2.tar.gz --markdown 20230807/m/micropython-htu21df/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/0e/9a/ae261e05e57a5b2329e389197246efe6fe895f1c5f3f7c0ab5d3a7652284/myllm-1.2.4.tar.gz
+[2023-08-07 16:04:45] INFO root fetch - processPackages [rasa-sdk]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [rasa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa_sdk-3.7.0b1.tar.gz tmp/rasa_sdk-3.8.0a1.tar.gz --markdown 20230807/r/rasa-sdk/3.7.0b1-3.8.0a1/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_invoice_refund_link-13.0.1.1.2-py3-none-any.whl.zip tmp/odoo13_addon_account_invoice_refund_link-13.0.1.1.3-py3-none-any.whl.zip --markdown 20230807/o/odoo13-addon-account-invoice-refund-link/13.0.1.1.2-13.0.1.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [idem-vmware-alb]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [idem-vmware-alb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem_vmware_alb-0.3.0.tar.gz tmp/idem_vmware_alb-0.4.0.tar.gz --markdown 20230807/i/idem-vmware-alb/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-07 16:04:45] INFO root fetch - processPackages [myllm]: executing diffoscope
+[2023-08-07 16:04:45] INFO root fetch - processPackages [myllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-1.2.3.tar.gz tmp/myllm-1.2.4.tar.gz --markdown 20230807/m/myllm/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-07 16:04:46] INFO root fetch - processPackages [openai-utilties]: Remove: archive file [/home/abi/fetcher/tmp/openai-utilties-1.0.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [openai-utilties]: Remove: archive file [/home/abi/fetcher/tmp/openai-utilties-1.1.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [openai-utilties]: Start processing: muffin
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [openai-utilties]: success
+[2023-08-07 16:04:46] INFO root fetch - processPackages [muffin]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.6.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.7.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [sumt]: Start processing: dorsa-logger
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [sumt]: success
+[2023-08-07 16:04:46] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.4.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [dstrial1]: Remove: archive file [/home/abi/fetcher/tmp/dstrial1-0.5.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [dstrial1]: Start processing: pyclpu
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [dstrial1]: success
+[2023-08-07 16:04:46] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/4e/0e/f3e700a4e463dbc7f388f8680d06f87b803a2fc9ab33eb53c022d8548e29/muffin-0.99.1.tar.gz
+[2023-08-07 16:04:46] INFO root fetch - processPackages [pyclpu]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 16:04:46] WARNING root fetch - processPackages [dorsa-logger]: Skipping, unable to determine old version
+[2023-08-07 16:04:46] INFO root fetch - processPackages [dorsa-logger]: Start processing: tracebloc-package-dev
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [dorsa-logger] error
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-htu21df]: Remove: archive file [/home/abi/fetcher/tmp/micropython-htu21df-0.1.1.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-htu21df]: Remove: archive file [/home/abi/fetcher/tmp/micropython-htu21df-0.1.2.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-htu21df]: Start processing: agixtsdk
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [micropython-htu21df]: success
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-ds3502]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds3502-0.1.1.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-ds3502]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds3502-0.1.2.tar.gz]
+[2023-08-07 16:04:46] INFO root fetch - processPackages [micropython-ds3502]: Start processing: neat-py-lollo
+[2023-08-07 16:04:46] INFO root fetch - main [MainThread]: End processing [micropython-ds3502]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.3.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.4.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [myllm]: Start processing: deTELpy
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [myllm]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.7.0b1.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [rasa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rasa_sdk-3.8.0a1.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [rasa-sdk]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [neat-py-lollo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 16:04:47] WARNING root fetch - processPackages [deTELpy]: Skipping, unable to determine old version
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [deTELpy] error
+[2023-08-07 16:04:47] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/fc/fe/6a2f0f6019f0fee3612848583c12b64310c2871d6491d21e511af7b3b23f/muffin-0.99.2.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_invoice_refund_link-13.0.1.1.2-py3-none-any.whl.zip]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [odoo13-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_invoice_refund_link-13.0.1.1.3-py3-none-any.whl.zip]
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-invoice-refund-link]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/f2/97/3f88792bb5964d613f26a6ee9413cd8050804462998f000f1595ce3f48bc/pyclpu-1.1.2.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-08-07 16:04:47] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.99.1.tar.gz tmp/muffin-0.99.2.tar.gz --markdown 20230807/m/muffin/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-08-07 16:04:47] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/66/11/9501f8bd15e649400acd5e3fadb2171f23b847ef4e5dfd3980c49c56605d/tracebloc_package-dev-0.5.5.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [neat-py-lollo]: Downloading https://files.pythonhosted.org/packages/a2/93/6341bb11b7355117b10f53fc59932822047ca27bf97e7ecd255fa42119f3/neat_py_lollo-0.0.2.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/cb/fd/65eba3af82365fa398ff5f1cd3a484ba7e5565abe3a38c052b50ef3e91a6/pyclpu-1.1.3.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [idem-vmware-alb]: Remove: archive file [/home/abi/fetcher/tmp/idem_vmware_alb-0.3.0.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - processPackages [idem-vmware-alb]: Remove: archive file [/home/abi/fetcher/tmp/idem_vmware_alb-0.4.0.tar.gz]
+[2023-08-07 16:04:47] INFO root fetch - main [MainThread]: End processing [idem-vmware-alb]: success
+[2023-08-07 16:04:47] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2023-08-07 16:04:47] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-1.1.2.tar.gz tmp/pyclpu-1.1.3.tar.gz --markdown 20230807/p/pyclpu/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:04:47] INFO root fetch - processPackages [neat-py-lollo]: Downloading https://files.pythonhosted.org/packages/e1/20/0950bea6141975eb5596fb25538922619f0e9eb3c3184e5814887826fd8b/neat_py_lollo-0.0.3.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/c7/21/6e6c43a94465fc2d5e9c40fc7743b7787671d99b4c1e8739de2fa0b160b5/tracebloc_package-dev-0.5.6.tar.gz
+[2023-08-07 16:04:47] INFO root fetch - processPackages [neat-py-lollo]: executing diffoscope
+[2023-08-07 16:04:47] INFO root fetch - processPackages [neat-py-lollo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neat_py_lollo-0.0.2.tar.gz tmp/neat_py_lollo-0.0.3.tar.gz --markdown 20230807/n/neat-py-lollo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 16:04:47] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-08-07 16:04:47] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230807/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:04:47] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-08-07 16:04:47] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.5.tar.gz tmp/tracebloc_package-dev-0.5.6.tar.gz --markdown 20230807/t/tracebloc-package-dev/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-07 16:04:48] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.99.1.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.99.2.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-08-07 16:04:48] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.2.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.3.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2023-08-07 16:04:48] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-08-07 16:04:48] INFO root fetch - processPackages [neat-py-lollo]: Remove: archive file [/home/abi/fetcher/tmp/neat_py_lollo-0.0.2.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - processPackages [neat-py-lollo]: Remove: archive file [/home/abi/fetcher/tmp/neat_py_lollo-0.0.3.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [neat-py-lollo]: success
+[2023-08-07 16:04:48] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.5.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.6.tar.gz]
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-08-07 16:04:48] INFO root fetch - main [MainThread]: Store serial: [19206460]
