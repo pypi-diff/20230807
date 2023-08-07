@@ -15551,3 +15551,201 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:09:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-07 12:09:35] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-07 12:09:35] INFO root fetch - main [MainThread]: Store serial: [19203960]
+[2023-08-07 12:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203960]
+[2023-08-07 12:14:50] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordpress-markdown-blog-loader
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buteo
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dstack
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-l10n-es-ticketbai
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdata-vaas
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjt
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyGuardPoint
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xnemogcm
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaarf-exporter
+[2023-08-07 12:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aggregationslib
+[2023-08-07 12:14:50] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: New version: [13.0.1.9.3] Old Version: [13.0.1.9.2]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [pyjt]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [xnemogcm]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [pyGuardPoint]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [aggregationslib]: New version: [0.0.26] Old Version: [0.0.251]
+[2023-08-07 12:14:50] WARNING root fetch - processPackages [gaarf-exporter]: Skipping, unable to determine old version
+[2023-08-07 12:14:50] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [gaarf-exporter]: Start processing: locker-secrets
+[2023-08-07 12:14:50] INFO root fetch - main [MainThread]: End processing [gaarf-exporter] error
+[2023-08-07 12:14:50] INFO root fetch - processPackages [gdata-vaas]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [locker-secrets]: New version: [0.0.7b1] Old Version: [0.0.6b1]
+[2023-08-07 12:14:50] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/e7/39/884487fa6b417e6cd16654fe1727f431d3aedea4dc239e3b9189dc38d28a/odoo13_addon_l10n_es_ticketbai-13.0.1.9.2-py3-none-any.whl
+[2023-08-07 12:14:50] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/da/57/ec2c9ff5d77a44f2d911d0ae7eccd0ba7d8ae0ee5394880ca2fd1145429b/pyjt-0.4.6.tar.gz
+[2023-08-07 12:14:50] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/2b/c6/bdec78db2001f868803b3957fc6e1fbe4507a5caf03a2771739134b333c9/pyGuardPoint-1.0.0.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [xnemogcm]: Downloading https://files.pythonhosted.org/packages/b7/0e/8552277fd2f84289940c85ded9bb1e750e3b5e5401b6f9ac6138321501d1/xnemogcm-0.4.1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/46/9e/9402e7d0f19b8f1fe907906928be059f96a51a5dc027aab085bdda522980/locker-secrets-0.0.6b1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/b3/42/1ab25c990958192e350205ec924e0ae735014541ccefe62f2473e59b9d64/wordpress-markdown-blog-loader-1.1.3.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [aggregationslib]: Downloading https://files.pythonhosted.org/packages/e6/80/55d0ec283c696a42eb7aaa6bc562e54a07b43a3930b52a08ce53dd7762d4/aggregationslib-0.0.251.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/59/9e/323a195a8626323652d4ad2dcb4f4b34ca28099e04de0f56de849f2bbe44/gdata-vaas-3.2.1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/87/e9/ef7bab54437f6a0af2452f8febdb6810c90aed8317b89673a0e45c095841/pyGuardPoint-1.0.1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/a5/02/8fabdd5acab18608587143fbe0aa4007d73d25a4201caa1abec25b1326f1/pyjt-0.5.0.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/52/5a/d323dbf4ed7e75a93c4f40df2e76e61c952a9300f4e6b73cca211421be53/odoo13_addon_l10n_es_ticketbai-13.0.1.9.3-py3-none-any.whl
+[2023-08-07 12:14:51] INFO root fetch - processPackages [xnemogcm]: Downloading https://files.pythonhosted.org/packages/d5/55/abbf793611a7545be03bc7f1c7a27ea14f45a31d01ef529b4dc5ad7dc12c/xnemogcm-0.4.2.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-1.0.0.tar.gz tmp/pyGuardPoint-1.0.1.tar.gz --markdown 20230807/p/pyGuardPoint/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 12:14:51] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/b8/12/b341a3794c8f3a972c68cf030a08931ff021e795b6197c38799fde64eeaf/wordpress-markdown-blog-loader-1.1.4.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-07 12:14:51] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.4.6.tar.gz tmp/pyjt-0.5.0.tar.gz --markdown 20230807/p/pyjt/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-08-07 12:14:51] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/ce/47/f511d7ff7d5e6bee3ce629b18acdee5c1a3bf57acbf5d177b2f89639a98e/gdata-vaas-3.3.0.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [aggregationslib]: Downloading https://files.pythonhosted.org/packages/e1/17/b97ebdbed56567cb7c7992b38e391c19574e3c4cc4894871332dea8db5e1/aggregationslib-0.0.26.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/95/ac/e8be334b9287cc5dbb0f371c50d5bebf4e6bc12c07edcaa0f64096c8cec1/locker-secrets-0.0.7b1.tar.gz
+[2023-08-07 12:14:51] INFO root fetch - processPackages [xnemogcm]: executing diffoscope
+[2023-08-07 12:14:51] INFO root fetch - processPackages [xnemogcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnemogcm-0.4.1.tar.gz tmp/xnemogcm-0.4.2.tar.gz --markdown 20230807/x/xnemogcm/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_es_ticketbai-13.0.1.9.2-py3-none-any.whl.zip tmp/odoo13_addon_l10n_es_ticketbai-13.0.1.9.3-py3-none-any.whl.zip --markdown 20230807/o/odoo13-addon-l10n-es-ticketbai/13.0.1.9.2-13.0.1.9.3/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [gdata-vaas]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [gdata-vaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdata-vaas-3.2.1.tar.gz tmp/gdata-vaas-3.3.0.tar.gz --markdown 20230807/g/gdata-vaas/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230807/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230807/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordpress-markdown-blog-loader-1.1.3.tar.gz tmp/wordpress-markdown-blog-loader-1.1.4.tar.gz --markdown 20230807/w/wordpress-markdown-blog-loader/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [aggregationslib]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [aggregationslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregationslib-0.0.251.tar.gz tmp/aggregationslib-0.0.26.tar.gz --markdown 20230807/a/aggregationslib/0.0.251-0.0.26/diff.md --exclude *.pyd
+[2023-08-07 12:14:52] INFO root fetch - processPackages [locker-secrets]: executing diffoscope
+[2023-08-07 12:14:52] INFO root fetch - processPackages [locker-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locker-secrets-0.0.6b1.tar.gz tmp/locker-secrets-0.0.7b1.tar.gz --markdown 20230807/l/locker-secrets/0.0.6b1-0.0.7b1/diff.md --exclude *.pyd
+[2023-08-07 12:14:55] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-1.0.0.tar.gz]
+[2023-08-07 12:14:55] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-1.0.1.tar.gz]
+[2023-08-07 12:14:55] INFO root fetch - processPackages [pyGuardPoint]: Start processing: sotrans-fastapi-keycloak
+[2023-08-07 12:14:55] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [xnemogcm]: Remove: archive file [/home/abi/fetcher/tmp/xnemogcm-0.4.1.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [xnemogcm]: Remove: archive file [/home/abi/fetcher/tmp/xnemogcm-0.4.2.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.6.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.5.0.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [pyjt]: Start processing: aurori
+[2023-08-07 12:14:56] INFO root fetch - processPackages [xnemogcm]: Start processing: Geode-Numerics
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [xnemogcm]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aurori]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.9rc1] Old Version: [3.0.9]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/d8/39/c2e5445905375a0d967eca8d3e04bda1b3e3824bccc235ec8d51f61d727c/sotrans_fastapi_keycloak-0.0.8.tar.gz
+[2023-08-07 12:14:56] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.2.1.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.3.0.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [gdata-vaas]: Start processing: Geode-Conversion
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [gdata-vaas]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aggregationslib]: Remove: archive file [/home/abi/fetcher/tmp/aggregationslib-0.0.251.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aggregationslib]: Remove: archive file [/home/abi/fetcher/tmp/aggregationslib-0.0.26.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aggregationslib]: Start processing: Geode-Background
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [aggregationslib]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.3.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.4.tar.gz]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Start processing: OpenGeode-GeosciencesIO
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [wordpress-markdown-blog-loader]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/23/df/875963668a51ff981d906552e835a42d0ff0990d32106109c9eed9bb53ca/aurori-1.1.0.tar.gz
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.9rc1] Old Version: [5.0.9]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/04/a0/77aeb9f67fc49ba52456acb5242e074ec2a70293ecc49af0b70f07792977/Geode_Numerics-3.0.9-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.4rc1] Old Version: [7.3.3rc1]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.2.2rc1] Old Version: [4.2.1rc1]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai-13.0.1.9.2-py3-none-any.whl.zip]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai-13.0.1.9.3-py3-none-any.whl.zip]
+[2023-08-07 12:14:56] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai]: Start processing: planqk-quantum
+[2023-08-07 12:14:56] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-es-ticketbai]: success
+[2023-08-07 12:14:56] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/22/ac/715eff348a6b899fe8fa552656eab2ab8a54d523543a4829f937df74ce34/sotrans_fastapi_keycloak-0.0.9.tar.gz
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/c1/8d/d968863bba692d1343d269e8dabaf6b69fce474f9078a923ca936ef1fc5b/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:56] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/c4/88/de564e5a98399fe77f42c952ebc6f8e06482acd18d03da3d7d70031001b4/aurori-1.1.1.tar.gz
+[2023-08-07 12:14:56] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4c/a3/321e4a01ea9d3cfbc3aa5c17e0227224ee0b4d24f4a1b5aec07a862db846/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:56] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-08-07 12:14:57] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/93/4e/54cf89f1bb820f890081bdba9bdcbacd70a58ee05fbc47f268c068e3d6ac/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:57] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-07 12:14:57] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz --markdown 20230807/s/sotrans-fastapi-keycloak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:14:57] INFO root fetch - processPackages [aurori]: executing diffoscope
+[2023-08-07 12:14:57] INFO root fetch - processPackages [aurori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurori-1.1.0.tar.gz tmp/aurori-1.1.1.tar.gz --markdown 20230807/a/aurori/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 12:14:57] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-08-07 12:14:57] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-08-07 12:14:57] INFO root fetch - processPackages [buteo]: Start processing: flowmatic
+[2023-08-07 12:14:57] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-08-07 12:14:57] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-08-07 12:14:57] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/f0/d6/b874a4f62b754d43fd36b0a67d0becb19101c92963567e5a13e9d62fa544/Geode_Numerics-3.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:57] INFO root fetch - processPackages [flowmatic]: New version: [0.1.0.6] Old Version: [0.1.0.5]
+[2023-08-07 12:14:57] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/f8/58/e5238767c3bafff2a5b325e33af41927ae237e2e3efb50f0c1706a55e257/OpenGeode_GeosciencesIO-4.2.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:14:57] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/ab/9f/1c8270cd0d910fd058edfa5e5f5f0af67dfc9941982a03f5e4036bc966fd/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:14:57] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/4a/6e/a8cf705bb3617d14693d6097c3ab139a72532b2d52163b67fb42458b4dd5/flowmatic-0.1.0.5.tar.gz
+[2023-08-07 12:14:57] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-08-07 12:14:57] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/19/6a/62c5ff5d72bfddd8d05eb73cae09a7a0665f7cd28983e51a87cd0a34ca01/Geode_Background-7.3.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:14:57] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-08-07 12:14:57] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.2.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/O/OpenGeode-GeosciencesIO/4.2.1rc1-4.2.2rc1/diff.md --exclude *.pyd
+[2023-08-07 12:14:57] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-08-07 12:14:57] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-08-07 12:14:57] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.9-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-3.0.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/G/Geode-Numerics/3.0.9-3.0.9rc1/diff.md --exclude *.pyd
+[2023-08-07 12:14:57] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230807/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 12:14:58] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/dc/4f/f104cef51454fac096bfd4e71b5648158067a743aa26013551098e59fa09/flowmatic-0.1.0.6.tar.gz
+[2023-08-07 12:14:58] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-08-07 12:14:58] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-08-07 12:14:58] INFO root fetch - processPackages [dstack]: Start processing: mknotebooks
+[2023-08-07 12:14:58] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-08-07 12:14:58] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2023-08-07 12:14:58] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.0.5.tar.gz tmp/flowmatic-0.1.0.6.tar.gz --markdown 20230807/f/flowmatic/0.1.0.5-0.1.0.6/diff.md --exclude *.pyd
+[2023-08-07 12:14:58] INFO root fetch - processPackages [mknotebooks]: New version: [0.8.0] Old Version: [0.7.1.post0.dev98]
+[2023-08-07 12:14:58] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/a6/28/44e30456843fe09def7d1b572c110a191e767c74111bb9ed7e4b12652572/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl
+[2023-08-07 12:14:58] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-08-07 12:14:58] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/G/Geode-Background/7.3.3rc1-7.3.4rc1/diff.md --exclude *.pyd
+[2023-08-07 12:14:58] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-08-07 12:14:58] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/G/Geode-Conversion/5.0.9-5.0.9rc1/diff.md --exclude *.pyd
+[2023-08-07 12:14:58] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/54/40/2f69d9858c06d3fd9232fe7ead0c828cc3d64783edb98476782a7f125977/mknotebooks-0.8.0-py3-none-any.whl
+[2023-08-07 12:14:59] INFO root fetch - processPackages [mknotebooks]: executing diffoscope
+[2023-08-07 12:14:59] INFO root fetch - processPackages [mknotebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip tmp/mknotebooks-0.8.0-py3-none-any.whl.zip --markdown 20230807/m/mknotebooks/0.7.1.post0.dev98-0.8.0/diff.md --exclude *.pyd
+[2023-08-07 12:14:59] INFO root fetch - processPackages [locker-secrets]: Remove: archive file [/home/abi/fetcher/tmp/locker-secrets-0.0.6b1.tar.gz]
+[2023-08-07 12:14:59] INFO root fetch - processPackages [locker-secrets]: Remove: archive file [/home/abi/fetcher/tmp/locker-secrets-0.0.7b1.tar.gz]
+[2023-08-07 12:14:59] INFO root fetch - processPackages [locker-secrets]: Start processing: mknotebooks
+[2023-08-07 12:14:59] INFO root fetch - main [MainThread]: End processing [locker-secrets]: success
+[2023-08-07 12:14:59] INFO root fetch - processPackages [mknotebooks]: New version: [0.8.0.post0.dev2] Old Version: [0.8.0.post0.dev1]
+[2023-08-07 12:14:59] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz]
+[2023-08-07 12:14:59] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz]
+[2023-08-07 12:14:59] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Start processing: permetrics
+[2023-08-07 12:14:59] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-07 12:15:00] INFO root fetch - processPackages [permetrics]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-08-07 12:15:00] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/08/d1/2a05249158159ca6774c7d65abb37a74edbb30a4e03ae6c910323e101dab/mknotebooks-0.8.0.post0.dev1-py3-none-any.whl
+[2023-08-07 12:15:00] INFO root fetch - processPackages [permetrics]: Downloading https://files.pythonhosted.org/packages/25/f4/ea1a818604835cc57a303c5a2a69a13d5423130f863d32486d29ef404863/permetrics-1.4.1.tar.gz
+[2023-08-07 12:15:00] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/59/22/0efb67214a5bf1dd52d26c572012a6c309caf85c796991f378cf13c26fe7/mknotebooks-0.8.0.post0.dev2-py3-none-any.whl
+[2023-08-07 12:15:00] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-1.1.0.tar.gz]
+[2023-08-07 12:15:00] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-1.1.1.tar.gz]
+[2023-08-07 12:15:00] INFO root fetch - processPackages [aurori]: Start processing: dran
+[2023-08-07 12:15:00] INFO root fetch - main [MainThread]: End processing [aurori]: success
+[2023-08-07 12:15:01] INFO root fetch - processPackages [permetrics]: Downloading https://files.pythonhosted.org/packages/08/e2/136e0149b54c16737427ea08124bb747abb2c934bf5aa8a326bb975ae540/permetrics-1.4.2.tar.gz
+[2023-08-07 12:15:01] INFO root fetch - processPackages [mknotebooks]: executing diffoscope
+[2023-08-07 12:15:01] INFO root fetch - processPackages [mknotebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknotebooks-0.8.0.post0.dev1-py3-none-any.whl.zip tmp/mknotebooks-0.8.0.post0.dev2-py3-none-any.whl.zip --markdown 20230807/m/mknotebooks/0.8.0.post0.dev1-0.8.0.post0.dev2/diff.md --exclude *.pyd
+[2023-08-07 12:15:01] WARNING root fetch - processPackages [dran]: Skipping, unable to determine old version
+[2023-08-07 12:15:01] INFO root fetch - main [MainThread]: End processing [dran] error
+[2023-08-07 12:15:01] INFO root fetch - processPackages [permetrics]: executing diffoscope
+[2023-08-07 12:15:01] INFO root fetch - processPackages [permetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permetrics-1.4.1.tar.gz tmp/permetrics-1.4.2.tar.gz --markdown 20230807/p/permetrics/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-08-07 12:15:01] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:01] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:15:01] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-08-07 12:15:01] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-08-07 12:15:01] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-08-07 12:15:01] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-08-07 12:15:01] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.5.tar.gz]
+[2023-08-07 12:15:01] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.6.tar.gz]
+[2023-08-07 12:15:01] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2023-08-07 12:15:02] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.7.1.post0.dev98-py3-none-any.whl.zip]
+[2023-08-07 12:15:02] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0-py3-none-any.whl.zip]
+[2023-08-07 12:15:02] INFO root fetch - main [MainThread]: End processing [mknotebooks]: success
+[2023-08-07 12:15:02] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:02] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:15:02] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-08-07 12:15:03] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0.post0.dev1-py3-none-any.whl.zip]
+[2023-08-07 12:15:03] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0.post0.dev2-py3-none-any.whl.zip]
+[2023-08-07 12:15:03] INFO root fetch - main [MainThread]: End processing [mknotebooks]: success
+[2023-08-07 12:15:03] INFO root fetch - processPackages [permetrics]: Remove: archive file [/home/abi/fetcher/tmp/permetrics-1.4.1.tar.gz]
+[2023-08-07 12:15:03] INFO root fetch - processPackages [permetrics]: Remove: archive file [/home/abi/fetcher/tmp/permetrics-1.4.2.tar.gz]
+[2023-08-07 12:15:03] INFO root fetch - main [MainThread]: End processing [permetrics]: success
+[2023-08-07 12:15:07] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:07] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:07] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-08-07 12:15:17] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:17] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:15:17] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-08-07 12:15:17] INFO root fetch - main [MainThread]: Store serial: [19204041]
