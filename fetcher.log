@@ -9550,3 +9550,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:21:42] INFO root fetch - processPackages [colibris]: Remove: archive file [/home/abi/fetcher/tmp/colibris-0.9.2.tar.gz]
 [2023-08-07 09:21:42] INFO root fetch - main [MainThread]: End processing [colibris]: success
 [2023-08-07 09:21:42] INFO root fetch - main [MainThread]: Store serial: [19201757]
+[2023-08-07 09:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201757]
+[2023-08-07 09:26:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swaggerspect
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-mcversion
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cheapcone
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitxt
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-ci
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OctoBot-Commons
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zj-utils-zjj421
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: t-val
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: S-Taper
+[2023-08-07 09:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdal2numpy
+[2023-08-07 09:26:51] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [cheapcone]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.7b30] Old Version: [0.0.7b29]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [zj-utils-zjj421]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/ad/8b/72e178ad01795f543d0c9d6139bdb82500fcb10c9c5e5723b2434a3a2ce0/nonebot-plugin-mcversion-0.2.3.tar.gz
+[2023-08-07 09:26:51] INFO root fetch - processPackages [swaggerspect]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [t-val]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [S-Taper]: New version: [0.8.0.0] Old Version: [0.7.0.7]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/4d/a1/4ff9d47833f58f25a03120f358c5391da713db5107212fd8686587db554d/hatch_ci-0.0.7b29.tar.gz
+[2023-08-07 09:26:51] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 09:26:51] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-07 09:26:52] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/dd/92/b094204204020dee8b8b88dff142e283f51f540efdfbe54776fd98b7c53b/cheapcone-0.1.0.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [zj-utils-zjj421]: Downloading https://files.pythonhosted.org/packages/1b/a9/c77ceb3a44da07128cefe06a9014c75c512a4f0612e9f62169ba5ca04436/zj_utils_zjj421-0.0.10.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [S-Taper]: Downloading https://files.pythonhosted.org/packages/f8/1c/c6f6a90e3b155d8e92f788fd83a09fb370416865e558db0e8878bcbdab11/S_Taper-0.7.0.7.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [swaggerspect]: Downloading https://files.pythonhosted.org/packages/ed/4b/2aa5bc7e7bd9b07acf1dd08c1c7af5d59f36e0be4d23794d4e21073b0de1/swaggerspect-0.0.4.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [t-val]: Downloading https://files.pythonhosted.org/packages/9e/62/c9043a448821fe5dc7aa8f2814f53c3a6e530543a442df77c8b756d75cd4/t_val-0.0.2.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/d1/70/aae7728728bb494972e639d7fa912e43f672174c96673812eaa3f9821d42/OctoBot-Commons-1.9.8.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/b8/83/34d24cd7c67130a119e878ee97e68ec93a9b6b87bdaf9cd7843b0caaee9e/nonebot-plugin-mcversion-0.2.4.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/62/31/b3ccabc882d4f6e754746c8f737726ae3d07d35f0bb0647f704cb4b57d94/hatch_ci-0.0.7b30.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.3.tar.gz tmp/nonebot-plugin-mcversion-0.2.4.tar.gz --markdown 20230807/n/nonebot-plugin-mcversion/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 09:26:52] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/aa/76/2c92c7d5d430d88917247078bc028e475b59aafee90a39c68c2b0809860c/cheapcone-0.1.1.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [zj-utils-zjj421]: Downloading https://files.pythonhosted.org/packages/4e/a5/148756d769b6f160970ff1a105b7a29a0134ebbcf447b188c600ee056ddb/zj_utils_zjj421-0.0.9.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.7b29.tar.gz tmp/hatch_ci-0.0.7b30.tar.gz --markdown 20230807/h/hatch-ci/0.0.7b29-0.0.7b30/diff.md --exclude *.pyd
+[2023-08-07 09:26:52] INFO root fetch - processPackages [t-val]: Downloading https://files.pythonhosted.org/packages/e5/8a/a544022ee21e94d5931f8a776a5e34ed77746023712f7a63ecc11167fc26/t_val-0.0.3.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.0.tar.gz tmp/cheapcone-0.1.1.tar.gz --markdown 20230807/c/cheapcone/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 09:26:52] INFO root fetch - processPackages [S-Taper]: Downloading https://files.pythonhosted.org/packages/00/3e/c8483bfc6150603488ede28037e10e13b1d8b9ff1c3df899cc77672258a8/S_Taper-0.8.0.0.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [swaggerspect]: Downloading https://files.pythonhosted.org/packages/8b/8b/ad476a23c2ca44e27f73bb3d66f600c6aa0c143da01205951faf4e70c0d6/swaggerspect-0.0.7.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/c9/88/6974930114bda39ad842a32e1c00a0fdf5592f27ff5d3e0a3b29aab15f76/OctoBot-Commons-1.9.9.tar.gz
+[2023-08-07 09:26:52] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230807/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:26:52] INFO root fetch - processPackages [zj-utils-zjj421]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [zj-utils-zjj421]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zj_utils_zjj421-0.0.10.tar.gz tmp/zj_utils_zjj421-0.0.9.tar.gz --markdown 20230807/z/zj-utils-zjj421/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:26:52] INFO root fetch - processPackages [t-val]: executing diffoscope
+[2023-08-07 09:26:52] INFO root fetch - processPackages [t-val]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_val-0.0.2.tar.gz tmp/t_val-0.0.3.tar.gz --markdown 20230807/t/t-val/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 09:26:53] INFO root fetch - processPackages [S-Taper]: executing diffoscope
+[2023-08-07 09:26:53] INFO root fetch - processPackages [S-Taper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/S_Taper-0.7.0.7.tar.gz tmp/S_Taper-0.8.0.0.tar.gz --markdown 20230807/S/S-Taper/0.7.0.7-0.8.0.0/diff.md --exclude *.pyd
+[2023-08-07 09:26:53] INFO root fetch - processPackages [swaggerspect]: executing diffoscope
+[2023-08-07 09:26:53] INFO root fetch - processPackages [swaggerspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swaggerspect-0.0.4.tar.gz tmp/swaggerspect-0.0.7.tar.gz --markdown 20230807/s/swaggerspect/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 09:26:53] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-07 09:26:53] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230807/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 09:26:53] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-08-07 09:26:53] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.8.tar.gz tmp/OctoBot-Commons-1.9.9.tar.gz --markdown 20230807/O/OctoBot-Commons/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-07 09:26:54] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.3.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.4.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.0.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.1.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [t-val]: Remove: archive file [/home/abi/fetcher/tmp/t_val-0.0.2.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [t-val]: Remove: archive file [/home/abi/fetcher/tmp/t_val-0.0.3.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [t-val]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [zj-utils-zjj421]: Remove: archive file [/home/abi/fetcher/tmp/zj_utils_zjj421-0.0.10.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [zj-utils-zjj421]: Remove: archive file [/home/abi/fetcher/tmp/zj_utils_zjj421-0.0.9.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [zj-utils-zjj421]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [swaggerspect]: Remove: archive file [/home/abi/fetcher/tmp/swaggerspect-0.0.4.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [swaggerspect]: Remove: archive file [/home/abi/fetcher/tmp/swaggerspect-0.0.7.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [swaggerspect]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [S-Taper]: Remove: archive file [/home/abi/fetcher/tmp/S_Taper-0.7.0.7.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [S-Taper]: Remove: archive file [/home/abi/fetcher/tmp/S_Taper-0.8.0.0.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [S-Taper]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b29.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b30.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 09:26:54] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-08-07 09:26:54] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-08-07 09:26:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-07 09:26:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-07 09:26:55] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-07 09:26:55] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.8.tar.gz]
+[2023-08-07 09:26:55] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.9.tar.gz]
+[2023-08-07 09:26:55] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-08-07 09:26:55] INFO root fetch - main [MainThread]: Store serial: [19201786]
