@@ -19581,3 +19581,204 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:16:43] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf-analysis-0.2.1.tar.gz]
 [2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [idf-analysis]: success
 [2023-08-07 15:16:43] INFO root fetch - main [MainThread]: Store serial: [19205796]
+[2023-08-07 15:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205796]
+[2023-08-07 15:21:52] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybiolib
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-sphinx
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calfcv
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wafermap-clustering
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: task4
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-nano
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opensesame-extension-osweb
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-llm
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos
+[2023-08-07 15:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfury
+[2023-08-07 15:21:52] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-07 15:21:52] WARNING root fetch - processPackages [task4]: Skipping, unable to determine old version
+[2023-08-07 15:21:52] INFO root fetch - processPackages [task4]: Start processing: bigdl-serving
+[2023-08-07 15:21:52] INFO root fetch - main [MainThread]: End processing [task4] error
+[2023-08-07 15:21:52] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [pyfury]: New version: [0.1.1a1] Old Version: [0.1.0a5]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.1.0] Old Version: [2.0.0.1]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 15:21:52] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230807] Old Version: [2.4.0b20230806]
+[2023-08-07 15:21:52] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/89/ac/6122471aa7160b1c106b645ac9872cf929641cd3f61f1af78d139be892d2/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-07 15:21:52] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a7/5f/8a5787f97abf1a9414cb87cac45820dbd137e5b2c0fac9851179ae21bcdd/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-07 15:21:52] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-07 15:21:52] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/e9/24/0b910f3aab87ab52d3eada1a62d4700b7e031f2234beab86dd89db049a4b/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/4c/73/271dd33235ff96793553e3093167a01148340f1c15e46a8ce0f54a1b7e00/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5f/41/e9ead61230ad13a9e6627253fe9b653fc876794e8765bda2f38caf7ae28e/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e7/07/f70bec72d53823aef1dd3c088ee0f816dd953e0b90fba731c7b8168204c9/opensesame_extension_osweb-2.0.0.1.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/c0/04/69368c412c9acdf26315c14c53eebc261ac143130926ed95d6555a46c4ab/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230807/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b6/47/51a286c4b897f75579af426bf1654d89877c2842a9b55d7641ac45c23dca/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230807/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e1/cd/20aa00434f4e8494ea820626842cad68c1b68089a771e13ba1b7be503d60/bigdl_serving-2.4.0b20230807-py2.py3-none-any.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/d3/b9/15f20edda918ecce72b1e1a1b0ea45f2ab0d4de58499deab7f4a0fa92711/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/4c/b4/086386aa3e84538689dc931a8a050dc41144d4fce872671253ea61e5a5d8/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-07 15:21:53] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/64/62/b9514f151a1de1c72386e8d80ff740b0ac8c32fd1de033317dcc10facc14/opensesame_extension_osweb-2.0.1.0.tar.gz
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230807/b/bigdl-chronos/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230807/b/bigdl-llm/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230807-py2.py3-none-any.whl.zip --markdown 20230807/b/bigdl-serving/2.4.0b20230806-2.4.0b20230807/diff.md --exclude *.pyd
+[2023-08-07 15:21:53] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-08-07 15:21:53] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230807/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-08-07 15:21:54] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-08-07 15:21:54] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230807/b/bigdl-nano/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:21:54] INFO root fetch - processPackages [pyfury]: executing diffoscope
+[2023-08-07 15:21:54] INFO root fetch - processPackages [pyfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip tmp/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl.zip --markdown 20230807/p/pyfury/0.1.0a5-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-07 15:21:54] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-08-07 15:21:54] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.1.tar.gz tmp/opensesame_extension_osweb-2.0.1.0.tar.gz --markdown 20230807/o/opensesame-extension-osweb/2.0.0.1-2.0.1.0/diff.md --exclude *.pyd
+[2023-08-07 15:21:54] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 15:21:54] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 15:21:54] INFO root fetch - processPackages [calfcv]: Start processing: coiled
+[2023-08-07 15:21:54] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 15:21:54] INFO root fetch - processPackages [coiled]: New version: [0.9.7.dev1] Old Version: [0.9.7]
+[2023-08-07 15:21:54] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-07 15:21:54] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-07 15:21:54] INFO root fetch - processPackages [wafermap-clustering]: Start processing: fasttask-manager
+[2023-08-07 15:21:54] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: kafka-bridge-client
+[2023-08-07 15:21:55] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-07 15:21:55] WARNING root fetch - processPackages [fasttask-manager]: Skipping, unable to determine old version
+[2023-08-07 15:21:55] INFO root fetch - processPackages [fasttask-manager]: Start processing: nbdev-django
+[2023-08-07 15:21:55] INFO root fetch - main [MainThread]: End processing [fasttask-manager] error
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [kafka-bridge-client]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-07 15:21:55] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl.zip]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230807-py2.py3-none-any.whl.zip]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [bigdl-serving]: Start processing: orca-parser
+[2023-08-07 15:21:55] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-08-07 15:21:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e8/56/6f0a240557619cce6aca612f026f3250f25b8a58384cd427ba8f1818251d/coiled-0.9.7.tar.gz
+[2023-08-07 15:21:55] INFO root fetch - processPackages [orca-parser]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [kafka-bridge-client]: Downloading https://files.pythonhosted.org/packages/b1/2c/077fd07988be0d715b373660a733c7420fcefc9a54fb8cac77f58e13f470/kafka-bridge-client-0.7.0.tar.gz
+[2023-08-07 15:21:55] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/6a/dc/3467286c200da97ec02ec0d1ae1952001c73afd73e6d3300e7262c3b261c/orca_parser-0.1.8-py2.py3-none-any.whl
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-07 15:21:55] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/93/87/bba5cd55e7b2a8fd4287e84b192a87cae324c7c5e00c356f2588edfee4ec/orca_parser-0.1.9-py2.py3-none-any.whl
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-07 15:21:55] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230807/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:21:55] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-08-07 15:21:55] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip --markdown 20230807/o/orca-parser/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 15:21:55] INFO root fetch - processPackages [kafka-bridge-client]: Downloading https://files.pythonhosted.org/packages/f1/3c/1690b118bd188aca4c941f0f21397daa80352c0ae9522ee13d6cc247b92c/kafka_bridge_client-0.7.1.tar.gz
+[2023-08-07 15:21:55] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-08-07 15:21:55] INFO root fetch - processPackages [pybiolib]: Start processing: pydantic-resolve
+[2023-08-07 15:21:55] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-08-07 15:21:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/fb/6a/a40632615cdc745c486b5d8e334181af7aee46d5fbe96ca5df448e01cc13/coiled-0.9.7.dev1.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [kafka-bridge-client]: executing diffoscope
+[2023-08-07 15:21:56] INFO root fetch - processPackages [kafka-bridge-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-bridge-client-0.7.0.tar.gz tmp/kafka_bridge_client-0.7.1.tar.gz --markdown 20230807/k/kafka-bridge-client/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-07 15:21:56] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-07 15:21:56] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.7.tar.gz tmp/coiled-0.9.7.dev1.tar.gz --markdown 20230807/c/coiled/0.9.7-0.9.7.dev1/diff.md --exclude *.pyd
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pyfury]: Start processing: projkit
+[2023-08-07 15:21:56] INFO root fetch - main [MainThread]: End processing [pyfury]: success
+[2023-08-07 15:21:56] INFO root fetch - processPackages [projkit]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/fd/3a/77dd253adf81ce287e8ecc7d3c9737902f2801fbec9d33a3426ede433811/pydantic_resolve-1.6.3.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-chronos]: Start processing: pyTEMlib
+[2023-08-07 15:21:56] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-08-07 15:21:56] INFO root fetch - processPackages [projkit]: Downloading https://files.pythonhosted.org/packages/a0/1f/619d31bfaab6fd980d756bc2086ebdf024206aa9708bd7e016c547f90b51/projkit-0.1.0.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pyTEMlib]: New version: [0.7.2019.9] Old Version: [0.7.2019.10]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [projkit]: Downloading https://files.pythonhosted.org/packages/60/cc/64e565758b28f54f0c08bbad8bea5b4e22fa1e32062017ff69031f68e067/projkit-0.1.2.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/0f/62/0db5f02160d862f9df7804e8ffb3dc17b992b04dc5d9595c390d01de9152/pydantic_resolve-1.6.4.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pyTEMlib]: Downloading https://files.pythonhosted.org/packages/03/fa/71a0822778a4f5f80d20c922f1e7b35649755e6b7a029912d501dd167b84/pyTEMlib-0.7.2019.10.tar.gz
+[2023-08-07 15:21:56] INFO root fetch - processPackages [projkit]: executing diffoscope
+[2023-08-07 15:21:56] INFO root fetch - processPackages [projkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projkit-0.1.0.tar.gz tmp/projkit-0.1.2.tar.gz --markdown 20230807/p/projkit/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-08-07 15:21:56] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.6.3.tar.gz tmp/pydantic_resolve-1.6.4.tar.gz --markdown 20230807/p/pydantic-resolve/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:21:56] INFO root fetch - processPackages [bigdl-nano]: Start processing: cosmian-anonymization
+[2023-08-07 15:21:56] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-08-07 15:21:57] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [orca-parser]: Start processing: nbdev-apl
+[2023-08-07 15:21:57] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-08-07 15:21:57] INFO root fetch - processPackages [cosmian-anonymization]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-django]: Start processing: mujoco-dev
+[2023-08-07 15:21:57] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.941] Old Version: [0.0.940]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [pyTEMlib]: Downloading https://files.pythonhosted.org/packages/98/8d/70e15c910994ead5ef8303f1c9c8c95965c1ef8225969687d3a4b4c141bf/pyTEMlib-0.7.2019.9.tar.gz
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/57/d6/c9aa00922ade92b04f4156e0130251a0ae958db94a69c2cf92cac0986b84/nbdev-apl-0.0.940.tar.gz
+[2023-08-07 15:21:57] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/89/10/dd1373472832787db596667681a5fa8c8be722c47602712e328109a32daa/cosmian_anonymization-1.2.0-py3-none-any.whl
+[2023-08-07 15:21:57] INFO root fetch - processPackages [kafka-bridge-client]: Remove: archive file [/home/abi/fetcher/tmp/kafka-bridge-client-0.7.0.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [kafka-bridge-client]: Remove: archive file [/home/abi/fetcher/tmp/kafka_bridge_client-0.7.1.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [kafka-bridge-client]: Start processing: micropython-pct2075
+[2023-08-07 15:21:57] INFO root fetch - main [MainThread]: End processing [kafka-bridge-client]: success
+[2023-08-07 15:21:57] WARNING root fetch - processPackages [micropython-pct2075]: Skipping, unable to determine old version
+[2023-08-07 15:21:57] INFO root fetch - processPackages [micropython-pct2075]: Start processing: simpletransformers
+[2023-08-07 15:21:57] INFO root fetch - main [MainThread]: End processing [micropython-pct2075] error
+[2023-08-07 15:21:57] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.8.dev554452710] Old Version: [2.3.8.dev554438423]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [pyTEMlib]: executing diffoscope
+[2023-08-07 15:21:57] INFO root fetch - processPackages [pyTEMlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTEMlib-0.7.2019.10.tar.gz tmp/pyTEMlib-0.7.2019.9.tar.gz --markdown 20230807/p/pyTEMlib/0.7.2019.10-0.7.2019.9/diff.md --exclude *.pyd
+[2023-08-07 15:21:57] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.7.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.7.dev1.tar.gz]
+[2023-08-07 15:21:57] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-07 15:21:57] INFO root fetch - processPackages [simpletransformers]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8f/34/f6a3e38ac09adbfa95b865c4b8effa3bab6b26298fc98ee71efa9e4f1b07/nbdev-apl-0.0.941.tar.gz
+[2023-08-07 15:21:57] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/3d/79/cfe84dabda2f72a5cafb13bc6065a84c86c54cf3307e41b6f8500a13e48d/cosmian_anonymization-1.2.1-py3-none-any.whl
+[2023-08-07 15:21:57] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/7c/b0/046d9c4b94109803b02ea458bc9a3b32424de65c1ec2169ec3f80659dd9f/mujoco_dev-2.3.8.dev554438423-cp39-cp39-win_amd64.whl
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-07 15:21:57] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.940.tar.gz tmp/nbdev-apl-0.0.941.tar.gz --markdown 20230807/n/nbdev-apl/0.0.940-0.0.941/diff.md --exclude *.pyd
+[2023-08-07 15:21:57] INFO root fetch - processPackages [cosmian-anonymization]: executing diffoscope
+[2023-08-07 15:21:57] INFO root fetch - processPackages [cosmian-anonymization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_anonymization-1.2.0-py3-none-any.whl.zip tmp/cosmian_anonymization-1.2.1-py3-none-any.whl.zip --markdown 20230807/c/cosmian-anonymization/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-07 15:21:57] INFO root fetch - processPackages [simpletransformers]: Downloading https://files.pythonhosted.org/packages/d4/67/12d20098319ab96f84d7f15aff09bc1a0cf1c86715391b4cbaaa1c45b6bd/simpletransformers-0.9.0.tar.gz
+[2023-08-07 15:21:58] INFO root fetch - processPackages [projkit]: Remove: archive file [/home/abi/fetcher/tmp/projkit-0.1.0.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - processPackages [projkit]: Remove: archive file [/home/abi/fetcher/tmp/projkit-0.1.2.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - main [MainThread]: End processing [projkit]: success
+[2023-08-07 15:21:58] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.3.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.4.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-08-07 15:21:58] INFO root fetch - processPackages [simpletransformers]: Downloading https://files.pythonhosted.org/packages/ee/9e/dc0ca8470a79a4faf24f853caae048af29dab7d43daba739b285120ee223/simpletransformers-0.9.1.tar.gz
+[2023-08-07 15:21:58] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/83/5e/b1f81fde1820e0c1b308173ab79748fd3db5f83661129b3eb7bc5fa96e41/mujoco_dev-2.3.8.dev554452710-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-07 15:21:58] INFO root fetch - processPackages [pyTEMlib]: Remove: archive file [/home/abi/fetcher/tmp/pyTEMlib-0.7.2019.10.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - processPackages [pyTEMlib]: Remove: archive file [/home/abi/fetcher/tmp/pyTEMlib-0.7.2019.9.tar.gz]
+[2023-08-07 15:21:58] INFO root fetch - main [MainThread]: End processing [pyTEMlib]: success
+[2023-08-07 15:21:58] INFO root fetch - processPackages [simpletransformers]: executing diffoscope
+[2023-08-07 15:21:58] INFO root fetch - processPackages [simpletransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpletransformers-0.9.0.tar.gz tmp/simpletransformers-0.9.1.tar.gz --markdown 20230807/s/simpletransformers/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 15:21:59] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.2.0-py3-none-any.whl.zip]
+[2023-08-07 15:21:59] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.2.1-py3-none-any.whl.zip]
+[2023-08-07 15:21:59] INFO root fetch - main [MainThread]: End processing [cosmian-anonymization]: success
+[2023-08-07 15:21:59] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.940.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.941.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-07 15:21:59] INFO root fetch - processPackages [simpletransformers]: Remove: archive file [/home/abi/fetcher/tmp/simpletransformers-0.9.0.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - processPackages [simpletransformers]: Remove: archive file [/home/abi/fetcher/tmp/simpletransformers-0.9.1.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - main [MainThread]: End processing [simpletransformers]: success
+[2023-08-07 15:21:59] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.1.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.1.0.tar.gz]
+[2023-08-07 15:21:59] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-08-07 15:21:59] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-08-07 15:21:59] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.8.dev554438423-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.8.dev554452710-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230807/m/mujoco-dev/2.3.8.dev554438423-2.3.8.dev554452710/diff.md --exclude *.pyd
+[2023-08-07 15:22:01] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554438423-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 15:22:01] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554452710-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-07 15:22:01] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-08-07 15:22:09] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:22:09] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-07 15:22:09] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-08-07 15:22:09] INFO root fetch - main [MainThread]: Store serial: [19205872]
