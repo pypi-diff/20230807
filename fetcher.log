@@ -9494,3 +9494,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:16:29] INFO root fetch - processPackages [cr.cube]: Remove: archive file [/home/abi/fetcher/tmp/cr.cube-3.0.9.tar.gz]
 [2023-08-07 09:16:29] INFO root fetch - main [MainThread]: End processing [cr.cube]: success
 [2023-08-07 09:16:29] INFO root fetch - main [MainThread]: Store serial: [19201733]
+[2023-08-07 09:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201733]
+[2023-08-07 09:21:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt5-Frameless-Window
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arfs
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: league-shop-base
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scilightcon
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colibris
+[2023-08-07 09:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mnzipcode
+[2023-08-07 09:21:38] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [PyQt5-Frameless-Window]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-08-07 09:21:38] WARNING root fetch - processPackages [scilightcon]: Skipping, unable to determine old version
+[2023-08-07 09:21:38] INFO root fetch - main [MainThread]: End processing [scilightcon] error
+[2023-08-07 09:21:38] INFO root fetch - processPackages [colibris]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [arfs]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230807] Old Version: [0.7.3.dev20230806]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-07 09:21:38] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/ef/93/58c77994f58345c9c71a461390876bcccc6d4d35ba382403bc901aad9587/arfs-2.0.5.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [colibris]: Downloading https://files.pythonhosted.org/packages/3e/9f/584bb6079801fb0c4a64936da46774ae0cc9b8145277b1a2a32e20649e53/colibris-0.9.1.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/93/95/c7d48dab84bfa5799549c5d6ceb0020720c303dd5e3eed88866bb9019ef6/PyQt5-Frameless-Window-0.2.9.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/ae/6e/5c0f0a197beacd199ec2efa9b151a9f8de0a34aef8b7e92d58b95b2024f0/mnzipcode-0.0.9.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-08-07 09:21:39] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230807/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:21:39] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/07/1c/754b4c09ab9d61ab8316acc45bc895dde785108068da6fe627a26686a5f6/tfq_nightly-0.7.3.dev20230806-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 09:21:39] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-08-07 09:21:39] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-07 09:21:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/4a/f5/0d7e98970678bd539da68318c5be036168b6a1423b770e32593892ace45f/PyQt5-Frameless-Window-0.3.0.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/48/b4/f38a8abfe2577ab8f6736630ca989cc0d5dc449229ddc54398e813f78954/arfs-2.0.6.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/00/58/c91f76b283e1275cfaaf8f232d2bb85400ed1450f363e5360596d8121aba/mnzipcode-0.1.0.tar.gz
+[2023-08-07 09:21:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: executing diffoscope
+[2023-08-07 09:21:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt5-Frameless-Window-0.2.9.tar.gz tmp/PyQt5-Frameless-Window-0.3.0.tar.gz --markdown 20230807/P/PyQt5-Frameless-Window/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 09:21:39] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-08-07 09:21:39] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-2.0.5.tar.gz tmp/arfs-2.0.6.tar.gz --markdown 20230807/a/arfs/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-08-07 09:21:39] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 09:21:39] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.0.9.tar.gz tmp/mnzipcode-0.1.0.tar.gz --markdown 20230807/m/mnzipcode/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:21:40] INFO root fetch - processPackages [colibris]: Downloading https://files.pythonhosted.org/packages/de/23/7a4d07d8e73bc068ab750abaff59f7e8dc606f7620b25ce0f810dded40dc/colibris-0.9.2.tar.gz
+[2023-08-07 09:21:40] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-08-07 09:21:40] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt5-Frameless-Window-0.2.9.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt5-Frameless-Window-0.3.0.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - main [MainThread]: End processing [PyQt5-Frameless-Window]: success
+[2023-08-07 09:21:40] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.0.9.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.0.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 09:21:40] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.5.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.6.tar.gz]
+[2023-08-07 09:21:40] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-08-07 09:21:40] INFO root fetch - processPackages [colibris]: executing diffoscope
+[2023-08-07 09:21:40] INFO root fetch - processPackages [colibris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colibris-0.9.1.tar.gz tmp/colibris-0.9.2.tar.gz --markdown 20230807/c/colibris/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-07 09:21:42] INFO root fetch - processPackages [colibris]: Remove: archive file [/home/abi/fetcher/tmp/colibris-0.9.1.tar.gz]
+[2023-08-07 09:21:42] INFO root fetch - processPackages [colibris]: Remove: archive file [/home/abi/fetcher/tmp/colibris-0.9.2.tar.gz]
+[2023-08-07 09:21:42] INFO root fetch - main [MainThread]: End processing [colibris]: success
+[2023-08-07 09:21:42] INFO root fetch - main [MainThread]: Store serial: [19201757]
