@@ -18048,3 +18048,126 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:56:07] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
 [2023-08-07 13:56:07] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
 [2023-08-07 13:56:07] INFO root fetch - main [MainThread]: Store serial: [19205066]
+[2023-08-07 14:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205066]
+[2023-08-07 14:01:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siman
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-managementttt
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-pydantic-openapi
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-unity
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irispie
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gamey
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akshare
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scripthelper
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opaw
+[2023-08-07 14:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sam-subseq
+[2023-08-07 14:01:15] INFO root fetch - processPackages [gamey]: New version: [0.4] Old Version: [0.3.1]
+[2023-08-07 14:01:15] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-08-07 14:01:15] INFO root fetch - processPackages [scripthelper]: New version: [23.3] Old Version: [23.2]
+[2023-08-07 14:01:15] INFO root fetch - processPackages [siman]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/de/eb/02e63c74a879e66e2ae80bc2c21e9df1cc07bf09a2a78d77b41abaf495a3/gamey-0.3.1.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [opaw]: New version: [0.4] Old Version: [0.3]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [irispie]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [sam-subseq]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 14:01:16] ERROR root fetch - processPackages [ml-managementttt]: Unable to get metadata: No such project 'ml-managementttt'
+[2023-08-07 14:01:16] INFO root fetch - processPackages [ml-managementttt]: Start processing: bluepymm
+[2023-08-07 14:01:16] INFO root fetch - main [MainThread]: End processing [ml-managementttt] error
+[2023-08-07 14:01:16] INFO root fetch - processPackages [drf-pydantic-openapi]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [flask-unity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [sam-subseq]: Downloading https://files.pythonhosted.org/packages/ba/f0/d496d291cacc3f619ed4da6cb3033a82d798a958d4402c4a2e25873c1aac/sam_subseq-0.0.1.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [scripthelper]: Downloading https://files.pythonhosted.org/packages/f2/ab/7be58c31a9f1221942ac5a85c4f87235056169a5ff0c2745f29c8941fb3f/scripthelper-23.2.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/40/96/518ee8974a2fa4bda0704239819ea0c9d871a5eee0692578a1c4c1a5378b/siman-1.4.0.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [bluepymm]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-07 14:01:16] INFO root fetch - processPackages [opaw]: Downloading https://files.pythonhosted.org/packages/e7/b3/29b31517d36a238e3bcfb06c5bb1fcbb0f81f06db0bab340ed0b16960051/opaw-0.3.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/c5/21/351e67e7d4d298f64c5eecd7977334b0581e8f09391a4405c9005e7463f4/drf_pydantic_openapi-0.4.2.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/24/dc90cf0314b6ba2e8cc7a917b2123803070db94fe4e167770c9764a6893b/irispie-0.1.6.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/fd/0e/388e145e8100e9576ff1603c937f9293735c4628450c5d86222b24e5372f/flask_unity-0.0.8.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/26/67/8fcf2acc80aae103aa37e619c938034534598c6f2ae3268b5a41d8bd6064/gamey-0.4.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/30/97/14214fdb294878ff57b349e61e776cb4f6d65d7266498a5e7ba231ebf0b6/bluepymm-0.9.4.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-08-07 14:01:16] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230807/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-08-07 14:01:16] INFO root fetch - processPackages [sam-subseq]: Downloading https://files.pythonhosted.org/packages/e7/d8/9fcf895ac613e6bd341dec9b266521379a968cd89b2e65719cb987291c01/sam_subseq-0.0.2.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [gamey]: executing diffoscope
+[2023-08-07 14:01:16] INFO root fetch - processPackages [gamey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamey-0.3.1.tar.gz tmp/gamey-0.4.tar.gz --markdown 20230807/g/gamey/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-08-07 14:01:16] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/91/4a/4482c2ac186f51a73565229852c27a8ad43d91ec5bdac411d2308c283c83/siman-1.4.1.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [scripthelper]: Downloading https://files.pythonhosted.org/packages/0e/1f/11b6b61494952ff969c804e354173da09b158bebcda5046ce1c3fbfb86a3/scripthelper-23.3.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [opaw]: Downloading https://files.pythonhosted.org/packages/91/21/8a9fff5c106789d5976d26bbd9c0937bddc3523491dc20d70e1f9579c8ce/opaw-0.4.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/2a/47/b22b5ca00ca0b5e3bbcc477949ee4ce38ada848a4e66bcd59f3d961ffa15/drf_pydantic_openapi-0.4.3.tar.gz
+[2023-08-07 14:01:16] INFO root fetch - processPackages [sam-subseq]: executing diffoscope
+[2023-08-07 14:01:16] INFO root fetch - processPackages [sam-subseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_subseq-0.0.1.tar.gz tmp/sam_subseq-0.0.2.tar.gz --markdown 20230807/s/sam-subseq/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:01:16] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/37/a8/c85aa059ff216ccb4a5e6a1c254ba0ca7e9aa198c49833b164ec30168c6a/irispie-0.2.0.tar.gz
+[2023-08-07 14:01:17] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/a5/ae/1a0bbf22cf1eb46986f904cdb6c073640d13fa24093103cfe585d8677a28/bluepymm-0.9.5.tar.gz
+[2023-08-07 14:01:17] INFO root fetch - processPackages [flask-unity]: Downloading https://files.pythonhosted.org/packages/eb/e8/f79bce21037798fbf100c38852cf7e993a7ece6f1fa1c34ec3d09bece9ea/flask_unity-0.0.9.tar.gz
+[2023-08-07 14:01:17] INFO root fetch - processPackages [scripthelper]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [scripthelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scripthelper-23.2.tar.gz tmp/scripthelper-23.3.tar.gz --markdown 20230807/s/scripthelper/23.2-23.3/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [opaw]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [opaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opaw-0.3.tar.gz tmp/opaw-0.4.tar.gz --markdown 20230807/o/opaw/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.4.0.tar.gz tmp/siman-1.4.1.tar.gz --markdown 20230807/s/siman/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [drf-pydantic-openapi]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [drf-pydantic-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_pydantic_openapi-0.4.2.tar.gz tmp/drf_pydantic_openapi-0.4.3.tar.gz --markdown 20230807/d/drf-pydantic-openapi/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [bluepymm]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [bluepymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepymm-0.9.4.tar.gz tmp/bluepymm-0.9.5.tar.gz --markdown 20230807/b/bluepymm/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.1.6.tar.gz tmp/irispie-0.2.0.tar.gz --markdown 20230807/i/irispie/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 14:01:17] INFO root fetch - processPackages [flask-unity]: executing diffoscope
+[2023-08-07 14:01:17] INFO root fetch - processPackages [flask-unity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unity-0.0.8.tar.gz tmp/flask_unity-0.0.9.tar.gz --markdown 20230807/f/flask-unity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:01:18] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.3.1.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.4.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [gamey]: Start processing: hyperiontf
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [gamey]: success
+[2023-08-07 14:01:18] INFO root fetch - processPackages [hyperiontf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [hyperiontf]: Downloading https://files.pythonhosted.org/packages/b0/20/3b0dbf8d2d98ba308bd2314ac182dc931257722d67d9725163923d1258d1/hyperiontf-0.1.0.tar.gz
+[2023-08-07 14:01:18] INFO root fetch - processPackages [sam-subseq]: Remove: archive file [/home/abi/fetcher/tmp/sam_subseq-0.0.1.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [sam-subseq]: Remove: archive file [/home/abi/fetcher/tmp/sam_subseq-0.0.2.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [sam-subseq]: Start processing: airflow-provider-fivetran-async
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [sam-subseq]: success
+[2023-08-07 14:01:18] INFO root fetch - processPackages [opaw]: Remove: archive file [/home/abi/fetcher/tmp/opaw-0.3.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [opaw]: Remove: archive file [/home/abi/fetcher/tmp/opaw-0.4.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [opaw]: Start processing: agixt
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [opaw]: success
+[2023-08-07 14:01:18] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.4.2.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.4.3.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [drf-pydantic-openapi]: success
+[2023-08-07 14:01:18] INFO root fetch - processPackages [hyperiontf]: Downloading https://files.pythonhosted.org/packages/b8/58/b9022fb8129c19b95e94c85cd124f41af20200859769cd50f6215b10670a/hyperiontf-0.1.1.tar.gz
+[2023-08-07 14:01:18] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [airflow-provider-fivetran-async]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [scripthelper]: Remove: archive file [/home/abi/fetcher/tmp/scripthelper-23.2.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [scripthelper]: Remove: archive file [/home/abi/fetcher/tmp/scripthelper-23.3.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [scripthelper]: success
+[2023-08-07 14:01:18] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-08-07 14:01:18] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.4.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.5.tar.gz]
+[2023-08-07 14:01:18] INFO root fetch - main [MainThread]: End processing [bluepymm]: success
+[2023-08-07 14:01:19] INFO root fetch - processPackages [hyperiontf]: executing diffoscope
+[2023-08-07 14:01:19] INFO root fetch - processPackages [hyperiontf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperiontf-0.1.0.tar.gz tmp/hyperiontf-0.1.1.tar.gz --markdown 20230807/h/hyperiontf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 14:01:19] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.8.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - processPackages [flask-unity]: Remove: archive file [/home/abi/fetcher/tmp/flask_unity-0.0.9.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - main [MainThread]: End processing [flask-unity]: success
+[2023-08-07 14:01:19] INFO root fetch - processPackages [airflow-provider-fivetran-async]: Downloading https://files.pythonhosted.org/packages/97/9e/1ca030347833aa1af8617f796b590ba0eb6fe3dece0b57f7d0ace01cf850/airflow-provider-fivetran-async-1.1.0.tar.gz
+[2023-08-07 14:01:19] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.4.0.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.4.1.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-08-07 14:01:19] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-08-07 14:01:19] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.1.6.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.2.0.tar.gz]
+[2023-08-07 14:01:19] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2023-08-07 14:01:19] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-08-07 14:01:19] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230807/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 14:01:19] INFO root fetch - processPackages [airflow-provider-fivetran-async]: Downloading https://files.pythonhosted.org/packages/56/f6/06e03da080de1ffe5a24e8c15f3d4d69701610518f0f40f0ee9e670ee78a/airflow-provider-fivetran-async-1.1.1.tar.gz
+[2023-08-07 14:01:19] INFO root fetch - processPackages [airflow-provider-fivetran-async]: executing diffoscope
+[2023-08-07 14:01:19] INFO root fetch - processPackages [airflow-provider-fivetran-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-fivetran-async-1.1.0.tar.gz tmp/airflow-provider-fivetran-async-1.1.1.tar.gz --markdown 20230807/a/airflow-provider-fivetran-async/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 14:01:20] INFO root fetch - processPackages [hyperiontf]: Remove: archive file [/home/abi/fetcher/tmp/hyperiontf-0.1.0.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - processPackages [hyperiontf]: Remove: archive file [/home/abi/fetcher/tmp/hyperiontf-0.1.1.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - main [MainThread]: End processing [hyperiontf]: success
+[2023-08-07 14:01:20] INFO root fetch - processPackages [airflow-provider-fivetran-async]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-fivetran-async-1.1.0.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - processPackages [airflow-provider-fivetran-async]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-fivetran-async-1.1.1.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - main [MainThread]: End processing [airflow-provider-fivetran-async]: success
+[2023-08-07 14:01:20] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-08-07 14:01:20] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-08-07 14:01:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-08-07 14:01:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-08-07 14:01:21] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-08-07 14:01:21] INFO root fetch - main [MainThread]: Store serial: [19205110]
