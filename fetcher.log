@@ -16540,3 +16540,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:52:25] INFO root fetch - processPackages [traits]: Remove: archive file [/home/abi/fetcher/tmp/traits-6.4.2.tar.gz]
 [2023-08-07 12:52:25] INFO root fetch - main [MainThread]: End processing [traits]: success
 [2023-08-07 12:52:25] INFO root fetch - main [MainThread]: Store serial: [19204451]
+[2023-08-07 12:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204451]
+[2023-08-07 12:57:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spai
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arclet-alconna-tools
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emeraldtriangles
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-text-input-dnd-sortable
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheapcone
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ashcrypt
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyllas
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astronomer-providers
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skcan-compare
+[2023-08-07 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ord-mediascout-client
+[2023-08-07 12:57:35] INFO root fetch - processPackages [skcan-compare]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [cheapcone]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [emeraldtriangles]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ord-mediascout-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [arclet-alconna-tools]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-08-07 12:57:35] WARNING root fetch - processPackages [pyllas]: Skipping, unable to determine old version
+[2023-08-07 12:57:35] INFO root fetch - main [MainThread]: End processing [pyllas] error
+[2023-08-07 12:57:35] INFO root fetch - processPackages [spai]: New version: [2023.8.7.post3] Old Version: [2023.8.7.post2]
+[2023-08-07 12:57:35] WARNING root fetch - processPackages [streamlit-text-input-dnd-sortable]: Skipping, unable to determine old version
+[2023-08-07 12:57:35] INFO root fetch - main [MainThread]: End processing [streamlit-text-input-dnd-sortable] error
+[2023-08-07 12:57:35] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/3a/45/bd93a07b68a831d289317d6dac5a8cc5f678a65b16582cd7cb6571a8a3dc/cheapcone-0.1.3.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ashcrypt]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-08-07 12:57:35] INFO root fetch - processPackages [emeraldtriangles]: Downloading https://files.pythonhosted.org/packages/a7/40/a23f2ee5ab4d4d90325f6aa35e65e7623342bb7ce1ad2ecac56202765a60/emeraldtriangles-0.0.8.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/bd/30/7c6cc42ba2e892c2986c97f5669f45b25b99a946af426594b0a44e82f470/ashcrypt-3.2.0.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [skcan-compare]: Downloading https://files.pythonhosted.org/packages/97/1c/f5183e208a0d8df3005d5d10351483f9cf9af0d02407859bbcc12ef0c9a2/skcan-compare-0.0.1.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [arclet-alconna-tools]: Downloading https://files.pythonhosted.org/packages/84/d1/974e51c61abb9d6b8805d8a929abe80da749301f8ff42c53fa0eddaa5d8e/arclet-alconna-tools-0.6.3.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/15/81/8c572a4950512b1c40ccaffd38c8ab31d131952532e5151f4acccffde4e8/ord_mediascout_client-0.0.8.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/0b/b9/093f500096930e238ec8102470121e57cfa6a66ba97609bcd0631c73c70a/spai-2023.8.7.post2.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/01/a9/ba7df188ab27cfd23e4186acdef8bdd4bebdc7372c63529a9cd537ab4404/cheapcone-0.1.4.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [skcan-compare]: Downloading https://files.pythonhosted.org/packages/d3/92/ae8cb3aedcbfa42a30c68fb311bb8ecebd1de0e64e14ff958338812b3d22/skcan-compare-0.0.2.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [emeraldtriangles]: Downloading https://files.pythonhosted.org/packages/96/78/0bcf73b7853b3e7ff986395a1b1a8708d83ae769f1c24ae958eb12d27bca/emeraldtriangles-0.0.9.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-07 12:57:35] INFO root fetch - processPackages [arclet-alconna-tools]: Downloading https://files.pythonhosted.org/packages/6f/cb/20bd707375890dd7a4c6a7116afea22fc2023475dc9d8667cf45670ad310/arclet-alconna-tools-0.6.4.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ashcrypt]: Downloading https://files.pythonhosted.org/packages/60/42/17bf9915f702a9df26af2c8d5e498bc63c44499240e694e862567f471eeb/ashcrypt-3.2.1.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.3.tar.gz tmp/cheapcone-0.1.4.tar.gz --markdown 20230807/c/cheapcone/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 12:57:35] INFO root fetch - processPackages [skcan-compare]: executing diffoscope
+[2023-08-07 12:57:35] INFO root fetch - processPackages [skcan-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skcan-compare-0.0.1.tar.gz tmp/skcan-compare-0.0.2.tar.gz --markdown 20230807/s/skcan-compare/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 12:57:35] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2023-08-07 12:57:35] INFO root fetch - processPackages [arclet-alconna-tools]: executing diffoscope
+[2023-08-07 12:57:35] INFO root fetch - processPackages [arclet-alconna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-tools-0.6.3.tar.gz tmp/arclet-alconna-tools-0.6.4.tar.gz --markdown 20230807/a/arclet-alconna-tools/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-08-07 12:57:35] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/92/64/2613f3ff2964b7950c34fdf3ce860b41cc8f11e514f277c2a592811aac08/ord_mediascout_client-0.0.9.tar.gz
+[2023-08-07 12:57:36] INFO root fetch - processPackages [emeraldtriangles]: executing diffoscope
+[2023-08-07 12:57:36] INFO root fetch - processPackages [emeraldtriangles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeraldtriangles-0.0.8.tar.gz tmp/emeraldtriangles-0.0.9.tar.gz --markdown 20230807/e/emeraldtriangles/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:57:36] INFO root fetch - processPackages [ashcrypt]: executing diffoscope
+[2023-08-07 12:57:36] INFO root fetch - processPackages [ashcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ashcrypt-3.2.0.tar.gz tmp/ashcrypt-3.2.1.tar.gz --markdown 20230807/a/ashcrypt/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-08-07 12:57:36] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2023-08-07 12:57:36] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20230807/a/astronomer-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 12:57:36] INFO root fetch - processPackages [ord-mediascout-client]: executing diffoscope
+[2023-08-07 12:57:36] INFO root fetch - processPackages [ord-mediascout-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord_mediascout_client-0.0.8.tar.gz tmp/ord_mediascout_client-0.0.9.tar.gz --markdown 20230807/o/ord-mediascout-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:57:36] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/11/99/6221b2e05077079bc36642dfd9db855a598e3b294b60281dd859d12878a8/spai-2023.8.7.post3.tar.gz
+[2023-08-07 12:57:36] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-08-07 12:57:36] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.8.7.post2.tar.gz tmp/spai-2023.8.7.post3.tar.gz --markdown 20230807/s/spai/2023.8.7.post2-2023.8.7.post3/diff.md --exclude *.pyd
+[2023-08-07 12:57:36] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.3.tar.gz]
+[2023-08-07 12:57:36] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.4.tar.gz]
+[2023-08-07 12:57:36] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [skcan-compare]: Remove: archive file [/home/abi/fetcher/tmp/skcan-compare-0.0.1.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [skcan-compare]: Remove: archive file [/home/abi/fetcher/tmp/skcan-compare-0.0.2.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [skcan-compare]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [arclet-alconna-tools]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-tools-0.6.3.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [arclet-alconna-tools]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-tools-0.6.4.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [arclet-alconna-tools]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [emeraldtriangles]: Remove: archive file [/home/abi/fetcher/tmp/emeraldtriangles-0.0.8.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [emeraldtriangles]: Remove: archive file [/home/abi/fetcher/tmp/emeraldtriangles-0.0.9.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [emeraldtriangles]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.2.0.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [ashcrypt]: Remove: archive file [/home/abi/fetcher/tmp/ashcrypt-3.2.1.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [ashcrypt]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [ord-mediascout-client]: Remove: archive file [/home/abi/fetcher/tmp/ord_mediascout_client-0.0.8.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [ord-mediascout-client]: Remove: archive file [/home/abi/fetcher/tmp/ord_mediascout_client-0.0.9.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [ord-mediascout-client]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.8.7.post2.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.8.7.post3.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-08-07 12:57:37] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.8.1.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.9.0.tar.gz]
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2023-08-07 12:57:37] INFO root fetch - main [MainThread]: Store serial: [19204498]
