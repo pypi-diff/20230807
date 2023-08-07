@@ -8286,3 +8286,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:13:20] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev3.tar.gz]
 [2023-08-07 08:13:20] INFO root fetch - main [MainThread]: End processing [thinc]: success
 [2023-08-07 08:13:20] INFO root fetch - main [MainThread]: Store serial: [19201077]
+[2023-08-07 08:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201077]
+[2023-08-07 08:18:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image2layout-computer-vision
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundrytools-cli
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-devkit
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iqrfpy
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-cloudformation-fastly-services-domain
+[2023-08-07 08:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fugue
+[2023-08-07 08:18:29] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230806] Old Version: [2.4.0.dev20230805]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [foundrytools-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [fugue]: New version: [0.8.7.dev1] Old Version: [0.8.6.dev3]
+[2023-08-07 08:18:29] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a3/ca/7dcc5ee2d9a6fd0c7bc796c75d93a8a0eca7b75c59f023a4a6b2ebb871d0/pyg_nightly-2.4.0.dev20230805.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/a0/e3/d2e3d7bd11ab615beb658ffef382c963937ec7b86218e32582645163b34b/image2layout_computer_vision-0.1.0.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: Downloading https://files.pythonhosted.org/packages/f4/0c/1e28627e37930fa1b6bf181fe1b3a5eda2f819ee6b1aa8a6dfe1e7508181/cdk-cloudformation-fastly-services-domain-1.2.0a7.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/0d/7e/c7ff21ab1d9c14d3a196f01de9394ea6951b290fd5c4026181137be3e576/foundrytools-cli-1.0.0.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/9f/60/5a8226a6219d0aaa0c201c329c2b832c6c1afb43f0e46b8c267efac64078/fugue-0.8.6.dev3.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-07 08:18:29] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230807/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 08:18:29] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/1e/78/299191005b8664d6d709d33f593a971dc4e3c5a6a092eabd6a89a41bdc97/pyg_nightly-2.4.0.dev20230806.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/26/2a/45df72b14fdf03ae0854221b922468ea4cc3d9e084b0ad660f28adbba43a/image2layout_computer_vision-0.1.1.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-08-07 08:18:29] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: Downloading https://files.pythonhosted.org/packages/17/a7/aeab792646560003f1a95237ac740c15d90b4fdfa644ef814d479aff7f80/cdk-cloudformation-fastly-services-domain-1.4.0a7.tar.gz
+[2023-08-07 08:18:30] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/07/46/98702720f32bac96544e1f23e158ddc0235517222ef1936aebb87d3de560/foundrytools-cli-1.0.1.tar.gz
+[2023-08-07 08:18:30] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230805.tar.gz tmp/pyg_nightly-2.4.0.dev20230806.tar.gz --markdown 20230807/p/pyg-nightly/2.4.0.dev20230805-2.4.0.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.1.0.tar.gz tmp/image2layout_computer_vision-0.1.1.tar.gz --markdown 20230807/i/image2layout-computer-vision/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230807/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [foundrytools-cli]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [foundrytools-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundrytools-cli-1.0.0.tar.gz tmp/foundrytools-cli-1.0.1.tar.gz --markdown 20230807/f/foundrytools-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/17/9c/a9a487fc02315857c9becc6c1551148aacbdeb3b2ea7833fb3d03027afc2/fugue-0.8.7.dev1.tar.gz
+[2023-08-07 08:18:30] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-services-domain-1.2.0a7.tar.gz tmp/cdk-cloudformation-fastly-services-domain-1.4.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-services-domain/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-08-07 08:18:30] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.6.dev3.tar.gz tmp/fugue-0.8.7.dev1.tar.gz --markdown 20230807/f/fugue/0.8.6.dev3-0.8.7.dev1/diff.md --exclude *.pyd
+[2023-08-07 08:18:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-07 08:18:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-07 08:18:30] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-07 08:18:31] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-domain-1.2.0a7.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-domain]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-domain-1.4.0a7.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-domain]: success
+[2023-08-07 08:18:31] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.0.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.1.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-07 08:18:31] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.0.0.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.0.1.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - main [MainThread]: End processing [foundrytools-cli]: success
+[2023-08-07 08:18:31] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-08-07 08:18:31] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-08-07 08:18:32] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev3.tar.gz]
+[2023-08-07 08:18:32] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.7.dev1.tar.gz]
+[2023-08-07 08:18:32] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-08-07 08:18:33] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230805.tar.gz]
+[2023-08-07 08:18:33] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230806.tar.gz]
+[2023-08-07 08:18:33] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-07 08:18:33] INFO root fetch - main [MainThread]: Store serial: [19201101]
