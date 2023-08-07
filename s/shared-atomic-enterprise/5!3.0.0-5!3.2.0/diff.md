@@ -1,4 +1,4 @@
-# Comparing `tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip` & `tmp/shared_atomic_enterprise-5!3.2.0-pp38-none-win_amd64.whl.zip`
+# Comparing `tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip` & `tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip`
 
 ## zipinfo -v {}
 
@@ -14,19 +14,19 @@
 -  Zip archive file size:                   2746532 (000000000029E8A4h)
 -  Actual end-cent-dir record offset:       2746510 (000000000029E88Eh)
 -  Expected end-cent-dir record offset:     2746510 (000000000029E88Eh)
-+  Zip archive file size:                   6104364 (00000000005D252Ch)
-+  Actual end-cent-dir record offset:       6104342 (00000000005D2516h)
-+  Expected end-cent-dir record offset:     6104342 (00000000005D2516h)
++  Zip archive file size:                   6251997 (00000000005F65DDh)
++  Actual end-cent-dir record offset:       6251975 (00000000005F65C7h)
++  Expected end-cent-dir record offset:     6251975 (00000000005F65C7h)
    (based on the length of the central directory and its expected offset)
  
    This zipfile constitutes the sole disk of a single-part archive; its
 -  central directory contains 37 entries.
 -  The central directory is 3804 (0000000000000EDCh) bytes long,
 +  central directory contains 47 entries.
-+  The central directory is 4879 (000000000000130Fh) bytes long,
++  The central directory is 4875 (000000000000130Bh) bytes long,
    and its (expected) offset in bytes from the beginning of the zipfile
 -  is 2742706 (000000000029D9B2h).
-+  is 6099463 (00000000005D1207h).
++  is 6247100 (00000000005F52BCh).
  
  
  Central directory entry #1:
@@ -34,7 +34,7 @@
  
    shared_atomic/
  
-@@ -25,17 +25,17 @@
+@@ -25,58 +25,58 @@
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -45,9 +45,9 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
    32-bit CRC value (hex):                         00000000
    compressed size:                                0 bytes
    uncompressed size:                              0 bytes
@@ -55,7 +55,15 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -50,33 +50,33 @@
+   apparent file type:                             binary
+   non-MSDOS external file attributes:             000000 hex
+   MS-DOS file attributes (10 hex):                dir 
+ 
+   The central-directory extra field contains:
+   - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
+   - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
    There is no file comment.
@@ -64,7 +72,7 @@
  ---------------------------
  
 -  shared_atomic/atomic_activation.cp39-win_amd64.pyd
-+  shared_atomic/atomic_activation.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_activation.pypy39-pp73-win_amd64.pyd
  
    offset of local header from start of archive:   158
                                                    (000000000000009Eh) bytes
@@ -83,12 +91,12 @@
 -  compressed size:                                456237 bytes
 -  uncompressed size:                              1125376 bytes
 -  length of filename:                             50 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:02:00
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:01:59 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:01:59 UTC
-+  32-bit CRC value (hex):                         57cdc998
-+  compressed size:                                171404 bytes
-+  uncompressed size:                              435200 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:17:42
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:17:42 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:17:42 UTC
++  32-bit CRC value (hex):                         2d4b67c3
++  compressed size:                                163984 bytes
++  uncompressed size:                              412672 bytes
 +  length of filename:                             57 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -106,12 +114,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_async_activation_check.cp39-win_amd64.pyd
-+  shared_atomic/atomic_activation_cpython.cp38-win_amd64.pyd
++  shared_atomic/atomic_activation_cpython.cp39-win_amd64.pyd
  
 -  offset of local header from start of archive:   456589
 -                                                  (000000000006F78Dh) bytes
-+  offset of local header from start of archive:   171763
-+                                                  (0000000000029EF3h) bytes
++  offset of local header from start of archive:   164343
++                                                  (00000000000281F7h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -127,12 +135,12 @@
 -  compressed size:                                222265 bytes
 -  uncompressed size:                              548864 bytes
 -  length of filename:                             62 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:40
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:39 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:39 UTC
-+  32-bit CRC value (hex):                         98434ccf
-+  compressed size:                                278987 bytes
-+  uncompressed size:                              687616 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:16:14
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:16:13 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:16:13 UTC
++  32-bit CRC value (hex):                         32d75c34
++  compressed size:                                271365 bytes
++  uncompressed size:                              677376 bytes
 +  length of filename:                             58 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -154,8 +162,8 @@
  
 -  offset of local header from start of archive:   679060
 -                                                  (00000000000A5C94h) bytes
-+  offset of local header from start of archive:   450952
-+                                                  (000000000006E188h) bytes
++  offset of local header from start of archive:   435910
++                                                  (000000000006A6C6h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -171,11 +179,11 @@
 -  compressed size:                                34828 bytes
 -  uncompressed size:                              76800 bytes
 -  length of filename:                             49 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:42
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:41 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:41 UTC
-+  32-bit CRC value (hex):                         b1849abd
-+  compressed size:                                7208 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:16:16
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:16:15 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:16:15 UTC
++  32-bit CRC value (hex):                         d28192d3
++  compressed size:                                7200 bytes
 +  uncompressed size:                              15872 bytes
 +  length of filename:                             51 characters
    length of extra field:                          17 bytes
@@ -185,7 +193,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -161,70 +161,107 @@
+@@ -161,29 +161,66 @@
      The local extra field has UTC/GMT modification/access/creation times.
  
    There is no file comment.
@@ -193,10 +201,10 @@
  Central directory entry #5:
  ---------------------------
  
-+  shared_atomic/atomic_async_activation_check.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_async_activation_check.pypy39-pp73-win_amd64.pyd
 +
-+  offset of local header from start of archive:   458355
-+                                                  (000000000006FE73h) bytes
++  offset of local header from start of archive:   443305
++                                                  (000000000006C3A9h) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -205,12 +213,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2023 Aug 7 20:03:02
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:01 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:01 UTC
-+  32-bit CRC value (hex):                         a317e3a8
-+  compressed size:                                175006 bytes
-+  uncompressed size:                              446976 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:18:34
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:18:33 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:18:33 UTC
++  32-bit CRC value (hex):                         e98b061d
++  compressed size:                                168878 bytes
++  uncompressed size:                              425984 bytes
 +  length of filename:                             69 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -234,8 +242,8 @@
  
 -  offset of local header from start of archive:   714081
 -                                                  (00000000000AE561h) bytes
-+  offset of local header from start of archive:   633574
-+                                                  (000000000009AAE6h) bytes
++  offset of local header from start of archive:   612396
++                                                  (000000000009582Ch) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -257,14 +265,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -195,36 +232,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -275,12 +278,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_bytearray.cp39-win_amd64.pyd
-+  shared_atomic/atomic_boolfloat.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_boolfloat.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   714461
 -                                                  (00000000000AE6DDh) bytes
-+  offset of local header from start of archive:   633954
-+                                                  (000000000009AC62h) bytes
++  offset of local header from start of archive:   612776
++                                                  (00000000000959A8h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -296,11 +299,11 @@
 -  compressed size:                                63311 bytes
 -  uncompressed size:                              171520 bytes
 -  length of filename:                             49 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:04:16
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:16 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:16 UTC
-+  32-bit CRC value (hex):                         cfc79bce
-+  compressed size:                                27090 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:19:44
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:43 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:43 UTC
++  32-bit CRC value (hex):                         470897fd
++  compressed size:                                27048 bytes
 +  uncompressed size:                              61952 bytes
 +  length of filename:                             56 characters
    length of extra field:                          17 bytes
@@ -310,7 +313,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -232,72 +269,109 @@
+@@ -232,32 +269,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -326,8 +329,8 @@
  
 -  offset of local header from start of archive:   777965
 -                                                  (00000000000BDEEDh) bytes
-+  offset of local header from start of archive:   661244
-+                                                  (00000000000A16FCh) bytes
++  offset of local header from start of archive:   640024
++                                                  (000000000009C418h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -349,25 +352,22 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -269,35 +306,72 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-+    The local extra field has 164 bytes of NT security descriptor data.
-+  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
-+    The local extra field has UTC/GMT modification/access/creation times.
-+
-+  There is no file comment.
-+
+     The local extra field has 152 bytes of NT security descriptor data.
+   - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+     The local extra field has UTC/GMT modification/access/creation times.
+ 
+   There is no file comment.
+ 
+-Central directory entry #8:
 +Central directory entry #9:
 +---------------------------
 +
-+  shared_atomic/atomic_bytearray.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_bytearray.pypy39-pp73-win_amd64.pyd
 +
-+  offset of local header from start of archive:   661843
-+                                                  (00000000000A1953h) bytes
++  offset of local header from start of archive:   640623
++                                                  (000000000009C66Fh) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -376,12 +376,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2023 Aug 7 20:04:38
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:38 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:38 UTC
-+  32-bit CRC value (hex):                         602c77b7
-+  compressed size:                                51389 bytes
-+  uncompressed size:                              139264 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:20:12
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:20:12 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:20:12 UTC
++  32-bit CRC value (hex):                         c4ea3a19
++  compressed size:                                51733 bytes
++  uncompressed size:                              139776 bytes
 +  length of filename:                             56 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -392,23 +392,21 @@
 +
 +  The central-directory extra field contains:
 +  - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 152 bytes of NT security descriptor data.
-   - A subfield with ID 0x5455 (universal time) and 5 data bytes.
-     The local extra field has UTC/GMT modification/access/creation times.
- 
-   There is no file comment.
- 
--Central directory entry #8:
++    The local extra field has 152 bytes of NT security descriptor data.
++  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
++    The local extra field has UTC/GMT modification/access/creation times.
++
++  There is no file comment.
++
 +Central directory entry #10:
  ---------------------------
  
--  shared_atomic/atomic_decryption_.cp39-win_amd64.pyd
-+  shared_atomic/atomic_decryption_.cp38-win_amd64.pyd
+   shared_atomic/atomic_decryption_.cp39-win_amd64.pyd
  
 -  offset of local header from start of archive:   778564
 -                                                  (00000000000BE144h) bytes
-+  offset of local header from start of archive:   713432
-+                                                  (00000000000AE2D8h) bytes
++  offset of local header from start of archive:   692556
++                                                  (00000000000A914Ch) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -423,11 +421,11 @@
 -  32-bit CRC value (hex):                         bde6fdb6
 -  compressed size:                                13471 bytes
 -  uncompressed size:                              34816 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:18
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:18 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:18 UTC
-+  32-bit CRC value (hex):                         92e4321a
-+  compressed size:                                13745 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:15:52
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:52 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:52 UTC
++  32-bit CRC value (hex):                         6c1037c3
++  compressed size:                                13700 bytes
 +  uncompressed size:                              35328 bytes
    length of filename:                             51 characters
    length of extra field:                          17 bytes
@@ -449,12 +447,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_int.cp39-win_amd64.pyd
-+  shared_atomic/atomic_decryption_.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_decryption_.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   792230
 -                                                  (00000000000C16A6h) bytes
-+  offset of local header from start of archive:   727372
-+                                                  (00000000000B194Ch) bytes
++  offset of local header from start of archive:   706451
++                                                  (00000000000AC793h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -470,11 +468,11 @@
 -  compressed size:                                41641 bytes
 -  uncompressed size:                              103424 bytes
 -  length of filename:                             43 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:11 UTC
-+  32-bit CRC value (hex):                         d66f8864
-+  compressed size:                                6797 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:15:44
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:44 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:44 UTC
++  32-bit CRC value (hex):                         d7ad5409
++  compressed size:                                6783 bytes
 +  uncompressed size:                              15872 bytes
 +  length of filename:                             58 characters
    length of extra field:                          17 bytes
@@ -484,7 +482,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -343,73 +417,73 @@
+@@ -343,32 +417,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -500,8 +498,8 @@
  
 -  offset of local header from start of archive:   834058
 -                                                  (00000000000CBA0Ah) bytes
-+  offset of local header from start of archive:   734371
-+                                                  (00000000000B34A3h) bytes
++  offset of local header from start of archive:   713436
++                                                  (00000000000AE2DCh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -523,14 +521,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -380,36 +454,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -541,12 +534,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_list.cp39-win_amd64.pyd
-+  shared_atomic/atomic_int.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_int.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   834581
 -                                                  (00000000000CBC15h) bytes
-+  offset of local header from start of archive:   734894
-+                                                  (00000000000B36AEh) bytes
++  offset of local header from start of archive:   713959
++                                                  (00000000000AE4E7h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -562,12 +555,12 @@
 -  compressed size:                                51815 bytes
 -  uncompressed size:                              117760 bytes
 -  length of filename:                             44 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:05:00
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:59 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:04:59 UTC
-+  32-bit CRC value (hex):                         a1fd377b
-+  compressed size:                                32957 bytes
-+  uncompressed size:                              84992 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:20:32
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:20:31 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:20:31 UTC
++  32-bit CRC value (hex):                         7b5e066c
++  compressed size:                                33358 bytes
++  uncompressed size:                              86016 bytes
 +  length of filename:                             50 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -576,7 +569,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -417,73 +491,73 @@
+@@ -417,32 +491,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -592,8 +585,8 @@
  
 -  offset of local header from start of archive:   886584
 -                                                  (00000000000D8738h) bytes
-+  offset of local header from start of archive:   768045
-+                                                  (00000000000BB82Dh) bytes
++  offset of local header from start of archive:   747511
++                                                  (00000000000B67F7h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -615,14 +608,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -454,36 +528,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -633,12 +621,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_object.cp39-win_amd64.pyd
-+  shared_atomic/atomic_list.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_list.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   887154
 -                                                  (00000000000D8972h) bytes
-+  offset of local header from start of archive:   768615
-+                                                  (00000000000BBA67h) bytes
++  offset of local header from start of archive:   748081
++                                                  (00000000000B6A31h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -654,11 +642,11 @@
 -  compressed size:                                15125 bytes
 -  uncompressed size:                              36352 bytes
 -  length of filename:                             46 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:05:18
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:18 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:18 UTC
-+  32-bit CRC value (hex):                         7a4d303c
-+  compressed size:                                40121 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:21:14
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:21:13 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:21:13 UTC
++  32-bit CRC value (hex):                         d0e2d49b
++  compressed size:                                39919 bytes
 +  uncompressed size:                              94208 bytes
 +  length of filename:                             51 characters
    length of extra field:                          17 bytes
@@ -668,7 +656,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -491,73 +565,73 @@
+@@ -491,32 +565,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -684,8 +672,8 @@
  
 -  offset of local header from start of archive:   902469
 -                                                  (00000000000DC545h) bytes
-+  offset of local header from start of archive:   808931
-+                                                  (00000000000C57E3h) bytes
++  offset of local header from start of archive:   788195
++                                                  (00000000000C06E3h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -707,14 +695,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -528,36 +602,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -725,12 +708,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_object_backend.cp39-win_amd64.pyd
-+  shared_atomic/atomic_object.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_object.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   903055
 -                                                  (00000000000DC78Fh) bytes
-+  offset of local header from start of archive:   809517
-+                                                  (00000000000C5A2Dh) bytes
++  offset of local header from start of archive:   788781
++                                                  (00000000000C092Dh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -746,12 +729,12 @@
 -  compressed size:                                91039 bytes
 -  uncompressed size:                              244224 bytes
 -  length of filename:                             54 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:03:58
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:58 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:58 UTC
-+  32-bit CRC value (hex):                         07358ae3
-+  compressed size:                                16229 bytes
-+  uncompressed size:                              38912 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:19:26
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:26 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:26 UTC
++  32-bit CRC value (hex):                         e0a088e4
++  compressed size:                                14223 bytes
++  uncompressed size:                              34816 bytes
 +  length of filename:                             53 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -760,7 +743,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -565,73 +639,73 @@
+@@ -565,32 +639,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -776,8 +759,8 @@
  
 -  offset of local header from start of archive:   994292
 -                                                  (00000000000F2BF4h) bytes
-+  offset of local header from start of archive:   825943
-+                                                  (00000000000C9A57h) bytes
++  offset of local header from start of archive:   803201
++                                                  (00000000000C4181h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -799,14 +782,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -602,36 +676,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -817,12 +795,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_set.cp39-win_amd64.pyd
-+  shared_atomic/atomic_object_backend.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_object_backend.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   994736
 -                                                  (00000000000F2DB0h) bytes
-+  offset of local header from start of archive:   826387
-+                                                  (00000000000C9C13h) bytes
++  offset of local header from start of archive:   803645
++                                                  (00000000000C433Dh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -838,12 +816,12 @@
 -  compressed size:                                51909 bytes
 -  uncompressed size:                              117248 bytes
 -  length of filename:                             43 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:03:46
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:46 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:03:46 UTC
-+  32-bit CRC value (hex):                         7172dccb
-+  compressed size:                                77628 bytes
-+  uncompressed size:                              215552 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:19:14
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:14 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:19:14 UTC
++  32-bit CRC value (hex):                         a3336996
++  compressed size:                                75991 bytes
++  uncompressed size:                              209408 bytes
 +  length of filename:                             61 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -852,7 +830,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -639,73 +713,73 @@
+@@ -639,32 +713,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -868,8 +846,8 @@
  
 -  offset of local header from start of archive:   1046832
 -                                                  (00000000000FF930h) bytes
-+  offset of local header from start of archive:   904220
-+                                                  (00000000000DCC1Ch) bytes
++  offset of local header from start of archive:   879841
++                                                  (00000000000D6CE1h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -891,14 +869,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -676,36 +750,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -909,12 +882,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_shared_memory.cp39-win_amd64.pyd
-+  shared_atomic/atomic_set.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_set.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   1047302
 -                                                  (00000000000FFB06h) bytes
-+  offset of local header from start of archive:   904690
-+                                                  (00000000000DCDF2h) bytes
++  offset of local header from start of archive:   880311
++                                                  (00000000000D6EB7h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -930,12 +903,12 @@
 -  compressed size:                                162191 bytes
 -  uncompressed size:                              450048 bytes
 -  length of filename:                             53 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:05:38
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:37 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:37 UTC
-+  32-bit CRC value (hex):                         f290491d
-+  compressed size:                                40161 bytes
-+  uncompressed size:                              94208 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:21:36
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:21:35 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:21:35 UTC
++  32-bit CRC value (hex):                         ec36d0f6
++  compressed size:                                39972 bytes
++  uncompressed size:                              93696 bytes
 +  length of filename:                             50 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -944,7 +917,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -713,73 +787,73 @@
+@@ -713,32 +787,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -960,8 +933,8 @@
  
 -  offset of local header from start of archive:   1209690
 -                                                  (000000000012755Ah) bytes
-+  offset of local header from start of archive:   945045
-+                                                  (00000000000E6B95h) bytes
++  offset of local header from start of archive:   920477
++                                                  (00000000000E0B9Dh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -983,14 +956,9 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -750,36 +824,36 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
--    The local extra field has 152 bytes of NT security descriptor data.
-+    The local extra field has 164 bytes of NT security descriptor data.
+     The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -1001,12 +969,12 @@
  ---------------------------
  
 -  shared_atomic/atomic_string.cp39-win_amd64.pyd
-+  shared_atomic/atomic_shared_memory.pypy38-pp73-win_amd64.pyd
++  shared_atomic/atomic_shared_memory.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   1210591
 -                                                  (00000000001278DFh) bytes
-+  offset of local header from start of archive:   945946
-+                                                  (00000000000E6F1Ah) bytes
++  offset of local header from start of archive:   921378
++                                                  (00000000000E0F22h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1022,12 +990,12 @@
 -  compressed size:                                50413 bytes
 -  uncompressed size:                              113152 bytes
 -  length of filename:                             46 characters
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-+  32-bit CRC value (hex):                         205333d4
-+  compressed size:                                145679 bytes
-+  uncompressed size:                              412672 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:38
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:38 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:38 UTC
++  32-bit CRC value (hex):                         3de62c95
++  compressed size:                                144474 bytes
++  uncompressed size:                              411648 bytes
 +  length of filename:                             60 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -1036,7 +1004,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -787,72 +861,109 @@
+@@ -787,32 +861,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1052,8 +1020,8 @@
  
 -  offset of local header from start of archive:   1261194
 -                                                  (0000000000133E8Ah) bytes
-+  offset of local header from start of archive:   1091829
-+                                                  (000000000010A8F5h) bytes
++  offset of local header from start of archive:   1066056
++                                                  (0000000000104448h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1075,49 +1043,8 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
-   non-MSDOS external file attributes:             000000 hex
-   MS-DOS file attributes (20 hex):                arc 
- 
-   The central-directory extra field contains:
+@@ -824,73 +898,109 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-+    The local extra field has 164 bytes of NT security descriptor data.
-+  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
-+    The local extra field has UTC/GMT modification/access/creation times.
-+
-+  There is no file comment.
-+
-+Central directory entry #25:
-+---------------------------
-+
-+  shared_atomic/atomic_string.pypy38-pp73-win_amd64.pyd
-+
-+  offset of local header from start of archive:   1092300
-+                                                  (000000000010AACCh) bytes
-+  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
-+  version of encoding software:                   3.0
-+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
-+  minimum software version required to extract:   2.0
-+  compression method:                             deflated
-+  compression sub-type (deflation):               normal
-+  file security status:                           not encrypted
-+  extended local header:                          no
-+  file last modified on (DOS date/time):          2023 Aug 7 20:05:58
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:57 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:05:57 UTC
-+  32-bit CRC value (hex):                         be233208
-+  compressed size:                                39427 bytes
-+  uncompressed size:                              90624 bytes
-+  length of filename:                             53 characters
-+  length of extra field:                          17 bytes
-+  length of file comment:                         0 characters
-+  disk number on which file begins:               disk 1
-+  apparent file type:                             binary
-+  non-MSDOS external file attributes:             000000 hex
-+  MS-DOS file attributes (20 hex):                arc 
-+
-+  The central-directory extra field contains:
-+  - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
@@ -1125,15 +1052,16 @@
    There is no file comment.
  
 -Central directory entry #23:
-+Central directory entry #26:
++Central directory entry #25:
  ---------------------------
  
-   shared_atomic/atomic_tools.py
+-  shared_atomic/atomic_tools.py
++  shared_atomic/atomic_string.pypy39-pp73-win_amd64.pyd
  
 -  offset of local header from start of archive:   1261665
 -                                                  (0000000000134061h) bytes
-+  offset of local header from start of archive:   1131924
-+                                                  (0000000000114594h) bytes
++  offset of local header from start of archive:   1066527
++                                                  (000000000010461Fh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1148,46 +1076,48 @@
 -  32-bit CRC value (hex):                         446ec06d
 -  compressed size:                                427 bytes
 -  uncompressed size:                              893 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-+  32-bit CRC value (hex):                         8d990fa9
-+  compressed size:                                408 bytes
-+  uncompressed size:                              807 bytes
-   length of filename:                             29 characters
+-  length of filename:                             29 characters
++  file last modified on (DOS date/time):          2023 Aug 7 20:22:16
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:22:16 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:22:16 UTC
++  32-bit CRC value (hex):                         f4886d97
++  compressed size:                                39335 bytes
++  uncompressed size:                              90624 bytes
++  length of filename:                             53 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-   apparent file type:                             text
+-  apparent file type:                             text
++  apparent file type:                             binary
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
-@@ -861,36 +972,35 @@
+ 
+   The central-directory extra field contains:
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 164 bytes of NT security descriptor data.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
    There is no file comment.
  
 -Central directory entry #24:
-+Central directory entry #27:
++Central directory entry #26:
  ---------------------------
  
 -  shared_atomic/atomic_uint.cp39-win_amd64.pyd
-+  shared_atomic/cpython_libs.zip
++  shared_atomic/atomic_tools.py
  
 -  offset of local header from start of archive:   1262265
 -                                                  (00000000001342B9h) bytes
-+  offset of local header from start of archive:   1132505
-+                                                  (00000000001147D9h) bytes
++  offset of local header from start of archive:   1106059
++                                                  (000000000010E08Bh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
--  minimum software version required to extract:   2.0
--  compression method:                             deflated
--  compression sub-type (deflation):               normal
-+  minimum software version required to extract:   1.0
-+  compression method:                             none (stored)
+   minimum software version required to extract:   2.0
+   compression method:                             deflated
+   compression sub-type (deflation):               normal
    file security status:                           not encrypted
    extended local header:                          no
 -  file last modified on (DOS date/time):          2023 May 30 19:54:36
@@ -1197,12 +1127,48 @@
 -  compressed size:                                45587 bytes
 -  uncompressed size:                              118272 bytes
 -  length of filename:                             44 characters
-+  file last modified on (DOS date/time):          2023 Aug 1 15:49:02
-+  file last modified on (UT extra field modtime): 2023 Aug 1 07:49:02 local
-+  file last modified on (UT extra field modtime): 2023 Aug 1 07:49:02 UTC
-+  32-bit CRC value (hex):                         05a03090
-+  compressed size:                                1098828 bytes
-+  uncompressed size:                              1098828 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
++  32-bit CRC value (hex):                         8d990fa9
++  compressed size:                                408 bytes
++  uncompressed size:                              807 bytes
++  length of filename:                             29 characters
++  length of extra field:                          17 bytes
++  length of file comment:                         0 characters
++  disk number on which file begins:               disk 1
++  apparent file type:                             text
++  non-MSDOS external file attributes:             000000 hex
++  MS-DOS file attributes (20 hex):                arc 
++
++  The central-directory extra field contains:
++  - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
++    The local extra field has 152 bytes of NT security descriptor data.
++  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
++    The local extra field has UTC/GMT modification/access/creation times.
++
++  There is no file comment.
++
++Central directory entry #27:
++---------------------------
++
++  shared_atomic/cpython_libs.zip
++
++  offset of local header from start of archive:   1106640
++                                                  (000000000010E2D0h) bytes
++  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
++  version of encoding software:                   3.0
++  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
++  minimum software version required to extract:   1.0
++  compression method:                             none (stored)
++  file security status:                           not encrypted
++  extended local header:                          no
++  file last modified on (DOS date/time):          2023 Aug 1 15:50:58
++  file last modified on (UT extra field modtime): 2023 Aug 1 07:50:57 local
++  file last modified on (UT extra field modtime): 2023 Aug 1 07:50:57 UTC
++  32-bit CRC value (hex):                         9b818705
++  compressed size:                                1117653 bytes
++  uncompressed size:                              1117653 bytes
 +  length of filename:                             30 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -1211,7 +1177,7 @@
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
  
-@@ -898,35 +1008,35 @@
+@@ -898,71 +1008,107 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1227,8 +1193,8 @@
  
 -  offset of local header from start of archive:   1308040
 -                                                  (000000000013F588h) bytes
-+  offset of local header from start of archive:   2231507
-+                                                  (0000000000220CD3h) bytes
++  offset of local header from start of archive:   2224467
++                                                  (000000000021F153h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1243,10 +1209,10 @@
 -  32-bit CRC value (hex):                         1e4b4415
 -  compressed size:                                4959 bytes
 -  uncompressed size:                              15099 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-+  32-bit CRC value (hex):                         a511933b
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
++  32-bit CRC value (hex):                         1a5ee3e0
 +  compressed size:                                15630 bytes
 +  uncompressed size:                              49645 bytes
    length of filename:                             44 characters
@@ -1256,9 +1222,11 @@
    apparent file type:                             text
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
-@@ -935,34 +1045,34 @@
+ 
+   The central-directory extra field contains:
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 164 bytes of NT security descriptor data.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -1266,14 +1234,50 @@
  
 -Central directory entry #26:
 +Central directory entry #29:
++---------------------------
++
++  shared_atomic/lib/
++
++  offset of local header from start of archive:   2240285
++                                                  (0000000000222F1Dh) bytes
++  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
++  version of encoding software:                   3.0
++  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
++  minimum software version required to extract:   1.0
++  compression method:                             none (stored)
++  file security status:                           not encrypted
++  extended local header:                          no
++  file last modified on (DOS date/time):          2023 Apr 4 12:29:26
++  file last modified on (UT extra field modtime): 2023 Apr 4 04:29:26 local
++  file last modified on (UT extra field modtime): 2023 Apr 4 04:29:26 UTC
++  32-bit CRC value (hex):                         00000000
++  compressed size:                                0 bytes
++  uncompressed size:                              0 bytes
++  length of filename:                             18 characters
++  length of extra field:                          17 bytes
++  length of file comment:                         0 characters
++  disk number on which file begins:               disk 1
++  apparent file type:                             binary
++  non-MSDOS external file attributes:             000000 hex
++  MS-DOS file attributes (10 hex):                dir 
++
++  The central-directory extra field contains:
++  - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
++    The local extra field has 152 bytes of NT security descriptor data.
++  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
++    The local extra field has UTC/GMT modification/access/creation times.
++
++  There is no file comment.
++
++Central directory entry #30:
  ---------------------------
  
    shared_atomic/libdecryption.dll
  
 -  offset of local header from start of archive:   1313187
 -                                                  (00000000001409A3h) bytes
-+  offset of local header from start of archive:   2247325
-+                                                  (0000000000224A9Dh) bytes
++  offset of local header from start of archive:   2240447
++                                                  (0000000000222FBFh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1287,10 +1291,10 @@
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:00:25 UTC
 -  32-bit CRC value (hex):                         79f91363
 -  compressed size:                                1335872 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:06
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:05 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:05 UTC
-+  32-bit CRC value (hex):                         ff919800
++  file last modified on (DOS date/time):          2023 Aug 7 20:15:36
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:36 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:36 UTC
++  32-bit CRC value (hex):                         4d217c38
 +  compressed size:                                1335871 bytes
    uncompressed size:                              3496448 bytes
    length of filename:                             31 characters
@@ -1299,7 +1303,7 @@
    disk number on which file begins:               disk 1
    apparent file type:                             binary
    non-MSDOS external file attributes:             000000 hex
-@@ -972,33 +1082,33 @@
+@@ -972,34 +1118,34 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1308,15 +1312,15 @@
    There is no file comment.
  
 -Central directory entry #27:
-+Central directory entry #30:
++Central directory entry #31:
  ---------------------------
  
    shared_atomic/libdecryption11.dll
  
 -  offset of local header from start of archive:   2649234
 -                                                  (0000000000286C92h) bytes
-+  offset of local header from start of archive:   3583371
-+                                                  (000000000036AD8Bh) bytes
++  offset of local header from start of archive:   3576493
++                                                  (00000000003692ADh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1329,18 +1333,20 @@
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:00:26 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:00:26 UTC
 -  32-bit CRC value (hex):                         180fc3e7
-+  file last modified on (DOS date/time):          2023 Aug 7 20:00:06
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:05 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:00:05 UTC
-+  32-bit CRC value (hex):                         dcf35a04
-   compressed size:                                4012 bytes
+-  compressed size:                                4012 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:15:36
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:36 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:15:36 UTC
++  32-bit CRC value (hex):                         46ace242
++  compressed size:                                4011 bytes
    uncompressed size:                              9728 bytes
    length of filename:                             33 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
    apparent file type:                             binary
-@@ -1009,32 +1119,106 @@
+   non-MSDOS external file attributes:             000000 hex
+@@ -1009,215 +1155,437 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1349,13 +1355,13 @@
    There is no file comment.
  
 -Central directory entry #28:
-+Central directory entry #31:
++Central directory entry #32:
 +---------------------------
 +
 +  shared_atomic/python3.dll
 +
-+  offset of local header from start of archive:   3587560
-+                                                  (000000000036BDE8h) bytes
++  offset of local header from start of archive:   3580681
++                                                  (000000000036A309h) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1364,12 +1370,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2021 May 3 11:54:46
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 local
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 UTC
-+  32-bit CRC value (hex):                         cd25c8e3
-+  compressed size:                                18025 bytes
-+  uncompressed size:                              59568 bytes
++  file last modified on (DOS date/time):          2022 May 17 16:46:04
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 local
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 UTC
++  32-bit CRC value (hex):                         ae4f95ee
++  compressed size:                                20281 bytes
++  uncompressed size:                              61432 bytes
 +  length of filename:                             25 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -1386,13 +1392,13 @@
 +
 +  There is no file comment.
 +
-+Central directory entry #32:
++Central directory entry #33:
 +---------------------------
 +
-+  shared_atomic/python38.dll
++  shared_atomic/python39.dll
 +
-+  offset of local header from start of archive:   3605754
-+                                                  (00000000003704FAh) bytes
++  offset of local header from start of archive:   3601131
++                                                  (000000000036F2EBh) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1401,12 +1407,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2021 May 3 11:54:48
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:48 local
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:48 UTC
-+  32-bit CRC value (hex):                         cac85292
-+  compressed size:                                1871226 bytes
-+  uncompressed size:                              4211376 bytes
++  file last modified on (DOS date/time):          2022 May 17 16:46:04
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 local
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 UTC
++  32-bit CRC value (hex):                         85fa642a
++  compressed size:                                2008848 bytes
++  uncompressed size:                              4527096 bytes
 +  length of filename:                             26 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -1423,15 +1429,15 @@
 +
 +  There is no file comment.
 +
-+Central directory entry #33:
++Central directory entry #34:
  ---------------------------
  
    shared_atomic/readme.txt
  
 -  offset of local header from start of archive:   2653423
 -                                                  (0000000000287CEFh) bytes
-+  offset of local header from start of archive:   5477150
-+                                                  (000000000053931Eh) bytes
++  offset of local header from start of archive:   5610149
++                                                  (0000000000559AA5h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1443,9 +1449,9 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
    32-bit CRC value (hex):                         ba5f87e5
    compressed size:                                370 bytes
    uncompressed size:                              622 bytes
@@ -1453,61 +1459,30 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -1046,32 +1230,69 @@
+   apparent file type:                             text
+   non-MSDOS external file attributes:             000000 hex
+   MS-DOS file attributes (20 hex):                arc 
+ 
+   The central-directory extra field contains:
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 164 bytes of NT security descriptor data.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
    There is no file comment.
  
 -Central directory entry #29:
-+Central directory entry #34:
-+---------------------------
-+
-+  shared_atomic/select.pyd
-+
-+  offset of local header from start of archive:   5477688
-+                                                  (0000000000539538h) bytes
-+  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
-+  version of encoding software:                   3.0
-+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
-+  minimum software version required to extract:   2.0
-+  compression method:                             deflated
-+  compression sub-type (deflation):               normal
-+  file security status:                           not encrypted
-+  extended local header:                          no
-+  file last modified on (DOS date/time):          2021 May 3 11:54:46
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 local
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 UTC
-+  32-bit CRC value (hex):                         4e21330c
-+  compressed size:                                14432 bytes
-+  uncompressed size:                              27824 bytes
-+  length of filename:                             24 characters
-+  length of extra field:                          17 bytes
-+  length of file comment:                         0 characters
-+  disk number on which file begins:               disk 1
-+  apparent file type:                             binary
-+  non-MSDOS external file attributes:             000000 hex
-+  MS-DOS file attributes (20 hex):                arc 
-+
-+  The central-directory extra field contains:
-+  - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-+    The local extra field has 152 bytes of NT security descriptor data.
-+  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
-+    The local extra field has UTC/GMT modification/access/creation times.
-+
-+  There is no file comment.
-+
 +Central directory entry #35:
  ---------------------------
  
-   shared_atomic/setup.py
+-  shared_atomic/setup.py
++  shared_atomic/select.pyd
  
 -  offset of local header from start of archive:   2653961
 -                                                  (0000000000287F09h) bytes
-+  offset of local header from start of archive:   5492288
-+                                                  (000000000053CE40h) bytes
++  offset of local header from start of archive:   5610687
++                                                  (0000000000559CBFh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1519,19 +1494,29 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-   32-bit CRC value (hex):                         d05a746c
-   compressed size:                                928 bytes
-   uncompressed size:                              2755 bytes
-   length of filename:                             22 characters
+-  32-bit CRC value (hex):                         d05a746c
+-  compressed size:                                928 bytes
+-  uncompressed size:                              2755 bytes
+-  length of filename:                             22 characters
++  file last modified on (DOS date/time):          2022 May 17 16:46:02
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:02 local
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:02 UTC
++  32-bit CRC value (hex):                         dd7e6338
++  compressed size:                                17169 bytes
++  uncompressed size:                              30712 bytes
++  length of filename:                             24 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -1083,105 +1304,253 @@
+-  apparent file type:                             text
++  apparent file type:                             binary
+   non-MSDOS external file attributes:             000000 hex
+   MS-DOS file attributes (20 hex):                arc 
+ 
+   The central-directory extra field contains:
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 164 bytes of NT security descriptor data.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -1543,8 +1528,8 @@
 +
 +  shared_atomic/unicodedata.pyd
 +
-+  offset of local header from start of archive:   5493382
-+                                                  (000000000053D286h) bytes
++  offset of local header from start of archive:   5628024
++                                                  (000000000055E078h) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1553,12 +1538,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2021 May 3 11:54:48
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:48 local
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:48 UTC
-+  32-bit CRC value (hex):                         9e62de9a
-+  compressed size:                                399692 bytes
-+  uncompressed size:                              1097904 bytes
++  file last modified on (DOS date/time):          2022 May 17 16:46:04
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 local
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:04 UTC
++  32-bit CRC value (hex):                         bd6c26a1
++  compressed size:                                409871 bytes
++  uncompressed size:                              1123832 bytes
 +  length of filename:                             29 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -1582,8 +1567,8 @@
  
 -  offset of local header from start of archive:   2655055
 -                                                  (000000000028834Fh) bytes
-+  offset of local header from start of archive:   5893247
-+                                                  (000000000059EC7Fh) bytes
++  offset of local header from start of archive:   6038068
++                                                  (00000000005C2234h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1598,9 +1583,9 @@
 -  32-bit CRC value (hex):                         ecc3f14e
 -  compressed size:                                1469 bytes
 -  uncompressed size:                              4070 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
 +  32-bit CRC value (hex):                         86741696
 +  compressed size:                                1224 bytes
 +  uncompressed size:                              3423 bytes
@@ -1625,13 +1610,12 @@
 +Central directory entry #38:
  ---------------------------
  
--  shared_atomic/_cffi_backend.cp39-win_amd64.pyd
-+  shared_atomic/_cffi_backend.cp38-win_amd64.pyd
+   shared_atomic/_cffi_backend.cp39-win_amd64.pyd
  
 -  offset of local header from start of archive:   2656700
 -                                                  (00000000002889BCh) bytes
-+  offset of local header from start of archive:   5894647
-+                                                  (000000000059F1F7h) bytes
++  offset of local header from start of archive:   6039468
++                                                  (00000000005C27ACh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1643,15 +1627,12 @@
 -  file last modified on (DOS date/time):          2022 Oct 24 17:28:50
 -  file last modified on (UT extra field modtime): 2022 Oct 24 09:28:50 local
 -  file last modified on (UT extra field modtime): 2022 Oct 24 09:28:50 UTC
--  32-bit CRC value (hex):                         8a34aa66
--  compressed size:                                82369 bytes
--  uncompressed size:                              183296 bytes
-+  file last modified on (DOS date/time):          2022 Oct 24 17:16:44
-+  file last modified on (UT extra field modtime): 2022 Oct 24 09:16:44 local
-+  file last modified on (UT extra field modtime): 2022 Oct 24 09:16:44 UTC
-+  32-bit CRC value (hex):                         f99bc050
-+  compressed size:                                82112 bytes
-+  uncompressed size:                              182784 bytes
++  file last modified on (DOS date/time):          2022 Oct 24 17:24:38
++  file last modified on (UT extra field modtime): 2022 Oct 24 09:24:38 local
++  file last modified on (UT extra field modtime): 2022 Oct 24 09:24:38 UTC
+   32-bit CRC value (hex):                         8a34aa66
+   compressed size:                                82369 bytes
+   uncompressed size:                              183296 bytes
    length of filename:                             46 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -1673,10 +1654,10 @@
 +Central directory entry #39:
 +---------------------------
 +
-+  shared_atomic/_curses.cp38-win_amd64.pyd
++  shared_atomic/_curses.cp39-win_amd64.pyd
 +
-+  offset of local header from start of archive:   5976949
-+                                                  (00000000005B3375h) bytes
++  offset of local header from start of archive:   6122027
++                                                  (00000000005D6A2Bh) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1685,12 +1666,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2022 Nov 18 15:31:28
-+  file last modified on (UT extra field modtime): 2022 Nov 18 07:31:27 local
-+  file last modified on (UT extra field modtime): 2022 Nov 18 07:31:27 UTC
-+  32-bit CRC value (hex):                         f1741893
-+  compressed size:                                70240 bytes
-+  uncompressed size:                              169984 bytes
++  file last modified on (DOS date/time):          2022 Nov 18 15:48:24
++  file last modified on (UT extra field modtime): 2022 Nov 18 07:48:23 local
++  file last modified on (UT extra field modtime): 2022 Nov 18 07:48:23 UTC
++  32-bit CRC value (hex):                         13bd25c0
++  compressed size:                                70392 bytes
++  uncompressed size:                              171008 bytes
 +  length of filename:                             40 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -1710,10 +1691,10 @@
 +Central directory entry #40:
 +---------------------------
 +
-+  shared_atomic/_curses_panel.cp38-win_amd64.pyd
++  shared_atomic/_curses_panel.cp39-win_amd64.pyd
 +
-+  offset of local header from start of archive:   6047373
-+                                                  (00000000005C468Dh) bytes
++  offset of local header from start of archive:   6192603
++                                                  (00000000005E7DDBh) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1722,11 +1703,11 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2022 Nov 18 15:31:28
-+  file last modified on (UT extra field modtime): 2022 Nov 18 07:31:27 local
-+  file last modified on (UT extra field modtime): 2022 Nov 18 07:31:27 UTC
-+  32-bit CRC value (hex):                         addca286
-+  compressed size:                                11911 bytes
++  file last modified on (DOS date/time):          2022 Nov 18 15:48:24
++  file last modified on (UT extra field modtime): 2022 Nov 18 07:48:23 local
++  file last modified on (UT extra field modtime): 2022 Nov 18 07:48:23 UTC
++  32-bit CRC value (hex):                         9ae10466
++  compressed size:                                11882 bytes
 +  uncompressed size:                              27648 bytes
 +  length of filename:                             46 characters
 +  length of extra field:                          17 bytes
@@ -1749,8 +1730,8 @@
 +
 +  shared_atomic/_socket.pyd
 +
-+  offset of local header from start of archive:   6059474
-+                                                  (00000000005C75D2h) bytes
++  offset of local header from start of archive:   6204675
++                                                  (00000000005EAD03h) bytes
 +  file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
 +  version of encoding software:                   3.0
 +  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1759,12 +1740,12 @@
 +  compression sub-type (deflation):               normal
 +  file security status:                           not encrypted
 +  extended local header:                          no
-+  file last modified on (DOS date/time):          2021 May 3 11:54:46
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 local
-+  file last modified on (UT extra field modtime): 2021 May 3 03:54:46 UTC
-+  32-bit CRC value (hex):                         3f1ab25c
-+  compressed size:                                36310 bytes
-+  uncompressed size:                              80048 bytes
++  file last modified on (DOS date/time):          2022 May 17 16:46:02
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:02 local
++  file last modified on (UT extra field modtime): 2022 May 17 08:46:02 UTC
++  32-bit CRC value (hex):                         56944ef3
++  compressed size:                                38791 bytes
++  uncompressed size:                              81912 bytes
 +  length of filename:                             25 characters
 +  length of extra field:                          17 bytes
 +  length of file comment:                         0 characters
@@ -1788,8 +1769,8 @@
  
 -  offset of local header from start of archive:   2739259
 -                                                  (000000000029CC3Bh) bytes
-+  offset of local header from start of archive:   6095953
-+                                                  (00000000005D0451h) bytes
++  offset of local header from start of archive:   6243635
++                                                  (00000000005F4533h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1800,9 +1781,9 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
    32-bit CRC value (hex):                         00000000
    compressed size:                                0 bytes
    uncompressed size:                              0 bytes
@@ -1810,9 +1791,14 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -1193,31 +1562,31 @@
+   apparent file type:                             binary
+   non-MSDOS external file attributes:             000000 hex
+   MS-DOS file attributes (20 hex):                arc 
+ 
+   The central-directory extra field contains:
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
-     The local extra field has 164 bytes of NT security descriptor data.
+-    The local extra field has 164 bytes of NT security descriptor data.
++    The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
      The local extra field has UTC/GMT modification/access/creation times.
  
@@ -1827,8 +1813,8 @@
  
 -  offset of local header from start of archive:   2739428
 -                                                  (000000000029CCE4h) bytes
-+  offset of local header from start of archive:   6096122
-+                                                  (00000000005D04FAh) bytes
++  offset of local header from start of archive:   6243804
++                                                  (00000000005F45DCh) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1839,9 +1825,9 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
    32-bit CRC value (hex):                         00000000
    compressed size:                                0 bytes
    uncompressed size:                              0 bytes
@@ -1849,7 +1835,7 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -1229,35 +1598,35 @@
+@@ -1229,35 +1597,35 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1866,8 +1852,8 @@
  
 -  offset of local header from start of archive:   2739615
 -                                                  (000000000029CD9Fh) bytes
-+  offset of local header from start of archive:   6096309
-+                                                  (00000000005D05B5h) bytes
++  offset of local header from start of archive:   6243991
++                                                  (00000000005F4697h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1882,9 +1868,9 @@
 -  32-bit CRC value (hex):                         d7069c53
 -  compressed size:                                1146 bytes
 -  uncompressed size:                              2866 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
 +  32-bit CRC value (hex):                         c0cd8c0a
 +  compressed size:                                1158 bytes
 +  uncompressed size:                              2981 bytes
@@ -1895,7 +1881,7 @@
    apparent file type:                             text
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
-@@ -1266,35 +1635,35 @@
+@@ -1266,35 +1634,35 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1912,8 +1898,8 @@
  
 -  offset of local header from start of archive:   2740956
 -                                                  (000000000029D2DCh) bytes
-+  offset of local header from start of archive:   6097662
-+                                                  (00000000005D0AFEh) bytes
++  offset of local header from start of archive:   6245344
++                                                  (00000000005F4BE0h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1928,12 +1914,12 @@
 -  32-bit CRC value (hex):                         5ffc1c99
 -  compressed size:                                1052 bytes
 -  uncompressed size:                              1925 bytes
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-+  32-bit CRC value (hex):                         60d2a2f0
-+  compressed size:                                1103 bytes
-+  uncompressed size:                              2061 bytes
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
++  32-bit CRC value (hex):                         9a4dee88
++  compressed size:                                1058 bytes
++  uncompressed size:                              1982 bytes
    length of filename:                             49 characters
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
@@ -1941,7 +1927,7 @@
    apparent file type:                             text
    non-MSDOS external file attributes:             000000 hex
    MS-DOS file attributes (20 hex):                arc 
-@@ -1303,31 +1672,31 @@
+@@ -1303,31 +1671,31 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1958,8 +1944,8 @@
  
 -  offset of local header from start of archive:   2742201
 -                                                  (000000000029D7B9h) bytes
-+  offset of local header from start of archive:   6098958
-+                                                  (00000000005D100Eh) bytes
++  offset of local header from start of archive:   6246595
++                                                  (00000000005F50C3h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -1970,9 +1956,9 @@
 -  file last modified on (DOS date/time):          2023 Jul 6 17:03:14
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
    32-bit CRC value (hex):                         3ae435d8
    compressed size:                                14 bytes
    uncompressed size:                              14 bytes
@@ -1980,7 +1966,7 @@
    length of extra field:                          17 bytes
    length of file comment:                         0 characters
    disk number on which file begins:               disk 1
-@@ -1339,32 +1708,32 @@
+@@ -1339,32 +1707,32 @@
    - A subfield with ID 0x4453 (Security Descriptor) and 4 data bytes.
      The local extra field has 152 bytes of NT security descriptor data.
    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
@@ -1997,8 +1983,8 @@
  
 -  offset of local header from start of archive:   2742415
 -                                                  (000000000029D88Fh) bytes
-+  offset of local header from start of archive:   6099172
-+                                                  (00000000005D10E4h) bytes
++  offset of local header from start of archive:   6246809
++                                                  (00000000005F5199h) bytes
    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
    version of encoding software:                   3.0
    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
@@ -2010,10 +1996,10 @@
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 local
 -  file last modified on (UT extra field modtime): 2023 Jul 6 09:03:13 UTC
 -  32-bit CRC value (hex):                         7e3cc389
-+  file last modified on (DOS date/time):          2023 Aug 7 20:07:12
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 local
-+  file last modified on (UT extra field modtime): 2023 Aug 7 12:07:11 UTC
-+  32-bit CRC value (hex):                         04ee208b
++  file last modified on (DOS date/time):          2023 Aug 7 20:23:40
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 local
++  file last modified on (UT extra field modtime): 2023 Aug 7 12:23:39 UTC
++  32-bit CRC value (hex):                         31fa862c
    compressed size:                                99 bytes
    uncompressed size:                              99 bytes
    length of filename:                             48 characters
@@ -2031,87 +2017,86 @@
  Comment: 
  
 -Filename: shared_atomic/atomic_activation.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_activation.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_activation.pypy39-pp73-win_amd64.pyd
  Comment: 
  
 -Filename: shared_atomic/atomic_async_activation_check.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_activation_cpython.cp38-win_amd64.pyd
++Filename: shared_atomic/atomic_activation_cpython.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: shared_atomic/atomic_boolfloat.cp39-win_amd64.pyd
 +Filename: shared_atomic/atomic_activation_cpython_wrapper.exe
 +Comment: 
 +
-+Filename: shared_atomic/atomic_async_activation_check.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_async_activation_check.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_boolfloat.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_bytearray.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_boolfloat.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_boolfloat.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_bytearray.pxd
  Comment: 
  
--Filename: shared_atomic/atomic_decryption_.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_bytearray.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_bytearray.pypy39-pp73-win_amd64.pyd
++Comment: 
++
+ Filename: shared_atomic/atomic_decryption_.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: shared_atomic/atomic_int.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_decryption_.cp38-win_amd64.pyd
-+Comment: 
-+
-+Filename: shared_atomic/atomic_decryption_.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_decryption_.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_int.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_list.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_int.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_int.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_list.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_object.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_list.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_list.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_object.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_object_backend.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_object.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_object.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_object_backend.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_set.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_object_backend.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_object_backend.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_set.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_shared_memory.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_set.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_set.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_shared_memory.pxd
  Comment: 
  
 -Filename: shared_atomic/atomic_string.cp39-win_amd64.pyd
-+Filename: shared_atomic/atomic_shared_memory.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_shared_memory.pypy39-pp73-win_amd64.pyd
  Comment: 
  
  Filename: shared_atomic/atomic_string.pxd
  Comment: 
  
-+Filename: shared_atomic/atomic_string.pypy38-pp73-win_amd64.pyd
++Filename: shared_atomic/atomic_string.pypy39-pp73-win_amd64.pyd
 +Comment: 
 +
  Filename: shared_atomic/atomic_tools.py
@@ -2124,6 +2109,9 @@
  Filename: shared_atomic/end_user_license_agreement.txt
  Comment: 
  
++Filename: shared_atomic/lib/
++Comment: 
++
  Filename: shared_atomic/libdecryption.dll
  Comment: 
  
@@ -2133,37 +2121,34 @@
 +Filename: shared_atomic/python3.dll
 +Comment: 
 +
-+Filename: shared_atomic/python38.dll
++Filename: shared_atomic/python39.dll
 +Comment: 
 +
  Filename: shared_atomic/readme.txt
  Comment: 
  
+-Filename: shared_atomic/setup.py
 +Filename: shared_atomic/select.pyd
 +Comment: 
 +
- Filename: shared_atomic/setup.py
++Filename: shared_atomic/unicodedata.pyd
  Comment: 
  
-+Filename: shared_atomic/unicodedata.pyd
-+Comment: 
-+
  Filename: shared_atomic/urwid_win_patch.py
  Comment: 
  
--Filename: shared_atomic/_cffi_backend.cp39-win_amd64.pyd
-+Filename: shared_atomic/_cffi_backend.cp38-win_amd64.pyd
+ Filename: shared_atomic/_cffi_backend.cp39-win_amd64.pyd
+ Comment: 
+ 
++Filename: shared_atomic/_curses.cp39-win_amd64.pyd
 +Comment: 
 +
-+Filename: shared_atomic/_curses.cp38-win_amd64.pyd
-+Comment: 
-+
-+Filename: shared_atomic/_curses_panel.cp38-win_amd64.pyd
++Filename: shared_atomic/_curses_panel.cp39-win_amd64.pyd
 +Comment: 
 +
 +Filename: shared_atomic/_socket.pyd
- Comment: 
- 
++Comment: 
++
  Filename: shared_atomic/__init__.py
  Comment: 
  
@@ -2234,7 +2219,7 @@
 ## shared_atomic/end_user_license_agreement.txt
 
 ```diff
-@@ -87,15 +87,520 @@
+@@ -87,14 +87,519 @@
  The service agreement could be found at https://sharedatomic.top/enterprise_service.html
  
  20) Complete term:
@@ -2242,7 +2227,6 @@
  After installation and activation, licensee could still read it by restart the activation process, and click "Read End User Licence Agreement" Button
  
  21) Other authors:
--The embedded cffi, whose author is Armin Rigo and Maciej Fijalkowski, as a dependency named _cffi_backend.cp39-win_amd64.pyd, is under following MIT licence.
 +The embedded urwid_win_patch.py and code under urwid in cpython_libs.zip is under following GNU LESSER GENERAL PUBLIC LICENSE.
 +
 +              GNU LESSER GENERAL PUBLIC LICENSE
@@ -2748,14 +2732,13 @@
 +
 +    That's all there is to it!
 +
-+The embedded cffi, whose author is Armin Rigo and Maciej Fijalkowski, as a dependency named _cffi_backend.cp38-win_amd64.pyd, is under following MIT licence.
+ The embedded cffi, whose author is Armin Rigo and Maciej Fijalkowski, as a dependency named _cffi_backend.cp39-win_amd64.pyd, is under following MIT licence.
  
      The MIT License
  
      Permission is hereby granted, free of charge, to any person
      obtaining a copy of this software and associated documentation
      files (the "Software"), to deal in the Software without
-     restriction, including without limitation the rights to use,
 @@ -118,15 +623,120 @@
      distribute, sublicense, and/or sell copies of the Software, and to
      permit persons to whom the Software is furnished to do so, subject to
@@ -2765,10 +2748,10 @@
      included in all copies or substantial portions of the Software.
  
 -
-+The embedded python, which are named as python3.dll, python38.dll,
++The embedded python, which are named as python3.dll, python39.dll,
 +_socket.pyd, select.pyd, unicodedata.pyd and zipped in cpython_libs.zip except urwid
 +and urwid_win_patch.py as well as the embedded windows_curses dependencies as
-+_curses_panel.cp38-win_amd64.pyd and _curses.cp38-win_amd64.pyd are under PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2.
++_curses_panel.cp39-win_amd64.pyd and _curses.cp39-win_amd64.pyd are under PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2.
 +the posix module in the dependency uses the OpenSSL library for added performance. The OpenSSL library is under the Openssl Licence
 +and Original SSLeay License which has been stated bellow.
 +
@@ -2894,7 +2877,7 @@
  	DLL
  
 -Time/Date		Thu Jul  6 09:00:25 2023
-+Time/Date		Mon Aug  7 12:00:05 2023
++Time/Date		Mon Aug  7 12:15:36 2023
  Magic			020b	(PE32+)
  MajorLinkerVersion	14
  MinorLinkerVersion	29
@@ -2902,7 +2885,7 @@
  SizeOfInitializedData	00000000000d2e00
  SizeOfUninitializedData	0000000000000000
  AddressOfEntryPoint	0000000000283860
-@@ -950038,17 +950038,18 @@
+@@ -950038,15 +950038,15 @@
  	...
     18031f188:	and    %bl,0x180(%rbx,%rsi,1)
     18031f18f:	add    %al,%al
@@ -2911,19 +2894,14 @@
     18031f198:	add    %al,(%rax)
     18031f19a:	add    %al,(%rax)
 -   18031f19c:	test   $0x64a682,%eax
--   18031f1a1:	add    %al,(%rax)
--   18031f1a3:	add    %cl,0x7c000000(%rip)        # 0x1fc31f1a9
-+   18031f19c:	(bad)
-+   18031f19f:	add    %al,%fs:(%rax)
-+   18031f1a2:	add    %al,(%rax)
-+   18031f1a4:	or     $0x7c000000,%eax
++   18031f19c:	push   $0x64d0e0
+    18031f1a1:	add    %al,(%rax)
+    18031f1a3:	add    %cl,0x7c000000(%rip)        # 0x1fc31f1a9
     18031f1a9:	add    (%rax),%al
     18031f1ab:	add    %cl,%al
     18031f1ad:	clc
     18031f1ae:	xor    %eax,(%rax)
     18031f1b0:	enter  $0x31ec,$0x0
- 	...
-    18031f1c0:	cmp    %al,(%rcx)
 ```
 
 ## shared_atomic/libdecryption11.dll
@@ -2940,7 +2918,7 @@
  	DLL
  
 -Time/Date		Thu Jul  6 09:00:26 2023
-+Time/Date		Mon Aug  7 12:00:05 2023
++Time/Date		Mon Aug  7 12:15:36 2023
  Magic			020b	(PE32+)
  MajorLinkerVersion	14
  MinorLinkerVersion	29
@@ -2948,7 +2926,7 @@
  SizeOfInitializedData	0000000000001400
  SizeOfUninitializedData	0000000000000000
  AddressOfEntryPoint	0000000000001320
-@@ -1464,17 +1464,19 @@
+@@ -1464,17 +1464,18 @@
     18000215a:	(bad)
     18000215b:	(bad)
     18000215c:	(bad)
@@ -2959,9 +2937,8 @@
 -   180002163:	add    %ch,0x64a682(%rdx)
 -   180002169:	add    %al,(%rax)
 -   18000216b:	add    %cl,0x58000000(%rip)        # 0x1d8002171
-+   180002163:	add    %al,%ch
-+   180002165:	(bad)
-+   180002167:	add    %al,%fs:(%rax)
++   180002163:	add    %ch,-0x20(%rax)
++   180002166:	shlb   0x0(%rax,%rax,1)
 +   18000216a:	add    %al,(%rax)
 +   18000216c:	or     $0x58000000,%eax
     180002171:	add    (%rax),%al
@@ -3013,52 +2990,5 @@
      urwid.display_common.RealTerminal.tty_signal_keys = win_patch_tty_signal_keys
  
      win_patch_orig__start = urwid.curses_display.Screen._start
-```
-
-## Comparing `shared_atomic_enterprise-5!3.0.0.dist-info/RECORD` & `shared_atomic_enterprise-5!3.2.0.dist-info/RECORD`
-
- * *Files 20% similar despite different names*
-
-```diff
-@@ -1,21 +1,22 @@
- shared_atomic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
--shared_atomic/atomic_activation.py,sha256=lyO2gzpJoHxDmGNYsJ7Ei7gCr3F7bex0R7iCWZtKNjM,258099
--shared_atomic/atomic_async_activation_check.py,sha256=vJyzF-YUL4c8KFfh27rGtEdrG0YdZA5qRLBLhGVriBw,122078
-+shared_atomic/atomic_activation.py,sha256=dw5e-GbjKYCTwJRyN3eNjCKqHQZXQEiSM1dm8YJAQQ0,113519
-+shared_atomic/atomic_activation_cpython.py,sha256=jsESjtsiBT7LNaQFl5f0lMjb3e2icGDFWez5uIxcgcU,145362
-+shared_atomic/atomic_async_activation_check.py,sha256=d-UZzaC-T7NEzZtvFYQL8tEwcWQAw4T-2ysA0OPD8Y4,120055
- shared_atomic/atomic_cffi_compile_steps.py,sha256=MenlES3epvB4UdwbstvsJV8BpAhpM6uELZOCqYsPhfo,9642
--shared_atomic/atomic_decryption.py,sha256=uGrvezcQS_zmhVyv83K4f0L-gHJ354wB6IlAshZ-uig,10889
--shared_atomic/atomic_tools.py,sha256=UuirDkkB291zP4V0Do8NzvfugKIi_1RgoPrEqspVafk,893
--shared_atomic/end_user_license_agreement.txt,sha256=ItPWpOPQ0qNJZavEG3tBNXd4hWT2yvXnz8ebwj3mdJ0,14847
-+shared_atomic/atomic_decryption.py,sha256=obn311YyyFDWa8YC8zi6c9Zi64ZjG-zU6Hmm7VozoRk,8833
-+shared_atomic/atomic_tools.py,sha256=1mAEHss3fmsky8mylMHiXkYXCI8OjfC1LJ0rWNqPdlI,807
-+shared_atomic/end_user_license_agreement.txt,sha256=dZhk4sAncMvZyqJGxPtKlOtPClov09o-yPIxBlueFGM,49659
- shared_atomic/readme.txt,sha256=6IxCg_jJX7J2obkZOdu5-R7qwFugMxmmbuezfyEtmek,622
- shared_atomic/setup.py,sha256=DOLPF3RjRgS2O6C9TKYUUwC-d00SzjZDeS16EDnORjQ,2755
--shared_atomic/test_atomic_array.py,sha256=DFDn8yFfiQ8LlDiQcuGawtE9BCivOw2n7j4adeomxmE,15894
--shared_atomic/test_atomic_boolfloat.py,sha256=SafsXCX-Tu5r3ScClv8DVGihN6uVNzBMKf_mibRynh0,5397
--shared_atomic/test_atomic_int.py,sha256=2_62TKHwKHpdm6rCR5Q-nDA5UJDzRBtVfnqFdbOZEA4,7119
--shared_atomic/test_atomic_list.py,sha256=RE8riySb8jFvEgy1zTNFLRX0XKpvbfBtzbXCLJS2vA0,7364
--shared_atomic/test_atomic_set.py,sha256=99gGe8BsvqBeo3DwtOtBp-wG43_YivdQcCliwobfg-Q,7241
--shared_atomic/test_atomic_string.py,sha256=n-HFV0guyNsJFW09vwIdUzmbAQiLBDWXUltes_kRgXg,19709
--shared_atomic/test_shared_atomic_memory.py,sha256=fnofpIXnZAgrdyvzx1ewLMxJIzTC8iNUw3c6C2ci70I,98556
--shared_atomic/urwid_win_patch.py,sha256=MPrVW6fAzv8atOSovjoqbjn8GU0x6fj_fAFbov6t5CU,4070
--shared_atomic_enterprise-5!3.0.0.dist-info/METADATA,sha256=AxAz9DalRXb1yvp8tBJk5n-jpV_m9MuTiEWxPpeB228,2866
--shared_atomic_enterprise-5!3.0.0.dist-info/WHEEL,sha256=fX41h1BsRPzb2VR3MXDZKZL8Q3nmZdtIPIdVlOuTKiE,99
--shared_atomic_enterprise-5!3.0.0.dist-info/top_level.txt,sha256=ECuvZjfIYXkJKlEJiYCjOmL-6tkj6X4Sm8VM3-Fppbc,14
--shared_atomic_enterprise-5!3.0.0.dist-info/RECORD,,
-+shared_atomic/test_atomic_array_pypy.py,sha256=ksh0oVzOZeg2pJ-rEXXdxur2GXuii4g3vIitnv0Ld1Y,15837
-+shared_atomic/test_atomic_boolfloat_pypy.py,sha256=2kfRo69zgqjZ_2NZk6hb6pfkWTgjWp99Xac6H2Syb_8,4923
-+shared_atomic/test_atomic_int_pypy.py,sha256=xbrYB7K_vUVbzROfGvGTZR9FBwD2uzptQ4OHGGjDA0w,6894
-+shared_atomic/test_atomic_list_pypy.py,sha256=TCvNv6RKgQj1NkOCrKWgB-vehWCpeBBGjhSeqtixu3U,7124
-+shared_atomic/test_atomic_set_pypy.py,sha256=8uYEsBNsIYc3gtzMaRQX9Nv9agXM-1BVBBXX2ocJkbI,6873
-+shared_atomic/test_atomic_string_pypy.py,sha256=yzTnaOZzW9dqGCXk-MA8PJ8hteTXW3QEV84CvO9cvwg,19659
-+shared_atomic/test_shared_atomic_memory_pypy.py,sha256=Zz3EIG2mQ0szsmYxDXRHIOS0X-c0xmTEgVDtHTA7j7w,103712
-+shared_atomic/urwid_win_patch.py,sha256=wSfWCi-0-qGSzRhGwtmVFniY05utNBWsLPoEPWK-NOg,3423
-+shared_atomic_enterprise-5!3.2.0.dist-info/METADATA,sha256=v8pEOGAczMAP5pRBPum2ufrrSkkuJXeIlaMAU--s9OY,2981
-+shared_atomic_enterprise-5!3.2.0.dist-info/WHEEL,sha256=9SeD5aDjimirRQca5bpCjDk68_QWcbUitsNuuKQ-Pek,99
-+shared_atomic_enterprise-5!3.2.0.dist-info/top_level.txt,sha256=ECuvZjfIYXkJKlEJiYCjOmL-6tkj6X4Sm8VM3-Fppbc,14
-+shared_atomic_enterprise-5!3.2.0.dist-info/RECORD,,
 ```
 

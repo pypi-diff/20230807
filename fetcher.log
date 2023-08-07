@@ -19342,3 +19342,118 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:06:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-08-07 15:06:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-08-07 15:06:11] INFO root fetch - main [MainThread]: Store serial: [19205666]
+[2023-08-07 15:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205666]
+[2023-08-07 15:11:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psl
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pasqal-cloud
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HGQ
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cstow
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pami
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shared-atomic-enterprise
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mesh-sandbox
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shared-atomic-enterprise
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-08-07 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-saurabh0402
+[2023-08-07 15:11:20] WARNING root fetch - processPackages [test-saurabh0402]: Skipping, unable to determine old version
+[2023-08-07 15:11:20] INFO root fetch - processPackages [test-saurabh0402]: Start processing: remfile
+[2023-08-07 15:11:20] INFO root fetch - main [MainThread]: End processing [test-saurabh0402] error
+[2023-08-07 15:11:20] WARNING root fetch - processPackages [cstow]: Skipping, unable to determine old version
+[2023-08-07 15:11:20] INFO root fetch - processPackages [cstow]: Start processing: nbdev-numpy
+[2023-08-07 15:11:20] INFO root fetch - main [MainThread]: End processing [cstow] error
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:11:21] WARNING root fetch - processPackages [HGQ]: Skipping, unable to determine old version
+[2023-08-07 15:11:21] INFO root fetch - processPackages [HGQ]: Start processing: databricks-sdk
+[2023-08-07 15:11:21] INFO root fetch - main [MainThread]: End processing [HGQ] error
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [databricks-sdk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [mesh-sandbox]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.2.0] Old Version: [5!3.0.0]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.2.0] Old Version: [5!3.0.0]
+[2023-08-07 15:11:21] WARNING root fetch - processPackages [remfile]: Skipping, unable to determine old version
+[2023-08-07 15:11:21] INFO root fetch - processPackages [psl]: New version: [2023.8.7] Old Version: [2023.7.31]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [remfile]: Start processing: napari-h5
+[2023-08-07 15:11:21] INFO root fetch - main [MainThread]: End processing [remfile] error
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pami]: New version: [2023.8.6.3] Old Version: [2023.8.6.2]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-07 15:11:21] WARNING root fetch - processPackages [napari-h5]: Skipping, unable to determine old version
+[2023-08-07 15:11:21] INFO root fetch - processPackages [napari-h5]: Start processing: micropython-adt7410
+[2023-08-07 15:11:21] INFO root fetch - main [MainThread]: End processing [napari-h5] error
+[2023-08-07 15:11:21] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/a5/54/9d0db29c2c38eea2178cf90c9a0d5a4a912932c48381e1fefe2c24c6bd9c/mesh_sandbox-1.0.7-py3-none-any.whl
+[2023-08-07 15:11:21] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-07 15:11:21] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/00/c7/5ae239f56081e25e75d2eb48241455ba46ff0be91ca1e0a582305931463b/pasqal-cloud-0.3.4.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [micropython-adt7410]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:11:21] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/9c/3b/ec83637cc944d8cf85921839e75ce249b5b66b66d5bf168243971f3c1180/databricks-sdk-0.3.0.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/67/b4/52616ba117d3b7d08f3981f13d382e829c2432c69bcf869c99cb21e03648/psl-2023.7.31.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/56/26/19244f8c3db5e19e175169a3065557142ceb265001fc9e52e704d057a7ff/pami-2023.8.6.2.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/00/56/70dfec0e76baeb5e6e60c59238f4a501d9dd9af317f1b4632f70687b9daa/micropython-adt7410-0.1.1.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/c2/d3/b48a3ce45f3c9917f7eb21cb17d46a27f5bbc8d926534b2a3f81f44fad9a/pasqal-cloud-0.3.5.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/dc/8e/8bdbd3bd6e917c8e222fa4c826bce6a5d38de71307423462c9b3e7507763/mesh_sandbox-1.0.8-py3-none-any.whl
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-07 15:11:21] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230807/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:11:21] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/a9/d9/e59e46f6695ed6c13c67c0aad4448c6dd0328eb6701a70807e2cd257117a/psl-2023.8.7.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/a7/e3/682a863bb7a35fbe843a49faa12db7a1e7e83f3afb361bc43566eec5918b/pami-2023.8.6.3.tar.gz
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-08-07 15:11:21] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.3.4.tar.gz tmp/pasqal-cloud-0.3.5.tar.gz --markdown 20230807/p/pasqal-cloud/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-07 15:11:21] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/67/9f/036813d0eb4337d84dac485e7b35b89cc3edea4fd5658be3568a7b2a8380/databricks-sdk-0.3.1.tar.gz
+[2023-08-07 15:11:22] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230807/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:11:22] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip tmp/mesh_sandbox-1.0.8-py3-none-any.whl.zip --markdown 20230807/m/mesh-sandbox/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-07 15:11:22] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/1d/39/130e0963c8e8b0d3eb7df965c18e4c0555d17f5d2da6c59e5ef35dc671d3/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl
+[2023-08-07 15:11:22] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/1d/39/130e0963c8e8b0d3eb7df965c18e4c0555d17f5d2da6c59e5ef35dc671d3/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl
+[2023-08-07 15:11:22] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.7.31.tar.gz tmp/psl-2023.8.7.tar.gz --markdown 20230807/p/psl/2023.7.31-2023.8.7/diff.md --exclude *.pyd
+[2023-08-07 15:11:22] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/5e/7b/b5be22ca605ef99a3469f13db0ec3c432a107b6d4130a4a2585136788251/micropython-adt7410-0.1.2.tar.gz
+[2023-08-07 15:11:22] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.3.0.tar.gz tmp/databricks-sdk-0.3.1.tar.gz --markdown 20230807/d/databricks-sdk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-07 15:11:22] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.8.6.2.tar.gz tmp/pami-2023.8.6.3.tar.gz --markdown 20230807/p/pami/2023.8.6.2-2023.8.6.3/diff.md --exclude *.pyd
+[2023-08-07 15:11:22] INFO root fetch - processPackages [micropython-adt7410]: executing diffoscope
+[2023-08-07 15:11:22] INFO root fetch - processPackages [micropython-adt7410]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-adt7410-0.1.1.tar.gz tmp/micropython-adt7410-0.1.2.tar.gz --markdown 20230807/m/micropython-adt7410/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [nbdev-numpy]: Start processing: cloudsmith-cli
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [cloudsmith-cli]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.31.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.8.7.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/f1/1b/1ba0864a317481c297acce9dbd8233a4053a1e7498784d881b4a46bce87b/cloudsmith_cli-0.8.2-py2.py3-none-any.whl
+[2023-08-07 15:11:23] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.4.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.5.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-07 15:11:23] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip --markdown 20230807/s/shared-atomic-enterprise/5!3.0.0-5!3.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:11:23] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-07 15:11:23] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip --markdown 20230807/s/shared-atomic-enterprise/5!3.0.0-5!3.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:11:23] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.8-py3-none-any.whl.zip]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/d0/82/d0dc32141208a12e5ff4b32033a8ddbae05e7b970b51d519450582b183e5/cloudsmith_cli-0.9.0-py2.py3-none-any.whl
+[2023-08-07 15:11:23] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.3.0.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.3.1.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.1.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.2.tar.gz]
+[2023-08-07 15:11:23] INFO root fetch - main [MainThread]: End processing [micropython-adt7410]: success
+[2023-08-07 15:11:23] INFO root fetch - processPackages [cloudsmith-cli]: executing diffoscope
+[2023-08-07 15:11:23] INFO root fetch - processPackages [cloudsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_cli-0.8.2-py2.py3-none-any.whl.zip tmp/cloudsmith_cli-0.9.0-py2.py3-none-any.whl.zip --markdown 20230807/c/cloudsmith-cli/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 15:11:24] INFO root fetch - processPackages [cloudsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_cli-0.8.2-py2.py3-none-any.whl.zip]
+[2023-08-07 15:11:24] INFO root fetch - processPackages [cloudsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_cli-0.9.0-py2.py3-none-any.whl.zip]
+[2023-08-07 15:11:24] INFO root fetch - main [MainThread]: End processing [cloudsmith-cli]: success
+[2023-08-07 15:11:25] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.2.tar.gz]
+[2023-08-07 15:11:25] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.3.tar.gz]
+[2023-08-07 15:11:25] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-07 15:11:30] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-07 15:11:30] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip]
+[2023-08-07 15:11:30] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-07 15:11:30] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-07 15:11:30] INFO root fetch - main [MainThread]: Store serial: [19205738]
