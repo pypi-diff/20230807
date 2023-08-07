@@ -18345,3 +18345,81 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:11:48] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.1b3.tar.gz]
 [2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
 [2023-08-07 14:11:48] INFO root fetch - main [MainThread]: Store serial: [19205200]
+[2023-08-07 14:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205200]
+[2023-08-07 14:16:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 14:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-simple-class-view
+[2023-08-07 14:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LHCbDIRAC
+[2023-08-07 14:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mnm
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyKDC101
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ElementEmbeddings
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KiMoPack
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pami
+[2023-08-07 14:16:58] INFO root fetch - processPackages [fastapi-simple-class-view]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [pyKDC101]: New version: [0.21] Old Version: [0.2]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ElementEmbeddings]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [KiMoPack]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [mnm]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [pyKDC101]: Downloading https://files.pythonhosted.org/packages/99/0c/50f57224c4545f7e94437d5b8cf99207b4567cfa3d250ad1a71d1923f3fc/pyKDC101-0.2.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ElementEmbeddings]: Downloading https://files.pythonhosted.org/packages/31/53/d5dc42fac812ce7cfa1365b6613d60a414c601c05dc517a3a4dff8e38a2e/ElementEmbeddings-0.2.0.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [LHCbDIRAC]: New version: [11.1.0a2] Old Version: [11.1.0a1]
+[2023-08-07 14:16:58] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/23/1a/bf861910e97280953d79948d077ee45e12f61dc3a9fa1e9f30a71f4138aa/KiMoPack-7.1.8.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [fastapi-simple-class-view]: Downloading https://files.pythonhosted.org/packages/77/0e/81252951f9abc138e002e102b03520f12b05da00d2bcbae85d4b81b66f3b/fastapi_simple_class_view-0.0.1.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [pami]: New version: [2023.8.6.2] Old Version: [2023.8.6.1]
+[2023-08-07 14:16:58] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 88138893>=10485760
+[2023-08-07 14:16:58] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [mnm]: Downloading https://files.pythonhosted.org/packages/43/a5/f11ceaff387a0d228d3f9413055e14bd306e404acb95a32aff8f5b5c63be/mnm-0.2.1.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/2d/36/668ff5f5ebec9665852faf372694cb9a68fd05b6f3248d7104700635210e/LHCbDIRAC-11.1.0a1.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/ea/b3/5f1e1c09439f21001ab3da593abe67d60f0ec672b2a25c6b054e653ffb13/pami-2023.8.6.1.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [pyKDC101]: Downloading https://files.pythonhosted.org/packages/ce/12/f1b65ad69c371f0dec87eb52286b69ee218f0c87ad6ffce1ad8550328c8d/pyKDC101-0.21.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-07 14:16:58] INFO root fetch - processPackages [ElementEmbeddings]: Downloading https://files.pythonhosted.org/packages/76/9c/f6f36af96567e784deca7bf688577707a20730193519e56cefcb4a9c8ad6/ElementEmbeddings-0.3.0.tar.gz
+[2023-08-07 14:16:59] INFO root fetch - processPackages [fastapi-simple-class-view]: Downloading https://files.pythonhosted.org/packages/aa/40/a7ee3cd1c9f85c5a51d2ec60042a2396d90133d58dfbae1c413beb60d3a1/fastapi_simple_class_view-0.0.2.tar.gz
+[2023-08-07 14:16:59] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230807/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [mnm]: Downloading https://files.pythonhosted.org/packages/03/39/63b191b9b26efdf0921d85bbe728342b85fa7373d3d37e3e7381f316536f/mnm-0.3.0.tar.gz
+[2023-08-07 14:16:59] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230807/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [pyKDC101]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [pyKDC101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyKDC101-0.2.tar.gz tmp/pyKDC101-0.21.tar.gz --markdown 20230807/p/pyKDC101/0.2-0.21/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/9c/0d/756572eb5db58b684ee688aeb6343c2e4e2ed5ef3922e6dae377ca260e95/LHCbDIRAC-11.1.0a2.tar.gz
+[2023-08-07 14:16:59] INFO root fetch - processPackages [fastapi-simple-class-view]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [fastapi-simple-class-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_simple_class_view-0.0.1.tar.gz tmp/fastapi_simple_class_view-0.0.2.tar.gz --markdown 20230807/f/fastapi-simple-class-view/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/56/26/19244f8c3db5e19e175169a3065557142ceb265001fc9e52e704d057a7ff/pami-2023.8.6.2.tar.gz
+[2023-08-07 14:16:59] INFO root fetch - processPackages [mnm]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [mnm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnm-0.2.1.tar.gz tmp/mnm-0.3.0.tar.gz --markdown 20230807/m/mnm/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [ElementEmbeddings]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [ElementEmbeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElementEmbeddings-0.2.0.tar.gz tmp/ElementEmbeddings-0.3.0.tar.gz --markdown 20230807/E/ElementEmbeddings/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 14:16:59] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2023-08-07 14:16:59] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-11.1.0a1.tar.gz tmp/LHCbDIRAC-11.1.0a2.tar.gz --markdown 20230807/L/LHCbDIRAC/11.1.0a1-11.1.0a2/diff.md --exclude *.pyd
+[2023-08-07 14:17:00] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-07 14:17:00] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.8.6.1.tar.gz tmp/pami-2023.8.6.2.tar.gz --markdown 20230807/p/pami/2023.8.6.1-2023.8.6.2/diff.md --exclude *.pyd
+[2023-08-07 14:17:00] INFO root fetch - processPackages [pyKDC101]: Remove: archive file [/home/abi/fetcher/tmp/pyKDC101-0.2.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - processPackages [pyKDC101]: Remove: archive file [/home/abi/fetcher/tmp/pyKDC101-0.21.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [pyKDC101]: success
+[2023-08-07 14:17:00] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-07 14:17:00] INFO root fetch - processPackages [mnm]: Remove: archive file [/home/abi/fetcher/tmp/mnm-0.2.1.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - processPackages [mnm]: Remove: archive file [/home/abi/fetcher/tmp/mnm-0.3.0.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [mnm]: success
+[2023-08-07 14:17:00] INFO root fetch - processPackages [fastapi-simple-class-view]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_simple_class_view-0.0.1.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - processPackages [fastapi-simple-class-view]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_simple_class_view-0.0.2.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [fastapi-simple-class-view]: success
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-07 14:17:00] INFO root fetch - processPackages [ElementEmbeddings]: Remove: archive file [/home/abi/fetcher/tmp/ElementEmbeddings-0.2.0.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - processPackages [ElementEmbeddings]: Remove: archive file [/home/abi/fetcher/tmp/ElementEmbeddings-0.3.0.tar.gz]
+[2023-08-07 14:17:00] INFO root fetch - main [MainThread]: End processing [ElementEmbeddings]: success
+[2023-08-07 14:17:02] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.1.tar.gz]
+[2023-08-07 14:17:02] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.2.tar.gz]
+[2023-08-07 14:17:02] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-07 14:17:02] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-11.1.0a1.tar.gz]
+[2023-08-07 14:17:02] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-11.1.0a2.tar.gz]
+[2023-08-07 14:17:02] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2023-08-07 14:17:02] INFO root fetch - main [MainThread]: Store serial: [19205233]
