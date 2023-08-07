@@ -22224,3 +22224,138 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [finflo]: success
 [2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [pythoncryptV2]: success
 [2023-08-07 16:59:57] INFO root fetch - main [MainThread]: Store serial: [19206995]
+[2023-08-07 17:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206995]
+[2023-08-07 17:05:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salure-helpers-profit
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utfuzz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netlify-builds
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-codemod
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CheeseAPI
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-macros-plugin
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client-v2
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlrun
+[2023-08-07 17:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfsd
+[2023-08-07 17:05:06] INFO root fetch - processPackages [utfuzz]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [netlify-builds]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [mkdocs-macros-plugin]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/a8/7e/ff87fb7dec95ad20ffdd8b141a628471a618064754a21c3806566017bf73/utfuzz-0.1.4.tar.gz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [salure-helpers-profit]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.526.0] Old Version: [0.524.0]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [stigg-api-client]: New version: [0.526.0] Old Version: [0.524.0]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [django-codemod]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [mlrun]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-08-07 17:05:06] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/ab/ee/5fe4ceacab606a0674800dc11fe496ac08d3f69abdf2e00670cf794e6e8d/CheeseAPI-0.0.5.tar.gz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/67/74/48e9a3272bf02e4b25ef0d68806a018f020b823928dc1417dfba589615e2/salure_helpers_profit-2.1.1.tar.gz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/1a/d7/c3ce0c631cd2cd3b5df697954e2d8e72f5549970c39d4dd41ac0d1407630/mkdocs-macros-plugin-1.0.2.tar.gz
+[2023-08-07 17:05:06] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/78/4d/35d3fef79a267dbc7cdd95c9dcd8865ab1e7a194b53460c17db370399f4f/utfuzz-0.1.5.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [django-codemod]: Downloading https://files.pythonhosted.org/packages/73/99/8bb4723d52d0d5e7d0b8adc135c5b2785db531fb8604e3114a43562db355/django_codemod-2.0.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [netlify-builds]: Downloading https://files.pythonhosted.org/packages/7f/47/205bc826e246625132eaf7d7b213a0af1c03d50c257c01d833b62fa0c9c8/netlify_builds-1.0.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/c7/71/3abd60af7711b48c3a4ca3492216d356940b4790c971ba4b9a48e08611f9/stigg_api_client_v2-0.524.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/d2/90/a524b89d12ddaa22ff2a3dba73e542cea9bad5e6ea3d4465079f3d306557/stigg_api_client-0.524.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/38/30/18ff85d4b78727fba4d73c6f7401bc6a5165f1e69ca51c124eba8c55f1ab/mlrun-1.5.0rc2-py3-none-any.whl
+[2023-08-07 17:05:07] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/14/ba/f79cf44c80f8365050a445f22664af2d2cced0fe5b277e5c6ec60c1076b4/CheeseAPI-0.0.6.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.4.tar.gz tmp/utfuzz-0.1.5.tar.gz --markdown 20230807/u/utfuzz/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230807/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.5.tar.gz tmp/CheeseAPI-0.0.6.tar.gz --markdown 20230807/C/CheeseAPI/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/0b/5c/850a9b38b8a453105923764a5eb91947d6b30d8d99c642f822441ca71daf/salure_helpers_profit-2.1.2.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [netlify-builds]: Downloading https://files.pythonhosted.org/packages/7d/fb/3286a7c20c01724b3e79b739e23c3f8c95fa19afcfdfcc5d1a11b443efef/netlify_builds-1.1.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [django-codemod]: Downloading https://files.pythonhosted.org/packages/95/fe/4047996bbde1a39e3d7cc6d43aec79405257d8d5329daf4013bda903a91d/django_codemod-2.1.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/fb/b9/b90f036c77bb5912ba07980307cdcf786668ee5f4b666ac6cac53b753667/mkdocs-macros-plugin-1.0.4.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/b8/0b/b7ee07710553e2c322207209f0c18530ab668d5bbae29d32f55dd21b81f0/stigg_api_client-0.526.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/09/d6/04dc0f90f99e59509378f258eb77354926c63ff4bc4250e5d6b61a8eced3/stigg_api_client_v2-0.526.0.tar.gz
+[2023-08-07 17:05:07] INFO root fetch - processPackages [netlify-builds]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [netlify-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlify_builds-1.0.0.tar.gz tmp/netlify_builds-1.1.0.tar.gz --markdown 20230807/n/netlify-builds/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-2.1.1.tar.gz tmp/salure_helpers_profit-2.1.2.tar.gz --markdown 20230807/s/salure-helpers-profit/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [django-codemod]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [django-codemod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_codemod-2.0.0.tar.gz tmp/django_codemod-2.1.0.tar.gz --markdown 20230807/d/django-codemod/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/5a/a1/6399aebfe896bcd9e3c1d2ce1515737c5b4126a22173b02e56944cc1b59d/mlrun-1.5.0rc3-py3-none-any.whl
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.524.0.tar.gz tmp/stigg_api_client_v2-0.526.0.tar.gz --markdown 20230807/s/stigg-api-client-v2/0.524.0-0.526.0/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [mkdocs-macros-plugin]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [mkdocs-macros-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-macros-plugin-1.0.2.tar.gz tmp/mkdocs-macros-plugin-1.0.4.tar.gz --markdown 20230807/m/mkdocs-macros-plugin/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-08-07 17:05:07] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.524.0.tar.gz tmp/stigg_api_client-0.526.0.tar.gz --markdown 20230807/s/stigg-api-client/0.524.0-0.526.0/diff.md --exclude *.pyd
+[2023-08-07 17:05:08] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-08-07 17:05:08] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.5.0rc2-py3-none-any.whl.zip tmp/mlrun-1.5.0rc3-py3-none-any.whl.zip --markdown 20230807/m/mlrun/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-08-07 17:05:08] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.4.tar.gz]
+[2023-08-07 17:05:08] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.5.tar.gz]
+[2023-08-07 17:05:08] INFO root fetch - processPackages [utfuzz]: Start processing: sgclimaapiclient
+[2023-08-07 17:05:08] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 17:05:08] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 17:05:08] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.5.tar.gz]
+[2023-08-07 17:05:08] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.6.tar.gz]
+[2023-08-07 17:05:08] INFO root fetch - processPackages [CheeseAPI]: Start processing: neco-f
+[2023-08-07 17:05:08] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-07 17:05:08] INFO root fetch - processPackages [neco-f]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/46/64/3b0284ecabae10d4ad07a7a5cbd360285dcf886bf4e1a3b0bd6986401745/neco_f-0.0.6.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [kfsd]: Start processing: planqk-quantum
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [netlify-builds]: Remove: archive file [/home/abi/fetcher/tmp/netlify_builds-1.0.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [netlify-builds]: Remove: archive file [/home/abi/fetcher/tmp/netlify_builds-1.1.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [netlify-builds]: Start processing: sgclimaapiclient
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [netlify-builds]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/e8/f5/fe18d42697399327eabc77976224fcd9a46837e549ac7b089303c89748e1/neco_f-0.0.7.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.524.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.526.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [stigg-api-client]: Start processing: py-astrolab
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-2.1.1.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-2.1.2.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [neco-f]: executing diffoscope
+[2023-08-07 17:05:09] INFO root fetch - processPackages [neco-f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neco_f-0.0.6.tar.gz tmp/neco_f-0.0.7.tar.gz --markdown 20230807/n/neco-f/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [django-codemod]: Remove: archive file [/home/abi/fetcher/tmp/django_codemod-2.0.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [django-codemod]: Remove: archive file [/home/abi/fetcher/tmp/django_codemod-2.1.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [django-codemod]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230807/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-08-07 17:05:09] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230807/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:05:09] INFO root fetch - processPackages [mkdocs-macros-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-macros-plugin-1.0.2.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [mkdocs-macros-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-macros-plugin-1.0.4.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [mkdocs-macros-plugin]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.524.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.526.0.tar.gz]
+[2023-08-07 17:05:09] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-08-07 17:05:09] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-08-07 17:05:09] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-07 17:05:10] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-08-07 17:05:10] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230807/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 17:05:10] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-07 17:05:10] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.6.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.7.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - main [MainThread]: End processing [neco-f]: success
+[2023-08-07 17:05:10] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-07 17:05:10] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230807/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-07 17:05:10] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-08-07 17:05:10] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-08-07 17:05:10] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-08-07 17:05:10] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-08-07 17:05:11] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-07 17:05:11] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-07 17:05:11] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-07 17:05:12] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.5.0rc2-py3-none-any.whl.zip]
+[2023-08-07 17:05:12] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.5.0rc3-py3-none-any.whl.zip]
+[2023-08-07 17:05:12] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-08-07 17:05:12] INFO root fetch - main [MainThread]: Store serial: [19207038]
