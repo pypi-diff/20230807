@@ -22038,3 +22038,104 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:49:33] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
 [2023-08-07 16:49:33] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-08-07 16:49:33] INFO root fetch - main [MainThread]: Store serial: [19206908]
+[2023-08-07 16:54:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206908]
+[2023-08-07 16:54:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-adt7410
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volstreet
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smile-id-core
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-workspace
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datarobotx
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Charles
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vzg.jconv
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multimetric
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: v2rayp
+[2023-08-07 16:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calfcv
+[2023-08-07 16:54:42] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [smile-id-core]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [volstreet]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [vzg.jconv]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [clean-workspace]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [datarobotx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [v2rayp]: New version: [0.7b9] Old Version: [0.7b8]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [micropython-adt7410]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [multimetric]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-08-07 16:54:42] WARNING root fetch - processPackages [Charles]: Skipping, unable to determine old version
+[2023-08-07 16:54:42] INFO root fetch - processPackages [Charles]: Start processing: nova-python
+[2023-08-07 16:54:42] INFO root fetch - main [MainThread]: End processing [Charles] error
+[2023-08-07 16:54:42] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a0/10/87c4494e3feb722ef6a5b0fee56a2aa1dd090c9268ec8ab0b52cbd6fc0a2/volstreet-1.1.0.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [smile-id-core]: Downloading https://files.pythonhosted.org/packages/b1/74/7e2df980d824836a6b78dfb5a8aa5cc834bdbf782c28faaba631e793cc14/smile_id_core-2.1.0.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [nova-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 16:54:42] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/a4/c4/a67c9e71206b7488b393001e87748b07fe9c80bb2c9bb5e5e3022ae627f6/vzg.jconv-1.2.7.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/5e/7b/b5be22ca605ef99a3469f13db0ec3c432a107b6d4130a4a2585136788251/micropython-adt7410-0.1.2.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [clean-workspace]: Downloading https://files.pythonhosted.org/packages/87/a0/e5ca6b4ac59ec074bd5e77b510c627e3e302885e53b4e5d783d5385492fc/clean_workspace-0.4.0.tar.gz
+[2023-08-07 16:54:42] INFO root fetch - processPackages [v2rayp]: Downloading https://files.pythonhosted.org/packages/92/d1/4eaccafdc2f7e05c6059cc786c4e3318910647bece9407b579e9346fd2fd/v2rayp-0.7b8.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/75/58/3828c31ec1f864f7faa18a4047418ea263afecf3e3a584542b307e6073c2/datarobotx-0.1.8-py3-none-any.whl
+[2023-08-07 16:54:43] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/96/79/d2feb50578e9e74a29c9fb970118657f15a8bb2458b5479f3e7a0372bcdf/multimetric-2.0.4.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [nova-python]: Downloading https://files.pythonhosted.org/packages/c5/97/233a87a2833b74ce1e95a6666136497050117467074f46e400a90113d0d3/nova_python-0.1.1.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [smile-id-core]: Downloading https://files.pythonhosted.org/packages/02/5d/411a7e11e572390cf27bc015147934733286923790879474710f6a299d29/smile_id_core-2.1.1.tar.gz
+[2023-08-07 16:54:43] WARNING root fetch - processPackages [v2rayp]: Skipping package: exceeds size limit 65584125>=10485760
+[2023-08-07 16:54:43] INFO root fetch - processPackages [v2rayp]: Start processing: all-repos-envvar
+[2023-08-07 16:54:43] INFO root fetch - main [MainThread]: End processing [v2rayp] error
+[2023-08-07 16:54:43] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/72/51/4920e89aab66a3850e6438abc77d6a131eb96db8f6370f49c7809aca8b36/volstreet-1.2.0.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [smile-id-core]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [smile-id-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smile_id_core-2.1.0.tar.gz tmp/smile_id_core-2.1.1.tar.gz --markdown 20230807/s/smile-id-core/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/06/89/8ceb8c1f81b98a2a8a564d46df0b710e608166650feb4bae1193f4cd85c3/vzg.jconv-1.3.0.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [all-repos-envvar]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 16:54:43] INFO root fetch - processPackages [clean-workspace]: Downloading https://files.pythonhosted.org/packages/fa/39/18a67389ce5dbe240607d84025ddda46175f53b8421678ce576464f410e6/clean_workspace-0.4.1.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [micropython-adt7410]: Downloading https://files.pythonhosted.org/packages/02/de/ecbe784caa24921ffa66ce552c4323968d2e1a40841d108c670e58df093e/micropython-adt7410-0.1.3.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.1.0.tar.gz tmp/volstreet-1.2.0.tar.gz --markdown 20230807/v/volstreet/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/d3/75/384232731cdb7640a98efa1b8ad27d7a1f881dd2c2bc5b3875d12c414ad1/multimetric-2.0.5.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [nova-python]: Downloading https://files.pythonhosted.org/packages/6b/b7/b6c897de82561d75cbafb6a73a057c71d919664f56aa3172beb505c1e065/nova_python-0.1.2.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [vzg.jconv]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [vzg.jconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vzg.jconv-1.2.7.tar.gz tmp/vzg.jconv-1.3.0.tar.gz --markdown 20230807/v/vzg.jconv/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/34/89/1a7b2ca1151869c42acd29743872d42e7810c227438c5745f10089041650/datarobotx-0.1.9-py3-none-any.whl
+[2023-08-07 16:54:43] INFO root fetch - processPackages [clean-workspace]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [clean-workspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_workspace-0.4.0.tar.gz tmp/clean_workspace-0.4.1.tar.gz --markdown 20230807/c/clean-workspace/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [all-repos-envvar]: Downloading https://files.pythonhosted.org/packages/c7/eb/671246c96508499b0d925f0a54b9db23a0f1fe5650e6dfbb47ff9f2a753e/all_repos_envvar-1.0.0.tar.gz
+[2023-08-07 16:54:43] INFO root fetch - processPackages [nova-python]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [nova-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova_python-0.1.1.tar.gz tmp/nova_python-0.1.2.tar.gz --markdown 20230807/n/nova-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [micropython-adt7410]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [micropython-adt7410]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-adt7410-0.1.2.tar.gz tmp/micropython-adt7410-0.1.3.tar.gz --markdown 20230807/m/micropython-adt7410/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [multimetric]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [multimetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimetric-2.0.4.tar.gz tmp/multimetric-2.0.5.tar.gz --markdown 20230807/m/multimetric/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-08-07 16:54:43] INFO root fetch - processPackages [datarobotx]: executing diffoscope
+[2023-08-07 16:54:43] INFO root fetch - processPackages [datarobotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobotx-0.1.8-py3-none-any.whl.zip tmp/datarobotx-0.1.9-py3-none-any.whl.zip --markdown 20230807/d/datarobotx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 16:54:44] INFO root fetch - processPackages [all-repos-envvar]: Downloading https://files.pythonhosted.org/packages/d6/79/24ab6d0e0045ea9da0d97d93f2ebd72dffc174351bee9d5c9e4664ee5efd/all_repos_envvar-1.1.0.tar.gz
+[2023-08-07 16:54:44] INFO root fetch - processPackages [all-repos-envvar]: executing diffoscope
+[2023-08-07 16:54:44] INFO root fetch - processPackages [all-repos-envvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all_repos_envvar-1.0.0.tar.gz tmp/all_repos_envvar-1.1.0.tar.gz --markdown 20230807/a/all-repos-envvar/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:54:44] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 16:54:44] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 16:54:44] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 16:54:44] INFO root fetch - processPackages [smile-id-core]: Remove: archive file [/home/abi/fetcher/tmp/smile_id_core-2.1.0.tar.gz]
+[2023-08-07 16:54:44] INFO root fetch - processPackages [smile-id-core]: Remove: archive file [/home/abi/fetcher/tmp/smile_id_core-2.1.1.tar.gz]
+[2023-08-07 16:54:44] INFO root fetch - main [MainThread]: End processing [smile-id-core]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [clean-workspace]: Remove: archive file [/home/abi/fetcher/tmp/clean_workspace-0.4.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [clean-workspace]: Remove: archive file [/home/abi/fetcher/tmp/clean_workspace-0.4.1.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [clean-workspace]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.1.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.2.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [nova-python]: Remove: archive file [/home/abi/fetcher/tmp/nova_python-0.1.1.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [nova-python]: Remove: archive file [/home/abi/fetcher/tmp/nova_python-0.1.2.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [nova-python]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.7.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.3.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [vzg.jconv]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.4.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.5.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [multimetric]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.2.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [micropython-adt7410]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adt7410-0.1.3.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [micropython-adt7410]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [all-repos-envvar]: Remove: archive file [/home/abi/fetcher/tmp/all_repos_envvar-1.0.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [all-repos-envvar]: Remove: archive file [/home/abi/fetcher/tmp/all_repos_envvar-1.1.0.tar.gz]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [all-repos-envvar]: success
+[2023-08-07 16:54:45] INFO root fetch - processPackages [datarobotx]: Remove: archive file [/home/abi/fetcher/tmp/datarobotx-0.1.8-py3-none-any.whl.zip]
+[2023-08-07 16:54:45] INFO root fetch - processPackages [datarobotx]: Remove: archive file [/home/abi/fetcher/tmp/datarobotx-0.1.9-py3-none-any.whl.zip]
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [datarobotx]: success
+[2023-08-07 16:54:45] INFO root fetch - main [MainThread]: Store serial: [19206951]
