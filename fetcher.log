@@ -5552,3 +5552,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:20:59] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.9.tar.gz]
 [2023-08-07 04:20:59] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-08-07 04:20:59] INFO root fetch - main [MainThread]: Store serial: [19199755]
+[2023-08-07 04:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199755]
+[2023-08-07 04:26:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CheeseAPI
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playgroundrl
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bk-plugin-framework
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-messaging
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gedcom5
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HaploDynamics
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eliasliu
+[2023-08-07 04:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specklia
+[2023-08-07 04:26:09] INFO root fetch - processPackages [eliasliu]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b7] Old Version: [0.1b6]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/e6/e2/f34b1441597501d26a1578418b5f868f0ef52fd48282ea58b6dd6dd641c2/HaploDynamics-0.1b6.tar.gz
+[2023-08-07 04:26:09] WARNING root fetch - processPackages [pypomes-messaging]: Skipping, unable to determine old version
+[2023-08-07 04:26:09] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 04:26:09] INFO root fetch - main [MainThread]: End processing [pypomes-messaging] error
+[2023-08-07 04:26:09] INFO root fetch - processPackages [playgroundrl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [bk-plugin-framework]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [gedcom5]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 04:26:09] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/b1/af/94f9b2b7c91291105302334ede06b2dfb3dffeb50e881b34670b19936356/eliasliu-0.1.2.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/ab/ee/5fe4ceacab606a0674800dc11fe496ac08d3f69abdf2e00670cf794e6e8d/CheeseAPI-0.0.5.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [gedcom5]: Downloading https://files.pythonhosted.org/packages/77/e8/10575198fd7a482791803deac5175d1d23cfc5e370e37d1c7a98393cb346/gedcom5-0.1.1.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/9d/e0/80d60b041d8f4e21266e674a9476849ef01ccdea33aa014940a6e4b1e04b/playgroundrl-0.1.0.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/6f/d7/42f6eace5fe101d739a45eec41095bce13f7c7b1fd79e723f307bc91f785/bk-plugin-framework-2.0.3.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/43/77/681dd636417a1a943c68a8c648c2f6e52099f25a65101103b185d9f3a12b/HaploDynamics-0.1b7.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/3c/6a/72ef6eb66f5b53e3b067644bb2baacb9d1f611e90976d4c615feba1ef4c9/eliasliu-0.1.3.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-08-07 04:26:09] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230807/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-07 04:26:09] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 04:26:09] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.2.tar.gz tmp/eliasliu-0.1.3.tar.gz --markdown 20230807/e/eliasliu/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 04:26:09] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 04:26:09] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b6.tar.gz tmp/HaploDynamics-0.1b7.tar.gz --markdown 20230807/H/HaploDynamics/0.1b6-0.1b7/diff.md --exclude *.pyd
+[2023-08-07 04:26:09] INFO root fetch - processPackages [gedcom5]: Downloading https://files.pythonhosted.org/packages/fc/3a/becfc81ad8c381bdebc1acbccf28f429e76ea6cd1adcc1516abe3d5532bd/gedcom5-0.1.2.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/14/ba/f79cf44c80f8365050a445f22664af2d2cced0fe5b277e5c6ec60c1076b4/CheeseAPI-0.0.6.tar.gz
+[2023-08-07 04:26:09] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/f8/75/118d1672a0a740d18dec5484bee902535c8a7a1012cd3e2527e2b02aff5a/playgroundrl-0.1.1.tar.gz
+[2023-08-07 04:26:10] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/84/3e/03f7c9537c8f902d0a66fa716dcf2352f68cc7958c8263e2e0f92243c7e5/bk-plugin-framework-2.0.4.tar.gz
+[2023-08-07 04:26:10] INFO root fetch - processPackages [playgroundrl]: executing diffoscope
+[2023-08-07 04:26:10] INFO root fetch - processPackages [playgroundrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl-0.1.0.tar.gz tmp/playgroundrl-0.1.1.tar.gz --markdown 20230807/p/playgroundrl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 04:26:10] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-07 04:26:10] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.5.tar.gz tmp/CheeseAPI-0.0.6.tar.gz --markdown 20230807/C/CheeseAPI/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 04:26:10] INFO root fetch - processPackages [gedcom5]: executing diffoscope
+[2023-08-07 04:26:10] INFO root fetch - processPackages [gedcom5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedcom5-0.1.1.tar.gz tmp/gedcom5-0.1.2.tar.gz --markdown 20230807/g/gedcom5/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 04:26:10] INFO root fetch - processPackages [bk-plugin-framework]: executing diffoscope
+[2023-08-07 04:26:10] INFO root fetch - processPackages [bk-plugin-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-framework-2.0.3.tar.gz tmp/bk-plugin-framework-2.0.4.tar.gz --markdown 20230807/b/bk-plugin-framework/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-07 04:26:10] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-08-07 04:26:10] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-08-07 04:26:10] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-08-07 04:26:10] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.2.tar.gz]
+[2023-08-07 04:26:10] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.3.tar.gz]
+[2023-08-07 04:26:10] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 04:26:11] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b6.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b7.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 04:26:11] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.1.0.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.1.1.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [playgroundrl]: success
+[2023-08-07 04:26:11] INFO root fetch - processPackages [gedcom5]: Remove: archive file [/home/abi/fetcher/tmp/gedcom5-0.1.1.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - processPackages [gedcom5]: Remove: archive file [/home/abi/fetcher/tmp/gedcom5-0.1.2.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [gedcom5]: success
+[2023-08-07 04:26:11] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.5.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.6.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-07 04:26:11] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.3.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.4.tar.gz]
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
+[2023-08-07 04:26:11] INFO root fetch - main [MainThread]: Store serial: [19199777]
