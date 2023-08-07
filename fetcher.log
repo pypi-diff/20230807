@@ -18171,3 +18171,87 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:01:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-08-07 14:01:21] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-08-07 14:01:21] INFO root fetch - main [MainThread]: Store serial: [19205110]
+[2023-08-07 14:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205110]
+[2023-08-07 14:06:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TelegramContract2vCard
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segytools
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bia-bob
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-analytics-logger
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grater-expectations
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mujoco-dev
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rgpvApi
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iamlistening
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dxsp
+[2023-08-07 14:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: amniotic
+[2023-08-07 14:06:29] INFO root fetch - processPackages [bia-bob]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 14:06:30] WARNING root fetch - processPackages [TelegramContract2vCard]: Skipping, unable to determine old version
+[2023-08-07 14:06:30] INFO root fetch - processPackages [TelegramContract2vCard]: Start processing: String-concept
+[2023-08-07 14:06:30] INFO root fetch - main [MainThread]: End processing [TelegramContract2vCard] error
+[2023-08-07 14:06:30] WARNING root fetch - processPackages [edx-analytics-logger]: Skipping, unable to determine old version
+[2023-08-07 14:06:30] INFO root fetch - main [MainThread]: End processing [edx-analytics-logger] error
+[2023-08-07 14:06:30] INFO root fetch - processPackages [segytools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [iamlistening]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [dxsp]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [grater-expectations]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [rgpvApi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/e7/d2/1010097c6b9d8f0f10d137ec9c46e681085b75dd5d96fe5837bdb7010803/bia-bob-0.1.1.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-07 14:06:30] WARNING root fetch - processPackages [String-concept]: Skipping, unable to determine old version
+[2023-08-07 14:06:30] INFO root fetch - main [MainThread]: End processing [String-concept] error
+[2023-08-07 14:06:30] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/4f/c9/a6a9b6d459c40c62517670298617cf352068673627955725f96e6bd0cab8/iamlistening-3.1.4.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/fe/e1/429522f521ad074e905af1d7637d3a2c8d8329e1966e9aa7fe21da88be40/dxsp-4.2.8.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.8.dev554438423] Old Version: [2.3.8.dev554419319]
+[2023-08-07 14:06:30] INFO root fetch - processPackages [segytools]: Downloading https://files.pythonhosted.org/packages/15/4b/7ec50183db9f7e3c5c7b0f0bb12a81ea7e7655620dfd503887fd9463b610/segytools-0.2.1.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [grater-expectations]: Downloading https://files.pythonhosted.org/packages/17/31/4770c20002cd6b04c12174df684e8dd2cbec355d7bbc6edf8ae9fabb229f/grater_expectations-1.1.2-py3-none-any.whl
+[2023-08-07 14:06:30] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/70/23/da0a9ac20939fe3c24a7dc6c66dbe10f4694b396c4da4980a9fe2ac095d3/rgpvApi-1.0.1.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/cc/f7/828b4f40a4ad47435df042709e0ba95c723a99a78c7a46c8ec3999809974/bia-bob-0.1.2.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ef/ea/4c6e576524518f61f429bbb504e810d37ebfc655c2a60014d621c281d136/iamlistening-3.1.5.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/59/2a/d4b0901f40f0a789fad754844659484fe40998ffdc92f2efe830cbd7f8e3/dxsp-4.2.9.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/be/db/699f96f01b91a81b3fc61547964f33cb137dc96078fbc97e7a9637e06093/mujoco_dev-2.3.8.dev554419319-cp39-cp39-win_amd64.whl
+[2023-08-07 14:06:30] INFO root fetch - processPackages [bia-bob]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [bia-bob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia-bob-0.1.1.tar.gz tmp/bia-bob-0.1.2.tar.gz --markdown 20230807/b/bia-bob/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 14:06:30] INFO root fetch - processPackages [segytools]: Downloading https://files.pythonhosted.org/packages/45/8c/16f5d9a65436b96efde868bd7e3bd97f02f93eb7d1502a14674e13f93556/segytools-0.2.2.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-3.1.4.tar.gz tmp/iamlistening-3.1.5.tar.gz --markdown 20230807/i/iamlistening/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-08-07 14:06:30] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.2.8.tar.gz tmp/dxsp-4.2.9.tar.gz --markdown 20230807/d/dxsp/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-08-07 14:06:30] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230807/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-07 14:06:30] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/a9/b6/3a60f173d1151bb7f5a8db122f8a3fc231e97d170870b2ce953443f7fcb6/rgpvApi-1.0.2.tar.gz
+[2023-08-07 14:06:30] INFO root fetch - processPackages [segytools]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [segytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segytools-0.2.1.tar.gz tmp/segytools-0.2.2.tar.gz --markdown 20230807/s/segytools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 14:06:30] INFO root fetch - processPackages [rgpvApi]: executing diffoscope
+[2023-08-07 14:06:30] INFO root fetch - processPackages [rgpvApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgpvApi-1.0.1.tar.gz tmp/rgpvApi-1.0.2.tar.gz --markdown 20230807/r/rgpvApi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:06:31] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/12/a5/19900d80467cfb887dda7f58f0ee61f19971d2f0a3621a635d086bc9a474/mujoco_dev-2.3.8.dev554438423-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-07 14:06:31] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.1.1.tar.gz]
+[2023-08-07 14:06:31] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.1.2.tar.gz]
+[2023-08-07 14:06:31] INFO root fetch - main [MainThread]: End processing [bia-bob]: success
+[2023-08-07 14:06:31] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.4.tar.gz]
+[2023-08-07 14:06:31] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.5.tar.gz]
+[2023-08-07 14:06:31] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-08-07 14:06:32] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-07 14:06:32] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.8.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.9.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-08-07 14:06:32] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-1.0.1.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-1.0.2.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - main [MainThread]: End processing [rgpvApi]: success
+[2023-08-07 14:06:32] INFO root fetch - processPackages [segytools]: Remove: archive file [/home/abi/fetcher/tmp/segytools-0.2.1.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - processPackages [segytools]: Remove: archive file [/home/abi/fetcher/tmp/segytools-0.2.2.tar.gz]
+[2023-08-07 14:06:32] INFO root fetch - main [MainThread]: End processing [segytools]: success
+[2023-08-07 14:06:32] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-08-07 14:06:32] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.8.dev554419319-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.8.dev554438423-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230807/m/mujoco-dev/2.3.8.dev554419319-2.3.8.dev554438423/diff.md --exclude *.pyd
+[2023-08-07 14:06:32] INFO root fetch - processPackages [grater-expectations]: Downloading https://files.pythonhosted.org/packages/ce/7f/399b2542342facc242de64d7ddef50a4f95e615715a514834b4fa09745cd/grater_expectations-1.1.3-py3-none-any.whl
+[2023-08-07 14:06:33] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554419319-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 14:06:33] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554438423-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-07 14:06:33] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-08-07 14:06:34] INFO root fetch - processPackages [grater-expectations]: executing diffoscope
+[2023-08-07 14:06:34] INFO root fetch - processPackages [grater-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grater_expectations-1.1.2-py3-none-any.whl.zip tmp/grater_expectations-1.1.3-py3-none-any.whl.zip --markdown 20230807/g/grater-expectations/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 14:06:36] INFO root fetch - processPackages [grater-expectations]: Remove: archive file [/home/abi/fetcher/tmp/grater_expectations-1.1.2-py3-none-any.whl.zip]
+[2023-08-07 14:06:36] INFO root fetch - processPackages [grater-expectations]: Remove: archive file [/home/abi/fetcher/tmp/grater_expectations-1.1.3-py3-none-any.whl.zip]
+[2023-08-07 14:06:36] INFO root fetch - main [MainThread]: End processing [grater-expectations]: success
+[2023-08-07 14:06:36] INFO root fetch - main [MainThread]: Store serial: [19205152]
