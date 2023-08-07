@@ -8887,3 +8887,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:44:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
 [2023-08-07 08:44:43] INFO root fetch - main [MainThread]: End processing [xfem]: success
 [2023-08-07 08:44:43] INFO root fetch - main [MainThread]: Store serial: [19201396]
+[2023-08-07 08:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201396]
+[2023-08-07 08:49:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t3qai-client
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bolt11
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finflo
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jijzeptlab-client
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: namekoplus
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zcc-helper
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openstef
+[2023-08-07 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thipster
+[2023-08-07 08:49:51] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 08:49:51] INFO root fetch - processPackages [zcc-helper]: New version: [3.2.dev3] Old Version: [3.2.dev2]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [bolt11]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [t3qai-client]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [thipster]: New version: [0.23.7] Old Version: [0.23.6]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.4.0rc1] Old Version: [0.4.0]
+[2023-08-07 08:49:52] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/ca/01/fd970ffa7ad1cbdf4c1ff522a51d601030c03dd092cb96115220847fa6cd/zcc-helper-3.2.dev2.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/11/8e/2225f7a88872e793fbdefc5644eea32bca410b9474020cf364cf015d3210/t3qai_client-1.1.5-py3-none-any.whl
+[2023-08-07 08:49:52] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/43/ff/b60c3f69a5e20ffc9123772d3340121f8c152f4a4f56dd3a1da605289102/bolt11-1.0.3.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/80/d6/ad387132e2efd71ab82cc7df82dcfcb77b3a7f7ae1d05572106dd3d5ec20/thipster-0.23.6.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/0b/94/1512281f8fe136ca12bc264786fe17c13a52605d3b58447f54c3411674b5/zcc-helper-3.2.dev3.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/0a/a3/a28c4acf68bfce5f22541d77f3758a32badf75fd034a1006d0df0d55a118/jijzeptlab_client-0.4.0-cp39-cp39-win_amd64.whl
+[2023-08-07 08:49:52] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 08:49:52] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 08:49:52] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-08-07 08:49:52] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.2.dev2.tar.gz tmp/zcc-helper-3.2.dev3.tar.gz --markdown 20230807/z/zcc-helper/3.2.dev2-3.2.dev3/diff.md --exclude *.pyd
+[2023-08-07 08:49:52] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/cb/e3/ad56f31a866d2bbef5894b2a385dd2a7c4525d4c3a375bc447cdc0c737f6/t3qai_client-1.1.6-py3-none-any.whl
+[2023-08-07 08:49:52] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/6e/9f/d0c7d7582df4541518c96583ba0a3606193f165214ca6d77f66543530a9a/bolt11-1.0.4.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/73/77/e7f9ed97e9585b5fd5e570d00b34d19181694b08187ed30959cc136732e1/thipster-0.23.7.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [bolt11]: executing diffoscope
+[2023-08-07 08:49:52] INFO root fetch - processPackages [bolt11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt11-1.0.3.tar.gz tmp/bolt11-1.0.4.tar.gz --markdown 20230807/b/bolt11/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-07 08:49:52] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [t3qai-client]: executing diffoscope
+[2023-08-07 08:49:52] INFO root fetch - processPackages [t3qai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t3qai_client-1.1.5-py3-none-any.whl.zip tmp/t3qai_client-1.1.6-py3-none-any.whl.zip --markdown 20230807/t/t3qai-client/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-08-07 08:49:52] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-08-07 08:49:52] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-08-07 08:49:52] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.23.6.tar.gz tmp/thipster-0.23.7.tar.gz --markdown 20230807/t/thipster/0.23.6-0.23.7/diff.md --exclude *.pyd
+[2023-08-07 08:49:53] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-08-07 08:49:53] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230807/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-08-07 08:49:53] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/ae/20/e55b0136f2b77ef08ebdbafdf29c617bd059490536131116caba06f4b979/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 08:49:53] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-08-07 08:49:53] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230807/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 08:49:53] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-08-07 08:49:53] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/j/jijzeptlab-client/0.4.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-08-07 08:49:54] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.5-py3-none-any.whl.zip]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.6-py3-none-any.whl.zip]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [t3qai-client]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev2.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev3.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.6.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.7.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.3.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.4.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [bolt11]: success
+[2023-08-07 08:49:54] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.8.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.9.tar.gz]
+[2023-08-07 08:49:54] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-08-07 08:49:55] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:49:55] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:49:55] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-08-07 08:49:55] INFO root fetch - main [MainThread]: Store serial: [19201447]
