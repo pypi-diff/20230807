@@ -5621,3 +5621,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:26:11] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.4.tar.gz]
 [2023-08-07 04:26:11] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
 [2023-08-07 04:26:11] INFO root fetch - main [MainThread]: Store serial: [19199777]
+[2023-08-07 04:31:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199777]
+[2023-08-07 04:31:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-define
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nepal
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onqlave-python
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: austrakka
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaylib
+[2023-08-07 04:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chalk-harness
+[2023-08-07 04:31:20] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.8.6] Old Version: [2023.8.5]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [python-define]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [yaylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230807] Old Version: [1.2.20230806]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [onqlave-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/52/e5/76d4565829859095a98ccdd1dd2c7d17d6398cce8940af00466cd1d320d6/naif_eop_high_prec-2023.8.5.tar.gz
+[2023-08-07 04:31:20] WARNING root fetch - processPackages [nepal]: Skipping, unable to determine old version
+[2023-08-07 04:31:20] INFO root fetch - main [MainThread]: End processing [nepal] error
+[2023-08-07 04:31:20] INFO root fetch - processPackages [austrakka]: New version: [0.33.0] Old Version: [0.32.5]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/22/e7/e20fd96c27e581e57d036ce6125d48612901b5f12fa50d7ad9d879f35df2/python-define-1.1.4.tar.gz
+[2023-08-07 04:31:20] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/1d/05/e401bebd5ece20d6c90034c99cb429d322ee8eda89e2718c1f786ad41c74/yaylib-1.0.8.tar.gz
+[2023-08-07 04:31:20] INFO root fetch - processPackages [chalk-harness]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-08-07 04:31:20] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/89/59/57a9c1b95f3aae9ee4f8634e75002d1d86f135af2ff110611a4f2052e1c1/iam_actions-1.2.20230806.tar.gz
+[2023-08-07 04:31:20] INFO root fetch - processPackages [onqlave-python]: Downloading https://files.pythonhosted.org/packages/2d/e8/d7002180514cbbd519b256cd395c5869b8fd7747f9c0336f0e6afa4b173d/onqlave-python-0.1.1.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/f2/74/eb42bc9efe2995916d8ba3895116f2f6002ca375f915b7e654295d639f17/chalk-harness-1.2.1.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/c3/7a/2b20cb36f92a401c643bcb198ac3bdff227bfb35019db373c1e0c71173c9/austrakka-0.32.5-py3-none-any.whl
+[2023-08-07 04:31:21] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/5e/02/caa3bdf6eeb39d851cb4faeb326e5649a5b4375924cf050c5494a4d6c4bd/yaylib-1.0.9.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/b2/fc/098ed461ade6d85234c6babaa082efc4fca20d07cc02a5f3bab95c204463/python-define-1.2.0.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.8.tar.gz tmp/yaylib-1.0.9.tar.gz --markdown 20230807/y/yaylib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.1.4.tar.gz tmp/python-define-1.2.0.tar.gz --markdown 20230807/p/python-define/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/df/f2/83992d057bab89e9ab172c3a33ac3105a6a6be4c55eb2d1109e97bbd7e56/iam_actions-1.2.20230807.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [onqlave-python]: Downloading https://files.pythonhosted.org/packages/18/cf/148ad6452d752843eb0896bc455807be69deaa918c8a23e9b6d2c25b322c/onqlave-python-0.1.2.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/54/c1/f81162ef8837c8270f12b3cb05187cee5486ee4466f4dea50a3a59c3a2e0/chalk-harness-1.2.2.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/c6/a5/e58cec3a40a54040bd1260ef5eac1b0e3339cc658777a288160751e6ec66/naif_eop_high_prec-2023.8.6.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/38/85/37efb0ffbb90dd30d4052f838b46b91901f40812421c5d32315a55b039f8/austrakka-0.33.0-py3-none-any.whl
+[2023-08-07 04:31:21] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-08-07 04:31:21] INFO root fetch - processPackages [onqlave-python]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [onqlave-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-0.1.1.tar.gz tmp/onqlave-python-0.1.2.tar.gz --markdown 20230807/o/onqlave-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230806.tar.gz tmp/iam_actions-1.2.20230807.tar.gz --markdown 20230807/i/iam-actions/1.2.20230806-1.2.20230807/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.32.5-py3-none-any.whl.zip tmp/austrakka-0.33.0-py3-none-any.whl.zip --markdown 20230807/a/austrakka/0.32.5-0.33.0/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.2.1.tar.gz tmp/chalk-harness-1.2.2.tar.gz --markdown 20230807/c/chalk-harness/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230807/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230807/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-08-07 04:31:21] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-08-07 04:31:21] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.8.5.tar.gz tmp/naif_eop_high_prec-2023.8.6.tar.gz --markdown 20230807/n/naif-eop-high-prec/2023.8.5-2023.8.6/diff.md --exclude *.pyd
+[2023-08-07 04:31:22] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.1.4.tar.gz]
+[2023-08-07 04:31:22] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.2.0.tar.gz]
+[2023-08-07 04:31:22] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.2.1.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.2.2.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.8.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.9.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [onqlave-python]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-0.1.1.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [onqlave-python]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-0.1.2.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [onqlave-python]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.5-py3-none-any.whl.zip]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.33.0-py3-none-any.whl.zip]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-08-07 04:31:23] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230806.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230807.tar.gz]
+[2023-08-07 04:31:23] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-07 04:31:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.5.tar.gz]
+[2023-08-07 04:31:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.6.tar.gz]
+[2023-08-07 04:31:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-08-07 04:31:24] INFO root fetch - main [MainThread]: Store serial: [19199810]
