@@ -8352,3 +8352,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:18:33] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230806.tar.gz]
 [2023-08-07 08:18:33] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-08-07 08:18:33] INFO root fetch - main [MainThread]: Store serial: [19201101]
+[2023-08-07 08:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201101]
+[2023-08-07 08:23:42] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: league-shop-base
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-protobuf
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cloudformation-fastly-services-backend
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cloudformation-fastly-services-service
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cloudformation-fastly-services-version
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyimporters-csv
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meggie-difference
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cloudformation-fastly-tls-domain
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: themule
+[2023-08-07 08:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-cloudformation-fastly-dictionary-dictionaryitem
+[2023-08-07 08:23:42] WARNING root fetch - processPackages [meggie-difference]: Skipping, unable to determine old version
+[2023-08-07 08:23:42] INFO root fetch - processPackages [meggie-difference]: Start processing: cdk-cloudformation-fastly-logging-s3
+[2023-08-07 08:23:42] INFO root fetch - main [MainThread]: End processing [meggie-difference] error
+[2023-08-07 08:23:42] INFO root fetch - processPackages [types-protobuf]: New version: [4.23.0.3] Old Version: [4.23.0.2]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: New version: [1.5.0a7] Old Version: [1.4.0a7]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-08-07 08:23:42] WARNING root fetch - processPackages [cdk-cloudformation-fastly-services-version]: Skipping, unable to determine old version
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-version]: Start processing: cdk-cloudformation-fastly-services-activeversion
+[2023-08-07 08:23:42] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-version] error
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [themule]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/90/b4/75a3a199476ee1ba8cbd941e9efdae9149f52f24c351df3af9eb666a5c82/types-protobuf-4.23.0.2.tar.gz
+[2023-08-07 08:23:42] WARNING root fetch - processPackages [cdk-cloudformation-fastly-services-activeversion]: Skipping, unable to determine old version
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-activeversion]: Start processing: aviatrix-discovery
+[2023-08-07 08:23:42] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-activeversion] error
+[2023-08-07 08:23:42] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: Downloading https://files.pythonhosted.org/packages/88/57/1c1963d3c710b0f90f3b14d3b2cf85bdbee299f55e859ff8e6cc32619513/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.4.0a7.tar.gz
+[2023-08-07 08:23:42] INFO root fetch - processPackages [themule]: Downloading https://files.pythonhosted.org/packages/4b/d7/d4dd1d1b978cf4bf5435c7c74fb5247597ad8471e037c08ef3db90788e97/themule-0.1.3.tar.gz
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: Downloading https://files.pythonhosted.org/packages/24/00/38a338e49d779a0583baeb12777b1914338a09408feb649290493d9a0b32/cdk-cloudformation-fastly-services-backend-1.2.0a7.tar.gz
+[2023-08-07 08:23:42] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: Downloading https://files.pythonhosted.org/packages/87/e7/c28f51f879fde8655c8845db5086357f229f058805c03f8e3912fdd4d19b/cdk-cloudformation-fastly-services-service-1.2.0a7.tar.gz
+[2023-08-07 08:23:42] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: Downloading https://files.pythonhosted.org/packages/6e/22/35c3473760c283c7e2c73768441dbd9d90eb69b145f699cbe6fd64dcdad2/cdk-cloudformation-fastly-logging-s3-1.1.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: Downloading https://files.pythonhosted.org/packages/fd/d4/67382963fd87c32ef86fe9bd67b2a4bafb26bf8bbddb0e3edc01853a4d6e/cdk-cloudformation-fastly-tls-domain-1.1.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/6b/79/28c66af9157fb09069232d9f33f23d68f6e76d5599a11b399d604a855808/types-protobuf-4.23.0.3.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-08-07 08:23:43] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [themule]: Downloading https://files.pythonhosted.org/packages/58/07/2497ae2d17674745033e16609fbc2d94a573c82b2171f2e87ce4f048f0c4/themule-0.2.0.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: Downloading https://files.pythonhosted.org/packages/ce/62/02dcadb9b56d557799ca7f679daa90858530d22038629271ef30edbcfc32/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.5.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.23.0.2.tar.gz tmp/types-protobuf-4.23.0.3.tar.gz --markdown 20230807/t/types-protobuf/4.23.0.2-4.23.0.3/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: Downloading https://files.pythonhosted.org/packages/e6/59/d055f371a2a2d8ca9243e3d4474b7b1eb0be98f3b24dea0c4acc24256deb/cdk-cloudformation-fastly-services-backend-1.4.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: Downloading https://files.pythonhosted.org/packages/a3/ef/fcf90da54f00a40d78bf6035ca87758a56b928586f067f52a305442b1bf0/cdk-cloudformation-fastly-services-service-1.4.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: Downloading https://files.pythonhosted.org/packages/a2/cf/48ab3e7ae3b56251f43af44068f586ec001829943caef6abfc77fb20564f/cdk-cloudformation-fastly-logging-s3-1.3.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [themule]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [themule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themule-0.1.3.tar.gz tmp/themule-0.2.0.tar.gz --markdown 20230807/t/themule/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: Downloading https://files.pythonhosted.org/packages/40/7e/c49d1ca1d8bc43bfd8daef246fea5dbb74dbbabca6d045e414b266d44af9/cdk-cloudformation-fastly-tls-domain-1.3.0a7.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.4.0a7.tar.gz tmp/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.5.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-dictionary-dictionaryitem/1.4.0a7-1.5.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-services-backend-1.2.0a7.tar.gz tmp/cdk-cloudformation-fastly-services-backend-1.4.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-services-backend/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-services-service-1.2.0a7.tar.gz tmp/cdk-cloudformation-fastly-services-service-1.4.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-services-service/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-logging-s3-1.1.0a7.tar.gz tmp/cdk-cloudformation-fastly-logging-s3-1.3.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-logging-s3/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-tls-domain-1.1.0a7.tar.gz tmp/cdk-cloudformation-fastly-tls-domain-1.3.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-tls-domain/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230807/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 08:23:43] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-08-07 08:23:43] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230807/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 08:23:45] INFO root fetch - processPackages [themule]: Remove: archive file [/home/abi/fetcher/tmp/themule-0.1.3.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [themule]: Remove: archive file [/home/abi/fetcher/tmp/themule-0.2.0.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [themule]: Start processing: cdk-cloudformation-fastly-logging-splunk
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [themule]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.23.0.2.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.23.0.3.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [types-protobuf]: Start processing: cdk-cloudformation-fastly-tls-privatekeys
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-backend-1.2.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-backend-1.4.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-backend]: Start processing: cdk-cloudformation-fastly-services-healthcheck
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-backend]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.4.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-dictionary-dictionaryitem-1.5.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionaryitem]: Start processing: gravomg
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-dictionary-dictionaryitem]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-08-07 08:23:45] WARNING root fetch - processPackages [gravomg]: Skipping, unable to determine old version
+[2023-08-07 08:23:45] INFO root fetch - processPackages [gravomg]: Start processing: cdk-cloudformation-fastly-tls-certificate
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [gravomg] error
+[2023-08-07 08:23:45] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [pyimporters-csv]: Start processing: aviatrix-migration
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [aviatrix-discovery]: Start processing: cdk-amazon-chime-resources
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: Downloading https://files.pythonhosted.org/packages/62/a2/6613ef76ea311d11019af2e60aa81e866374fb1099d9a7315ca93e3d0439/cdk-cloudformation-fastly-logging-splunk-1.1.0a7.tar.gz
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-service-1.2.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-service-1.4.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-service]: Start processing: cdk-cloudformation-fastly-dictionary-dictionary
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-service]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: Downloading https://files.pythonhosted.org/packages/4e/0f/cdbc35e523c740de00d5e7d1f56e2809bc33890c2046bf4e277daafc257c/cdk-cloudformation-fastly-tls-privatekeys-1.1.0a7.tar.gz
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-domain-1.1.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-domain-1.3.0a7.tar.gz]
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-domain]: Start processing: opower
+[2023-08-07 08:23:45] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-tls-domain]: success
+[2023-08-07 08:23:45] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: Downloading https://files.pythonhosted.org/packages/a3/36/6713885b787673f315c813315191e7e3a55565a752e4ee41dc7a32bf3fa2/cdk-cloudformation-fastly-services-healthcheck-1.2.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-logging-s3-1.1.0a7.tar.gz]
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-s3]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-logging-s3-1.3.0a7.tar.gz]
+[2023-08-07 08:23:46] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-logging-s3]: success
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: Downloading https://files.pythonhosted.org/packages/e2/fa/ca5b17e2ffc07861bae76f0007f3bad49dbe0b35e48b69c465ac84636d3a/cdk-cloudformation-fastly-tls-certificate-1.1.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-08-07 08:23:46] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-08-07 08:23:46] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-08-07 08:23:46] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 08:23:46] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-08-07 08:23:46] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: Downloading https://files.pythonhosted.org/packages/4b/02/40cf24dd9fa4a8d55bc595a85ea4bed4c182ebd97414e54d38e0c0e9e0ec/cdk-cloudformation-fastly-logging-splunk-1.3.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: Downloading https://files.pythonhosted.org/packages/03/72/a75141018ad501e53fc530a001cae823f39123a2fa9f68bfa40e28be97c6/cdk-cloudformation-fastly-tls-privatekeys-1.3.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-logging-splunk-1.1.0a7.tar.gz tmp/cdk-cloudformation-fastly-logging-splunk-1.3.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-logging-splunk/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:46] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: Downloading https://files.pythonhosted.org/packages/51/49/309424f9f64cc48b9a533d1d0398ba1808d69b08b87f28be3b980b889f69/cdk-cloudformation-fastly-tls-certificate-1.3.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: Downloading https://files.pythonhosted.org/packages/fb/87/220ad021a95d097a08b41817576417fcaff57f874f6bad970dc12cb1284e/cdk-cloudformation-fastly-dictionary-dictionary-1.2.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-tls-privatekeys-1.1.0a7.tar.gz tmp/cdk-cloudformation-fastly-tls-privatekeys-1.3.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-tls-privatekeys/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: Downloading https://files.pythonhosted.org/packages/ba/c3/6f578eb8284cbe20fe243f57dfd42387705e3110ae9c01a1bb2585af05d7/cdk-cloudformation-fastly-services-healthcheck-1.4.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-tls-certificate-1.1.0a7.tar.gz tmp/cdk-cloudformation-fastly-tls-certificate-1.3.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-tls-certificate/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:46] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-services-healthcheck-1.2.0a7.tar.gz tmp/cdk-cloudformation-fastly-services-healthcheck-1.4.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-services-healthcheck/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:46] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230807/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 08:23:46] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: Downloading https://files.pythonhosted.org/packages/c3/31/e2fec97c2c27c11905826c2f64611062f4db691c7d202a20cb5adc8ce7e9/cdk-cloudformation-fastly-dictionary-dictionary-1.4.0a7.tar.gz
+[2023-08-07 08:23:46] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-08-07 08:23:46] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230807/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: executing diffoscope
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-fastly-dictionary-dictionary-1.2.0a7.tar.gz tmp/cdk-cloudformation-fastly-dictionary-dictionary-1.4.0a7.tar.gz --markdown 20230807/c/cdk-cloudformation-fastly-dictionary-dictionary/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-logging-splunk-1.1.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-logging-splunk]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-logging-splunk-1.3.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-logging-splunk]: success
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-privatekeys-1.1.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-privatekeys]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-privatekeys-1.3.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-tls-privatekeys]: success
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-certificate-1.1.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - processPackages [cdk-cloudformation-fastly-tls-certificate]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-tls-certificate-1.3.0a7.tar.gz]
+[2023-08-07 08:23:47] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-tls-certificate]: success
+[2023-08-07 08:23:48] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-07 08:23:48] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-healthcheck-1.2.0a7.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - processPackages [cdk-cloudformation-fastly-services-healthcheck]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-services-healthcheck-1.4.0a7.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-services-healthcheck]: success
+[2023-08-07 08:23:48] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-dictionary-dictionary-1.2.0a7.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - processPackages [cdk-cloudformation-fastly-dictionary-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-fastly-dictionary-dictionary-1.4.0a7.tar.gz]
+[2023-08-07 08:23:48] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-fastly-dictionary-dictionary]: success
+[2023-08-07 08:23:48] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:23:48] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:23:48] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-08-07 08:23:48] INFO root fetch - main [MainThread]: Store serial: [19201205]
