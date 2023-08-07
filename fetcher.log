@@ -6888,3 +6888,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:10:38] INFO root fetch - processPackages [ivy-vision]: Remove: archive file [/home/abi/fetcher/tmp/ivy-vision-1.1.9.tar.gz]
 [2023-08-07 06:10:38] INFO root fetch - main [MainThread]: End processing [ivy-vision]: success
 [2023-08-07 06:10:38] INFO root fetch - main [MainThread]: Store serial: [19200316]
+[2023-08-07 06:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200316]
+[2023-08-07 06:15:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 06:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RuletaEuropea
+[2023-08-07 06:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pakagesdist
+[2023-08-07 06:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automatoes
+[2023-08-07 06:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OCRTest
+[2023-08-07 06:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stixorm
+[2023-08-07 06:15:47] WARNING root fetch - processPackages [pakagesdist]: Skipping, unable to determine old version
+[2023-08-07 06:15:47] INFO root fetch - main [MainThread]: End processing [pakagesdist] error
+[2023-08-07 06:15:47] INFO root fetch - processPackages [RuletaEuropea]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 06:15:47] INFO root fetch - processPackages [automatoes]: New version: [0.9.9] Old Version: [0.9.8b9]
+[2023-08-07 06:15:47] WARNING root fetch - processPackages [stixorm]: Skipping, unable to determine old version
+[2023-08-07 06:15:47] INFO root fetch - main [MainThread]: End processing [stixorm] error
+[2023-08-07 06:15:47] WARNING root fetch - processPackages [OCRTest]: Skipping, unable to determine old version
+[2023-08-07 06:15:47] INFO root fetch - main [MainThread]: End processing [OCRTest] error
+[2023-08-07 06:15:47] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/d0/c4/a77c4a1be7ef42dcffdb73f4cf5d60c931d0543c640ccf01dc2b332277e7/RuletaEuropea-0.1.1.tar.gz
+[2023-08-07 06:15:47] INFO root fetch - processPackages [automatoes]: Downloading https://files.pythonhosted.org/packages/45/f6/9e5569adb52a42d2e753eb57c57b1364470534745ffc3c7fd173dcc2549e/automatoes-0.9.8b9.tar.gz
+[2023-08-07 06:15:47] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/59/7e/df8f6737551af99e1f5ce207eb6b26941f2c1aef049143766172f3114596/RuletaEuropea-0.1.2.tar.gz
+[2023-08-07 06:15:47] INFO root fetch - processPackages [RuletaEuropea]: executing diffoscope
+[2023-08-07 06:15:47] INFO root fetch - processPackages [RuletaEuropea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RuletaEuropea-0.1.1.tar.gz tmp/RuletaEuropea-0.1.2.tar.gz --markdown 20230807/R/RuletaEuropea/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 06:15:47] INFO root fetch - processPackages [automatoes]: Downloading https://files.pythonhosted.org/packages/5c/c1/7e1adc58ea42341a951d0d18b3a7a36afab7ee0b4ae5b3a5f915fc74175f/automatoes-0.9.9.tar.gz
+[2023-08-07 06:15:48] INFO root fetch - processPackages [automatoes]: executing diffoscope
+[2023-08-07 06:15:48] INFO root fetch - processPackages [automatoes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatoes-0.9.8b9.tar.gz tmp/automatoes-0.9.9.tar.gz --markdown 20230807/a/automatoes/0.9.8b9-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 06:15:48] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.1.tar.gz]
+[2023-08-07 06:15:48] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.2.tar.gz]
+[2023-08-07 06:15:48] INFO root fetch - main [MainThread]: End processing [RuletaEuropea]: success
+[2023-08-07 06:15:48] INFO root fetch - processPackages [automatoes]: Remove: archive file [/home/abi/fetcher/tmp/automatoes-0.9.8b9.tar.gz]
+[2023-08-07 06:15:48] INFO root fetch - processPackages [automatoes]: Remove: archive file [/home/abi/fetcher/tmp/automatoes-0.9.9.tar.gz]
+[2023-08-07 06:15:48] INFO root fetch - main [MainThread]: End processing [automatoes]: success
+[2023-08-07 06:15:48] INFO root fetch - main [MainThread]: Store serial: [19200334]
