@@ -14514,3 +14514,132 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:27:56] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.35.tar.gz]
 [2023-08-07 11:27:56] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
 [2023-08-07 11:27:56] INFO root fetch - main [MainThread]: Store serial: [19203520]
+[2023-08-07 11:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203520]
+[2023-08-07 11:33:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: code-loader
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matlab-proxy
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scilightcon
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hishel
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-pagination
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shaclapi
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynamic-service
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: facekiapiclientv2
+[2023-08-07 11:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scaleway-async
+[2023-08-07 11:33:07] INFO root fetch - processPackages [scilightcon]: New version: [0.2.0.post3] Old Version: [0.2.0.post2]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [facekiapiclientv2]: New version: [1.2] Old Version: [1.1]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [dynamic-service]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [matlab-proxy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/85/7a/9701ba1b00e6ede0b88cde316a45365084197084adabf28304e4c0f92967/scilightcon-0.2.0.post2.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.88]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [fastapi-pagination]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [shaclapi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [scaleway-async]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [hishel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 11:33:07] INFO root fetch - processPackages [facekiapiclientv2]: Downloading https://files.pythonhosted.org/packages/37/12/efd8a12a262a4a2559fa15fcd3a23c6e01cec3481652dfcda1205a78afcd/facekiapiclientv2-1.1.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/8c/f9/1cb6f40cefdc159e1dd35b5e48b77d9ba03a8e5f49406fb56b03fce24fc9/dynamic-service-1.5.0.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-07 11:33:07] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/e3/a7/64aaaf2407e7011051b531f181b4005fd954f8fc7941af5d77d4346bc973/matlab-proxy-0.7.2.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/54/38/52db6bdf19417602084dfda74d5caf2af9752242fa29fcc26a8c8d55668c/fastapi-pagination-0.9.2.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/71/86/beabe9078729ebf75daefcc3d7f596983490625d495c818361ff7b982229/code_loader-0.2.88.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [shaclapi]: Downloading https://files.pythonhosted.org/packages/3f/94/65e5df33dd72728ed0723ea380fd6585d2811a6ed1288b0e19e8a250d097/shaclapi-0.9.7.tar.gz
+[2023-08-07 11:33:07] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/70/30/746a1d5db3025b3b69995d907fe840d0c840e298f657e36039fdd6d6b553/hishel-0.0.8.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/92/c5/a4f956878eb6796ff1d5815e34389477cfb80c4c6e5b662840e1f4193337/scaleway_async-0.9.0.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [scilightcon]: Downloading https://files.pythonhosted.org/packages/e9/28/de04a010e6f32f89a3f1a538856ce72d22cfb92b4047bceff3d6498a4546/scilightcon-0.2.0.post3.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-07 11:33:08] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/ad/9b/44d532bfc31b0a5d80f5b1a751b186a3669d8584984cec0292589d48f042/dynamic-service-1.5.1.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [facekiapiclientv2]: Downloading https://files.pythonhosted.org/packages/c1/37/1b36879fbd9adee705d69c7b833749d528cf257fd68eba92beaa379f63e1/facekiapiclientv2-1.2.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230807/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/ae/72/c53269908968568bb661a08b6faf00ce7b8219af0f9541920ed5bcd83724/fastapi-pagination-0.9.3.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/b1/8c/d6a0ef32c315189e5c35dbef5f3db303cfed2b4a0b63bce4da44c502e387/hishel-0.0.9.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/19/49/238990ac5bfcca91ad31170c0c0667583dbdeed4add363ad065f2a8e9d4b/matlab-proxy-0.7.3.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [shaclapi]: Downloading https://files.pythonhosted.org/packages/d6/fb/b9e707b6ba072e87b1ff6d43f6f62982d29adb633514417242444fa8bfcb/shaclapi-0.9.8.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [facekiapiclientv2]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [facekiapiclientv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facekiapiclientv2-1.1.tar.gz tmp/facekiapiclientv2-1.2.tar.gz --markdown 20230807/f/facekiapiclientv2/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.5.0.tar.gz tmp/dynamic-service-1.5.1.tar.gz --markdown 20230807/d/dynamic-service/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.88.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230807/c/code-loader/0.2.88-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/6e/ec/fc8b3f4e277ce2402e3877b3d0903c0c119ca5cb6113882fbc976e2988c7/scaleway_async-1.0.0.tar.gz
+[2023-08-07 11:33:08] INFO root fetch - processPackages [fastapi-pagination]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [fastapi-pagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-pagination-0.9.2.tar.gz tmp/fastapi-pagination-0.9.3.tar.gz --markdown 20230807/f/fastapi-pagination/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.8.tar.gz tmp/hishel-0.0.9.tar.gz --markdown 20230807/h/hishel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [shaclapi]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [shaclapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaclapi-0.9.7.tar.gz tmp/shaclapi-0.9.8.tar.gz --markdown 20230807/s/shaclapi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-08-07 11:33:08] INFO root fetch - processPackages [scilightcon]: executing diffoscope
+[2023-08-07 11:33:08] INFO root fetch - processPackages [scilightcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scilightcon-0.2.0.post2.tar.gz tmp/scilightcon-0.2.0.post3.tar.gz --markdown 20230807/s/scilightcon/0.2.0.post2-0.2.0.post3/diff.md --exclude *.pyd
+[2023-08-07 11:33:09] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-08-07 11:33:09] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-0.9.0.tar.gz tmp/scaleway_async-1.0.0.tar.gz --markdown 20230807/s/scaleway-async/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 11:33:09] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2023-08-07 11:33:09] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.7.2.tar.gz tmp/matlab-proxy-0.7.3.tar.gz --markdown 20230807/m/matlab-proxy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-07 11:33:11] INFO root fetch - processPackages [facekiapiclientv2]: Remove: archive file [/home/abi/fetcher/tmp/facekiapiclientv2-1.1.tar.gz]
+[2023-08-07 11:33:11] INFO root fetch - processPackages [facekiapiclientv2]: Remove: archive file [/home/abi/fetcher/tmp/facekiapiclientv2-1.2.tar.gz]
+[2023-08-07 11:33:11] INFO root fetch - processPackages [facekiapiclientv2]: Start processing: scaleway
+[2023-08-07 11:33:11] INFO root fetch - main [MainThread]: End processing [facekiapiclientv2]: success
+[2023-08-07 11:33:12] INFO root fetch - processPackages [scaleway]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/3a/7e/88f0ee5e46853b67c7b855cc0bb27325c4930c08c2f05fadf0a4c9a0bc35/scaleway-0.9.0.tar.gz
+[2023-08-07 11:33:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.88.tar.gz]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [code-loader]: Start processing: raga-cli
+[2023-08-07 11:33:12] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-07 11:33:12] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.5.0.tar.gz]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.5.1.tar.gz]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [dynamic-service]: Start processing: pyfda
+[2023-08-07 11:33:12] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-08-07 11:33:12] INFO root fetch - processPackages [pyfda]: New version: [0.8.0a2] Old Version: [0.7.1]
+[2023-08-07 11:33:12] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/e2/f8/34e7086b9143f5b8a0b86a81b7abe2613e1dc55710655d2f9c567113aa92/scaleway-1.0.0.tar.gz
+[2023-08-07 11:33:13] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.2.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - processPackages [fastapi-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-0.9.3.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - processPackages [fastapi-pagination]: Start processing: streamlit-highcharts
+[2023-08-07 11:33:13] INFO root fetch - main [MainThread]: End processing [fastapi-pagination]: success
+[2023-08-07 11:33:13] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-07 11:33:13] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.8.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.9.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-08-07 11:33:13] INFO root fetch - processPackages [streamlit-highcharts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 11:33:13] INFO root fetch - processPackages [shaclapi]: Remove: archive file [/home/abi/fetcher/tmp/shaclapi-0.9.7.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - processPackages [shaclapi]: Remove: archive file [/home/abi/fetcher/tmp/shaclapi-0.9.8.tar.gz]
+[2023-08-07 11:33:13] INFO root fetch - main [MainThread]: End processing [shaclapi]: success
+[2023-08-07 11:33:13] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-08-07 11:33:13] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-0.9.0.tar.gz tmp/scaleway-1.0.0.tar.gz --markdown 20230807/s/scaleway/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 11:33:13] INFO root fetch - processPackages [pyfda]: Downloading https://files.pythonhosted.org/packages/10/f8/90da833d5ee273b15fdccd8068025da36fb7ef713648f7502b43fd2e5b7a/pyfda-0.7.1.tar.gz
+[2023-08-07 11:33:13] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-07 11:33:13] INFO root fetch - processPackages [streamlit-highcharts]: Downloading https://files.pythonhosted.org/packages/68/d6/1da78415054dbd380a6856b7dc0dbdbc40e38be350b6cd8d83b4d788f549/streamlit-highcharts-0.1.5.tar.gz
+[2023-08-07 11:33:13] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-07 11:33:13] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230807/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 11:33:14] INFO root fetch - processPackages [pyfda]: Downloading https://files.pythonhosted.org/packages/e9/91/bcf6e15156967f78d7aca044d7023d09291c5362b55507cdc71823dff936/pyfda-0.8.0a2.tar.gz
+[2023-08-07 11:33:14] INFO root fetch - processPackages [streamlit-highcharts]: Downloading https://files.pythonhosted.org/packages/08/d1/0edfc0737782662baeb3d123837954a453910b36cbb4ba13fa6a4274f1c0/streamlit-highcharts-0.1.6.tar.gz
+[2023-08-07 11:33:14] INFO root fetch - processPackages [pyfda]: executing diffoscope
+[2023-08-07 11:33:14] INFO root fetch - processPackages [pyfda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfda-0.7.1.tar.gz tmp/pyfda-0.8.0a2.tar.gz --markdown 20230807/p/pyfda/0.7.1-0.8.0a2/diff.md --exclude *.pyd
+[2023-08-07 11:33:14] INFO root fetch - processPackages [streamlit-highcharts]: executing diffoscope
+[2023-08-07 11:33:14] INFO root fetch - processPackages [streamlit-highcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-highcharts-0.1.5.tar.gz tmp/streamlit-highcharts-0.1.6.tar.gz --markdown 20230807/s/streamlit-highcharts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 11:33:15] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.post2.tar.gz]
+[2023-08-07 11:33:15] INFO root fetch - processPackages [scilightcon]: Remove: archive file [/home/abi/fetcher/tmp/scilightcon-0.2.0.post3.tar.gz]
+[2023-08-07 11:33:15] INFO root fetch - main [MainThread]: End processing [scilightcon]: success
+[2023-08-07 11:33:16] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-07 11:33:16] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-07 11:33:16] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-07 11:33:17] INFO root fetch - processPackages [streamlit-highcharts]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-highcharts-0.1.5.tar.gz]
+[2023-08-07 11:33:17] INFO root fetch - processPackages [streamlit-highcharts]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-highcharts-0.1.6.tar.gz]
+[2023-08-07 11:33:17] INFO root fetch - main [MainThread]: End processing [streamlit-highcharts]: success
+[2023-08-07 11:33:17] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.9.0.tar.gz]
+[2023-08-07 11:33:17] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-1.0.0.tar.gz]
+[2023-08-07 11:33:17] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-08-07 11:33:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-07 11:33:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-07 11:33:19] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-07 11:33:19] INFO root fetch - processPackages [pyfda]: Remove: archive file [/home/abi/fetcher/tmp/pyfda-0.7.1.tar.gz]
+[2023-08-07 11:33:19] INFO root fetch - processPackages [pyfda]: Remove: archive file [/home/abi/fetcher/tmp/pyfda-0.8.0a2.tar.gz]
+[2023-08-07 11:33:19] INFO root fetch - main [MainThread]: End processing [pyfda]: success
+[2023-08-07 11:33:19] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-0.9.0.tar.gz]
+[2023-08-07 11:33:19] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-1.0.0.tar.gz]
+[2023-08-07 11:33:19] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-08-07 11:33:20] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.7.2.tar.gz]
+[2023-08-07 11:33:20] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.7.3.tar.gz]
+[2023-08-07 11:33:20] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2023-08-07 11:33:20] INFO root fetch - main [MainThread]: Store serial: [19203569]
