@@ -21695,3 +21695,69 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:33:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.6.1.tar.gz]
 [2023-08-07 16:33:47] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-08-07 16:33:47] INFO root fetch - main [MainThread]: Store serial: [19206741]
+[2023-08-07 16:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206741]
+[2023-08-07 16:38:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manic-xai
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-envidat_validators
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pingsafe-cli
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deTELpy
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tutor-contrib-k8s-deploy-tasks
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: detool
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: profile-instagram-graphql-imp-local-python-package-local
+[2023-08-07 16:38:56] INFO root fetch - processPackages [deTELpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [pingsafe-cli]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [detool]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: New version: [15.0.0] Old Version: [14.0.0]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [ckanext-envidat_validators]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [manic-xai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 16:38:56] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/75/bf/826375d92fc682dc3a20a8c2928d0669517be0f4407199851305bedb79a8/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz
+[2023-08-07 16:38:56] INFO root fetch - processPackages [deTELpy]: Downloading https://files.pythonhosted.org/packages/34/77/38ffc2ea75e035ba58bd754598c4d10ae6b889e45f970a6885b0a63cd65f/deTELpy-0.1.2-py2.py3-none-any.whl
+[2023-08-07 16:38:57] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/43/ba/cfee45ae8b613aadb93c9646f8066deb620d63aad1be1248092a2ef068bc/detool-1.1.2.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [pingsafe-cli]: Downloading https://files.pythonhosted.org/packages/81/01/761922fce17bf25bf7e2dae15f76c3ba56ce173e456f07bf4393828d6de8/pingsafe_cli-0.0.4.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Downloading https://files.pythonhosted.org/packages/e0/9e/64f93b5c911311acd41d0e1559b34be5d18bf840e8d4ad53cc8a0016d48d/tutor-contrib-k8s-deploy-tasks-14.0.0.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [manic-xai]: Downloading https://files.pythonhosted.org/packages/43/dc/f8f65f9c71e97d6f59acdd7f69ebee594ddcf15bfbfd59d9a4697b0443f0/manic-xai-1.0.8.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [ckanext-envidat_validators]: Downloading https://files.pythonhosted.org/packages/69/77/b674f799b1516a92b3bfe8eca59ce326253de23d1cb885346cfb06f9b08c/ckanext-envidat-validators-0.1.4.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/29/1b/8fdf034080239cc3408a517f29fee1ddfa8ce32aba8fe9567b6beb8f8049/profile-instagram-graphql-imp-local-python-package-local-0.0.7.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [deTELpy]: Downloading https://files.pythonhosted.org/packages/15/76/865fb1aaf3508c5c76b467ae75c1a88b9ac8f76644e668fa3fb1128ea801/deTELpy-0.1.3.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.7.tar.gz --markdown 20230807/p/profile-instagram-graphql-imp-local-python-package-local/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [pingsafe-cli]: Downloading https://files.pythonhosted.org/packages/a7/05/63daea40decf7c5adc8b474f3827994edde364398e5bc981cc5268ce41e5/pingsafe_cli-0.1.0.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Downloading https://files.pythonhosted.org/packages/15/fc/4f852f21e7b1cdd2f7aeb6e0b27642ecc150e7ecf3a5a32565c8c72a4d25/tutor-contrib-k8s-deploy-tasks-15.0.0.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/15/ce/47b230634ee3dc66f8de875ed155b0ff40d7e51c2ff24eebf3ba14662cf0/detool-1.1.3.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [ckanext-envidat_validators]: Downloading https://files.pythonhosted.org/packages/e0/fd/1e0cd3fa52dea6af65d57fbe520e92b58f44d8f8a65ba2c16f15dac0f8c6/ckanext-envidat-validators-0.1.5.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [manic-xai]: Downloading https://files.pythonhosted.org/packages/f0/2e/73977b1c92e032e79cef83efa78ac5af699d06f33c5701586d8f5eed83ce/manic-xai-1.0.9.tar.gz
+[2023-08-07 16:38:57] INFO root fetch - processPackages [deTELpy]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [deTELpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deTELpy-0.1.2-py2.py3-none-any.whl.zip tmp/deTELpy-0.1.3.tar.gz --markdown 20230807/d/deTELpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [ckanext-envidat_validators]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [ckanext-envidat_validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-envidat-validators-0.1.4.tar.gz tmp/ckanext-envidat-validators-0.1.5.tar.gz --markdown 20230807/c/ckanext-envidat_validators/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [manic-xai]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [manic-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manic-xai-1.0.8.tar.gz tmp/manic-xai-1.0.9.tar.gz --markdown 20230807/m/manic-xai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [pingsafe-cli]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [pingsafe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafe_cli-0.0.4.tar.gz tmp/pingsafe_cli-0.1.0.tar.gz --markdown 20230807/p/pingsafe-cli/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-k8s-deploy-tasks-14.0.0.tar.gz tmp/tutor-contrib-k8s-deploy-tasks-15.0.0.tar.gz --markdown 20230807/t/tutor-contrib-k8s-deploy-tasks/14.0.0-15.0.0/diff.md --exclude *.pyd
+[2023-08-07 16:38:57] INFO root fetch - processPackages [detool]: executing diffoscope
+[2023-08-07 16:38:57] INFO root fetch - processPackages [detool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detool-1.1.2.tar.gz tmp/detool-1.1.3.tar.gz --markdown 20230807/d/detool/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:38:58] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.7.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [profile-instagram-graphql-imp-local-python-package-local]: success
+[2023-08-07 16:38:58] INFO root fetch - processPackages [deTELpy]: Remove: archive file [/home/abi/fetcher/tmp/deTELpy-0.1.2-py2.py3-none-any.whl.zip]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [deTELpy]: Remove: archive file [/home/abi/fetcher/tmp/deTELpy-0.1.3.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [deTELpy]: success
+[2023-08-07 16:38:58] INFO root fetch - processPackages [ckanext-envidat_validators]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-envidat-validators-0.1.4.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [ckanext-envidat_validators]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-envidat-validators-0.1.5.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [ckanext-envidat_validators]: success
+[2023-08-07 16:38:58] INFO root fetch - processPackages [manic-xai]: Remove: archive file [/home/abi/fetcher/tmp/manic-xai-1.0.8.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [manic-xai]: Remove: archive file [/home/abi/fetcher/tmp/manic-xai-1.0.9.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [manic-xai]: success
+[2023-08-07 16:38:58] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.1.2.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.1.3.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [detool]: success
+[2023-08-07 16:38:58] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-k8s-deploy-tasks-14.0.0.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-k8s-deploy-tasks-15.0.0.tar.gz]
+[2023-08-07 16:38:58] INFO root fetch - main [MainThread]: End processing [tutor-contrib-k8s-deploy-tasks]: success
+[2023-08-07 16:39:01] INFO root fetch - processPackages [pingsafe-cli]: Remove: archive file [/home/abi/fetcher/tmp/pingsafe_cli-0.0.4.tar.gz]
+[2023-08-07 16:39:01] INFO root fetch - processPackages [pingsafe-cli]: Remove: archive file [/home/abi/fetcher/tmp/pingsafe_cli-0.1.0.tar.gz]
+[2023-08-07 16:39:01] INFO root fetch - main [MainThread]: End processing [pingsafe-cli]: success
+[2023-08-07 16:39:01] INFO root fetch - main [MainThread]: Store serial: [19206764]
