@@ -10500,3 +10500,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 10:05:31] INFO root fetch - processPackages [mealpy]: Remove: archive file [/home/abi/fetcher/tmp/mealpy-2.5.4a6.tar.gz]
 [2023-08-07 10:05:31] INFO root fetch - main [MainThread]: End processing [mealpy]: success
 [2023-08-07 10:05:31] INFO root fetch - main [MainThread]: Store serial: [19202125]
+[2023-08-07 10:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202125]
+[2023-08-07 10:10:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bletl
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnzipcode
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ofscraper
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isimip-client
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglove
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: namekoplus
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batocera-manager
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mnzipcode
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-s3-query
+[2023-08-07 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ezQgd
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [ofscraper]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [isimip-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [sqlite-s3-query]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230806] Old Version: [0.4.3.dev20230805]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [bletl]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [ezQgd]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-08-07 10:10:40] WARNING root fetch - processPackages [batocera-manager]: Skipping, unable to determine old version
+[2023-08-07 10:10:40] INFO root fetch - processPackages [batocera-manager]: Start processing: basicthainlp
+[2023-08-07 10:10:40] INFO root fetch - main [MainThread]: End processing [batocera-manager] error
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/79/0f/2c9d5cdb8beb39dadd7a1abfc31e1a0a3a8f1728fdbb36d5fcf85ecaa5eb/mnzipcode-0.1.1.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/79/0f/2c9d5cdb8beb39dadd7a1abfc31e1a0a3a8f1728fdbb36d5fcf85ecaa5eb/mnzipcode-0.1.1.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/c3/29/c778c1e6c640b74a6de9a8d0eb827a9c433b6d4286bbc793b181b2f9dc41/ofscraper-3.0.1.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [basicthainlp]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/82/c7/dd63880ce6996f892f0ade35560be0590952a7039db80b5559bd5d439d60/pyglove-0.4.3.dev20230805.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/aa/14/cad65f475efbb501da73f4a422278f6291e61b2dc4a91b5c0577228a4c5a/sqlite-s3-query-0.0.8.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [basicthainlp]: Downloading https://files.pythonhosted.org/packages/49/a1/4bbec376f49a3677cb97e28e7ef53fa7dc12919a78963caac0927d0ffa60/basicthainlp-0.3.5.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [ezQgd]: Downloading https://files.pythonhosted.org/packages/f8/35/aa60ca84ebda6fbd7f87efc37b44ad3673ec0f27a8eb958e5058a123fefc/ezQgd-1.0.2-py3-none-any.whl
+[2023-08-07 10:10:40] INFO root fetch - processPackages [isimip-client]: Downloading https://files.pythonhosted.org/packages/5f/33/74be778aa3247939590c6227acee44960d10107447b99a016bc3222c8fd5/isimip-client-1.0.0.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/3a/87/21194d3817d2cbe61a848b8db35c455449fc54954e6e17ab6e55a32bfea2/bletl-1.4.0.tar.gz
+[2023-08-07 10:10:40] WARNING root fetch - processPackages [basicthainlp]: Skipping package: exceeds size limit 35224348>=10485760
+[2023-08-07 10:10:40] INFO root fetch - processPackages [basicthainlp]: Start processing: mnzipcode
+[2023-08-07 10:10:40] INFO root fetch - main [MainThread]: End processing [basicthainlp] error
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/8f/15/ad984862b846b8c4623897f0d24734a17eab3ed685f5892ffe531c760817/mnzipcode-0.1.2.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/8f/15/ad984862b846b8c4623897f0d24734a17eab3ed685f5892ffe531c760817/mnzipcode-0.1.2.tar.gz
+[2023-08-07 10:10:40] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/7f/8b/349982f6dc68fa33e82e8630f652e6227f397824a1ca075d5a1073696fd4/ofscraper-3.0.2.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.1.tar.gz tmp/mnzipcode-0.1.2.tar.gz --markdown 20230807/m/mnzipcode/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/99/c1/c5cb198ef1601a8fdd80c1fa7da65b783b6fd2e165df7bec88bb0910e226/pyglove-0.4.3.dev20230806.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.1.tar.gz tmp/mnzipcode-0.1.2.tar.gz --markdown 20230807/m/mnzipcode/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/77/11/94fadce8d9eda660c98a78dc297db3f9845b18ee9a822c16ac6e29ff99d3/mnzipcode-0.1.22.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [isimip-client]: Downloading https://files.pythonhosted.org/packages/64/d5/69aac2868574a7566ec3db5e490be13bb6e6d2221573cec848a3557aa2ce/isimip-client-1.0.1.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/e1/a4/2e038ec6ba29d1b38ae7357907be15feb552cac449a70b0107bf892b6e53/bletl-1.4.1.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ezQgd]: Downloading https://files.pythonhosted.org/packages/ad/3c/19340d8243c54e749bfd23ee51ee493c0dd0b2eb6014100537fb9427388a/ezQgd-1.0.4-py3-none-any.whl
+[2023-08-07 10:10:41] INFO root fetch - processPackages [sqlite-s3-query]: Downloading https://files.pythonhosted.org/packages/28/75/45c3be470104aea69f0c07c35cf53defdeef76b225be89725529ef679328/sqlite-s3-query-0.0.9.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230805.tar.gz tmp/pyglove-0.4.3.dev20230806.tar.gz --markdown 20230807/p/pyglove/0.4.3.dev20230805-0.4.3.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.1.tar.gz tmp/ofscraper-3.0.2.tar.gz --markdown 20230807/o/ofscraper/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [isimip-client]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [isimip-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isimip-client-1.0.0.tar.gz tmp/isimip-client-1.0.1.tar.gz --markdown 20230807/i/isimip-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [bletl]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [bletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bletl-1.4.0.tar.gz tmp/bletl-1.4.1.tar.gz --markdown 20230807/b/bletl/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ezQgd]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [ezQgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezQgd-1.0.2-py3-none-any.whl.zip tmp/ezQgd-1.0.4-py3-none-any.whl.zip --markdown 20230807/e/ezQgd/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [sqlite-s3-query]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [sqlite-s3-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-s3-query-0.0.8.tar.gz tmp/sqlite-s3-query-0.0.9.tar.gz --markdown 20230807/s/sqlite-s3-query/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/20/5d/5a32e813824b9f5b5151435ddc1dd7f790858965a3281c4b07d259af3ece/mnzipcode-0.1.23.tar.gz
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:10:41] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.22.tar.gz tmp/mnzipcode-0.1.23.tar.gz --markdown 20230807/m/mnzipcode/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-08-07 10:10:43] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.1.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.2.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [mnzipcode]: Start processing: ECMpy2.0
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [ECMpy2.0]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [isimip-client]: Remove: archive file [/home/abi/fetcher/tmp/isimip-client-1.0.0.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [isimip-client]: Remove: archive file [/home/abi/fetcher/tmp/isimip-client-1.0.1.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [isimip-client]: Start processing: pyezQ
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [isimip-client]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [ECMpy2.0]: Downloading https://files.pythonhosted.org/packages/bc/fb/49956f54cf7492750655cf58a61ea664d157aeadd94367d15edbb881205e/ECMpy2.0-1.0.1.tar.gz
+[2023-08-07 10:10:43] INFO root fetch - processPackages [pyezQ]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [ezQgd]: Remove: archive file [/home/abi/fetcher/tmp/ezQgd-1.0.2-py3-none-any.whl.zip]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [ezQgd]: Remove: archive file [/home/abi/fetcher/tmp/ezQgd-1.0.4-py3-none-any.whl.zip]
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [ezQgd]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.8.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [sqlite-s3-query]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3-query-0.0.9.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [sqlite-s3-query]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.4.0.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.4.1.tar.gz]
+[2023-08-07 10:10:43] INFO root fetch - main [MainThread]: End processing [bletl]: success
+[2023-08-07 10:10:43] INFO root fetch - processPackages [pyezQ]: Downloading https://files.pythonhosted.org/packages/c7/69/eb16a40e7dd6fa92649ed2b5d137745aaee576638e9b27aa8b8f9b32cded/pyezQ-1.0.1-py3-none-any.whl
+[2023-08-07 10:10:44] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.22.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.23.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:10:44] INFO root fetch - processPackages [ECMpy2.0]: Downloading https://files.pythonhosted.org/packages/b0/58/c522220f9d74c3e902ef476a30290203304edacc0df1c2727f4cba928826/ECMpy2.0-1.0.2.tar.gz
+[2023-08-07 10:10:44] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.1.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.2.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 10:10:44] INFO root fetch - processPackages [pyezQ]: Downloading https://files.pythonhosted.org/packages/af/ff/e88d61fa24fe1b6d2242cc829897b66c8d0738df4d84921df132dac16400/pyezQ-1.0.2-py3-none-any.whl
+[2023-08-07 10:10:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230805.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230806.tar.gz]
+[2023-08-07 10:10:44] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-07 10:10:44] INFO root fetch - processPackages [pyezQ]: executing diffoscope
+[2023-08-07 10:10:44] INFO root fetch - processPackages [pyezQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezQ-1.0.1-py3-none-any.whl.zip tmp/pyezQ-1.0.2-py3-none-any.whl.zip --markdown 20230807/p/pyezQ/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 10:10:45] INFO root fetch - processPackages [pyezQ]: Remove: archive file [/home/abi/fetcher/tmp/pyezQ-1.0.1-py3-none-any.whl.zip]
+[2023-08-07 10:10:45] INFO root fetch - processPackages [pyezQ]: Remove: archive file [/home/abi/fetcher/tmp/pyezQ-1.0.2-py3-none-any.whl.zip]
+[2023-08-07 10:10:45] INFO root fetch - main [MainThread]: End processing [pyezQ]: success
+[2023-08-07 10:10:45] INFO root fetch - processPackages [ECMpy2.0]: executing diffoscope
+[2023-08-07 10:10:45] INFO root fetch - processPackages [ECMpy2.0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ECMpy2.0-1.0.1.tar.gz tmp/ECMpy2.0-1.0.2.tar.gz --markdown 20230807/E/ECMpy2.0/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 10:10:48] INFO root fetch - processPackages [ECMpy2.0]: Remove: archive file [/home/abi/fetcher/tmp/ECMpy2.0-1.0.1.tar.gz]
+[2023-08-07 10:10:48] INFO root fetch - processPackages [ECMpy2.0]: Remove: archive file [/home/abi/fetcher/tmp/ECMpy2.0-1.0.2.tar.gz]
+[2023-08-07 10:10:48] INFO root fetch - main [MainThread]: End processing [ECMpy2.0]: success
+[2023-08-07 10:10:48] INFO root fetch - main [MainThread]: Store serial: [19202165]
