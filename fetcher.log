@@ -8016,3 +8016,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:57:38] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
 [2023-08-07 07:57:38] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-08-07 07:57:38] INFO root fetch - main [MainThread]: Store serial: [19200931]
+[2023-08-07 08:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200931]
+[2023-08-07 08:02:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sovereign
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: switch-api
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elevate-orchestration
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafri
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quant-alchemy
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdshechka
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-ci
+[2023-08-07 08:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafri
+[2023-08-07 08:02:48] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.7b27] Old Version: [0.0.6]
+[2023-08-07 08:02:48] INFO root fetch - processPackages [sovereign]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-07 08:02:48] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/05/f1/c87a08815a99ffe71f3bb7fdefb5659d306f3ed1cd65a8f30dd0c06610a6/hatch_ci-0.0.6.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: New version: [0.0.81] Old Version: [0.0.80.2]
+[2023-08-07 08:02:48] WARNING root fetch - processPackages [gdshechka]: Skipping, unable to determine old version
+[2023-08-07 08:02:48] INFO root fetch - processPackages [quant-alchemy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 08:02:48] INFO root fetch - main [MainThread]: End processing [gdshechka] error
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: New version: [0.0.81] Old Version: [0.0.80.2]
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: New version: [0.0.81] Old Version: [0.0.80.2]
+[2023-08-07 08:02:48] INFO root fetch - processPackages [switch-api]: New version: [0.4.6b2] Old Version: [0.4.6]
+[2023-08-07 08:02:48] ERROR root fetch - processPackages [elevate-orchestration]: Unable to get metadata: No such project 'elevate-orchestration'
+[2023-08-07 08:02:48] INFO root fetch - main [MainThread]: End processing [elevate-orchestration] error
+[2023-08-07 08:02:48] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/16/66/c3b46a06abeef18a1d1b46466cb512bed818047a532ec7eaa17231b9dd61/sovereign-0.9.6.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/2b/d7/eef59885a7daeec28d3b7133617d826423b6f68bfd0344644355d8d71285/quant-alchemy-0.1.6.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9a/e6/275c381fc10389fabcfb7755bef75b915645a0cb6adcccc00fc2f9f01084/adafri-0.0.80.2.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9a/e6/275c381fc10389fabcfb7755bef75b915645a0cb6adcccc00fc2f9f01084/adafri-0.0.80.2.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9a/e6/275c381fc10389fabcfb7755bef75b915645a0cb6adcccc00fc2f9f01084/adafri-0.0.80.2.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/76/a4/f52b2512ae74649ad61a4185f2ffea2d26e2cdeb3530bb72ec9ca9210e1c/switch_api-0.4.6.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/22/46/e4f3d9daedf8a581b255e9ea5aac945242efe3b60bde96f9d500e5f35f06/hatch_ci-0.0.7b27.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/f9/65/a5f2ada9ea293162182714fca29200f910628e13ea0168d9a55b98c5fa9a/sovereign-0.9.7.tar.gz
+[2023-08-07 08:02:48] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/46/60/465f77aa7e7a6f64d417b7a9d1baf8214bbdb4570f1e1550a99950948205/quant-alchemy-0.1.7.tar.gz
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/85/3c0621f7e4afb15e876da45a6d574be7beaae80d3bc111c5cd0688b2c576/adafri-0.0.81.tar.gz
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/85/3c0621f7e4afb15e876da45a6d574be7beaae80d3bc111c5cd0688b2c576/adafri-0.0.81.tar.gz
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/85/3c0621f7e4afb15e876da45a6d574be7beaae80d3bc111c5cd0688b2c576/adafri-0.0.81.tar.gz
+[2023-08-07 08:02:49] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.6.tar.gz tmp/hatch_ci-0.0.7b27.tar.gz --markdown 20230807/h/hatch-ci/0.0.6-0.0.7b27/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [sovereign]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [sovereign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovereign-0.9.6.tar.gz tmp/sovereign-0.9.7.tar.gz --markdown 20230807/s/sovereign/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [quant-alchemy]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/65/d6/3a78661507871f8e83b6c5bf907e11a05b89df75dd8aa662f3b4b5c756c9/switch_api-0.4.6b2.tar.gz
+[2023-08-07 08:02:49] INFO root fetch - processPackages [quant-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant-alchemy-0.1.6.tar.gz tmp/quant-alchemy-0.1.7.tar.gz --markdown 20230807/q/quant-alchemy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.80.2.tar.gz tmp/adafri-0.0.81.tar.gz --markdown 20230807/a/adafri/0.0.80.2-0.0.81/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.80.2.tar.gz tmp/adafri-0.0.81.tar.gz --markdown 20230807/a/adafri/0.0.80.2-0.0.81/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.80.2.tar.gz tmp/adafri-0.0.81.tar.gz --markdown 20230807/a/adafri/0.0.80.2-0.0.81/diff.md --exclude *.pyd
+[2023-08-07 08:02:49] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2023-08-07 08:02:49] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.4.6.tar.gz tmp/switch_api-0.4.6b2.tar.gz --markdown 20230807/s/switch-api/0.4.6-0.4.6b2/diff.md --exclude *.pyd
+[2023-08-07 08:02:50] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.6.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.7.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [quant-alchemy]: success
+[2023-08-07 08:02:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.80.2.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.81.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 08:02:50] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.6.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b27.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 08:02:50] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.6.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.7.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [sovereign]: success
+[2023-08-07 08:02:50] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.4.6.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.4.6b2.tar.gz]
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2023-08-07 08:02:50] INFO root fetch - main [MainThread]: Store serial: [19200965]
