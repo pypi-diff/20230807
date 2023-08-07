@@ -10617,3 +10617,192 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 10:10:48] INFO root fetch - processPackages [ECMpy2.0]: Remove: archive file [/home/abi/fetcher/tmp/ECMpy2.0-1.0.2.tar.gz]
 [2023-08-07 10:10:48] INFO root fetch - main [MainThread]: End processing [ECMpy2.0]: success
 [2023-08-07 10:10:48] INFO root fetch - main [MainThread]: Store serial: [19202165]
+[2023-08-07 10:15:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202165]
+[2023-08-07 10:15:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyimporters-csv
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotPervasiveServiceSDK
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wordpress-markdown-blog-loader
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcci
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: make-argocd-fly
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: migedit
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tanbih-pipeline
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mnzipcode
+[2023-08-07 10:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idev-pycolor
+[2023-08-07 10:15:57] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-08-07 10:15:57] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-07 10:15:57] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [tanbih-pipeline]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/77/11/94fadce8d9eda660c98a78dc297db3f9845b18ee9a822c16ac6e29ff99d3/mnzipcode-0.1.22.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [jcci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [idev-pycolor]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-07 10:15:58] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [migedit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 10:15:58] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/ab/b2/ec39695a2b31bb3a4a27b26a9e7ab16455e331ef31e9acbf6850b21eb8db/iotPervasiveServiceSDK-0.0.8.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [tanbih-pipeline]: Downloading https://files.pythonhosted.org/packages/c8/58/6d196039f699f54917ac72715e758e591ba3391efb884c28cf3dd36fd9e7/tanbih-pipeline-0.9.1.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/ea/3f/630834bd09a7f43f065342a615fd4e7744e1e0e6684821d7a18b9b08b99e/idev-pycolor-1.0.4.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/57/29/9f961ecea1427bb3bab7442418097c2c465c0d60bdef359c614a1482a0e7/jcci-0.0.8.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [migedit]: Downloading https://files.pythonhosted.org/packages/6a/61/8b9933dd144fb307e6365eb34ed35b5914021bdf9e00968f113f545f3ae1/migedit-0.3.1.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/bf/03/79b1f3106a598d2c699acd701085266bd6cf11af47f5f21c018ce82ff69b/wordpress-markdown-blog-loader-1.1.2.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/20/5d/5a32e813824b9f5b5151435ddc1dd7f790858965a3281c4b07d259af3ece/mnzipcode-0.1.23.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-07 10:15:58] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-07 10:15:58] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230807/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-07 10:15:58] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:15:58] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.22.tar.gz tmp/mnzipcode-0.1.23.tar.gz --markdown 20230807/m/mnzipcode/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-08-07 10:15:58] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/99/05/fb09f700386dfc2511fdfce989940ddfb03f0f602b86e6f99c3c498a46f2/iotPervasiveServiceSDK-0.0.9.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [idev-pycolor]: Downloading https://files.pythonhosted.org/packages/eb/37/026bd47b6ed52aa0b068bf56766d4e0d5a827fea46dc9301df1fd3524585/idev-pycolor-1.1.0.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [migedit]: Downloading https://files.pythonhosted.org/packages/a0/41/523c0f50508ed2c5f94a185629d12c7efd3869b9b95b4c254f6c631a6c0a/migedit-0.3.2.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [tanbih-pipeline]: Downloading https://files.pythonhosted.org/packages/be/dd/1370976760362e5a1dd99b8faf25ad1e16bae7dca9224cadf989d5ba1fd7/tanbih-pipeline-0.9.2.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/b3/42/1ab25c990958192e350205ec924e0ae735014541ccefe62f2473e59b9d64/wordpress-markdown-blog-loader-1.1.3.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/17/f7/c55e82d852dda67abd8d9dafec9ff6adc69734788ff11715d7fa5489256a/make_argocd_fly-0.0.9.tar.gz
+[2023-08-07 10:15:58] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/99/09/7079f722ce6e4dc1679cae0aca66eefb094f8551b1866296febe00cd9f5b/jcci-0.0.9.tar.gz
+[2023-08-07 10:15:59] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 10:15:59] INFO root fetch - processPackages [idev-pycolor]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [idev-pycolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idev-pycolor-1.0.4.tar.gz tmp/idev-pycolor-1.1.0.tar.gz --markdown 20230807/i/idev-pycolor/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.8.tar.gz tmp/iotPervasiveServiceSDK-0.0.9.tar.gz --markdown 20230807/i/iotPervasiveServiceSDK/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [migedit]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [migedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migedit-0.3.1.tar.gz tmp/migedit-0.3.2.tar.gz --markdown 20230807/m/migedit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.8.tar.gz tmp/make_argocd_fly-0.0.9.tar.gz --markdown 20230807/m/make-argocd-fly/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordpress-markdown-blog-loader-1.1.2.tar.gz tmp/wordpress-markdown-blog-loader-1.1.3.tar.gz --markdown 20230807/w/wordpress-markdown-blog-loader/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.8.tar.gz tmp/jcci-0.0.9.tar.gz --markdown 20230807/j/jcci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:15:59] INFO root fetch - processPackages [tanbih-pipeline]: executing diffoscope
+[2023-08-07 10:15:59] INFO root fetch - processPackages [tanbih-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanbih-pipeline-0.9.1.tar.gz tmp/tanbih-pipeline-0.9.2.tar.gz --markdown 20230807/t/tanbih-pipeline/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-07 10:16:00] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.22.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.23.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [mnzipcode]: Start processing: tensorshare
+[2023-08-07 10:16:00] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:16:00] INFO root fetch - processPackages [tensorshare]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [tensorshare]: Downloading https://files.pythonhosted.org/packages/19/a5/dc3babcc5da79a1d71f382de7ed9f12ed28857eead1b70c482b14809710b/tensorshare-0.0.2.tar.gz
+[2023-08-07 10:16:00] INFO root fetch - processPackages [tensorshare]: Downloading https://files.pythonhosted.org/packages/db/ff/134fb9d83a5966f8a3742e65a687c57b1d9cdc6f3d89021fa1662ee58cb7/tensorshare-0.0.3.tar.gz
+[2023-08-07 10:16:00] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.9.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [make-argocd-fly]: Start processing: jhrtools
+[2023-08-07 10:16:00] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-08-07 10:16:00] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.0.4.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [idev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/idev-pycolor-1.1.0.tar.gz]
+[2023-08-07 10:16:00] INFO root fetch - processPackages [idev-pycolor]: Start processing: findmyorder
+[2023-08-07 10:16:00] INFO root fetch - main [MainThread]: End processing [idev-pycolor]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [migedit]: Remove: archive file [/home/abi/fetcher/tmp/migedit-0.3.1.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [migedit]: Remove: archive file [/home/abi/fetcher/tmp/migedit-0.3.2.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [migedit]: Start processing: fwtv
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [migedit]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [tensorshare]: executing diffoscope
+[2023-08-07 10:16:01] INFO root fetch - processPackages [tensorshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorshare-0.0.2.tar.gz tmp/tensorshare-0.0.3.tar.gz --markdown 20230807/t/tensorshare/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jhrtools]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [findmyorder]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.8.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.9.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jcci]: Start processing: qwak-core
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [fwtv]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.2.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.3.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [wordpress-markdown-blog-loader]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.8.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.9.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 10:16:01] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/76/fa/e2d0720c723c9d6b9a5d49be5b1c636f6b9196468f1ebd625a035ba48841/findmyorder-1.7.8.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jhrtools]: Downloading https://files.pythonhosted.org/packages/aa/5f/3720d0ff0967bef6a9c7b60fa84472ea289016af7f98b4d804e102205b78/jhrtools-1.2.0-py3-none-any.whl
+[2023-08-07 10:16:01] INFO root fetch - processPackages [fwtv]: Downloading https://files.pythonhosted.org/packages/20/26/d48fab25460f69e38dce2183000d30878c74725c56493ee2a61dd3e97b27/fwtv-2.1.0.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/bc/3f/98c8419debd652d12ef9bb39781a007e4580a85d5f0a1ea84eb37da60e29/findmyorder-1.7.9.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-07 10:16:01] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230807/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jhrtools]: Downloading https://files.pythonhosted.org/packages/d4/19/cfc79eeaaa40de6563bc7dc4bdfe0bd899b8c5dec0fc18ac53135d44ca37/jhrtools-1.2.1-py3-none-any.whl
+[2023-08-07 10:16:01] INFO root fetch - processPackages [fwtv]: Downloading https://files.pythonhosted.org/packages/a5/ae/6ef56445dd4852abcb235a30f6c23013190ea96ee23deed0fd2c48833a29/fwtv-2.2.0.tar.gz
+[2023-08-07 10:16:01] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-07 10:16:01] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.8.tar.gz tmp/findmyorder-1.7.9.tar.gz --markdown 20230807/f/findmyorder/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-07 10:16:01] ERROR root fetch - processPackages [tanbih-pipeline]: Diffoscope failed: time="2023-08-07T10:15:59+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-08-07 10:16:01] INFO root fetch - main [MainThread]: End processing [tanbih-pipeline] error
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jhrtools]: executing diffoscope
+[2023-08-07 10:16:01] INFO root fetch - processPackages [jhrtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhrtools-1.2.0-py3-none-any.whl.zip tmp/jhrtools-1.2.1-py3-none-any.whl.zip --markdown 20230807/j/jhrtools/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-07 10:16:01] INFO root fetch - processPackages [fwtv]: executing diffoscope
+[2023-08-07 10:16:01] INFO root fetch - processPackages [fwtv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwtv-2.1.0.tar.gz tmp/fwtv-2.2.0.tar.gz --markdown 20230807/f/fwtv/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-07 10:16:02] INFO root fetch - processPackages [tensorshare]: Remove: archive file [/home/abi/fetcher/tmp/tensorshare-0.0.2.tar.gz]
+[2023-08-07 10:16:02] INFO root fetch - processPackages [tensorshare]: Remove: archive file [/home/abi/fetcher/tmp/tensorshare-0.0.3.tar.gz]
+[2023-08-07 10:16:02] INFO root fetch - main [MainThread]: End processing [tensorshare]: success
+[2023-08-07 10:16:02] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.8.tar.gz]
+[2023-08-07 10:16:02] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.9.tar.gz]
+[2023-08-07 10:16:02] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-07 10:16:03] INFO root fetch - processPackages [fwtv]: Remove: archive file [/home/abi/fetcher/tmp/fwtv-2.1.0.tar.gz]
+[2023-08-07 10:16:03] INFO root fetch - processPackages [fwtv]: Remove: archive file [/home/abi/fetcher/tmp/fwtv-2.2.0.tar.gz]
+[2023-08-07 10:16:03] INFO root fetch - main [MainThread]: End processing [fwtv]: success
+[2023-08-07 10:16:03] INFO root fetch - processPackages [jhrtools]: Remove: archive file [/home/abi/fetcher/tmp/jhrtools-1.2.0-py3-none-any.whl.zip]
+[2023-08-07 10:16:03] INFO root fetch - processPackages [jhrtools]: Remove: archive file [/home/abi/fetcher/tmp/jhrtools-1.2.1-py3-none-any.whl.zip]
+[2023-08-07 10:16:03] INFO root fetch - main [MainThread]: End processing [jhrtools]: success
+[2023-08-07 10:16:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-07 10:16:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-07 10:16:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-07 10:16:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-07 10:16:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-07 10:16:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-07 10:16:05] INFO root fetch - main [MainThread]: Store serial: [19202207]
