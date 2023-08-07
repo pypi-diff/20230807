@@ -7199,3 +7199,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:39:19] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.6-py3-none-any.whl.zip]
 [2023-08-07 06:39:19] INFO root fetch - main [MainThread]: End processing [processoptim]: success
 [2023-08-07 06:39:19] INFO root fetch - main [MainThread]: Store serial: [19200508]
+[2023-08-07 06:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200508]
+[2023-08-07 06:44:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 06:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cog2
+[2023-08-07 06:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-dotenv-vault
+[2023-08-07 06:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: processoptim
+[2023-08-07 06:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: via-api
+[2023-08-07 06:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systeminfo-python3
+[2023-08-07 06:44:28] INFO root fetch - processPackages [processoptim]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 06:44:28] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/7c/56/30016a878d7e1922b75ff5bc7470f564508d6468af2a9b409f5a6decca45/processoptim-0.2.5-py3-none-any.whl
+[2023-08-07 06:44:28] INFO root fetch - processPackages [cog2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 06:44:28] INFO root fetch - processPackages [via-api]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-08-07 06:44:28] WARNING root fetch - processPackages [systeminfo-python3]: Skipping, unable to determine old version
+[2023-08-07 06:44:28] INFO root fetch - main [MainThread]: End processing [systeminfo-python3] error
+[2023-08-07 06:44:28] INFO root fetch - processPackages [python-dotenv-vault]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-07 06:44:29] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/8a/aa/e15779bd3d7e0f6ba94c0269558791cbd1ea57d01a165c472985989bfc43/cog2-0.1.8.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/6b/ab/042291fec2a8648f180436fd7d645229a0e360ca635e117e2b9621a8c02c/via-api-2.4.0.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/e0/f7/59683f18baaa53495e4f589121e9e7eefacc86ef171faeec4e688bfcdd80/python-dotenv-vault-0.6.1.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/1e/a4/3fcc82077dba01339436a21c674f4d7a9fd966f0b251e82abaeb285b0940/cog2-0.1.9.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/e6/ea/5ef806cc45b9e36c991fd74ce5565a1c953fd781d7cc88afa3f2b82d3aa3/python-dotenv-vault-0.6.2.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/b3/6d/210ef3dac51de3a01d9919143382b2e82f5d06e587b9a4cee6f21d2d4013/via-api-2.5.0.tar.gz
+[2023-08-07 06:44:29] INFO root fetch - processPackages [cog2]: executing diffoscope
+[2023-08-07 06:44:29] INFO root fetch - processPackages [cog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog2-0.1.8.tar.gz tmp/cog2-0.1.9.tar.gz --markdown 20230807/c/cog2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:44:29] INFO root fetch - processPackages [python-dotenv-vault]: executing diffoscope
+[2023-08-07 06:44:29] INFO root fetch - processPackages [python-dotenv-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dotenv-vault-0.6.1.tar.gz tmp/python-dotenv-vault-0.6.2.tar.gz --markdown 20230807/p/python-dotenv-vault/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-07 06:44:29] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-07 06:44:29] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.4.0.tar.gz tmp/via-api-2.5.0.tar.gz --markdown 20230807/v/via-api/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-08-07 06:44:30] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/de/91/eb7c9ec519f84001b10fecc822385817c691a1079585ea58550c0e41c550/processoptim-0.2.6-py3-none-any.whl
+[2023-08-07 06:44:30] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.8.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.9.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - main [MainThread]: End processing [cog2]: success
+[2023-08-07 06:44:30] INFO root fetch - processPackages [python-dotenv-vault]: Remove: archive file [/home/abi/fetcher/tmp/python-dotenv-vault-0.6.1.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - processPackages [python-dotenv-vault]: Remove: archive file [/home/abi/fetcher/tmp/python-dotenv-vault-0.6.2.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - main [MainThread]: End processing [python-dotenv-vault]: success
+[2023-08-07 06:44:30] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.4.0.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.5.0.tar.gz]
+[2023-08-07 06:44:30] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-07 06:44:31] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-07 06:44:31] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.5-py3-none-any.whl.zip tmp/processoptim-0.2.6-py3-none-any.whl.zip --markdown 20230807/p/processoptim/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 06:44:32] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.5-py3-none-any.whl.zip]
+[2023-08-07 06:44:32] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.6-py3-none-any.whl.zip]
+[2023-08-07 06:44:32] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-07 06:44:32] INFO root fetch - main [MainThread]: Store serial: [19200524]
