@@ -14808,3 +14808,233 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:39:18] INFO root fetch - processPackages [locker-secrets]: Remove: archive file [/home/abi/fetcher/tmp/locker-secrets-0.0.6b1.tar.gz]
 [2023-08-07 11:39:18] INFO root fetch - main [MainThread]: End processing [locker-secrets]: success
 [2023-08-07 11:39:18] INFO root fetch - main [MainThread]: Store serial: [19203655]
+[2023-08-07 11:44:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203655]
+[2023-08-07 11:44:45] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blob-mounting-helper-utility
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sidebar-nav-custom-icons-streamlit
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatch-ci
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paperreview
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huawei-file-transfer
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orquesta-sdk
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ninfs
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymdfs
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smart-integration-utils
+[2023-08-07 11:44:45] INFO root fetch - processPackages [orquesta-sdk]: New version: [1.9] Old Version: [1.8]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [smart-integration-utils]: New version: [3.3.1.1] Old Version: [3.3.1.0]
+[2023-08-07 11:44:45] WARNING root fetch - processPackages [paperreview]: Skipping, unable to determine old version
+[2023-08-07 11:44:45] INFO root fetch - processPackages [paperreview]: Start processing: imio.smartweb.core
+[2023-08-07 11:44:45] INFO root fetch - main [MainThread]: End processing [paperreview] error
+[2023-08-07 11:44:45] INFO root fetch - processPackages [ninfs]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.8b31] Old Version: [0.0.7b30]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [huawei-file-transfer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [pymdfs]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [orquesta-sdk]: Downloading https://files.pythonhosted.org/packages/40/f3/11af71490f24ccad1c517ec2d9d68723986af161840bd982db300b8819fc/orquesta_sdk-1.8.tar.gz
+[2023-08-07 11:44:45] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [smart-integration-utils]: Downloading https://files.pythonhosted.org/packages/98/78/e5316f421ddc321d67488336b31e093ee3a39941d471c991d412b24d0b79/smart-integration-utils-3.3.1.0.tar.gz
+[2023-08-07 11:44:45] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230807.9.39.329312] Old Version: [20230806.9.12.969399]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 11:44:45] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/62/31/b3ccabc882d4f6e754746c8f737726ae3d07d35f0bb0647f704cb4b57d94/hatch_ci-0.0.7b30.tar.gz
+[2023-08-07 11:44:45] INFO root fetch - processPackages [pymdfs]: Downloading https://files.pythonhosted.org/packages/81/05/1bfaaff4f1a139cf2bb82bff75d05d111fbda023af0795c7640216df9ead/pymdfs-0.1.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [huawei-file-transfer]: Downloading https://files.pythonhosted.org/packages/bb/59/f01719073eb1cb8bbc8ce881a232f62a7f4521c0fb76e7fe66fb81be35ab/huawei_file_transfer-0.0.1.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/f3/2f/7243bb1c2c55e12447dc6572629abc0fdd93b948bd6ef9dd65d6ca454a5d/blob_mounting_helper_utility-1.0.9.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [ninfs]: Downloading https://files.pythonhosted.org/packages/0c/9c/0e0e3ee7599fc2607dc5c1cd8bfd40893c71c7b6007b618b8897c15d0109/ninfs-2.0a8.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/e6/47/7fb890363b7d700a7b72a5d0f9ab492bf0ec83edd9ebb0cd90d27cf678b0/Sidebar-nav-custom-icons-streamlit-0.0.4.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/45/4d/f7a6bb863a753076c8e84b2202a40145bf7fb129902c3c6029cceeab02b3/certora-cli-alpha-master-20230806.9.12.969399.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [orquesta-sdk]: Downloading https://files.pythonhosted.org/packages/4e/63/907393018239f035315960eeca44969da16e15a0f7d0706cb6e030f523a6/orquesta_sdk-1.9.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/39/01/1ae2ef4e6028f2c52dd5a3806f86711119ccb76425e1d8277c4247f19feb/imio.smartweb.core-1.1.8.tar.gz
+[2023-08-07 11:44:46] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37830823>=10485760
+[2023-08-07 11:44:46] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ott-jax
+[2023-08-07 11:44:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-07 11:44:46] INFO root fetch - processPackages [smart-integration-utils]: Downloading https://files.pythonhosted.org/packages/2c/1d/59ae4bc7d251e8c23b6d1d8515f5da3b3eef8721fd3f78d869db7ecd706f/smart-integration-utils-3.3.1.1.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [orquesta-sdk]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [orquesta-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquesta_sdk-1.8.tar.gz tmp/orquesta_sdk-1.9.tar.gz --markdown 20230807/o/orquesta-sdk/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [smart-integration-utils]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [smart-integration-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart-integration-utils-3.3.1.0.tar.gz tmp/smart-integration-utils-3.3.1.1.tar.gz --markdown 20230807/s/smart-integration-utils/3.3.1.0-3.3.1.1/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [ott-jax]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-07 11:44:46] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/44/ce/f8923d2350a0f2883193c1ae027dcfe3d89ceada987b8c6f5e9a2bd63c6a/hatch_ci-0.0.8b31.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [pymdfs]: Downloading https://files.pythonhosted.org/packages/a8/1e/2168b9e8f435eb2fe8dad4f94ef559c14e8bb766dbdbe2815049d3229be4/pymdfs-0.1.1.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/36/3e/bf2f8a8b6c23e10a8eda7acea266841112987cb42ab9b2bc9519c6d30a2d/Sidebar-nav-custom-icons-streamlit-0.0.5.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [huawei-file-transfer]: Downloading https://files.pythonhosted.org/packages/c8/ff/e4b4547206f3024a49059c90a3b796d747e364c2cb5073f552106deb4525/huawei_file_transfer-0.0.2.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/29/a1/be16b0819095bfc2c47660b9ede10597223cbdaacf955d640b4030293f88/blob_mounting_helper_utility-1.1.0.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sidebar-nav-custom-icons-streamlit-0.0.4.tar.gz tmp/Sidebar-nav-custom-icons-streamlit-0.0.5.tar.gz --markdown 20230807/S/Sidebar-nav-custom-icons-streamlit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/0f/a3/6cca5dd5885aab74c6eda6e55cfd18561b54b23359684f77ff3a38bf4be8/imio.smartweb.core-1.1.9.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [huawei-file-transfer]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [huawei-file-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huawei_file_transfer-0.0.1.tar.gz tmp/huawei_file_transfer-0.0.2.tar.gz --markdown 20230807/h/huawei-file-transfer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [ott-jax]: Downloading https://files.pythonhosted.org/packages/2e/2a/c267566296dab49da8000d66b8e931f0c7457be703060d37fadb19d6b820/ott-jax-0.4.2.tar.gz
+[2023-08-07 11:44:46] INFO root fetch - processPackages [pymdfs]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [pymdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdfs-0.1.tar.gz tmp/pymdfs-0.1.1.tar.gz --markdown 20230807/p/pymdfs/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.9.tar.gz tmp/blob_mounting_helper_utility-1.1.0.tar.gz --markdown 20230807/b/blob-mounting-helper-utility/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.7b30.tar.gz tmp/hatch_ci-0.0.8b31.tar.gz --markdown 20230807/h/hatch-ci/0.0.7b30-0.0.8b31/diff.md --exclude *.pyd
+[2023-08-07 11:44:46] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-08-07 11:44:46] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230807/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ninfs]: Downloading https://files.pythonhosted.org/packages/1a/4a/ed0a48e1d39fe9de7171d9bfa4ce4857f394d88a741e1c08182ae4a354cc/ninfs-2.0a9.tar.gz
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ott-jax]: Downloading https://files.pythonhosted.org/packages/ba/d7/fcf14b331e08cdc3e9d956699ca2de569c5bbcdd4d5340e5b7c466a11943/ott-jax-0.4.3.tar.gz
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ott-jax]: executing diffoscope
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ott-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ott-jax-0.4.2.tar.gz tmp/ott-jax-0.4.3.tar.gz --markdown 20230807/o/ott-jax/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ninfs]: executing diffoscope
+[2023-08-07 11:44:47] INFO root fetch - processPackages [ninfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninfs-2.0a8.tar.gz tmp/ninfs-2.0a9.tar.gz --markdown 20230807/n/ninfs/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-08-07 11:44:47] INFO root fetch - processPackages [orquesta-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquesta_sdk-1.8.tar.gz]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [orquesta-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquesta_sdk-1.9.tar.gz]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [orquesta-sdk]: Start processing: btrack
+[2023-08-07 11:44:47] INFO root fetch - main [MainThread]: End processing [orquesta-sdk]: success
+[2023-08-07 11:44:47] INFO root fetch - processPackages [smart-integration-utils]: Remove: archive file [/home/abi/fetcher/tmp/smart-integration-utils-3.3.1.0.tar.gz]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [smart-integration-utils]: Remove: archive file [/home/abi/fetcher/tmp/smart-integration-utils-3.3.1.1.tar.gz]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [smart-integration-utils]: Start processing: locker-secrets
+[2023-08-07 11:44:47] INFO root fetch - main [MainThread]: End processing [smart-integration-utils]: success
+[2023-08-07 11:44:47] INFO root fetch - processPackages [locker-secrets]: New version: [0.0.6b1] Old Version: [0.0.5b1]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [btrack]: New version: [0.6.4rc0] Old Version: [0.6.3]
+[2023-08-07 11:44:47] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/af/2a/3907cdbeb2a30dd221804b36923c6adf9b4061a338872489ad171603f52a/locker-secrets-0.0.5b1.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/24/21/6e87017966887d1345f0e0105f440a2fb61b22c2a173895505029ca3211c/btrack-0.6.3.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.4.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.5.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Start processing: docarray
+[2023-08-07 11:44:48] INFO root fetch - main [MainThread]: End processing [Sidebar-nav-custom-icons-streamlit]: success
+[2023-08-07 11:44:48] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.9.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.1.0.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [blob-mounting-helper-utility]: Start processing: aws-network-firewall
+[2023-08-07 11:44:48] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-07 11:44:48] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [huawei-file-transfer]: Remove: archive file [/home/abi/fetcher/tmp/huawei_file_transfer-0.0.1.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [huawei-file-transfer]: Remove: archive file [/home/abi/fetcher/tmp/huawei_file_transfer-0.0.2.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [huawei-file-transfer]: Start processing: gardener-cicd-base
+[2023-08-07 11:44:48] INFO root fetch - main [MainThread]: End processing [huawei-file-transfer]: success
+[2023-08-07 11:44:48] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [pymdfs]: Remove: archive file [/home/abi/fetcher/tmp/pymdfs-0.1.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [pymdfs]: Remove: archive file [/home/abi/fetcher/tmp/pymdfs-0.1.1.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [pymdfs]: Start processing: gardener-cicd-cli
+[2023-08-07 11:44:48] INFO root fetch - main [MainThread]: End processing [pymdfs]: success
+[2023-08-07 11:44:48] INFO root fetch - processPackages [locker-secrets]: Downloading https://files.pythonhosted.org/packages/46/9e/9402e7d0f19b8f1fe907906928be059f96a51a5dc027aab085bdda522980/locker-secrets-0.0.6b1.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2124.0] Old Version: [1.2123.0]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/f1/cf/d9fe40b0e566456be16e1c98a8cb877ed26924f8a36fa39cbce9d9b0419f/aws_network_firewall-0.7.2.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/e6/ec/767297d337bee262024b67a68101fe810c1d9b98428e77433686d4c7ed08/btrack-0.6.4rc0.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2124.0] Old Version: [1.2123.0]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b30.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.8b31.tar.gz]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [hatch-ci]: Start processing: gardener-cicd-dso
+[2023-08-07 11:44:48] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 11:44:48] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-08-07 11:44:48] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.6.3.tar.gz tmp/btrack-0.6.4rc0.tar.gz --markdown 20230807/b/btrack/0.6.3-0.6.4rc0/diff.md --exclude *.pyd
+[2023-08-07 11:44:48] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f1/dc/f5bba1da65fdcfa27d6c79b2ccc63de70f2faa96d604c21cb0db50fdf31c/gardener-cicd-cli-1.2123.0.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/64/ff/3ae1fc54bc00749bba48bb83c6aafff5067583707b7a9f304bc6e9fd8d3c/aws_network_firewall-0.7.3.tar.gz
+[2023-08-07 11:44:48] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2124.0] Old Version: [1.2123.0]
+[2023-08-07 11:44:48] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/92/93/dd1f3836065ccd6c6313e0d9a5319664e71647c9093058c2eeaa191915c6/gardener-cicd-base-1.2123.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [locker-secrets]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [locker-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locker-secrets-0.0.5b1.tar.gz tmp/locker-secrets-0.0.6b1.tar.gz --markdown 20230807/l/locker-secrets/0.0.5b1-0.0.6b1/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.7.2.tar.gz tmp/aws_network_firewall-0.7.3.tar.gz --markdown 20230807/a/aws-network-firewall/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/98/f3/6e2a3a97456b8122ca1a070eb286c2b402405fd721bf4c36d695dd6ff416/gardener-cicd-dso-1.2123.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230807/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/d9/46/c4fccb350911621640119131a2155980a4475d6d7fcc88f540ad8c6f9c14/gardener-cicd-cli-1.2124.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ott-jax]: Remove: archive file [/home/abi/fetcher/tmp/ott-jax-0.4.2.tar.gz]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ott-jax]: Remove: archive file [/home/abi/fetcher/tmp/ott-jax-0.4.3.tar.gz]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ott-jax]: Start processing: gardener-cicd-libs
+[2023-08-07 11:44:49] INFO root fetch - main [MainThread]: End processing [ott-jax]: success
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/a5/dc/4e265507da3a5cc079e21e76fb07c1a18c5a24c2139410838d41b9aee519/gardener-cicd-base-1.2124.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ninfs]: Remove: archive file [/home/abi/fetcher/tmp/ninfs-2.0a8.tar.gz]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ninfs]: Remove: archive file [/home/abi/fetcher/tmp/ninfs-2.0a9.tar.gz]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [ninfs]: Start processing: MyOverlay
+[2023-08-07 11:44:49] INFO root fetch - main [MainThread]: End processing [ninfs]: success
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2123.0.tar.gz tmp/gardener-cicd-cli-1.2124.0.tar.gz --markdown 20230807/g/gardener-cicd-cli/1.2123.0-1.2124.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [MyOverlay]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2123.0.tar.gz tmp/gardener-cicd-base-1.2124.0.tar.gz --markdown 20230807/g/gardener-cicd-base/1.2123.0-1.2124.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2124.0] Old Version: [1.2123.0]
+[2023-08-07 11:44:49] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/19/41/abd58e643772b2a4b02c30bc7e3c23f314a2fdde050343fc76e5a2a23aac/MyOverlay-0.2.5.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/7c/78/edba611f3504e9f661f4347a3a6598a425d9dd276ebc6f321db93c4fb5d1/gardener-cicd-dso-1.2124.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2123.0.tar.gz tmp/gardener-cicd-dso-1.2124.0.tar.gz --markdown 20230807/g/gardener-cicd-dso/1.2123.0-1.2124.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:49] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ad/85/fc9c33848036bd0f52715e64290b3d6c8ba29294ebb079d6be837ee6dae4/gardener-cicd-libs-1.2123.0.tar.gz
+[2023-08-07 11:44:49] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/af/7d/fa053fc4c0a13de66325a473ae4f05b931feecb5dc0f290a69ed48410fb1/MyOverlay-0.2.6.tar.gz
+[2023-08-07 11:44:50] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-07 11:44:50] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.2.5.tar.gz tmp/MyOverlay-0.2.6.tar.gz --markdown 20230807/M/MyOverlay/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 11:44:50] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/67/0e/299fc54ecc914631bbdd59e6cba3eeaaa12a5ba3ede6cdcfb695a63f4c41/gardener-cicd-libs-1.2124.0.tar.gz
+[2023-08-07 11:44:50] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-08-07 11:44:50] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2123.0.tar.gz tmp/gardener-cicd-libs-1.2124.0.tar.gz --markdown 20230807/g/gardener-cicd-libs/1.2123.0-1.2124.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:50] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.2.tar.gz]
+[2023-08-07 11:44:50] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.3.tar.gz]
+[2023-08-07 11:44:50] INFO root fetch - processPackages [aws-network-firewall]: Start processing: gardener-cicd-whd
+[2023-08-07 11:44:50] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-08-07 11:44:50] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2124.0] Old Version: [1.2123.0]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2123.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2124.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: gardener-oci
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/dc/7f/467fe415d57a205b52628a43961f634178a9d4641b63332ed181e1860af2/gardener-cicd-whd-1.2123.0.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2123.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2124.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: raga-cli
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2123.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2124.0.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: pyosv
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-08-07 11:44:51] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [docarray]: Start processing: lucidwallet
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-08-07 11:44:51] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-07 11:44:51] WARNING root fetch - processPackages [pyosv]: Skipping, unable to determine old version
+[2023-08-07 11:44:51] INFO root fetch - processPackages [pyosv]: Start processing: fracsuite
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [pyosv] error
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.5.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.6.tar.gz]
+[2023-08-07 11:44:51] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-07 11:44:51] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ba/48/a12d39f0f4d7748cce1fcc47a4eb73271de6a32a3d4614ea49d8f42155ea/gardener-cicd-whd-1.2124.0.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [fracsuite]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 11:44:51] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/cd/3a/750eb04ff7edaadd2ba94803a30fcf33759c805b51a9881643d5e74bc3e3/lucidwallet-0.1.4.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2123.0.tar.gz tmp/gardener-cicd-whd-1.2124.0.tar.gz --markdown 20230807/g/gardener-cicd-whd/1.2123.0-1.2124.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:51] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [fracsuite]: Downloading https://files.pythonhosted.org/packages/fd/4b/523ff678365a5f7d3c120f8692e62a23d6ab0ffee053e11f506a6f0b9731/fracsuite-0.1.2.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-08-07 11:44:51] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-07 11:44:51] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230807/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-08-07 11:44:51] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230807/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-08-07 11:44:52] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/6d/60/e065ecc9ebb3e751c827feae5c4b0f789bbce68a44a8771f9ad4480db2dd/lucidwallet-0.1.5.tar.gz
+[2023-08-07 11:44:52] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-07 11:44:52] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.4.tar.gz tmp/lucidwallet-0.1.5.tar.gz --markdown 20230807/l/lucidwallet/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 11:44:52] INFO root fetch - processPackages [fracsuite]: Downloading https://files.pythonhosted.org/packages/31/05/b9dc553bad98dfb823fea671caa2f80d700ee6793f55ca637f7a2e9aac44/fracsuite-0.1.3.tar.gz
+[2023-08-07 11:44:52] INFO root fetch - processPackages [fracsuite]: executing diffoscope
+[2023-08-07 11:44:52] INFO root fetch - processPackages [fracsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fracsuite-0.1.2.tar.gz tmp/fracsuite-0.1.3.tar.gz --markdown 20230807/f/fracsuite/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 11:44:52] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.1.8.tar.gz]
+[2023-08-07 11:44:52] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.1.9.tar.gz]
+[2023-08-07 11:44:52] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-08-07 11:44:52] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2123.0.tar.gz]
+[2023-08-07 11:44:52] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2124.0.tar.gz]
+[2023-08-07 11:44:52] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-08-07 11:44:53] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2123.0.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2124.0.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-08-07 11:44:53] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-08-07 11:44:53] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-07 11:44:53] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.4.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.5.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-07 11:44:53] INFO root fetch - processPackages [fracsuite]: Remove: archive file [/home/abi/fetcher/tmp/fracsuite-0.1.2.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - processPackages [fracsuite]: Remove: archive file [/home/abi/fetcher/tmp/fracsuite-0.1.3.tar.gz]
+[2023-08-07 11:44:53] INFO root fetch - main [MainThread]: End processing [fracsuite]: success
+[2023-08-07 11:45:12] INFO root fetch - processPackages [btrack]: Remove: archive file [/home/abi/fetcher/tmp/btrack-0.6.3.tar.gz]
+[2023-08-07 11:45:12] INFO root fetch - processPackages [btrack]: Remove: archive file [/home/abi/fetcher/tmp/btrack-0.6.4rc0.tar.gz]
+[2023-08-07 11:45:12] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-08-07 11:45:34] INFO root fetch - processPackages [locker-secrets]: Remove: archive file [/home/abi/fetcher/tmp/locker-secrets-0.0.5b1.tar.gz]
+[2023-08-07 11:45:34] INFO root fetch - processPackages [locker-secrets]: Remove: archive file [/home/abi/fetcher/tmp/locker-secrets-0.0.6b1.tar.gz]
+[2023-08-07 11:45:34] INFO root fetch - main [MainThread]: End processing [locker-secrets]: success
+[2023-08-07 11:45:34] INFO root fetch - main [MainThread]: Store serial: [19203744]
