@@ -9054,3 +9054,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:55:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807065003.tar.gz]
 [2023-08-07 08:55:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-07 08:55:12] INFO root fetch - main [MainThread]: Store serial: [19201509]
+[2023-08-07 09:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201509]
+[2023-08-07 09:00:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyOverlay
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hprint
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyProcar
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SeedrClient
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poseutil
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mknodes
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opower
+[2023-08-07 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrslpred
+[2023-08-07 09:00:21] INFO root fetch - processPackages [SeedrClient]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/71/af/003ba315d2682142bea332bd4a28623bd120f86e5155650ae0649eba6d26/SeedrClient-0.1.4.tar.gz
+[2023-08-07 09:00:21] INFO root fetch - processPackages [poseutil]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-07 09:00:21] WARNING root fetch - processPackages [mrslpred]: Skipping, unable to determine old version
+[2023-08-07 09:00:21] INFO root fetch - processPackages [mrslpred]: Start processing: Multiplication-package
+[2023-08-07 09:00:21] INFO root fetch - main [MainThread]: End processing [mrslpred] error
+[2023-08-07 09:00:21] INFO root fetch - processPackages [PyProcar]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [MyOverlay]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 09:00:21] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-07 09:00:21] INFO root fetch - processPackages [hprint]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-08-07 09:00:22] WARNING root fetch - processPackages [Multiplication-package]: Skipping, unable to determine old version
+[2023-08-07 09:00:22] INFO root fetch - processPackages [Multiplication-package]: Start processing: factorialhr
+[2023-08-07 09:00:22] INFO root fetch - main [MainThread]: End processing [Multiplication-package] error
+[2023-08-07 09:00:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [jijmodeling]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-08-07 09:00:22] INFO root fetch - processPackages [factorialhr]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-07 09:00:22] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/a1/11/ad96c031a0764b88e4abc4b6d65f167ac640db18f5c032c7b7d455909581/poseutil-0.0.9.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/fb/5b/cbcd9ea1a1de65ed5edb1e896b52de3ff811ba8ebb674f31e6855554cda4/MyOverlay-0.2.2.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/b7/98/580d4e8ae9184de12b3126a0374c8204848016aa46e847e2c3219cdb875d/PyProcar-6.0.0.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/05/02/d19c6c8f95953c2cc5225fa52785f6d22238d05ab36a5667667eeb050b4d/SeedrClient-0.1.5.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/3c/db/358f873f1d26d5b293077641a17965dd9cae5f74845e1f3a43f174d50463/jijmodeling-1.0.0rc5-cp39-none-win_amd64.whl
+[2023-08-07 09:00:22] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/2b/6f/6cae6f47c953f6292323c819d4b126895ced4cbdd69ad27e491d54c61029/hprint-2.0.6.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [factorialhr]: Downloading https://files.pythonhosted.org/packages/43/19/20d137973a8e4949a1e0bc133d9c07c32b75ba7d2b6bf578fbb621392b35/factorialhr-1.0.2-py3-none-any.whl
+[2023-08-07 09:00:22] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-07 09:00:22] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230807/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 09:00:22] INFO root fetch - processPackages [SeedrClient]: executing diffoscope
+[2023-08-07 09:00:22] INFO root fetch - processPackages [SeedrClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeedrClient-0.1.4.tar.gz tmp/SeedrClient-0.1.5.tar.gz --markdown 20230807/S/SeedrClient/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 09:00:22] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-07 09:00:22] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230807/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:00:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/f4/54/9a85fa8fd68d52a02163dbd809ab4f9a85996d30f7a52f8a84909f808a5a/poseutil-0.1.0.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/bb/17/33f5db3dba3e6ea4ba6e61e1f98e58a64319d059c9879d272b7f7f5d5553/PyProcar-6.1.0.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/36/dc/29fd57bcd0c555bf54fdc52d061798c5e274eebc4438c3c73526255ab69c/MyOverlay-0.2.3.tar.gz
+[2023-08-07 09:00:22] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2023-08-07 09:00:22] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.0.9.tar.gz tmp/poseutil-0.1.0.tar.gz --markdown 20230807/p/poseutil/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:00:22] INFO root fetch - processPackages [factorialhr]: Downloading https://files.pythonhosted.org/packages/90/4e/c402054a5eae1ce0b75ad91650b23b0e2e90aef93669af66611eb16bc352/factorialhr-1.1.0-py3-none-any.whl
+[2023-08-07 09:00:22] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/7d/6e/3bf33dd67c1c68c37b4b5a74f6804e044056e52a700d79c96a8ed2db483e/hprint-2.0.7.tar.gz
+[2023-08-07 09:00:23] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/0f/48/0f520796183e3607faeb89507bbabfa4f59f98a934ee0a7c1f34a34dc948/jijmodeling-1.0.0rc6-cp39-none-win_amd64.whl
+[2023-08-07 09:00:23] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-07 09:00:23] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.2.2.tar.gz tmp/MyOverlay-0.2.3.tar.gz --markdown 20230807/M/MyOverlay/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 09:00:23] INFO root fetch - processPackages [factorialhr]: executing diffoscope
+[2023-08-07 09:00:23] INFO root fetch - processPackages [factorialhr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorialhr-1.0.2-py3-none-any.whl.zip tmp/factorialhr-1.1.0-py3-none-any.whl.zip --markdown 20230807/f/factorialhr/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:00:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-07 09:00:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 09:00:23] INFO root fetch - processPackages [hprint]: executing diffoscope
+[2023-08-07 09:00:23] INFO root fetch - processPackages [hprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hprint-2.0.6.tar.gz tmp/hprint-2.0.7.tar.gz --markdown 20230807/h/hprint/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-08-07 09:00:23] INFO root fetch - processPackages [PyProcar]: executing diffoscope
+[2023-08-07 09:00:23] INFO root fetch - processPackages [PyProcar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProcar-6.0.0.tar.gz tmp/PyProcar-6.1.0.tar.gz --markdown 20230807/P/PyProcar/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:00:24] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-08-07 09:00:24] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-1.0.0rc5-cp39-none-win_amd64.whl.zip tmp/jijmodeling-1.0.0rc6-cp39-none-win_amd64.whl.zip --markdown 20230807/j/jijmodeling/1.0.0rc5-1.0.0rc6/diff.md --exclude *.pyd
+[2023-08-07 09:00:24] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.4.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.5.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [SeedrClient]: Start processing: pyimporters-csv
+[2023-08-07 09:00:24] INFO root fetch - main [MainThread]: End processing [SeedrClient]: success
+[2023-08-07 09:00:24] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.0.9.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.1.0.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2023-08-07 09:00:24] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-07 09:00:24] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 09:00:24] INFO root fetch - processPackages [factorialhr]: Remove: archive file [/home/abi/fetcher/tmp/factorialhr-1.0.2-py3-none-any.whl.zip]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [factorialhr]: Remove: archive file [/home/abi/fetcher/tmp/factorialhr-1.1.0-py3-none-any.whl.zip]
+[2023-08-07 09:00:24] INFO root fetch - main [MainThread]: End processing [factorialhr]: success
+[2023-08-07 09:00:24] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.2.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.2.3.tar.gz]
+[2023-08-07 09:00:24] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-07 09:00:25] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 09:00:25] INFO root fetch - processPackages [hprint]: Remove: archive file [/home/abi/fetcher/tmp/hprint-2.0.6.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - processPackages [hprint]: Remove: archive file [/home/abi/fetcher/tmp/hprint-2.0.7.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - main [MainThread]: End processing [hprint]: success
+[2023-08-07 09:00:25] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 09:00:25] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 09:00:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-07 09:00:25] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-07 09:00:25] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc5-cp39-none-win_amd64.whl.zip]
+[2023-08-07 09:00:25] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc6-cp39-none-win_amd64.whl.zip]
+[2023-08-07 09:00:25] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-08-07 09:00:25] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-6.0.0.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-6.1.0.tar.gz]
+[2023-08-07 09:00:25] INFO root fetch - main [MainThread]: End processing [PyProcar]: success
+[2023-08-07 09:00:26] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 09:00:26] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 09:00:26] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 09:00:26] INFO root fetch - main [MainThread]: Store serial: [19201609]
