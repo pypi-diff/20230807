@@ -21461,3 +21461,129 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [wxdat]: success
 [2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-08-07 16:23:17] INFO root fetch - main [MainThread]: Store serial: [19206638]
+[2023-08-07 16:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206638]
+[2023-08-07 16:28:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xblock-utils
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyqd
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-adding
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modular-sdk
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-multiping
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agixt
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: detool
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: profile-instagram-graphql-imp-local-python-package-local
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-saml2-auth-multi
+[2023-08-07 16:28:26] INFO root fetch - processPackages [detool]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [django-saml2-auth-multi]: New version: [3.11.0rc2] Old Version: [3.11.0rc1]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-08-07 16:28:26] WARNING root fetch - processPackages [test-multiping]: Skipping, unable to determine old version
+[2023-08-07 16:28:26] INFO root fetch - processPackages [test-multiping]: Start processing: ccs-fit
+[2023-08-07 16:28:26] INFO root fetch - main [MainThread]: End processing [test-multiping] error
+[2023-08-07 16:28:26] INFO root fetch - processPackages [test-adding]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/14/e6/f4c73322429a66b621e9282520ca91dda5d084758df1b4491e8f673225b6/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz
+[2023-08-07 16:28:26] INFO root fetch - processPackages [modular-sdk]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [whyqd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [xblock-utils]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/01/4b/99a7cd429958e6401506016436fd2578fedec5c796efb092377a087bac4d/detool-1.0.9.tar.gz
+[2023-08-07 16:28:26] INFO root fetch - processPackages [ccs-fit]: New version: [0.22.0] Old Version: [0.21.9]
+[2023-08-07 16:28:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-08-07 16:28:26] INFO root fetch - processPackages [django-saml2-auth-multi]: Downloading https://files.pythonhosted.org/packages/ac/8c/6ba498158f330629c72c7695ab3188841811c6fe65449058fa5d791b7038/django_saml2_auth_multi-3.11.0rc1.tar.gz
+[2023-08-07 16:28:26] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-08-07 16:28:26] INFO root fetch - processPackages [test-adding]: Downloading https://files.pythonhosted.org/packages/7c/55/0678fa25c6450689d39a34476e42dffb820db239b6a3eb6a362384048ae2/test-adding-0.1.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/35/4d/96e3ff766332eda66b2b5710760c29ff412f28c9106367937ed344aed532/whyqd-1.0.2.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [xblock-utils]: Downloading https://files.pythonhosted.org/packages/4d/6a/4b06c431b2c697f8fa29aae61c495b14c346ff38bbe7830f011216ac76bd/xblock-utils-3.3.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/91/98/9a34c710e364843cb28c3917d8d1ab66018d2317d606b8ee5d9295199f4a/modular_sdk-2.2.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [ccs-fit]: Downloading https://files.pythonhosted.org/packages/7f/ce/2454809198a58dd5e2b7929d4f1ed7d82207cd617c2d9d308095fdf206b7/ccs_fit-0.21.9.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/1c/33/d33d4e9251722bfee906f3542f3c3901541b5202b1729413796a5a7a79bf/detool-1.1.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/75/bf/826375d92fc682dc3a20a8c2928d0669517be0f4407199851305bedb79a8/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [django-saml2-auth-multi]: Downloading https://files.pythonhosted.org/packages/88/9c/39affb7d4d20eca7fc2b57739d6e327d842ade8542bbbd9afde85768b532/django_saml2_auth_multi-3.11.0rc2.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz --markdown 20230807/p/profile-instagram-graphql-imp-local-python-package-local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [test-adding]: Downloading https://files.pythonhosted.org/packages/a4/77/fd948a453b85a204e618a2d191491f1df4a85a17293c409fa3fdad7755db/test-adding-0.1.1.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [detool]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [detool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detool-1.0.9.tar.gz tmp/detool-1.1.0.tar.gz --markdown 20230807/d/detool/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [xblock-utils]: Downloading https://files.pythonhosted.org/packages/84/d3/7d1f264cc13dd8860ca599f2e682f1f1e9977f9cdae29ad3d85a2d950caf/xblock-utils-3.4.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/56/63/2f07a97991425f6b279f2711abe9248d251caab91650f36d06e9103f495d/modular_sdk-2.2.1.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [ccs-fit]: Downloading https://files.pythonhosted.org/packages/d5/79/24808f8a9919a8620da0ac14a74b920039882742dc7695814d4982e33dcf/ccs_fit-0.22.0.tar.gz
+[2023-08-07 16:28:27] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230807/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [test-adding]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [test-adding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-adding-0.1.0.tar.gz tmp/test-adding-0.1.1.tar.gz --markdown 20230807/t/test-adding/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [django-saml2-auth-multi]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [django-saml2-auth-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_saml2_auth_multi-3.11.0rc1.tar.gz tmp/django_saml2_auth_multi-3.11.0rc2.tar.gz --markdown 20230807/d/django-saml2-auth-multi/3.11.0rc1-3.11.0rc2/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [xblock-utils]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [xblock-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-utils-3.3.0.tar.gz tmp/xblock-utils-3.4.0.tar.gz --markdown 20230807/x/xblock-utils/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230807/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [ccs-fit]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [ccs-fit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs_fit-0.21.9.tar.gz tmp/ccs_fit-0.22.0.tar.gz --markdown 20230807/c/ccs-fit/0.21.9-0.22.0/diff.md --exclude *.pyd
+[2023-08-07 16:28:27] INFO root fetch - processPackages [modular-sdk]: executing diffoscope
+[2023-08-07 16:28:27] INFO root fetch - processPackages [modular-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_sdk-2.2.0.tar.gz tmp/modular_sdk-2.2.1.tar.gz --markdown 20230807/m/modular-sdk/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-07 16:28:28] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/5c/f6/34789a92681663d62f72c0c94be56078aa14a5394ff811476eec93c01557/whyqd-1.0.3.tar.gz
+[2023-08-07 16:28:28] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz]
+[2023-08-07 16:28:28] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.5.tar.gz]
+[2023-08-07 16:28:28] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Start processing: python-sample-03-08-2023
+[2023-08-07 16:28:28] INFO root fetch - main [MainThread]: End processing [profile-instagram-graphql-imp-local-python-package-local]: success
+[2023-08-07 16:28:28] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.0.9.tar.gz]
+[2023-08-07 16:28:28] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.1.0.tar.gz]
+[2023-08-07 16:28:28] INFO root fetch - processPackages [detool]: Start processing: tikdan
+[2023-08-07 16:28:28] INFO root fetch - main [MainThread]: End processing [detool]: success
+[2023-08-07 16:28:28] INFO root fetch - processPackages [python-sample-03-08-2023]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 16:28:28] WARNING root fetch - processPackages [tikdan]: Skipping, unable to determine old version
+[2023-08-07 16:28:28] INFO root fetch - processPackages [tikdan]: Start processing: Flask-Beginner
+[2023-08-07 16:28:28] INFO root fetch - main [MainThread]: End processing [tikdan] error
+[2023-08-07 16:28:29] INFO root fetch - processPackages [Flask-Beginner]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [test-adding]: Remove: archive file [/home/abi/fetcher/tmp/test-adding-0.1.0.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [test-adding]: Remove: archive file [/home/abi/fetcher/tmp/test-adding-0.1.1.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [test-adding]: Start processing: wells-data-pipeline-cores
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [test-adding]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [whyqd]: executing diffoscope
+[2023-08-07 16:28:29] INFO root fetch - processPackages [whyqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyqd-1.0.2.tar.gz tmp/whyqd-1.0.3.tar.gz --markdown 20230807/w/whyqd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-07 16:28:29] INFO root fetch - processPackages [python-sample-03-08-2023]: Downloading https://files.pythonhosted.org/packages/16/40/0bf286e11413bddd42edb08f896d4629cd0201d2348e8eee2f2388e374f4/python_sample_03_08_2023-0.1.0-py3-none-any.whl
+[2023-08-07 16:28:29] INFO root fetch - processPackages [Flask-Beginner]: Downloading https://files.pythonhosted.org/packages/55/42/d790847c28cd0bd96f6f3a279d3916a0c4db3186c47b637576b2546ca27e/Flask-Beginner-0.0.2.tar.gz
+[2023-08-07 16:28:29] INFO root fetch - processPackages [wells-data-pipeline-cores]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [ccs-fit]: Remove: archive file [/home/abi/fetcher/tmp/ccs_fit-0.21.9.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [ccs-fit]: Remove: archive file [/home/abi/fetcher/tmp/ccs_fit-0.22.0.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [ccs-fit]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [xblock-utils]: Remove: archive file [/home/abi/fetcher/tmp/xblock-utils-3.3.0.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [xblock-utils]: Remove: archive file [/home/abi/fetcher/tmp/xblock-utils-3.4.0.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [xblock-utils]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [Flask-Beginner]: Downloading https://files.pythonhosted.org/packages/3e/be/a52f6d5cb84305970ada230ff82a7a1bd60f30c1ec3b28ac81908ca30fb8/Flask-Beginner-0.0.3.tar.gz
+[2023-08-07 16:28:29] INFO root fetch - processPackages [python-sample-03-08-2023]: Downloading https://files.pythonhosted.org/packages/ef/04/11faf149666c30944198bad73fc8f52e0ae7e0e7c346b9d2a711473cca63/python_sample_03_08_2023-0.1.1-py3-none-any.whl
+[2023-08-07 16:28:29] INFO root fetch - processPackages [wells-data-pipeline-cores]: Downloading https://files.pythonhosted.org/packages/cd/e6/842a63df6c2f15a69443c9ce5f3ad6989c4a38053a66a76567d1db939043/wells-data-pipeline-cores-0.0.3.tar.gz
+[2023-08-07 16:28:29] INFO root fetch - processPackages [Flask-Beginner]: executing diffoscope
+[2023-08-07 16:28:29] INFO root fetch - processPackages [Flask-Beginner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Beginner-0.0.2.tar.gz tmp/Flask-Beginner-0.0.3.tar.gz --markdown 20230807/F/Flask-Beginner/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 16:28:29] INFO root fetch - processPackages [python-sample-03-08-2023]: executing diffoscope
+[2023-08-07 16:28:29] INFO root fetch - processPackages [python-sample-03-08-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sample_03_08_2023-0.1.0-py3-none-any.whl.zip tmp/python_sample_03_08_2023-0.1.1-py3-none-any.whl.zip --markdown 20230807/p/python-sample-03-08-2023/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 16:28:29] INFO root fetch - processPackages [django-saml2-auth-multi]: Remove: archive file [/home/abi/fetcher/tmp/django_saml2_auth_multi-3.11.0rc1.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [django-saml2-auth-multi]: Remove: archive file [/home/abi/fetcher/tmp/django_saml2_auth_multi-3.11.0rc2.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [django-saml2-auth-multi]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-2.2.0.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-2.2.1.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [modular-sdk]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-08-07 16:28:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-08-07 16:28:29] INFO root fetch - processPackages [wells-data-pipeline-cores]: Downloading https://files.pythonhosted.org/packages/83/00/40e2e8b0b023c240b64adc5b08014d5d694261f1bd91bc20b9b1adb4a851/wells-data-pipeline-cores-0.0.4.tar.gz
+[2023-08-07 16:28:29] INFO root fetch - processPackages [wells-data-pipeline-cores]: executing diffoscope
+[2023-08-07 16:28:29] INFO root fetch - processPackages [wells-data-pipeline-cores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wells-data-pipeline-cores-0.0.3.tar.gz tmp/wells-data-pipeline-cores-0.0.4.tar.gz --markdown 20230807/w/wells-data-pipeline-cores/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 16:28:30] INFO root fetch - processPackages [Flask-Beginner]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Beginner-0.0.2.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - processPackages [Flask-Beginner]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Beginner-0.0.3.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [Flask-Beginner]: success
+[2023-08-07 16:28:30] INFO root fetch - processPackages [python-sample-03-08-2023]: Remove: archive file [/home/abi/fetcher/tmp/python_sample_03_08_2023-0.1.0-py3-none-any.whl.zip]
+[2023-08-07 16:28:30] INFO root fetch - processPackages [python-sample-03-08-2023]: Remove: archive file [/home/abi/fetcher/tmp/python_sample_03_08_2023-0.1.1-py3-none-any.whl.zip]
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [python-sample-03-08-2023]: success
+[2023-08-07 16:28:30] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-08-07 16:28:30] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.2.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.3.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [whyqd]: success
+[2023-08-07 16:28:30] INFO root fetch - processPackages [wells-data-pipeline-cores]: Remove: archive file [/home/abi/fetcher/tmp/wells-data-pipeline-cores-0.0.3.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - processPackages [wells-data-pipeline-cores]: Remove: archive file [/home/abi/fetcher/tmp/wells-data-pipeline-cores-0.0.4.tar.gz]
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [wells-data-pipeline-cores]: success
+[2023-08-07 16:28:30] INFO root fetch - main [MainThread]: Store serial: [19206693]
