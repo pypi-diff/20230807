@@ -17541,3 +17541,81 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:29:51] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.1.0.tar.gz]
 [2023-08-07 13:29:51] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-08-07 13:29:51] INFO root fetch - main [MainThread]: Store serial: [19204887]
+[2023-08-07 13:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204887]
+[2023-08-07 13:35:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mknotebooks
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.core
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamey
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phuego
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metacluster
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: noos-pyk
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: survey-report-generator
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seven2one
+[2023-08-07 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PVNet
+[2023-08-07 13:35:09] INFO root fetch - processPackages [gamey]: New version: [0.3.1] Old Version: [0.3]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/81/6b/c715f63b7b2fce388680e2b2386101bdab40db1926b8b6bc20c20e4a8e52/gamey-0.3.tar.gz
+[2023-08-07 13:35:09] INFO root fetch - processPackages [noos-pyk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [metacluster]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 13:35:09] WARNING root fetch - processPackages [phuego]: Skipping, unable to determine old version
+[2023-08-07 13:35:09] INFO root fetch - main [MainThread]: End processing [phuego] error
+[2023-08-07 13:35:09] INFO root fetch - processPackages [seven2one]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [swh.core]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-08-07 13:35:09] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/60/1c/6a0c54d7e3c08b0dc195c5c0c26a59fc346c70700473d9924b992e7a6a0f/survey_report_generator-0.0.5.tar.gz
+[2023-08-07 13:35:09] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-08-07 13:35:09] INFO root fetch - processPackages [mknotebooks]: New version: [0.8.0.post0.dev6] Old Version: [0.8.0.post0.dev4]
+[2023-08-07 13:35:10] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/de/eb/02e63c74a879e66e2ae80bc2c21e9df1cc07bf09a2a78d77b41abaf495a3/gamey-0.3.1.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [metacluster]: Downloading https://files.pythonhosted.org/packages/6f/b2/496b8f59bbe165d23c948676cfc647da041b16780cfb406e6350d4e7cd68/metacluster-1.0.0.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [noos-pyk]: Downloading https://files.pythonhosted.org/packages/c7/38/c2e61b9b695c9f7b5dfcdb241afd2450b773102598395264dbf4928a8c76/noos-pyk-0.0.8.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/20/90/1b67c50a3a180e5d79e5bc09b7c5758885b8c9b1dc82fe193d4f9b5faf8e/seven2one-4.2.0.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/eb/c4/6ab443b2fa35f8668b1282a3226d4c556c7aa68ea091558e8269e7d759b8/swh.core-2.8.1.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/ff/3d/802599a907067cb30159081896d8e0ec7d822bb4186bdf6c97aa68ffbb7c/mknotebooks-0.8.0.post0.dev4-py3-none-any.whl
+[2023-08-07 13:35:10] INFO root fetch - processPackages [gamey]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [gamey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamey-0.3.tar.gz tmp/gamey-0.3.1.tar.gz --markdown 20230807/g/gamey/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-08-07 13:35:10] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/61/f9/57d54d81dbf80e8187b1b82f045ccb345386a118478e09dcff68648e9b89/survey_report_generator-0.0.6.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230807/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-07 13:35:10] INFO root fetch - processPackages [noos-pyk]: Downloading https://files.pythonhosted.org/packages/ff/40/9f8545c14eef3683fa6e3b02dce554c9ace73aecbe9a00737718173ed9ca/noos_pyk-0.0.9.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [mknotebooks]: Downloading https://files.pythonhosted.org/packages/0d/0b/32b31f9293e9fc0dc9e72be4944fd99f1939641a584f686982cc7f61c145/mknotebooks-0.8.0.post0.dev6-py3-none-any.whl
+[2023-08-07 13:35:10] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.5.tar.gz tmp/survey_report_generator-0.0.6.tar.gz --markdown 20230807/s/survey-report-generator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 13:35:10] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/ef/d2/f9484131be20326da564312f2d8e6d115b72a28b970cee20be1599ed32fd/seven2one-4.3.0.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [noos-pyk]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [noos-pyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noos-pyk-0.0.8.tar.gz tmp/noos_pyk-0.0.9.tar.gz --markdown 20230807/n/noos-pyk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 13:35:10] INFO root fetch - processPackages [metacluster]: Downloading https://files.pythonhosted.org/packages/24/37/eaa9327cf619beb314ea123d245e0aefeea2cb478f51e66bddd63b543cee/metacluster-1.0.1.tar.gz
+[2023-08-07 13:35:10] INFO root fetch - processPackages [mknotebooks]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [mknotebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknotebooks-0.8.0.post0.dev4-py3-none-any.whl.zip tmp/mknotebooks-0.8.0.post0.dev6-py3-none-any.whl.zip --markdown 20230807/m/mknotebooks/0.8.0.post0.dev4-0.8.0.post0.dev6/diff.md --exclude *.pyd
+[2023-08-07 13:35:10] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-08-07 13:35:10] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.2.0.tar.gz tmp/seven2one-4.3.0.tar.gz --markdown 20230807/s/seven2one/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-08-07 13:35:11] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.3.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.3.1.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - main [MainThread]: End processing [gamey]: success
+[2023-08-07 13:35:11] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/49/8b/36c6404dc1c5d1b66968b7d72a99d17d7339e3ed5baadf762bec13820e76/swh.core-2.9.0.tar.gz
+[2023-08-07 13:35:11] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-08-07 13:35:11] INFO root fetch - processPackages [metacluster]: executing diffoscope
+[2023-08-07 13:35:11] INFO root fetch - processPackages [metacluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacluster-1.0.0.tar.gz tmp/metacluster-1.0.1.tar.gz --markdown 20230807/m/metacluster/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 13:35:11] INFO root fetch - processPackages [noos-pyk]: Remove: archive file [/home/abi/fetcher/tmp/noos-pyk-0.0.8.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - processPackages [noos-pyk]: Remove: archive file [/home/abi/fetcher/tmp/noos_pyk-0.0.9.tar.gz]
+[2023-08-07 13:35:11] INFO root fetch - main [MainThread]: End processing [noos-pyk]: success
+[2023-08-07 13:35:12] INFO root fetch - processPackages [swh.core]: executing diffoscope
+[2023-08-07 13:35:12] INFO root fetch - processPackages [swh.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.core-2.8.1.tar.gz tmp/swh.core-2.9.0.tar.gz --markdown 20230807/s/swh.core/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-08-07 13:35:12] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.5.tar.gz]
+[2023-08-07 13:35:12] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.6.tar.gz]
+[2023-08-07 13:35:12] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-07 13:35:12] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0.post0.dev4-py3-none-any.whl.zip]
+[2023-08-07 13:35:12] INFO root fetch - processPackages [mknotebooks]: Remove: archive file [/home/abi/fetcher/tmp/mknotebooks-0.8.0.post0.dev6-py3-none-any.whl.zip]
+[2023-08-07 13:35:12] INFO root fetch - main [MainThread]: End processing [mknotebooks]: success
+[2023-08-07 13:35:12] INFO root fetch - processPackages [seven2one]: Remove: archive file [/home/abi/fetcher/tmp/seven2one-4.2.0.tar.gz]
+[2023-08-07 13:35:12] INFO root fetch - processPackages [seven2one]: Remove: archive file [/home/abi/fetcher/tmp/seven2one-4.3.0.tar.gz]
+[2023-08-07 13:35:12] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-08-07 13:35:13] INFO root fetch - processPackages [metacluster]: Remove: archive file [/home/abi/fetcher/tmp/metacluster-1.0.0.tar.gz]
+[2023-08-07 13:35:13] INFO root fetch - processPackages [metacluster]: Remove: archive file [/home/abi/fetcher/tmp/metacluster-1.0.1.tar.gz]
+[2023-08-07 13:35:13] INFO root fetch - main [MainThread]: End processing [metacluster]: success
+[2023-08-07 13:35:13] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh.core-2.8.1.tar.gz]
+[2023-08-07 13:35:13] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh.core-2.9.0.tar.gz]
+[2023-08-07 13:35:13] INFO root fetch - main [MainThread]: End processing [swh.core]: success
+[2023-08-07 13:35:13] INFO root fetch - main [MainThread]: Store serial: [19204913]
