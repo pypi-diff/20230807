@@ -19457,3 +19457,127 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:11:30] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-07 15:11:30] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-07 15:11:30] INFO root fetch - main [MainThread]: Store serial: [19205738]
+[2023-08-07 15:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205738]
+[2023-08-07 15:16:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scoda-viz
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fasttask-manager
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clustaar.spellz.api-client
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redvid
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-buildings
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: task4
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyBIS
+[2023-08-07 15:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Aspose.Email-for-Python-via-NET
+[2023-08-07 15:16:39] WARNING root fetch - processPackages [clustaar.spellz.api-client]: Skipping, unable to determine old version
+[2023-08-07 15:16:39] INFO root fetch - processPackages [clustaar.spellz.api-client]: Start processing: nicegui
+[2023-08-07 15:16:39] INFO root fetch - main [MainThread]: End processing [clustaar.spellz.api-client] error
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nicegui]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [open-buildings]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [redvid]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-08-07 15:16:40] WARNING root fetch - processPackages [task4]: Skipping, unable to determine old version
+[2023-08-07 15:16:40] INFO root fetch - processPackages [task4]: Start processing: pythonsqliextV2
+[2023-08-07 15:16:40] INFO root fetch - main [MainThread]: End processing [task4] error
+[2023-08-07 15:16:40] WARNING root fetch - processPackages [fasttask-manager]: Skipping, unable to determine old version
+[2023-08-07 15:16:40] INFO root fetch - processPackages [fasttask-manager]: Start processing: pyfury
+[2023-08-07 15:16:40] INFO root fetch - main [MainThread]: End processing [fasttask-manager] error
+[2023-08-07 15:16:40] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: New version: [23.7] Old Version: [23.6]
+[2023-08-07 15:16:40] WARNING root fetch - processPackages [scoda-viz]: Skipping, unable to determine old version
+[2023-08-07 15:16:40] INFO root fetch - processPackages [scoda-viz]: Start processing: idf-analysis
+[2023-08-07 15:16:40] INFO root fetch - main [MainThread]: End processing [scoda-viz] error
+[2023-08-07 15:16:40] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [pythonsqliextV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [pyfury]: New version: [0.1.1a1] Old Version: [0.1.0a5]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [open-buildings]: Downloading https://files.pythonhosted.org/packages/7a/3a/32b07f61d1a0bc895a66dff054d9b87c976aeff48ab2462b8b0cbec60469/open-buildings-0.0.6.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [idf-analysis]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [redvid]: Downloading https://files.pythonhosted.org/packages/5f/96/8718b2d66359db9f813f41ef807d1fae32bcce377d1594aabed11f874d0b/redvid-1.2.0-py3-none-any.whl
+[2023-08-07 15:16:40] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Downloading https://files.pythonhosted.org/packages/01/c4/433a63a6e1d45d3fb754f91ed00bfdf6853190e4d5548e4b42949f769a2a/Aspose.Email_for_Python_via_NET-23.6-py3-none-win_amd64.whl
+[2023-08-07 15:16:40] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/8e/ca/b7562b9aec912993497e854afab7fe85f8535521694bebff46234c36bd49/nicegui-1.3.6.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-07 15:16:40] WARNING root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Skipping package: exceeds size limit 52514245>=10485760
+[2023-08-07 15:16:40] INFO root fetch - processPackages [Aspose.Email-for-Python-via-NET]: Start processing: nbdev-scipy
+[2023-08-07 15:16:40] INFO root fetch - main [MainThread]: End processing [Aspose.Email-for-Python-via-NET] error
+[2023-08-07 15:16:40] INFO root fetch - processPackages [pythonsqliextV2]: Downloading https://files.pythonhosted.org/packages/63/42/222493622c424c2540610c68428440f8c84a987de82f0dbeaab3fea51598/pythonsqliextV2-1.0.0.tar.gz
+[2023-08-07 15:16:40] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 12579162>=10485760
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nicegui]: Start processing: LineageTree
+[2023-08-07 15:16:40] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2023-08-07 15:16:40] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/89/ac/6122471aa7160b1c106b645ac9872cf929641cd3f61f1af78d139be892d2/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-07 15:16:40] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/ff/c6/5772790c7dc051b19196ae9cbaf87e0c76b13d319ecc3fb04f74a24ba72e/idf-analysis-0.2.0.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [LineageTree]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [open-buildings]: Downloading https://files.pythonhosted.org/packages/b2/7d/dfb2e2d3087a9c993f20052bd8ccf2b89319398f19e133022f06842f76e6/open-buildings-0.0.7.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230807/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230807/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:16:40] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:16:40] INFO root fetch - processPackages [LineageTree]: Downloading https://files.pythonhosted.org/packages/d7/93/d1034cf8f2f00e5b2f0d9472ae788346aff3fe18919bdda4ec2c5da0067f/LineageTree-1.1.0.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [redvid]: Downloading https://files.pythonhosted.org/packages/66/5b/8107f61cda24c148756cc8f736b73ef511e9a94111acbfef02e3d6ac12d2/redvid-2.0.0.tar.gz
+[2023-08-07 15:16:40] INFO root fetch - processPackages [open-buildings]: executing diffoscope
+[2023-08-07 15:16:40] INFO root fetch - processPackages [open-buildings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-buildings-0.0.6.tar.gz tmp/open-buildings-0.0.7.tar.gz --markdown 20230807/o/open-buildings/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [redvid]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [redvid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvid-1.2.0-py3-none-any.whl.zip tmp/redvid-2.0.0.tar.gz --markdown 20230807/r/redvid/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [LineageTree]: Downloading https://files.pythonhosted.org/packages/d9/24/702d79b77627088959787eead1e9d3632e43cbe78340fcc7de714202d1a6/LineageTree-1.2.0.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/c0/04/69368c412c9acdf26315c14c53eebc261ac143130926ed95d6555a46c4ab/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pythonsqliextV2]: Downloading https://files.pythonhosted.org/packages/3f/17/0d0aad4e179e5a2ffc5aab5f5ddca56f32a217bc35900f974fc099032ac2/pythonsqliextV2-1.1.0.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230807/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [LineageTree]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [LineageTree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LineageTree-1.1.0.tar.gz tmp/LineageTree-1.2.0.tar.gz --markdown 20230807/L/LineageTree/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/91/5a/9fc02056a6200ee01d6ffd33efe79f9af6c3a93f194f17ba26de03d5a004/idf-analysis-0.2.1.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pyfury]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pyfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip tmp/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl.zip --markdown 20230807/p/pyfury/0.1.0a5-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pythonsqliextV2]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [pythonsqliextV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqliextV2-1.0.0.tar.gz tmp/pythonsqliextV2-1.1.0.tar.gz --markdown 20230807/p/pythonsqliextV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [idf-analysis]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [idf-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf-analysis-0.2.0.tar.gz tmp/idf-analysis-0.2.1.tar.gz --markdown 20230807/i/idf-analysis/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230807/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-07 15:16:41] INFO root fetch - processPackages [nbdev-pandas]: Start processing: pythonsqliextV2
+[2023-08-07 15:16:41] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-07 15:16:42] INFO root fetch - processPackages [pythonsqliextV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-07 15:16:42] INFO root fetch - processPackages [pythonsqliextV2]: executing diffoscope
+[2023-08-07 15:16:42] INFO root fetch - processPackages [pythonsqliextV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqliextV2-1.0.0.tar.gz tmp/pythonsqliextV2-1.1.0.tar.gz --markdown 20230807/p/pythonsqliextV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 15:16:42] INFO root fetch - processPackages [open-buildings]: Remove: archive file [/home/abi/fetcher/tmp/open-buildings-0.0.6.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [open-buildings]: Remove: archive file [/home/abi/fetcher/tmp/open-buildings-0.0.7.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - main [MainThread]: End processing [open-buildings]: success
+[2023-08-07 15:16:42] INFO root fetch - processPackages [redvid]: Remove: archive file [/home/abi/fetcher/tmp/redvid-1.2.0-py3-none-any.whl.zip]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [redvid]: Remove: archive file [/home/abi/fetcher/tmp/redvid-2.0.0.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - main [MainThread]: End processing [redvid]: success
+[2023-08-07 15:16:42] INFO root fetch - processPackages [LineageTree]: Remove: archive file [/home/abi/fetcher/tmp/LineageTree-1.1.0.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [LineageTree]: Remove: archive file [/home/abi/fetcher/tmp/LineageTree-1.2.0.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - main [MainThread]: End processing [LineageTree]: success
+[2023-08-07 15:16:42] INFO root fetch - processPackages [pythonsqliextV2]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqliextV2-1.0.0.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - processPackages [pythonsqliextV2]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqliextV2-1.1.0.tar.gz]
+[2023-08-07 15:16:42] INFO root fetch - main [MainThread]: End processing [pythonsqliextV2]: success
+[2023-08-07 15:16:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-07 15:16:43] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-08-07 15:16:43] ERROR root fetch - processPackages [pythonsqliextV2]: Diffoscope failed: time="2023-08-07T15:16:42+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pythonsqliextV2-1.0.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pythonsqliextV2-1.1.0.tar.gz: No such file or directory
+
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [pythonsqliextV2] error
+[2023-08-07 15:16:43] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:16:43] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.1a1-cp310-cp310-macosx_10_13_x86_64.whl.zip]
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [pyfury]: success
+[2023-08-07 15:16:43] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf-analysis-0.2.0.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf-analysis-0.2.1.tar.gz]
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: End processing [idf-analysis]: success
+[2023-08-07 15:16:43] INFO root fetch - main [MainThread]: Store serial: [19205796]
