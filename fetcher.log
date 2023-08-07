@@ -4513,3 +4513,71 @@
 [2023-08-07 03:11:55] INFO root fetch - processPackages [stixorm]: Remove: archive file [/home/abi/fetcher/tmp/stixorm-0.1.9.tar.gz]
 [2023-08-07 03:11:55] INFO root fetch - main [MainThread]: End processing [stixorm]: success
 [2023-08-07 03:11:55] INFO root fetch - main [MainThread]: Store serial: [19199253]
+[2023-08-07 03:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199253]
+[2023-08-07 03:17:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trimesh
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: api-mlops-project
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testgailbotapi001
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-Pygments
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raydp
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moped
+[2023-08-07 03:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurosity
+[2023-08-07 03:17:05] WARNING root fetch - processPackages [testgailbotapi001]: Skipping, unable to determine old version
+[2023-08-07 03:17:05] INFO root fetch - main [MainThread]: End processing [testgailbotapi001] error
+[2023-08-07 03:17:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-07 03:17:05] WARNING root fetch - processPackages [api-mlops-project]: Skipping, unable to determine old version
+[2023-08-07 03:17:05] INFO root fetch - main [MainThread]: End processing [api-mlops-project] error
+[2023-08-07 03:17:05] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230807.dev0] Old Version: [1.6.0b20230805.dev0]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [neurosity]: New version: [2.0.1] Old Version: [1.0.2]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [trimesh]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [types-Pygments]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-08-07 03:17:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/b4/3a/582e29f7ad9665cdd1b1ca5ccbb0e76891205a0ebc749b79259e5edf35c9/raydp-1.6.0b20230805.dev0-py3-none-any.whl
+[2023-08-07 03:17:05] WARNING root fetch - processPackages [raydp]: Skipping package: exceeds size limit 14072329>=10485760
+[2023-08-07 03:17:05] INFO root fetch - main [MainThread]: End processing [raydp] error
+[2023-08-07 03:17:05] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/c9/56/b2ad30fcb1d8adc4eecfa5a32fa94dd044da60de58ab44120bd3503a3074/types-Pygments-2.9.8.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/0c/ed/56a649489db5c5ecf9e5d91b7e122b7ad7171565b361c8d62941ea7e1a2e/neurosity-1.0.2.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/af/7c/359927502be323a70534fd6efac37e71e0e225108e84b8dd391398443f3e/trimesh-3.9.8.tar.gz
+[2023-08-07 03:17:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-08-07 03:17:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230807/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/39/c5/4eff9563fc196a625bd203f69cee5b82bab679dbfd259d0aec5d6089d0ce/neurosity-2.0.1.tar.gz
+[2023-08-07 03:17:06] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-08-07 03:17:06] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-07 03:17:06] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/a5/78/069a5801bd89176dcd3bafc8423c87aba8533725658bd19d7c34284a4e9d/types-Pygments-2.9.9.tar.gz
+[2023-08-07 03:17:06] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/c9/1f/0f19ce414f64547920eb1da1191ce8c832567ce93e80230aa3934afc6c0a/trimesh-3.9.9.tar.gz
+[2023-08-07 03:17:06] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-08-07 03:17:06] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230807/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [neurosity]: executing diffoscope
+[2023-08-07 03:17:06] INFO root fetch - processPackages [neurosity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosity-1.0.2.tar.gz tmp/neurosity-2.0.1.tar.gz --markdown 20230807/n/neurosity/1.0.2-2.0.1/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [trimesh]: executing diffoscope
+[2023-08-07 03:17:06] INFO root fetch - processPackages [trimesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimesh-3.9.8.tar.gz tmp/trimesh-3.9.9.tar.gz --markdown 20230807/t/trimesh/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [types-Pygments]: executing diffoscope
+[2023-08-07 03:17:06] INFO root fetch - processPackages [types-Pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pygments-2.9.8.tar.gz tmp/types-Pygments-2.9.9.tar.gz --markdown 20230807/t/types-Pygments/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-07 03:17:06] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230807/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-07 03:17:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-08-07 03:17:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-08-07 03:17:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-08-07 03:17:07] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-08-07 03:17:07] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.8.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.9.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - main [MainThread]: End processing [types-Pygments]: success
+[2023-08-07 03:17:07] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-1.0.2.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-2.0.1.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - main [MainThread]: End processing [neurosity]: success
+[2023-08-07 03:17:07] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-3.9.8.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-3.9.9.tar.gz]
+[2023-08-07 03:17:07] INFO root fetch - main [MainThread]: End processing [trimesh]: success
+[2023-08-07 03:17:08] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-07 03:17:08] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-07 03:17:08] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-07 03:17:08] INFO root fetch - main [MainThread]: Store serial: [19199283]
