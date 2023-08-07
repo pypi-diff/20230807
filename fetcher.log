@@ -7678,3 +7678,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:26:00] INFO root fetch - processPackages [neuromeka-clients]: Remove: archive file [/home/abi/fetcher/tmp/neuromeka-clients-0.1.8.tar.gz]
 [2023-08-07 07:26:00] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
 [2023-08-07 07:26:00] INFO root fetch - main [MainThread]: Store serial: [19200788]
+[2023-08-07 07:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200788]
+[2023-08-07 07:31:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcan
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meggie-difference
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-ci
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keyrings.envvars
+[2023-08-07 07:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mygrader
+[2023-08-07 07:31:08] INFO root fetch - processPackages [mygrader]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 07:31:08] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.8.7.0] Old Version: [2023.8.6.1]
+[2023-08-07 07:31:08] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.5] Old Version: [0.0.4b25]
+[2023-08-07 07:31:09] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-08-07 07:31:09] WARNING root fetch - processPackages [meggie-difference]: Skipping, unable to determine old version
+[2023-08-07 07:31:09] INFO root fetch - main [MainThread]: End processing [meggie-difference] error
+[2023-08-07 07:31:09] INFO root fetch - processPackages [arcan]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 07:31:09] INFO root fetch - processPackages [keyrings.envvars]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-07 07:31:09] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/f9/56/866b805e1481287e0154631533e1bc52f59327c445d374c4a66defa4a596/crazy-thursday-2023.8.6.1.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/d1/95/5f8528796e6b8cf08ddd765c39ce50b31b02b5e6290ec9324b6228d24046/hatch_ci-0.0.4b25.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/3d/86/9e8f2eb867ed9d0f3c999737f3dbbae8e1aab491b0f20b2a646e0b459663/mygrader-0.1.2.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/66/36/accdfe4b603881437e595ba6435dbec6145f5e3e812ba065cce7a56d09ff/arcan-1.3.8.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [keyrings.envvars]: Downloading https://files.pythonhosted.org/packages/32/57/54b686388e07adc695d4a03b6eee43ca79fecbc3fc9c7b285e658a8bf03b/keyrings_envvars-1.0.2.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/22/e6/365565672bfb20c14159f61b76558ee085efb4b14a388734247dc6220625/hatch_ci-0.0.5-py3-none-any.whl
+[2023-08-07 07:31:09] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/d1/e5/89d13d5feef7328a86a4d0eb0587922547020a7e14724fc171bf68a89dfe/mygrader-0.1.3.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 07:31:09] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.4b25.tar.gz tmp/hatch_ci-0.0.5-py3-none-any.whl.zip --markdown 20230807/h/hatch-ci/0.0.4b25-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 07:31:09] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-08-07 07:31:09] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/26/c3/34723b8b36e4705ba19175dd9d272ee4b93947ff78bc2eebbdddbb1a3f9e/crazy-thursday-2023.8.7.0.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230807/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-08-07 07:31:09] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/b0/ee/a497370e5e76221a9df5e0f47c5bfea59bed1e3d45d27fc6aaeca9f74dcd/arcan-1.3.9.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [mygrader]: executing diffoscope
+[2023-08-07 07:31:09] INFO root fetch - processPackages [mygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrader-0.1.2.tar.gz tmp/mygrader-0.1.3.tar.gz --markdown 20230807/m/mygrader/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 07:31:09] INFO root fetch - processPackages [keyrings.envvars]: Downloading https://files.pythonhosted.org/packages/05/bc/f151196da9600a6140fdfc56468f0abb981e4c6429aa70ab2388ffe2b19e/keyrings_envvars-1.0.3.tar.gz
+[2023-08-07 07:31:09] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-08-07 07:31:09] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.8.6.1.tar.gz tmp/crazy-thursday-2023.8.7.0.tar.gz --markdown 20230807/c/crazy-thursday/2023.8.6.1-2023.8.7.0/diff.md --exclude *.pyd
+[2023-08-07 07:31:09] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-08-07 07:31:09] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.3.8.tar.gz tmp/arcan-1.3.9.tar.gz --markdown 20230807/a/arcan/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 07:31:10] INFO root fetch - processPackages [keyrings.envvars]: executing diffoscope
+[2023-08-07 07:31:10] INFO root fetch - processPackages [keyrings.envvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrings_envvars-1.0.2.tar.gz tmp/keyrings_envvars-1.0.3.tar.gz --markdown 20230807/k/keyrings.envvars/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-07 07:31:10] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.2.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.3.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - main [MainThread]: End processing [mygrader]: success
+[2023-08-07 07:31:10] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.4b25.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.5-py3-none-any.whl.zip]
+[2023-08-07 07:31:10] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 07:31:10] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.6.1.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.7.0.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-08-07 07:31:10] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-08-07 07:31:10] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-08-07 07:31:11] INFO root fetch - processPackages [keyrings.envvars]: Remove: archive file [/home/abi/fetcher/tmp/keyrings_envvars-1.0.2.tar.gz]
+[2023-08-07 07:31:11] INFO root fetch - processPackages [keyrings.envvars]: Remove: archive file [/home/abi/fetcher/tmp/keyrings_envvars-1.0.3.tar.gz]
+[2023-08-07 07:31:11] INFO root fetch - main [MainThread]: End processing [keyrings.envvars]: success
+[2023-08-07 07:31:11] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.8.tar.gz]
+[2023-08-07 07:31:11] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.9.tar.gz]
+[2023-08-07 07:31:11] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-08-07 07:31:11] INFO root fetch - main [MainThread]: Store serial: [19200814]
