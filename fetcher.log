@@ -7633,3 +7633,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:20:49] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
 [2023-08-07 07:20:49] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-08-07 07:20:49] INFO root fetch - main [MainThread]: Store serial: [19200754]
+[2023-08-07 07:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200754]
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuromeka-clients
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Hsuan
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HsuanYuen
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecr-scan-notifier
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Yuen
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mygrader
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ruben
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysesh
+[2023-08-07 07:25:58] WARNING root fetch - processPackages [mygrader]: Skipping, unable to determine old version
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: End processing [mygrader] error
+[2023-08-07 07:25:58] INFO root fetch - processPackages [pysesh]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 07:25:58] WARNING root fetch - processPackages [Hsuan]: Skipping, unable to determine old version
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: End processing [Hsuan] error
+[2023-08-07 07:25:58] WARNING root fetch - processPackages [ruben]: Skipping, unable to determine old version
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: End processing [ruben] error
+[2023-08-07 07:25:58] WARNING root fetch - processPackages [Yuen]: Skipping, unable to determine old version
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: End processing [Yuen] error
+[2023-08-07 07:25:58] INFO root fetch - processPackages [neuromeka-clients]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 07:25:58] WARNING root fetch - processPackages [HsuanYuen]: Skipping, unable to determine old version
+[2023-08-07 07:25:58] INFO root fetch - main [MainThread]: End processing [HsuanYuen] error
+[2023-08-07 07:25:58] INFO root fetch - processPackages [pysesh]: Downloading https://files.pythonhosted.org/packages/83/cc/1bb0dd0f35a646d7d01a2ebe6214ad51827185d01683955276bb40014149/pysesh-0.1.0.tar.gz
+[2023-08-07 07:25:58] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2023-08-07 07:25:58] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/f3/9e/41d7fcc84949a332a05d90da5ff1a6e7cfcd81303ee50255024b59013226/neuromeka-clients-0.1.7.tar.gz
+[2023-08-07 07:25:59] INFO root fetch - processPackages [pysesh]: Downloading https://files.pythonhosted.org/packages/b9/53/90de94439f623f29b22c533dea67be65d50e3591f31d6e5385a0019c316c/pysesh-0.1.1.tar.gz
+[2023-08-07 07:25:59] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2023-08-07 07:25:59] INFO root fetch - processPackages [neuromeka-clients]: Downloading https://files.pythonhosted.org/packages/78/a2/f23838e371bd29ccdb3f4d9237140fc752ba3c34fa5236d66cd2943a1aba/neuromeka-clients-0.1.8.tar.gz
+[2023-08-07 07:25:59] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-08-07 07:25:59] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20230807/e/ecr-scan-notifier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 07:25:59] INFO root fetch - processPackages [pysesh]: executing diffoscope
+[2023-08-07 07:25:59] INFO root fetch - processPackages [pysesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysesh-0.1.0.tar.gz tmp/pysesh-0.1.1.tar.gz --markdown 20230807/p/pysesh/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 07:25:59] INFO root fetch - processPackages [neuromeka-clients]: executing diffoscope
+[2023-08-07 07:25:59] INFO root fetch - processPackages [neuromeka-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromeka-clients-0.1.7.tar.gz tmp/neuromeka-clients-0.1.8.tar.gz --markdown 20230807/n/neuromeka-clients/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 07:26:00] INFO root fetch - processPackages [pysesh]: Remove: archive file [/home/abi/fetcher/tmp/pysesh-0.1.0.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - processPackages [pysesh]: Remove: archive file [/home/abi/fetcher/tmp/pysesh-0.1.1.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - main [MainThread]: End processing [pysesh]: success
+[2023-08-07 07:26:00] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-08-07 07:26:00] INFO root fetch - processPackages [neuromeka-clients]: Remove: archive file [/home/abi/fetcher/tmp/neuromeka-clients-0.1.7.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - processPackages [neuromeka-clients]: Remove: archive file [/home/abi/fetcher/tmp/neuromeka-clients-0.1.8.tar.gz]
+[2023-08-07 07:26:00] INFO root fetch - main [MainThread]: End processing [neuromeka-clients]: success
+[2023-08-07 07:26:00] INFO root fetch - main [MainThread]: Store serial: [19200788]
