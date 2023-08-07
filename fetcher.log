@@ -5239,3 +5239,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 03:54:05] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.7.2.tar.gz]
 [2023-08-07 03:54:05] INFO root fetch - main [MainThread]: End processing [electricalsim]: success
 [2023-08-07 03:54:05] INFO root fetch - main [MainThread]: Store serial: [19199626]
+[2023-08-07 03:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199626]
+[2023-08-07 03:59:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calfcv
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGeodesy
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nzooherd-pyzen
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openi-beta
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tejapi
+[2023-08-07 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-code-interpreter
+[2023-08-07 03:59:14] INFO root fetch - processPackages [calfcv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-07 03:59:14] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/94/97/0cb72e0656e05c75e509c8c5240aca83afec6c70b776689d4bd1b66731ee/calfcv-0.0.7.tar.gz
+[2023-08-07 03:59:14] INFO root fetch - processPackages [openi-beta]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-07 03:59:14] WARNING root fetch - processPackages [gpt-code-interpreter]: Skipping, unable to determine old version
+[2023-08-07 03:59:14] INFO root fetch - main [MainThread]: End processing [gpt-code-interpreter] error
+[2023-08-07 03:59:14] INFO root fetch - processPackages [tejapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 03:59:14] WARNING root fetch - processPackages [nzooherd-pyzen]: Skipping, unable to determine old version
+[2023-08-07 03:59:14] INFO root fetch - main [MainThread]: End processing [nzooherd-pyzen] error
+[2023-08-07 03:59:14] INFO root fetch - processPackages [PyGeodesy]: New version: [23.8.6] Old Version: [23.7.12]
+[2023-08-07 03:59:14] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/3e/23/711cb250e4bf95a971ed99c65b906bf98cdda9d7c02183d02f00d70657e6/calfcv-0.0.8.tar.gz
+[2023-08-07 03:59:14] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d9/55/a90b9e4875bfeaab89840bf2c8f8dd31f282c8a6fbbfaff57d02cb06545c/openi-beta-2.0.7.tar.gz
+[2023-08-07 03:59:14] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/e1/94/f3ec9a3fdfbbf180d06932b735554ace4ea5b7c7c3c79496b034208db987/PyGeodesy-23.7.12.zip
+[2023-08-07 03:59:14] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/a2/f8/ecd3a6c88cbf49e61b643ce730730348501a9d699375594af1758f1f18c0/tejapi-0.1.8.tar.gz
+[2023-08-07 03:59:14] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 03:59:14] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.7.tar.gz tmp/calfcv-0.0.8.tar.gz --markdown 20230807/c/calfcv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 03:59:14] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/51/42/44ea07942f533199ca0de02b012acc1bfa40ce0ee53819da669c27e910f0/openi-beta-2.0.8.tar.gz
+[2023-08-07 03:59:14] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/9c/50/d570accf7223270797303b2ec9e43d8aa46e8e47d9ea923122cc1f9d06d6/tejapi-0.1.9.tar.gz
+[2023-08-07 03:59:15] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-08-07 03:59:15] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.7.tar.gz tmp/openi-beta-2.0.8.tar.gz --markdown 20230807/o/openi-beta/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-07 03:59:15] INFO root fetch - processPackages [tejapi]: executing diffoscope
+[2023-08-07 03:59:15] INFO root fetch - processPackages [tejapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tejapi-0.1.8.tar.gz tmp/tejapi-0.1.9.tar.gz --markdown 20230807/t/tejapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 03:59:15] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/61/aa/8cc989bef142f03979f30cb3dd8dc70a745d1a6246dd2578e5aeb3813e05/PyGeodesy-23.8.6.zip
+[2023-08-07 03:59:15] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.7.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.8.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 03:59:15] INFO root fetch - processPackages [PyGeodesy]: executing diffoscope
+[2023-08-07 03:59:15] INFO root fetch - processPackages [PyGeodesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeodesy-23.7.12.zip tmp/PyGeodesy-23.8.6.zip --markdown 20230807/P/PyGeodesy/23.7.12-23.8.6/diff.md --exclude *.pyd
+[2023-08-07 03:59:15] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.7.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.8.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-08-07 03:59:15] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.8.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.9.tar.gz]
+[2023-08-07 03:59:15] INFO root fetch - main [MainThread]: End processing [tejapi]: success
+[2023-08-07 03:59:47] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-23.7.12.zip]
+[2023-08-07 03:59:47] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-23.8.6.zip]
+[2023-08-07 03:59:47] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
+[2023-08-07 03:59:47] INFO root fetch - main [MainThread]: Store serial: [19199651]
