@@ -11179,3 +11179,135 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 10:32:01] INFO root fetch - processPackages [exasol-integration-test-docker-environment]: Remove: archive file [/home/abi/fetcher/tmp/exasol_integration_test_docker_environment-2.0.0.tar.gz]
 [2023-08-07 10:32:01] INFO root fetch - main [MainThread]: End processing [exasol-integration-test-docker-environment]: success
 [2023-08-07 10:32:01] INFO root fetch - main [MainThread]: Store serial: [19202351]
+[2023-08-07 10:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202351]
+[2023-08-07 10:37:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savant-rs-etcd-dynamic-state
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namekoplus
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iotPervasiveServiceSDK
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teneva-bm
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-mcversion
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quickstart-vdk
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: runregistry
+[2023-08-07 10:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openprotein-python
+[2023-08-07 10:37:11] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [teneva-bm]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.957623954.dev12677] Old Version: [0.2.957168427.dev12676]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/c4/5c40dfc9814ed83da12d0f915893f6d10e508c66aa97dbc855cc89409301/teneva_bm-0.7.2.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [runregistry]: New version: [1.0.0] Old Version: [0.2.8]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/ab/b2/ec39695a2b31bb3a4a27b26a9e7ab16455e331ef31e9acbf6850b21eb8db/iotPervasiveServiceSDK-0.0.8.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/9a/50/e78fd6e1f73e1785777bcc0fee431374b7607ccb275141213a26081004bb/nonebot-plugin-mcversion-0.2.5.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-07 10:37:11] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/b4/61/211bf81a6293e992c01e999bdbecba36dc4cbefeebeddbf24229b4847cfe/openprotein_python-0.1.2b1.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/7e/cd/c5cdac1ceea37464e77161a653a8eb419c9c2216d252bf5c8ae8e5c4f4c8/quickstart-vdk-0.2.957168427.dev12676.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [runregistry]: Downloading https://files.pythonhosted.org/packages/9f/c2/fb46f41ea5540b355659a11940b72a32ba83b0007398ab83da86579eab9c/runregistry-0.2.8-py3-none-any.whl
+[2023-08-07 10:37:11] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/26/34/db64cfeee4ff49998cd2cc3eb0dbc9db2fd268600c3fdcbae495ec61dc24/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 10:37:11] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/99/05/fb09f700386dfc2511fdfce989940ddfb03f0f602b86e6f99c3c498a46f2/iotPervasiveServiceSDK-0.0.9.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/d4/ec/cd7328a6874a98aec7c03d2151334f4013dd5ea1d3102e7a8fb0760d7d7d/nonebot-plugin-mcversion-0.2.6.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/be/04/3d65737e1f52e539fe325171e3e0c4c3e7bdb1a9d85cfb2b6371c4dff445/teneva_bm-0.7.3.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-07 10:37:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-07 10:37:11] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.8.tar.gz tmp/iotPervasiveServiceSDK-0.0.9.tar.gz --markdown 20230807/i/iotPervasiveServiceSDK/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 10:37:11] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 10:37:11] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/23/f4/bb8f03e39e6730a3e02c0c32bf6b91ed7e12f3895c42c068e3a1639a4e28/quickstart-vdk-0.2.957623954.dev12677.tar.gz
+[2023-08-07 10:37:12] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/86/eb/da1744620467c236b88022f7f49ef25f5e8563686c9ba8dd48f82e67d8e1/openprotein_python-0.1.2b2.tar.gz
+[2023-08-07 10:37:12] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230807/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.5.tar.gz tmp/nonebot-plugin-mcversion-0.2.6.tar.gz --markdown 20230807/n/nonebot-plugin-mcversion/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.7.2.tar.gz tmp/teneva_bm-0.7.3.tar.gz --markdown 20230807/t/teneva-bm/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-08-07 10:37:12] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.957168427.dev12676.tar.gz tmp/quickstart-vdk-0.2.957623954.dev12677.tar.gz --markdown 20230807/q/quickstart-vdk/0.2.957168427.dev12676-0.2.957623954.dev12677/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [runregistry]: Downloading https://files.pythonhosted.org/packages/e8/31/c11a0b19c2c2be5ce26a50b9617fae0a92721315f05e14c9c7cf8757c02b/runregistry-1.0.0.tar.gz
+[2023-08-07 10:37:12] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.2b1.tar.gz tmp/openprotein_python-0.1.2b2.tar.gz --markdown 20230807/o/openprotein-python/0.1.2b1-0.1.2b2/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230807/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 10:37:12] INFO root fetch - processPackages [runregistry]: executing diffoscope
+[2023-08-07 10:37:12] INFO root fetch - processPackages [runregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runregistry-0.2.8-py3-none-any.whl.zip tmp/runregistry-1.0.0.tar.gz --markdown 20230807/r/runregistry/0.2.8-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 10:37:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/93/aa/bb65993ba80de7b2a1ea54c0ca075a2a4263fcafb0d11faa59876d6f7a78/savant_rs_etcd_dynamic_state-0.1.41-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 10:37:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [bridgecrew]: Start processing: openstef-dbc
+[2023-08-07 10:37:13] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-07 10:37:13] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.8a8] Old Version: [3.6.8a7]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.5.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.6.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Start processing: objtoolbox
+[2023-08-07 10:37:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-08-07 10:37:13] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 10:37:13] INFO root fetch - processPackages [namekoplus]: Start processing: merlin-sok
+[2023-08-07 10:37:13] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.8.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.9.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Start processing: teneva-opti
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-opti]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [objtoolbox]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [merlin-sok]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/74/d2/2696bddc8d7d27b906fd53b4f2bb1d08e83dc5fa7c91cd3491eb94d3a939/openstef_dbc-3.6.8a7.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b1.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b2.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openprotein-python]: Start processing: jaka-data-collection
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.957168427.dev12676.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.957623954.dev12677.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [runregistry]: Remove: archive file [/home/abi/fetcher/tmp/runregistry-0.2.8-py3-none-any.whl.zip]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [runregistry]: Remove: archive file [/home/abi/fetcher/tmp/runregistry-1.0.0.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [runregistry]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-opti]: Downloading https://files.pythonhosted.org/packages/0f/68/5240b6a671b83b4faccd6c3c1e2e9fabe79de0d996a8ac5e86b01c12f437/teneva_opti-0.3.4.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.2.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.3.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [merlin-sok]: Downloading https://files.pythonhosted.org/packages/83/03/7780a855818eb07aad8523f48422a6f43677ce9f8fe1eaa854eff2ca7fac/merlin-sok-1.1.4.tar.gz
+[2023-08-07 10:37:14] WARNING root fetch - processPackages [jaka-data-collection]: Skipping, unable to determine old version
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [jaka-data-collection] error
+[2023-08-07 10:37:14] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/ea/cc/44c319225d3593c67b2cee97f840e93c8c9939dea465b5c4595323c404f4/objtoolbox-0.0.3.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-08-07 10:37:14] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-opti]: Downloading https://files.pythonhosted.org/packages/f9/0d/507735dfa628b0baac1e8cc93f0c59bd808f52c6de0816b9ab14bee5859a/teneva_opti-0.3.5.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/dd/7e/e2f8b3080b790957f1682097a8da80658e49679bd93fb5cd32e8e4bd81e0/openstef_dbc-3.6.8a8.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-opti]: executing diffoscope
+[2023-08-07 10:37:14] INFO root fetch - processPackages [teneva-opti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_opti-0.3.4.tar.gz tmp/teneva_opti-0.3.5.tar.gz --markdown 20230807/t/teneva-opti/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-07 10:37:14] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-08-07 10:37:14] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.41-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/s/savant-rs-etcd-dynamic-state/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-08-07 10:37:14] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/66/f7/c7762c1c71651132ae9b3db739267a674091ba1320a5d02ee887b3c31e07/objtoolbox-0.0.4.tar.gz
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-08-07 10:37:14] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.8a7.tar.gz tmp/openstef_dbc-3.6.8a8.tar.gz --markdown 20230807/o/openstef-dbc/3.6.8a7-3.6.8a8/diff.md --exclude *.pyd
+[2023-08-07 10:37:14] INFO root fetch - processPackages [objtoolbox]: executing diffoscope
+[2023-08-07 10:37:14] INFO root fetch - processPackages [objtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objtoolbox-0.0.3.tar.gz tmp/objtoolbox-0.0.4.tar.gz --markdown 20230807/o/objtoolbox/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 10:37:15] INFO root fetch - processPackages [merlin-sok]: Downloading https://files.pythonhosted.org/packages/62/2c/10d33c3b277d25192534ab1fa51b3afa403dbe294ccf49a467fa08847a43/merlin-sok-1.2.0.tar.gz
+[2023-08-07 10:37:15] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.6.8a7.tar.gz]
+[2023-08-07 10:37:15] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.6.8a8.tar.gz]
+[2023-08-07 10:37:15] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-08-07 10:37:16] INFO root fetch - processPackages [teneva-opti]: Remove: archive file [/home/abi/fetcher/tmp/teneva_opti-0.3.4.tar.gz]
+[2023-08-07 10:37:16] INFO root fetch - processPackages [teneva-opti]: Remove: archive file [/home/abi/fetcher/tmp/teneva_opti-0.3.5.tar.gz]
+[2023-08-07 10:37:16] INFO root fetch - main [MainThread]: End processing [teneva-opti]: success
+[2023-08-07 10:37:16] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.3.tar.gz]
+[2023-08-07 10:37:16] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.4.tar.gz]
+[2023-08-07 10:37:16] INFO root fetch - main [MainThread]: End processing [objtoolbox]: success
+[2023-08-07 10:37:16] INFO root fetch - processPackages [merlin-sok]: executing diffoscope
+[2023-08-07 10:37:16] INFO root fetch - processPackages [merlin-sok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sok-1.1.4.tar.gz tmp/merlin-sok-1.2.0.tar.gz --markdown 20230807/m/merlin-sok/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 10:37:30] INFO root fetch - processPackages [merlin-sok]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sok-1.1.4.tar.gz]
+[2023-08-07 10:37:30] INFO root fetch - processPackages [merlin-sok]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sok-1.2.0.tar.gz]
+[2023-08-07 10:37:30] INFO root fetch - main [MainThread]: End processing [merlin-sok]: success
+[2023-08-07 10:38:44] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 10:38:44] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.41-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 10:38:44] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-08-07 10:38:44] INFO root fetch - main [MainThread]: Store serial: [19202423]
