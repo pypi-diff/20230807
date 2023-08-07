@@ -6705,3 +6705,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:54:52] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2023-08-07 05:54:52] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-08-07 05:54:52] INFO root fetch - main [MainThread]: Store serial: [19200236]
+[2023-08-07 05:59:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200236]
+[2023-08-07 06:00:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RuletaEuropea
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiobotocore
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmpg
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WinDbg-Copilot
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Nuitka-winsvc
+[2023-08-07 06:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mystring
+[2023-08-07 06:00:00] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 06:00:00] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 06:00:00] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.7.9] Old Version: [1.7.7]
+[2023-08-07 06:00:00] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 06:00:00] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 06:00:00] WARNING root fetch - processPackages [RuletaEuropea]: Skipping, unable to determine old version
+[2023-08-07 06:00:00] INFO root fetch - main [MainThread]: End processing [RuletaEuropea] error
+[2023-08-07 06:00:00] INFO root fetch - processPackages [aiobotocore]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-08-07 06:00:01] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/b1/29/a89423bbf1aac0d68ef903f5586c64b50326628b3a0b55101cee475f488f/aiobotocore-2.5.2.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/bd/fc/cc4e677cb203e3bd0a07e689c4fb744d4cce822f482f6926e2bfbaaa2809/Nuitka-winsvc-1.7.7.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 06:00:01] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 06:00:01] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/91/81/4b9b83dc1fcd0fd08dae045bda0c8b5b603fcffab664a2ae8f7685d30979/aiobotocore-2.5.3.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-08-07 06:00:01] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230807/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 06:00:01] INFO root fetch - processPackages [aiobotocore]: executing diffoscope
+[2023-08-07 06:00:01] INFO root fetch - processPackages [aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobotocore-2.5.2.tar.gz tmp/aiobotocore-2.5.3.tar.gz --markdown 20230807/a/aiobotocore/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-08-07 06:00:01] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/22/44/c91ca6870a72fe5e6252eab3ce2bc729a634c489a21ea36fd963b88a8c6f/Nuitka-winsvc-1.7.9.tar.gz
+[2023-08-07 06:00:01] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-07 06:00:01] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230807/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:00:02] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 06:00:02] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-08-07 06:00:02] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-07 06:00:02] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.2.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.3.tar.gz]
+[2023-08-07 06:00:02] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
+[2023-08-07 06:00:02] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-08-07 06:00:02] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.7.7.tar.gz tmp/Nuitka-winsvc-1.7.9.tar.gz --markdown 20230807/N/Nuitka-winsvc/1.7.7-1.7.9/diff.md --exclude *.pyd
+[2023-08-07 06:00:14] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.7.tar.gz]
+[2023-08-07 06:00:14] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.9.tar.gz]
+[2023-08-07 06:00:14] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-08-07 06:00:14] INFO root fetch - main [MainThread]: Store serial: [19200262]
