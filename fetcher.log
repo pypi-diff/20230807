@@ -7932,3 +7932,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:52:00] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.1.9.tar.gz]
 [2023-08-07 07:52:00] INFO root fetch - main [MainThread]: End processing [sanctify]: success
 [2023-08-07 07:52:00] INFO root fetch - main [MainThread]: Store serial: [19200898]
+[2023-08-07 07:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200898]
+[2023-08-07 07:57:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydroloader
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-ci
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-cpp
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jzd
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: namekoplus
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mage-ai
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafri
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-projectsss
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hezar
+[2023-08-07 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysesh
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 07:57:09] WARNING root fetch - processPackages [pysesh]: Skipping, unable to determine old version
+[2023-08-07 07:57:09] INFO root fetch - processPackages [pysesh]: Start processing: sovereign
+[2023-08-07 07:57:09] INFO root fetch - main [MainThread]: End processing [pysesh] error
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hezar]: New version: [0.21.1] Old Version: [0.21.0]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [adafri]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [chatglm-cpp]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 07:57:09] WARNING root fetch - processPackages [jzd]: Skipping, unable to determine old version
+[2023-08-07 07:57:09] INFO root fetch - main [MainThread]: End processing [jzd] error
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hydroloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/22/e6/365565672bfb20c14159f61b76558ee085efb4b14a388734247dc6220625/hatch_ci-0.0.5-py3-none-any.whl
+[2023-08-07 07:57:09] WARNING root fetch - processPackages [test-projectsss]: Skipping, unable to determine old version
+[2023-08-07 07:57:09] INFO root fetch - main [MainThread]: End processing [test-projectsss] error
+[2023-08-07 07:57:09] INFO root fetch - processPackages [mage-ai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/e6/56/fb23e570afd4f2b263d88cb4bad5dcf45ff846c748244f3c2c0d5a01a911/hezar-0.21.0.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/0e/b8/e6f64c76e99258cd851df303d33df75e8b2322dc8c3735fb869af12cfc43/adafri-0.0.78.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [sovereign]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-07 07:57:09] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [chatglm-cpp]: Downloading https://files.pythonhosted.org/packages/2d/0a/6ec9704fec03c0ff6add951f3ccb073b6f1191cd90341dfacb4dc0c0a0cb/chatglm-cpp-0.2.2.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/75/65/590830bca3c2de6a9b8e9c7b32844d1df71b85427a3b9122c69113e7b07c/hydroloader-0.1.8.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/65/1f/0b0854dd884fc475e0a0391b82036c03e9b4fab9cbe39e91c73079ca13d5/mage-ai-0.9.8.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/05/f1/c87a08815a99ffe71f3bb7fdefb5659d306f3ed1cd65a8f30dd0c06610a6/hatch_ci-0.0.6.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/16/66/c3b46a06abeef18a1d1b46466cb512bed818047a532ec7eaa17231b9dd61/sovereign-0.9.6.tar.gz
+[2023-08-07 07:57:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/61/fc/95e301c5ba04f8b1b9431333cb2f8ccd208b3b0a1e99a48aef6ed4704c62/hezar-0.21.1.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/1a/15/a2e2451bf58047796535c294c2af75d4cb037ab77145c5b9d5509bc0e262/adafri-0.0.79.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.5-py3-none-any.whl.zip tmp/hatch_ci-0.0.6.tar.gz --markdown 20230807/h/hatch-ci/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.21.0.tar.gz tmp/hezar-0.21.1.tar.gz --markdown 20230807/h/hezar/0.21.0-0.21.1/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/19/5f/ff192f37cd4a4ac6179d4902c8a4d695cccef4dfcd62c2ed85bf8661eeb3/hydroloader-0.1.9.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.78.tar.gz tmp/adafri-0.0.79.tar.gz --markdown 20230807/a/adafri/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [chatglm-cpp]: Downloading https://files.pythonhosted.org/packages/53/9e/1d6fdeb5122a973bf2a96f08e04ca44f5703fe10ff52c2e071e3be1bd93d/chatglm-cpp-0.2.3.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hydroloader]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [hydroloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydroloader-0.1.8.tar.gz tmp/hydroloader-0.1.9.tar.gz --markdown 20230807/h/hydroloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/f9/65/a5f2ada9ea293162182714fca29200f910628e13ea0168d9a55b98c5fa9a/sovereign-0.9.7.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/28/98/682c8883178a9d97f875ff86fddc794bf88961384afdd2c4b8c98d21f7d8/mage-ai-0.9.9.tar.gz
+[2023-08-07 07:57:10] INFO root fetch - processPackages [sovereign]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [sovereign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovereign-0.9.6.tar.gz tmp/sovereign-0.9.7.tar.gz --markdown 20230807/s/sovereign/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-07 07:57:10] INFO root fetch - processPackages [chatglm-cpp]: executing diffoscope
+[2023-08-07 07:57:10] INFO root fetch - processPackages [chatglm-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-cpp-0.2.2.tar.gz tmp/chatglm-cpp-0.2.3.tar.gz --markdown 20230807/c/chatglm-cpp/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.5-py3-none-any.whl.zip]
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.6.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 07:57:11] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-08-07 07:57:11] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.9.8.tar.gz tmp/mage-ai-0.9.9.tar.gz --markdown 20230807/m/mage-ai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 07:57:11] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.78.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.79.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.8.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.9.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - main [MainThread]: End processing [hydroloader]: success
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.0.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.1.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-07 07:57:11] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 07:57:11] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 07:57:12] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.6.tar.gz]
+[2023-08-07 07:57:12] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.7.tar.gz]
+[2023-08-07 07:57:12] INFO root fetch - main [MainThread]: End processing [sovereign]: success
+[2023-08-07 07:57:13] INFO root fetch - processPackages [chatglm-cpp]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cpp-0.2.2.tar.gz]
+[2023-08-07 07:57:13] INFO root fetch - processPackages [chatglm-cpp]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cpp-0.2.3.tar.gz]
+[2023-08-07 07:57:13] INFO root fetch - main [MainThread]: End processing [chatglm-cpp]: success
+[2023-08-07 07:57:38] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.8.tar.gz]
+[2023-08-07 07:57:38] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
+[2023-08-07 07:57:38] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-08-07 07:57:38] INFO root fetch - main [MainThread]: Store serial: [19200931]
