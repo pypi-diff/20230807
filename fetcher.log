@@ -9709,3 +9709,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:32:06] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.3.0.tar.gz]
 [2023-08-07 09:32:06] INFO root fetch - main [MainThread]: End processing [PySideSix-Frameless-Window]: success
 [2023-08-07 09:32:06] INFO root fetch - main [MainThread]: Store serial: [19201815]
+[2023-08-07 09:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201815]
+[2023-08-07 09:37:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-code-interpreter
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-mcversion
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-openapi3
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcc-helper
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eliasliu
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrtlib
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: code-loader
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-picking-origin-reference
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AdroitFisherman
+[2023-08-07 09:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huhk
+[2023-08-07 09:37:15] INFO root fetch - processPackages [zcc-helper]: New version: [3.2.dev4] Old Version: [3.2.dev3]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [eliasliu]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [huhk]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-07 09:37:15] WARNING root fetch - processPackages [pyrtlib]: Skipping, unable to determine old version
+[2023-08-07 09:37:15] INFO root fetch - processPackages [pyrtlib]: Start processing: sen2vec
+[2023-08-07 09:37:15] INFO root fetch - main [MainThread]: End processing [pyrtlib] error
+[2023-08-07 09:37:15] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.87]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [flask-openapi3]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-08-07 09:37:15] WARNING root fetch - processPackages [AdroitFisherman]: Skipping, unable to determine old version
+[2023-08-07 09:37:15] INFO root fetch - processPackages [AdroitFisherman]: Start processing: lalsuite
+[2023-08-07 09:37:15] INFO root fetch - main [MainThread]: End processing [AdroitFisherman] error
+[2023-08-07 09:37:15] WARNING root fetch - processPackages [odoo-addon-stock-picking-origin-reference]: Skipping, unable to determine old version
+[2023-08-07 09:37:15] INFO root fetch - processPackages [odoo-addon-stock-picking-origin-reference]: Start processing: tf-nightly-macos
+[2023-08-07 09:37:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-origin-reference] error
+[2023-08-07 09:37:15] INFO root fetch - processPackages [gpt-code-interpreter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/0b/94/1512281f8fe136ca12bc264786fe17c13a52605d3b58447f54c3411674b5/zcc-helper-3.2.dev3.tar.gz
+[2023-08-07 09:37:15] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/00/02/0d96bb91eba4b307db0acec62881740411edeea4cb240ad19437091dbc3d/eliasliu-0.1.6.tar.gz
+[2023-08-07 09:37:15] INFO root fetch - processPackages [sen2vec]: New version: [1.71] Old Version: [1.70]
+[2023-08-07 09:37:15] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-07 09:37:16] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-07 09:37:16] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/a3/ae/bb62b20c67c23acec4dac23d56fe34497499176c5affdeed03a9e4f1c5df/huhk-2.1.8.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/1b/f3/f7c82d139aea71d35b8d446a2cdaca200f7b7ad15d07f4859d277ca3f53e/code_loader-0.2.87.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/9a/50/e78fd6e1f73e1785777bcc0fee431374b7607ccb275141213a26081004bb/nonebot-plugin-mcversion-0.2.5.tar.gz
+[2023-08-07 09:37:16] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 17201039>=10485760
+[2023-08-07 09:37:16] INFO root fetch - processPackages [huhk]: Start processing: alibabacloud-oos20190601-py2
+[2023-08-07 09:37:16] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-08-07 09:37:16] INFO root fetch - processPackages [gpt-code-interpreter]: Downloading https://files.pythonhosted.org/packages/73/48/8c665961a5ef57975e4a8fc89f5ce9119e5d0aa8f4049f8efaf6dd3eb3e7/gpt_code_interpreter-0.0.1.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [flask-openapi3]: Downloading https://files.pythonhosted.org/packages/c6/d2/3b288d1ca092ea63f29d63d7502ddc966b7f1e51b5d8a62cea380bd727f3/flask-openapi3-2.5.0.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [sen2vec]: Downloading https://files.pythonhosted.org/packages/6e/d5/fc68fa3e8ecb68b64e8b8699037149e1852e44a5fd1e5e5b1bbc3aa018f3/sen2vec-1.70.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/df/cc/3161fcc19271c35034afa2297b970e89378d2e18f66a53f705cdc96231d2/tf_nightly_macos-2.15.0.dev20230805-cp39-cp39-macosx_12_0_arm64.whl
+[2023-08-07 09:37:16] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 09:37:16] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/e3/61/e96e41a48bf19788d42985debfc65c5717f18935c959556ff080d3257320/zcc-helper-3.2.dev4.tar.gz
+[2023-08-07 09:37:16] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199982270>=10485760
+[2023-08-07 09:37:16] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: shared-atomic-enterprise
+[2023-08-07 09:37:16] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-08-07 09:37:16] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/8e/37/014cb0c3957792bc671e6e56c6d1c6d3fc539a844417a091de63712bccdb/eliasliu-0.1.7.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 09:37:16] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-07 09:37:16] INFO root fetch - processPackages [lalsuite]: Start processing: py-worksdone-utils
+[2023-08-07 09:37:16] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-07 09:37:16] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/d4/ec/cd7328a6874a98aec7c03d2151334f4013dd5ea1d3102e7a8fb0760d7d7d/nonebot-plugin-mcversion-0.2.6.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-08-07 09:37:16] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.2.dev3.tar.gz tmp/zcc-helper-3.2.dev4.tar.gz --markdown 20230807/z/zcc-helper/3.2.dev3-3.2.dev4/diff.md --exclude *.pyd
+[2023-08-07 09:37:16] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 09:37:16] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.6.tar.gz tmp/eliasliu-0.1.7.tar.gz --markdown 20230807/e/eliasliu/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 09:37:16] INFO root fetch - processPackages [gpt-code-interpreter]: Downloading https://files.pythonhosted.org/packages/01/61/020c8395f8bd80a8d766bf711acfe9729371d9e380d84296fb86139aadcc/gpt_code_interpreter-0.0.2.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Downloading https://files.pythonhosted.org/packages/fe/fa/62aebc3e45f60bf0edaa772192fa1adc1abacbfdfa6266ba11c5b9d3d856/alibabacloud_oos20190601_py2-1.0.1.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.0.0] Old Version: [5!2.3.6]
+[2023-08-07 09:37:16] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-07 09:37:16] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.87.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230807/c/code-loader/0.2.87-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 09:37:16] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-08-07 09:37:16] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.5.tar.gz tmp/nonebot-plugin-mcversion-0.2.6.tar.gz --markdown 20230807/n/nonebot-plugin-mcversion/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 09:37:16] INFO root fetch - processPackages [flask-openapi3]: Downloading https://files.pythonhosted.org/packages/b9/d2/0d6819770a65422dd176bd9f7fd7abd2fa4cd09e1b03a962fae9dcad4dae/flask-openapi3-2.5.1.tar.gz
+[2023-08-07 09:37:16] INFO root fetch - processPackages [py-worksdone-utils]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-07 09:37:16] INFO root fetch - processPackages [sen2vec]: Downloading https://files.pythonhosted.org/packages/15/3c/0689c971cd3c65e8980f8e7d848a42775032e9cb4a288dcbb1267de2bccc/sen2vec-1.71.tar.gz
+[2023-08-07 09:37:17] INFO root fetch - processPackages [gpt-code-interpreter]: executing diffoscope
+[2023-08-07 09:37:17] INFO root fetch - processPackages [gpt-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_interpreter-0.0.1.tar.gz tmp/gpt_code_interpreter-0.0.2.tar.gz --markdown 20230807/g/gpt-code-interpreter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 09:37:17] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-08-07 09:37:17] INFO root fetch - processPackages [sen2vec]: executing diffoscope
+[2023-08-07 09:37:17] INFO root fetch - processPackages [sen2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sen2vec-1.70.tar.gz tmp/sen2vec-1.71.tar.gz --markdown 20230807/s/sen2vec/1.70-1.71/diff.md --exclude *.pyd
+[2023-08-07 09:37:17] INFO root fetch - processPackages [flask-openapi3]: executing diffoscope
+[2023-08-07 09:37:17] INFO root fetch - processPackages [flask-openapi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-openapi3-2.5.0.tar.gz tmp/flask-openapi3-2.5.1.tar.gz --markdown 20230807/f/flask-openapi3/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-08-07 09:37:17] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/d1/ea/f0b147fc771617d6deb9572eb0a23031675ea00bddc8ce6dea3361380dd1/py-worksdone-utils-1.0.7.tar.gz
+[2023-08-07 09:37:17] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Downloading https://files.pythonhosted.org/packages/55/c7/6596cc8a561f17322c3c13cc264566bde570331f33bd47abfaa366bfc964/alibabacloud_oos20190601_py2-1.0.2.tar.gz
+[2023-08-07 09:37:17] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: executing diffoscope
+[2023-08-07 09:37:17] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oos20190601_py2-1.0.1.tar.gz tmp/alibabacloud_oos20190601_py2-1.0.2.tar.gz --markdown 20230807/a/alibabacloud-oos20190601-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 09:37:17] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/c4/1a/486657ecad2794b86ffa2dad32ba93396451e9fa5fb10111415cedeec797/py-worksdone-utils-1.0.8.tar.gz
+[2023-08-07 09:37:17] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-07 09:37:17] INFO root fetch - processPackages [py-worksdone-utils]: executing diffoscope
+[2023-08-07 09:37:17] INFO root fetch - processPackages [py-worksdone-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-worksdone-utils-1.0.7.tar.gz tmp/py-worksdone-utils-1.0.8.tar.gz --markdown 20230807/p/py-worksdone-utils/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-07 09:37:18] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-07 09:37:18] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip --markdown 20230807/s/shared-atomic-enterprise/5!2.3.6-5!3.0.0/diff.md --exclude *.pyd
+[2023-08-07 09:37:18] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.6.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.7.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [eliasliu]: Start processing: alibabacloud-oos20190601
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev3.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev4.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [alibabacloud-oos20190601]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.87.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [gpt-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_interpreter-0.0.1.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [gpt-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_interpreter-0.0.2.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [gpt-code-interpreter]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [alibabacloud-oos20190601]: Downloading https://files.pythonhosted.org/packages/69/2f/eb7ef5b0267df7a3b686087b08860672ea429bb3d2c3b6cba044ccc37fb5/alibabacloud_oos20190601-1.0.6.tar.gz
+[2023-08-07 09:37:18] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.5.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.6.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [sen2vec]: Remove: archive file [/home/abi/fetcher/tmp/sen2vec-1.70.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [sen2vec]: Remove: archive file [/home/abi/fetcher/tmp/sen2vec-1.71.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [sen2vec]: success
+[2023-08-07 09:37:18] INFO root fetch - processPackages [alibabacloud-oos20190601]: Downloading https://files.pythonhosted.org/packages/d8/f7/2c8e39454398da596f11041b6ec4e8b33c5acaa9465592b017651ad8e457/alibabacloud_oos20190601-1.0.7.tar.gz
+[2023-08-07 09:37:18] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601_py2-1.0.1.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601_py2-1.0.2.tar.gz]
+[2023-08-07 09:37:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-oos20190601-py2]: success
+[2023-08-07 09:37:19] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.7.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.8.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - main [MainThread]: End processing [py-worksdone-utils]: success
+[2023-08-07 09:37:19] INFO root fetch - processPackages [alibabacloud-oos20190601]: executing diffoscope
+[2023-08-07 09:37:19] INFO root fetch - processPackages [alibabacloud-oos20190601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oos20190601-1.0.6.tar.gz tmp/alibabacloud_oos20190601-1.0.7.tar.gz --markdown 20230807/a/alibabacloud-oos20190601/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-07 09:37:19] INFO root fetch - processPackages [flask-openapi3]: Remove: archive file [/home/abi/fetcher/tmp/flask-openapi3-2.5.0.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - processPackages [flask-openapi3]: Remove: archive file [/home/abi/fetcher/tmp/flask-openapi3-2.5.1.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - main [MainThread]: End processing [flask-openapi3]: success
+[2023-08-07 09:37:19] INFO root fetch - processPackages [alibabacloud-oos20190601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601-1.0.6.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - processPackages [alibabacloud-oos20190601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601-1.0.7.tar.gz]
+[2023-08-07 09:37:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-oos20190601]: success
+[2023-08-07 09:37:25] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-08-07 09:37:25] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-07 09:37:25] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-07 09:37:25] INFO root fetch - main [MainThread]: Store serial: [19201875]
