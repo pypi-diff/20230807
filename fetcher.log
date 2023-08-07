@@ -7107,3 +7107,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:33:50] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.32-pp39-pypy39_pp73-manylinux_2_34_i686.whl.zip]
 [2023-08-07 06:33:50] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
 [2023-08-07 06:33:50] INFO root fetch - main [MainThread]: Store serial: [19200459]
+[2023-08-07 06:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200459]
+[2023-08-07 06:39:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swit-core
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycromanager
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtailextraicons
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OCRTest
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: processoptim
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: app-ordering
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkey-sklearn
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autonomi-nos
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HaploDynamics
+[2023-08-07 06:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: staticx
+[2023-08-07 06:39:16] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b9] Old Version: [0.1b7]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.7a2] Old Version: [0.0.7]
+[2023-08-07 06:39:16] WARNING root fetch - processPackages [checkey-sklearn]: Skipping, unable to determine old version
+[2023-08-07 06:39:16] INFO root fetch - processPackages [checkey-sklearn]: Start processing: odoo12-addons-oca-pos
+[2023-08-07 06:39:16] INFO root fetch - main [MainThread]: End processing [checkey-sklearn] error
+[2023-08-07 06:39:16] INFO root fetch - processPackages [OCRTest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [processoptim]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 06:39:16] WARNING root fetch - processPackages [swit-core]: Skipping, unable to determine old version
+[2023-08-07 06:39:16] INFO root fetch - processPackages [swit-core]: Start processing: YandexHome
+[2023-08-07 06:39:16] INFO root fetch - main [MainThread]: End processing [swit-core] error
+[2023-08-07 06:39:16] INFO root fetch - processPackages [wagtailextraicons]: New version: [3.0.0] Old Version: [2.0.0a0]
+[2023-08-07 06:39:16] WARNING root fetch - processPackages [app-ordering]: Skipping, unable to determine old version
+[2023-08-07 06:39:16] INFO root fetch - main [MainThread]: End processing [app-ordering] error
+[2023-08-07 06:39:16] INFO root fetch - processPackages [staticx]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [pycromanager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [odoo12-addons-oca-pos]: New version: [12.0.20230806.0] Old Version: [12.0.20230418.0]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 06:39:16] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/43/77/681dd636417a1a943c68a8c648c2f6e52099f25a65101103b185d9f3a12b/HaploDynamics-0.1b7.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/15/8e/824c74aabd35645ceee5fdfd094c32ebf3ae4bebcac128eb63581f03b324/autonomi_nos-0.0.7-py3-none-any.whl
+[2023-08-07 06:39:16] INFO root fetch - processPackages [OCRTest]: Downloading https://files.pythonhosted.org/packages/92/a5/d0b72dbf61955d97f3b31f4b121749e200ca252c5bfc0e65f794db0f29a8/OCRTest-0.0.3.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [staticx]: Downloading https://files.pythonhosted.org/packages/c8/5a/6a6c193182e04c2aedfd0309e0b09e05877fdee3806eb2e4beced80ddc94/staticx-0.9.0.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/d6/d9/1ce85c91ef199b7d1708815ec30a2d301885401029eedbebca5beefd61a3/pycromanager-0.8.0.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [wagtailextraicons]: Downloading https://files.pythonhosted.org/packages/c6/7d/b3a445a9805c5a910b7edafd8d804d0cb5cf5a54bb766cc22cc0b03cf7bb/wagtailextraicons-2.0.0a0.tar.gz
+[2023-08-07 06:39:16] INFO root fetch - processPackages [odoo12-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/d9/75/fa12c80d11337064f7c38e37fde227824b737d4d26b42f05a1228074beac/odoo12_addons_oca_pos-12.0.20230418.0-py3-none-any.whl
+[2023-08-07 06:39:16] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/de/91/eb7c9ec519f84001b10fecc822385817c691a1079585ea58550c0e41c550/processoptim-0.2.6-py3-none-any.whl
+[2023-08-07 06:39:17] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [OCRTest]: Downloading https://files.pythonhosted.org/packages/67/43/4009a4376e5cdf0c38fd5ae95141fd6a60320667e6258d83e29f888d0396/OCRTest-0.0.4.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/9b/22/8e429e0c06e4417ddcf5abc981eb55b4a02319909197029dd93991c2fc08/HaploDynamics-0.1b9.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/9d/a3/05f29b137d061022b34ef9d028c1729fb367a5a50f2f52ab1e3341aa48ad/autonomi_nos-0.0.7a2-py3-none-any.whl
+[2023-08-07 06:39:17] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230807/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/e5/5d/188606415b768217f9830aa158f48062823ef69352eac8938f194b7b35d6/pycromanager-0.9.0.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [odoo12-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/94/e7/11f031347f924706d1fe26de8702aecb51e716b3480c561b372b2b304b09/odoo12_addons_oca_pos-12.0.20230806.0-py3-none-any.whl
+[2023-08-07 06:39:17] INFO root fetch - processPackages [OCRTest]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [OCRTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OCRTest-0.0.3.tar.gz tmp/OCRTest-0.0.4.tar.gz --markdown 20230807/O/OCRTest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [staticx]: Downloading https://files.pythonhosted.org/packages/eb/c2/9cd485aa22131d1836f51315c7d2434b7e161ec118083fd1ad3019127245/staticx-0.9.1.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [wagtailextraicons]: Downloading https://files.pythonhosted.org/packages/60/05/2990826353ce2bb8236df0f789411bb32ff9cd017b7ab8270acb91686249/wagtailextraicons-3.0.0.tar.gz
+[2023-08-07 06:39:17] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b7.tar.gz tmp/HaploDynamics-0.1b9.tar.gz --markdown 20230807/H/HaploDynamics/0.1b7-0.1b9/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.7-py3-none-any.whl.zip tmp/autonomi_nos-0.0.7a2-py3-none-any.whl.zip --markdown 20230807/a/autonomi-nos/0.0.7-0.0.7a2/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [odoo12-addons-oca-pos]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [odoo12-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_pos-12.0.20230418.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_pos-12.0.20230806.0-py3-none-any.whl.zip --markdown 20230807/o/odoo12-addons-oca-pos/12.0.20230418.0-12.0.20230806.0/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [pycromanager]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [pycromanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycromanager-0.8.0.tar.gz tmp/pycromanager-0.9.0.tar.gz --markdown 20230807/p/pycromanager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [wagtailextraicons]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [wagtailextraicons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailextraicons-2.0.0a0.tar.gz tmp/wagtailextraicons-3.0.0.tar.gz --markdown 20230807/w/wagtailextraicons/2.0.0a0-3.0.0/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.5-py3-none-any.whl.zip tmp/processoptim-0.2.6-py3-none-any.whl.zip --markdown 20230807/p/processoptim/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 06:39:17] INFO root fetch - processPackages [staticx]: executing diffoscope
+[2023-08-07 06:39:17] INFO root fetch - processPackages [staticx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticx-0.9.0.tar.gz tmp/staticx-0.9.1.tar.gz --markdown 20230807/s/staticx/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 06:39:18] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-07 06:39:18] INFO root fetch - processPackages [OCRTest]: Remove: archive file [/home/abi/fetcher/tmp/OCRTest-0.0.3.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [OCRTest]: Remove: archive file [/home/abi/fetcher/tmp/OCRTest-0.0.4.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [OCRTest]: success
+[2023-08-07 06:39:18] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b7.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b9.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 06:39:18] INFO root fetch - processPackages [odoo12-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_pos-12.0.20230418.0-py3-none-any.whl.zip]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [odoo12-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_pos-12.0.20230806.0-py3-none-any.whl.zip]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-pos]: success
+[2023-08-07 06:39:18] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.8.0.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.9.0.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [pycromanager]: success
+[2023-08-07 06:39:18] INFO root fetch - processPackages [wagtailextraicons]: Remove: archive file [/home/abi/fetcher/tmp/wagtailextraicons-2.0.0a0.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - processPackages [wagtailextraicons]: Remove: archive file [/home/abi/fetcher/tmp/wagtailextraicons-3.0.0.tar.gz]
+[2023-08-07 06:39:18] INFO root fetch - main [MainThread]: End processing [wagtailextraicons]: success
+[2023-08-07 06:39:19] INFO root fetch - processPackages [staticx]: Remove: archive file [/home/abi/fetcher/tmp/staticx-0.9.0.tar.gz]
+[2023-08-07 06:39:19] INFO root fetch - processPackages [staticx]: Remove: archive file [/home/abi/fetcher/tmp/staticx-0.9.1.tar.gz]
+[2023-08-07 06:39:19] INFO root fetch - main [MainThread]: End processing [staticx]: success
+[2023-08-07 06:39:19] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.7-py3-none-any.whl.zip]
+[2023-08-07 06:39:19] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.7a2-py3-none-any.whl.zip]
+[2023-08-07 06:39:19] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-08-07 06:39:19] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.5-py3-none-any.whl.zip]
+[2023-08-07 06:39:19] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.6-py3-none-any.whl.zip]
+[2023-08-07 06:39:19] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-07 06:39:19] INFO root fetch - main [MainThread]: Store serial: [19200508]
