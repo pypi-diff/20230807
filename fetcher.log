@@ -8525,3 +8525,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:23:48] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
 [2023-08-07 08:23:48] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2023-08-07 08:23:48] INFO root fetch - main [MainThread]: Store serial: [19201205]
+[2023-08-07 08:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201205]
+[2023-08-07 08:28:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylywsdxx
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rqalpha
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-facebook-api
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loq0
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: namekoplus
+[2023-08-07 08:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: findmyorder
+[2023-08-07 08:28:57] INFO root fetch - processPackages [loq0]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pylywsdxx]: New version: [1.8.1] Old Version: [1.6.1]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [python-facebook-api]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/1b/ff/0e5670a3c09c86dd3dedb7a7fb6ad9ada5b2b964f12c090f09ccd02b2f79/loq0-0.0.4.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [rqalpha]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [findmyorder]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230807] Old Version: [20230806]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/ec/9a/5c0706ec3e54db47e3ead9d7558cf1b1d66a20b0a79d2f01a21e5797ed0a/pylywsdxx-1.6.1.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/7a/c8/f48319286690e7e3000d403c29b1d2581a87182496fcc0f3b07f3c160b4e/rqalpha-5.1.1.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [python-facebook-api]: Downloading https://files.pythonhosted.org/packages/f1/05/559eb1a1dda31f880518138208bedc8fd52d5466b596b65edeec977e7697/python-facebook-api-0.9.5.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/55/11/d5f60121b339b6bad1a9495d09822215b873b49661549cc8b26c3a4a9a6c/findmyorder-1.7.7.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/bc/ba/66a5e471f8c18ad49fcc6e643f08df0e9bcb062a7631da481e61941cb6ed/fake-bpy-module-latest-20230806.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 08:28:57] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/a1/59/b5855f94df579b9c6fe5cf83a8e702ebd706216edb9ccb534dbebfe090f9/loq0-0.0.5.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.4.tar.gz tmp/loq0-0.0.5.tar.gz --markdown 20230807/l/loq0/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/da/d4/01089c84dc0115e3667fc178a875b59e268a3253fe6e8ceb63d15eb302f2/pylywsdxx-1.8.1.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/7c/5c/bcee2bdcce4ffd1485403e527bb941847ab5c0abcaa069d4f3ccb5485647/rqalpha-5.1.2.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [python-facebook-api]: Downloading https://files.pythonhosted.org/packages/00/3b/35988cfd1a29b5cab4784437f0c30d22f762bdb3b5b730a44503013a72fd/python-facebook-api-0.9.6.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/76/fa/e2d0720c723c9d6b9a5d49be5b1c636f6b9196468f1ebd625a035ba48841/findmyorder-1.7.8.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ca/01/683b6d02f2baaf438949ed0325094617482b2be8f3a05a5c552ee77647c0/fake-bpy-module-latest-20230807.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pylywsdxx]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pylywsdxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylywsdxx-1.6.1.tar.gz tmp/pylywsdxx-1.8.1.tar.gz --markdown 20230807/p/pylywsdxx/1.6.1-1.8.1/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [python-facebook-api]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [python-facebook-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-facebook-api-0.9.5.tar.gz tmp/python-facebook-api-0.9.6.tar.gz --markdown 20230807/p/python-facebook-api/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.1.1.tar.gz tmp/rqalpha-5.1.2.tar.gz --markdown 20230807/r/rqalpha/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.7.tar.gz tmp/findmyorder-1.7.8.tar.gz --markdown 20230807/f/findmyorder/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230807/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-07 08:28:58] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230806.tar.gz tmp/fake-bpy-module-latest-20230807.tar.gz --markdown 20230807/f/fake-bpy-module-latest/20230806-20230807/diff.md --exclude *.pyd
+[2023-08-07 08:28:58] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-07 08:28:58] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230807/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-07 08:28:59] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.4.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.5.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-08-07 08:28:59] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 08:28:59] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.7.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.8.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-07 08:28:59] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.6.1.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.8.1.tar.gz]
+[2023-08-07 08:28:59] INFO root fetch - main [MainThread]: End processing [pylywsdxx]: success
+[2023-08-07 08:29:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-07 08:29:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 08:29:00] INFO root fetch - processPackages [python-facebook-api]: Remove: archive file [/home/abi/fetcher/tmp/python-facebook-api-0.9.5.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - processPackages [python-facebook-api]: Remove: archive file [/home/abi/fetcher/tmp/python-facebook-api-0.9.6.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - main [MainThread]: End processing [python-facebook-api]: success
+[2023-08-07 08:29:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-07 08:29:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-07 08:29:00] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.1.1.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.1.2.tar.gz]
+[2023-08-07 08:29:00] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2023-08-07 08:29:01] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-07 08:29:01] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-07 08:29:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-07 08:29:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230806.tar.gz]
+[2023-08-07 08:29:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230807.tar.gz]
+[2023-08-07 08:29:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-08-07 08:29:03] INFO root fetch - main [MainThread]: Store serial: [19201230]
