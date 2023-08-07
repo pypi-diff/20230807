@@ -16621,3 +16621,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:57:37] INFO root fetch - processPackages [astronomer-providers]: Remove: archive file [/home/abi/fetcher/tmp/astronomer-providers-1.9.0.tar.gz]
 [2023-08-07 12:57:37] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
 [2023-08-07 12:57:37] INFO root fetch - main [MainThread]: Store serial: [19204498]
+[2023-08-07 13:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204498]
+[2023-08-07 13:02:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dp-cubed
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-private-bucket
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samna
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpy-addon-build
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myproject-yimingdesigner
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myllm
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dandelion-eu
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaces
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hm-pyhelper
+[2023-08-07 13:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wbFontParts
+[2023-08-07 13:02:46] INFO root fetch - processPackages [myllm]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 13:02:46] WARNING root fetch - processPackages [dp-cubed]: Skipping, unable to determine old version
+[2023-08-07 13:02:46] INFO root fetch - processPackages [dp-cubed]: Start processing: sherlockpipe
+[2023-08-07 13:02:46] INFO root fetch - main [MainThread]: End processing [dp-cubed] error
+[2023-08-07 13:02:46] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-08-07 13:02:46] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/29/51/806b962f94ef60223a438b90c38fa1e59c0c1e74654ec307d1299292cef7/myllm-1.1.0.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [dandelion-eu]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [wbFontParts]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 13:02:47] WARNING root fetch - processPackages [myproject-yimingdesigner]: Skipping, unable to determine old version
+[2023-08-07 13:02:47] INFO root fetch - processPackages [myproject-yimingdesigner]: Start processing: screcode
+[2023-08-07 13:02:47] INFO root fetch - main [MainThread]: End processing [myproject-yimingdesigner] error
+[2023-08-07 13:02:47] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-08-07 13:02:47] INFO root fetch - processPackages [dandelion-eu]: Downloading https://files.pythonhosted.org/packages/1a/25/fcd5bb662d02d70e1a5e64d754ba852854b06ada0a32ba7384ff4c0f3567/dandelion-eu-0.3.2.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [screcode]: New version: [0.2.1] Old Version: [0.2.0.dev202308071100]
+[2023-08-07 13:02:47] INFO root fetch - processPackages [wbFontParts]: Downloading https://files.pythonhosted.org/packages/f5/a4/f0f4644e6153394920e0e6ee80242ed7185ef85bd40179c176cd21f57b4e/wbFontParts-0.2.1.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/bf/06/4caacc4e0495571fcc0c48e5335b5f076ad20ac7c3fab657e063c366034e/bpy_addon_build-0.2.0.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/3f/48/0730551a5a2c968cf8e5798526a6868ddcd32518288e61a1b3f6984d0264/myllm-1.2.0.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-08-07 13:02:47] INFO root fetch - processPackages [myllm]: executing diffoscope
+[2023-08-07 13:02:47] INFO root fetch - processPackages [myllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-1.1.0.tar.gz tmp/myllm-1.2.0.tar.gz --markdown 20230807/m/myllm/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 13:02:47] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/f4/2d/dc31d599c02d431098a2959ebb0c9c9d59ebb8287c22ea46ff2b3e2db5bb/screcode-0.2.0.dev202308071100-py3-none-any.whl
+[2023-08-07 13:02:47] INFO root fetch - processPackages [dandelion-eu]: Downloading https://files.pythonhosted.org/packages/45/cc/439ad4926e1e6e44f64c8e211140065e0ff3ed80d8d2a8c20d3e0859bcb7/dandelion-eu-0.3.3.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [wbFontParts]: Downloading https://files.pythonhosted.org/packages/08/9d/98cf5b308400f1eb7772aa45d69816fc8c9170f9d8ee4fe363b34ae9d60c/wbFontParts-0.2.2.tar.gz
+[2023-08-07 13:02:47] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-08-07 13:02:47] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230807/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-08-07 13:02:47] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/fb/26/246e02e810e36c40e1646a8b3a8d1eb65bfc08a1ce79a6977b66e5946796/bpy_addon_build-0.2.1.tar.gz
+[2023-08-07 13:02:48] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2023-08-07 13:02:48] INFO root fetch - processPackages [wbFontParts]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [wbFontParts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbFontParts-0.2.1.tar.gz tmp/wbFontParts-0.2.2.tar.gz --markdown 20230807/w/wbFontParts/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [dandelion-eu]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [dandelion-eu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dandelion-eu-0.3.2.tar.gz tmp/dandelion-eu-0.3.3.tar.gz --markdown 20230807/d/dandelion-eu/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-07 13:02:48] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-08-07 13:02:48] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.2.0.tar.gz tmp/bpy_addon_build-0.2.1.tar.gz --markdown 20230807/b/bpy-addon-build/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2023-08-07 13:02:48] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20230807/s/spaces/0.9b2-0.9b3/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/4c/c1/f1dcb924aa6537fb437a58a2effa66258318f512bc6a42cfaceda62b6382/screcode-0.2.1-py3-none-any.whl
+[2023-08-07 13:02:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230807/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip tmp/screcode-0.2.1-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.2.0.dev202308071100-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 13:02:48] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-08-07 13:02:48] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230807/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-08-07 13:02:49] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.1.0.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.0.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [myllm]: Start processing: screcode
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [myllm]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [screcode]: New version: [0.2.1] Old Version: [0.2.0.dev202308071100]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [samna]: Start processing: pyoclk
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [pyoclk]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 13:02:49] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip tmp/screcode-0.2.1-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.2.0.dev202308071100-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 13:02:49] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.2.0.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.2.1.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [bpy-addon-build]: Start processing: mtok
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [pyoclk]: Downloading https://files.pythonhosted.org/packages/ed/5b/47373a40f0a9a01313c9abbdba256e11a1fd47958e4ee6e6526f286ad9f4/pyoclk-1.1.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-08-07 13:02:49] WARNING root fetch - processPackages [mtok]: Skipping, unable to determine old version
+[2023-08-07 13:02:49] INFO root fetch - processPackages [mtok]: Start processing: cairo-lang
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [mtok] error
+[2023-08-07 13:02:49] INFO root fetch - processPackages [wbFontParts]: Remove: archive file [/home/abi/fetcher/tmp/wbFontParts-0.2.1.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [wbFontParts]: Remove: archive file [/home/abi/fetcher/tmp/wbFontParts-0.2.2.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [wbFontParts]: Start processing: dataflows-airtable
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [wbFontParts]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [dandelion-eu]: Remove: archive file [/home/abi/fetcher/tmp/dandelion-eu-0.3.2.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [dandelion-eu]: Remove: archive file [/home/abi/fetcher/tmp/dandelion-eu-0.3.3.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [dandelion-eu]: Start processing: wagtail-formation
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [dandelion-eu]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [cairo-lang]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [dataflows-airtable]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2023-08-07 13:02:49] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-08-07 13:02:49] INFO root fetch - processPackages [wagtail-formation]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 13:02:49] INFO root fetch - processPackages [pyoclk]: Downloading https://files.pythonhosted.org/packages/d8/8b/dda7e636e7f08b6d0eba1e66ac5e8a7a8b43d4c6c5c3f3437c49d1f16cfc/pyoclk-1.1.1-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-08-07 13:02:50] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip]
+[2023-08-07 13:02:50] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.1-py3-none-any.whl.zip]
+[2023-08-07 13:02:50] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-07 13:02:50] INFO root fetch - processPackages [dataflows-airtable]: Downloading https://files.pythonhosted.org/packages/88/37/07402b2d6181ade32d739b127dc2f3eae6155a5d04885da4285c076f395a/dataflows-airtable-0.1.1.tar.gz
+[2023-08-07 13:02:50] INFO root fetch - processPackages [cairo-lang]: Downloading https://files.pythonhosted.org/packages/11/ce/067fdb9b6154af674ea52b4ec1f0e58ce300973835cae5f290e9bcd9a87f/cairo-lang-0.9.0.zip
+[2023-08-07 13:02:50] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/5e/38/8f8a00732f4e68bea108c8f1af4269856039e229ec2408e7a5786ea50e55/wagtail_formation-0.1.5.tar.gz
+[2023-08-07 13:02:50] INFO root fetch - processPackages [pyoclk]: executing diffoscope
+[2023-08-07 13:02:50] ERROR root fetch - processPackages [screcode]: Diffoscope failed: time="2023-08-07T13:02:49+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not exist
+
+[2023-08-07 13:02:50] INFO root fetch - processPackages [pyoclk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoclk-1.1.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/pyoclk-1.1.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230807/p/pyoclk/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 13:02:50] INFO root fetch - main [MainThread]: End processing [screcode] error
+[2023-08-07 13:02:50] INFO root fetch - processPackages [dataflows-airtable]: Downloading https://files.pythonhosted.org/packages/fe/e8/41af44898c0465e53725f26d32a52eafce31acc3022ac94b8ece0224fab4/dataflows-airtable-0.1.2.tar.gz
+[2023-08-07 13:02:50] INFO root fetch - processPackages [cairo-lang]: Downloading https://files.pythonhosted.org/packages/00/8e/4505453196ad40ba5158eef2496504fc0b9059187402217ff26d053d7027/cairo-lang-0.9.1.zip
+[2023-08-07 13:02:50] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/9d/6d/7761c128838e77a34210bdf82391d773e1a2633af80be490bc02676c6d23/wagtail_formation-0.1.6.tar.gz
+[2023-08-07 13:02:50] INFO root fetch - processPackages [dataflows-airtable]: executing diffoscope
+[2023-08-07 13:02:50] INFO root fetch - processPackages [dataflows-airtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows-airtable-0.1.1.tar.gz tmp/dataflows-airtable-0.1.2.tar.gz --markdown 20230807/d/dataflows-airtable/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 13:02:50] INFO root fetch - processPackages [cairo-lang]: executing diffoscope
+[2023-08-07 13:02:50] INFO root fetch - processPackages [cairo-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cairo-lang-0.9.0.zip tmp/cairo-lang-0.9.1.zip --markdown 20230807/c/cairo-lang/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 13:02:50] INFO root fetch - processPackages [wagtail-formation]: executing diffoscope
+[2023-08-07 13:02:50] INFO root fetch - processPackages [wagtail-formation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_formation-0.1.5.tar.gz tmp/wagtail_formation-0.1.6.tar.gz --markdown 20230807/w/wagtail-formation/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 13:02:51] INFO root fetch - processPackages [dataflows-airtable]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-airtable-0.1.1.tar.gz]
+[2023-08-07 13:02:51] INFO root fetch - processPackages [dataflows-airtable]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-airtable-0.1.2.tar.gz]
+[2023-08-07 13:02:51] INFO root fetch - main [MainThread]: End processing [dataflows-airtable]: success
+[2023-08-07 13:02:51] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.5.tar.gz]
+[2023-08-07 13:02:51] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.6.tar.gz]
+[2023-08-07 13:02:51] INFO root fetch - main [MainThread]: End processing [wagtail-formation]: success
+[2023-08-07 13:02:55] INFO root fetch - processPackages [pyoclk]: Remove: archive file [/home/abi/fetcher/tmp/pyoclk-1.1.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-08-07 13:02:55] INFO root fetch - processPackages [pyoclk]: Remove: archive file [/home/abi/fetcher/tmp/pyoclk-1.1.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-08-07 13:02:55] INFO root fetch - main [MainThread]: End processing [pyoclk]: success
+[2023-08-07 13:02:56] INFO root fetch - processPackages [cairo-lang]: Remove: archive file [/home/abi/fetcher/tmp/cairo-lang-0.9.0.zip]
+[2023-08-07 13:02:56] INFO root fetch - processPackages [cairo-lang]: Remove: archive file [/home/abi/fetcher/tmp/cairo-lang-0.9.1.zip]
+[2023-08-07 13:02:56] INFO root fetch - main [MainThread]: End processing [cairo-lang]: success
+[2023-08-07 13:02:59] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-08-07 13:02:59] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-08-07 13:02:59] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-08-07 13:02:59] INFO root fetch - main [MainThread]: Store serial: [19204563]
