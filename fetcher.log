@@ -6305,3 +6305,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:23:27] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-08-07 05:23:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-brand]: success
 [2023-08-07 05:23:27] INFO root fetch - main [MainThread]: Store serial: [19200068]
+[2023-08-07 05:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200068]
+[2023-08-07 05:28:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompttools
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonsqlipackagesV1
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drawsvg
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apit212
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythonsqlipackagesV1
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: normalize-json
+[2023-08-07 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyspkio
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pyspkio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 05:28:35] WARNING root fetch - processPackages [normalize-json]: Skipping, unable to determine old version
+[2023-08-07 05:28:35] INFO root fetch - main [MainThread]: End processing [normalize-json] error
+[2023-08-07 05:28:35] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pyspkio]: Downloading https://files.pythonhosted.org/packages/bf/9d/2508b67391cb321d8edf46d4d7f837b4f13721c10572dc79eec6acba9f97/pyspkio-0.0.3.tar.gz
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pythonsqlipackagesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pythonsqlipackagesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [drawsvg]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [apit212]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-07 05:28:35] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-07 05:28:35] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/66/ad/a2be75303d9b10c46335ef76d1b920c001f4ac944aa62e83dbc6c425f611/apit212-1.0.3.tar.gz
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pythonsqlipackagesV1]: Downloading https://files.pythonhosted.org/packages/b6/3f/24bdf90b58ad22506976a6e1100229e3e1ae4534c512a408372dc0ff70f4/pythonsqlipackagesV1-1.0.0.tar.gz
+[2023-08-07 05:28:35] INFO root fetch - processPackages [pythonsqlipackagesV1]: Downloading https://files.pythonhosted.org/packages/b6/3f/24bdf90b58ad22506976a6e1100229e3e1ae4534c512a408372dc0ff70f4/pythonsqlipackagesV1-1.0.0.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [drawsvg]: Downloading https://files.pythonhosted.org/packages/b6/4c/f03341a58c65328ee6f6c1f4966d928e61d3ec2160a85c5aaebca35f8e4e/drawsvg-2.2.0-py3-none-any.whl
+[2023-08-07 05:28:36] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pyspkio]: Downloading https://files.pythonhosted.org/packages/32/d8/ff3824e5d92c6f9928a55b09481c4cadd60613f3c3e33fd97714b492d360/pyspkio-0.0.4.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/4b/fb/eed9504d0e203c866daa52c71831aced9a75add7914215ad66ae43cab9b1/apit212-1.0.4.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pyspkio]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pyspkio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspkio-0.0.3.tar.gz tmp/pyspkio-0.0.4.tar.gz --markdown 20230807/p/pyspkio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230807/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: Downloading https://files.pythonhosted.org/packages/3e/e2/a34a218283637bcf6e7f6440587cf679899fabcbf1dd1fdb25c58ed8b602/pythonsqlipackagesV1-1.1.0.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: Downloading https://files.pythonhosted.org/packages/3e/e2/a34a218283637bcf6e7f6440587cf679899fabcbf1dd1fdb25c58ed8b602/pythonsqlipackagesV1-1.1.0.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [drawsvg]: Downloading https://files.pythonhosted.org/packages/27/4f/65d72a014026495d8d2847e66bbe542cf899e50f087a50e0abab9c58ef3c/drawsvg-2.3.0-py3-none-any.whl
+[2023-08-07 05:28:36] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-08-07 05:28:36] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-1.0.3.tar.gz tmp/apit212-1.0.4.tar.gz --markdown 20230807/a/apit212/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqlipackagesV1-1.0.0.tar.gz tmp/pythonsqlipackagesV1-1.1.0.tar.gz --markdown 20230807/p/pythonsqlipackagesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230807/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [pythonsqlipackagesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqlipackagesV1-1.0.0.tar.gz tmp/pythonsqlipackagesV1-1.1.0.tar.gz --markdown 20230807/p/pythonsqlipackagesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 05:28:36] INFO root fetch - processPackages [drawsvg]: executing diffoscope
+[2023-08-07 05:28:36] INFO root fetch - processPackages [drawsvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawsvg-2.2.0-py3-none-any.whl.zip tmp/drawsvg-2.3.0-py3-none-any.whl.zip --markdown 20230807/d/drawsvg/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-08-07 05:28:37] INFO root fetch - processPackages [pyspkio]: Remove: archive file [/home/abi/fetcher/tmp/pyspkio-0.0.3.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [pyspkio]: Remove: archive file [/home/abi/fetcher/tmp/pyspkio-0.0.4.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [pyspkio]: success
+[2023-08-07 05:28:37] INFO root fetch - processPackages [pythonsqlipackagesV1]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlipackagesV1-1.0.0.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [pythonsqlipackagesV1]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlipackagesV1-1.1.0.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [pythonsqlipackagesV1]: success
+[2023-08-07 05:28:37] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-07 05:28:37] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.3.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.4.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [pythonsqlipackagesV1]: success
+[2023-08-07 05:28:37] INFO root fetch - processPackages [drawsvg]: Remove: archive file [/home/abi/fetcher/tmp/drawsvg-2.2.0-py3-none-any.whl.zip]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [drawsvg]: Remove: archive file [/home/abi/fetcher/tmp/drawsvg-2.3.0-py3-none-any.whl.zip]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [drawsvg]: success
+[2023-08-07 05:28:37] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-08-07 05:28:37] INFO root fetch - main [MainThread]: Store serial: [19200094]
