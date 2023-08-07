@@ -6957,3 +6957,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:21:05] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
 [2023-08-07 06:21:05] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-07 06:21:05] INFO root fetch - main [MainThread]: Store serial: [19200354]
+[2023-08-07 06:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200354]
+[2023-08-07 06:26:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-hamilton
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivy-mech
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-friendly
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RuletaEuropea
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bk-crypto-python-sdk
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quartic-sdk
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mydm
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automatoes
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkey-sklearn
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickstart-vdk
+[2023-08-07 06:26:14] INFO root fetch - processPackages [automatoes]: New version: [0.9.9] Old Version: [0.9.8b9]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [RuletaEuropea]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [bk-crypto-python-sdk]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.957168427.dev12676] Old Version: [0.2.956693863.dev12675]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [mydm]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [llm-friendly]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 06:26:14] WARNING root fetch - processPackages [checkey-sklearn]: Skipping, unable to determine old version
+[2023-08-07 06:26:14] INFO root fetch - processPackages [checkey-sklearn]: Start processing: ivy-vision
+[2023-08-07 06:26:14] INFO root fetch - main [MainThread]: End processing [checkey-sklearn] error
+[2023-08-07 06:26:14] INFO root fetch - processPackages [quartic-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ivy-mech]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [automatoes]: Downloading https://files.pythonhosted.org/packages/45/f6/9e5569adb52a42d2e753eb57c57b1364470534745ffc3c7fd173dcc2549e/automatoes-0.9.8b9.tar.gz
+[2023-08-07 06:26:14] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/a4/ae/8f70750e62ef9b75a97d8cd92ba4fe7b36094ff3a4167b647e0b857578a4/RuletaEuropea-0.1.3.tar.gz
+[2023-08-07 06:26:14] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/ba/26/71cf496852d91780eaf7c5e8044972cce9e03aea9ff5841a5cb8e086480a/quickstart-vdk-0.2.956693863.dev12675.tar.gz
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ivy-vision]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 06:26:14] INFO root fetch - processPackages [mydm]: Downloading https://files.pythonhosted.org/packages/16/6a/99e3208d7882861eed609e06650dce73b5af530885a6d0d5fa942a632565/mydm-0.0.1.tar.gz
+[2023-08-07 06:26:14] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/f1/2d/35cd58cacef95716062a26b07247ab447339a937b5782a4436deddb74ce6/bk-crypto-python-sdk-1.0.4.tar.gz
+[2023-08-07 06:26:14] INFO root fetch - processPackages [ivy-vision]: Downloading https://files.pythonhosted.org/packages/52/27/254ed9521e85638dbe011c10082ef61ba50810291ef4a713a72b66e49d44/ivy-vision-1.1.8.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [llm-friendly]: Downloading https://files.pythonhosted.org/packages/ae/eb/4aa55cbba414193e7af080e1ac2839493525e81b051fbe4ae786f73a78b9/llm_friendly-0.1.0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-mech]: Downloading https://files.pythonhosted.org/packages/fd/ac/402829ca46c29823e89a4bae94cecf9b41cabb112b426bd2faeaa1f6b54f/ivy-mech-1.1.8.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/e1/84/0897828c4f90e1b59f0f40235112332cf3a62bca16d7424e04dcd1d08a20/quartic-sdk-2.8.0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [automatoes]: Downloading https://files.pythonhosted.org/packages/5c/c1/7e1adc58ea42341a951d0d18b3a7a36afab7ee0b4ae5b3a5f915fc74175f/automatoes-0.9.9.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/26/5b/b357a8a997ceb06cdbff04276a2b226834dbc11c68cd55a7635c0972d079/RuletaEuropea-0.1.4.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/7e/cd/c5cdac1ceea37464e77161a653a8eb419c9c2216d252bf5c8ae8e5c4f4c8/quickstart-vdk-0.2.957168427.dev12676.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-vision]: Downloading https://files.pythonhosted.org/packages/de/54/6b0098c75a6f799e7458df16929f10727b906addf8db190aed1a6688c35e/ivy-vision-1.1.9.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [automatoes]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [automatoes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatoes-0.9.8b9.tar.gz tmp/automatoes-0.9.9.tar.gz --markdown 20230807/a/automatoes/0.9.8b9-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [mydm]: Downloading https://files.pythonhosted.org/packages/d2/20/e7392d11ca28c58391e92abc09b9f4712937cabeed74f9f13fb546a3dd6c/mydm-0.0.1a1.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/86/9f/e7da5a3144ffcf04a62881d9dc6b4689b2789931016b2105faad14f3b769/bk-crypto-python-sdk-1.1.0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [llm-friendly]: Downloading https://files.pythonhosted.org/packages/4b/00/d7af6a5470b5d7d164ddc77fc9be0c6d2102878b21a51d3ed602aac3ea58/llm_friendly-0.1.1.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.956693863.dev12675.tar.gz tmp/quickstart-vdk-0.2.957168427.dev12676.tar.gz --markdown 20230807/q/quickstart-vdk/0.2.956693863.dev12675-0.2.957168427.dev12676/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [RuletaEuropea]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [RuletaEuropea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RuletaEuropea-0.1.3.tar.gz tmp/RuletaEuropea-0.1.4.tar.gz --markdown 20230807/R/RuletaEuropea/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-vision]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-vision-1.1.8.tar.gz tmp/ivy-vision-1.1.9.tar.gz --markdown 20230807/i/ivy-vision/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [mydm]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [mydm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mydm-0.0.1.tar.gz tmp/mydm-0.0.1a1.tar.gz --markdown 20230807/m/mydm/0.0.1-0.0.1a1/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [bk-crypto-python-sdk]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [bk-crypto-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-crypto-python-sdk-1.0.4.tar.gz tmp/bk-crypto-python-sdk-1.1.0.tar.gz --markdown 20230807/b/bk-crypto-python-sdk/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/17/19/ccb9adcc99c8c271bdd321719d094d77b47148c98fab4d457b3bd3b86b6c/quartic-sdk-2.9.0.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-mech]: Downloading https://files.pythonhosted.org/packages/9b/b5/15db2cce9fc5ba8aa0cb74a04c3ed10d982136048e3fe3dbd0abfe04c9cb/ivy-mech-1.1.9.tar.gz
+[2023-08-07 06:26:15] INFO root fetch - processPackages [llm-friendly]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [llm-friendly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_friendly-0.1.0.tar.gz tmp/llm_friendly-0.1.1.tar.gz --markdown 20230807/l/llm-friendly/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230807/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-mech]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [ivy-mech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-mech-1.1.8.tar.gz tmp/ivy-mech-1.1.9.tar.gz --markdown 20230807/i/ivy-mech/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quartic-sdk]: executing diffoscope
+[2023-08-07 06:26:15] INFO root fetch - processPackages [quartic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartic-sdk-2.8.0.tar.gz tmp/quartic-sdk-2.9.0.tar.gz --markdown 20230807/q/quartic-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-07 06:26:17] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.3.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.4.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [RuletaEuropea]: Start processing: my-package-yimingdesigner
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [RuletaEuropea]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.956693863.dev12675.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.957168427.dev12676.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [quickstart-vdk]: Start processing: OCRTest
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [llm-friendly]: Remove: archive file [/home/abi/fetcher/tmp/llm_friendly-0.1.0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [llm-friendly]: Remove: archive file [/home/abi/fetcher/tmp/llm_friendly-0.1.1.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [llm-friendly]: success
+[2023-08-07 06:26:17] WARNING root fetch - processPackages [OCRTest]: Skipping, unable to determine old version
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [OCRTest] error
+[2023-08-07 06:26:17] INFO root fetch - processPackages [automatoes]: Remove: archive file [/home/abi/fetcher/tmp/automatoes-0.9.8b9.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [automatoes]: Remove: archive file [/home/abi/fetcher/tmp/automatoes-0.9.9.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [automatoes]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [mydm]: Remove: archive file [/home/abi/fetcher/tmp/mydm-0.0.1.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [mydm]: Remove: archive file [/home/abi/fetcher/tmp/mydm-0.0.1a1.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [mydm]: success
+[2023-08-07 06:26:17] WARNING root fetch - processPackages [my-package-yimingdesigner]: Skipping, unable to determine old version
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [my-package-yimingdesigner] error
+[2023-08-07 06:26:17] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.0.4.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.1.0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [bk-crypto-python-sdk]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [ivy-vision]: Remove: archive file [/home/abi/fetcher/tmp/ivy-vision-1.1.8.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [ivy-vision]: Remove: archive file [/home/abi/fetcher/tmp/ivy-vision-1.1.9.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [ivy-vision]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [ivy-mech]: Remove: archive file [/home/abi/fetcher/tmp/ivy-mech-1.1.8.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [ivy-mech]: Remove: archive file [/home/abi/fetcher/tmp/ivy-mech-1.1.9.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [ivy-mech]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.8.0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.9.0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [quartic-sdk]: success
+[2023-08-07 06:26:17] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-08-07 06:26:17] INFO root fetch - main [MainThread]: Store serial: [19200400]
