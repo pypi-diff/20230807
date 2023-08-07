@@ -8729,3 +8729,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:34:18] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
 [2023-08-07 08:34:18] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
 [2023-08-07 08:34:18] INFO root fetch - main [MainThread]: Store serial: [19201311]
+[2023-08-07 08:39:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201311]
+[2023-08-07 08:39:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upathlib
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastervit
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zymod
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chanfig
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loq0
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jijzept
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hatch-ci
+[2023-08-07 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: namekoplus
+[2023-08-07 08:39:27] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.7b29] Old Version: [0.0.7b28]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [loq0]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [zymod]: New version: [0.0.2.0] Old Version: [0.0.1.26]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [fastervit]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/a1/59/b5855f94df579b9c6fe5cf83a8e702ebd706216edb9ccb534dbebfe090f9/loq0-0.0.5.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/79/47/224e799a3c6b9003e087d8bcdc0af206ada4995876955e9015a2db5f56a3/hatch_ci-0.0.7b28.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [upathlib]: New version: [0.8.2b2] Old Version: [0.8.2b1]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-07 08:39:27] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/ed/44/24b273f0bae144ef49b6037216a75830b8aa7847688a511523d22c6a1449/zymod-0.0.1.26-py3-none-any.whl
+[2023-08-07 08:39:27] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/85/76/9c241a2813058b11946788fdd7cccec90dd06b1b526a3a521c22dd3e67d9/fastervit-0.9.3.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/9c/95/3464fcb2ce09549672e7ef758061448ee3c098e9227e8fd3d9ff272e3f1c/chanfig-0.0.9.post5.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/b9/f8/ad447e3e248bae4cdfb3377ac32bb53665a567f0326bcb683e53820443b7/upathlib-0.8.2b1.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 08:39:27] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2023-08-07 08:39:27] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/fb/1e/289a93a40250112422a7964b9d02e7d1a6760d0a3177679c8cbc33e0c3b9/loq0-0.0.6.tar.gz
+[2023-08-07 08:39:28] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/4d/a1/4ff9d47833f58f25a03120f358c5391da713db5107212fd8686587db554d/hatch_ci-0.0.7b29.tar.gz
+[2023-08-07 08:39:28] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/1d/51/db51005937953504bbb62f2eb753306997f8973687125913507d6f5ecaad/zymod-0.0.2.0-py3-none-any.whl
+[2023-08-07 08:39:28] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.5.tar.gz tmp/loq0-0.0.6.tar.gz --markdown 20230807/l/loq0/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [zymod]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [zymod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zymod-0.0.1.26-py3-none-any.whl.zip tmp/zymod-0.0.2.0-py3-none-any.whl.zip --markdown 20230807/z/zymod/0.0.1.26-0.0.2.0/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/8c/b9/eed7fd81e144603e27c017fb099cfcb7eb4f36c186f1c76bd2eab7350b7f/chanfig-0.0.9.post7.tar.gz
+[2023-08-07 08:39:28] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.7b28.tar.gz tmp/hatch_ci-0.0.7b29.tar.gz --markdown 20230807/h/hatch-ci/0.0.7b28-0.0.7b29/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/a6/35/bc50bb95b4ba862f44f10df7f6b0ecba5d2a5aa0d8461a43cb22bd5b6b3d/upathlib-0.8.2b2.tar.gz
+[2023-08-07 08:39:28] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230807/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2023-08-07 08:39:28] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/12/38/9b8e638679b655f96177b316ae1753098c8c7d45445f76d97bb59534ecd7/fastervit-0.9.4.tar.gz
+[2023-08-07 08:39:28] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.8.2b1.tar.gz tmp/upathlib-0.8.2b2.tar.gz --markdown 20230807/u/upathlib/0.8.2b1-0.8.2b2/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.9.3.tar.gz tmp/fastervit-0.9.4.tar.gz --markdown 20230807/f/fastervit/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-07 08:39:28] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2023-08-07 08:39:28] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230807/j/jijzept/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-07 08:39:29] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.5.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.6.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post5.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post7.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.1.26-py3-none-any.whl.zip]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.2.0-py3-none-any.whl.zip]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [zymod]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.2b1.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.2b2.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.3.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.4.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-08-07 08:39:29] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b28.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.7b29.tar.gz]
+[2023-08-07 08:39:29] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-07 08:39:30] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:39:30] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 08:39:30] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2023-08-07 08:39:30] INFO root fetch - main [MainThread]: Store serial: [19201362]
