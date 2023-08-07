@@ -19150,3 +19150,75 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:55:29] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.4-py3-none-any.whl.zip]
 [2023-08-07 14:55:29] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
 [2023-08-07 14:55:29] INFO root fetch - main [MainThread]: Store serial: [19205576]
+[2023-08-07 15:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205576]
+[2023-08-07 15:00:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxy.utils
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eliasliu
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuto
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-muteme
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastlane-bot
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tulir-telethon
+[2023-08-07 15:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-datachain
+[2023-08-07 15:00:40] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [perun.proxy.utils]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [fastlane-bot]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 15:00:40] ERROR root fetch - processPackages [tf-datachain]: Unable to get metadata: No such project 'tf-datachain'
+[2023-08-07 15:00:40] INFO root fetch - main [MainThread]: End processing [tf-datachain] error
+[2023-08-07 15:00:40] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [tulir-telethon]: New version: [1.30.0a1] Old Version: [1.29.0a2]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/97/5b/c081748b2ec1a9a403425ea05d9a4f09e98e2aac619462e6b9e84035fe6b/fastlane_bot-2.7.1-py3-none-any.whl
+[2023-08-07 15:00:40] WARNING root fetch - processPackages [nonebot-plugin-muteme]: Skipping, unable to determine old version
+[2023-08-07 15:00:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-muteme] error
+[2023-08-07 15:00:40] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-07 15:00:40] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/09/a8/3a2a6417546e48641930904d0591e054f453d255a8169cb37a580fcb9df4/perun.proxy.utils-1.8.2.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-08-07 15:00:40] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [tulir-telethon]: Downloading https://files.pythonhosted.org/packages/73/0b/bbbcdef37458fdef716df677da1f27cb77f77d3b0d0e9611f7b3c58689ec/tulir-telethon-1.29.0a2.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/ce/98/e1fc6a2806dfcc9beb2b8c64ed825f905d07ed6bfde86a0a7968c1530442/perun.proxy.utils-1.8.3.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-08-07 15:00:40] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 15:00:40] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230807/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 15:00:40] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/37/d5/860fa5efdba08efc1fe4e88ce82398a060df88a4bd4a74d55fdf1137ee61/fastlane_bot-2.7.2-py3-none-any.whl
+[2023-08-07 15:00:40] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2023-08-07 15:00:40] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-1.8.2.tar.gz tmp/perun.proxy.utils-1.8.3.tar.gz --markdown 20230807/p/perun.proxy.utils/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-08-07 15:00:40] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-08-07 15:00:40] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230807/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 15:00:41] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-08-07 15:00:41] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip tmp/fastlane_bot-2.7.2-py3-none-any.whl.zip --markdown 20230807/f/fastlane-bot/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-08-07 15:00:41] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-07 15:00:41] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-08-07 15:00:41] INFO root fetch - processPackages [tulir-telethon]: Downloading https://files.pythonhosted.org/packages/a8/2b/5ff3151ac44b01c2413939de5fee700907ea67596aef44445101aae25e4c/tulir-telethon-1.30.0a1.tar.gz
+[2023-08-07 15:00:41] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-07 15:00:41] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230807/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 15:00:41] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-08-07 15:00:41] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230807/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-07 15:00:41] INFO root fetch - processPackages [tulir-telethon]: executing diffoscope
+[2023-08-07 15:00:41] INFO root fetch - processPackages [tulir-telethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulir-telethon-1.29.0a2.tar.gz tmp/tulir-telethon-1.30.0a1.tar.gz --markdown 20230807/t/tulir-telethon/1.29.0a2-1.30.0a1/diff.md --exclude *.pyd
+[2023-08-07 15:00:42] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.2.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.3.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2023-08-07 15:00:42] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.8-py3-none-any.whl.zip]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.9.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-08-07 15:00:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 15:00:42] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-07 15:00:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-08-07 15:00:42] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip]
+[2023-08-07 15:00:42] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.2-py3-none-any.whl.zip]
+[2023-08-07 15:00:42] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-08-07 15:00:43] INFO root fetch - processPackages [tulir-telethon]: Remove: archive file [/home/abi/fetcher/tmp/tulir-telethon-1.29.0a2.tar.gz]
+[2023-08-07 15:00:43] INFO root fetch - processPackages [tulir-telethon]: Remove: archive file [/home/abi/fetcher/tmp/tulir-telethon-1.30.0a1.tar.gz]
+[2023-08-07 15:00:43] INFO root fetch - main [MainThread]: End processing [tulir-telethon]: success
+[2023-08-07 15:00:43] INFO root fetch - main [MainThread]: Store serial: [19205608]
