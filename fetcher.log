@@ -4079,3 +4079,72 @@
 [2023-08-07 02:40:39] INFO root fetch - processPackages [turbob64]: Remove: archive file [/home/abi/fetcher/tmp/turbob64-1.1.1.tar.gz]
 [2023-08-07 02:40:39] INFO root fetch - main [MainThread]: End processing [turbob64]: success
 [2023-08-07 02:40:39] INFO root fetch - main [MainThread]: Store serial: [19199076]
+[2023-08-07 02:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199076]
+[2023-08-07 02:45:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MLStructFP
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-common-lib
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-api-wrapper2
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vocode
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmap
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-08-07 02:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythonsqlipackageV1
+[2023-08-07 02:45:48] INFO root fetch - processPackages [python-common-lib]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.8.6] Old Version: [2023.8.5]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [MLStructFP]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 02:45:48] WARNING root fetch - processPackages [pythonsqlipackageV1]: Skipping, unable to determine old version
+[2023-08-07 02:45:48] INFO root fetch - main [MainThread]: End processing [pythonsqlipackageV1] error
+[2023-08-07 02:45:48] INFO root fetch - processPackages [google-api-wrapper2]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [python-common-lib]: Downloading https://files.pythonhosted.org/packages/ee/24/ffb0c74f52051e5003bfd3c063b63b3b424333d69556b51bc9d3e6d2c7c6/python-common-lib-1.0.6.tar.gz
+[2023-08-07 02:45:48] INFO root fetch - processPackages [cellmap]: New version: [1.0.2] Old Version: [1.0.1.dev202307201018]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [vocode]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 02:45:48] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-08-07 02:45:48] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e6/56/654e6f0b5dd5385836e8ccb76c4e67263df4881a5b184c310994661b4583/kubric-nightly-2023.8.5.tar.gz
+[2023-08-07 02:45:48] INFO root fetch - processPackages [MLStructFP]: Downloading https://files.pythonhosted.org/packages/2e/f5/122653b628304968775de9761f0c4d29a8fbcb84ae0d9163b40aab2dcea6/MLStructFP-0.3.1.tar.gz
+[2023-08-07 02:45:48] INFO root fetch - processPackages [google-api-wrapper2]: Downloading https://files.pythonhosted.org/packages/20/69/3ed610a3b0bd377af4ff598676dddc0401a8d8c1990f5f2a312b2edab84e/google-api-wrapper2-1.0.5.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/9b/68/4e26c8902b37e36c68a46d8b570691b84e7d37f260fb090e9ca714c682b2/vocode-0.1.98.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/c8/01/a2336661f7c546d4704cc21e478001b6b6025a44f549adb50886b787b446/cellmap-1.0.1.dev202307201018-py3-none-any.whl
+[2023-08-07 02:45:49] INFO root fetch - processPackages [python-common-lib]: Downloading https://files.pythonhosted.org/packages/80/27/bc18932ce6711910d5895334ffadf2a30fe2c30ac86238f95edaa681bdbf/python-common-lib-1.0.7.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [python-common-lib]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [python-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-common-lib-1.0.6.tar.gz tmp/python-common-lib-1.0.7.tar.gz --markdown 20230807/p/python-common-lib/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-07 02:45:49] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b2/20/4cb51ba4c334b1ff27fa4ffecb4a758375e8bff69fa219c2eab6a13b0e57/kubric-nightly-2023.8.6.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [MLStructFP]: Downloading https://files.pythonhosted.org/packages/72/fb/8003213da09cdae456b54d0503f87dc71e4e5eb31aaf085c226b05ac70b2/MLStructFP-0.3.2.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [google-api-wrapper2]: Downloading https://files.pythonhosted.org/packages/19/16/412e575db5061cda4271195856039652ed3c1a53bbf143ae8a5c9149caf4/google-api-wrapper2-1.0.6.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/19/b0/ebca37f708c13ba60726230b7d43e016cf8b88014c5746ec41305e248d85/cellmap-1.0.2.tar.gz
+[2023-08-07 02:45:49] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.8.5.tar.gz tmp/kubric-nightly-2023.8.6.tar.gz --markdown 20230807/k/kubric-nightly/2023.8.5-2023.8.6/diff.md --exclude *.pyd
+[2023-08-07 02:45:49] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230807/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 02:45:49] INFO root fetch - processPackages [MLStructFP]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [MLStructFP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLStructFP-0.3.1.tar.gz tmp/MLStructFP-0.3.2.tar.gz --markdown 20230807/M/MLStructFP/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 02:45:49] INFO root fetch - processPackages [google-api-wrapper2]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [google-api-wrapper2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-api-wrapper2-1.0.5.tar.gz tmp/google-api-wrapper2-1.0.6.tar.gz --markdown 20230807/g/google-api-wrapper2/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-07 02:45:49] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-08-07 02:45:49] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307201018-py3-none-any.whl.zip tmp/cellmap-1.0.2.tar.gz --markdown 20230807/c/cellmap/1.0.1.dev202307201018-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 02:45:50] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/79/9a/76431e75273e7f7acedd1ec3030dcca2abb2ca6b950c3032e6e481efd30f/vocode-0.1.99.tar.gz
+[2023-08-07 02:45:50] INFO root fetch - processPackages [python-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/python-common-lib-1.0.6.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [python-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/python-common-lib-1.0.7.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [python-common-lib]: success
+[2023-08-07 02:45:50] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-08-07 02:45:50] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307201018-py3-none-any.whl.zip]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.2.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-08-07 02:45:50] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.5.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.6.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-08-07 02:45:50] INFO root fetch - processPackages [MLStructFP]: Remove: archive file [/home/abi/fetcher/tmp/MLStructFP-0.3.1.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [MLStructFP]: Remove: archive file [/home/abi/fetcher/tmp/MLStructFP-0.3.2.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [MLStructFP]: success
+[2023-08-07 02:45:50] INFO root fetch - processPackages [google-api-wrapper2]: Remove: archive file [/home/abi/fetcher/tmp/google-api-wrapper2-1.0.5.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - processPackages [google-api-wrapper2]: Remove: archive file [/home/abi/fetcher/tmp/google-api-wrapper2-1.0.6.tar.gz]
+[2023-08-07 02:45:50] INFO root fetch - main [MainThread]: End processing [google-api-wrapper2]: success
+[2023-08-07 02:45:51] INFO root fetch - processPackages [vocode]: executing diffoscope
+[2023-08-07 02:45:51] INFO root fetch - processPackages [vocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode-0.1.98.tar.gz tmp/vocode-0.1.99.tar.gz --markdown 20230807/v/vocode/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 02:45:52] INFO root fetch - processPackages [vocode]: Remove: archive file [/home/abi/fetcher/tmp/vocode-0.1.98.tar.gz]
+[2023-08-07 02:45:52] INFO root fetch - processPackages [vocode]: Remove: archive file [/home/abi/fetcher/tmp/vocode-0.1.99.tar.gz]
+[2023-08-07 02:45:52] INFO root fetch - main [MainThread]: End processing [vocode]: success
+[2023-08-07 02:45:52] INFO root fetch - main [MainThread]: Store serial: [19199112]
