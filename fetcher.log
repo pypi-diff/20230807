@@ -20717,3 +20717,149 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:54:15] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.7.4.tar.gz]
 [2023-08-07 15:54:15] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
 [2023-08-07 15:54:15] INFO root fetch - main [MainThread]: Store serial: [19206279]
+[2023-08-07 15:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206279]
+[2023-08-07 15:59:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-utilties
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrex
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marionette-predeployed
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shepherd-core
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shepherd-data
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gluonts
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omegaup
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsno
+[2023-08-07 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Flask-Beginner
+[2023-08-07 15:59:25] INFO root fetch - processPackages [cybrex]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [shepherd-data]: New version: [2023.8.1] Old Version: [2023.6.5]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.8.6] Old Version: [2023.8.5]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [Flask-Beginner]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/bb/bc/a26fce234f93a9cb93cd264189db323b0f61581da2ad65fe841dbfc54806/cybrex-1.2.6.tar.gz
+[2023-08-07 15:59:25] INFO root fetch - processPackages [omegaup]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [shepherd-core]: New version: [2023.8.1] Old Version: [2023.6.5]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [jsno]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [openai-utilties]: New version: [1.1] Old Version: [1.0]
+[2023-08-07 15:59:25] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/36/b2/4233fdb77e8814ad06856d71d46f8b54748bcda98142e096154595a1b9f3/shepherd_data-2023.6.5.tar.gz
+[2023-08-07 15:59:25] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/65/b9/baaa7b33a551a54a84920ec0ef149bc5550f8e0561fc1382811ddd4de5c8/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl
+[2023-08-07 15:59:25] INFO root fetch - processPackages [Flask-Beginner]: Downloading https://files.pythonhosted.org/packages/55/42/d790847c28cd0bd96f6f3a279d3916a0c4db3186c47b637576b2546ca27e/Flask-Beginner-0.0.2.tar.gz
+[2023-08-07 15:59:25] INFO root fetch - processPackages [omegaup]: Downloading https://files.pythonhosted.org/packages/4a/7d/6198f3da737f40b740ad85b2ad302555de62d427494f1cbbb693cd46c368/omegaup-2.0.8.tar.gz
+[2023-08-07 15:59:25] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/e4/16/571a6496d339631d92e6ad976c68ebfef26cc7b95422880de996fcae2539/shepherd_core-2023.6.5.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [openai-utilties]: Downloading https://files.pythonhosted.org/packages/19/1e/bc3177f58a385dce421ab4c1b0d297dff2ddf01803dddc16afd5245119e4/openai-utilties-1.0.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/60/f7/d0ddd80a3d92edfb8f3c89386d86c59ef4105f9632ec7c2b9beed228df72/gluonts-0.9.8.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/70/10/6e078143d259087ae947c7c8dab995e858ba57b8e706a76af2b8358c976c/jsno-1.0.7.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/e3/49/01e100845bb465875a7d1c152830f8adce6ec1a5a489fd5a2236ea1bc50f/cybrex-1.3.0.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/fc/cf/101e6dd42dce1c6c85bc964802895f755587b66229e8ecfc2a9b9a730529/shepherd_data-2023.8.1.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/2c/dd/db395385eaf66038a1d363609114f8e7493ad5788993a8db12507e370eec/tensordict_nightly-2023.8.6-cp39-cp39-win_amd64.whl
+[2023-08-07 15:59:26] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.2.6.tar.gz tmp/cybrex-1.3.0.tar.gz --markdown 20230807/c/cybrex/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [Flask-Beginner]: Downloading https://files.pythonhosted.org/packages/3e/be/a52f6d5cb84305970ada230ff82a7a1bd60f30c1ec3b28ac81908ca30fb8/Flask-Beginner-0.0.3.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2023.6.5.tar.gz tmp/shepherd_data-2023.8.1.tar.gz --markdown 20230807/s/shepherd-data/2023.6.5-2023.8.1/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [openai-utilties]: Downloading https://files.pythonhosted.org/packages/50/17/6c6b2807d85c2c156ef33698b465ec3f332cfba2ce24e11c311dc93d6ea0/openai-utilties-1.1.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/ee/3c/58683cee1be6f01c39e863815cdd854f61005faaa38b70bccdadd08e71c7/shepherd_core-2023.8.1.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [omegaup]: Downloading https://files.pythonhosted.org/packages/84/4d/631d0bb942dd69a658c17f4d42a3a727095115f068c63a1b703dc69b951b/omegaup-2.0.9.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/3d/d7/dbb1fc6a90a8a62534eabb7f5988b414c6b36ea0f32782e3f01105f1eb3e/jsno-1.1.0.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-08-07 15:59:26] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.8.6-cp39-cp39-win_amd64.whl.zip --markdown 20230807/t/tensordict-nightly/2023.8.5-2023.8.6/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [Flask-Beginner]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [Flask-Beginner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Beginner-0.0.2.tar.gz tmp/Flask-Beginner-0.0.3.tar.gz --markdown 20230807/F/Flask-Beginner/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2023.6.5.tar.gz tmp/shepherd_core-2023.8.1.tar.gz --markdown 20230807/s/shepherd-core/2023.6.5-2023.8.1/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [openai-utilties]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [openai-utilties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-utilties-1.0.tar.gz tmp/openai-utilties-1.1.tar.gz --markdown 20230807/o/openai-utilties/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [jsno]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [jsno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsno-1.0.7.tar.gz tmp/jsno-1.1.0.tar.gz --markdown 20230807/j/jsno/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [omegaup]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [omegaup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegaup-2.0.8.tar.gz tmp/omegaup-2.0.9.tar.gz --markdown 20230807/o/omegaup/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 15:59:26] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-08-07 15:59:26] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230807/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-08-07 15:59:27] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/f7/87/dfac0670fc583f4f815e8f67a47876c663c990e089c5d7a218bf3da607d2/gluonts-0.9.9.tar.gz
+[2023-08-07 15:59:27] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.2.6.tar.gz]
+[2023-08-07 15:59:27] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.3.0.tar.gz]
+[2023-08-07 15:59:27] INFO root fetch - processPackages [cybrex]: Start processing: avro-to-python-etp
+[2023-08-07 15:59:27] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-07 15:59:27] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.6.5.tar.gz]
+[2023-08-07 15:59:27] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.8.1.tar.gz]
+[2023-08-07 15:59:27] INFO root fetch - processPackages [shepherd-data]: Start processing: pypomes-scheduling
+[2023-08-07 15:59:27] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [avro-to-python-etp]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [Flask-Beginner]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Beginner-0.0.2.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [Flask-Beginner]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Beginner-0.0.3.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [Flask-Beginner]: Start processing: mdxpy
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [Flask-Beginner]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [pypomes-scheduling]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [mdxpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [avro-to-python-etp]: Downloading https://files.pythonhosted.org/packages/1d/dc/64c2924be78025274a3b5431bdba31e3562c3543e4e21a24d08275f861cb/avro-to-python-etp-1.0.1.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2023-08-07 15:59:28] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20230807/g/gluonts/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 15:59:28] INFO root fetch - processPackages [openai-utilties]: Remove: archive file [/home/abi/fetcher/tmp/openai-utilties-1.0.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [openai-utilties]: Remove: archive file [/home/abi/fetcher/tmp/openai-utilties-1.1.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [openai-utilties]: Start processing: usearch
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [openai-utilties]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.6-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: Start processing: phylotreelib
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/ca/78/2489ce1ce2fe7d8762500fac55041a89d02cc904751f2c59d12dba17625b/pypomes_scheduling-0.2.7.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [marionette-predeployed]: Start processing: ingescape
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [omegaup]: Remove: archive file [/home/abi/fetcher/tmp/omegaup-2.0.8.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [omegaup]: Remove: archive file [/home/abi/fetcher/tmp/omegaup-2.0.9.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [omegaup]: Start processing: nonebot-plugin-muteme
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [omegaup]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [usearch]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [phylotreelib]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.0.7.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [mdxpy]: Downloading https://files.pythonhosted.org/packages/60/ad/5803adf30573335ab170edc58fb026d86909c890eef46cf8ed5c62450b91/mdxpy-1.3.1.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.1.0.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [jsno]: success
+[2023-08-07 15:59:28] WARNING root fetch - processPackages [nonebot-plugin-muteme]: Skipping, unable to determine old version
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-muteme] error
+[2023-08-07 15:59:28] INFO root fetch - processPackages [avro-to-python-etp]: Downloading https://files.pythonhosted.org/packages/9b/9c/294ab9062499d454e95ce3b09763f0789bd7eeca1a5f7e4c0db9a0d149bc/avro_to_python_etp-1.0.2.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/16/3d/8ed4cbc5b2a2c9648929e0ee4a71f33d43a5d88d47f436147ff936265894/pypomes_scheduling-0.2.8.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [avro-to-python-etp]: executing diffoscope
+[2023-08-07 15:59:28] INFO root fetch - processPackages [avro-to-python-etp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro-to-python-etp-1.0.1.tar.gz tmp/avro_to_python_etp-1.0.2.tar.gz --markdown 20230807/a/avro-to-python-etp/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 15:59:28] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.5.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.8.1.tar.gz]
+[2023-08-07 15:59:28] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2023-08-07 15:59:28] INFO root fetch - processPackages [ingescape]: New version: [3.6.0] Old Version: [3.5.4]
+[2023-08-07 15:59:28] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/cb/fb/4129474e203eb7ff7a6c9f42fad45c6afbf7415569c6e2ec1fcba40d0357/phylotreelib-1.9.0.tar.gz
+[2023-08-07 15:59:28] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a7/8c/037c1b64d49fec2e13b4f459f0685cf8e22de8a7fab756ae74ce55a624ce/usearch-1.1.0-cp39-cp39-win_amd64.whl
+[2023-08-07 15:59:28] INFO root fetch - processPackages [pypomes-scheduling]: executing diffoscope
+[2023-08-07 15:59:28] INFO root fetch - processPackages [pypomes-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_scheduling-0.2.7.tar.gz tmp/pypomes_scheduling-0.2.8.tar.gz --markdown 20230807/p/pypomes-scheduling/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-07 15:59:28] INFO root fetch - processPackages [mdxpy]: Downloading https://files.pythonhosted.org/packages/a5/b8/6e622fda34bdc74a9c97959104e7364cd40c3ed78d0e43bfbb8597849a69/mdxpy-1.3.2.tar.gz
+[2023-08-07 15:59:29] INFO root fetch - processPackages [ingescape]: Downloading https://files.pythonhosted.org/packages/bb/a7/e74f4ae43c007cba9c712f70b1d7f5c1c0860275048fa01fbe1bd88dee4f/ingescape-3.5.4.tar.gz
+[2023-08-07 15:59:29] INFO root fetch - processPackages [mdxpy]: executing diffoscope
+[2023-08-07 15:59:29] INFO root fetch - processPackages [mdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdxpy-1.3.1.tar.gz tmp/mdxpy-1.3.2.tar.gz --markdown 20230807/m/mdxpy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-07 15:59:29] WARNING root fetch - processPackages [ingescape]: Skipping package: exceeds size limit 15144931>=10485760
+[2023-08-07 15:59:29] INFO root fetch - main [MainThread]: End processing [ingescape] error
+[2023-08-07 15:59:29] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/0b/9c/4b0689963cdbd3666b5a42d32decedfd9833c728f364b00bea9f7b6a98f3/phylotreelib-1.9.1.tar.gz
+[2023-08-07 15:59:29] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/b2/5a/7c0d59fd9b3c9032e080449874c081212f4d1ccf74b6522d36698068d262/usearch-1.1.1-cp39-cp39-win_amd64.whl
+[2023-08-07 15:59:29] INFO root fetch - processPackages [phylotreelib]: executing diffoscope
+[2023-08-07 15:59:29] INFO root fetch - processPackages [phylotreelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotreelib-1.9.0.tar.gz tmp/phylotreelib-1.9.1.tar.gz --markdown 20230807/p/phylotreelib/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-07 15:59:29] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-08-07 15:59:29] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-1.1.0-cp39-cp39-win_amd64.whl.zip tmp/usearch-1.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/u/usearch/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 15:59:29] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.2.7.tar.gz]
+[2023-08-07 15:59:29] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.2.8.tar.gz]
+[2023-08-07 15:59:29] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling]: success
+[2023-08-07 15:59:29] INFO root fetch - processPackages [avro-to-python-etp]: Remove: archive file [/home/abi/fetcher/tmp/avro-to-python-etp-1.0.1.tar.gz]
+[2023-08-07 15:59:29] INFO root fetch - processPackages [avro-to-python-etp]: Remove: archive file [/home/abi/fetcher/tmp/avro_to_python_etp-1.0.2.tar.gz]
+[2023-08-07 15:59:29] INFO root fetch - main [MainThread]: End processing [avro-to-python-etp]: success
+[2023-08-07 15:59:29] INFO root fetch - processPackages [mdxpy]: Remove: archive file [/home/abi/fetcher/tmp/mdxpy-1.3.1.tar.gz]
+[2023-08-07 15:59:30] INFO root fetch - processPackages [mdxpy]: Remove: archive file [/home/abi/fetcher/tmp/mdxpy-1.3.2.tar.gz]
+[2023-08-07 15:59:30] INFO root fetch - main [MainThread]: End processing [mdxpy]: success
+[2023-08-07 15:59:30] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.0.tar.gz]
+[2023-08-07 15:59:30] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.1.tar.gz]
+[2023-08-07 15:59:30] INFO root fetch - main [MainThread]: End processing [phylotreelib]: success
+[2023-08-07 15:59:30] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 15:59:30] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-1.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 15:59:30] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-08-07 15:59:34] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.8.tar.gz]
+[2023-08-07 15:59:34] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.9.tar.gz]
+[2023-08-07 15:59:34] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2023-08-07 15:59:34] INFO root fetch - main [MainThread]: Store serial: [19206382]
