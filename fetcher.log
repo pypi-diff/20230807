@@ -10239,3 +10239,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:54:58] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-08-07 09:54:58] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-08-07 09:54:58] INFO root fetch - main [MainThread]: Store serial: [19202029]
+[2023-08-07 10:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202029]
+[2023-08-07 10:00:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metafid-data
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-ad-sdk
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurebyte
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcana
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyProcar
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih-mio
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whoisdomain
+[2023-08-07 10:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mpservice
+[2023-08-07 10:00:07] INFO root fetch - processPackages [arcana]: New version: [2.0b2] Old Version: [2.0b0.dev7]
+[2023-08-07 10:00:07] INFO root fetch - processPackages [amazon-ad-sdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih-mio]: New version: [1.48029] Old Version: [1.48028]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [PyProcar]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih]: New version: [1.48048] Old Version: [1.48047]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/3e/de/bcc174321cc5f3ff67f33a25722a031635f7ff52446795ffba8880bb4ce3/pih-mio-1.48028.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [metafid-data]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [featurebyte]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230807.1] Old Version: [1.20230806.1]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/10/9e/3c3b2f727aaf50d3a2b3f389c49e797ace1c93bdb291d5708ae371b555ec/arcana-2.0b0.dev7.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [cg]: New version: [40.5.0] Old Version: [40.4.1]
+[2023-08-07 10:00:08] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/b7/98/580d4e8ae9184de12b3126a0374c8204848016aa46e847e2c3219cdb875d/PyProcar-6.0.0.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/cc/89/e096706d7a42b137187663f3eccb46257abea8a5e9a97e8c81b0f56882a5/amazon_ad_sdk-0.2.7.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/23/de/665133155f1d60f43727e5a367ee2deee6a654457dd25bcd71ec3211d29f/pih-1.48047.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/e7/74/aca6873cf4907fe4efab961b880bb014483e190e42bb62076669622a6589/metafid_data-0.1.2-py3-none-any.whl
+[2023-08-07 10:00:08] INFO root fetch - processPackages [PyProcar]: Downloading https://files.pythonhosted.org/packages/bb/17/33f5db3dba3e6ea4ba6e61e1f98e58a64319d059c9879d272b7f7f5d5553/PyProcar-6.1.0.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/22/54/b0c9282af69ec04698a73ca240ad88c38f782fc6ac5d0eed90512fd910d7/whoisdomain-1.20230806.1.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/ba/f9/e6088689375eedb77268563a53778f8d0034acbee0fd959e53a3f07b33d6/featurebyte-0.4.1.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/d8/43/71640e43b1ab616df14e02e9190e20fb105df8f3bdaf155e8f34de1414ca/arcana-2.0b2.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9d/74/4a4c78ada6f36ec9fe7b4b20a801ee9842c392119e1ff24ca0d7a34f00cd/cg-40.4.1.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/7e/d1/399e79eadad063622704f18afb1a7ae38b21b2120d1e4004bb0c4e9a576b/amazon_ad_sdk-0.2.8.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/ae/0f/2aded9c4604fabb1e57d36b5ebcf7285aa16a3e8de5c5b99449c35a2e734/pih-mio-1.48029.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [arcana]: executing diffoscope
+[2023-08-07 10:00:08] INFO root fetch - processPackages [arcana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana-2.0b0.dev7.tar.gz tmp/arcana-2.0b2.tar.gz --markdown 20230807/a/arcana/2.0b0.dev7-2.0b2/diff.md --exclude *.pyd
+[2023-08-07 10:00:08] INFO root fetch - processPackages [amazon-ad-sdk]: executing diffoscope
+[2023-08-07 10:00:08] INFO root fetch - processPackages [amazon-ad-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_ad_sdk-0.2.7.tar.gz tmp/amazon_ad_sdk-0.2.8.tar.gz --markdown 20230807/a/amazon-ad-sdk/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48028.tar.gz tmp/pih-mio-1.48029.tar.gz --markdown 20230807/p/pih-mio/1.48028-1.48029/diff.md --exclude *.pyd
+[2023-08-07 10:00:08] INFO root fetch - processPackages [PyProcar]: executing diffoscope
+[2023-08-07 10:00:08] INFO root fetch - processPackages [PyProcar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProcar-6.0.0.tar.gz tmp/PyProcar-6.1.0.tar.gz --markdown 20230807/P/PyProcar/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-08-07 10:00:08] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/a4/30/5a0519e856a8e7ef847babc63e0ddff58bb5c74fd57ea804cce0552ebad6/pih-1.48048.tar.gz
+[2023-08-07 10:00:08] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/d6/7b/a2585ee3ae9b89b92e1760a05cdb97fee7b67e9b87580228f00110e523ac/metafid_data-0.1.3-py3-none-any.whl
+[2023-08-07 10:00:08] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/cc/8b/c6f3a16136820959948eb24f97a319c87f580c7c08412f4a68fbcf45347a/whoisdomain-1.20230807.1.tar.gz
+[2023-08-07 10:00:09] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/96/38/71539c67845d15fd7f2f11ee26bf1bc97164a6aa17bcd457581ba06f5b6a/featurebyte-0.4.2.tar.gz
+[2023-08-07 10:00:09] INFO root fetch - processPackages [metafid-data]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [metafid-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafid_data-0.1.2-py3-none-any.whl.zip tmp/metafid_data-0.1.3-py3-none-any.whl.zip --markdown 20230807/m/metafid-data/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 10:00:09] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48047.tar.gz tmp/pih-1.48048.tar.gz --markdown 20230807/p/pih/1.48047-1.48048/diff.md --exclude *.pyd
+[2023-08-07 10:00:09] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230806.1.tar.gz tmp/whoisdomain-1.20230807.1.tar.gz --markdown 20230807/w/whoisdomain/1.20230806.1-1.20230807.1/diff.md --exclude *.pyd
+[2023-08-07 10:00:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/10/67/5ad89da7810b49de14e31c87657159fc75a8e66deb5fd72db5cc00d3abd8/cg-40.5.0.tar.gz
+[2023-08-07 10:00:09] INFO root fetch - processPackages [featurebyte]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [featurebyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte-0.4.1.tar.gz tmp/featurebyte-0.4.2.tar.gz --markdown 20230807/f/featurebyte/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-07 10:00:09] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-08-07 10:00:09] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230807/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-08-07 10:00:09] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-08-07 10:00:09] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.4.1.tar.gz tmp/cg-40.5.0.tar.gz --markdown 20230807/c/cg/40.4.1-40.5.0/diff.md --exclude *.pyd
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48028.tar.gz]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48029.tar.gz]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pih-mio]: Start processing: pyabsa
+[2023-08-07 10:00:10] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pyabsa]: New version: [2.3.2.1] Old Version: [2.3.2]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.7.tar.gz]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.8.tar.gz]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [amazon-ad-sdk]: Start processing: newpychromedriver
+[2023-08-07 10:00:10] INFO root fetch - main [MainThread]: End processing [amazon-ad-sdk]: success
+[2023-08-07 10:00:10] INFO root fetch - processPackages [newpychromedriver]: New version: [115.0.5790.170] Old Version: [114.0.5735.16]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.2-py3-none-any.whl.zip]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.3-py3-none-any.whl.zip]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [metafid-data]: Start processing: dhlab
+[2023-08-07 10:00:10] INFO root fetch - main [MainThread]: End processing [metafid-data]: success
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pyabsa]: Downloading https://files.pythonhosted.org/packages/ce/95/5b2d3cb7171f54fdc9e702662c711ba38147b28eac594a4c4ed029990d18/pyabsa-2.3.2-py3-none-any.whl
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48047.tar.gz]
+[2023-08-07 10:00:10] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48048.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [pih]: Start processing: cli-result
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-07 10:00:11] INFO root fetch - processPackages [dhlab]: New version: [3.0.0a3] Old Version: [2.9.5]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [newpychromedriver]: Downloading https://files.pythonhosted.org/packages/58/0d/d0672eb8cc6622b57b10c434a9752aabfe92e91bd9639c16dc0222a63bfa/newpychromedriver-114.0.5735.16.tar.gz
+[2023-08-07 10:00:11] WARNING root fetch - processPackages [cli-result]: Skipping, unable to determine old version
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [cli-result] error
+[2023-08-07 10:00:11] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230806.1.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230807.1.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-08-07 10:00:11] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b0.dev7.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b2.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [arcana]: success
+[2023-08-07 10:00:11] INFO root fetch - processPackages [dhlab]: Downloading https://files.pythonhosted.org/packages/96/12/682694afb8df183445e1f14f2c5736711a39be73e49d6a9c41a9610079a8/dhlab-2.9.5.tar.gz
+[2023-08-07 10:00:11] INFO root fetch - processPackages [pyabsa]: Downloading https://files.pythonhosted.org/packages/03/62/d389c2ab585a5d7ada89689b2ae49ee4f608384fcd9f8a3cef4c292416ef/pyabsa-2.3.2.1-py3-none-any.whl
+[2023-08-07 10:00:11] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-08-07 10:00:11] INFO root fetch - processPackages [newpychromedriver]: Downloading https://files.pythonhosted.org/packages/c8/d5/d263cea78a1bc6edec28cbe20ec62d157b1344cddad8056584b714239afb/newpychromedriver-115.0.5790.170.tar.gz
+[2023-08-07 10:00:11] INFO root fetch - processPackages [pyabsa]: executing diffoscope
+[2023-08-07 10:00:11] INFO root fetch - processPackages [pyabsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyabsa-2.3.2-py3-none-any.whl.zip tmp/pyabsa-2.3.2.1-py3-none-any.whl.zip --markdown 20230807/p/pyabsa/2.3.2-2.3.2.1/diff.md --exclude *.pyd
+[2023-08-07 10:00:11] WARNING root fetch - processPackages [newpychromedriver]: Skipping package: exceeds size limit 36851676>=10485760
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [newpychromedriver] error
+[2023-08-07 10:00:11] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-6.0.0.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - processPackages [PyProcar]: Remove: archive file [/home/abi/fetcher/tmp/PyProcar-6.1.0.tar.gz]
+[2023-08-07 10:00:11] INFO root fetch - main [MainThread]: End processing [PyProcar]: success
+[2023-08-07 10:00:11] INFO root fetch - processPackages [dhlab]: Downloading https://files.pythonhosted.org/packages/0b/6f/103a1f658f00a88fa0f36e48d2554fd471cb26be63b2fb1984ffd2700459/dhlab-3.0.0a3.tar.gz
+[2023-08-07 10:00:11] INFO root fetch - processPackages [dhlab]: executing diffoscope
+[2023-08-07 10:00:11] INFO root fetch - processPackages [dhlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhlab-2.9.5.tar.gz tmp/dhlab-3.0.0a3.tar.gz --markdown 20230807/d/dhlab/2.9.5-3.0.0a3/diff.md --exclude *.pyd
+[2023-08-07 10:00:12] INFO root fetch - processPackages [dhlab]: Remove: archive file [/home/abi/fetcher/tmp/dhlab-2.9.5.tar.gz]
+[2023-08-07 10:00:12] INFO root fetch - processPackages [dhlab]: Remove: archive file [/home/abi/fetcher/tmp/dhlab-3.0.0a3.tar.gz]
+[2023-08-07 10:00:12] INFO root fetch - main [MainThread]: End processing [dhlab]: success
+[2023-08-07 10:00:14] INFO root fetch - processPackages [pyabsa]: Remove: archive file [/home/abi/fetcher/tmp/pyabsa-2.3.2-py3-none-any.whl.zip]
+[2023-08-07 10:00:14] INFO root fetch - processPackages [pyabsa]: Remove: archive file [/home/abi/fetcher/tmp/pyabsa-2.3.2.1-py3-none-any.whl.zip]
+[2023-08-07 10:00:14] INFO root fetch - main [MainThread]: End processing [pyabsa]: success
+[2023-08-07 10:00:14] INFO root fetch - processPackages [featurebyte]: Remove: archive file [/home/abi/fetcher/tmp/featurebyte-0.4.1.tar.gz]
+[2023-08-07 10:00:14] INFO root fetch - processPackages [featurebyte]: Remove: archive file [/home/abi/fetcher/tmp/featurebyte-0.4.2.tar.gz]
+[2023-08-07 10:00:14] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
+[2023-08-07 10:00:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.4.1.tar.gz]
+[2023-08-07 10:00:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.5.0.tar.gz]
+[2023-08-07 10:00:16] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-08-07 10:00:16] INFO root fetch - main [MainThread]: Store serial: [19202072]
