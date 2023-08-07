@@ -4851,3 +4851,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 03:28:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.410.0.tar.gz]
 [2023-08-07 03:28:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-07 03:28:02] INFO root fetch - main [MainThread]: Store serial: [19199477]
+[2023-08-07 03:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199477]
+[2023-08-07 03:33:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vnac
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: screcode
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: screcode
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bazos
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HaploDynamics
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shady-island
+[2023-08-07 03:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-08-07 03:33:12] INFO root fetch - processPackages [bazos]: New version: [0.0.6] Old Version: [0.0.1]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b3] Old Version: [0.1b2]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: New version: [0.1.4.dev202308070125] Old Version: [0.1.4]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: New version: [0.1.4.dev202308070125] Old Version: [0.1.4]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [vnac]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/7a/ef/38eaeee48eba0d88eb274d33f18db52580a67ed27d73c8507748d720e423/bazos-0.0.1.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/fe/40/a1e7f9b4d7554832086c642d44eac7d356b99466381c42475f9b95ea4259/HaploDynamics-0.1b2.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/90/23196940edd0e8402459f602b6792bf5a2a7dd02bb62e8458bde5f653125/screcode-0.1.4.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/90/23196940edd0e8402459f602b6792bf5a2a7dd02bb62e8458bde5f653125/screcode-0.1.4.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:33:12] INFO root fetch - processPackages [vnac]: Downloading https://files.pythonhosted.org/packages/db/f1/7d6130c1a1de5387af9f4e1d910111a5a53e183c40472448d591d8f2db2a/vnac-0.1.1.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/72/76/1c1d5e2b5ac97bd183232b5ea7d6b22d5d77fbb51ffbe7155f8fb4b4553d/screcode-0.1.4.dev202308070125-py3-none-any.whl
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/72/76/1c1d5e2b5ac97bd183232b5ea7d6b22d5d77fbb51ffbe7155f8fb4b4553d/screcode-0.1.4.dev202308070125-py3-none-any.whl
+[2023-08-07 03:33:12] INFO root fetch - processPackages [bazos]: Downloading https://files.pythonhosted.org/packages/9c/28/263e746ec8615cec9573df02594410244525481853d081a680362d7018d4/bazos-0.0.6.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-07 03:33:12] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230807/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:33:12] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/ff/b7/ee3221356d66d5cd16d9310fc30dbb3fe4efcc4ee30b8c1e1c6acc36a58e/HaploDynamics-0.1b3.tar.gz
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.4.tar.gz tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.1.4-0.1.4.dev202308070125/diff.md --exclude *.pyd
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 03:33:12] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.4.tar.gz tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.1.4-0.1.4.dev202308070125/diff.md --exclude *.pyd
+[2023-08-07 03:33:12] INFO root fetch - processPackages [bazos]: executing diffoscope
+[2023-08-07 03:33:12] INFO root fetch - processPackages [bazos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazos-0.0.1.tar.gz tmp/bazos-0.0.6.tar.gz --markdown 20230807/b/bazos/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 03:33:13] INFO root fetch - processPackages [vnac]: Downloading https://files.pythonhosted.org/packages/90/83/7bcaa08c69d63800938cca1ebb9c2e783b2d436dbad93e0d719a5fc70c3a/vnac-0.1.2.tar.gz
+[2023-08-07 03:33:13] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-08-07 03:33:13] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-08-07 03:33:13] INFO root fetch - processPackages [vnac]: executing diffoscope
+[2023-08-07 03:33:13] INFO root fetch - processPackages [vnac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnac-0.1.1.tar.gz tmp/vnac-0.1.2.tar.gz --markdown 20230807/v/vnac/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 03:33:13] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-08-07 03:33:13] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230807/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:33:13] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 03:33:13] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b2.tar.gz tmp/HaploDynamics-0.1b3.tar.gz --markdown 20230807/H/HaploDynamics/0.1b2-0.1b3/diff.md --exclude *.pyd
+[2023-08-07 03:33:13] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-08-07 03:33:13] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230807/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 03:33:14] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.4.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [bazos]: Remove: archive file [/home/abi/fetcher/tmp/bazos-0.0.1.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [bazos]: Remove: archive file [/home/abi/fetcher/tmp/bazos-0.0.6.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [bazos]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [vnac]: Remove: archive file [/home/abi/fetcher/tmp/vnac-0.1.1.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [vnac]: Remove: archive file [/home/abi/fetcher/tmp/vnac-0.1.2.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [vnac]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b2.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b3.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-08-07 03:33:14] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-08-07 03:33:14] INFO root fetch - main [MainThread]: Store serial: [19199510]
