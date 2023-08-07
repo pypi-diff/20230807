@@ -1,0 +1,565 @@
+# Comparing `tmp/crypto-screening-8.4.9.tar.gz` & `tmp/crypto-screening-8.5.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "crypto-screening-8.4.9.tar", last modified: Mon Aug  7 16:31:20 2023, max compression
++gzip compressed data, was "crypto-screening-8.5.0.tar", last modified: Mon Aug  7 17:23:45 2023, max compression
+```
+
+## Comparing `crypto-screening-8.4.9.tar` & `crypto-screening-8.5.0.tar`
+
+### file list
+
+```diff
+@@ -1,73 +1,73 @@
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.865661 crypto-screening-8.4.9/
+--rw-rw-rw-   0        0        0      196 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/MANIFEST.in
+--rw-rw-rw-   0        0        0     2059 2023-08-07 16:31:20.864691 crypto-screening-8.4.9/PKG-INFO
+--rw-rw-rw-   0        0        0     1238 2023-07-01 07:09:50.000000 crypto-screening-8.4.9/README.md
+--rw-rw-rw-   0        0        0    12920 2023-06-23 16:52:27.000000 crypto-screening-8.4.9/build.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.828662 crypto-screening-8.4.9/crypto_screening/
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.839661 crypto-screening-8.4.9/crypto_screening/collect/
+--rw-rw-rw-   0        0        0    16968 2023-08-02 06:37:38.000000 crypto-screening-8.4.9/crypto_screening/collect/assets.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.839661 crypto-screening-8.4.9/crypto_screening/collect/foundation/
+--rw-rw-rw-   0        0        0     4943 2023-07-31 16:05:02.000000 crypto-screening-8.4.9/crypto_screening/collect/foundation/exchanges.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.843661 crypto-screening-8.4.9/crypto_screening/collect/market/
+--rw-rw-rw-   0        0        0      288 2023-07-24 09:23:18.000000 crypto-screening-8.4.9/crypto_screening/collect/market/__init__.py
+--rw-rw-rw-   0        0        0    19611 2023-07-24 09:29:05.000000 crypto-screening-8.4.9/crypto_screening/collect/market/ohlcv.py
+--rw-rw-rw-   0        0        0    17318 2023-07-24 09:53:00.000000 crypto-screening-8.4.9/crypto_screening/collect/market/orderbook.py
+--rw-rw-rw-   0        0        0    12521 2023-07-24 09:29:05.000000 crypto-screening-8.4.9/crypto_screening/collect/market/orders.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.845661 crypto-screening-8.4.9/crypto_screening/collect/market/state/
+--rw-rw-rw-   0        0        0      136 2023-07-24 09:51:18.000000 crypto-screening-8.4.9/crypto_screening/collect/market/state/__init__.py
+--rw-rw-rw-   0        0        0    24329 2023-07-30 10:08:09.000000 crypto-screening-8.4.9/crypto_screening/collect/market/state/assets.py
+--rw-rw-rw-   0        0        0    15451 2023-07-30 10:04:40.000000 crypto-screening-8.4.9/crypto_screening/collect/market/state/base.py
+--rw-rw-rw-   0        0        0    21291 2023-07-30 10:08:09.000000 crypto-screening-8.4.9/crypto_screening/collect/market/state/symbols.py
+--rw-rw-rw-   0        0        0    15119 2023-07-31 16:05:02.000000 crypto-screening-8.4.9/crypto_screening/collect/market/trades.py
+--rw-rw-rw-   0        0        0    21356 2023-07-31 05:18:32.000000 crypto-screening-8.4.9/crypto_screening/collect/screeners.py
+--rw-rw-rw-   0        0        0    21677 2023-08-02 06:37:38.000000 crypto-screening-8.4.9/crypto_screening/collect/symbols.py
+--rw-rw-rw-   0        0        0    15804 2023-07-30 10:04:16.000000 crypto-screening-8.4.9/crypto_screening/dataset.py
+--rw-rw-rw-   0        0        0     1055 2023-07-22 15:46:14.000000 crypto-screening-8.4.9/crypto_screening/exchanges.py
+--rw-rw-rw-   0        0        0     5404 2023-07-29 10:34:48.000000 crypto-screening-8.4.9/crypto_screening/interval.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.853661 crypto-screening-8.4.9/crypto_screening/screeners/
+--rw-rw-rw-   0        0        0      508 2023-07-24 09:41:28.000000 crypto-screening-8.4.9/crypto_screening/screeners/__init__.py
+--rw-rw-rw-   0        0        0    24832 2023-08-07 16:07:48.000000 crypto-screening-8.4.9/crypto_screening/screeners/base.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.856662 crypto-screening-8.4.9/crypto_screening/screeners/callbacks/
+--rw-rw-rw-   0        0        0      193 2023-07-24 09:32:57.000000 crypto-screening-8.4.9/crypto_screening/screeners/callbacks/__init__.py
+--rw-rw-rw-   0        0        0     6494 2023-07-24 09:18:38.000000 crypto-screening-8.4.9/crypto_screening/screeners/callbacks/base.py
+--rw-rw-rw-   0        0        0     4400 2023-07-30 10:12:51.000000 crypto-screening-8.4.9/crypto_screening/screeners/callbacks/database.py
+--rw-rw-rw-   0        0        0     5605 2023-07-24 09:29:05.000000 crypto-screening-8.4.9/crypto_screening/screeners/callbacks/sockets.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.859692 crypto-screening-8.4.9/crypto_screening/screeners/collectors/
+--rw-rw-rw-   0        0        0      196 2023-07-24 09:51:10.000000 crypto-screening-8.4.9/crypto_screening/screeners/collectors/__init__.py
+--rw-rw-rw-   0        0        0     6253 2023-07-30 10:04:48.000000 crypto-screening-8.4.9/crypto_screening/screeners/collectors/base.py
+--rw-rw-rw-   0        0        0     4190 2023-07-24 09:45:56.000000 crypto-screening-8.4.9/crypto_screening/screeners/collectors/database.py
+--rw-rw-rw-   0        0        0     6445 2023-08-07 12:47:36.000000 crypto-screening-8.4.9/crypto_screening/screeners/collectors/sockets.py
+--rw-rw-rw-   0        0        0    12296 2023-08-04 14:46:12.000000 crypto-screening-8.4.9/crypto_screening/screeners/combined.py
+--rw-rw-rw-   0        0        0    10775 2023-07-24 09:29:30.000000 crypto-screening-8.4.9/crypto_screening/screeners/container.py
+--rw-rw-rw-   0        0        0    11146 2023-07-31 16:05:02.000000 crypto-screening-8.4.9/crypto_screening/screeners/database.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.861661 crypto-screening-8.4.9/crypto_screening/screeners/foundation/
+--rw-rw-rw-   0        0        0    12981 2023-08-07 16:31:09.000000 crypto-screening-8.4.9/crypto_screening/screeners/foundation/data.py
+--rw-rw-rw-   0        0        0      840 2023-07-18 21:26:30.000000 crypto-screening-8.4.9/crypto_screening/screeners/foundation/protocols.py
+--rw-rw-rw-   0        0        0     1203 2023-07-24 09:37:42.000000 crypto-screening-8.4.9/crypto_screening/screeners/foundation/state.py
+--rw-rw-rw-   0        0        0     6966 2023-07-24 09:37:50.000000 crypto-screening-8.4.9/crypto_screening/screeners/foundation/waiting.py
+--rw-rw-rw-   0        0        0    15098 2023-07-24 09:29:05.000000 crypto-screening-8.4.9/crypto_screening/screeners/market.py
+--rw-rw-rw-   0        0        0    22149 2023-07-27 14:51:51.000000 crypto-screening-8.4.9/crypto_screening/screeners/ohlcv.py
+--rw-rw-rw-   0        0        0    11836 2023-07-27 14:51:29.000000 crypto-screening-8.4.9/crypto_screening/screeners/orderbook.py
+--rw-rw-rw-   0        0        0    11432 2023-07-27 14:51:23.000000 crypto-screening-8.4.9/crypto_screening/screeners/orders.py
+--rw-rw-rw-   0        0        0    16882 2023-08-07 16:06:24.000000 crypto-screening-8.4.9/crypto_screening/screeners/recorder.py
+--rw-rw-rw-   0        0        0    11501 2023-07-27 14:51:13.000000 crypto-screening-8.4.9/crypto_screening/screeners/trades.py
+--rw-rw-rw-   0        0        0     3831 2023-07-24 09:40:07.000000 crypto-screening-8.4.9/crypto_screening/screeners/waiting.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.820880 crypto-screening-8.4.9/crypto_screening/source/
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.862661 crypto-screening-8.4.9/crypto_screening/source/data/
+--rw-rw-rw-   0        0        0   284601 2023-07-21 09:53:03.000000 crypto-screening-8.4.9/crypto_screening/source/data/all_exchanges_symbols.json
+--rw-rw-rw-   0        0        0    10527 2023-07-31 05:20:01.000000 crypto-screening-8.4.9/crypto_screening/symbols.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.863661 crypto-screening-8.4.9/crypto_screening/utils/
+--rw-rw-rw-   0        0        0     1012 2023-07-22 15:52:54.000000 crypto-screening-8.4.9/crypto_screening/utils/base.py
+--rw-rw-rw-   0        0        0     2765 2023-07-24 18:15:45.000000 crypto-screening-8.4.9/crypto_screening/utils/process.py
+--rw-rw-rw-   0        0        0     3855 2023-08-02 06:33:48.000000 crypto-screening-8.4.9/crypto_screening/validate.py
+-drwxrwxrwx   0        0        0        0 2023-08-07 16:31:20.837691 crypto-screening-8.4.9/crypto_screening.egg-info/
+--rw-rw-rw-   0        0        0     2059 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/crypto_screening.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0     2156 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/crypto_screening.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/crypto_screening.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0      113 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/crypto_screening.egg-info/requires.txt
+--rw-rw-rw-   0        0        0       17 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/crypto_screening.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0      652 2023-08-07 16:31:20.000000 crypto-screening-8.4.9/pyproject.toml
+--rw-rw-rw-   0        0        0      120 2023-07-17 22:21:20.000000 crypto-screening-8.4.9/requirements-dev.txt
+--rw-rw-rw-   0        0        0       77 2023-07-17 20:19:29.000000 crypto-screening-8.4.9/requirements.txt
+--rw-rw-rw-   0        0        0       42 2023-08-07 16:31:20.865661 crypto-screening-8.4.9/setup.cfg
+--rw-rw-rw-   0        0        0     1649 2023-08-07 16:31:18.000000 crypto-screening-8.4.9/setup.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.346033 crypto-screening-8.5.0/
++-rw-rw-rw-   0        0        0      196 2023-08-07 17:23:44.000000 crypto-screening-8.5.0/MANIFEST.in
++-rw-rw-rw-   0        0        0     2059 2023-08-07 17:23:45.346033 crypto-screening-8.5.0/PKG-INFO
++-rw-rw-rw-   0        0        0     1238 2023-07-01 07:09:50.000000 crypto-screening-8.5.0/README.md
++-rw-rw-rw-   0        0        0    12920 2023-06-23 16:52:27.000000 crypto-screening-8.5.0/build.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.307528 crypto-screening-8.5.0/crypto_screening/
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.319526 crypto-screening-8.5.0/crypto_screening/collect/
++-rw-rw-rw-   0        0        0    16968 2023-08-02 06:37:38.000000 crypto-screening-8.5.0/crypto_screening/collect/assets.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.319526 crypto-screening-8.5.0/crypto_screening/collect/foundation/
++-rw-rw-rw-   0        0        0     4943 2023-07-31 16:05:02.000000 crypto-screening-8.5.0/crypto_screening/collect/foundation/exchanges.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.323528 crypto-screening-8.5.0/crypto_screening/collect/market/
++-rw-rw-rw-   0        0        0      288 2023-07-24 09:23:18.000000 crypto-screening-8.5.0/crypto_screening/collect/market/__init__.py
++-rw-rw-rw-   0        0        0    19611 2023-07-24 09:29:05.000000 crypto-screening-8.5.0/crypto_screening/collect/market/ohlcv.py
++-rw-rw-rw-   0        0        0    17318 2023-07-24 09:53:00.000000 crypto-screening-8.5.0/crypto_screening/collect/market/orderbook.py
++-rw-rw-rw-   0        0        0    12521 2023-07-24 09:29:05.000000 crypto-screening-8.5.0/crypto_screening/collect/market/orders.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.326530 crypto-screening-8.5.0/crypto_screening/collect/market/state/
++-rw-rw-rw-   0        0        0      136 2023-07-24 09:51:18.000000 crypto-screening-8.5.0/crypto_screening/collect/market/state/__init__.py
++-rw-rw-rw-   0        0        0    24329 2023-07-30 10:08:09.000000 crypto-screening-8.5.0/crypto_screening/collect/market/state/assets.py
++-rw-rw-rw-   0        0        0    15451 2023-07-30 10:04:40.000000 crypto-screening-8.5.0/crypto_screening/collect/market/state/base.py
++-rw-rw-rw-   0        0        0    21291 2023-07-30 10:08:09.000000 crypto-screening-8.5.0/crypto_screening/collect/market/state/symbols.py
++-rw-rw-rw-   0        0        0    15119 2023-07-31 16:05:02.000000 crypto-screening-8.5.0/crypto_screening/collect/market/trades.py
++-rw-rw-rw-   0        0        0    21356 2023-07-31 05:18:32.000000 crypto-screening-8.5.0/crypto_screening/collect/screeners.py
++-rw-rw-rw-   0        0        0    21677 2023-08-02 06:37:38.000000 crypto-screening-8.5.0/crypto_screening/collect/symbols.py
++-rw-rw-rw-   0        0        0    15804 2023-07-30 10:04:16.000000 crypto-screening-8.5.0/crypto_screening/dataset.py
++-rw-rw-rw-   0        0        0     1055 2023-07-22 15:46:14.000000 crypto-screening-8.5.0/crypto_screening/exchanges.py
++-rw-rw-rw-   0        0        0     5404 2023-07-29 10:34:48.000000 crypto-screening-8.5.0/crypto_screening/interval.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.334651 crypto-screening-8.5.0/crypto_screening/screeners/
++-rw-rw-rw-   0        0        0      508 2023-07-24 09:41:28.000000 crypto-screening-8.5.0/crypto_screening/screeners/__init__.py
++-rw-rw-rw-   0        0        0    24832 2023-08-07 16:07:48.000000 crypto-screening-8.5.0/crypto_screening/screeners/base.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.337652 crypto-screening-8.5.0/crypto_screening/screeners/callbacks/
++-rw-rw-rw-   0        0        0      193 2023-07-24 09:32:57.000000 crypto-screening-8.5.0/crypto_screening/screeners/callbacks/__init__.py
++-rw-rw-rw-   0        0        0     7505 2023-08-07 17:22:53.000000 crypto-screening-8.5.0/crypto_screening/screeners/callbacks/base.py
++-rw-rw-rw-   0        0        0     4400 2023-07-30 10:12:51.000000 crypto-screening-8.5.0/crypto_screening/screeners/callbacks/database.py
++-rw-rw-rw-   0        0        0     5605 2023-07-24 09:29:05.000000 crypto-screening-8.5.0/crypto_screening/screeners/callbacks/sockets.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.339651 crypto-screening-8.5.0/crypto_screening/screeners/collectors/
++-rw-rw-rw-   0        0        0      196 2023-07-24 09:51:10.000000 crypto-screening-8.5.0/crypto_screening/screeners/collectors/__init__.py
++-rw-rw-rw-   0        0        0     6253 2023-07-30 10:04:48.000000 crypto-screening-8.5.0/crypto_screening/screeners/collectors/base.py
++-rw-rw-rw-   0        0        0     4190 2023-07-24 09:45:56.000000 crypto-screening-8.5.0/crypto_screening/screeners/collectors/database.py
++-rw-rw-rw-   0        0        0     6445 2023-08-07 12:47:36.000000 crypto-screening-8.5.0/crypto_screening/screeners/collectors/sockets.py
++-rw-rw-rw-   0        0        0    12296 2023-08-04 14:46:12.000000 crypto-screening-8.5.0/crypto_screening/screeners/combined.py
++-rw-rw-rw-   0        0        0    10775 2023-07-24 09:29:30.000000 crypto-screening-8.5.0/crypto_screening/screeners/container.py
++-rw-rw-rw-   0        0        0    11146 2023-07-31 16:05:02.000000 crypto-screening-8.5.0/crypto_screening/screeners/database.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.342033 crypto-screening-8.5.0/crypto_screening/screeners/foundation/
++-rw-rw-rw-   0        0        0    13010 2023-08-07 16:37:49.000000 crypto-screening-8.5.0/crypto_screening/screeners/foundation/data.py
++-rw-rw-rw-   0        0        0      840 2023-07-18 21:26:30.000000 crypto-screening-8.5.0/crypto_screening/screeners/foundation/protocols.py
++-rw-rw-rw-   0        0        0     1203 2023-07-24 09:37:42.000000 crypto-screening-8.5.0/crypto_screening/screeners/foundation/state.py
++-rw-rw-rw-   0        0        0     6966 2023-07-24 09:37:50.000000 crypto-screening-8.5.0/crypto_screening/screeners/foundation/waiting.py
++-rw-rw-rw-   0        0        0    15098 2023-07-24 09:29:05.000000 crypto-screening-8.5.0/crypto_screening/screeners/market.py
++-rw-rw-rw-   0        0        0    22149 2023-07-27 14:51:51.000000 crypto-screening-8.5.0/crypto_screening/screeners/ohlcv.py
++-rw-rw-rw-   0        0        0    11836 2023-07-27 14:51:29.000000 crypto-screening-8.5.0/crypto_screening/screeners/orderbook.py
++-rw-rw-rw-   0        0        0    11432 2023-07-27 14:51:23.000000 crypto-screening-8.5.0/crypto_screening/screeners/orders.py
++-rw-rw-rw-   0        0        0    16882 2023-08-07 16:06:24.000000 crypto-screening-8.5.0/crypto_screening/screeners/recorder.py
++-rw-rw-rw-   0        0        0    11501 2023-07-27 14:51:13.000000 crypto-screening-8.5.0/crypto_screening/screeners/trades.py
++-rw-rw-rw-   0        0        0     3831 2023-07-24 09:40:07.000000 crypto-screening-8.5.0/crypto_screening/screeners/waiting.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.299525 crypto-screening-8.5.0/crypto_screening/source/
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.343032 crypto-screening-8.5.0/crypto_screening/source/data/
++-rw-rw-rw-   0        0        0   284601 2023-07-21 09:53:03.000000 crypto-screening-8.5.0/crypto_screening/source/data/all_exchanges_symbols.json
++-rw-rw-rw-   0        0        0    10527 2023-07-31 05:20:01.000000 crypto-screening-8.5.0/crypto_screening/symbols.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.345034 crypto-screening-8.5.0/crypto_screening/utils/
++-rw-rw-rw-   0        0        0     1012 2023-07-22 15:52:54.000000 crypto-screening-8.5.0/crypto_screening/utils/base.py
++-rw-rw-rw-   0        0        0     2765 2023-07-24 18:15:45.000000 crypto-screening-8.5.0/crypto_screening/utils/process.py
++-rw-rw-rw-   0        0        0     3855 2023-08-02 06:33:48.000000 crypto-screening-8.5.0/crypto_screening/validate.py
++drwxrwxrwx   0        0        0        0 2023-08-07 17:23:45.316528 crypto-screening-8.5.0/crypto_screening.egg-info/
++-rw-rw-rw-   0        0        0     2059 2023-08-07 17:23:45.000000 crypto-screening-8.5.0/crypto_screening.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0     2156 2023-08-07 17:23:45.000000 crypto-screening-8.5.0/crypto_screening.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-08-07 17:23:45.000000 crypto-screening-8.5.0/crypto_screening.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0      113 2023-08-07 17:23:45.000000 crypto-screening-8.5.0/crypto_screening.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       17 2023-08-07 17:23:45.000000 crypto-screening-8.5.0/crypto_screening.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0      652 2023-08-07 17:23:44.000000 crypto-screening-8.5.0/pyproject.toml
++-rw-rw-rw-   0        0        0      120 2023-07-17 22:21:20.000000 crypto-screening-8.5.0/requirements-dev.txt
++-rw-rw-rw-   0        0        0       77 2023-07-17 20:19:29.000000 crypto-screening-8.5.0/requirements.txt
++-rw-rw-rw-   0        0        0       42 2023-08-07 17:23:45.346033 crypto-screening-8.5.0/setup.cfg
++-rw-rw-rw-   0        0        0     1649 2023-08-07 17:23:42.000000 crypto-screening-8.5.0/setup.py
+```
+
+### Comparing `crypto-screening-8.4.9/PKG-INFO` & `crypto-screening-8.5.0/PKG-INFO`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: crypto-screening
+-Version: 8.4.9
++Version: 8.5.0
+ Summary: A software for automatically recording real-time crypto exchanges and pairs OHLCV and Orderbook rates.
+ Home-page: https://github.com/Shahaf-F-S/crypto-screening
+ Author: Shahaf Frank-Shapir
+ Author-email: shahaffrs@gmail.com
+ License: MIT
+ Classifier: Intended Audience :: Developers
+ Classifier: License :: OSI Approved :: MIT License
+```
+
+### Comparing `crypto-screening-8.4.9/README.md` & `crypto-screening-8.5.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/build.py` & `crypto-screening-8.5.0/build.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/assets.py` & `crypto-screening-8.5.0/crypto_screening/collect/assets.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/foundation/exchanges.py` & `crypto-screening-8.5.0/crypto_screening/collect/foundation/exchanges.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/ohlcv.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/ohlcv.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/orderbook.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/orderbook.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/orders.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/orders.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/state/assets.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/state/assets.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/state/base.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/state/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/state/symbols.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/state/symbols.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/market/trades.py` & `crypto-screening-8.5.0/crypto_screening/collect/market/trades.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/screeners.py` & `crypto-screening-8.5.0/crypto_screening/collect/screeners.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/collect/symbols.py` & `crypto-screening-8.5.0/crypto_screening/collect/symbols.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/dataset.py` & `crypto-screening-8.5.0/crypto_screening/dataset.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/exchanges.py` & `crypto-screening-8.5.0/crypto_screening/exchanges.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/interval.py` & `crypto-screening-8.5.0/crypto_screening/interval.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/base.py` & `crypto-screening-8.5.0/crypto_screening/screeners/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/callbacks/base.py` & `crypto-screening-8.5.0/crypto_screening/screeners/callbacks/base.py`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -61,28 +61,43 @@
+         self._connected = False
+ 
+         self._handling_processes: List[threading.Thread] = []
+ 
+         self.awaiting: List[Dict[str, Any]] = []
+ 
+         self._handling = False
++        self._running = True
+     # end __init__
+ 
+     @property
+     def handling(self) -> bool:
+         """
+         returns the value of the process being blocked.
+ 
+         :return: The value.
+         """
+ 
+         return self._handling
+     # end handling
+ 
+     @property
++    def running(self) -> bool:
++        """
++        returns the value of the process being blocked.
++
++        :return: The value.
++        """
++
++        return (
++            self._running and
++            ((self.connected and self.connectable) or (not self.connectable))
++        )
++    # end running
++
++    @property
+     def connected(self) -> bool:
+         """
+         Checks if the connection was created.
+ 
+         :return: The existence of a connection.
+         """
+ 
+@@ -124,14 +139,15 @@
+             return
+         # end if
+ 
+         try:
+             await self.start()
+ 
+             self._connected = True
++            self._running = True
+ 
+         except Exception as e:
+             if self.adjustable:
+                 warnings.warn(f"{type(e)}: {str(e)}")
+ 
+             else:
+                 raise e
+@@ -176,20 +192,45 @@
+         if self.handling:
+             self._handling = False
+ 
+             self._handling_processes.clear()
+         # end if
+     # end stop_handling
+ 
++    def enable(self) -> None:
++        """Stops the handling process."""
++
++        self._running = True
++    # end enable
++
++    def disable(self) -> None:
++        """Stops the handling process."""
++
++        self._running = False
++    # end stop_running
++
++    def stop_running(self) -> None:
++        """Stops the screening process."""
++
++        self.disable()
++    # end stop_running
++
+     def stop(self) -> None:
+         """Stops the screening process."""
+ 
+         self.stop_handling()
++        self.stop_running()
+     # end stop
+ 
++    def terminate(self) -> None:
++        """Stops the screening process."""
++
++        self.stop()
++    # end terminate
++
+     async def handle(self, data: Any, timestamp: float, key: Optional[Any] = None) -> bool:
+         """
+         Records the data from the crypto feed into the dataset.
+ 
+         :param data: The data from the exchange.
+         :param timestamp: The time of the request.
+         :param key: The key for the data type.
+@@ -228,15 +269,19 @@
+         :return: The validation value.
+         """
+ 
+         if self.connectable and (not self.connected):
+             await self.connect()
+         # end if
+ 
+-        if self.connectable and not self.connected:
++        if self.connectable and (not self.connected):
++            return False
++        # end if
++
++        if not self.running:
+             return False
+         # end if
+ 
+         try:
+             return await self.process(data=data, timestamp=timestamp, key=key)
+ 
+         except Exception as e:
+```
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/callbacks/database.py` & `crypto-screening-8.5.0/crypto_screening/screeners/callbacks/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/callbacks/sockets.py` & `crypto-screening-8.5.0/crypto_screening/screeners/callbacks/sockets.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/collectors/base.py` & `crypto-screening-8.5.0/crypto_screening/screeners/collectors/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/collectors/database.py` & `crypto-screening-8.5.0/crypto_screening/screeners/collectors/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/collectors/sockets.py` & `crypto-screening-8.5.0/crypto_screening/screeners/collectors/sockets.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/combined.py` & `crypto-screening-8.5.0/crypto_screening/screeners/combined.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/container.py` & `crypto-screening-8.5.0/crypto_screening/screeners/container.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/database.py` & `crypto-screening-8.5.0/crypto_screening/screeners/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/foundation/data.py` & `crypto-screening-8.5.0/crypto_screening/screeners/foundation/data.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -482,9 +482,10 @@
+     def stop(self) -> None:
+         """Stops the screening process."""
+ 
+         self.stop_screening()
+         self.stop_saving()
+         self.stop_blocking()
+         self.stop_updating()
++        self.stop_timeout()
+     # end stop
+ # end DataCollector
+```
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/foundation/protocols.py` & `crypto-screening-8.5.0/crypto_screening/screeners/foundation/protocols.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/foundation/state.py` & `crypto-screening-8.5.0/crypto_screening/screeners/foundation/state.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/foundation/waiting.py` & `crypto-screening-8.5.0/crypto_screening/screeners/foundation/waiting.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/market.py` & `crypto-screening-8.5.0/crypto_screening/screeners/market.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/ohlcv.py` & `crypto-screening-8.5.0/crypto_screening/screeners/ohlcv.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/orderbook.py` & `crypto-screening-8.5.0/crypto_screening/screeners/orderbook.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/orders.py` & `crypto-screening-8.5.0/crypto_screening/screeners/orders.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/recorder.py` & `crypto-screening-8.5.0/crypto_screening/screeners/recorder.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/trades.py` & `crypto-screening-8.5.0/crypto_screening/screeners/trades.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/screeners/waiting.py` & `crypto-screening-8.5.0/crypto_screening/screeners/waiting.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/source/data/all_exchanges_symbols.json` & `crypto-screening-8.5.0/crypto_screening/source/data/all_exchanges_symbols.json`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/symbols.py` & `crypto-screening-8.5.0/crypto_screening/symbols.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/utils/base.py` & `crypto-screening-8.5.0/crypto_screening/utils/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/utils/process.py` & `crypto-screening-8.5.0/crypto_screening/utils/process.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening/validate.py` & `crypto-screening-8.5.0/crypto_screening/validate.py`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/crypto_screening.egg-info/PKG-INFO` & `crypto-screening-8.5.0/crypto_screening.egg-info/PKG-INFO`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: crypto-screening
+-Version: 8.4.9
++Version: 8.5.0
+ Summary: A software for automatically recording real-time crypto exchanges and pairs OHLCV and Orderbook rates.
+ Home-page: https://github.com/Shahaf-F-S/crypto-screening
+ Author: Shahaf Frank-Shapir
+ Author-email: shahaffrs@gmail.com
+ License: MIT
+ Classifier: Intended Audience :: Developers
+ Classifier: License :: OSI Approved :: MIT License
+```
+
+### Comparing `crypto-screening-8.4.9/crypto_screening.egg-info/SOURCES.txt` & `crypto-screening-8.5.0/crypto_screening.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `crypto-screening-8.4.9/pyproject.toml` & `crypto-screening-8.5.0/pyproject.toml`
+
+ * *Files 11% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ["setuptools"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = 'crypto-screening'
+-version = '8.4.9'
++version = '8.5.0'
+ description = 'A software for automatically recording real-time crypto exchanges and pairs OHLCV and Orderbook rates.'
+ classifiers = [
+ 	'Intended Audience :: Developers',
+ 	'License :: OSI Approved :: MIT License',
+ 	'Programming Language :: Python',
+ 	'Programming Language :: Python :: 3',
+ 	'Programming Language :: Python :: 3.8',
+```
+
+### Comparing `crypto-screening-8.4.9/setup.py` & `crypto-screening-8.5.0/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -23,15 +23,15 @@
+         ],
+         include=[
+             "crypto_screening/source"
+         ],
+         requirements="requirements.txt",
+         dev_requirements="requirements-dev.txt",
+         name='crypto-screening',
+-        version='8.4.9',
++        version='8.5.0',
+         description=(
+             "A software for automatically recording "
+             "real-time crypto exchanges and pairs "
+             "OHLCV and Orderbook rates."
+         ),
+         license='MIT',
+         author="Shahaf Frank-Shapir",
+```
+
