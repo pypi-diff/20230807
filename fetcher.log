@@ -7839,3 +7839,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:41:38] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
 [2023-08-07 07:41:38] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-08-07 07:41:38] INFO root fetch - main [MainThread]: Store serial: [19200854]
+[2023-08-07 07:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200854]
+[2023-08-07 07:46:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocean-contracts
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykebab
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: froog
+[2023-08-07 07:46:47] INFO root fetch - processPackages [pykebab]: New version: [0.9.3a3] Old Version: [0.9.2]
+[2023-08-07 07:46:47] INFO root fetch - processPackages [adafri]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-08-07 07:46:47] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/46/75/8dcd650703483a8a871878c2fa6e1cd25e2c399c6854808f2b1571fa4107/pykebab-0.9.2.tar.gz
+[2023-08-07 07:46:47] INFO root fetch - processPackages [froog]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 07:46:47] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/2d/a2/deb03ff9d7891c041cc05149cb2a2c6dcbb416838b053368be74fd859047/adafri-0.0.77.tar.gz
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ocean-contracts]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2023-08-07 07:46:47] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/54/d6/89716a8e15c0f799165508d2b3e1c29d3a05027eeb6fbb5e92f6dc903c5e/froog-0.2.2.tar.gz
+[2023-08-07 07:46:47] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/de/10/0bdc8aeb25ff0d87ec5c0e50c75e71ce96bb0f24c76d370d6c60e8bad126/pykebab-0.9.3a3.tar.gz
+[2023-08-07 07:46:47] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/f2/8f/dfccdecc9da2c601e00a6994a962a1eb0bab72274cc101dd842f319f4e73/ocean-contracts-2.0.0a4.tar.gz
+[2023-08-07 07:46:48] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/0e/b8/e6f64c76e99258cd851df303d33df75e8b2322dc8c3735fb869af12cfc43/adafri-0.0.78.tar.gz
+[2023-08-07 07:46:48] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-08-07 07:46:48] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.9.2.tar.gz tmp/pykebab-0.9.3a3.tar.gz --markdown 20230807/p/pykebab/0.9.2-0.9.3a3/diff.md --exclude *.pyd
+[2023-08-07 07:46:48] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 07:46:48] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.77.tar.gz tmp/adafri-0.0.78.tar.gz --markdown 20230807/a/adafri/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-08-07 07:46:48] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/30/b9/9a747583719fc104a9e0164eb080c84adf5415b38703b51c34d8599c66aa/froog-0.2.3.tar.gz
+[2023-08-07 07:46:48] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/10/24/4c47c3122e83edf1bbea027139689196573068a5b16ab5d384c2e7900b1a/ocean-contracts-2.0.0a5.tar.gz
+[2023-08-07 07:46:48] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-08-07 07:46:48] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.2.2.tar.gz tmp/froog-0.2.3.tar.gz --markdown 20230807/f/froog/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 07:46:48] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-08-07 07:46:48] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-2.0.0a4.tar.gz tmp/ocean-contracts-2.0.0a5.tar.gz --markdown 20230807/o/ocean-contracts/2.0.0a4-2.0.0a5/diff.md --exclude *.pyd
+[2023-08-07 07:46:48] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.2.tar.gz]
+[2023-08-07 07:46:48] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.3a3.tar.gz]
+[2023-08-07 07:46:48] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-08-07 07:46:49] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.77.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.78.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 07:46:49] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.2.2.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.2.3.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-08-07 07:46:49] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a4.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a5.tar.gz]
+[2023-08-07 07:46:49] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-08-07 07:46:49] INFO root fetch - main [MainThread]: Store serial: [19200870]
