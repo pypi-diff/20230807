@@ -23039,3 +23039,182 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:31:48] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.9.tar.gz]
 [2023-08-07 17:31:48] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-08-07 17:31:48] INFO root fetch - main [MainThread]: Store serial: [19207397]
+[2023-08-07 17:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207397]
+[2023-08-07 17:36:57] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-helper
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orquestra-sdk
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viur-datastore
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eef-data
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms2query
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sgclimaapiclient
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chirho
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phone-gen
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TEST-TC
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-restit
+[2023-08-07 17:36:57] INFO root fetch - processPackages [viur-datastore]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [music-helper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [chirho]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.54.0] Old Version: [0.53.0]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [eef-data]: New version: [0.53] Old Version: [0.52]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [phone-gen]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [ms2query]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-07 17:36:57] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/6f/af/ab199ed186ddb74f0177a7a99f1473685dca71f5e647c3cec12e4f67385d/django_restit-4.1.8.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [viur-datastore]: Downloading https://files.pythonhosted.org/packages/9c/4d/9d08ffdca3a698eecf7c80bf7f6a74199185bd0c31b8057f2cf629241e54/viur-datastore-1.3.8.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [music-helper]: Downloading https://files.pythonhosted.org/packages/c4/03/13c667e6ae9b0062cf044a95ffb2cd8be2fe44560fed2d8cf013cfb991ee/music-helper-1.0.0.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [chirho]: Downloading https://files.pythonhosted.org/packages/08/14/bb3173d7ccf203f341b54bd4524c79761c8cfcb82ea64a5962e639d329c2/chirho-0.1.0a1.tar.gz
+[2023-08-07 17:36:57] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/09/88/6c965547502fa562a809bb669dce40ea601cb9813ee0a2fa998f1bf170e9/orquestra_sdk-0.53.0-py3-none-any.whl
+[2023-08-07 17:36:57] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/2d/15/750ccd1c5109f2c3e101ea937774f99363044cadf63c65d34dfb278c5a57/eef-data-0.52.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/61/82/709964c9babeb28422f413549c440d6e56502b57576fd3d94a7be4e4e969/phone_gen-2.3.5.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [ms2query]: Downloading https://files.pythonhosted.org/packages/ff/09/41f3ad63c265af22513a12f3775f7dd8b5c74abe543b71be34f9db53a072/ms2query-1.2.1.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/0e/04/63e788bf7ebbcef3a2631435360b07492d0130662e2c955df89d1c9c301c/django_restit-4.1.9.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230807/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [music-helper]: Downloading https://files.pythonhosted.org/packages/48/af/4209ea991159358ad3e8df7be24cf08bceceaa2f5259320f5c0c2a7d7454/music-helper-1.0.1.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230807/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [chirho]: Downloading https://files.pythonhosted.org/packages/95/5b/ce50373c54bce2cae2d2c68f7069aa826942ccf8a125b8ac25a8b9b48bbc/chirho-0.1.0a2.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [music-helper]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [music-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-helper-1.0.0.tar.gz tmp/music-helper-1.0.1.tar.gz --markdown 20230807/m/music-helper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230807/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/51/8c/364fe098c38f1e8f9a32da7a99b54c70aba2fdb506dae9463eb770f810aa/phone_gen-2.3.6.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/27/f9/dcc82df58ee847f0ef0545f0c6d8e353af29a0509ec7a61bfaf665751428/eef-data-0.53.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/74/2e/7a16d5e3dc154cd5055ebd8a74525ceac8e6aae1375d5cde25071bbcd9cb/orquestra_sdk-0.54.0-py3-none-any.whl
+[2023-08-07 17:36:58] INFO root fetch - processPackages [chirho]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [chirho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chirho-0.1.0a1.tar.gz tmp/chirho-0.1.0a2.tar.gz --markdown 20230807/c/chirho/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [ms2query]: Downloading https://files.pythonhosted.org/packages/d5/d5/193e181a26cc37862ccd7a7eb89461503bb8a592da6cc2d06ab4d42f31a2/ms2query-1.2.2.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [viur-datastore]: Downloading https://files.pythonhosted.org/packages/22/73/61f380e255173cdd3739deee47013cc1e79d260bd5364fb1b912f95cb4f3/viur-datastore-1.3.9.tar.gz
+[2023-08-07 17:36:58] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.3.5.tar.gz tmp/phone_gen-2.3.6.tar.gz --markdown 20230807/p/phone-gen/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.52.tar.gz tmp/eef-data-0.53.tar.gz --markdown 20230807/e/eef-data/0.52-0.53/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.53.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.54.0-py3-none-any.whl.zip --markdown 20230807/o/orquestra-sdk/0.53.0-0.54.0/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [ms2query]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [ms2query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2query-1.2.1.tar.gz tmp/ms2query-1.2.2.tar.gz --markdown 20230807/m/ms2query/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-07 17:36:58] INFO root fetch - processPackages [viur-datastore]: executing diffoscope
+[2023-08-07 17:36:58] INFO root fetch - processPackages [viur-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur-datastore-1.3.8.tar.gz tmp/viur-datastore-1.3.9.tar.gz --markdown 20230807/v/viur-datastore/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-07 17:36:59] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-08-07 17:36:59] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-08-07 17:36:59] INFO root fetch - processPackages [sgclimaapiclient]: Start processing: cjptools
+[2023-08-07 17:36:59] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-08-07 17:36:59] INFO root fetch - processPackages [cjptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 17:36:59] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/d0/c7/4ed3eddc40b2fefc6efde395709fc9103bfbe68a0416d2050314ed45cd6d/cjptools-0.1.8.tar.gz
+[2023-08-07 17:36:59] INFO root fetch - processPackages [music-helper]: Remove: archive file [/home/abi/fetcher/tmp/music-helper-1.0.0.tar.gz]
+[2023-08-07 17:36:59] INFO root fetch - processPackages [music-helper]: Remove: archive file [/home/abi/fetcher/tmp/music-helper-1.0.1.tar.gz]
+[2023-08-07 17:36:59] INFO root fetch - processPackages [music-helper]: Start processing: nova-python
+[2023-08-07 17:36:59] INFO root fetch - main [MainThread]: End processing [music-helper]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [nova-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [nova-python]: Downloading https://files.pythonhosted.org/packages/6b/b7/b6c897de82561d75cbafb6a73a057c71d919664f56aa3172beb505c1e065/nova_python-0.1.2.tar.gz
+[2023-08-07 17:37:00] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [TEST-TC]: Start processing: petisco
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/e7/94/6bfb795d2f5af7e98a2cc7efe63d96b1a1cf0918182facde384cf57a1d13/cjptools-0.1.9.tar.gz
+[2023-08-07 17:37:00] INFO root fetch - processPackages [chirho]: Remove: archive file [/home/abi/fetcher/tmp/chirho-0.1.0a1.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [chirho]: Remove: archive file [/home/abi/fetcher/tmp/chirho-0.1.0a2.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [chirho]: Start processing: dissect.target
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [chirho]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-07 17:37:00] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.8.tar.gz tmp/cjptools-0.1.9.tar.gz --markdown 20230807/c/cjptools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:37:00] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.5.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.6.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [phone-gen]: Start processing: hyko-sdk
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [nova-python]: Downloading https://files.pythonhosted.org/packages/49/63/33dacb5cd8aa21103f4ca8cea9cadcb09104f23c71ec96a3f80df3d68443/nova_python-0.1.3.tar.gz
+[2023-08-07 17:37:00] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-08-07 17:37:00] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-08-07 17:37:00] INFO root fetch - processPackages [dissect.target]: Start processing: ask-sdk-model
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-08-07 17:37:00] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.52.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.53.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [eef-data]: Start processing: mujoco-dev
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-07 17:37:00] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-08-07 17:37:00] INFO root fetch - processPackages [nova-python]: executing diffoscope
+[2023-08-07 17:37:00] INFO root fetch - processPackages [nova-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova_python-0.1.2.tar.gz tmp/nova_python-0.1.3.tar.gz --markdown 20230807/n/nova-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 17:37:00] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [viur-datastore]: Remove: archive file [/home/abi/fetcher/tmp/viur-datastore-1.3.8.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [viur-datastore]: Remove: archive file [/home/abi/fetcher/tmp/viur-datastore-1.3.9.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [viur-datastore]: Start processing: formant
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [viur-datastore]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [ms2query]: Remove: archive file [/home/abi/fetcher/tmp/ms2query-1.2.1.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [ms2query]: Remove: archive file [/home/abi/fetcher/tmp/ms2query-1.2.2.tar.gz]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [ms2query]: Start processing: moscot
+[2023-08-07 17:37:00] INFO root fetch - main [MainThread]: End processing [ms2query]: success
+[2023-08-07 17:37:00] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.8.dev554482720] Old Version: [2.3.8.dev554452710]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2023-08-07 17:37:00] INFO root fetch - processPackages [moscot]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.53.0-py3-none-any.whl.zip]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.54.0-py3-none-any.whl.zip]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [orquestra-sdk]: Start processing: dark-matter
+[2023-08-07 17:37:01] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2023-08-07 17:37:01] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/0e/2d/3d567d4f148eb87e204409c700b9d3c5339bbbd1c2370fdb46979cfe0ce7/ask-sdk-model-1.8.0.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/2f/c9/5949c84bf28acb255ee48d799964502b9a819e5a32399c4aa6ee349a5163/mujoco_dev-2.3.8.dev554452710-cp39-cp39-win_amd64.whl
+[2023-08-07 17:37:01] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230807/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-07 17:37:01] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230807/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-07 17:37:01] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [moscot]: Downloading https://files.pythonhosted.org/packages/80/a9/4279b7739fecd1756c4a20cbae621ebc8c942849071b168885c9c0fbab15/moscot-0.3.1.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/2f/20/15196c61c99fd59fa6f5f903bea9e113a2af80777c1f7f38f90a5102afde/ask-sdk-model-1.9.0.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [moscot]: Downloading https://files.pythonhosted.org/packages/e5/95/7613eae08497232e3c7290e6e305f026202571d3c76b0309020993d811b1/moscot-0.3.2.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230807/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 17:37:01] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:37:01] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2023-08-07 17:37:01] INFO root fetch - processPackages [nova-python]: Remove: archive file [/home/abi/fetcher/tmp/nova_python-0.1.2.tar.gz]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [nova-python]: Remove: archive file [/home/abi/fetcher/tmp/nova_python-0.1.3.tar.gz]
+[2023-08-07 17:37:01] INFO root fetch - main [MainThread]: End processing [nova-python]: success
+[2023-08-07 17:37:01] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.8.tar.gz]
+[2023-08-07 17:37:01] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.9.tar.gz]
+[2023-08-07 17:37:01] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-07 17:37:01] INFO root fetch - processPackages [formant]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20230807/f/formant/1.99.10-1.99.25/diff.md --exclude *.pyd
+[2023-08-07 17:37:01] INFO root fetch - processPackages [moscot]: executing diffoscope
+[2023-08-07 17:37:01] INFO root fetch - processPackages [moscot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moscot-0.3.1.tar.gz tmp/moscot-0.3.2.tar.gz --markdown 20230807/m/moscot/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 17:37:02] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/f0/03/7143450da394afb72a3c944e8e1c2e04fc843b2c389f7d9442f88f444389/mujoco_dev-2.3.8.dev554482720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 17:37:02] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b8.tar.gz]
+[2023-08-07 17:37:02] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b9.tar.gz]
+[2023-08-07 17:37:02] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-07 17:37:02] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-08-07 17:37:02] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-08-07 17:37:02] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-08-07 17:37:02] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-08-07 17:37:02] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.8.dev554452710-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.8.dev554482720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/m/mujoco-dev/2.3.8.dev554452710-2.3.8.dev554482720/diff.md --exclude *.pyd
+[2023-08-07 17:37:03] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2023-08-07 17:37:03] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-08-07 17:37:03] INFO root fetch - processPackages [moscot]: Remove: archive file [/home/abi/fetcher/tmp/moscot-0.3.1.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - processPackages [moscot]: Remove: archive file [/home/abi/fetcher/tmp/moscot-0.3.2.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - main [MainThread]: End processing [moscot]: success
+[2023-08-07 17:37:03] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-08-07 17:37:03] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-08-07 17:37:04] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.8.0.tar.gz]
+[2023-08-07 17:37:04] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.9.0.tar.gz]
+[2023-08-07 17:37:04] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-08-07 17:37:05] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554452710-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 17:37:05] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554482720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 17:37:05] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-08-07 17:37:05] INFO root fetch - main [MainThread]: Store serial: [19207455]
