@@ -22532,3 +22532,152 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:10:46] INFO root fetch - processPackages [streamlit-feedback]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-feedback-0.0.8.tar.gz]
 [2023-08-07 17:10:46] INFO root fetch - main [MainThread]: End processing [streamlit-feedback]: success
 [2023-08-07 17:10:46] INFO root fetch - main [MainThread]: Store serial: [19207108]
+[2023-08-07 17:15:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207108]
+[2023-08-07 17:15:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdata-vaas
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etpproto
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipfontslibery
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cashflower
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrex
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openstef
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wf-process-cuwb-data
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swane
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastws
+[2023-08-07 17:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-chat
+[2023-08-07 17:15:56] INFO root fetch - processPackages [wf-process-cuwb-data]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-07 17:15:56] WARNING root fetch - processPackages [pipfontslibery]: Skipping, unable to determine old version
+[2023-08-07 17:15:56] INFO root fetch - processPackages [pipfontslibery]: Start processing: whisper-live
+[2023-08-07 17:15:56] INFO root fetch - main [MainThread]: End processing [pipfontslibery] error
+[2023-08-07 17:15:56] INFO root fetch - processPackages [cybrex]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-07 17:15:56] WARNING root fetch - processPackages [openbb-chat]: Skipping, unable to determine old version
+[2023-08-07 17:15:56] INFO root fetch - processPackages [openbb-chat]: Start processing: stsmfa-cli
+[2023-08-07 17:15:56] INFO root fetch - main [MainThread]: End processing [openbb-chat] error
+[2023-08-07 17:15:56] INFO root fetch - processPackages [cashflower]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [fastws]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [gdata-vaas]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [swane]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [etpproto]: New version: [1.0.2.dev35] Old Version: [1.0.2]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [wf-process-cuwb-data]: Downloading https://files.pythonhosted.org/packages/2a/83/2b433060ab9d389a18f5a02f8f1f26c4855ebdc3eca1e0de57674b120a5e/wf_process_cuwb_data-1.8.0.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [whisper-live]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [stsmfa-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 17:15:56] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/a2/8a/26814daa518f01780cb816fd9473565587763a3d31b0c303cbf8bd6d0401/cybrex-1.3.1.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/35/52/2bc5beb7f88a9ff29373f2099dc0252a6e33fb09d3d7773b5263ddc8bf56/cashflower-0.4.5.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [fastws]: Downloading https://files.pythonhosted.org/packages/e3/65/c4f55240f511cd379f1558531d4d135ec651eb9a50a418b7c265a7b77f36/fastws-0.1.6.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/ce/47/f511d7ff7d5e6bee3ce629b18acdee5c1a3bf57acbf5d177b2f89639a98e/gdata-vaas-3.3.0.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [etpproto]: Downloading https://files.pythonhosted.org/packages/ea/c1/ca9c7f896c3e8c9b7a374c93b158eb8feecdee927e74d482cfa779bae8e3/etpproto-1.0.2.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [swane]: Downloading https://files.pythonhosted.org/packages/6f/18/91493847159d3bd950f3f63495afd6c286053626f4e39ab97f80520d2446/swane-0.0.5.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/0a/e4/0a85ce79fae2c0d9da02a9038dfb70eed346079761a10f4feb7fb9d5839b/whisper-live-0.0.4.tar.gz
+[2023-08-07 17:15:56] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/ef/5b/993f4191b7d7db5522e909b70bb02ac590da72819cabd9ee234469c02352/stsmfa_cli-1.0.0.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [wf-process-cuwb-data]: Downloading https://files.pythonhosted.org/packages/d8/42/dac083d7bc89bb8d165c78bd4260e2aac0696a47558f7f91ab6015a121b5/wf_process_cuwb_data-1.9.0.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [fastws]: Downloading https://files.pythonhosted.org/packages/72/6d/3bfee5cd321ce19919bf4699be72600b25e0d9147f7f87f987f28f033b38/fastws-0.1.7.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/f9/e5/4658a9d76d9d5bf7c6bc04692bd4ed163f0f708825fcb61cf4060916218b/cybrex-1.3.2.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/0f/a6/0d26ecfa9c46f0f5070641fd38a1b25cb7712e86d760bd40a6a989bd6f24/cashflower-0.4.6.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [wf-process-cuwb-data]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [wf-process-cuwb-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_process_cuwb_data-1.8.0.tar.gz tmp/wf_process_cuwb_data-1.9.0.tar.gz --markdown 20230807/w/wf-process-cuwb-data/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/aa/1c/381c28b1e8ff49950b061d80e26289a41dc28e2f8bc6148c8e402419c70a/gdata-vaas-3.3.1.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [etpproto]: Downloading https://files.pythonhosted.org/packages/8e/ca/7512e82e309a3ee99bdf633b3c324f3355c2fb85282f872a4eff044c5c28/etpproto-1.0.2.dev35.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [whisper-live]: Downloading https://files.pythonhosted.org/packages/a4/9b/2e13bd75f69bac2c5a9b0a39aabeba50ccd1422a47d5113facfbb5c91dcf/whisper-live-0.0.5.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [swane]: Downloading https://files.pythonhosted.org/packages/88/93/4c7b780b084c78ce1bdf6c1c3c190f71c5a13e5ea8a8786ddbbcc2eeb02a/swane-0.0.6.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/c6/36/8be046e4daa4150123b3c1fab1541f1bcb2b02478e6a879b9f5ae264251e/stsmfa_cli-1.1.0.tar.gz
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cashflower]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cashflower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashflower-0.4.5.tar.gz tmp/cashflower-0.4.6.tar.gz --markdown 20230807/c/cashflower/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.3.1.tar.gz tmp/cybrex-1.3.2.tar.gz --markdown 20230807/c/cybrex/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [gdata-vaas]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [gdata-vaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdata-vaas-3.3.0.tar.gz tmp/gdata-vaas-3.3.1.tar.gz --markdown 20230807/g/gdata-vaas/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [etpproto]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [etpproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etpproto-1.0.2.tar.gz tmp/etpproto-1.0.2.dev35.tar.gz --markdown 20230807/e/etpproto/1.0.2-1.0.2.dev35/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230807/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [fastws]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [fastws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastws-0.1.6.tar.gz tmp/fastws-0.1.7.tar.gz --markdown 20230807/f/fastws/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [whisper-live]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [whisper-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-live-0.0.4.tar.gz tmp/whisper-live-0.0.5.tar.gz --markdown 20230807/w/whisper-live/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [swane]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [swane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swane-0.0.5.tar.gz tmp/swane-0.0.6.tar.gz --markdown 20230807/s/swane/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 17:15:57] INFO root fetch - processPackages [stsmfa-cli]: executing diffoscope
+[2023-08-07 17:15:57] INFO root fetch - processPackages [stsmfa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsmfa_cli-1.0.0.tar.gz tmp/stsmfa_cli-1.1.0.tar.gz --markdown 20230807/s/stsmfa-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 17:15:58] INFO root fetch - processPackages [wf-process-cuwb-data]: Remove: archive file [/home/abi/fetcher/tmp/wf_process_cuwb_data-1.8.0.tar.gz]
+[2023-08-07 17:15:58] INFO root fetch - processPackages [wf-process-cuwb-data]: Remove: archive file [/home/abi/fetcher/tmp/wf_process_cuwb_data-1.9.0.tar.gz]
+[2023-08-07 17:15:58] INFO root fetch - processPackages [wf-process-cuwb-data]: Start processing: dark-matter
+[2023-08-07 17:15:58] INFO root fetch - main [MainThread]: End processing [wf-process-cuwb-data]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.4.5.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.4.6.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cashflower]: Start processing: timetagger-cli
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [cashflower]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [fastws]: Remove: archive file [/home/abi/fetcher/tmp/fastws-0.1.6.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [fastws]: Remove: archive file [/home/abi/fetcher/tmp/fastws-0.1.7.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [fastws]: Start processing: mapfile-parser
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [fastws]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.3.0.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.3.1.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [gdata-vaas]: Start processing: superagent-py
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [gdata-vaas]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [timetagger-cli]: New version: [23.8.2] Old Version: [23.1.1]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [mapfile-parser]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.0.0.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.1.0.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [stsmfa-cli]: Start processing: utfuzz
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [stsmfa-cli]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [superagent-py]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [utfuzz]: New version: [0.1.5.dev1] Old Version: [0.1.5]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [mapfile-parser]: Downloading https://files.pythonhosted.org/packages/09/11/8abbe7ff6de47ce6cad4d90dae2d9c9cd0dc855e36eae70688ea3f68467c/mapfile_parser-1.3.1.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.3.1.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.3.2.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [cybrex]: Start processing: pyAutoRef
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/27/a1/da8fbcbe8e741f83d44c537f1c6275c5cb293d563540a9b31a33da7bed23/superagent_py-0.0.44.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [etpproto]: Remove: archive file [/home/abi/fetcher/tmp/etpproto-1.0.2.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [etpproto]: Remove: archive file [/home/abi/fetcher/tmp/etpproto-1.0.2.dev35.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [etpproto]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.4.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [whisper-live]: Remove: archive file [/home/abi/fetcher/tmp/whisper-live-0.0.5.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [whisper-live]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/78/4d/35d3fef79a267dbc7cdd95c9dcd8865ab1e7a194b53460c17db370399f4f/utfuzz-0.1.5.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [pyAutoRef]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [timetagger-cli]: Downloading https://files.pythonhosted.org/packages/20/db/a636355496f745c68f0e3ed116d6c7516fc38f3f2f5cbe8e68c24e79bdc4/timetagger_cli-23.1.1.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [pyAutoRef]: Downloading https://files.pythonhosted.org/packages/93/77/c332fd0a1c8dde55d712fe938b6f8720dc787b6f3bca923158c93d325e70/pyAutoRef-1.0.2.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [swane]: Remove: archive file [/home/abi/fetcher/tmp/swane-0.0.5.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [swane]: Remove: archive file [/home/abi/fetcher/tmp/swane-0.0.6.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [swane]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.8.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.9.tar.gz]
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-08-07 17:15:59] INFO root fetch - processPackages [mapfile-parser]: Downloading https://files.pythonhosted.org/packages/66/bf/99927673ca782829833cde0bc37d81dce6cd754787e6015407db6eec097a/mapfile_parser-2.0.0.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 17:15:59] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:15:59] WARNING root fetch - processPackages [pyAutoRef]: Skipping package: exceeds size limit 37677061>=10485760
+[2023-08-07 17:15:59] INFO root fetch - main [MainThread]: End processing [pyAutoRef] error
+[2023-08-07 17:15:59] INFO root fetch - processPackages [timetagger-cli]: Downloading https://files.pythonhosted.org/packages/dd/38/5b980ddf4e5719ac5e56cfd380c08d3b410b638bd4b3f5ee768a75d8289a/timetagger_cli-23.8.2.tar.gz
+[2023-08-07 17:15:59] INFO root fetch - processPackages [mapfile-parser]: executing diffoscope
+[2023-08-07 17:15:59] INFO root fetch - processPackages [mapfile-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapfile_parser-1.3.1.tar.gz tmp/mapfile_parser-2.0.0.tar.gz --markdown 20230807/m/mapfile-parser/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 17:15:59] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/b5/67/927b3c7958482ffa32b27f10b1bf111c76dfaca6b515eec54653bafde5c4/superagent_py-0.0.45.tar.gz
+[2023-08-07 17:16:00] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/f0/da/d7bc20d497fd1a351cb524ab09e91ec692731de61f70e6035a14c36e32cc/utfuzz-0.1.5.dev1.tar.gz
+[2023-08-07 17:16:00] INFO root fetch - processPackages [timetagger-cli]: executing diffoscope
+[2023-08-07 17:16:00] INFO root fetch - processPackages [timetagger-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetagger_cli-23.1.1.tar.gz tmp/timetagger_cli-23.8.2.tar.gz --markdown 20230807/t/timetagger-cli/23.1.1-23.8.2/diff.md --exclude *.pyd
+[2023-08-07 17:16:00] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 17:16:00] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.5.tar.gz tmp/utfuzz-0.1.5.dev1.tar.gz --markdown 20230807/u/utfuzz/0.1.5-0.1.5.dev1/diff.md --exclude *.pyd
+[2023-08-07 17:16:00] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-07 17:16:00] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.44.tar.gz tmp/superagent_py-0.0.45.tar.gz --markdown 20230807/s/superagent-py/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-08-07 17:16:00] INFO root fetch - processPackages [mapfile-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapfile_parser-1.3.1.tar.gz]
+[2023-08-07 17:16:00] INFO root fetch - processPackages [mapfile-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapfile_parser-2.0.0.tar.gz]
+[2023-08-07 17:16:00] INFO root fetch - main [MainThread]: End processing [mapfile-parser]: success
+[2023-08-07 17:16:01] INFO root fetch - processPackages [timetagger-cli]: Remove: archive file [/home/abi/fetcher/tmp/timetagger_cli-23.1.1.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - processPackages [timetagger-cli]: Remove: archive file [/home/abi/fetcher/tmp/timetagger_cli-23.8.2.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - main [MainThread]: End processing [timetagger-cli]: success
+[2023-08-07 17:16:01] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.5.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.5.dev1.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 17:16:01] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.44.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.45.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-07 17:16:01] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-08-07 17:16:01] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-08-07 17:16:01] INFO root fetch - main [MainThread]: Store serial: [19207173]
