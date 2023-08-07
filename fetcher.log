@@ -16785,3 +16785,117 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:02:59] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-08-07 13:02:59] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-08-07 13:02:59] INFO root fetch - main [MainThread]: Store serial: [19204563]
+[2023-08-07 13:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204563]
+[2023-08-07 13:08:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-formation
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statute-utils
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phidata
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcustat
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesaviezvous
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-sdk
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qoqo-qasm
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rapyuta-io-cli
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-zelda
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oneat
+[2023-08-07 13:08:17] WARNING root fetch - processPackages [dcustat]: Skipping, unable to determine old version
+[2023-08-07 13:08:17] INFO root fetch - processPackages [dcustat]: Start processing: ganga
+[2023-08-07 13:08:17] INFO root fetch - main [MainThread]: End processing [dcustat] error
+[2023-08-07 13:08:17] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [lesaviezvous]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [napari-zelda]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [statute-utils]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [rapyuta-io-cli]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [wagtail-formation]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ganga]: New version: [8.6.6] Old Version: [8.6.5]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [phidata]: New version: [2.0.0.dev9] Old Version: [2.0.0.dev8]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [oneat]: New version: [6.3.8] Old Version: [6.3.7]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-07 13:08:17] INFO root fetch - processPackages [lesaviezvous]: Downloading https://files.pythonhosted.org/packages/0e/96/48c5dddf3f12ec6fed31c00993d0305a1741f15494ee5b3406608e8c0274/lesaviezvous-0.2.5.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/90/9b/86a50593974154e1c3bde706039d063d91ae36dd1e1637e515c2a358d082/oneat-6.3.7.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/5e/38/8f8a00732f4e68bea108c8f1af4269856039e229ec2408e7a5786ea50e55/wagtail_formation-0.1.5.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [napari-zelda]: Downloading https://files.pythonhosted.org/packages/5b/bd/6b7d751d42d22b18ec13d5b8e3db9c3a40d1d402c2a7c0b9b883a5e49158/napari-zelda-0.1.8.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/4e/81/d117a5d2b68df5c5a047dc349bf2d93ad4996b7a76207f4550977bc79865/rapyuta-io-cli-4.0.0.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/8b/79/4fcdd0a399b0a8b0323ea465262afb6dbaa85cd6ae1841eb464011b07c80/statute_utils-0.6.6.tar.gz
+[2023-08-07 13:08:17] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/23/6a/342a3fccb07ed83287becfea64aaf585c8199059333321a84c3efbba1902/ganga-8.6.5.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/8c/3d/2f460825b41eb8d8a35ed768e9861c38efb8e7ec039e6f22d2a60932a5b5/phidata-2.0.0.dev8.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/de/1c/e561876f3c0afa35277414ff61e9f2e4728eed3b03477498bd6e46fd20aa/qoqo_qasm-0.8.2.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [lesaviezvous]: Downloading https://files.pythonhosted.org/packages/7a/15/2c1411c521fe74fdc06dc21f30c54dc299d29320f641874c874c2f242966/lesaviezvous-0.2.6.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230807/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/9d/6d/7761c128838e77a34210bdf82391d773e1a2633af80be490bc02676c6d23/wagtail_formation-0.1.6.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/f3/df/c17922a6e84b5850ff0e0a0d19ea6f5b9f931c646fc30e0478defe0c7562/rapyuta-io-cli-4.0.1.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [lesaviezvous]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [lesaviezvous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesaviezvous-0.2.5.tar.gz tmp/lesaviezvous-0.2.6.tar.gz --markdown 20230807/l/lesaviezvous/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/c2/f6/2302e45c456a01e99216e3f8bc2b21e65177ba970a6bf8b61893f730fd07/statute_utils-0.6.7.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/84/65/070e60f5919af606d066b617ed1a4c892a15abbe2a99acdd18418c4c0895/qoqo_qasm-0.8.3.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [napari-zelda]: Downloading https://files.pythonhosted.org/packages/64/49/5c076086a032dacdf8fa406f1a76ca29108c093e9b1f486e9b09a60a2dcc/napari-zelda-0.1.9.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.6.tar.gz tmp/statute_utils-0.6.7.tar.gz --markdown 20230807/s/statute-utils/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/45/d3/a74ecb8dcaeb6efb9acd51bea2ec4794d98f74fb3ffa5cddb3e62784aa93/phidata-2.0.0.dev9.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [rapyuta-io-cli]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [rapyuta-io-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta-io-cli-4.0.0.tar.gz tmp/rapyuta-io-cli-4.0.1.tar.gz --markdown 20230807/r/rapyuta-io-cli/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [wagtail-formation]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [wagtail-formation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_formation-0.1.5.tar.gz tmp/wagtail_formation-0.1.6.tar.gz --markdown 20230807/w/wagtail-formation/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.8.2.tar.gz tmp/qoqo_qasm-0.8.3.tar.gz --markdown 20230807/q/qoqo-qasm/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-07 13:08:18] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/db/99/97ae596b4449cc36c9e5bd8c852bdf1dd83be1e3a7cd3bb29cf83bbe4afb/oneat-6.3.8.tar.gz
+[2023-08-07 13:08:18] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-08-07 13:08:18] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.0.0.dev8.tar.gz tmp/phidata-2.0.0.dev9.tar.gz --markdown 20230807/p/phidata/2.0.0.dev8-2.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 13:08:19] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-08-07 13:08:19] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.3.7.tar.gz tmp/oneat-6.3.8.tar.gz --markdown 20230807/o/oneat/6.3.7-6.3.8/diff.md --exclude *.pyd
+[2023-08-07 13:08:19] INFO root fetch - processPackages [napari-zelda]: executing diffoscope
+[2023-08-07 13:08:19] INFO root fetch - processPackages [napari-zelda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-zelda-0.1.8.tar.gz tmp/napari-zelda-0.1.9.tar.gz --markdown 20230807/n/napari-zelda/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 13:08:19] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/11/98/4eceacd1ee0c00d6e3d2135d6ff48dbe57aecacd0665e7524301c276567a/ganga-8.6.6.tar.gz
+[2023-08-07 13:08:19] INFO root fetch - processPackages [lesaviezvous]: Remove: archive file [/home/abi/fetcher/tmp/lesaviezvous-0.2.5.tar.gz]
+[2023-08-07 13:08:19] INFO root fetch - processPackages [lesaviezvous]: Remove: archive file [/home/abi/fetcher/tmp/lesaviezvous-0.2.6.tar.gz]
+[2023-08-07 13:08:19] INFO root fetch - processPackages [lesaviezvous]: Start processing: code-loader
+[2023-08-07 13:08:19] INFO root fetch - main [MainThread]: End processing [lesaviezvous]: success
+[2023-08-07 13:08:19] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.89.dev1]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/41/1b/dd92348904b23ea9a7e663979279df36bfe52da9fbede72f42b1d6c67071/code_loader-0.2.89.dev1.tar.gz
+[2023-08-07 13:08:20] INFO root fetch - processPackages [ganga]: executing diffoscope
+[2023-08-07 13:08:20] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.6.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [ganga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganga-8.6.5.tar.gz tmp/ganga-8.6.6.tar.gz --markdown 20230807/g/ganga/8.6.5-8.6.6/diff.md --exclude *.pyd
+[2023-08-07 13:08:20] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.7.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [statute-utils]: Start processing: rtorrent-rpc
+[2023-08-07 13:08:20] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-08-07 13:08:20] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.5.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.6.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - main [MainThread]: End processing [wagtail-formation]: success
+[2023-08-07 13:08:20] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-07 13:08:20] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-07 13:08:20] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.89.dev1.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230807/c/code-loader/0.2.89.dev1-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 13:08:20] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.2.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.3.tar.gz]
+[2023-08-07 13:08:20] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-08-07 13:08:20] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/64/ea/3f07ece75734d22e88aab87f53c7c3edd6158c5bd971af8e321d0b54ec9f/rtorrent_rpc-0.0.8.tar.gz
+[2023-08-07 13:08:21] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-08-07 13:08:21] INFO root fetch - processPackages [napari-zelda]: Remove: archive file [/home/abi/fetcher/tmp/napari-zelda-0.1.8.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - processPackages [napari-zelda]: Remove: archive file [/home/abi/fetcher/tmp/napari-zelda-0.1.9.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - main [MainThread]: End processing [napari-zelda]: success
+[2023-08-07 13:08:21] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/d6/cb/c1490d75fc68d06940efa3aa32aefc9b969f972b9a13fda8eb9a3897a30d/rtorrent_rpc-0.0.9.tar.gz
+[2023-08-07 13:08:21] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-08-07 13:08:21] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.8.tar.gz tmp/rtorrent_rpc-0.0.9.tar.gz --markdown 20230807/r/rtorrent-rpc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 13:08:21] INFO root fetch - processPackages [rapyuta-io-cli]: Remove: archive file [/home/abi/fetcher/tmp/rapyuta-io-cli-4.0.0.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - processPackages [rapyuta-io-cli]: Remove: archive file [/home/abi/fetcher/tmp/rapyuta-io-cli-4.0.1.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - main [MainThread]: End processing [rapyuta-io-cli]: success
+[2023-08-07 13:08:21] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.7.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.8.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-08-07 13:08:21] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.89.dev1.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-07 13:08:21] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-07 13:08:22] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.8.tar.gz]
+[2023-08-07 13:08:22] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.9.tar.gz]
+[2023-08-07 13:08:22] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-08-07 13:08:23] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev8.tar.gz]
+[2023-08-07 13:08:23] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev9.tar.gz]
+[2023-08-07 13:08:23] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-08-07 13:08:26] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.6.5.tar.gz]
+[2023-08-07 13:08:26] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.6.6.tar.gz]
+[2023-08-07 13:08:26] INFO root fetch - main [MainThread]: End processing [ganga]: success
+[2023-08-07 13:08:26] INFO root fetch - main [MainThread]: Store serial: [19204638]
