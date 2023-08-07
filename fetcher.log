@@ -5977,3 +5977,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:57:24] INFO root fetch - processPackages [robin-stocks]: Remove: archive file [/home/abi/fetcher/tmp/robin_stocks-3.0.6.tar.gz]
 [2023-08-07 04:57:24] INFO root fetch - main [MainThread]: End processing [robin-stocks]: success
 [2023-08-07 04:57:24] INFO root fetch - main [MainThread]: Store serial: [19199923]
+[2023-08-07 05:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199923]
+[2023-08-07 05:02:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-testplus
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filter-data-options
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyenphase
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VodBot
+[2023-08-07 05:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-favicon
+[2023-08-07 05:02:32] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 05:02:32] WARNING root fetch - processPackages [filter-data-options]: Skipping, unable to determine old version
+[2023-08-07 05:02:32] INFO root fetch - main [MainThread]: End processing [filter-data-options] error
+[2023-08-07 05:02:32] INFO root fetch - processPackages [wagtail-favicon]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-07 05:02:32] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-07 05:02:32] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-07 05:02:32] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-08-07 05:02:32] INFO root fetch - processPackages [VodBot]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-07 05:02:33] INFO root fetch - processPackages [wagtail-favicon]: Downloading https://files.pythonhosted.org/packages/83/72/59cfe00aefa22e42a50252eb304bfede47671b81b86ff2788db38c7e5587/wagtail-favicon-0.2.0.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/c0/43/4414fcc4bd3573ad470bcd007499435bf291df086826814009f04ea9cdf0/VodBot-1.1.7.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/39/1f/61b2e206df6ebaa1c0b92d3e2458b65b97b3176ebef8f4a0b8181aa64f1f/mojo_testplus-0.0.5.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-07 05:02:33] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230807/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 05:02:33] INFO root fetch - processPackages [wagtail-favicon]: Downloading https://files.pythonhosted.org/packages/74/67/d5aa3c2075ba672379a178210fdbab498d6882f3b5996e8c71079bfac657/wagtail_favicon-0.3.0.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/f4/b8/75e3498ec0a220b3957d7cb607123d2f72a01a755ce4c8c71edb75fcaf7e/VodBot-1.1.8.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/d7/5d/ef815d751cc3d4b592c2b5e50d0c8a7549435e90ad7e958087a633cccb68/mojo_testplus-0.0.8.tar.gz
+[2023-08-07 05:02:33] INFO root fetch - processPackages [VodBot]: executing diffoscope
+[2023-08-07 05:02:33] INFO root fetch - processPackages [VodBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VodBot-1.1.7.tar.gz tmp/VodBot-1.1.8.tar.gz --markdown 20230807/V/VodBot/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-07 05:02:33] INFO root fetch - processPackages [wagtail-favicon]: executing diffoscope
+[2023-08-07 05:02:33] INFO root fetch - processPackages [wagtail-favicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-favicon-0.2.0.tar.gz tmp/wagtail_favicon-0.3.0.tar.gz --markdown 20230807/w/wagtail-favicon/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 05:02:33] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-08-07 05:02:33] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230807/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-08-07 05:02:33] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-08-07 05:02:33] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230807/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-07 05:02:34] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-07 05:02:34] INFO root fetch - processPackages [wagtail-favicon]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-favicon-0.2.0.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - processPackages [wagtail-favicon]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_favicon-0.3.0.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - main [MainThread]: End processing [wagtail-favicon]: success
+[2023-08-07 05:02:34] INFO root fetch - processPackages [VodBot]: Remove: archive file [/home/abi/fetcher/tmp/VodBot-1.1.7.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - processPackages [VodBot]: Remove: archive file [/home/abi/fetcher/tmp/VodBot-1.1.8.tar.gz]
+[2023-08-07 05:02:34] INFO root fetch - main [MainThread]: End processing [VodBot]: success
+[2023-08-07 05:02:35] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.5.tar.gz]
+[2023-08-07 05:02:35] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.8.tar.gz]
+[2023-08-07 05:02:35] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-08-07 05:02:35] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-08-07 05:02:35] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-08-07 05:02:35] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-08-07 05:02:35] INFO root fetch - main [MainThread]: Store serial: [19199945]
