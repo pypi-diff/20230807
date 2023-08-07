@@ -22817,3 +22817,93 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:21:15] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.5.4.tar.gz]
 [2023-08-07 17:21:15] INFO root fetch - main [MainThread]: End processing [leprikon]: success
 [2023-08-07 17:21:15] INFO root fetch - main [MainThread]: Store serial: [19207254]
+[2023-08-07 17:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207254]
+[2023-08-07 17:26:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeepSlice
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moyanlib
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agent-protocol
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dstrial
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wearpipe
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sgclimaapiclient
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: truss
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genefeast
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvc
+[2023-08-07 17:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: examon-beginners-package
+[2023-08-07 17:26:24] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [DeepSlice]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [wearpipe]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 17:26:24] WARNING root fetch - processPackages [moyanlib]: Skipping, unable to determine old version
+[2023-08-07 17:26:24] INFO root fetch - processPackages [moyanlib]: Start processing: eminus
+[2023-08-07 17:26:24] INFO root fetch - main [MainThread]: End processing [moyanlib] error
+[2023-08-07 17:26:24] WARNING root fetch - processPackages [dstrial]: Skipping, unable to determine old version
+[2023-08-07 17:26:24] INFO root fetch - main [MainThread]: End processing [dstrial] error
+[2023-08-07 17:26:24] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.2.0] Old Version: [0.1.14]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [agent-protocol]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [DeepSlice]: Downloading https://files.pythonhosted.org/packages/1f/4a/192da8d33a1e153518603891c9872c396ce690dafa433f15555305bd8c65/DeepSlice-1.1.4.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [genefeast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [eminus]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [truss]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-07 17:26:24] INFO root fetch - processPackages [wearpipe]: Downloading https://files.pythonhosted.org/packages/ea/35/255b4b51a0d6120e576d06d4f06c08a06e438260ad10852881cff2917dcc/wearpipe-0.0.1.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/7e/a7/3ba19ad4252f4cbf1e26b1658f9fae33ff188946bdc2b1f30b1d17dc3de7/agent_protocol-0.1.2.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/20/d7/e056886ff4d1e6bc7aff11d55c86c30b2a672bfac8ab9d926fe89cbfdec5/examon_beginners_package-0.1.14.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [DeepSlice]: Downloading https://files.pythonhosted.org/packages/de/0b/7f47b4d0ae921dd20f645af5d8af3cd2246ff04bc3c490a1e4e7f17fe4b5/DeepSlice-1.1.5.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [genefeast]: Downloading https://files.pythonhosted.org/packages/fd/8e/3b3860667fdc54d8b40ad73d465e351d3fa59a7e75162ff8bb42f3ea92cb/genefeast-0.0.8.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/c2/be/a5c8ddac4aca8fe0967e44fac67b23fcd49ee5f71c7db2870dc1196ab8d8/eminus-2.4.0.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2023-08-07 17:26:24] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-08-07 17:26:24] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230807/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 17:26:24] INFO root fetch - processPackages [DeepSlice]: executing diffoscope
+[2023-08-07 17:26:24] INFO root fetch - processPackages [DeepSlice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepSlice-1.1.4.tar.gz tmp/DeepSlice-1.1.5.tar.gz --markdown 20230807/D/DeepSlice/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 17:26:24] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/c1/3a/41bec5d251497ab255c238ffa6694d3d38c4d35b9d3b20f99bf627cf3377/truss-0.5.5.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [wearpipe]: Downloading https://files.pythonhosted.org/packages/86/05/9e99cc4d572decf5c946073d8ba6d958de7166e823f7fb3b49797cd32ed0/wearpipe-0.0.2.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/75/7b/dd16fa83599166cfe48d04df57ed0d0dc2f1f9e5d2f2dee4d0cee5fd6e5d/agent_protocol-0.2.0.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/71/5c/7a00b156782f71b617b891772d9914b174e37fbbabe553e4552492bf08e9/examon_beginners_package-0.2.0.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [wearpipe]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [wearpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wearpipe-0.0.1.tar.gz tmp/wearpipe-0.0.2.tar.gz --markdown 20230807/w/wearpipe/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.1.14.tar.gz tmp/examon_beginners_package-0.2.0.tar.gz --markdown 20230807/e/examon-beginners-package/0.1.14-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [agent-protocol]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [agent-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol-0.1.2.tar.gz tmp/agent_protocol-0.2.0.tar.gz --markdown 20230807/a/agent-protocol/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/0e/96/bb5b9bd2f8346ee6791c3bd7f29f5f189c6efae161798e7ecb83533a7128/truss-0.5.6.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/b1/d8/b6eb265287ebf2defc5ca56744e72da17feba4c2b5657138874d3519dbba/eminus-2.5.0.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2023-08-07 17:26:25] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.5.5.tar.gz tmp/truss-0.5.6.tar.gz --markdown 20230807/t/truss/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [eminus]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [eminus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eminus-2.4.0.tar.gz tmp/eminus-2.5.0.tar.gz --markdown 20230807/e/eminus/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-08-07 17:26:25] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20230807/d/dvc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-07 17:26:25] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-08-07 17:26:25] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-08-07 17:26:25] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-08-07 17:26:25] INFO root fetch - processPackages [DeepSlice]: Remove: archive file [/home/abi/fetcher/tmp/DeepSlice-1.1.4.tar.gz]
+[2023-08-07 17:26:25] INFO root fetch - processPackages [DeepSlice]: Remove: archive file [/home/abi/fetcher/tmp/DeepSlice-1.1.5.tar.gz]
+[2023-08-07 17:26:25] INFO root fetch - main [MainThread]: End processing [DeepSlice]: success
+[2023-08-07 17:26:26] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.1.14.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.2.0.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-08-07 17:26:26] INFO root fetch - processPackages [wearpipe]: Remove: archive file [/home/abi/fetcher/tmp/wearpipe-0.0.1.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - processPackages [wearpipe]: Remove: archive file [/home/abi/fetcher/tmp/wearpipe-0.0.2.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - main [MainThread]: End processing [wearpipe]: success
+[2023-08-07 17:26:26] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.1.2.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.2.0.tar.gz]
+[2023-08-07 17:26:26] INFO root fetch - main [MainThread]: End processing [agent-protocol]: success
+[2023-08-07 17:26:26] INFO root fetch - processPackages [genefeast]: Downloading https://files.pythonhosted.org/packages/28/77/7db3b89c3a2f4b506e454c54da98762ed0d18317601e5927e28558871ae3/genefeast-0.0.9.tar.gz
+[2023-08-07 17:26:26] INFO root fetch - processPackages [genefeast]: executing diffoscope
+[2023-08-07 17:26:26] INFO root fetch - processPackages [genefeast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genefeast-0.0.8.tar.gz tmp/genefeast-0.0.9.tar.gz --markdown 20230807/g/genefeast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:26:27] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.5.5.tar.gz]
+[2023-08-07 17:26:27] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.5.6.tar.gz]
+[2023-08-07 17:26:27] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-08-07 17:26:27] INFO root fetch - processPackages [eminus]: Remove: archive file [/home/abi/fetcher/tmp/eminus-2.4.0.tar.gz]
+[2023-08-07 17:26:27] INFO root fetch - processPackages [eminus]: Remove: archive file [/home/abi/fetcher/tmp/eminus-2.5.0.tar.gz]
+[2023-08-07 17:26:27] INFO root fetch - main [MainThread]: End processing [eminus]: success
+[2023-08-07 17:26:28] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2023-08-07 17:26:28] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2023-08-07 17:26:28] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-08-07 17:26:31] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.8.tar.gz]
+[2023-08-07 17:26:31] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.9.tar.gz]
+[2023-08-07 17:26:31] INFO root fetch - main [MainThread]: End processing [genefeast]: success
+[2023-08-07 17:26:31] INFO root fetch - main [MainThread]: Store serial: [19207288]
