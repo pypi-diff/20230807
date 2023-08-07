@@ -9287,3 +9287,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:05:41] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-4.0.0.tar.gz]
 [2023-08-07 09:05:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
 [2023-08-07 09:05:41] INFO root fetch - main [MainThread]: Store serial: [19201660]
+[2023-08-07 09:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201660]
+[2023-08-07 09:11:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netdevops-poetry
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: booze-tools
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richviewsdk
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spiderx
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svcs
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i-saas-utils
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vai-utils
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SwissArmyTransformer
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-crm-event-reservation
+[2023-08-07 09:11:04] INFO root fetch - processPackages [richviewsdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-07 09:11:04] ERROR root fetch - processPackages [netdevops-poetry]: Unable to get metadata: No such project 'netdevops-poetry'
+[2023-08-07 09:11:04] INFO root fetch - processPackages [netdevops-poetry]: Start processing: ccxt
+[2023-08-07 09:11:04] INFO root fetch - main [MainThread]: End processing [netdevops-poetry] error
+[2023-08-07 09:11:04] INFO root fetch - processPackages [vai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [i-saas-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [booze-tools]: New version: [0.6.2.0] Old Version: [0.6.1.0]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.7]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [svcs]: New version: [23.9.0] Old Version: [23.8.0]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [SwissArmyTransformer]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 09:11:04] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-07 09:11:04] INFO root fetch - processPackages [richviewsdk]: Downloading https://files.pythonhosted.org/packages/99/11/4df93020e9f72316ef636744c5ad083e16e8db583ae9682635f94fb8cc36/richviewsdk-1.0.3.tar.gz
+[2023-08-07 09:11:04] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/2a/c5/b650201e1ea7e829855614f40907ef2defa39710f779531e35c319e50057/vai_utils-0.0.8.tar.gz
+[2023-08-07 09:11:04] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: Downloading https://files.pythonhosted.org/packages/7b/ba/7b056ea42f7c73b54b3265f98bab46ab9d44d3adb11972d691e2c649d51d/odoo_addon_sale_crm_event_reservation-15.0.1.0.0.7-py3-none-any.whl
+[2023-08-07 09:11:04] INFO root fetch - processPackages [booze-tools]: Downloading https://files.pythonhosted.org/packages/b6/5d/0c0554107206bb70a3dfb1211824834950a20089e1422b929e6bf3677629/booze-tools-0.6.1.0.tar.gz
+[2023-08-07 09:11:04] INFO root fetch - processPackages [i-saas-utils]: Downloading https://files.pythonhosted.org/packages/b3/6f/1daab39c35be1409becfa6d706499836ea6772a8e0dea8d61de274acdd14/i_saas_utils-0.1.5.tar.gz
+[2023-08-07 09:11:04] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/dc/02/f26d4ba8905b9a8be378ec4cac2b2f24790a4e82f3da8134a3b2d9db304b/SwissArmyTransformer-0.4.3.tar.gz
+[2023-08-07 09:11:04] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/f4/8d/88043ea8527c9abc706508aa66882ceebe0ea6b72beb345d999db9be6a8b/svcs-23.8.0.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-07 09:11:05] INFO root fetch - processPackages [richviewsdk]: Downloading https://files.pythonhosted.org/packages/b4/04/3aac513738ce264716ebed45e1f07cb1c14e5dd23f39526b5c480a652c06/richviewsdk-1.0.4.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: Downloading https://files.pythonhosted.org/packages/fa/19/9c6a491167bb1d32670a27e679b998877898b7829acd2bc44ed19b544bd5/odoo_addon_sale_crm_event_reservation-15.0.1.0.1-py3-none-any.whl
+[2023-08-07 09:11:05] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/50/d6/c8a89feec709275794b4ada17977186c2238b1c83c33a83b29230047b749/vai_utils-0.0.9.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230807/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [i-saas-utils]: Downloading https://files.pythonhosted.org/packages/17/40/bbd0d6d107b7b0d3a13be11829b07e0ee6a6670bd3362ed66ac14e918df7/i_saas_utils-0.1.6.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [booze-tools]: Downloading https://files.pythonhosted.org/packages/56/86/f4b464aa5da4b82f66e071906e790acff78a81d67c58ae7ef1c555c35a75/booze-tools-0.6.2.0.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [richviewsdk]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [richviewsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richviewsdk-1.0.3.tar.gz tmp/richviewsdk-1.0.4.tar.gz --markdown 20230807/r/richviewsdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/da/4b/16fc750155703f099b817611d5a46ac888eb7f0bf4d12c65df88852758a2/SwissArmyTransformer-0.4.4.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [i-saas-utils]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.8.tar.gz tmp/vai_utils-0.0.9.tar.gz --markdown 20230807/v/vai-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_crm_event_reservation-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_sale_crm_event_reservation-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-sale-crm-event-reservation/15.0.1.0.0.7-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [i-saas-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i_saas_utils-0.1.5.tar.gz tmp/i_saas_utils-0.1.6.tar.gz --markdown 20230807/i/i-saas-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/bd/51/928d3ef4f9074496205c1c58a0ff2cd3370595770da6eb35298bba03100a/svcs-23.9.0.tar.gz
+[2023-08-07 09:11:05] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230807/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [booze-tools]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [booze-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booze-tools-0.6.1.0.tar.gz tmp/booze-tools-0.6.2.0.tar.gz --markdown 20230807/b/booze-tools/0.6.1.0-0.6.2.0/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [svcs]: executing diffoscope
+[2023-08-07 09:11:05] INFO root fetch - processPackages [svcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svcs-23.8.0.tar.gz tmp/svcs-23.9.0.tar.gz --markdown 20230807/s/svcs/23.8.0-23.9.0/diff.md --exclude *.pyd
+[2023-08-07 09:11:05] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-08-07 09:11:08] INFO root fetch - processPackages [SwissArmyTransformer]: executing diffoscope
+[2023-08-07 09:11:08] INFO root fetch - processPackages [SwissArmyTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwissArmyTransformer-0.4.3.tar.gz tmp/SwissArmyTransformer-0.4.4.tar.gz --markdown 20230807/S/SwissArmyTransformer/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-07 09:11:08] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-08-07 09:11:08] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230807/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:11:09] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.8.0.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.9.0.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [svcs]: Start processing: survey-report-generator
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [svcs]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_crm_event_reservation-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_crm_event_reservation-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-crm-event-reservation]: Start processing: sastadev
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-crm-event-reservation]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [richviewsdk]: Remove: archive file [/home/abi/fetcher/tmp/richviewsdk-1.0.3.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [richviewsdk]: Remove: archive file [/home/abi/fetcher/tmp/richviewsdk-1.0.4.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [richviewsdk]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [booze-tools]: Remove: archive file [/home/abi/fetcher/tmp/booze-tools-0.6.1.0.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [booze-tools]: Remove: archive file [/home/abi/fetcher/tmp/booze-tools-0.6.2.0.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [booze-tools]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [i-saas-utils]: Remove: archive file [/home/abi/fetcher/tmp/i_saas_utils-0.1.5.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [i-saas-utils]: Remove: archive file [/home/abi/fetcher/tmp/i_saas_utils-0.1.6.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [i-saas-utils]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [sastadev]: New version: [0.1.0] Old Version: [0.0.4a2]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/b2/9b/0e521bdfea1a746743864c5f6f639affa0bd6cf895d8211d9d621f1c21f1/survey_report_generator-0.0.2.tar.gz
+[2023-08-07 09:11:09] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.8.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.9.tar.gz]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-07 09:11:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-07 09:11:09] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-07 09:11:09] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/93/ff/c2e9af98fc46321b94c6733e78dda27d397b133b5eb7ac205354abd7a104/sastadev-0.0.4a2.tar.gz
+[2023-08-07 09:11:09] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/62/50/371282e8571888cdcda7032e59677699c51fbcf14b8de9067e676ba9edbc/survey_report_generator-0.0.3.tar.gz
+[2023-08-07 09:11:10] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/fa/d1/adb15088b23bf02482f89da53793bb4216f4ac84934cceac00ce25401e4d/sastadev-0.1.0.tar.gz
+[2023-08-07 09:11:10] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-07 09:11:10] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.2.tar.gz tmp/survey_report_generator-0.0.3.tar.gz --markdown 20230807/s/survey-report-generator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 09:11:10] INFO root fetch - processPackages [SwissArmyTransformer]: Remove: archive file [/home/abi/fetcher/tmp/SwissArmyTransformer-0.4.3.tar.gz]
+[2023-08-07 09:11:10] INFO root fetch - processPackages [SwissArmyTransformer]: Remove: archive file [/home/abi/fetcher/tmp/SwissArmyTransformer-0.4.4.tar.gz]
+[2023-08-07 09:11:10] INFO root fetch - main [MainThread]: End processing [SwissArmyTransformer]: success
+[2023-08-07 09:11:11] INFO root fetch - processPackages [sastadev]: executing diffoscope
+[2023-08-07 09:11:11] INFO root fetch - processPackages [sastadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sastadev-0.0.4a2.tar.gz tmp/sastadev-0.1.0.tar.gz --markdown 20230807/s/sastadev/0.0.4a2-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 09:11:11] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.2.tar.gz]
+[2023-08-07 09:11:11] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.3.tar.gz]
+[2023-08-07 09:11:11] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-07 09:11:13] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.0.4a2.tar.gz]
+[2023-08-07 09:11:13] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.1.0.tar.gz]
+[2023-08-07 09:11:13] INFO root fetch - main [MainThread]: End processing [sastadev]: success
+[2023-08-07 09:11:14] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-08-07 09:11:14] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-08-07 09:11:14] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-08-07 09:11:14] INFO root fetch - main [MainThread]: Store serial: [19201697]
