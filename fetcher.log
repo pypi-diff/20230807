@@ -19886,3 +19886,154 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:27:24] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.3.tar.gz]
 [2023-08-07 15:27:24] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
 [2023-08-07 15:27:24] INFO root fetch - main [MainThread]: Store serial: [19205929]
+[2023-08-07 15:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205929]
+[2023-08-07 15:32:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timedctl
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofscraper
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odin-slides
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofxstatement
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor-dev
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lessweb-commondao
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowmatic
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image2gps
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ethz-iam-webservice
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ethz-iam-webservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [flowmatic]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ofscraper]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [image2gps]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [timedctl]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ofxstatement]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [lessweb-commondao]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [odin-slides]: New version: [0.3] Old Version: [0.2]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:32:36] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/dc/4f/f104cef51454fac096bfd4e71b5648158067a743aa26013551098e59fa09/flowmatic-0.1.0.6.tar.gz
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/a0/b8/d1ceeb21e4df6430560bf8205b61fd0829feed79dc5115bed620fb139287/ethz_iam_webservice-0.8.0.tar.gz
+[2023-08-07 15:32:36] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/cc/ae/10d849eef136cc4b52f6f1ef8e12aa3738f301d4dcd956f7e26afe6a6014/ofscraper-3.0.3.tar.gz
+[2023-08-07 15:32:36] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/63/7b/beae78c228f5a0e65c820494110e8824cd7ff9e2a712d8e572ef7d6b623c/timedctl-5.3.0.tar.gz
+[2023-08-07 15:32:36] INFO root fetch - processPackages [image2gps]: Downloading https://files.pythonhosted.org/packages/02/a2/4cb6fe767ec644801ccdf897e413f4f94cabdb4c306510b6c6c7735cef2c/image2gps-1.1.0.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [lessweb-commondao]: Downloading https://files.pythonhosted.org/packages/b5/cd/c317f4fd50b30b06fe39ef0e03ee1d98c4e5b99ce059907bdc30b9819c30/lessweb-commondao-1.0.4.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [odin-slides]: Downloading https://files.pythonhosted.org/packages/f9/64/04c7250c9023d3f177921fb742535727ea3d91c5769f60656d75c6080262/odin-slides-0.2.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofxstatement]: Downloading https://files.pythonhosted.org/packages/e1/23/580d178979ac0e348669bea02a99e2f54618b29c4041c4eaa18119da7d25/ofxstatement-0.8.0.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/d0/97/69afe508386104d4ca7bb45f423f85cc7c225867fa33af2a28a7b42b21a8/ethz_iam_webservice-0.9.0.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/c2/e0/75fe700636801b8b4f55a5f91416bf9f6936b87094cc941792bdc529f8be/flowmatic-0.1.0.7.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/7c/f2/1fec8905ab47e9ab6d59a74bd56f7933b8b3b2a3fe8be3b26a02335b1dc4/timedctl-5.3.1.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b8/d1/dbb9b706fd9f490bad05ec394546c599de2399402a6f2fb75f1b198d2f58/ofscraper-3.0.4.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [image2gps]: Downloading https://files.pythonhosted.org/packages/99/f3/7cc8290d4deae1f624997ab69e4ce2aa0a689aea82432f5033c7c0b7264f/image2gps-1.2.0.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ethz-iam-webservice]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ethz-iam-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethz_iam_webservice-0.8.0.tar.gz tmp/ethz_iam_webservice-0.9.0.tar.gz --markdown 20230807/e/ethz-iam-webservice/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofxstatement]: Downloading https://files.pythonhosted.org/packages/be/1c/4f236e29295bf80c0f391b1be63da86ad158b1d9541ed004e69746e9e5b6/ofxstatement-0.9.0.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [lessweb-commondao]: Downloading https://files.pythonhosted.org/packages/0f/0a/11053d96f7d83d716dc857efd00b93ce20f39f730b070b4100afd72d3bed/lessweb-commondao-1.0.6.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.0.6.tar.gz tmp/flowmatic-0.1.0.7.tar.gz --markdown 20230807/f/flowmatic/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [odin-slides]: Downloading https://files.pythonhosted.org/packages/4d/76/400d8ad9fbc5edc1b3fa093a5287fc2052b69f5b5731158a263164db93b9/odin-slides-0.3.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.3.tar.gz tmp/ofscraper-3.0.4.tar.gz --markdown 20230807/o/ofscraper/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [image2gps]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [image2gps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2gps-1.1.0.tar.gz tmp/image2gps-1.2.0.tar.gz --markdown 20230807/i/image2gps/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-5.3.0.tar.gz tmp/timedctl-5.3.1.tar.gz --markdown 20230807/t/timedctl/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [lessweb-commondao]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [lessweb-commondao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lessweb-commondao-1.0.4.tar.gz tmp/lessweb-commondao-1.0.6.tar.gz --markdown 20230807/l/lessweb-commondao/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [odin-slides]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [odin-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin-slides-0.2.tar.gz tmp/odin-slides-0.3.tar.gz --markdown 20230807/o/odin-slides/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofxstatement]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [ofxstatement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofxstatement-0.8.0.tar.gz tmp/ofxstatement-0.9.0.tar.gz --markdown 20230807/o/ofxstatement/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-08-07 15:32:37] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230807/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:32:38] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-08-07 15:32:38] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230807/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:32:39] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.6.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.0.7.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [flowmatic]: Start processing: nonebot-plugin-muteme
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2023-08-07 15:32:39] INFO root fetch - processPackages [image2gps]: Remove: archive file [/home/abi/fetcher/tmp/image2gps-1.1.0.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [image2gps]: Remove: archive file [/home/abi/fetcher/tmp/image2gps-1.2.0.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [image2gps]: Start processing: via-api
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [image2gps]: success
+[2023-08-07 15:32:39] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.8.0.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.9.0.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [ethz-iam-webservice]: Start processing: bigdl-dllib-spark3
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [ethz-iam-webservice]: success
+[2023-08-07 15:32:39] WARNING root fetch - processPackages [nonebot-plugin-muteme]: Skipping, unable to determine old version
+[2023-08-07 15:32:39] INFO root fetch - processPackages [nonebot-plugin-muteme]: Start processing: pytest-frappe
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-muteme] error
+[2023-08-07 15:32:39] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [via-api]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [lessweb-commondao]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-commondao-1.0.4.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.3.0.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.3.1.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [lessweb-commondao]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-commondao-1.0.6.tar.gz]
+[2023-08-07 15:32:39] INFO root fetch - processPackages [timedctl]: Start processing: bigdl-orca-spark3
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-08-07 15:32:39] INFO root fetch - processPackages [lessweb-commondao]: Start processing: bigdl-friesian-spark3
+[2023-08-07 15:32:39] INFO root fetch - main [MainThread]: End processing [lessweb-commondao]: success
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [odin-slides]: Remove: archive file [/home/abi/fetcher/tmp/odin-slides-0.2.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [odin-slides]: Remove: archive file [/home/abi/fetcher/tmp/odin-slides-0.3.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [odin-slides]: Start processing: bigdl-chronos-spark3
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [odin-slides]: success
+[2023-08-07 15:32:40] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/6f/b5/ef47b543339c8efcbae8331bb6ac127f2613b54a86b74d6757af476b71e0/via-api-2.6.0.tar.gz
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [pytest-frappe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/58/df/27d0f438a326a81c05c9e45696ae5556a62a707c80937f85644d3e693488/bigdl-dllib-spark3-2.4.0b20230805.tar.gz
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:32:40] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 63830684>=10485760
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-spark3
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/c7/21/a0552d669bf3e41be9acfea2ef06aa6344d18fe7ea7ba1810701e6da0246/bigdl_orca_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/2a/b3/634e4cc40fad43a64775b480a809b87ce6a5a5781c68d61abda20edbf6ed/bigdl_friesian_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/fd/73/bf93989a318f0e68751fbdfc686ada690f48682ca025b68280d87b29e53d/pytest-frappe-0.1.2.tar.gz
+[2023-08-07 15:32:40] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-08-07 15:32:40] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.3.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.4.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 15:32:40] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20212195>=10485760
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-08-07 15:32:40] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/10/dd/1004825de95ecbc60d68ce6350a9a249fee667f70dbe26ad26d0c8b33d6d/via-api-2.6.1.tar.gz
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/30/aa/d96d6b977b2ec87e60d1ee60a342e9b4ec7db9bc6b5f24af6772e5ad4d8f/bigdl_chronos_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/03/c2/6bcf6d4f78d648e7de2ee3361870e6d64c224657c416b7d7e746a903d497/bigdl_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [ofxstatement]: Remove: archive file [/home/abi/fetcher/tmp/ofxstatement-0.8.0.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - processPackages [ofxstatement]: Remove: archive file [/home/abi/fetcher/tmp/ofxstatement-0.9.0.tar.gz]
+[2023-08-07 15:32:40] INFO root fetch - main [MainThread]: End processing [ofxstatement]: success
+[2023-08-07 15:32:40] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-07 15:32:40] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.6.0.tar.gz tmp/via-api-2.6.1.tar.gz --markdown 20230807/v/via-api/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-08-07 15:32:40] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/1a/30/970e976cddcd06c8818e549668268756b8b41d0f31dceedb36b205d2b932/pytest-frappe-0.1.3.tar.gz
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/12/8d/c6f4563a1af82e2568fdafd7330cb7996cb70ca56920395c6e75d74158c8/bigdl_friesian_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ce/33/80fa1116f01bf2aa834355e1d286d17fefde8be08c07296cb5593469d8d9/bigdl_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-friesian-spark3/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:32:40] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-08-07 15:32:40] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.1.2.tar.gz tmp/pytest-frappe-0.1.3.tar.gz --markdown 20230807/p/pytest-frappe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 15:32:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/8c/4c/7c8e196799b8f50cec1179628e7bb382f60f4e1986a10bcd16a03a9ba45f/bigdl_chronos_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:32:41] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-08-07 15:32:41] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-spark3/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:32:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-08-07 15:32:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-chronos-spark3/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:32:41] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.6.0.tar.gz]
+[2023-08-07 15:32:41] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.6.1.tar.gz]
+[2023-08-07 15:32:41] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-08-07 15:32:42] INFO root fetch - processPackages [pytest-frappe]: Remove: archive file [/home/abi/fetcher/tmp/pytest-frappe-0.1.2.tar.gz]
+[2023-08-07 15:32:42] INFO root fetch - processPackages [pytest-frappe]: Remove: archive file [/home/abi/fetcher/tmp/pytest-frappe-0.1.3.tar.gz]
+[2023-08-07 15:32:42] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-08-07 15:32:42] INFO root fetch - main [MainThread]: Store serial: [19205990]
