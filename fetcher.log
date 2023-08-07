@@ -10093,3 +10093,149 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:49:43] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.3.tar.gz]
 [2023-08-07 09:49:43] INFO root fetch - main [MainThread]: End processing [pykoi]: success
 [2023-08-07 09:49:43] INFO root fetch - main [MainThread]: Store serial: [19201978]
+[2023-08-07 09:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201978]
+[2023-08-07 09:54:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-picking-origin-reference-purchase
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphractal
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raftify
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xplorts
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d2y
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zj-utils-zjj421
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: basicthainlp
+[2023-08-07 09:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monthify
+[2023-08-07 09:54:52] INFO root fetch - processPackages [xplorts]: New version: [0.8] Old Version: [0.7]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [raftify]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-07 09:54:52] WARNING root fetch - processPackages [odoo-addon-stock-picking-origin-reference-purchase]: Skipping, unable to determine old version
+[2023-08-07 09:54:52] INFO root fetch - processPackages [odoo-addon-stock-picking-origin-reference-purchase]: Start processing: tf-nightly-cpu
+[2023-08-07 09:54:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-origin-reference-purchase] error
+[2023-08-07 09:54:52] INFO root fetch - processPackages [zj-utils-zjj421]: New version: [0.0.9] Old Version: [0.0.11]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [basicthainlp]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [monthify]: New version: [0.4.8] Old Version: [0.4.6]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/20/fa/360cdac36772a9f85b658a3d1da35a3bc4372fbeae816243c5840f13197e/raftify-0.0.4-py3-none-any.whl
+[2023-08-07 09:54:52] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-07 09:54:52] INFO root fetch - processPackages [xplorts]: Downloading https://files.pythonhosted.org/packages/dc/6e/b479670ffeba150f04fe5f1e4ec1519e745e1d81a82191db394b13376793/xplorts-0.7.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.15.0.dev20230807] Old Version: [2.15.0.dev20230806]
+[2023-08-07 09:54:52] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/20/c0/994a443be6d986439674449ed5ccbf45651c73cdc1b14bf9fe1a2702eedd/ns_asphalt9-0.3.3.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [zj-utils-zjj421]: Downloading https://files.pythonhosted.org/packages/82/1a/0329b9a9c365a43b7f4b57bd35d24067311bd1abd456ca3bb370b9c6025b/zj_utils_zjj421-0.0.11.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [basicthainlp]: Downloading https://files.pythonhosted.org/packages/49/a1/4bbec376f49a3677cb97e28e7ef53fa7dc12919a78963caac0927d0ffa60/basicthainlp-0.3.5.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/a4/96/905585a4ea3c7bf3c64ca837aed497ee994dd3dc1754a55e33212ee40e95/monthify-0.4.6.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/16/e6/8682662d8532ecb27ff6d0ebbcda59ff0c2b4b5b40ebc018667df2e87e6f/d2y-0.2.18.tar.gz
+[2023-08-07 09:54:52] WARNING root fetch - processPackages [basicthainlp]: Skipping package: exceeds size limit 35224348>=10485760
+[2023-08-07 09:54:52] INFO root fetch - processPackages [basicthainlp]: Start processing: nonebot-plugin-chatrecorder
+[2023-08-07 09:54:52] INFO root fetch - main [MainThread]: End processing [basicthainlp] error
+[2023-08-07 09:54:52] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-07 09:54:52] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d8/93/0c7928ecbb9b62a6a84d3232bab424ae9c19dee2f9251a5be6ff6cd54b41/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl
+[2023-08-07 09:54:52] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/8a/e9/974e571694ecb9c8a48c53b07ffd0d356898cad6b5de841775abd27fad61/raftify-0.0.5-py3-none-any.whl
+[2023-08-07 09:54:52] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-08-07 09:54:53] INFO root fetch - processPackages [xplorts]: Downloading https://files.pythonhosted.org/packages/b5/ad/66945cef004bb770e211bbc37c584df48d48925052e1d98457580dd572d0/xplorts-0.8.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/47/7a/6a1f573225abb56456ce4d74eee94269de371dc453c417a06e39893f69b1/ns_asphalt9-0.3.4.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-07 09:54:53] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.4-py3-none-any.whl.zip tmp/raftify-0.0.5-py3-none-any.whl.zip --markdown 20230807/r/raftify/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/da/89/1e62d53876052231007e9d62f8b9a907503442c8163c67a066b6ce192e88/monthify-0.4.8.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230807/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [zj-utils-zjj421]: Downloading https://files.pythonhosted.org/packages/4e/a5/148756d769b6f160970ff1a105b7a29a0134ebbcf447b188c600ee056ddb/zj_utils_zjj421-0.0.9.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/9c/d2/6c1bda335a86941c322124a697e307d2aae5d36e6937d6e1b8df7cf2a9e3/d2y-0.2.24.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.3.3.tar.gz tmp/ns_asphalt9-0.3.4.tar.gz --markdown 20230807/n/ns-asphalt9/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Downloading https://files.pythonhosted.org/packages/87/cb/2ab8c33ef5119ce1fee30ce9501f0dc5b047b080f5cfcc40a6f05d644e39/nonebot_plugin_chatrecorder-0.2.5.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f9/2d/4b3c888bb79a9e3204627f1144714af06716c24dc786e5b5b4701a7a4edc/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl
+[2023-08-07 09:54:53] INFO root fetch - processPackages [zj-utils-zjj421]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [zj-utils-zjj421]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zj_utils_zjj421-0.0.11.tar.gz tmp/zj_utils_zjj421-0.0.9.tar.gz --markdown 20230807/z/zj-utils-zjj421/0.0.11-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230807/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [monthify]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [monthify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monthify-0.4.6.tar.gz tmp/monthify-0.4.8.tar.gz --markdown 20230807/m/monthify/0.4.6-0.4.8/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230807/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip --markdown 20230807/t/tf-nightly-cpu/2.15.0.dev20230806-2.15.0.dev20230807/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [xplorts]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [xplorts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplorts-0.7.tar.gz tmp/xplorts-0.8.tar.gz --markdown 20230807/x/xplorts/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-07 09:54:53] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Downloading https://files.pythonhosted.org/packages/7b/b8/0437a44b614d49a46270bef74583ed470244d3880b64fc95bc274390b11a/nonebot_plugin_chatrecorder-0.3.0.tar.gz
+[2023-08-07 09:54:53] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: executing diffoscope
+[2023-08-07 09:54:53] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chatrecorder-0.2.5.tar.gz tmp/nonebot_plugin_chatrecorder-0.3.0.tar.gz --markdown 20230807/n/nonebot-plugin-chatrecorder/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 09:54:54] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-07 09:54:54] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-07 09:54:54] INFO root fetch - processPackages [sphractal]: Start processing: namekoplus
+[2023-08-07 09:54:54] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-07 09:54:54] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 09:54:54] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.4-py3-none-any.whl.zip]
+[2023-08-07 09:54:54] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.5-py3-none-any.whl.zip]
+[2023-08-07 09:54:54] INFO root fetch - processPackages [raftify]: Start processing: wafermap-clustering
+[2023-08-07 09:54:54] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [zj-utils-zjj421]: Remove: archive file [/home/abi/fetcher/tmp/zj_utils_zjj421-0.0.11.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [zj-utils-zjj421]: Remove: archive file [/home/abi/fetcher/tmp/zj_utils_zjj421-0.0.9.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [zj-utils-zjj421]: Start processing: xiaoranli
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [zj-utils-zjj421]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xiaoranli]: New version: [7.2.1] Old Version: [7.1.3]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/42/91/66e0786afa69bbdde2313ad19470ba4dde65c5284f2da42246da353e97a7/xiaoranli-7.1.3-py3-none-any.whl
+[2023-08-07 09:54:55] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.3.3.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.3.4.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 09:54:55] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 09:54:55] INFO root fetch - processPackages [ns-asphalt9]: Start processing: xdat
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [d2y]: Remove: archive file [/home/abi/fetcher/tmp/d2y-0.2.18.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [d2y]: Remove: archive file [/home/abi/fetcher/tmp/d2y-0.2.24.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: terminal-manager
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.4.6.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.4.8.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [monthify]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chatrecorder-0.2.5.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [nonebot-plugin-chatrecorder]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chatrecorder-0.3.0.tar.gz]
+[2023-08-07 09:54:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatrecorder]: success
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/1b/19/09ab4c809ffd418f2698eafaffa5fcedf2a8f4170996057396fe17858d86/xiaoranli-7.2.1-py3-none-any.whl
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [terminal-manager]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-7.1.3-py3-none-any.whl.zip tmp/xiaoranli-7.2.1-py3-none-any.whl.zip --markdown 20230807/x/xiaoranli/7.1.3-7.2.1/diff.md --exclude *.pyd
+[2023-08-07 09:54:55] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/22/a6/0db9c759d9edb1fda66033c49c7c90c400fb06d0e7547659020d6be88106/terminal_manager-0.9.3.tar.gz
+[2023-08-07 09:54:55] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-07 09:54:55] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230807/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-07 09:54:56] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/08/ba/f638de52f43e608c50d5eeba0a0442b360a45a50ae3f846545a2b2455f7c/terminal_manager-0.9.4.tar.gz
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-08-07 09:54:56] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-08-07 09:54:56] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.9.3.tar.gz tmp/terminal_manager-0.9.4.tar.gz --markdown 20230807/t/terminal-manager/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xplorts]: Remove: archive file [/home/abi/fetcher/tmp/xplorts-0.7.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xplorts]: Remove: archive file [/home/abi/fetcher/tmp/xplorts-0.8.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - main [MainThread]: End processing [xplorts]: success
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230807/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 09:54:56] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.3-py3-none-any.whl.zip]
+[2023-08-07 09:54:56] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.2.1-py3-none-any.whl.zip]
+[2023-08-07 09:54:56] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-08-07 09:54:56] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-07 09:54:56] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-07 09:54:57] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.3.tar.gz]
+[2023-08-07 09:54:57] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.4.tar.gz]
+[2023-08-07 09:54:57] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-08-07 09:54:57] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-08-07 09:54:57] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-08-07 09:54:57] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-08-07 09:54:58] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-07 09:54:58] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-07 09:54:58] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-07 09:54:58] INFO root fetch - main [MainThread]: Store serial: [19202029]
