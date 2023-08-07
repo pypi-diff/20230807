@@ -4656,3 +4656,198 @@
 [2023-08-07 03:22:19] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0rc0.tar.gz]
 [2023-08-07 03:22:19] INFO root fetch - main [MainThread]: End processing [kserve]: success
 [2023-08-07 03:22:19] INFO root fetch - main [MainThread]: Store serial: [19199388]
+[2023-08-07 03:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199388]
+[2023-08-07 03:27:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: screcode
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyagrum-nightly
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioregistry
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: screcode
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfontingpackagesV2
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-us
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atksh-utils
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-define
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: screcode
+[2023-08-07 03:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sol-orm-lib
+[2023-08-07 03:27:28] INFO root fetch - processPackages [atksh-utils]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [bioregistry]: New version: [0.9.96] Old Version: [0.9.95]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [policyengine-us]: New version: [0.410.0] Old Version: [0.409.3]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyfontingpackagesV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [sol-orm-lib]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [python-define]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/a0/7d/361b341f3fb155d00da1bac83f71cdc3c1e92a32c542d32c8e90656c0772/atksh-utils-0.3.5.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: New version: [0.1.4.dev202308070125] Old Version: [0.1.4]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: New version: [0.1.4.dev202308070125] Old Version: [0.1.4]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: New version: [0.1.4.dev202308070125] Old Version: [0.1.4]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d6/fd/ab8bb7554d495a039f8e5d1a2d7ce9f13df43dfd1fb1b44a68b60aa75d24/policyengine-us-0.409.3.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202308071690302491] Old Version: [1.9.0.9.dev202308061690302491]
+[2023-08-07 03:27:29] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4c/a1/7f27a1715c2793fb9156f793615252a0572e412c161ace1ce53db40df3fe/bioregistry-0.9.95.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/90/23196940edd0e8402459f602b6792bf5a2a7dd02bb62e8458bde5f653125/screcode-0.1.4.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyfontingpackagesV2]: Downloading https://files.pythonhosted.org/packages/64/04/fa816a017a17875c29a559bee954f5e5619a0a84ae09936f633b2c1a1cf6/pyfontingpackagesV2-1.0.0.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/90/23196940edd0e8402459f602b6792bf5a2a7dd02bb62e8458bde5f653125/screcode-0.1.4.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [sol-orm-lib]: Downloading https://files.pythonhosted.org/packages/a8/bd/d87eacbcd169ce3c2b6871ce1c5bcd9dd0a3195c71c648beb8c55da6c015/sol_orm_lib-0.1.2.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/38/72/eb89e52ab6adb7eee0d69bb6078b33e641cb76fb65e6becbef54db42d3d7/python-define-1.1.2.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/90/23196940edd0e8402459f602b6792bf5a2a7dd02bb62e8458bde5f653125/screcode-0.1.4.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/72/c7/6018a5505bb1b346e71b135af03ae776f680686818c6f415b68a3fa865f2/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl
+[2023-08-07 03:27:29] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/3e/98/a748894a0bd24e44d48e0e6cc59638d2d375c1e925f0327faf735cdabc8b/atksh-utils-0.4.0.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-07 03:27:29] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.3.5.tar.gz tmp/atksh-utils-0.4.0.tar.gz --markdown 20230807/a/atksh-utils/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyfontingpackagesV2]: Downloading https://files.pythonhosted.org/packages/3d/c4/1e9bf9025b2fe42742a3c4bd0be3c66d9e61ebab31646168817f6880cf94/pyfontingpackagesV2-1.1.0.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [sol-orm-lib]: Downloading https://files.pythonhosted.org/packages/25/81/7a11b01bcb974b0dd46ba72535bbc6539d292571bbb740800544fdced6e7/sol_orm_lib-0.1.3.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/0d/a4/73f693560d88fb77dfff60b334baaf376f31a5cb3f7adc806680aebf3da1/python-define-1.1.3.tar.gz
+[2023-08-07 03:27:29] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/d5/0e/d0cbaf8757312066ad3e4e14fbdc77db4cb3ad9e60a913a786b49e344227/pyAgrum_nightly-1.9.0.9.dev202308071690302491-cp39-cp39-win_amd64.whl
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/72/76/1c1d5e2b5ac97bd183232b5ea7d6b22d5d77fbb51ffbe7155f8fb4b4553d/screcode-0.1.4.dev202308070125-py3-none-any.whl
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/72/76/1c1d5e2b5ac97bd183232b5ea7d6b22d5d77fbb51ffbe7155f8fb4b4553d/screcode-0.1.4.dev202308070125-py3-none-any.whl
+[2023-08-07 03:27:29] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/72/76/1c1d5e2b5ac97bd183232b5ea7d6b22d5d77fbb51ffbe7155f8fb4b4553d/screcode-0.1.4.dev202308070125-py3-none-any.whl
+[2023-08-07 03:27:30] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e0/a2/31f5b73619ea21387294c1d646b5c676de5222564e86ae3ecb6c7e9bcc5d/policyengine-us-0.410.0.tar.gz
+[2023-08-07 03:27:30] INFO root fetch - processPackages [pyfontingpackagesV2]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [pyfontingpackagesV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfontingpackagesV2-1.0.0.tar.gz tmp/pyfontingpackagesV2-1.1.0.tar.gz --markdown 20230807/p/pyfontingpackagesV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [sol-orm-lib]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [sol-orm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sol_orm_lib-0.1.2.tar.gz tmp/sol_orm_lib-0.1.3.tar.gz --markdown 20230807/s/sol-orm-lib/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.1.2.tar.gz tmp/python-define-1.1.3.tar.gz --markdown 20230807/p/python-define/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.4.tar.gz tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.1.4-0.1.4.dev202308070125/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.4.tar.gz tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.1.4-0.1.4.dev202308070125/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.4.tar.gz tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip --markdown 20230807/s/screcode/0.1.4-0.1.4.dev202308070125/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202308071690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230807/p/pyagrum-nightly/1.9.0.9.dev202308061690302491-1.9.0.9.dev202308071690302491/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-07 03:27:30] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.409.3.tar.gz tmp/policyengine-us-0.410.0.tar.gz --markdown 20230807/p/policyengine-us/0.409.3-0.410.0/diff.md --exclude *.pyd
+[2023-08-07 03:27:30] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/48/3a/7ab0975f6c89bea709b279c9e39ef3be5439cfec168dbf3a614dac397663/bioregistry-0.9.96.tar.gz
+[2023-08-07 03:27:30] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.5.tar.gz]
+[2023-08-07 03:27:30] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.4.0.tar.gz]
+[2023-08-07 03:27:30] INFO root fetch - processPackages [atksh-utils]: Start processing: ofscraper
+[2023-08-07 03:27:30] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-07 03:27:30] INFO root fetch - processPackages [ofscraper]: New version: [3.0] Old Version: [2.7.9]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [sol-orm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sol_orm_lib-0.1.2.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [sol-orm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sol_orm_lib-0.1.3.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [sol-orm-lib]: Start processing: pyfontingpackagesV2
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [sol-orm-lib]: success
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/40/f8/9d11c48ba4f944a7c5f69629bae3b4d8548230970873e828fcea27d61aec/ofscraper-2.7.9.tar.gz
+[2023-08-07 03:27:31] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.4.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.4.dev202308070125-py3-none-any.whl.zip]
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: Remove: archive file [/home/abi/fetcher/tmp/pyfontingpackagesV2-1.0.0.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: Remove: archive file [/home/abi/fetcher/tmp/pyfontingpackagesV2-1.1.0.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [pyfontingpackagesV2]: success
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: Downloading https://files.pythonhosted.org/packages/3d/c4/1e9bf9025b2fe42742a3c4bd0be3c66d9e61ebab31646168817f6880cf94/pyfontingpackagesV2-1.1.0.tar.gz
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-07 03:27:31] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.1.2.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.1.3.tar.gz]
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2023-08-07 03:27:31] ERROR root fetch - processPackages [screcode]: Diffoscope failed: time="2023-08-07T03:27:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+gzip: tmp/screcode-0.1.4.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 130, in comparisons
+    my_members = OrderedDict(self.get_adjusted_members_sizes())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/screcode-0.1.4.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [screcode] error
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: executing diffoscope
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyfontingpackagesV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfontingpackagesV2-1.0.0.tar.gz tmp/pyfontingpackagesV2-1.1.0.tar.gz --markdown 20230807/p/pyfontingpackagesV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 03:27:31] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f8/36/8815e21ddbe3f0de1f9be48d963f3830f7e351553f3aec62bed7abcc4df9/ofscraper-3.0.tar.gz
+[2023-08-07 03:27:31] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-07 03:27:31] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.7.9.tar.gz tmp/ofscraper-3.0.tar.gz --markdown 20230807/o/ofscraper/2.7.9-3.0/diff.md --exclude *.pyd
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 03:27:31] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202308071690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 03:27:31] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-08-07 03:27:31] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-08-07 03:27:31] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.95.tar.gz tmp/bioregistry-0.9.96.tar.gz --markdown 20230807/b/bioregistry/0.9.95-0.9.96/diff.md --exclude *.pyd
+[2023-08-07 03:27:32] ERROR root fetch - processPackages [pyfontingpackagesV2]: Diffoscope failed: time="2023-08-07T03:27:31+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pyfontingpackagesV2-1.0.0.tar.gz: No such file or directory
+
+[2023-08-07 03:27:32] INFO root fetch - main [MainThread]: End processing [pyfontingpackagesV2] error
+[2023-08-07 03:27:33] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.9.tar.gz]
+[2023-08-07 03:27:33] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.tar.gz]
+[2023-08-07 03:27:33] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-07 03:27:37] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.95.tar.gz]
+[2023-08-07 03:27:37] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.96.tar.gz]
+[2023-08-07 03:27:37] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-08-07 03:28:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.3.tar.gz]
+[2023-08-07 03:28:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.410.0.tar.gz]
+[2023-08-07 03:28:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-07 03:28:02] INFO root fetch - main [MainThread]: Store serial: [19199477]
