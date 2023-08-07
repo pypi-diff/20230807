@@ -5905,3 +5905,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:52:13] INFO root fetch - processPackages [HTMLTestRunner-rv]: Remove: archive file [/home/abi/fetcher/tmp/HTMLTestRunner-rv-1.1.0.tar.gz]
 [2023-08-07 04:52:13] INFO root fetch - main [MainThread]: End processing [HTMLTestRunner-rv]: success
 [2023-08-07 04:52:13] INFO root fetch - main [MainThread]: Store serial: [19199896]
+[2023-08-07 04:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199896]
+[2023-08-07 04:57:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikichangewatcher
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robin-stocks
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WinDbg-Copilot
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redisvl
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfgparser
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vector-vault
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arm-mango
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neurosity
+[2023-08-07 04:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: selenium-custom
+[2023-08-07 04:57:21] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 04:57:22] INFO root fetch - processPackages [wikichangewatcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-07 04:57:22] WARNING root fetch - processPackages [selenium-custom]: Skipping, unable to determine old version
+[2023-08-07 04:57:22] INFO root fetch - main [MainThread]: End processing [selenium-custom] error
+[2023-08-07 04:57:22] INFO root fetch - processPackages [neurosity]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-08-07 04:57:22] INFO root fetch - processPackages [vector-vault]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-08-07 04:57:22] WARNING root fetch - processPackages [redisvl]: Skipping, unable to determine old version
+[2023-08-07 04:57:22] INFO root fetch - main [MainThread]: End processing [redisvl] error
+[2023-08-07 04:57:22] INFO root fetch - processPackages [cfgparser]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-07 04:57:22] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [arm-mango]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-08-07 04:57:22] INFO root fetch - processPackages [robin-stocks]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-08-07 04:57:22] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/38/99/08ed5e63f8bf3129c0081e1c902126244c2853cc96416cc831d140c1ad5c/wikichangewatcher-0.1.0-py3-none-any.whl
+[2023-08-07 04:57:22] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/39/c5/4eff9563fc196a625bd203f69cee5b82bab679dbfd259d0aec5d6089d0ce/neurosity-2.0.1.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/5f/13/0c692044cdd9a0e96f4bb9aeea8a433e85a3d8469618fff8e823c9c2edef/vector_vault-2.1.7.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [cfgparser]: Downloading https://files.pythonhosted.org/packages/a5/b3/89ffef973e84f7da8754e5bdd89f479d33320460ab803deac306f6b7022c/cfgparser-1.0.4.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [arm-mango]: Downloading https://files.pythonhosted.org/packages/ba/3d/c794a3678b4f53896003e70068d0e3efa14a06f0adfc3eba4b6dd8146109/arm_mango-1.3.2.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/7f/30/afe4565b8cfd21dd4feb3f1b5643db17f5756b072b9069d8c799867e4b45/robin_stocks-3.0.5.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c8/9a/112e96c2a7a62f47268bd4b6f41c6cc45fa75993eedea533647fd9be9801/vector_vault-2.1.8.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 04:57:22] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 04:57:22] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/35/e0/a5ac9658cc6d8c4f700ef27d4e5656ffda79a583171f046cd9930834b822/wikichangewatcher-0.2.0-py3-none-any.whl
+[2023-08-07 04:57:22] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-07 04:57:22] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.7.tar.gz tmp/vector_vault-2.1.8.tar.gz --markdown 20230807/v/vector-vault/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-08-07 04:57:22] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/47/75/314916d86187165a5cf7d8754d2ceff6a312c78a24c01050acc0e4cfd8f1/neurosity-2.1.0.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [arm-mango]: Downloading https://files.pythonhosted.org/packages/37/01/a0d1b7c3b7ad37f280496bf51bd4bc1467f94d73fe873ae3407a751a562a/arm_mango-1.4.0.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [cfgparser]: Downloading https://files.pythonhosted.org/packages/db/ca/324d1996ac9ee36e63001f9e26cf462f52d4ad48f9a8ed47c9743c8a284b/cfgparser-1.0.5.tar.gz
+[2023-08-07 04:57:22] INFO root fetch - processPackages [wikichangewatcher]: executing diffoscope
+[2023-08-07 04:57:22] INFO root fetch - processPackages [wikichangewatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip tmp/wikichangewatcher-0.2.0-py3-none-any.whl.zip --markdown 20230807/w/wikichangewatcher/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 04:57:22] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/c1/63/83ea00b59ef19fffc3ff7d61259ec1d4a512ac4f4bc70155b128f97cb5da/robin_stocks-3.0.6.tar.gz
+[2023-08-07 04:57:23] INFO root fetch - processPackages [neurosity]: executing diffoscope
+[2023-08-07 04:57:23] INFO root fetch - processPackages [neurosity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosity-2.0.1.tar.gz tmp/neurosity-2.1.0.tar.gz --markdown 20230807/n/neurosity/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-08-07 04:57:23] INFO root fetch - processPackages [cfgparser]: executing diffoscope
+[2023-08-07 04:57:23] INFO root fetch - processPackages [cfgparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgparser-1.0.4.tar.gz tmp/cfgparser-1.0.5.tar.gz --markdown 20230807/c/cfgparser/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-07 04:57:23] INFO root fetch - processPackages [arm-mango]: executing diffoscope
+[2023-08-07 04:57:23] INFO root fetch - processPackages [arm-mango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm_mango-1.3.2.tar.gz tmp/arm_mango-1.4.0.tar.gz --markdown 20230807/a/arm-mango/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-08-07 04:57:23] INFO root fetch - processPackages [robin-stocks]: executing diffoscope
+[2023-08-07 04:57:23] INFO root fetch - processPackages [robin-stocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_stocks-3.0.5.tar.gz tmp/robin_stocks-3.0.6.tar.gz --markdown 20230807/r/robin-stocks/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-08-07 04:57:23] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 04:57:23] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 04:57:23] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 04:57:23] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.7.tar.gz]
+[2023-08-07 04:57:23] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.8.tar.gz]
+[2023-08-07 04:57:23] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-07 04:57:23] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip]
+[2023-08-07 04:57:23] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.2.0-py3-none-any.whl.zip]
+[2023-08-07 04:57:23] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
+[2023-08-07 04:57:24] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-2.0.1.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-2.1.0.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - main [MainThread]: End processing [neurosity]: success
+[2023-08-07 04:57:24] INFO root fetch - processPackages [arm-mango]: Remove: archive file [/home/abi/fetcher/tmp/arm_mango-1.3.2.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - processPackages [arm-mango]: Remove: archive file [/home/abi/fetcher/tmp/arm_mango-1.4.0.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - main [MainThread]: End processing [arm-mango]: success
+[2023-08-07 04:57:24] INFO root fetch - processPackages [cfgparser]: Remove: archive file [/home/abi/fetcher/tmp/cfgparser-1.0.4.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - processPackages [cfgparser]: Remove: archive file [/home/abi/fetcher/tmp/cfgparser-1.0.5.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - main [MainThread]: End processing [cfgparser]: success
+[2023-08-07 04:57:24] INFO root fetch - processPackages [robin-stocks]: Remove: archive file [/home/abi/fetcher/tmp/robin_stocks-3.0.5.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - processPackages [robin-stocks]: Remove: archive file [/home/abi/fetcher/tmp/robin_stocks-3.0.6.tar.gz]
+[2023-08-07 04:57:24] INFO root fetch - main [MainThread]: End processing [robin-stocks]: success
+[2023-08-07 04:57:24] INFO root fetch - main [MainThread]: Store serial: [19199923]
