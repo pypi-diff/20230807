@@ -7241,3 +7241,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:44:32] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.6-py3-none-any.whl.zip]
 [2023-08-07 06:44:32] INFO root fetch - main [MainThread]: End processing [processoptim]: success
 [2023-08-07 06:44:32] INFO root fetch - main [MainThread]: Store serial: [19200524]
+[2023-08-07 06:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200524]
+[2023-08-07 06:49:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydisadm
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: techo
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: creart-graia
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chlearn
+[2023-08-07 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monsterapi
+[2023-08-07 06:49:41] INFO root fetch - processPackages [eliasliu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 06:49:41] INFO root fetch - processPackages [creart-graia]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 06:49:41] WARNING root fetch - processPackages [chlearn]: Skipping, unable to determine old version
+[2023-08-07 06:49:41] INFO root fetch - main [MainThread]: End processing [chlearn] error
+[2023-08-07 06:49:41] WARNING root fetch - processPackages [monsterapi]: Skipping, unable to determine old version
+[2023-08-07 06:49:41] INFO root fetch - main [MainThread]: End processing [monsterapi] error
+[2023-08-07 06:49:41] WARNING root fetch - processPackages [techo]: Skipping, unable to determine old version
+[2023-08-07 06:49:41] INFO root fetch - main [MainThread]: End processing [techo] error
+[2023-08-07 06:49:41] INFO root fetch - processPackages [pydisadm]: New version: [2.0.0] Old Version: [1.3.2]
+[2023-08-07 06:49:41] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/c6/1f/7d360dc475d6035149d0b95307f7b5d7743b979f0b7f496b08c69fc23e11/eliasliu-0.1.5.tar.gz
+[2023-08-07 06:49:41] INFO root fetch - processPackages [creart-graia]: Downloading https://files.pythonhosted.org/packages/be/2a/33cda419e58c6cce564c3fa7e1a5f954c8db9ff109ed8d0a3a075669a13d/creart-graia-0.1.5.tar.gz
+[2023-08-07 06:49:41] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/c7/5b/4f88a2106c3bc3f715a7f5bf819859c1d7c776b38d0178bdb3f1de44cfe3/pydisadm-1.3.2.tar.gz
+[2023-08-07 06:49:41] INFO root fetch - processPackages [creart-graia]: Downloading https://files.pythonhosted.org/packages/b1/ae/5a58a5d03e855e70ebde77c76f143bebec051c14945aa352a334420db35e/creart-graia-0.1.6.tar.gz
+[2023-08-07 06:49:41] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/00/02/0d96bb91eba4b307db0acec62881740411edeea4cb240ad19437091dbc3d/eliasliu-0.1.6.tar.gz
+[2023-08-07 06:49:42] INFO root fetch - processPackages [creart-graia]: executing diffoscope
+[2023-08-07 06:49:42] INFO root fetch - processPackages [creart-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creart-graia-0.1.5.tar.gz tmp/creart-graia-0.1.6.tar.gz --markdown 20230807/c/creart-graia/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 06:49:42] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 06:49:42] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.5.tar.gz tmp/eliasliu-0.1.6.tar.gz --markdown 20230807/e/eliasliu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 06:49:42] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/9d/88/8cea2ab08c4ab740cdbfa11c90a834fb9d6bf477b98cfc3e9ad14f1db7d0/pydisadm-2.0.0.tar.gz
+[2023-08-07 06:49:42] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-08-07 06:49:42] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.3.2.tar.gz tmp/pydisadm-2.0.0.tar.gz --markdown 20230807/p/pydisadm/1.3.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 06:49:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.5.tar.gz]
+[2023-08-07 06:49:42] INFO root fetch - processPackages [creart-graia]: Remove: archive file [/home/abi/fetcher/tmp/creart-graia-0.1.5.tar.gz]
+[2023-08-07 06:49:42] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.6.tar.gz]
+[2023-08-07 06:49:42] INFO root fetch - processPackages [creart-graia]: Remove: archive file [/home/abi/fetcher/tmp/creart-graia-0.1.6.tar.gz]
+[2023-08-07 06:49:42] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 06:49:42] INFO root fetch - main [MainThread]: End processing [creart-graia]: success
+[2023-08-07 06:49:43] INFO root fetch - processPackages [pydisadm]: Remove: archive file [/home/abi/fetcher/tmp/pydisadm-1.3.2.tar.gz]
+[2023-08-07 06:49:43] INFO root fetch - processPackages [pydisadm]: Remove: archive file [/home/abi/fetcher/tmp/pydisadm-2.0.0.tar.gz]
+[2023-08-07 06:49:43] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-08-07 06:49:43] INFO root fetch - main [MainThread]: Store serial: [19200548]
