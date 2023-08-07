@@ -20302,3 +20302,260 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:43:42] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-23.8.8.zip]
 [2023-08-07 15:43:42] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
 [2023-08-07 15:43:42] INFO root fetch - main [MainThread]: Store serial: [19206097]
+[2023-08-07 15:48:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206097]
+[2023-08-07 15:48:51] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-bma400
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrex
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-isl29125
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-selectable-image-gallery
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aio-pika
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databricks-connect
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquadp
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bw-matchbox
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-stts22h
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipykernel
+[2023-08-07 15:48:51] INFO root fetch - processPackages [bw-matchbox]: New version: [1.0.0] Old Version: [0.7.1]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [micropython-isl29125]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [ipykernel]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-07 15:48:51] WARNING root fetch - processPackages [streamlit-selectable-image-gallery]: Skipping, unable to determine old version
+[2023-08-07 15:48:51] INFO root fetch - processPackages [streamlit-selectable-image-gallery]: Start processing: syntaxlight
+[2023-08-07 15:48:51] INFO root fetch - main [MainThread]: End processing [streamlit-selectable-image-gallery] error
+[2023-08-07 15:48:51] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.44] Old Version: [9.1.43]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [cybrex]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [micropython-bma400]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [micropython-stts22h]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:48:51] WARNING root fetch - processPackages [pyquadp]: Skipping, unable to determine old version
+[2023-08-07 15:48:51] INFO root fetch - processPackages [pyquadp]: Start processing: TDCRPy
+[2023-08-07 15:48:51] INFO root fetch - main [MainThread]: End processing [pyquadp] error
+[2023-08-07 15:48:51] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/24/c3/d70e3c6c0d8589e402551bf64005d4f240c7f9830ad0393bbf04646351b3/bw_matchbox-0.7.1.tar.gz
+[2023-08-07 15:48:51] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 15:48:51] INFO root fetch - processPackages [aio-pika]: New version: [9.2.1] Old Version: [9.2.0]
+[2023-08-07 15:48:52] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/ad/94/b36a8a1f8f41444d213f781edd485b2d0aaca015edef14eb6f6ca408ece3/syntaxlight-0.1.3.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/90/c8/2c2cc16b3b8145aec61326c76e5ffb086a2a40aa7588f61623ad04fb4c5c/aio_pika-9.2.0.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-isl29125]: Downloading https://files.pythonhosted.org/packages/62/26/a020cfe1da90faec4fa8272971d302c0cc8cd194771979f09afb107b11c6/micropython-isl29125-0.1.1.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e0/22/d6c7267ebf529853bfc786eea6840c24164634d008d4a58ec4ddf0f8a633/ipykernel-6.9.1.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bma400]: Downloading https://files.pythonhosted.org/packages/5b/92/9e0a0072d36353eef2fcba58607e6ac5f287a1cccc635a42843b62a05b90/micropython-bma400-0.1.1.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-stts22h]: Downloading https://files.pythonhosted.org/packages/1f/43/48e9556e0f2ae84e06c8555e54dfa3a82fbaf12c241cd1776131c1f980b8/micropython-stts22h-0.1.1.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/bb/bc/a26fce234f93a9cb93cd264189db323b0f61581da2ad65fe841dbfc54806/cybrex-1.2.6.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/17/a3/0d723b666bdf337cdf5c8bc20b00a27e2bd603a835ff2dffab9c3a8d99ed/databricks-connect-9.1.43.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/30/19/0482d837661d402e58c84800158c2a24da2e96a87840226e24af006f0c08/aio_pika-9.2.1.tar.gz
+[2023-08-07 15:48:52] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257231459>=10485760
+[2023-08-07 15:48:52] INFO root fetch - processPackages [databricks-connect]: Start processing: micropython-bmi160
+[2023-08-07 15:48:52] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-08-07 15:48:52] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/23/49/ad32e5ac9b5161d3979518d4ad0d65fc91b8ad745bacf0d0c7318ea9fd33/syntaxlight-0.1.4.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-isl29125]: Downloading https://files.pythonhosted.org/packages/eb/1e/6cb96dc79972320a3ccdeb824ad08570f7f4b452c6145dc2231da24dcb92/micropython-isl29125-0.1.2.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bmi160]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:48:52] INFO root fetch - processPackages [aio-pika]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [aio-pika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_pika-9.2.0.tar.gz tmp/aio_pika-9.2.1.tar.gz --markdown 20230807/a/aio-pika/9.2.0-9.2.1/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/c1/d1/009f953d5fd3f504671b970d85bc1b091e3ebf8da57f2d7f2a068b427cd0/bw_matchbox-1.0.0.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bma400]: Downloading https://files.pythonhosted.org/packages/35/4c/95d6d0d036d6127a18de3ed6b52706252094da4553fbfba23af4739a1614/micropython-bma400-0.1.2.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-stts22h]: Downloading https://files.pythonhosted.org/packages/31/9e/735cb8f4fbbc38d143345c039668709225f0caadc33bec60c16c642724e9/micropython-stts22h-0.1.2.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/e3/49/01e100845bb465875a7d1c152830f8adce6ec1a5a489fd5a2236ea1bc50f/cybrex-1.3.0.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.3.tar.gz tmp/syntaxlight-0.1.4.tar.gz --markdown 20230807/s/syntaxlight/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-isl29125]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-isl29125]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-isl29125-0.1.1.tar.gz tmp/micropython-isl29125-0.1.2.tar.gz --markdown 20230807/m/micropython-isl29125/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230807/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bmi160]: Downloading https://files.pythonhosted.org/packages/97/8c/4f52d9575c79614f5f5d6ac3ed3559ec5e563e8cad1f29cf23f9a9c2b3e8/micropython-bmi160-0.1.1.tar.gz
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bma400]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-bma400]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bma400-0.1.1.tar.gz tmp/micropython-bma400-0.1.2.tar.gz --markdown 20230807/m/micropython-bma400/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-stts22h]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [micropython-stts22h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-stts22h-0.1.1.tar.gz tmp/micropython-stts22h-0.1.2.tar.gz --markdown 20230807/m/micropython-stts22h/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.2.6.tar.gz tmp/cybrex-1.3.0.tar.gz --markdown 20230807/c/cybrex/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 15:48:52] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-07 15:48:52] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-0.7.1.tar.gz tmp/bw_matchbox-1.0.0.tar.gz --markdown 20230807/b/bw-matchbox/0.7.1-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 15:48:53] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e7/b2/0db7e5e7c2de514de42f9a95a09b421d18b7cd6f4a69af19f4cf46c48d13/ipykernel-6.9.2.tar.gz
+[2023-08-07 15:48:53] INFO root fetch - processPackages [micropython-bmi160]: Downloading https://files.pythonhosted.org/packages/50/b2/59c774a6c841d3b157dc35c0686747d68dca4268c19fd84257e01b2f652f/micropython-bmi160-0.1.2.tar.gz
+[2023-08-07 15:48:53] INFO root fetch - processPackages [ipykernel]: executing diffoscope
+[2023-08-07 15:48:53] INFO root fetch - processPackages [ipykernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipykernel-6.9.1.tar.gz tmp/ipykernel-6.9.2.tar.gz --markdown 20230807/i/ipykernel/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:53] INFO root fetch - processPackages [micropython-bmi160]: executing diffoscope
+[2023-08-07 15:48:53] INFO root fetch - processPackages [micropython-bmi160]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bmi160-0.1.1.tar.gz tmp/micropython-bmi160-0.1.2.tar.gz --markdown 20230807/m/micropython-bmi160/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:54] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.2.0.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.2.1.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [aio-pika]: Start processing: bigdl-dllib
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [aio-pika]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [TDCRPy]: Start processing: vectice
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [vectice]: New version: [23.3.1.0] Old Version: [23.2.8.0]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/53/c7/d210e12ccee318d1a76e656f06101ebeea5320f82ac4ae0cb00e179e8785/bigdl-dllib-2.4.0b20230805.tar.gz
+[2023-08-07 15:48:54] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639134>=10485760
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-dllib]: Start processing: aws-network-firewall
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-08-07 15:48:54] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.2.6.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.3.0.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [cybrex]: Start processing: bigdl-orca
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-stts22h]: Remove: archive file [/home/abi/fetcher/tmp/micropython-stts22h-0.1.1.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-stts22h]: Remove: archive file [/home/abi/fetcher/tmp/micropython-stts22h-0.1.2.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-stts22h]: Start processing: bigdl-friesian
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [micropython-stts22h]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-isl29125]: Remove: archive file [/home/abi/fetcher/tmp/micropython-isl29125-0.1.1.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-isl29125]: Remove: archive file [/home/abi/fetcher/tmp/micropython-isl29125-0.1.2.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-isl29125]: Start processing: bigdl
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [micropython-isl29125]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-bma400]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma400-0.1.1.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-bma400]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bma400-0.1.2.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [micropython-bma400]: Start processing: chroma-store
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [micropython-bma400]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.3.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.4.tar.gz]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [syntaxlight]: Start processing: bigdl-dllib-spark2
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-07 15:48:54] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/22/16/f3a9eb352ed1fed5f00a456b5629a098230029f76d701b9b897601fad739/vectice-23.2.8.0.tar.gz
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/f1/cf/d9fe40b0e566456be16e1c98a8cb877ed26924f8a36fa39cbce9d9b0419f/aws_network_firewall-0.7.2.tar.gz
+[2023-08-07 15:48:54] WARNING root fetch - processPackages [chroma-store]: Skipping, unable to determine old version
+[2023-08-07 15:48:54] INFO root fetch - processPackages [chroma-store]: Start processing: tikdan
+[2023-08-07 15:48:54] INFO root fetch - main [MainThread]: End processing [chroma-store] error
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230807] Old Version: [2.4.0b20230806]
+[2023-08-07 15:48:54] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.7.1.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.0.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bw-matchbox]: Start processing: TEST-TC
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/98/94/f3655e90d72d5de93816b22f97fa60aa630e5740a14a18c80ee2e898c83a/bigdl_orca-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/64/ff/3ae1fc54bc00749bba48bb83c6aafff5067583707b7a9f304bc6e9fd8d3c/aws_network_firewall-0.7.3.tar.gz
+[2023-08-07 15:48:55] WARNING root fetch - processPackages [tikdan]: Skipping, unable to determine old version
+[2023-08-07 15:48:55] INFO root fetch - processPackages [tikdan]: Start processing: bigdl-orca-spark2
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [tikdan] error
+[2023-08-07 15:48:55] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20374328>=10485760
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian-spark2
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-08-07 15:48:55] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [micropython-bmi160]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmi160-0.1.1.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [micropython-bmi160]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmi160-0.1.2.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [micropython-bmi160]: Start processing: databricks-connect
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [micropython-bmi160]: success
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/71/43/10d3cd8429a6ac216271dc4542d6571dc238e01f13753f56ac99d6c82150/bigdl_friesian-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/42/d5/bae993c3e5b58077619ebeb45ddcc01f0d18c565ce93fdf822dcebcf5f9a/bigdl-dllib-spark2-2.4.0b20230805.tar.gz
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:55] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639105>=10485760
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-chronos-spark2
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-08-07 15:48:55] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.44] Old Version: [9.1.43]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/9c/57/398653645d7d1ebf4143d590ce34d7f4cd735563c110d28216f829285297/vectice-23.3.1.0.tar.gz
+[2023-08-07 15:48:55] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-07 15:48:55] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-08-07 15:48:55] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.7.2.tar.gz tmp/aws_network_firewall-0.7.3.tar.gz --markdown 20230807/a/aws-network-firewall/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/4c/08/985b2958e2a2f523454ecd9eca4cc2f5cb1856ffb0c9895a8f78299e0d95/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/17/a3/0d723b666bdf337cdf5c8bc20b00a27e2bd603a835ff2dffab9c3a8d99ed/databricks-connect-9.1.43.tar.gz
+[2023-08-07 15:48:55] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.1.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.2.tar.gz]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [ipykernel]: Start processing: permit-broadcaster
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [ipykernel]: success
+[2023-08-07 15:48:55] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257231459>=10485760
+[2023-08-07 15:48:55] INFO root fetch - processPackages [databricks-connect]: Start processing: bigdl-spark2
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/8f/b4/879928126824b451eda5d032e727e51ad7c40b1726e60c1d9e3db3a7d19a/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-08-07 15:48:55] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.8.0.tar.gz tmp/vectice-23.3.1.0.tar.gz --markdown 20230807/v/vectice/23.2.8.0-23.3.1.0/diff.md --exclude *.pyd
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/2a/97/7170205bf90929cd7bf9862e36d2469ee15777274a4170284dbaea236ff8/bigdl_friesian-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/4c/7b/c6b55ae5bcb8ebf4f9c9e1250d6d8f457883f542920dd6779129e68d4866/bigdl_orca_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [permit-broadcaster]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 15:48:55] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20374406>=10485760
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: ehyd-tools
+[2023-08-07 15:48:55] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-08-07 15:48:55] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/18/47/17a9c1df9afff162dc52207a5a6b4437d674d32c0df55b9f5f39d3ae1c8d/bigdl-2.4.0b20230807-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-friesian/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:48:55] INFO root fetch - processPackages [ehyd-tools]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230807] Old Version: [2.4.0b20230806]
+[2023-08-07 15:48:55] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-07 15:48:55] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230807/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/43/46/85e4ae62a316edce4780ee1f5e7439af317eaacae171e61973260fecdcf7/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230807-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl/2.4.0b20230806-2.4.0b20230807/diff.md --exclude *.pyd
+[2023-08-07 15:48:55] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/4d/80/e012de3bf3aed07c593f941344eba1994ab4554a2a0fc1cf4383bb6e33c1/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [permit-broadcaster]: Downloading https://files.pythonhosted.org/packages/4b/28/6fd27871f1fa943bc300c20f61d2d23c105384b0a620d8cd524044b08ba2/permit-broadcaster-0.2.3.tar.gz
+[2023-08-07 15:48:56] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/580d1412fd21c2c68b5f2b81676f545b885a111295d8c0659364eae393ff/ehyd_tools-0.1.dev8-py3-none-any.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/7f/5d/26920df2a1e2698e724f83ae9f1929f4f81e21daffde75a4d5d4a2caa060/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-friesian-spark2/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/57/2d/7e283b3319b11c5c2588a3cdbe281b5cc060bebe377fd6c20ed55c7651f1/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/d5/7f/eb2c9715367f4900fcae5d70dcb5229bb013b8d51522e8a7d4d58c3f8c46/bigdl_chronos_spark2-2.4.0b20230807-py3-none-manylinux1_x86_64.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-spark2/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-07 15:48:56] INFO root fetch - processPackages [permit-broadcaster]: Downloading https://files.pythonhosted.org/packages/a1/05/8bd60264fe86e11a70d6e5781c34a229e1bd8d0ebc7f3bcc181e538c2262/permit-broadcaster-0.2.4.tar.gz
+[2023-08-07 15:48:56] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.2.tar.gz]
+[2023-08-07 15:48:56] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.7.3.tar.gz]
+[2023-08-07 15:48:56] INFO root fetch - processPackages [aws-network-firewall]: Start processing: databricks-connect
+[2023-08-07 15:48:56] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-08-07 15:48:56] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/fa/71/890662a4c7175c02291d438aaae2a96065aa0ae111835cbc5f33db1c3e23/ehyd_tools-0.1.dev9-py3-none-any.whl
+[2023-08-07 15:48:56] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.44] Old Version: [9.1.43]
+[2023-08-07 15:48:56] INFO root fetch - processPackages [permit-broadcaster]: executing diffoscope
+[2023-08-07 15:48:56] INFO root fetch - processPackages [permit-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-broadcaster-0.2.3.tar.gz tmp/permit-broadcaster-0.2.4.tar.gz --markdown 20230807/p/permit-broadcaster/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-08-07 15:48:56] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230807-py3-none-manylinux1_x86_64.whl.zip --markdown 20230807/b/bigdl-chronos-spark2/2.4.0b20230806-2.4.0b20230807/diff.md --exclude *.pyd
+[2023-08-07 15:48:56] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/17/a3/0d723b666bdf337cdf5c8bc20b00a27e2bd603a835ff2dffab9c3a8d99ed/databricks-connect-9.1.43.tar.gz
+[2023-08-07 15:48:56] INFO root fetch - processPackages [ehyd-tools]: executing diffoscope
+[2023-08-07 15:48:56] INFO root fetch - processPackages [ehyd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip --markdown 20230807/e/ehyd-tools/0.1.dev8-0.1.dev9/diff.md --exclude *.pyd
+[2023-08-07 15:48:56] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257231459>=10485760
+[2023-08-07 15:48:56] INFO root fetch - processPackages [databricks-connect]: Start processing: profile-instagram-graphql-imp-local-python-package-local
+[2023-08-07 15:48:56] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-08-07 15:48:56] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 15:48:56] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/c0/09/3b578a5c86e897494e827fe0dfb1478cc075eeed8eb3a39049bb84425516/profile-instagram-graphql-imp-local-python-package-local-0.0.3.tar.gz
+[2023-08-07 15:48:57] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230807-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [bigdl]: Start processing: micropython-ds1841
+[2023-08-07 15:48:57] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-08-07 15:48:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Downloading https://files.pythonhosted.org/packages/14/e6/f4c73322429a66b621e9282520ca91dda5d084758df1b4491e8f673225b6/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz
+[2023-08-07 15:48:57] INFO root fetch - processPackages [micropython-ds1841]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [TEST-TC]: Start processing: fastapi-websocket-pubsub
+[2023-08-07 15:48:57] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-07 15:48:57] INFO root fetch - processPackages [fastapi-websocket-pubsub]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: executing diffoscope
+[2023-08-07 15:48:57] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.3.tar.gz tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz --markdown 20230807/p/profile-instagram-graphql-imp-local-python-package-local/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 15:48:57] INFO root fetch - processPackages [micropython-ds1841]: Downloading https://files.pythonhosted.org/packages/98/bc/9f0494dbaaee08e874bdd8791c225a6895701c0d19edc7e910301c25bf69/micropython-ds1841-0.1.1.tar.gz
+[2023-08-07 15:48:57] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.8.0.tar.gz]
+[2023-08-07 15:48:57] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.3.1.0.tar.gz]
+[2023-08-07 15:48:57] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-08-07 15:48:57] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Downloading https://files.pythonhosted.org/packages/c2/54/b66288abc9df335ec6c7d2751841dbad89b45741677ee1d4940862668bb8/fastapi_websocket_pubsub-0.3.3.tar.gz
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-08-07 15:48:58] INFO root fetch - processPackages [permit-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/permit-broadcaster-0.2.3.tar.gz]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [permit-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/permit-broadcaster-0.2.4.tar.gz]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [permit-broadcaster]: success
+[2023-08-07 15:48:58] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Downloading https://files.pythonhosted.org/packages/58/73/160323f92a29fe1456a5778cd0e1f9fa627d4e28d5a5f5af5b60455d7fe8/fastapi_websocket_pubsub-0.3.4.tar.gz
+[2023-08-07 15:48:58] INFO root fetch - processPackages [micropython-ds1841]: Downloading https://files.pythonhosted.org/packages/ac/af/d400c191db608399a6158a6767b395b803d2a61a821e117607a9adfa7c0d/micropython-ds1841-0.1.2.tar.gz
+[2023-08-07 15:48:58] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [ehyd-tools]: success
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-08-07 15:48:58] INFO root fetch - processPackages [fastapi-websocket-pubsub]: executing diffoscope
+[2023-08-07 15:48:58] INFO root fetch - processPackages [fastapi-websocket-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_websocket_pubsub-0.3.3.tar.gz tmp/fastapi_websocket_pubsub-0.3.4.tar.gz --markdown 20230807/f/fastapi-websocket-pubsub/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-07 15:48:58] INFO root fetch - processPackages [micropython-ds1841]: executing diffoscope
+[2023-08-07 15:48:58] INFO root fetch - processPackages [micropython-ds1841]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-ds1841-0.1.1.tar.gz tmp/micropython-ds1841-0.1.2.tar.gz --markdown 20230807/m/micropython-ds1841/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:48:58] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.3.tar.gz]
+[2023-08-07 15:48:58] INFO root fetch - processPackages [profile-instagram-graphql-imp-local-python-package-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-instagram-graphql-imp-local-python-package-local-0.0.4.tar.gz]
+[2023-08-07 15:48:58] INFO root fetch - main [MainThread]: End processing [profile-instagram-graphql-imp-local-python-package-local]: success
+[2023-08-07 15:48:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230807-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-07 15:48:59] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-08-07 15:48:59] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_websocket_pubsub-0.3.3.tar.gz]
+[2023-08-07 15:48:59] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_websocket_pubsub-0.3.4.tar.gz]
+[2023-08-07 15:48:59] INFO root fetch - main [MainThread]: End processing [fastapi-websocket-pubsub]: success
+[2023-08-07 15:48:59] INFO root fetch - processPackages [micropython-ds1841]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds1841-0.1.1.tar.gz]
+[2023-08-07 15:48:59] INFO root fetch - processPackages [micropython-ds1841]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds1841-0.1.2.tar.gz]
+[2023-08-07 15:48:59] INFO root fetch - main [MainThread]: End processing [micropython-ds1841]: success
+[2023-08-07 15:48:59] INFO root fetch - main [MainThread]: Store serial: [19206213]
