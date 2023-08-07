@@ -19782,3 +19782,107 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:22:09] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip]
 [2023-08-07 15:22:09] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-08-07 15:22:09] INFO root fetch - main [MainThread]: Store serial: [19205872]
+[2023-08-07 15:27:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205872]
+[2023-08-07 15:27:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftmq
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clustaar.spellz.api-client
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autosubmitconfigparser
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tritium-remote
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-wavefront
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hugchat-api
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cca-zoo
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micropython-adxl343
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: supervisely
+[2023-08-07 15:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trailblazer
+[2023-08-07 15:27:19] WARNING root fetch - processPackages [clustaar.spellz.api-client]: Skipping, unable to determine old version
+[2023-08-07 15:27:19] INFO root fetch - processPackages [clustaar.spellz.api-client]: Start processing: pycmtensor
+[2023-08-07 15:27:19] INFO root fetch - main [MainThread]: End processing [clustaar.spellz.api-client] error
+[2023-08-07 15:27:19] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [tritium-remote]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [hugchat-api]: New version: [0.0.1.5] Old Version: [0.0.1.4]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [ftmq]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.44] Old Version: [1.0.43]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [micropython-adxl343]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1691413352] Old Version: [2.0.0a1691054469]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [cca-zoo]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [pycmtensor]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [tritium-remote]: Downloading https://files.pythonhosted.org/packages/7d/ca/551e83c026b07968cf7ac26acb128e6ed676b9b2a4e0034324b371b82800/tritium_remote-1.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 15:27:20] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/f8/4d/e2cc89443175a66d119936422c90235ae9984f132aac861e107f7aa412a0/pulumi_wavefront-2.0.0a1691054469.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/0f/17/b70d4ed50c25d8c6a428b38523886c47fc7ff10322d6f82aa5ca53ee6d09/ftmq-0.2.0.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/26/5c/a1d57bfda4994c9b482d786440cee74fa2e169d25b28cdd2976721cc7f0a/hugchat_api-0.0.1.4.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/48/07/6cc38ffb6b85e3afcd157fc36d39da11d54a9421d4d4a705c1b7b83b725a/autosubmitconfigparser-1.0.43.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [micropython-adxl343]: Downloading https://files.pythonhosted.org/packages/6a/e1/b4f70fa9b8226a2f0e05c0c39427888a3adb40adcb3b5920333cc79e6989/micropython-adxl343-0.1.1.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/0e/f6/23539e5b5ceecce961e36c34aa6f75821d8a375a8d20f137a380198655d4/cca_zoo-2.1.0.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [pycmtensor]: Downloading https://files.pythonhosted.org/packages/64/81/36700242d987208af52abbf4f3c6e9a4f3d0759d55fe10ca1100f75dc492/pycmtensor-1.5.0.tar.gz
+[2023-08-07 15:27:20] WARNING root fetch - processPackages [tritium-remote]: Skipping package: exceeds size limit 14356844>=10485760
+[2023-08-07 15:27:20] INFO root fetch - processPackages [tritium-remote]: Start processing: napari-boxmanager
+[2023-08-07 15:27:20] INFO root fetch - main [MainThread]: End processing [tritium-remote] error
+[2023-08-07 15:27:20] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-07 15:27:20] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/54/1a/1155cf908a67f19e68c3dcb4b9f0ab99475df97ddaa2e25fa32c1038fc4d/ftmq-0.2.1.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-08-07 15:27:20] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230807/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-08-07 15:27:20] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/df/b7/f8f71e45446f8b6425d8bc96dea93494e45abcdbe0a3904c77b8adc00383/autosubmitconfigparser-1.0.44.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/12/56/559c46913a8453005a7df1e739b07b6839dde35687bff6c86f3999af8847/hugchat_api-0.0.1.5.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [pycmtensor]: Downloading https://files.pythonhosted.org/packages/09/3b/b85febc0ce5c2695df72ed143d7c8d67ebf08a6ce6adb878157abe873e48/pycmtensor-1.6.0.tar.gz
+[2023-08-07 15:27:20] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-08-07 15:27:21] INFO root fetch - processPackages [micropython-adxl343]: Downloading https://files.pythonhosted.org/packages/63/d0/fc6fea54feb07219b4c37ff852bceec0834a6d7a97dec86b0539d594cbdd/micropython-adxl343-0.1.2.tar.gz
+[2023-08-07 15:27:21] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/3d/e4/d912eccf775985d148ee30e822e82ddf2755df428b2d3103f3478ed80342/cca_zoo-2.2.0.tar.gz
+[2023-08-07 15:27:21] INFO root fetch - processPackages [ftmq]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [ftmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmq-0.2.0.tar.gz tmp/ftmq-0.2.1.tar.gz --markdown 20230807/f/ftmq/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/0a/39/279e74f5f164ef982a33660aba7e0ebe9ee0baff13dc9eed0790c7139bfe/napari_boxmanager-0.4.2.tar.gz
+[2023-08-07 15:27:21] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.43.tar.gz tmp/autosubmitconfigparser-1.0.44.tar.gz --markdown 20230807/a/autosubmitconfigparser/1.0.43-1.0.44/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [hugchat-api]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [hugchat-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat_api-0.0.1.4.tar.gz tmp/hugchat_api-0.0.1.5.tar.gz --markdown 20230807/h/hugchat-api/0.0.1.4-0.0.1.5/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230807/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [pycmtensor]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [pycmtensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycmtensor-1.5.0.tar.gz tmp/pycmtensor-1.6.0.tar.gz --markdown 20230807/p/pycmtensor/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/ee/c1/ae3fbe6d9840238570f05580afa90d720bb8f7e1a2502fb09eea83533df3/pulumi_wavefront-2.0.0a1691413352.tar.gz
+[2023-08-07 15:27:21] INFO root fetch - processPackages [micropython-adxl343]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [micropython-adxl343]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-adxl343-0.1.1.tar.gz tmp/micropython-adxl343-0.1.2.tar.gz --markdown 20230807/m/micropython-adxl343/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.1.0.tar.gz tmp/cca_zoo-2.2.0.tar.gz --markdown 20230807/c/cca-zoo/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:27:21] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-07 15:27:21] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a1691054469.tar.gz tmp/pulumi_wavefront-2.0.0a1691413352.tar.gz --markdown 20230807/p/pulumi-wavefront/2.0.0a1691054469-2.0.0a1691413352/diff.md --exclude *.pyd
+[2023-08-07 15:27:22] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - processPackages [trailblazer]: Start processing: napari-h5
+[2023-08-07 15:27:22] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-08-07 15:27:22] WARNING root fetch - processPackages [napari-h5]: Skipping, unable to determine old version
+[2023-08-07 15:27:22] INFO root fetch - main [MainThread]: End processing [napari-h5] error
+[2023-08-07 15:27:22] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/0c/34/204fd2b292d902e632db0c7fd58613c10982e7b56fd3529b5d9e0d1bfbb6/napari_boxmanager-0.4.3.tar.gz
+[2023-08-07 15:27:22] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.43.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.44.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-08-07 15:27:22] INFO root fetch - processPackages [micropython-adxl343]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adxl343-0.1.1.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - processPackages [micropython-adxl343]: Remove: archive file [/home/abi/fetcher/tmp/micropython-adxl343-0.1.2.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - main [MainThread]: End processing [micropython-adxl343]: success
+[2023-08-07 15:27:22] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.2.0.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.2.1.tar.gz]
+[2023-08-07 15:27:22] INFO root fetch - main [MainThread]: End processing [ftmq]: success
+[2023-08-07 15:27:23] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-08-07 15:27:23] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.2.tar.gz tmp/napari_boxmanager-0.4.3.tar.gz --markdown 20230807/n/napari-boxmanager/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-07 15:27:23] INFO root fetch - processPackages [pycmtensor]: Remove: archive file [/home/abi/fetcher/tmp/pycmtensor-1.5.0.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - processPackages [pycmtensor]: Remove: archive file [/home/abi/fetcher/tmp/pycmtensor-1.6.0.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - main [MainThread]: End processing [pycmtensor]: success
+[2023-08-07 15:27:23] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.4.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.5.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - main [MainThread]: End processing [hugchat-api]: success
+[2023-08-07 15:27:23] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.1.0.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.2.0.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-08-07 15:27:23] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691054469.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691413352.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-07 15:27:23] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-08-07 15:27:23] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-08-07 15:27:24] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.2.tar.gz]
+[2023-08-07 15:27:24] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.3.tar.gz]
+[2023-08-07 15:27:24] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-08-07 15:27:24] INFO root fetch - main [MainThread]: Store serial: [19205929]
