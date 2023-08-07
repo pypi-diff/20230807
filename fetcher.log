@@ -5002,3 +5002,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 03:38:25] INFO root fetch - processPackages [gentopia]: Remove: archive file [/home/abi/fetcher/tmp/gentopia-0.0.3.tar.gz]
 [2023-08-07 03:38:25] INFO root fetch - main [MainThread]: End processing [gentopia]: success
 [2023-08-07 03:38:25] INFO root fetch - main [MainThread]: Store serial: [19199538]
+[2023-08-07 03:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199538]
+[2023-08-07 03:43:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip-rating
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe2pay
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurosity
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monstera
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noteblock-generator
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive
+[2023-08-07 03:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: baram
+[2023-08-07 03:43:34] WARNING root fetch - processPackages [noteblock-generator]: Skipping, unable to determine old version
+[2023-08-07 03:43:34] INFO root fetch - processPackages [noteblock-generator]: Start processing: protonmail-api-client
+[2023-08-07 03:43:34] INFO root fetch - main [MainThread]: End processing [noteblock-generator] error
+[2023-08-07 03:43:34] INFO root fetch - processPackages [neurosity]: New version: [2.0.1] Old Version: [1.0.2]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [protonmail-api-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [monstera]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [pip-rating]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [baram]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [safe2pay]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-07 03:43:34] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/0c/ed/56a649489db5c5ecf9e5d91b7e122b7ad7171565b361c8d62941ea7e1a2e/neurosity-1.0.2.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-07 03:43:35] ERROR root fetch - processPackages [protonmail-api-client]: Unable to fetch info: No such project/version 'protonmail-api-client' 1.0.0
+[2023-08-07 03:43:35] INFO root fetch - processPackages [protonmail-api-client]: Start processing: cdk-rds-dump
+[2023-08-07 03:43:35] INFO root fetch - main [MainThread]: End processing [protonmail-api-client] error
+[2023-08-07 03:43:35] INFO root fetch - processPackages [pip-rating]: Downloading https://files.pythonhosted.org/packages/fe/5f/ee4c7e609383386266a0bdffb16b1e176319bd01bcfd02117957a80ccce7/pip-rating-0.1.0.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-07 03:43:35] INFO root fetch - processPackages [monstera]: Downloading https://files.pythonhosted.org/packages/b8/7f/b4eaac041bb9ce2389554701f1195491cafb2fb2cf5d00f1aed4863e7f05/monstera-0.0.4.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/4c/96/b460da49a4c15f5e3f2985941ce665f77b7359b5afff433c5dcbd3d1633a/baram-0.3.1.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-07 03:43:35] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/9b/67/865da1523d72df9640116364fb78bc55ded708e9a55ec697fa47c6c4a269/safe2pay-0.0.5.tar.gz
+[2023-08-07 03:43:35] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-07 03:43:35] INFO root fetch - processPackages [proactive]: Start processing: nbdev-apl
+[2023-08-07 03:43:35] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-07 03:43:35] INFO root fetch - processPackages [neurosity]: Downloading https://files.pythonhosted.org/packages/39/c5/4eff9563fc196a625bd203f69cee5b82bab679dbfd259d0aec5d6089d0ce/neurosity-2.0.1.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.940] Old Version: [0.0.939]
+[2023-08-07 03:43:35] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/04/7987c6cf55388d28f10ecb571fc3b4bd16ffa3b6958e1ea0fef09eac7076/cdk-rds-dump-1.2.8.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [pip-rating]: Downloading https://files.pythonhosted.org/packages/3a/09/f1f299ca5e09ba8c2e7a0892f014773660deef5297be43393816c9f1c05e/pip-rating-0.2.0.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [neurosity]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [neurosity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosity-1.0.2.tar.gz tmp/neurosity-2.0.1.tar.gz --markdown 20230807/n/neurosity/1.0.2-2.0.1/diff.md --exclude *.pyd
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230807/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230807/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:43:35] INFO root fetch - processPackages [monstera]: Downloading https://files.pythonhosted.org/packages/b1/de/501bd4445e79bb4ff018696353e1afaf1187cb847223f241b7208be09422/monstera-0.0.5.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/5a/6a/6b9766c78a5aab85f9e1fac5dd762e4af783beb8ee81afa1c585e011d745/baram-0.3.2.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [safe2pay]: Downloading https://files.pythonhosted.org/packages/b8/f0/4de11364d90fcb5d925a7c77110d5489296af248b078166076e1ad8e73ad/safe2pay-0.0.6.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230807/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:43:35] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1a/aa/de4cdb8389bff5b399c95973ccc6c7cfbc2ccf0c7bfc5893d1a0b93ac71a/nbdev-apl-0.0.939.tar.gz
+[2023-08-07 03:43:35] INFO root fetch - processPackages [pip-rating]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [pip-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-rating-0.1.0.tar.gz tmp/pip-rating-0.2.0.tar.gz --markdown 20230807/p/pip-rating/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 03:43:35] INFO root fetch - processPackages [monstera]: executing diffoscope
+[2023-08-07 03:43:35] INFO root fetch - processPackages [monstera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstera-0.0.4.tar.gz tmp/monstera-0.0.5.tar.gz --markdown 20230807/m/monstera/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 03:43:36] INFO root fetch - processPackages [baram]: executing diffoscope
+[2023-08-07 03:43:36] INFO root fetch - processPackages [baram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baram-0.3.1.tar.gz tmp/baram-0.3.2.tar.gz --markdown 20230807/b/baram/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 03:43:36] INFO root fetch - processPackages [safe2pay]: executing diffoscope
+[2023-08-07 03:43:36] INFO root fetch - processPackages [safe2pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe2pay-0.0.5.tar.gz tmp/safe2pay-0.0.6.tar.gz --markdown 20230807/s/safe2pay/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 03:43:36] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/57/d6/c9aa00922ade92b04f4156e0130251a0ae958db94a69c2cf92cac0986b84/nbdev-apl-0.0.940.tar.gz
+[2023-08-07 03:43:36] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-07 03:43:36] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.939.tar.gz tmp/nbdev-apl-0.0.940.tar.gz --markdown 20230807/n/nbdev-apl/0.0.939-0.0.940/diff.md --exclude *.pyd
+[2023-08-07 03:43:36] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/f4/0b/9ab10174144eed83c415831738537c9f62b5e67cd207b5f85aae8c3bb5a8/cdk-rds-dump-1.2.9.tar.gz
+[2023-08-07 03:43:36] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-08-07 03:43:36] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.8.tar.gz tmp/cdk-rds-dump-1.2.9.tar.gz --markdown 20230807/c/cdk-rds-dump/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: proactive-jupyter-kernel
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-1.0.2.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [neurosity]: Remove: archive file [/home/abi/fetcher/tmp/neurosity-2.0.1.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [neurosity]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [monstera]: Remove: archive file [/home/abi/fetcher/tmp/monstera-0.0.4.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [monstera]: Remove: archive file [/home/abi/fetcher/tmp/monstera-0.0.5.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [monstera]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.1.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.2.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [baram]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-07 03:43:37] INFO root fetch - processPackages [pip-rating]: Remove: archive file [/home/abi/fetcher/tmp/pip-rating-0.1.0.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [pip-rating]: Remove: archive file [/home/abi/fetcher/tmp/pip-rating-0.2.0.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [pip-rating]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.5.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [safe2pay]: Remove: archive file [/home/abi/fetcher/tmp/safe2pay-0.0.6.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [safe2pay]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.939.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.940.tar.gz]
+[2023-08-07 03:43:37] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-07 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-07 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-07 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230807/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-07 03:43:38] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.8.tar.gz]
+[2023-08-07 03:43:38] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
+[2023-08-07 03:43:38] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-08-07 03:43:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-07 03:43:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-07 03:43:38] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-07 03:43:38] INFO root fetch - main [MainThread]: Store serial: [19199584]
