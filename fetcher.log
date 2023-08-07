@@ -18255,3 +18255,93 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:06:36] INFO root fetch - processPackages [grater-expectations]: Remove: archive file [/home/abi/fetcher/tmp/grater_expectations-1.1.3-py3-none-any.whl.zip]
 [2023-08-07 14:06:36] INFO root fetch - main [MainThread]: End processing [grater-expectations]: success
 [2023-08-07 14:06:36] INFO root fetch - main [MainThread]: Store serial: [19205152]
+[2023-08-07 14:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205152]
+[2023-08-07 14:11:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchenhanced
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myllm
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sumt
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-groupmate-waifu
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boticordpy
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyppbox
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pop-create
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eco4cast
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projkit
+[2023-08-07 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KLCserial
+[2023-08-07 14:11:45] INFO root fetch - processPackages [myllm]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [sumt]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/97/32/b820118ef0346b52811c9f29fa659de928f99b223877e5f3239a2d0b7dce/myllm-1.2.1.tar.gz
+[2023-08-07 14:11:45] INFO root fetch - processPackages [torchenhanced]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [boticordpy]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-07 14:11:45] WARNING root fetch - processPackages [projkit]: Skipping, unable to determine old version
+[2023-08-07 14:11:45] INFO root fetch - processPackages [projkit]: Start processing: xautomata-hive
+[2023-08-07 14:11:45] INFO root fetch - main [MainThread]: End processing [projkit] error
+[2023-08-07 14:11:45] WARNING root fetch - processPackages [eco4cast]: Skipping, unable to determine old version
+[2023-08-07 14:11:45] INFO root fetch - processPackages [KLCserial]: New version: [0.22] Old Version: [0.21]
+[2023-08-07 14:11:45] INFO root fetch - main [MainThread]: End processing [eco4cast] error
+[2023-08-07 14:11:45] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/f4/77/fad81f83419783561f0a44b878b500bec9f0b712f8f03b987ef429b73356/sumt-3.2.5.tar.gz
+[2023-08-07 14:11:45] INFO root fetch - processPackages [pyppbox]: New version: [3.1b3] Old Version: [3.1b2]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [pop-create]: New version: [8.1.1] Old Version: [8.1.0]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-07 14:11:45] INFO root fetch - processPackages [xautomata-hive]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-07 14:11:46] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/19/38/32d7d8833954c754e8af3344d99f88412bb857085add678f99fd991b3cc5/boticordpy-3.0.1.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/ba/fe/b5caf3e0431d5330c98041254477cb0da53884375569fe2dd47f49dd5bba/torchenhanced-0.1.4.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/6c/3a/91db5a308191e42dd9ec574e47a36b5112126c41c453d548dcba1498d3db/nonebot_plugin_groupmate_waifu-1.3.2.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pop-create]: Downloading https://files.pythonhosted.org/packages/db/69/76e98b9aea18f7095384ec2414fb1bebb1c24809190f0914c77d5763924c/pop_create-8.1.0.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/1a/a1/dd98c663d66bbb129f84581e9ed8a2fa6caf1e1fabc60332c24b7709f788/pyppbox-3.1b2.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [xautomata-hive]: Downloading https://files.pythonhosted.org/packages/78/2a/7cf352161212badbb289484888e5a50188356cc44841bd03c7e2ce5f1ec1/xautomata-hive-2.1.1.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [sumt]: Downloading https://files.pythonhosted.org/packages/5e/d6/e6e19e4434976ff1f65169bab724db36fbffff388a28c5a2a4a5af49190e/sumt-3.2.6.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [KLCserial]: Downloading https://files.pythonhosted.org/packages/c2/63/ef7b39bdad064965d52e23c15f73744d23aec506a4c1cfa34d12d626f8fe/KLCserial-0.21-py3-none-any.whl
+[2023-08-07 14:11:46] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/9c/94/b49a9f6b51364d1d55ff14935b708ed73217b7b5b80793da0beac365a708/myllm-1.2.2.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [sumt]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [sumt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumt-3.2.5.tar.gz tmp/sumt-3.2.6.tar.gz --markdown 20230807/s/sumt/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/71/ee/53c98d2d5f9962fb994409373710b5f62c1ea371f683ddbb3f6e2fed2fc9/boticordpy-3.0.2.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [myllm]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [myllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-1.2.1.tar.gz tmp/myllm-1.2.2.tar.gz --markdown 20230807/m/myllm/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/07/36/f18d834419cfe687ab1e3e6c11a9fa9eb2e75f45f396b0bd1f9becf8fc5e/torchenhanced-0.1.5.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/a0/83/06aa1259fdc19aeda89cf0c4ad095c2a733a5ef1ca881ce59596e5f1f87e/nonebot_plugin_groupmate_waifu-1.3.3.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [boticordpy]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [boticordpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boticordpy-3.0.1.tar.gz tmp/boticordpy-3.0.2.tar.gz --markdown 20230807/b/boticordpy/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pop-create]: Downloading https://files.pythonhosted.org/packages/ff/6b/30bfe3dc0dabf773bf3655259bdacfcaa78a46848ba5346ccfe65cf356f1/pop_create-8.1.1.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [KLCserial]: Downloading https://files.pythonhosted.org/packages/4f/ed/953f0fc10650c80c48fb293c6e45bf7d5a0ce488a706cdbd7fd60e192d85/KLCserial-0.22.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [xautomata-hive]: Downloading https://files.pythonhosted.org/packages/ca/66/ccd14e29b477ffb90ac138c1cfdd6be73fcd1a5d91134612f5d3adccbdd4/xautomata-hive-2.1.2.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [torchenhanced]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [torchenhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchenhanced-0.1.4.tar.gz tmp/torchenhanced-0.1.5.tar.gz --markdown 20230807/t/torchenhanced/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/23/96/95fb3cdb22489cc8a44e9777c860e6e88186098bc4db8326ff3f86d30ad8/pyppbox-3.1b3.tar.gz
+[2023-08-07 14:11:46] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_groupmate_waifu-1.3.2.tar.gz tmp/nonebot_plugin_groupmate_waifu-1.3.3.tar.gz --markdown 20230807/n/nonebot-plugin-groupmate-waifu/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pop-create]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [pop-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_create-8.1.0.tar.gz tmp/pop_create-8.1.1.tar.gz --markdown 20230807/p/pop-create/8.1.0-8.1.1/diff.md --exclude *.pyd
+[2023-08-07 14:11:46] INFO root fetch - processPackages [KLCserial]: executing diffoscope
+[2023-08-07 14:11:46] INFO root fetch - processPackages [KLCserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KLCserial-0.21-py3-none-any.whl.zip tmp/KLCserial-0.22.tar.gz --markdown 20230807/K/KLCserial/0.21-0.22/diff.md --exclude *.pyd
+[2023-08-07 14:11:47] INFO root fetch - processPackages [xautomata-hive]: executing diffoscope
+[2023-08-07 14:11:47] INFO root fetch - processPackages [xautomata-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xautomata-hive-2.1.1.tar.gz tmp/xautomata-hive-2.1.2.tar.gz --markdown 20230807/x/xautomata-hive/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-07 14:11:47] INFO root fetch - processPackages [pyppbox]: executing diffoscope
+[2023-08-07 14:11:47] INFO root fetch - processPackages [pyppbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-3.1b2.tar.gz tmp/pyppbox-3.1b3.tar.gz --markdown 20230807/p/pyppbox/3.1b2-3.1b3/diff.md --exclude *.pyd
+[2023-08-07 14:11:47] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.1.tar.gz]
+[2023-08-07 14:11:47] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.2.2.tar.gz]
+[2023-08-07 14:11:47] INFO root fetch - main [MainThread]: End processing [myllm]: success
+[2023-08-07 14:11:47] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.5.tar.gz]
+[2023-08-07 14:11:47] INFO root fetch - processPackages [sumt]: Remove: archive file [/home/abi/fetcher/tmp/sumt-3.2.6.tar.gz]
+[2023-08-07 14:11:47] INFO root fetch - main [MainThread]: End processing [sumt]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.3.2.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [nonebot-plugin-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_groupmate_waifu-1.3.3.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-groupmate-waifu]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.1.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.2.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [boticordpy]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.1.4.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.1.5.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [torchenhanced]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [KLCserial]: Remove: archive file [/home/abi/fetcher/tmp/KLCserial-0.21-py3-none-any.whl.zip]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [KLCserial]: Remove: archive file [/home/abi/fetcher/tmp/KLCserial-0.22.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [KLCserial]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [pop-create]: Remove: archive file [/home/abi/fetcher/tmp/pop_create-8.1.0.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [pop-create]: Remove: archive file [/home/abi/fetcher/tmp/pop_create-8.1.1.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [pop-create]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [xautomata-hive]: Remove: archive file [/home/abi/fetcher/tmp/xautomata-hive-2.1.1.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [xautomata-hive]: Remove: archive file [/home/abi/fetcher/tmp/xautomata-hive-2.1.2.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [xautomata-hive]: success
+[2023-08-07 14:11:48] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.1b2.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.1b3.tar.gz]
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
+[2023-08-07 14:11:48] INFO root fetch - main [MainThread]: Store serial: [19205200]
