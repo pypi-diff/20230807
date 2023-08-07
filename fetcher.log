@@ -19031,3 +19031,122 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:50:03] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.9.tar.gz]
 [2023-08-07 14:50:03] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-08-07 14:50:03] INFO root fetch - main [MainThread]: Store serial: [19205524]
+[2023-08-07 14:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205524]
+[2023-08-07 14:55:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dycodebase
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemnlp
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spam-analyzer
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manticore
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tko
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fiftyone
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orca-parser
+[2023-08-07 14:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfish
+[2023-08-07 14:55:13] INFO root fetch - processPackages [tko]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [orca-parser]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202308071246] Old Version: [99.0.202308041935]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [fiftyone]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230806] Old Version: [0.3.8.dev230805]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [dycodebase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/82/8e/d506dfd4fca216141f9f528d16f22db6a90396eae952c4ff919f8b990866/tko-0.0.3.tar.gz
+[2023-08-07 14:55:13] INFO root fetch - processPackages [chemnlp]: New version: [2023.7.1] Old Version: [2023.3.4]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [spam-analyzer]: New version: [1.0.2] Old Version: [1.0.1b0]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/6a/dc/3467286c200da97ec02ec0d1ae1952001c73afd73e6d3300e7262c3b261c/orca_parser-0.1.8-py2.py3-none-any.whl
+[2023-08-07 14:55:13] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.7] Old Version: [8.4.6]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [kcli]: New version: [99.0.202308071250] Old Version: [99.0.202308071243]
+[2023-08-07 14:55:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ff/31/d8239402a6ea3579636c729ad5ad63212d2206b2ed9c26d1a043d28dfda8/kfish-99.0.202308041935-py3-none-any.whl
+[2023-08-07 14:55:13] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/d6/a3/a1a7b36903874529b26c2d10af083068c3ffcd603437fded9c1fad3a1167/manticore-0.3.8.dev230805.tar.gz
+[2023-08-07 14:55:13] INFO root fetch - processPackages [dycodebase]: Downloading https://files.pythonhosted.org/packages/10/56/9e6ec149a0313ab1ae9388ac5054176ecd511b0facd513824029cb3baf17/dycodebase-0.0.4.tar.gz
+[2023-08-07 14:55:13] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/3e/6b/4f00edad5ff8f41f3fffc7a3200dd9cfb53214fb7a00fc0a8e15b0847572/fiftyone-0.9.3-py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [chemnlp]: Downloading https://files.pythonhosted.org/packages/dd/78/16afd91c12cb44a37daefcfe6a2327a834d05d39cf77dfac3561bd449503/chemnlp-2023.3.4.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/3b/bf/b126001866e66fedc59da5f80f7ee3bd833440287a959a14ea23a66266b4/crypto-screening-8.4.6.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d1/d9/dde28517d25c36b98c547f3aedec4a9c8777e0d8eb9bd4768b1e56b03a17/kcli-99.0.202308071243-py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/93/87/bba5cd55e7b2a8fd4287e84b192a87cae324c7c5e00c356f2588edfee4ec/orca_parser-0.1.9-py2.py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [spam-analyzer]: Downloading https://files.pythonhosted.org/packages/e2/18/a761f1ddf7550afca7f60952466e80a5453a11ca3cde35bc63eb61ff2aa9/spam_analyzer-1.0.1b0.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bf/2b/11b9c4ea5fb75aed125cd2a08dcb71c9193522e61e4d9ab989e870243b63/kfish-99.0.202308071246-py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/4c/f4/e76dbaf54203c0688857e22df71aa2c7d2980c10919c06ee5e7cf22cd041/tko-0.0.4.tar.gz
+[2023-08-07 14:55:14] WARNING root fetch - processPackages [spam-analyzer]: Skipping package: exceeds size limit 13011682>=10485760
+[2023-08-07 14:55:14] INFO root fetch - processPackages [spam-analyzer]: Start processing: mcts-simple
+[2023-08-07 14:55:14] INFO root fetch - main [MainThread]: End processing [spam-analyzer] error
+[2023-08-07 14:55:14] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip --markdown 20230807/o/orca-parser/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [dycodebase]: Downloading https://files.pythonhosted.org/packages/d1/7f/ddd7a2d4d2b045f1e76c2e92e9d600e65f5449c8857af17159a0d6ac45ce/dycodebase-0.0.5.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308041935-py3-none-any.whl.zip tmp/kfish-99.0.202308071246-py3-none-any.whl.zip --markdown 20230807/k/kfish/99.0.202308041935-99.0.202308071246/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [tko]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [tko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tko-0.0.3.tar.gz tmp/tko-0.0.4.tar.gz --markdown 20230807/t/tko/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/07/c9/30e99666695352fb1550bb9929be552ef6f41d9e00d5afd1265c888f513f/manticore-0.3.8.dev230806.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [mcts-simple]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 14:55:14] INFO root fetch - processPackages [dycodebase]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [dycodebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycodebase-0.0.4.tar.gz tmp/dycodebase-0.0.5.tar.gz --markdown 20230807/d/dycodebase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [chemnlp]: Downloading https://files.pythonhosted.org/packages/22/6c/04bdb4d39c40463b95d0d40b82506981e4294ab7ab3a9498ca27bac59b7b/chemnlp-2023.7.1.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/3a/54/a81a7de98becdc1d2ebe717bdd902dfd608edfab497e0a0a59482936bc18/crypto-screening-8.4.7.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230805.tar.gz tmp/manticore-0.3.8.dev230806.tar.gz --markdown 20230807/m/manticore/0.3.8.dev230805-0.3.8.dev230806/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [chemnlp]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [chemnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemnlp-2023.3.4.tar.gz tmp/chemnlp-2023.7.1.tar.gz --markdown 20230807/c/chemnlp/2023.3.4-2023.7.1/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [mcts-simple]: Downloading https://files.pythonhosted.org/packages/ce/bf/19c21a416b4c32917d8375a0ef6c27dbd9543feee7d96b375748f4e896e5/mcts-simple-1.0.1.tar.gz
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/21/4252fc0d6a27847c411d40732ffabeb8e20da427e7092b1e951b1bf2c2ad/kcli-99.0.202308071250-py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.4.6.tar.gz tmp/crypto-screening-8.4.7.tar.gz --markdown 20230807/c/crypto-screening/8.4.6-8.4.7/diff.md --exclude *.pyd
+[2023-08-07 14:55:14] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/35/07/cd886e684c80920dfc6b8fea4ac8fc9e2c36be66848d2e8dc2508552d529/fiftyone-0.9.4-py3-none-any.whl
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-08-07 14:55:14] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202308071243-py3-none-any.whl.zip tmp/kcli-99.0.202308071250-py3-none-any.whl.zip --markdown 20230807/k/kcli/99.0.202308071243-99.0.202308071250/diff.md --exclude *.pyd
+[2023-08-07 14:55:15] INFO root fetch - processPackages [mcts-simple]: Downloading https://files.pythonhosted.org/packages/71/d7/187c92d36e4251c789486bcd3c261de66ada10d623b048c3ec258f062888/mcts-simple-1.0.2.tar.gz
+[2023-08-07 14:55:15] INFO root fetch - processPackages [mcts-simple]: executing diffoscope
+[2023-08-07 14:55:15] INFO root fetch - processPackages [mcts-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcts-simple-1.0.1.tar.gz tmp/mcts-simple-1.0.2.tar.gz --markdown 20230807/m/mcts-simple/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:55:15] INFO root fetch - processPackages [fiftyone]: executing diffoscope
+[2023-08-07 14:55:15] INFO root fetch - processPackages [fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone-0.9.3-py3-none-any.whl.zip tmp/fiftyone-0.9.4-py3-none-any.whl.zip --markdown 20230807/f/fiftyone/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-07 14:55:15] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [orca-parser]: Start processing: metricsoperator
+[2023-08-07 14:55:15] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-08-07 14:55:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308041935-py3-none-any.whl.zip]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308071246-py3-none-any.whl.zip]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [kfish]: Start processing: ert
+[2023-08-07 14:55:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-07 14:55:15] INFO root fetch - processPackages [metricsoperator]: New version: [0.0.11] Old Version: [0.0.1]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/9e/f1/8d911d6527917c3306e417dbf735df9a932a896854c5f93fe4fdace693dd/metricsoperator-0.0.1.tar.gz
+[2023-08-07 14:55:15] INFO root fetch - processPackages [ert]: New version: [5.1.0rc0] Old Version: [5.1.0b9]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.0.3.tar.gz]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.0.4.tar.gz]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [tko]: Start processing: pySTid
+[2023-08-07 14:55:15] INFO root fetch - main [MainThread]: End processing [tko]: success
+[2023-08-07 14:55:15] INFO root fetch - processPackages [dycodebase]: Remove: archive file [/home/abi/fetcher/tmp/dycodebase-0.0.4.tar.gz]
+[2023-08-07 14:55:15] INFO root fetch - processPackages [dycodebase]: Remove: archive file [/home/abi/fetcher/tmp/dycodebase-0.0.5.tar.gz]
+[2023-08-07 14:55:15] INFO root fetch - main [MainThread]: End processing [dycodebase]: success
+[2023-08-07 14:55:16] WARNING root fetch - processPackages [pySTid]: Skipping, unable to determine old version
+[2023-08-07 14:55:16] INFO root fetch - main [MainThread]: End processing [pySTid] error
+[2023-08-07 14:55:16] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/2b/17/788963a004897ad9609a736840e78d0c3ae3edb1771fbe233e9995af60cd/ert-5.1.0b9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 14:55:16] INFO root fetch - processPackages [chemnlp]: Remove: archive file [/home/abi/fetcher/tmp/chemnlp-2023.3.4.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - processPackages [chemnlp]: Remove: archive file [/home/abi/fetcher/tmp/chemnlp-2023.7.1.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - main [MainThread]: End processing [chemnlp]: success
+[2023-08-07 14:55:16] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/64/53/cc3290b04b0b314f779b385cf873a5cd14c9e80d4f4793bd55550cef20c2/metricsoperator-0.0.11.tar.gz
+[2023-08-07 14:55:16] INFO root fetch - processPackages [metricsoperator]: executing diffoscope
+[2023-08-07 14:55:16] INFO root fetch - processPackages [metricsoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricsoperator-0.0.1.tar.gz tmp/metricsoperator-0.0.11.tar.gz --markdown 20230807/m/metricsoperator/0.0.1-0.0.11/diff.md --exclude *.pyd
+[2023-08-07 14:55:16] INFO root fetch - processPackages [mcts-simple]: Remove: archive file [/home/abi/fetcher/tmp/mcts-simple-1.0.1.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - processPackages [mcts-simple]: Remove: archive file [/home/abi/fetcher/tmp/mcts-simple-1.0.2.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - main [MainThread]: End processing [mcts-simple]: success
+[2023-08-07 14:55:16] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230805.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230806.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-08-07 14:55:16] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8c/8c/e95b3579b1109aa06a891bfb4c3c0de73171fc58d71622726a8cde0cfab7/ert-5.1.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 14:55:16] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.6.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.7.tar.gz]
+[2023-08-07 14:55:16] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-08-07 14:55:17] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-08-07 14:55:17] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/e/ert/5.1.0b9-5.1.0rc0/diff.md --exclude *.pyd
+[2023-08-07 14:55:17] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.1.tar.gz]
+[2023-08-07 14:55:17] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.11.tar.gz]
+[2023-08-07 14:55:17] INFO root fetch - main [MainThread]: End processing [metricsoperator]: success
+[2023-08-07 14:55:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308071243-py3-none-any.whl.zip]
+[2023-08-07 14:55:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308071250-py3-none-any.whl.zip]
+[2023-08-07 14:55:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-08-07 14:55:22] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 14:55:22] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 14:55:22] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-08-07 14:55:29] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.3-py3-none-any.whl.zip]
+[2023-08-07 14:55:29] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.4-py3-none-any.whl.zip]
+[2023-08-07 14:55:29] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
+[2023-08-07 14:55:29] INFO root fetch - main [MainThread]: Store serial: [19205576]
