@@ -5856,3 +5856,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:47:02] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
 [2023-08-07 04:47:02] INFO root fetch - main [MainThread]: End processing [azdev]: success
 [2023-08-07 04:47:02] INFO root fetch - main [MainThread]: Store serial: [19199876]
+[2023-08-07 04:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199876]
+[2023-08-07 04:52:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WinDbg-Copilot
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleepydatapeek
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HTMLTestRunner-rv
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csklearing
+[2023-08-07 04:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WinDbg-Copilot
+[2023-08-07 04:52:11] INFO root fetch - processPackages [sleepydatapeek]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [HTMLTestRunner-rv]: New version: [1.1.0] Old Version: [1.0.18]
+[2023-08-07 04:52:11] WARNING root fetch - processPackages [csklearing]: Skipping, unable to determine old version
+[2023-08-07 04:52:11] INFO root fetch - main [MainThread]: End processing [csklearing] error
+[2023-08-07 04:52:11] INFO root fetch - processPackages [vector-vault]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/06/6e/1bbc8c68d0a6c77ec19428bc2edb5d52d0f9110f87fd8b355b3643711272/sleepydatapeek-0.2.1.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/37/82/8315e0869ef6e0fc25e2450658fce535af861e390d6098e9d9f1bc0beba0/HTMLTestRunner-rv-1.0.18.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/5f/13/0c692044cdd9a0e96f4bb9aeea8a433e85a3d8469618fff8e823c9c2edef/vector_vault-2.1.7.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/3a/f0/bae1f0ec1688ee9edc0554b399a445b1fffa2aab492e63f90984952dfe7e/sleepydatapeek-0.2.2.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 04:52:11] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 04:52:11] INFO root fetch - processPackages [sleepydatapeek]: executing diffoscope
+[2023-08-07 04:52:11] INFO root fetch - processPackages [sleepydatapeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepydatapeek-0.2.1.tar.gz tmp/sleepydatapeek-0.2.2.tar.gz --markdown 20230807/s/sleepydatapeek/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 04:52:11] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/90/59/e0fd3aa1d49d6364d8ce185f88bde824196b9982f5a3b41c20605b5e7d97/HTMLTestRunner-rv-1.1.0.tar.gz
+[2023-08-07 04:52:11] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c8/9a/112e96c2a7a62f47268bd4b6f41c6cc45fa75993eedea533647fd9be9801/vector_vault-2.1.8.tar.gz
+[2023-08-07 04:52:12] INFO root fetch - processPackages [HTMLTestRunner-rv]: executing diffoscope
+[2023-08-07 04:52:12] INFO root fetch - processPackages [HTMLTestRunner-rv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTMLTestRunner-rv-1.0.18.tar.gz tmp/HTMLTestRunner-rv-1.1.0.tar.gz --markdown 20230807/H/HTMLTestRunner-rv/1.0.18-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 04:52:12] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-07 04:52:12] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.7.tar.gz tmp/vector_vault-2.1.8.tar.gz --markdown 20230807/v/vector-vault/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-08-07 04:52:12] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 04:52:12] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.2.1.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.2.2.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - main [MainThread]: End processing [sleepydatapeek]: success
+[2023-08-07 04:52:12] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 04:52:12] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.7.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.8.tar.gz]
+[2023-08-07 04:52:12] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-07 04:52:13] INFO root fetch - processPackages [HTMLTestRunner-rv]: Remove: archive file [/home/abi/fetcher/tmp/HTMLTestRunner-rv-1.0.18.tar.gz]
+[2023-08-07 04:52:13] INFO root fetch - processPackages [HTMLTestRunner-rv]: Remove: archive file [/home/abi/fetcher/tmp/HTMLTestRunner-rv-1.1.0.tar.gz]
+[2023-08-07 04:52:13] INFO root fetch - main [MainThread]: End processing [HTMLTestRunner-rv]: success
+[2023-08-07 04:52:13] INFO root fetch - main [MainThread]: Store serial: [19199896]
