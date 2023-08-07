@@ -4581,3 +4581,78 @@
 [2023-08-07 03:17:08] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-08-07 03:17:08] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-08-07 03:17:08] INFO root fetch - main [MainThread]: Store serial: [19199283]
+[2023-08-07 03:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199283]
+[2023-08-07 03:22:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitarray
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-videocr
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scotthsieh-projen-statemachine
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atksh-utils
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kserve
+[2023-08-07 03:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cqepyutils
+[2023-08-07 03:22:16] INFO root fetch - processPackages [atksh-utils]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [cqepyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [kserve]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-08-07 03:22:16] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/55/34/8dcdfb6c9a70f03ef447aeacb120af4cd8cd3cc6f8b23e10c8fa1ce0a9df/cqepyutils-0.1.8.tar.gz
+[2023-08-07 03:22:16] INFO root fetch - processPackages [bitarray]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-08-07 03:22:17] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/de/8c/5830ba89cd52df7c6a083133fe74269696910ad12c3d1b523ad87497eda5/atksh-utils-0.3.4.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [kserve]: Downloading https://files.pythonhosted.org/packages/cd/9d/18d0d09ed43c55f8028b5e56156fe8230b5cd752c769b6a55b2549ff0a96/kserve-0.9.0.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/93/a1/24226d85226d734a3a37ba4877dcc492a3aba114b83026119310dae5e724/cqepyutils-0.1.9.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/22/7b/7238cb39b7981d4c2d71b30f6c6ff283a7f14a4d7b0317f07e0148ec16b6/rapid_videocr-2.2.6-py3-none-any.whl
+[2023-08-07 03:22:17] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/62/de/40c5dda9e95144943dae72f475c71294a3cc36440b255df4b53b867f0bac/bitarray-2.8.0.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/a0/7d/361b341f3fb155d00da1bac83f71cdc3c1e92a32c542d32c8e90656c0772/atksh-utils-0.3.5.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cqepyutils]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cqepyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqepyutils-0.1.8.tar.gz tmp/cqepyutils-0.1.9.tar.gz --markdown 20230807/c/cqepyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 03:22:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230807/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:22:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230807/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-08-07 03:22:17] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.3.4.tar.gz tmp/atksh-utils-0.3.5.tar.gz --markdown 20230807/a/atksh-utils/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-07 03:22:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230807/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:22:17] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/f5/48/2fdb98b38fb5a83ca1aecb027f7da6526d08950eb113b20b0f3252415830/rapid_videocr-2.2.7-py3-none-any.whl
+[2023-08-07 03:22:17] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/13/65/7e859b2a688611b9f87f6377660e3ec9aa28350749f17d06508373399558/bitarray-2.8.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-07 03:22:17] INFO root fetch - processPackages [kserve]: Downloading https://files.pythonhosted.org/packages/4b/c5/9aee0855711e0c852e47edfa1c3a5c26db52f9f2e8e07d9a6681cc1a5451/kserve-0.9.0rc0.tar.gz
+[2023-08-07 03:22:17] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-08-07 03:22:17] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.6-py3-none-any.whl.zip tmp/rapid_videocr-2.2.7-py3-none-any.whl.zip --markdown 20230807/r/rapid-videocr/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-08-07 03:22:18] INFO root fetch - processPackages [kserve]: executing diffoscope
+[2023-08-07 03:22:18] INFO root fetch - processPackages [kserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kserve-0.9.0.tar.gz tmp/kserve-0.9.0rc0.tar.gz --markdown 20230807/k/kserve/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-08-07 03:22:18] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.8.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.9.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - main [MainThread]: End processing [cqepyutils]: success
+[2023-08-07 03:22:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-08-07 03:22:18] INFO root fetch - processPackages [bitarray]: executing diffoscope
+[2023-08-07 03:22:18] INFO root fetch - processPackages [bitarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitarray-2.8.0.tar.gz tmp/bitarray-2.8.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230807/b/bitarray/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-08-07 03:22:18] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-08-07 03:22:18] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.4.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.5.tar.gz]
+[2023-08-07 03:22:18] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-07 03:22:19] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.6-py3-none-any.whl.zip]
+[2023-08-07 03:22:19] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.7-py3-none-any.whl.zip]
+[2023-08-07 03:22:19] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-08-07 03:22:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-07 03:22:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-07 03:22:19] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-07 03:22:19] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.8.0.tar.gz]
+[2023-08-07 03:22:19] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.8.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-07 03:22:19] INFO root fetch - main [MainThread]: End processing [bitarray]: success
+[2023-08-07 03:22:19] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0.tar.gz]
+[2023-08-07 03:22:19] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0rc0.tar.gz]
+[2023-08-07 03:22:19] INFO root fetch - main [MainThread]: End processing [kserve]: success
+[2023-08-07 03:22:19] INFO root fetch - main [MainThread]: Store serial: [19199388]
