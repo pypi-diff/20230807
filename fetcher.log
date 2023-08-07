@@ -23338,3 +23338,129 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:42:24] INFO root fetch - processPackages [genefeast]: Remove: archive file [/home/abi/fetcher/tmp/genefeast-0.0.9.tar.gz]
 [2023-08-07 17:42:24] INFO root fetch - main [MainThread]: End processing [genefeast]: success
 [2023-08-07 17:42:24] INFO root fetch - main [MainThread]: Store serial: [19207496]
+[2023-08-07 17:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207496]
+[2023-08-07 17:47:33] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OctoBot-Trading
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airflow-mcd
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gb2seq
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markus_exam_matcher
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ray-ease
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-start-end-dates
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scancodeio
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-query-tools
+[2023-08-07 17:47:33] INFO root fetch - processPackages [modal]: New version: [0.50.2930] Old Version: [0.50.2927]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [django-query-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [modal-client]: New version: [0.50.2930] Old Version: [0.50.2927]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [airflow-mcd]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [gb2seq]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [scancodeio]: New version: [32.5.1] Old Version: [32.5.0]
+[2023-08-07 17:47:33] WARNING root fetch - processPackages [ray-ease]: Skipping, unable to determine old version
+[2023-08-07 17:47:33] INFO root fetch - processPackages [ray-ease]: Start processing: panoptes-ui
+[2023-08-07 17:47:33] INFO root fetch - main [MainThread]: End processing [ray-ease] error
+[2023-08-07 17:47:33] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f5/70/b2c46e0d87018983e42088df745f6db90bf87f831c77cbf44638204c6d83/modal-0.50.2927-py3-none-any.whl
+[2023-08-07 17:47:33] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: New version: [16.0.1.0.1] Old Version: [15.0.1.0.1.5]
+[2023-08-07 17:47:33] WARNING root fetch - processPackages [markus_exam_matcher]: Skipping, unable to determine old version
+[2023-08-07 17:47:33] INFO root fetch - processPackages [markus_exam_matcher]: Start processing: useragent-changer
+[2023-08-07 17:47:33] INFO root fetch - main [MainThread]: End processing [markus_exam_matcher] error
+[2023-08-07 17:47:33] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-07 17:47:33] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/24/62/aeff01693790d518069840feca1013cc639bb93019c31cb8279ac40d4d18/django_query_tools-0.3.0-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/80/9d/507ac9bb2200b6cd60f96a41e0d244b2c38e2f29cc124e2a7d4dc4313f83/modal_client-0.50.2927-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [useragent-changer]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 17:47:34] INFO root fetch - processPackages [panoptes-ui]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 17:47:34] INFO root fetch - processPackages [airflow-mcd]: Downloading https://files.pythonhosted.org/packages/85/bc/3573ecb13f35e9c78930292841a23b51dc03d3c3d493a9b5e35828d15ce3/airflow_mcd-0.2.1.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/f7/8f/95a85aa15ec9b5a72e987d6fd2eefe75ad69d6b5cd19fd296d1eb30fa95c/odoo_addon_sale_start_end_dates-15.0.1.0.1.5-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [gb2seq]: Downloading https://files.pythonhosted.org/packages/83/43/34726e200ee167af1a320f6085407c98b8017eddfeee127f9547be240770/gb2seq-0.2.8.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [scancodeio]: Downloading https://files.pythonhosted.org/packages/cf/af/f8e0ed01fca9df6a1d70a250bfb0d7fb57074e021ce26c7e597bff605281/scancodeio-32.5.0.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/2a/096dc9ea058549e4d2a365752322bc02e64b943a442ca10bcd4d7c04e7ea/modal-0.50.2930-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/22/bd/011a1413a4e370487729d3f1fc4532504e618dd352631e34e8b0b80c20ad/useragent_changer-0.2.3.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a5/10/901a2e3a10490308465c746a164b155e5d74f145ba92da8e3cc49c6bd290/modal_client-0.50.2930-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [panoptes-ui]: Downloading https://files.pythonhosted.org/packages/a1/83/474da8f9ce3fe4c029fa488a8fb60e3b2133f814785b9387f1167018816d/panoptes-ui-0.2.2.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/ce/fa/eae4a8a341e92524598cdfa1c332599f5206c09a3c91184a0d101d566790/django_query_tools-0.3.1-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2927-py3-none-any.whl.zip tmp/modal-0.50.2930-py3-none-any.whl.zip --markdown 20230807/m/modal/0.50.2927-0.50.2930/diff.md --exclude *.pyd
+[2023-08-07 17:47:34] INFO root fetch - processPackages [airflow-mcd]: Downloading https://files.pythonhosted.org/packages/1a/c7/6fef4f11af6d87d62db80011c69b46bf07482a280a0399b617b5f82a1167/airflow_mcd-0.2.2.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2927-py3-none-any.whl.zip tmp/modal_client-0.50.2930-py3-none-any.whl.zip --markdown 20230807/m/modal-client/0.50.2927-0.50.2930/diff.md --exclude *.pyd
+[2023-08-07 17:47:34] INFO root fetch - processPackages [django-query-tools]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [django-query-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_tools-0.3.0-py3-none-any.whl.zip tmp/django_query_tools-0.3.1-py3-none-any.whl.zip --markdown 20230807/d/django-query-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-07 17:47:34] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/4b/5b/4a86f031d1352e1f1bcc736e673f7ff0300992cf0d062bfe97d55988bf7b/odoo_addon_sale_start_end_dates-16.0.1.0.1-py3-none-any.whl
+[2023-08-07 17:47:34] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/b6/c9/32bf919254d48795e3e88641a377a7759a50b331eb1170130ccc948a32fe/useragent_changer-0.2.4.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [gb2seq]: Downloading https://files.pythonhosted.org/packages/32/82/5313ebd295f1143f0e053b2d2fbf8cedbe053a6aea99bdf5024020369dab/gb2seq-0.2.9.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [airflow-mcd]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [airflow-mcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_mcd-0.2.1.tar.gz tmp/airflow_mcd-0.2.2.tar.gz --markdown 20230807/a/airflow-mcd/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 17:47:34] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_start_end_dates-15.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_sale_start_end_dates-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-sale-start-end-dates/15.0.1.0.1.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-07 17:47:34] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2023-08-07 17:47:34] INFO root fetch - processPackages [useragent-changer]: executing diffoscope
+[2023-08-07 17:47:34] INFO root fetch - processPackages [useragent-changer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragent_changer-0.2.3.tar.gz tmp/useragent_changer-0.2.4.tar.gz --markdown 20230807/u/useragent-changer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 17:47:35] INFO root fetch - processPackages [scancodeio]: Downloading https://files.pythonhosted.org/packages/b9/15/7cee416fd23f1959fb4e9c1edb835127c6bc52e882414e8e0f9ce5f354f8/scancodeio-32.5.1.tar.gz
+[2023-08-07 17:47:35] INFO root fetch - processPackages [panoptes-ui]: Downloading https://files.pythonhosted.org/packages/18/aa/9bdf5097a0770faf2cd872d2a01958a87ce00de31ee6780470f06bccc710/panoptes-ui-0.2.3.tar.gz
+[2023-08-07 17:47:35] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-08-07 17:47:35] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20230807/O/OctoBot-Trading/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-08-07 17:47:35] INFO root fetch - processPackages [gb2seq]: executing diffoscope
+[2023-08-07 17:47:35] INFO root fetch - processPackages [gb2seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gb2seq-0.2.8.tar.gz tmp/gb2seq-0.2.9.tar.gz --markdown 20230807/g/gb2seq/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-07 17:47:35] INFO root fetch - processPackages [panoptes-ui]: executing diffoscope
+[2023-08-07 17:47:35] INFO root fetch - processPackages [panoptes-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptes-ui-0.2.2.tar.gz tmp/panoptes-ui-0.2.3.tar.gz --markdown 20230807/p/panoptes-ui/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 17:47:35] INFO root fetch - processPackages [scancodeio]: executing diffoscope
+[2023-08-07 17:47:35] INFO root fetch - processPackages [scancodeio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scancodeio-32.5.0.tar.gz tmp/scancodeio-32.5.1.tar.gz --markdown 20230807/s/scancodeio/32.5.0-32.5.1/diff.md --exclude *.pyd
+[2023-08-07 17:47:35] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2927-py3-none-any.whl.zip]
+[2023-08-07 17:47:35] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2930-py3-none-any.whl.zip]
+[2023-08-07 17:47:35] INFO root fetch - processPackages [modal]: Start processing: hyko-sdk
+[2023-08-07 17:47:35] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-07 17:47:35] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-07 17:47:36] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.3.0-py3-none-any.whl.zip]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.3.1-py3-none-any.whl.zip]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [django-query-tools]: Start processing: google-dataproc-templates
+[2023-08-07 17:47:36] INFO root fetch - main [MainThread]: End processing [django-query-tools]: success
+[2023-08-07 17:47:36] INFO root fetch - processPackages [google-dataproc-templates]: New version: [0.4.0b0] Old Version: [0.3.0b0]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-07 17:47:36] INFO root fetch - processPackages [airflow-mcd]: Remove: archive file [/home/abi/fetcher/tmp/airflow_mcd-0.2.1.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [airflow-mcd]: Remove: archive file [/home/abi/fetcher/tmp/airflow_mcd-0.2.2.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [airflow-mcd]: Start processing: pokerkit
+[2023-08-07 17:47:36] INFO root fetch - main [MainThread]: End processing [airflow-mcd]: success
+[2023-08-07 17:47:36] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-07 17:47:36] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230807/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-07 17:47:36] INFO root fetch - processPackages [google-dataproc-templates]: Downloading https://files.pythonhosted.org/packages/70/ca/0a94332ef109f20efd572a94216f8ea19286e34400b515b21c81e45de059/google-dataproc-templates-0.3.0b0.tar.gz
+[2023-08-07 17:47:36] INFO root fetch - processPackages [pokerkit]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_start_end_dates-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_start_end_dates-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-07 17:47:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-start-end-dates]: success
+[2023-08-07 17:47:36] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/19/c1/f8fff99823c515425b38249acc16c62c62cbc7597552dc15b6d959ffb8ba/pokerkit-0.0.0.tar.gz
+[2023-08-07 17:47:36] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.3.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.4.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - main [MainThread]: End processing [useragent-changer]: success
+[2023-08-07 17:47:36] INFO root fetch - processPackages [google-dataproc-templates]: Downloading https://files.pythonhosted.org/packages/5f/01/0793719e361b64bb3ed3b03044aa5a9d95b5e06d9f75372e801a23f2f4f8/google-dataproc-templates-0.4.0b0.tar.gz
+[2023-08-07 17:47:36] INFO root fetch - processPackages [gb2seq]: Remove: archive file [/home/abi/fetcher/tmp/gb2seq-0.2.8.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - processPackages [gb2seq]: Remove: archive file [/home/abi/fetcher/tmp/gb2seq-0.2.9.tar.gz]
+[2023-08-07 17:47:36] INFO root fetch - main [MainThread]: End processing [gb2seq]: success
+[2023-08-07 17:47:37] INFO root fetch - processPackages [google-dataproc-templates]: executing diffoscope
+[2023-08-07 17:47:37] INFO root fetch - processPackages [google-dataproc-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-dataproc-templates-0.3.0b0.tar.gz tmp/google-dataproc-templates-0.4.0b0.tar.gz --markdown 20230807/g/google-dataproc-templates/0.3.0b0-0.4.0b0/diff.md --exclude *.pyd
+[2023-08-07 17:47:37] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/f3/d9/663609d7c948129d9123a3536ec0d3a38c5a573fd2fc809941ee71fa9bd2/pokerkit-0.0.1.tar.gz
+[2023-08-07 17:47:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2927-py3-none-any.whl.zip]
+[2023-08-07 17:47:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2930-py3-none-any.whl.zip]
+[2023-08-07 17:47:37] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-07 17:47:37] INFO root fetch - processPackages [pokerkit]: executing diffoscope
+[2023-08-07 17:47:37] INFO root fetch - processPackages [pokerkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerkit-0.0.0.tar.gz tmp/pokerkit-0.0.1.tar.gz --markdown 20230807/p/pokerkit/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-07 17:47:37] INFO root fetch - processPackages [panoptes-ui]: Remove: archive file [/home/abi/fetcher/tmp/panoptes-ui-0.2.2.tar.gz]
+[2023-08-07 17:47:37] INFO root fetch - processPackages [panoptes-ui]: Remove: archive file [/home/abi/fetcher/tmp/panoptes-ui-0.2.3.tar.gz]
+[2023-08-07 17:47:37] INFO root fetch - main [MainThread]: End processing [panoptes-ui]: success
+[2023-08-07 17:47:37] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b8.tar.gz]
+[2023-08-07 17:47:37] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b9.tar.gz]
+[2023-08-07 17:47:37] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-07 17:47:38] INFO root fetch - processPackages [google-dataproc-templates]: Remove: archive file [/home/abi/fetcher/tmp/google-dataproc-templates-0.3.0b0.tar.gz]
+[2023-08-07 17:47:38] INFO root fetch - processPackages [google-dataproc-templates]: Remove: archive file [/home/abi/fetcher/tmp/google-dataproc-templates-0.4.0b0.tar.gz]
+[2023-08-07 17:47:38] INFO root fetch - main [MainThread]: End processing [google-dataproc-templates]: success
+[2023-08-07 17:47:38] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.0.0.tar.gz]
+[2023-08-07 17:47:38] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.0.1.tar.gz]
+[2023-08-07 17:47:38] INFO root fetch - main [MainThread]: End processing [pokerkit]: success
+[2023-08-07 17:47:39] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-08-07 17:47:39] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2023-08-07 17:47:39] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-08-07 17:47:40] INFO root fetch - processPackages [scancodeio]: Remove: archive file [/home/abi/fetcher/tmp/scancodeio-32.5.0.tar.gz]
+[2023-08-07 17:47:40] INFO root fetch - processPackages [scancodeio]: Remove: archive file [/home/abi/fetcher/tmp/scancodeio-32.5.1.tar.gz]
+[2023-08-07 17:47:40] INFO root fetch - main [MainThread]: End processing [scancodeio]: success
+[2023-08-07 17:47:40] INFO root fetch - main [MainThread]: Store serial: [19207547]
