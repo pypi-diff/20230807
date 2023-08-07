@@ -15377,3 +15377,177 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:03:50] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.3.2.tar.gz]
 [2023-08-07 12:03:50] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2023-08-07 12:03:50] INFO root fetch - main [MainThread]: Store serial: [19203866]
+[2023-08-07 12:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203866]
+[2023-08-07 12:08:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upkie
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tempmail-python
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-Geosciences
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Common
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-IO
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-cli
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocf-datapipes
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-reverb-nightly
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netspresso
+[2023-08-07 12:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sungrow-http-config
+[2023-08-07 12:08:59] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.9rc2] Old Version: [6.0.9rc1]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.6rc1] Old Version: [26.1.5rc1]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [sungrow-http-config]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [upkie]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [tempmail-python]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 12:08:59] INFO root fetch - processPackages [netspresso]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-08-07 12:09:00] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-07 12:09:00] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.5rc1] Old Version: [7.1.4rc1]
+[2023-08-07 12:09:00] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-08-07 12:09:00] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/ea/b8/9c551e80a7d8893c3c5938a6c63dfb66e4e59a41a3ec73ede05f42775e92/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3c/93/5d8f7f9458f083baa40705d475760a9b6f987ec101218aef18cac6e83389/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/3c/12/641491030f29d19992884e931bdf23b486189fa02de3f21635f9e5f39a82/upkie-1.3.2.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/0f/2d/f49c8bfe4a8e2f30c3a34556690a4ddafd3ffa3192d354b165e3629c188b/sungrow_http_config-0.0.5.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/fb/d3/e2971f9c7ca89c4bc781692e9e4d8ca71a124914827940d857ce4848a9f7/netspresso-1.0.5-py3-none-any.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/d2/47/b616f57c8cae98fa0263a8f3fbdca70836500e489395af51ce5a6ef0fb98/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [tempmail-python]: Downloading https://files.pythonhosted.org/packages/1f/25/1de11518aed7a6d2bd4adfa5768c82510389032ed36cfc736f5a58e6145c/tempmail-python-2.0.0.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [upkie]: Downloading https://files.pythonhosted.org/packages/43/e2/820b111760fcc4d1744e3ea7df1c06821e0376e855ea77e2866617ad2cef/upkie-1.3.3.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/d7/84/4a29bcaa0987dee50a9de0136b76f0c0b87716b979ec56c7f3202be1a80f/sungrow_http_config-0.0.6.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/c1/92/32a21d262e0eccf59a9b059a3ca17ec87f1118f6a11dec9f8e3685c105ed/netspresso-1.1.0-py3-none-any.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [sungrow-http-config]: executing diffoscope
+[2023-08-07 12:09:00] INFO root fetch - processPackages [sungrow-http-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sungrow_http_config-0.0.5.tar.gz tmp/sungrow_http_config-0.0.6.tar.gz --markdown 20230807/s/sungrow-http-config/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-07 12:09:00] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [tempmail-python]: Downloading https://files.pythonhosted.org/packages/ed/55/aeb06ff5650a138a6ad2e80e4a4f1676cefa1d1e552bd8cd17bb44bb2dbb/tempmail-python-2.1.0.tar.gz
+[2023-08-07 12:09:00] INFO root fetch - processPackages [upkie]: executing diffoscope
+[2023-08-07 12:09:00] INFO root fetch - processPackages [upkie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upkie-1.3.2.tar.gz tmp/upkie-1.3.3.tar.gz --markdown 20230807/u/upkie/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-07 12:09:00] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/c6/1a/1b792fb5ae691186f8e8e532344a4908e3feeb6aacbb8b44e106d6968dc2/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:00] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-07 12:09:00] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230807/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.0.5-py3-none-any.whl.zip tmp/netspresso-1.1.0-py3-none-any.whl.zip --markdown 20230807/n/netspresso/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230807/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/f7/1d/e729139857b6fbfe7fddc6cef40613c9da983a5f1e66615adb19d50cae62/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:01] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:09:01] INFO root fetch - processPackages [tempmail-python]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [tempmail-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempmail-python-2.0.0.tar.gz tmp/tempmail-python-2.1.0.tar.gz --markdown 20230807/t/tempmail-python/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/O/OpenGeode-Geosciences/7.1.4rc1-7.1.5rc1/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/56/b2/d57535c12936345047735348da2e96530a83e66a8c6d7921ba2d3794395a/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:09:01] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-08-07 12:09:01] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-08-07 12:09:01] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230807/O/OpenGeode-IO/6.0.9rc1-6.0.9rc2/diff.md --exclude *.pyd
+[2023-08-07 12:09:02] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.5.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.6.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [sungrow-http-config]: Start processing: crypto-screening
+[2023-08-07 12:09:02] INFO root fetch - main [MainThread]: End processing [sungrow-http-config]: success
+[2023-08-07 12:09:02] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.3.2.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [upkie]: Remove: archive file [/home/abi/fetcher/tmp/upkie-1.3.3.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [upkie]: Start processing: biliarchiver
+[2023-08-07 12:09:02] INFO root fetch - main [MainThread]: End processing [upkie]: success
+[2023-08-07 12:09:02] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.5] Old Version: [8.4.4]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.36]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c1/85/26db67f2312592d2e8e4d9e755c433965627bbb3d24d49269ebe0f016658/crypto-screening-8.4.4.tar.gz
+[2023-08-07 12:09:02] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [raga-cli]: Start processing: boxmot
+[2023-08-07 12:09:02] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-07 12:09:02] INFO root fetch - processPackages [tempmail-python]: Remove: archive file [/home/abi/fetcher/tmp/tempmail-python-2.0.0.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [tempmail-python]: Remove: archive file [/home/abi/fetcher/tmp/tempmail-python-2.1.0.tar.gz]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [tempmail-python]: Start processing: openprotein-python
+[2023-08-07 12:09:02] INFO root fetch - main [MainThread]: End processing [tempmail-python]: success
+[2023-08-07 12:09:02] INFO root fetch - processPackages [openprotein-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/de/bf/d267dfd482bae7cbde385a6f1b500d5b4697f7359a4988cbc85cd19ce7a9/biliarchiver-0.0.36.tar.gz
+[2023-08-07 12:09:02] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.5-py3-none-any.whl.zip]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.1.0-py3-none-any.whl.zip]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [netspresso]: Start processing: hyperelastic
+[2023-08-07 12:09:02] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-08-07 12:09:02] INFO root fetch - processPackages [boxmot]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/06/91/ccaadecd90e6d3a08a4fd7d65d70e27fff94c3d8d9d5f17fec165f0ccf9e/openprotein_python-0.2.0.tar.gz
+[2023-08-07 12:09:02] INFO root fetch - processPackages [hyperelastic]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-07 12:09:02] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-08-07 12:09:02] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230807/G/Geode-Common/26.1.5rc1-26.1.6rc1/diff.md --exclude *.pyd
+[2023-08-07 12:09:02] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/4d/28/45dcb03476364f59ae43084016f94ba0c21149b79fc7164ff7bd26467597/hyperelastic-0.7.0.tar.gz
+[2023-08-07 12:09:02] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/dc/ac/76303db770d03a3713ab4d08bd38dac0c0208b589d081f3e6a9818f39c59/boxmot-10.0.8.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d0/0c/86f55bfc389ec65928415a5e4764fa58324a376d4b95525f94e95c76552b/crypto-screening-8.4.5.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/ae/32/e7d6755061a38686ed330cbf01c02bbcc282ceb3395e755cad4f55ed95df/openprotein_python-0.2.1.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.4.4.tar.gz tmp/crypto-screening-8.4.5.tar.gz --markdown 20230807/c/crypto-screening/8.4.4-8.4.5/diff.md --exclude *.pyd
+[2023-08-07 12:09:03] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-08-07 12:09:03] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-08-07 12:09:03] INFO root fetch - processPackages [ocf-datapipes]: Start processing: berryworld
+[2023-08-07 12:09:03] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-08-07 12:09:03] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.36.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230807/b/biliarchiver/0.0.36-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:09:03] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.2.0.tar.gz tmp/openprotein_python-0.2.1.tar.gz --markdown 20230807/o/openprotein-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 12:09:03] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-08-07 12:09:03] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/e6/95/28e9b3de55eac3b9c8341ad10939882f009e326e8dfd0f3f8f8e8e9446fd/hyperelastic-0.8.0.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-08-07 12:09:03] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/8a/f5/03723049ad0e1bb7544e74ca77c734bc6cd4f4244b98def429efd2b73d9e/boxmot-10.0.9.tar.gz
+[2023-08-07 12:09:03] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.8.tar.gz tmp/boxmot-10.0.9.tar.gz --markdown 20230807/b/boxmot/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-08-07 12:09:03] INFO root fetch - processPackages [hyperelastic]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [hyperelastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperelastic-0.7.0.tar.gz tmp/hyperelastic-0.8.0.tar.gz --markdown 20230807/h/hyperelastic/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-07 12:09:03] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-08-07 12:09:03] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-08-07 12:09:03] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230807/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-08-07 12:09:04] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.36.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [biliarchiver]: Start processing: immosheets
+[2023-08-07 12:09:04] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-08-07 12:09:04] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.0.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.1.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [openprotein-python]: Start processing: holobench
+[2023-08-07 12:09:04] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-07 12:09:04] INFO root fetch - processPackages [immosheets]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [holobench]: New version: [0.2.0] Old Version: [0.0.8]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.4.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.5.tar.gz]
+[2023-08-07 12:09:04] INFO root fetch - processPackages [crypto-screening]: Start processing: web3cli
+[2023-08-07 12:09:04] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-08-07 12:09:05] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/db/28/2a94ecd03ac7f05d90dff109b096588bc4740b312c2ab251afda46166128/holobench-0.0.8.tar.gz
+[2023-08-07 12:09:05] INFO root fetch - processPackages [immosheets]: Downloading https://files.pythonhosted.org/packages/7b/56/8877ca6a32a45adc907c86cbf45d9361fefc43d24587918a88986e4b365b/immosheets-1.1.1.tar.gz
+[2023-08-07 12:09:05] INFO root fetch - processPackages [web3cli]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 12:09:05] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.7.0.tar.gz]
+[2023-08-07 12:09:05] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.8.0.tar.gz]
+[2023-08-07 12:09:05] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
+[2023-08-07 12:09:05] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-08-07 12:09:05] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-08-07 12:09:05] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-08-07 12:09:05] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/22/22/158d994d93d0ca46fd386b88a1153a7d10b612067253ceffe4d8d29bce76/web3cli-1.1.8.tar.gz
+[2023-08-07 12:09:05] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.8.tar.gz]
+[2023-08-07 12:09:05] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
+[2023-08-07 12:09:05] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-08-07 12:09:05] INFO root fetch - processPackages [immosheets]: Downloading https://files.pythonhosted.org/packages/45/77/764955902540d4a34bf9b86e5b3744265282e62b0e520b32a30fb993ad8f/immosheets-1.1.2.tar.gz
+[2023-08-07 12:09:05] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/50/e9/6acbde1defc29ee257841ea6f914309f69ea2500729a52889d8c32dcbbde/holobench-0.2.0.tar.gz
+[2023-08-07 12:09:05] INFO root fetch - processPackages [immosheets]: executing diffoscope
+[2023-08-07 12:09:05] INFO root fetch - processPackages [immosheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immosheets-1.1.1.tar.gz tmp/immosheets-1.1.2.tar.gz --markdown 20230807/i/immosheets/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-07 12:09:05] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-08-07 12:09:05] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.8.tar.gz tmp/holobench-0.2.0.tar.gz --markdown 20230807/h/holobench/0.0.8-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 12:09:05] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/63/9e/9331a7187ab2128675a2936a7774fde7e74c3b2b5e991aaa5879f8f282d8/web3cli-1.1.9.tar.gz
+[2023-08-07 12:09:06] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-08-07 12:09:06] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.8.tar.gz tmp/web3cli-1.1.9.tar.gz --markdown 20230807/w/web3cli/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 12:09:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:06] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-08-07 12:09:06] INFO root fetch - processPackages [immosheets]: Remove: archive file [/home/abi/fetcher/tmp/immosheets-1.1.1.tar.gz]
+[2023-08-07 12:09:06] INFO root fetch - processPackages [immosheets]: Remove: archive file [/home/abi/fetcher/tmp/immosheets-1.1.2.tar.gz]
+[2023-08-07 12:09:06] INFO root fetch - main [MainThread]: End processing [immosheets]: success
+[2023-08-07 12:09:07] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:07] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:07] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-08-07 12:09:07] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.8.tar.gz]
+[2023-08-07 12:09:07] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.2.0.tar.gz]
+[2023-08-07 12:09:07] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-08-07 12:09:07] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.8.tar.gz]
+[2023-08-07 12:09:07] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.9.tar.gz]
+[2023-08-07 12:09:07] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-08-07 12:09:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:09:13] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-08-07 12:09:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:09:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:09:35] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-08-07 12:09:35] INFO root fetch - main [MainThread]: Store serial: [19203960]
