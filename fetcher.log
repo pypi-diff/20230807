@@ -19222,3 +19222,123 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:00:43] INFO root fetch - processPackages [tulir-telethon]: Remove: archive file [/home/abi/fetcher/tmp/tulir-telethon-1.30.0a1.tar.gz]
 [2023-08-07 15:00:43] INFO root fetch - main [MainThread]: End processing [tulir-telethon]: success
 [2023-08-07 15:00:43] INFO root fetch - main [MainThread]: Store serial: [19205608]
+[2023-08-07 15:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205608]
+[2023-08-07 15:05:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cstow
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-unicorn
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyMolNetEnhancer
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netdoc
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hitchpylibrarytoolkit
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pathway
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SCALECAST
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lick-detector
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubeflow-training
+[2023-08-07 15:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-saurabh0402
+[2023-08-07 15:05:52] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [django-unicorn]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [hitchpylibrarytoolkit]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-08-07 15:05:53] WARNING root fetch - processPackages [lick-detector]: Skipping, unable to determine old version
+[2023-08-07 15:05:53] INFO root fetch - processPackages [lick-detector]: Start processing: lusid-sdk
+[2023-08-07 15:05:53] INFO root fetch - main [MainThread]: End processing [lick-detector] error
+[2023-08-07 15:05:53] INFO root fetch - processPackages [pathway]: New version: [1.3.1] Old Version: [1.3]
+[2023-08-07 15:05:53] WARNING root fetch - processPackages [test-saurabh0402]: Skipping, unable to determine old version
+[2023-08-07 15:05:53] INFO root fetch - processPackages [test-saurabh0402]: Start processing: shared-atomic-enterprise
+[2023-08-07 15:05:53] INFO root fetch - main [MainThread]: End processing [test-saurabh0402] error
+[2023-08-07 15:05:53] INFO root fetch - processPackages [pyMolNetEnhancer]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [kubeflow-training]: New version: [1.7.0rc0] Old Version: [1.6.0rc0]
+[2023-08-07 15:05:53] WARNING root fetch - processPackages [cstow]: Skipping, unable to determine old version
+[2023-08-07 15:05:53] INFO root fetch - processPackages [cstow]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-08-07 15:05:53] INFO root fetch - main [MainThread]: End processing [cstow] error
+[2023-08-07 15:05:53] INFO root fetch - processPackages [django-unicorn]: Downloading https://files.pythonhosted.org/packages/cd/33/762c0d63ab1bc9bb1f6869576c21e1a5bc4ff293c18ed64e3c0ca752c037/django-unicorn-0.9.3.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [hitchpylibrarytoolkit]: Downloading https://files.pythonhosted.org/packages/54/71/817a985c796658f2afc600a19fd39235be9e750666457579393c3b51fe73/hitchpylibrarytoolkit-0.6.7.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/7a/20/df8d1fe9f685ffd49a143a04d4d63f486802473904b7ed7e7b6576cb61ee/Pathway-1.3.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.8.7] Old Version: [2023.8.6]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.2.0] Old Version: [5!3.0.0]
+[2023-08-07 15:05:53] INFO root fetch - processPackages [pyMolNetEnhancer]: Downloading https://files.pythonhosted.org/packages/cb/66/a107b6d12057ec83f45e915866de7ef0ed8c22698ac6073e039dc2cf12e6/pyMolNetEnhancer-0.1.9.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [kubeflow-training]: Downloading https://files.pythonhosted.org/packages/f5/6e/24c9fa23625529fa654fd8fb25a1bf96208a6dd69015a2bc312a04a74f42/kubeflow-training-1.6.0rc0.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/94/e1/a8fa5cbbfd5939182aa82f5db3143305724644014f3795e874e0da113d1a/fbgemm_gpu_nightly_cpu-2023.8.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 15:05:53] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-08-07 15:05:53] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230807/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 15:05:53] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/b0/84/a89c5a49c318c90c1a41f82539ee82ed3c921c3a2f7df886ee32e4217b4b/Pathway-1.3.1.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [hitchpylibrarytoolkit]: Downloading https://files.pythonhosted.org/packages/96/55/66024cf6ce9fb371f3e67a3594452a5dcfee9070ad6436ff183238a8691d/hitchpylibrarytoolkit-0.6.9.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [django-unicorn]: Downloading https://files.pythonhosted.org/packages/5e/ee/ff96e6c354069aad274ec11afc1cbd804ba96e2ef8c94fbaebf7f3057312/django-unicorn-0.9.4.tar.gz
+[2023-08-07 15:05:53] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-07 15:05:53] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-08-07 15:05:54] INFO root fetch - processPackages [pyMolNetEnhancer]: Downloading https://files.pythonhosted.org/packages/25/72/434a966e837d436840d3835ffe23a1e33bf88105c3ae35685ddba8751f9a/pyMolNetEnhancer-0.2.0.tar.gz
+[2023-08-07 15:05:54] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pathway-1.3.tar.gz tmp/Pathway-1.3.1.tar.gz --markdown 20230807/p/pathway/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [hitchpylibrarytoolkit]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [hitchpylibrarytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitchpylibrarytoolkit-0.6.7.tar.gz tmp/hitchpylibrarytoolkit-0.6.9.tar.gz --markdown 20230807/h/hitchpylibrarytoolkit/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-08-07 15:05:54] INFO root fetch - processPackages [kubeflow-training]: Downloading https://files.pythonhosted.org/packages/22/e4/8ab0846fd718393c0bab10d2560e49e595b4b4f96379252221a20a0be9a1/kubeflow-training-1.7.0rc0.tar.gz
+[2023-08-07 15:05:54] INFO root fetch - processPackages [django-unicorn]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [django-unicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-unicorn-0.9.3.tar.gz tmp/django-unicorn-0.9.4.tar.gz --markdown 20230807/d/django-unicorn/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230807/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [pyMolNetEnhancer]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [pyMolNetEnhancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMolNetEnhancer-0.1.9.tar.gz tmp/pyMolNetEnhancer-0.2.0.tar.gz --markdown 20230807/p/pyMolNetEnhancer/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230807/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [kubeflow-training]: executing diffoscope
+[2023-08-07 15:05:54] INFO root fetch - processPackages [kubeflow-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubeflow-training-1.6.0rc0.tar.gz tmp/kubeflow-training-1.7.0rc0.tar.gz --markdown 20230807/k/kubeflow-training/1.6.0rc0-1.7.0rc0/diff.md --exclude *.pyd
+[2023-08-07 15:05:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/cb/6e/39a072c3f60b4dff1e96e1a6fb1bfbd38c3f8a646ea9a3a0fb916223e6a0/fbgemm_gpu_nightly_cpu-2023.8.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 15:05:54] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/98/41/f85cc963d6797a1228de85eba05673c44f74c21ce0149e817441c235dfcf/shared_atomic_enterprise-5!3.2.0-pp38-none-win_amd64.whl
+[2023-08-07 15:05:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-08-07 15:05:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.8.6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.8.7-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/f/fbgemm-gpu-nightly-cpu/2023.8.6-2023.8.7/diff.md --exclude *.pyd
+[2023-08-07 15:05:55] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.8.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [SCALECAST]: Start processing: mitmproxy-rs
+[2023-08-07 15:05:55] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-08-07 15:05:55] INFO root fetch - processPackages [mitmproxy-rs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [hitchpylibrarytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/hitchpylibrarytoolkit-0.6.7.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [hitchpylibrarytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/hitchpylibrarytoolkit-0.6.9.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [hitchpylibrarytoolkit]: Start processing: lusid-sdk-preview
+[2023-08-07 15:05:55] INFO root fetch - main [MainThread]: End processing [hitchpylibrarytoolkit]: success
+[2023-08-07 15:05:55] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/Pathway-1.3.1.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2023-08-07 15:05:55] INFO root fetch - processPackages [pyMolNetEnhancer]: Remove: archive file [/home/abi/fetcher/tmp/pyMolNetEnhancer-0.1.9.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - processPackages [pyMolNetEnhancer]: Remove: archive file [/home/abi/fetcher/tmp/pyMolNetEnhancer-0.2.0.tar.gz]
+[2023-08-07 15:05:55] INFO root fetch - main [MainThread]: End processing [pyMolNetEnhancer]: success
+[2023-08-07 15:05:55] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/db/1a/8c1678c625fd4e4c000b4c2e696d0121b66e1348bfa7b03755bb21441758/mitmproxy_rs-0.2.1.tar.gz
+[2023-08-07 15:05:56] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/d5/94/8ebe25c964595b6394201a96083631f43d87b86c5cea70bfdcc09790923f/mitmproxy_rs-0.2.2.tar.gz
+[2023-08-07 15:05:56] INFO root fetch - processPackages [mitmproxy-rs]: executing diffoscope
+[2023-08-07 15:05:56] INFO root fetch - processPackages [mitmproxy-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy_rs-0.2.1.tar.gz tmp/mitmproxy_rs-0.2.2.tar.gz --markdown 20230807/m/mitmproxy-rs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 15:05:56] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-07 15:05:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.6-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 15:05:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.7-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 15:05:56] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-08-07 15:05:56] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-07 15:05:56] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.2.0-pp38-none-win_amd64.whl.zip --markdown 20230807/s/shared-atomic-enterprise/5!3.0.0-5!3.2.0/diff.md --exclude *.pyd
+[2023-08-07 15:05:56] INFO root fetch - processPackages [kubeflow-training]: Remove: archive file [/home/abi/fetcher/tmp/kubeflow-training-1.6.0rc0.tar.gz]
+[2023-08-07 15:05:56] INFO root fetch - processPackages [kubeflow-training]: Remove: archive file [/home/abi/fetcher/tmp/kubeflow-training-1.7.0rc0.tar.gz]
+[2023-08-07 15:05:56] INFO root fetch - main [MainThread]: End processing [kubeflow-training]: success
+[2023-08-07 15:05:56] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-08-07 15:05:57] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-08-07 15:05:57] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-08-07 15:05:57] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-08-07 15:05:57] INFO root fetch - processPackages [django-unicorn]: Remove: archive file [/home/abi/fetcher/tmp/django-unicorn-0.9.3.tar.gz]
+[2023-08-07 15:05:57] INFO root fetch - processPackages [django-unicorn]: Remove: archive file [/home/abi/fetcher/tmp/django-unicorn-0.9.4.tar.gz]
+[2023-08-07 15:05:57] INFO root fetch - main [MainThread]: End processing [django-unicorn]: success
+[2023-08-07 15:05:57] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-08-07 15:05:57] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-08-07 15:05:57] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230807/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-07 15:05:58] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.1.tar.gz]
+[2023-08-07 15:05:58] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.2.tar.gz]
+[2023-08-07 15:05:58] INFO root fetch - main [MainThread]: End processing [mitmproxy-rs]: success
+[2023-08-07 15:06:04] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-07 15:06:04] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.2.0-pp38-none-win_amd64.whl.zip]
+[2023-08-07 15:06:04] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-07 15:06:05] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-08-07 15:06:05] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-08-07 15:06:05] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-08-07 15:06:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-08-07 15:06:11] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-08-07 15:06:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-08-07 15:06:11] INFO root fetch - main [MainThread]: Store serial: [19205666]
