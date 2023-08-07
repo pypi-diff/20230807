@@ -7443,3 +7443,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 07:05:15] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
 [2023-08-07 07:05:15] INFO root fetch - main [MainThread]: End processing [casdoor]: success
 [2023-08-07 07:05:15] INFO root fetch - main [MainThread]: Store serial: [19200636]
+[2023-08-07 07:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200636]
+[2023-08-07 07:10:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyVIA
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: b-roller
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-migrate
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cog2
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sherpa-onnx
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calfcv
+[2023-08-07 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: importlib-resources
+[2023-08-07 07:10:24] INFO root fetch - processPackages [cog2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [b-roller]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230806] Old Version: [0.1.1.dev20230805]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/8a/aa/e15779bd3d7e0f6ba94c0269558791cbd1ea57d01a165c472985989bfc43/cog2-0.1.8.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [b-roller]: Downloading https://files.pythonhosted.org/packages/c9/91/c2498f5a7c92bcca7bc718f9381c1ac1d3c0f701af7eeff23fe12df8dd51/b_roller-1.2.4.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [xj-migrate]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [importlib-resources]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230807] Old Version: [23.8.0a230806]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230807] Old Version: [23.8.0a230806]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-08-07 07:10:24] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/d9/59/672f3a5da1349c49f3ea709dc569ccc4676dee154f1b601f7dfe92273ce7/rapid_pe-0.1.1.dev20230805.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/ef/b6039a21234c295cdd04e9dff4ea01212ec9fd3453b264aa53abcff2efd5/dask-cuda-23.8.0a230806.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [b-roller]: Downloading https://files.pythonhosted.org/packages/d6/f9/30657370d223b7cf49fb203483219dd348d810c1a5700f99857aa3a0fb67/b_roller-1.3.0.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/6b/bc/042d2dadc800aed7deba4de6dc72df043f228c98e42fe863db7f5ca7efd3/pyVIA-0.1.89.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/ef/b6039a21234c295cdd04e9dff4ea01212ec9fd3453b264aa53abcff2efd5/dask-cuda-23.8.0a230806.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [importlib-resources]: Downloading https://files.pythonhosted.org/packages/78/1f/65a619c18b0ecd55ac165c7ed119c846051991d01c2cfc0ff7818e4573f0/importlib_resources-6.0.0.tar.gz
+[2023-08-07 07:10:24] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/79/b7/47163ebd89814453fcce295a069a99a94a491cda828cff3e5d52196cfdfc/xj-migrate-1.0.6.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [b-roller]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [b-roller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_roller-1.2.4.tar.gz tmp/b_roller-1.3.0.tar.gz --markdown 20230807/b/b-roller/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/1e/a4/3fcc82077dba01339436a21c674f4d7a9fd966f0b251e82abaeb285b0940/cog2-0.1.9.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/8e/ad/d77fda3aad318f913e446903d91db2d906817a2804740e12ffa7bffab0da/sherpa-onnx-1.5.5.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0f/3e/8b3ffbda072be837a809d686f448636d1638e26fe5dd6afd2dd1286c0e5a/rapid_pe-0.1.1.dev20230806.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [cog2]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [cog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog2-0.1.8.tar.gz tmp/cog2-0.1.9.tar.gz --markdown 20230807/c/cog2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [importlib-resources]: Downloading https://files.pythonhosted.org/packages/fd/dc/0c5cfbd4df5d6e83de4e64324b370151ee88de25f3c71aea21115f4f77f8/importlib_resources-6.0.1.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/de/83/11b8f79b507335356c6d0536944332b4c725c1177f1bb8b086f5b08bbeff/dask-cuda-23.8.0a230807.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/de/83/11b8f79b507335356c6d0536944332b4c725c1177f1bb8b086f5b08bbeff/dask-cuda-23.8.0a230807.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/a9/4e/2b69e50da90adeacb7f94e88be96753ef58ec66d8f8724ae7d96b3bd720e/sherpa-onnx-1.6.0.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230805.tar.gz tmp/rapid_pe-0.1.1.dev20230806.tar.gz --markdown 20230807/r/rapid-pe/0.1.1.dev20230805-0.1.1.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/89/7e/95932d51ad1672d645b9f606bc82feca1410dabaede7772d5fcf195134f6/xj-migrate-1.0.7.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-08-07 07:10:25] INFO root fetch - processPackages [xj-migrate]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [xj-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj-migrate-1.0.6.tar.gz tmp/xj-migrate-1.0.7.tar.gz --markdown 20230807/x/xj-migrate/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [importlib-resources]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [importlib-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importlib_resources-6.0.0.tar.gz tmp/importlib_resources-6.0.1.tar.gz --markdown 20230807/i/importlib-resources/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230806.tar.gz tmp/dask-cuda-23.8.0a230807.tar.gz --markdown 20230807/d/dask-cuda/23.8.0a230806-23.8.0a230807/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230806.tar.gz tmp/dask-cuda-23.8.0a230807.tar.gz --markdown 20230807/d/dask-cuda/23.8.0a230806-23.8.0a230807/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.5.5.tar.gz tmp/sherpa-onnx-1.6.0.tar.gz --markdown 20230807/s/sherpa-onnx/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-08-07 07:10:25] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-08-07 07:10:25] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.89.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230807/p/pyVIA/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 07:10:26] INFO root fetch - processPackages [b-roller]: Remove: archive file [/home/abi/fetcher/tmp/b_roller-1.2.4.tar.gz]
+[2023-08-07 07:10:26] INFO root fetch - processPackages [b-roller]: Remove: archive file [/home/abi/fetcher/tmp/b_roller-1.3.0.tar.gz]
+[2023-08-07 07:10:26] INFO root fetch - processPackages [b-roller]: Start processing: adafri
+[2023-08-07 07:10:26] INFO root fetch - main [MainThread]: End processing [b-roller]: success
+[2023-08-07 07:10:26] INFO root fetch - processPackages [adafri]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-08-07 07:10:26] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.8.tar.gz]
+[2023-08-07 07:10:26] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.9.tar.gz]
+[2023-08-07 07:10:26] INFO root fetch - main [MainThread]: End processing [cog2]: success
+[2023-08-07 07:10:26] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/8b/16/21b4612a42ae713ed2e990842e0e5b6b1c2d86fc3a58b7ef42933b654349/adafri-0.0.76.tar.gz
+[2023-08-07 07:10:26] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/2d/a2/deb03ff9d7891c041cc05149cb2a2c6dcbb416838b053368be74fd859047/adafri-0.0.77.tar.gz
+[2023-08-07 07:10:26] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 07:10:26] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.76.tar.gz tmp/adafri-0.0.77.tar.gz --markdown 20230807/a/adafri/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-08-07 07:10:27] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230805.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230806.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.6.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.7.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.89.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.9.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230806.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230807.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.5.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.6.0.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [importlib-resources]: Remove: archive file [/home/abi/fetcher/tmp/importlib_resources-6.0.0.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [importlib-resources]: Remove: archive file [/home/abi/fetcher/tmp/importlib_resources-6.0.1.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [importlib-resources]: success
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-07 07:10:27] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.76.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.77.tar.gz]
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 07:10:27] INFO root fetch - main [MainThread]: Store serial: [19200673]
