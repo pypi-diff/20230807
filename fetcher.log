@@ -9401,3 +9401,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 09:11:14] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-08-07 09:11:14] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-08-07 09:11:14] INFO root fetch - main [MainThread]: Store serial: [19201697]
+[2023-08-07 09:16:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201697]
+[2023-08-07 09:16:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openi-beta
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyunitsystem
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namekoplus
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xplorts
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optuna
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-mcversion
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiaoranli
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spiderx
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: richviewsdk
+[2023-08-07 09:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cr.cube
+[2023-08-07 09:16:23] INFO root fetch - processPackages [richviewsdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-07 09:16:23] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 09:16:23] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [optuna]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [xplorts]: New version: [0.8] Old Version: [0.7]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [richviewsdk]: Downloading https://files.pythonhosted.org/packages/b4/04/3aac513738ce264716ebed45e1f07cb1c14e5dd23f39526b5c480a652c06/richviewsdk-1.0.4.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [pyunitsystem]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [xiaoranli]: New version: [7.2.1] Old Version: [7.1.3]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [openi-beta]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [cr.cube]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-07 09:16:24] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/90/9e/d77f599dced6be6065c2b0f53da96be15485eb2c7ed66d464923e2d5a006/nonebot-plugin-mcversion-0.2.2.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [xplorts]: Downloading https://files.pythonhosted.org/packages/dc/6e/b479670ffeba150f04fe5f1e4ec1519e745e1d81a82191db394b13376793/xplorts-0.7.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [pyunitsystem]: Downloading https://files.pythonhosted.org/packages/f3/96/43116e0a8afa5d5537a83bd4d4ea73ba5c58005d9ccb762e7884750802a9/pyunitsystem-0.1.0.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [optuna]: Downloading https://files.pythonhosted.org/packages/97/97/12689d6988c822acd23103a6f1fc6a646f27809e2d1972b1219cef880873/optuna-3.2.0.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [cr.cube]: Downloading https://files.pythonhosted.org/packages/03/69/6f9dcb353f674612a8ff2b300ca58927741a268fc464b903c0fc94ae49e6/cr.cube-3.0.8.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/51/42/44ea07942f533199ca0de02b012acc1bfa40ce0ee53819da669c27e910f0/openi-beta-2.0.8.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/42/91/66e0786afa69bbdde2313ad19470ba4dde65c5284f2da42246da353e97a7/xiaoranli-7.1.3-py3-none-any.whl
+[2023-08-07 09:16:24] INFO root fetch - processPackages [richviewsdk]: Downloading https://files.pythonhosted.org/packages/5f/4d/5e4e8a49825ca7b2038c6acd44c952205f2e75a4c8cef3efe8dab27b0002/richviewsdk-1.0.5.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/ad/8b/72e178ad01795f543d0c9d6139bdb82500fcb10c9c5e5723b2434a3a2ce0/nonebot-plugin-mcversion-0.2.3.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-08-07 09:16:24] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230807/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-08-07 09:16:24] INFO root fetch - processPackages [richviewsdk]: executing diffoscope
+[2023-08-07 09:16:24] INFO root fetch - processPackages [richviewsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richviewsdk-1.0.4.tar.gz tmp/richviewsdk-1.0.5.tar.gz --markdown 20230807/r/richviewsdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-07 09:16:24] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-08-07 09:16:24] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.2.tar.gz tmp/nonebot-plugin-mcversion-0.2.3.tar.gz --markdown 20230807/n/nonebot-plugin-mcversion/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 09:16:24] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 09:16:24] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 09:16:24] INFO root fetch - processPackages [pyunitsystem]: Downloading https://files.pythonhosted.org/packages/36/62/ccac2ff5d992aea4cf94f874e9e3d4f3ce9a36971cb203dedc37decde634/pyunitsystem-1.0.0.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/f0/2c/5cb7173aa6419fee4e5499eb1cc1502106213e211cc11a720ee0185c1c14/openi-beta-2.0.9.tar.gz
+[2023-08-07 09:16:24] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/1b/19/09ab4c809ffd418f2698eafaffa5fcedf2a8f4170996057396fe17858d86/xiaoranli-7.2.1-py3-none-any.whl
+[2023-08-07 09:16:24] INFO root fetch - processPackages [optuna]: Downloading https://files.pythonhosted.org/packages/7f/36/e22bfc0e0ade526569cd0c6beadd3567902d80d7acdcbf787ddda3d1d451/optuna-3.3.0.tar.gz
+[2023-08-07 09:16:25] INFO root fetch - processPackages [cr.cube]: Downloading https://files.pythonhosted.org/packages/11/48/9e55fcf69aae7c802454e70f47c297db9f730f0609ef34d4fd96488bae71/cr.cube-3.0.9.tar.gz
+[2023-08-07 09:16:25] INFO root fetch - processPackages [pyunitsystem]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [pyunitsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunitsystem-0.1.0.tar.gz tmp/pyunitsystem-1.0.0.tar.gz --markdown 20230807/p/pyunitsystem/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 09:16:25] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.8.tar.gz tmp/openi-beta-2.0.9.tar.gz --markdown 20230807/o/openi-beta/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:16:25] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-7.1.3-py3-none-any.whl.zip tmp/xiaoranli-7.2.1-py3-none-any.whl.zip --markdown 20230807/x/xiaoranli/7.1.3-7.2.1/diff.md --exclude *.pyd
+[2023-08-07 09:16:25] INFO root fetch - processPackages [optuna]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [optuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-3.2.0.tar.gz tmp/optuna-3.3.0.tar.gz --markdown 20230807/o/optuna/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-08-07 09:16:25] INFO root fetch - processPackages [xplorts]: Downloading https://files.pythonhosted.org/packages/b5/ad/66945cef004bb770e211bbc37c584df48d48925052e1d98457580dd572d0/xplorts-0.8.tar.gz
+[2023-08-07 09:16:25] INFO root fetch - processPackages [cr.cube]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [cr.cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cr.cube-3.0.8.tar.gz tmp/cr.cube-3.0.9.tar.gz --markdown 20230807/c/cr.cube/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-07 09:16:25] INFO root fetch - processPackages [xplorts]: executing diffoscope
+[2023-08-07 09:16:25] INFO root fetch - processPackages [xplorts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplorts-0.7.tar.gz tmp/xplorts-0.8.tar.gz --markdown 20230807/x/xplorts/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-07 09:16:26] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.2.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.3.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-08-07 09:16:26] INFO root fetch - processPackages [richviewsdk]: Remove: archive file [/home/abi/fetcher/tmp/richviewsdk-1.0.4.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [richviewsdk]: Remove: archive file [/home/abi/fetcher/tmp/richviewsdk-1.0.5.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [richviewsdk]: success
+[2023-08-07 09:16:26] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-08-07 09:16:26] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 09:16:26] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.3-py3-none-any.whl.zip]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.2.1-py3-none-any.whl.zip]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-08-07 09:16:26] INFO root fetch - processPackages [pyunitsystem]: Remove: archive file [/home/abi/fetcher/tmp/pyunitsystem-0.1.0.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - processPackages [pyunitsystem]: Remove: archive file [/home/abi/fetcher/tmp/pyunitsystem-1.0.0.tar.gz]
+[2023-08-07 09:16:26] INFO root fetch - main [MainThread]: End processing [pyunitsystem]: success
+[2023-08-07 09:16:27] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.8.tar.gz]
+[2023-08-07 09:16:27] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.9.tar.gz]
+[2023-08-07 09:16:27] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-08-07 09:16:28] INFO root fetch - processPackages [xplorts]: Remove: archive file [/home/abi/fetcher/tmp/xplorts-0.7.tar.gz]
+[2023-08-07 09:16:28] INFO root fetch - processPackages [xplorts]: Remove: archive file [/home/abi/fetcher/tmp/xplorts-0.8.tar.gz]
+[2023-08-07 09:16:28] INFO root fetch - main [MainThread]: End processing [xplorts]: success
+[2023-08-07 09:16:28] INFO root fetch - processPackages [optuna]: Remove: archive file [/home/abi/fetcher/tmp/optuna-3.2.0.tar.gz]
+[2023-08-07 09:16:28] INFO root fetch - processPackages [optuna]: Remove: archive file [/home/abi/fetcher/tmp/optuna-3.3.0.tar.gz]
+[2023-08-07 09:16:28] INFO root fetch - main [MainThread]: End processing [optuna]: success
+[2023-08-07 09:16:29] INFO root fetch - processPackages [cr.cube]: Remove: archive file [/home/abi/fetcher/tmp/cr.cube-3.0.8.tar.gz]
+[2023-08-07 09:16:29] INFO root fetch - processPackages [cr.cube]: Remove: archive file [/home/abi/fetcher/tmp/cr.cube-3.0.9.tar.gz]
+[2023-08-07 09:16:29] INFO root fetch - main [MainThread]: End processing [cr.cube]: success
+[2023-08-07 09:16:29] INFO root fetch - main [MainThread]: Store serial: [19201733]
