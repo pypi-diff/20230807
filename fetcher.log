@@ -6197,3 +6197,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:13:01] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.2.0.zip]
 [2023-08-07 05:13:01] INFO root fetch - main [MainThread]: End processing [exotic]: success
 [2023-08-07 05:13:01] INFO root fetch - main [MainThread]: Store serial: [19200018]
+[2023-08-07 05:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200018]
+[2023-08-07 05:18:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GANDLF
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-custom
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lognflow
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyskynet
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hologres-vector
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WinDbg-Copilot
+[2023-08-07 05:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markitup
+[2023-08-07 05:18:10] INFO root fetch - processPackages [lognflow]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-07 05:18:10] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 05:18:10] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 05:18:10] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230806] Old Version: [0.0.17.dev20230805]
+[2023-08-07 05:18:10] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/35/52/17af48f1ae69033b8379f6035142e0c4c3f80f44faf61642a8c3a363928e/lognflow-0.8.4.tar.gz
+[2023-08-07 05:18:10] WARNING root fetch - processPackages [hologres-vector]: Skipping, unable to determine old version
+[2023-08-07 05:18:10] INFO root fetch - main [MainThread]: End processing [hologres-vector] error
+[2023-08-07 05:18:10] INFO root fetch - processPackages [pyskynet]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-08-07 05:18:10] WARNING root fetch - processPackages [markitup]: Skipping, unable to determine old version
+[2023-08-07 05:18:10] INFO root fetch - main [MainThread]: End processing [markitup] error
+[2023-08-07 05:18:10] INFO root fetch - processPackages [selenium-custom]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-08-07 05:18:10] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-08-07 05:18:10] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/86/2a/0d512a0f2bba27aed87085679610e272b024be589eb410c2ad124fd9ec2c/GANDLF-0.0.17.dev20230805.tar.gz
+[2023-08-07 05:18:10] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 05:18:10] INFO root fetch - processPackages [pyskynet]: Downloading https://files.pythonhosted.org/packages/d9/33/7b5548de966dcac021049fbb89ba87d5b01d570156fb573dacb1eb4a3d54/pyskynet-0.1.5.tar.gz
+[2023-08-07 05:18:10] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/14/7d/4c58e911bad015447a8ee25a11484969b612eab939f8645825a3497649a8/selenium-custom-4.2.0.tar.gz
+[2023-08-07 05:18:10] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/90/8d/a2bb175699c17eb39d65ec75cce48ccdd762ec0cfe893ee6338b11d3d736/lognflow-0.8.5.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.4.tar.gz tmp/lognflow-0.8.5.tar.gz --markdown 20230807/l/lognflow/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-07 05:18:11] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/61/4b/610f572193ff766df44b1a0b9294d8c171caa10d352652ec724b9aa6cd5f/GANDLF-0.0.17.dev20230806.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:18:11] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/27/4a/8c3f38f7332e88bb9ffb405d5077576f1f843903aa67bf948775ca7fa81c/selenium-custom-4.2.1.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230805.tar.gz tmp/GANDLF-0.0.17.dev20230806.tar.gz --markdown 20230807/G/GANDLF/0.0.17.dev20230805-0.0.17.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 05:18:11] INFO root fetch - processPackages [selenium-custom]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [selenium-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-custom-4.2.0.tar.gz tmp/selenium-custom-4.2.1.tar.gz --markdown 20230807/s/selenium-custom/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-08-07 05:18:11] INFO root fetch - processPackages [pyskynet]: Downloading https://files.pythonhosted.org/packages/85/84/60d086e486da95224d7d84158553d106bb3162d076a9c874f5291267997e/pyskynet-0.2.0.tar.gz
+[2023-08-07 05:18:11] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230807/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:18:11] INFO root fetch - processPackages [pyskynet]: executing diffoscope
+[2023-08-07 05:18:11] INFO root fetch - processPackages [pyskynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyskynet-0.1.5.tar.gz tmp/pyskynet-0.2.0.tar.gz --markdown 20230807/p/pyskynet/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 05:18:12] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 05:18:12] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.4.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.5.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-08-07 05:18:12] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.0.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.1.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - main [MainThread]: End processing [selenium-custom]: success
+[2023-08-07 05:18:12] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230805.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230806.tar.gz]
+[2023-08-07 05:18:12] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-08-07 05:18:16] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-08-07 05:18:16] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-08-07 05:18:16] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-08-07 05:18:16] INFO root fetch - processPackages [pyskynet]: Remove: archive file [/home/abi/fetcher/tmp/pyskynet-0.1.5.tar.gz]
+[2023-08-07 05:18:16] INFO root fetch - processPackages [pyskynet]: Remove: archive file [/home/abi/fetcher/tmp/pyskynet-0.2.0.tar.gz]
+[2023-08-07 05:18:16] INFO root fetch - main [MainThread]: End processing [pyskynet]: success
+[2023-08-07 05:18:16] INFO root fetch - main [MainThread]: Store serial: [19200045]
