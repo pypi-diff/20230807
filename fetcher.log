@@ -14205,3 +14205,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:12:05] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.5rc0.tar.gz]
 [2023-08-07 11:12:05] INFO root fetch - main [MainThread]: End processing [mercurial]: success
 [2023-08-07 11:12:05] INFO root fetch - main [MainThread]: Store serial: [19203400]
+[2023-08-07 11:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203400]
+[2023-08-07 11:17:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namekoplus
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-playwright
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: processoptim
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-08-07 11:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tccli-intl-en
+[2023-08-07 11:17:14] INFO root fetch - processPackages [processoptim]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-07 11:17:14] INFO root fetch - processPackages [pytest-playwright]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-08-07 11:17:14] INFO root fetch - processPackages [namekoplus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-07 11:17:14] INFO root fetch - processPackages [volstreet]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-07 11:17:14] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-08-07 11:17:14] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-07 11:17:15] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/3c/be/f47ef4dc10abdacbd0e829aae68c251a5f3b7b7df7dcffa4c7370181e6c6/processoptim-0.2.7-py3-none-any.whl
+[2023-08-07 11:17:15] INFO root fetch - processPackages [pytest-playwright]: Downloading https://files.pythonhosted.org/packages/f5/19/19faab822909b1ded5f40911c6696ecafc8e4ab11ec73422a808fe96e9ad/pytest-playwright-0.3.3.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/ec/7e/84da6f81d7dc42a932fb36ff07b5bf3a1ba679530d786fcb0d6b844abf5b/namekoplus-0.4.8.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/89/83/9c12b80a03a986e1eea8bac8aa7bfd419ebcdce5894ae1fd18d8cb363ad0/volstreet-1.0.9.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [pytest-playwright]: Downloading https://files.pythonhosted.org/packages/78/e6/c2ee5d8c2f17537a703839dbacf6f5ef4de9b3214f3e376a6922bd9abe12/pytest-playwright-0.4.0.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/0c/32/495aa6dfbb711a92cab4925a62d14d4a64a87472dd7df4eea042d68be464/namekoplus-0.4.9.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a0/10/87c4494e3feb722ef6a5b0fee56a2aa1dd090c9268ec8ab0b52cbd6fc0a2/volstreet-1.1.0.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [pytest-playwright]: executing diffoscope
+[2023-08-07 11:17:15] INFO root fetch - processPackages [pytest-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-0.3.3.tar.gz tmp/pytest-playwright-0.4.0.tar.gz --markdown 20230807/p/pytest-playwright/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-08-07 11:17:15] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-07 11:17:15] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.8.tar.gz tmp/namekoplus-0.4.9.tar.gz --markdown 20230807/n/namekoplus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-07 11:17:15] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-08-07 11:17:15] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.9.tar.gz tmp/volstreet-1.1.0.tar.gz --markdown 20230807/v/volstreet/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 11:17:15] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-08-07 11:17:15] INFO root fetch - processPackages [processoptim]: Downloading https://files.pythonhosted.org/packages/d3/51/deb46a6435ede4670abd6e21cf00b1da5a9aa34af29c669f20d0242b9924/processoptim-0.2.8-py3-none-any.whl
+[2023-08-07 11:17:16] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-08-07 11:17:16] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230807/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-07 11:17:16] INFO root fetch - processPackages [processoptim]: executing diffoscope
+[2023-08-07 11:17:16] INFO root fetch - processPackages [processoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processoptim-0.2.7-py3-none-any.whl.zip tmp/processoptim-0.2.8-py3-none-any.whl.zip --markdown 20230807/p/processoptim/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-07 11:17:16] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-08-07 11:17:16] INFO root fetch - processPackages [pytest-playwright]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-0.3.3.tar.gz]
+[2023-08-07 11:17:16] INFO root fetch - processPackages [pytest-playwright]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-0.4.0.tar.gz]
+[2023-08-07 11:17:17] INFO root fetch - main [MainThread]: End processing [pytest-playwright]: success
+[2023-08-07 11:17:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.9.tar.gz]
+[2023-08-07 11:17:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.1.0.tar.gz]
+[2023-08-07 11:17:17] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-08-07 11:17:17] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.8.tar.gz]
+[2023-08-07 11:17:17] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.9.tar.gz]
+[2023-08-07 11:17:17] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-07 11:17:17] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-08-07 11:17:17] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230807/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-08-07 11:17:18] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.7-py3-none-any.whl.zip]
+[2023-08-07 11:17:18] INFO root fetch - processPackages [processoptim]: Remove: archive file [/home/abi/fetcher/tmp/processoptim-0.2.8-py3-none-any.whl.zip]
+[2023-08-07 11:17:18] INFO root fetch - main [MainThread]: End processing [processoptim]: success
+[2023-08-07 11:17:19] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-08-07 11:17:19] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-08-07 11:17:19] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-08-07 11:17:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-08-07 11:17:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-08-07 11:17:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-08-07 11:17:20] INFO root fetch - main [MainThread]: Store serial: [19203428]
