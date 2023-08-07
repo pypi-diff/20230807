@@ -18533,3 +18533,75 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:22:18] INFO root fetch - processPackages [sqlglot-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-doris-1.0.3.dev3.tar.gz]
 [2023-08-07 14:22:18] INFO root fetch - main [MainThread]: End processing [sqlglot-doris]: success
 [2023-08-07 14:22:18] INFO root fetch - main [MainThread]: Store serial: [19205282]
+[2023-08-07 14:27:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205282]
+[2023-08-07 14:27:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncpusher
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pedl
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamic-service
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utfuzz
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hubspot-api-client
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nephelai
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eco4cast
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-ec
+[2023-08-07 14:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: overpassforge
+[2023-08-07 14:27:28] INFO root fetch - processPackages [dynamic-service]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-07 14:27:28] WARNING root fetch - processPackages [eco4cast]: Skipping, unable to determine old version
+[2023-08-07 14:27:28] INFO root fetch - processPackages [eco4cast]: Start processing: GeoSAM-Image-Encoder
+[2023-08-07 14:27:28] INFO root fetch - main [MainThread]: End processing [eco4cast] error
+[2023-08-07 14:27:28] INFO root fetch - processPackages [crypto-screening]: New version: [8.4.5] Old Version: [8.4.4]
+[2023-08-07 14:27:28] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 14:27:28] WARNING root fetch - processPackages [asyncpusher]: Skipping, unable to determine old version
+[2023-08-07 14:27:28] INFO root fetch - main [MainThread]: End processing [asyncpusher] error
+[2023-08-07 14:27:28] WARNING root fetch - processPackages [nephelai]: Skipping, unable to determine old version
+[2023-08-07 14:27:28] INFO root fetch - main [MainThread]: End processing [nephelai] error
+[2023-08-07 14:27:28] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/ad/9b/44d532bfc31b0a5d80f5b1a751b186a3669d8584984cec0292589d48f042/dynamic-service-1.5.1.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [pedl]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 14:27:28] WARNING root fetch - processPackages [utfuzz]: Skipping, unable to determine old version
+[2023-08-07 14:27:28] INFO root fetch - main [MainThread]: End processing [utfuzz] error
+[2023-08-07 14:27:28] WARNING root fetch - processPackages [overpassforge]: Skipping, unable to determine old version
+[2023-08-07 14:27:28] INFO root fetch - main [MainThread]: End processing [overpassforge] error
+[2023-08-07 14:27:28] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1691409334] Old Version: [0.5.2a1691128234]
+[2023-08-07 14:27:28] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c1/85/26db67f2312592d2e8e4d9e755c433965627bbb3d24d49269ebe0f016658/crypto-screening-8.4.4.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.1.0] Old Version: [8.0.0b6]
+[2023-08-07 14:27:28] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: Downloading https://files.pythonhosted.org/packages/fa/19/3a0bebe18eedc8a423509ce65082f2123566e5a620522fcb41c1fbfddc5c/GeoSAM-Image-Encoder-1.0.0.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [pedl]: Downloading https://files.pythonhosted.org/packages/4f/7d/051f6e7d4ab7edcf9d5e756efae518cc340207a558f322c76cc68027116d/pedl-1.0.0.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/5f/6d/dfb0a44f6798e6304995a43ce4fcfd439532efd170e0aaa869b2837c7e8c/pulumi_ec-0.5.2a1691128234.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d0/0c/86f55bfc389ec65928415a5e4764fa58324a376d4b95525f94e95c76552b/crypto-screening-8.4.5.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/6a/26/0eb48c577bd955cb3ae3348a59359ff4e13ed3d0da0eb3c948214462e6e8/hubspot-api-client-8.0.0b6.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/64/32/f19af6656df29f6b0befc55b500d367d8dc8d19b3858c8c70ce4e3d5ad8e/dynamic-service-1.5.2.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-08-07 14:27:28] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.4.4.tar.gz tmp/crypto-screening-8.4.5.tar.gz --markdown 20230807/c/crypto-screening/8.4.4-8.4.5/diff.md --exclude *.pyd
+[2023-08-07 14:27:28] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-08-07 14:27:28] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.5.1.tar.gz tmp/dynamic-service-1.5.2.tar.gz --markdown 20230807/d/dynamic-service/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-07 14:27:28] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: Downloading https://files.pythonhosted.org/packages/5e/b9/fe6cedeb4cd750018daa61177aac5f8a894ebfad0c313641283f3ebb8fba/GeoSAM-Image-Encoder-1.0.1.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/88/66/8346f35566a9179eaf67cb77c5c782942805c8f33f46cd57722c76325eef/pulumi_ec-0.5.2a1691409334.tar.gz
+[2023-08-07 14:27:28] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: executing diffoscope
+[2023-08-07 14:27:28] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoSAM-Image-Encoder-1.0.0.tar.gz tmp/GeoSAM-Image-Encoder-1.0.1.tar.gz --markdown 20230807/G/GeoSAM-Image-Encoder/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1691128234.tar.gz tmp/pulumi_ec-0.5.2a1691409334.tar.gz --markdown 20230807/p/pulumi-ec/0.5.2a1691128234-0.5.2a1691409334/diff.md --exclude *.pyd
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pedl]: Downloading https://files.pythonhosted.org/packages/33/6e/58be5fadb9180e2ea39ca7d893dca319ff3dc01a8dd3885def79fc82bdbd/pedl-1.0.1.tar.gz
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pedl]: executing diffoscope
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pedl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedl-1.0.0.tar.gz tmp/pedl-1.0.1.tar.gz --markdown 20230807/p/pedl/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-07 14:27:29] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.5.1.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.5.2.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-08-07 14:27:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.4.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.4.5.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-08-07 14:27:29] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/ad/f7/7318da1458f044ac32ade38af29c897d17f5efe47a84d3b40f43fe67b303/hubspot-api-client-8.1.0.tar.gz
+[2023-08-07 14:27:29] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: Remove: archive file [/home/abi/fetcher/tmp/GeoSAM-Image-Encoder-1.0.0.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - processPackages [GeoSAM-Image-Encoder]: Remove: archive file [/home/abi/fetcher/tmp/GeoSAM-Image-Encoder-1.0.1.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - main [MainThread]: End processing [GeoSAM-Image-Encoder]: success
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1691128234.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1691409334.tar.gz]
+[2023-08-07 14:27:29] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-08-07 14:27:30] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-08-07 14:27:30] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b6.tar.gz tmp/hubspot-api-client-8.1.0.tar.gz --markdown 20230807/h/hubspot-api-client/8.0.0b6-8.1.0/diff.md --exclude *.pyd
+[2023-08-07 14:27:32] INFO root fetch - processPackages [pedl]: Remove: archive file [/home/abi/fetcher/tmp/pedl-1.0.0.tar.gz]
+[2023-08-07 14:27:32] INFO root fetch - processPackages [pedl]: Remove: archive file [/home/abi/fetcher/tmp/pedl-1.0.1.tar.gz]
+[2023-08-07 14:27:32] INFO root fetch - main [MainThread]: End processing [pedl]: success
+[2023-08-07 14:27:45] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.0.0b6.tar.gz]
+[2023-08-07 14:27:45] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.1.0.tar.gz]
+[2023-08-07 14:27:45] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-08-07 14:27:45] INFO root fetch - main [MainThread]: Store serial: [19205328]
