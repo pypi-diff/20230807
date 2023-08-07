@@ -4240,3 +4240,74 @@
 [2023-08-07 02:56:15] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-08-07 02:56:15] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-08-07 02:56:15] INFO root fetch - main [MainThread]: Store serial: [19199150]
+[2023-08-07 03:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199150]
+[2023-08-07 03:01:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raydp-nightly
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reddit-post-scraping-tool
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aemcmc-nightly
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axion
+[2023-08-07 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e2b
+[2023-08-07 03:01:24] INFO root fetch - processPackages [e2b]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [axion]: New version: [3.7.0] Old Version: [3.6.19]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.8.7.dev0] Old Version: [2023.8.5.dev0]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [reddit-post-scraping-tool]: New version: [1.4.1.0] Old Version: [1.4.0.0]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/66/ef/1c870057abfaf3bf4ac9a311729446926bc2482b64689a0888076fa33675/e2b-0.1.0.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230807] Old Version: [0.0.8.dev20230806]
+[2023-08-07 03:01:24] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/c5/7b/c3c2cc59241e7a99c974baff2a716697f55ef681c8f5cd1633223b219411/reddit-post-scraping-tool-1.4.0.0.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/94/5f/5a4a26aa12e6e724c00a3323fd0b70a8909079c3e5c35f513ea366a36334/aemcmc-nightly-0.0.8.dev20230806.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/84/a0/4fa138fcfff4b7c94682e07a2dd4283cf8cd51c30aa8a2a523396d7a48d6/axion-3.6.19-cp311-none-win_amd64.whl
+[2023-08-07 03:01:24] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/65/6a/d458b39095ac1b170690df5365da7c744af45dd005ced9405e2ca47dd228/raydp_nightly-2023.8.5.dev0-py3-none-any.whl
+[2023-08-07 03:01:24] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/56/1e/8d3dc9ff25f64930a11bca12ad34e5848e629bf0601da0e0c252c298c680/e2b-0.1.1.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/30/d2/956db59d7c4e3b57069dd4475c7c9bcb7695e8c6491c561cc4bfe1bd712d/reddit-post-scraping-tool-1.4.1.0.tar.gz
+[2023-08-07 03:01:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-07 03:01:25] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.1.0.tar.gz tmp/e2b-0.1.1.tar.gz --markdown 20230807/e/e2b/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 03:01:25] INFO root fetch - processPackages [reddit-post-scraping-tool]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [reddit-post-scraping-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-post-scraping-tool-1.4.0.0.tar.gz tmp/reddit-post-scraping-tool-1.4.1.0.tar.gz --markdown 20230807/r/reddit-post-scraping-tool/1.4.0.0-1.4.1.0/diff.md --exclude *.pyd
+[2023-08-07 03:01:25] WARNING root fetch - processPackages [raydp-nightly]: Skipping package: exceeds size limit 14072323>=10485760
+[2023-08-07 03:01:25] INFO root fetch - main [MainThread]: End processing [raydp-nightly] error
+[2023-08-07 03:01:25] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/eb/e2/44392f8a76c09ccecbffe85ea571173448a3d7fc39106311ac8ba8d48b91/axion-3.7.0-cp311-none-win_amd64.whl
+[2023-08-07 03:01:25] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/46/67/4f9948aec4f9af8d9bc3b04f9d5e1a4039127ffee57a1e4850720177b888/aemcmc-nightly-0.0.8.dev20230807.tar.gz
+[2023-08-07 03:01:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230807/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:01:25] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-08-07 03:01:25] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230807/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:01:25] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.19-cp311-none-win_amd64.whl.zip tmp/axion-3.7.0-cp311-none-win_amd64.whl.zip --markdown 20230807/a/axion/3.6.19-3.7.0/diff.md --exclude *.pyd
+[2023-08-07 03:01:25] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-08-07 03:01:25] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230806.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230807.tar.gz --markdown 20230807/a/aemcmc-nightly/0.0.8.dev20230806-0.0.8.dev20230807/diff.md --exclude *.pyd
+[2023-08-07 03:01:26] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.19-cp311-none-win_amd64.whl.zip]
+[2023-08-07 03:01:26] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.7.0-cp311-none-win_amd64.whl.zip]
+[2023-08-07 03:01:26] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-07 03:01:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-08-07 03:01:26] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.1.0.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.1.1.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2023-08-07 03:01:26] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230806.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230807.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-08-07 03:01:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-07 03:01:26] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.4.0.0.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.4.1.0.tar.gz]
+[2023-08-07 03:01:26] INFO root fetch - main [MainThread]: End processing [reddit-post-scraping-tool]: success
+[2023-08-07 03:01:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-08-07 03:01:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-08-07 03:01:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-08-07 03:01:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-08-07 03:01:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230807/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-07 03:01:28] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-08-07 03:01:28] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-08-07 03:01:28] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-08-07 03:01:28] INFO root fetch - main [MainThread]: Store serial: [19199175]
