@@ -16007,3 +16007,159 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:26:04] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-07 12:26:04] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-08-07 12:26:04] INFO root fetch - main [MainThread]: Store serial: [19204203]
+[2023-08-07 12:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204203]
+[2023-08-07 12:31:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-unite-db
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamey
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iamlistening
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seotools
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinaai
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: felupe
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thunno2
+[2023-08-07 12:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openprotein-python
+[2023-08-07 12:31:22] INFO root fetch - processPackages [thunno2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-07 12:31:22] INFO root fetch - processPackages [openprotein-python]: New version: [0.2.1.post1] Old Version: [0.2.1]
+[2023-08-07 12:31:22] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/b8/a3/52e5795c3e80c493976802b71aaad7307a333eb556d8916f21008194b902/thunno2-2.2.8.tar.gz
+[2023-08-07 12:31:22] INFO root fetch - processPackages [seotools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [iamlistening]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [gamey]: New version: [0.3.1] Old Version: [0.3]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [py-unite-db]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/ae/32/e7d6755061a38686ed330cbf01c02bbcc282ceb3395e755cad4f55ed95df/openprotein_python-0.2.1.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [jinaai]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [felupe]: New version: [7.6.1] Old Version: [7.6.0]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [dxsp]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [findmyorder]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-07 12:31:23] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/4f/c9/a6a9b6d459c40c62517670298617cf352068673627955725f96e6bd0cab8/iamlistening-3.1.4.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [seotools]: Downloading https://files.pythonhosted.org/packages/2d/b4/cb0df3782edb355be97578a44b692606e43404e4bc7d9baab58050bbe4ba/seotools-0.1.1.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/76/fa/e2d0720c723c9d6b9a5d49be5b1c636f6b9196468f1ebd625a035ba48841/findmyorder-1.7.8.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/81/6b/c715f63b7b2fce388680e2b2386101bdab40db1926b8b6bc20c20e4a8e52/gamey-0.3.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/fe/e1/429522f521ad074e905af1d7637d3a2c8d8329e1966e9aa7fe21da88be40/dxsp-4.2.8.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/f0/77/4609bae8a1bb4a4df06dd484d7a3348d4010f4a12cda8e7997d911aa205a/jinaai-0.2.4.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/d5/7d/0e3397e1aca965a707d2b7bae81fff816c88e90b5baf4f83455d22039f02/thunno2-2.2.9.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [py-unite-db]: Downloading https://files.pythonhosted.org/packages/37/7d/7a7ba16e152171616315ddfc9489e7f671488e9d09362a520b89e7f92502/py-unite-db-0.2.1.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/8a/0b/6296abe747f2d0d5077f30a4541caee19fb5cc2e207ec58d9ba0e6af57c8/felupe-7.6.0.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-08-07 12:31:23] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.8.tar.gz tmp/thunno2-2.2.9.tar.gz --markdown 20230807/t/thunno2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-07 12:31:23] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/5b/cf/631a9d1ef50801013e5d66114be64da1598aedcd10431b52b538f70191fa/openprotein_python-0.2.1.post1.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ef/ea/4c6e576524518f61f429bbb504e810d37ebfc655c2a60014d621c281d136/iamlistening-3.1.5.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/bc/3f/98c8419debd652d12ef9bb39781a007e4580a85d5f0a1ea84eb37da60e29/findmyorder-1.7.9.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [seotools]: Downloading https://files.pythonhosted.org/packages/4e/84/7243c962a2be4f8f64860b2a3125366be8823a714aedb8b0579f829ce645/seotools-0.1.2.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [gamey]: Downloading https://files.pythonhosted.org/packages/de/eb/02e63c74a879e66e2ae80bc2c21e9df1cc07bf09a2a78d77b41abaf495a3/gamey-0.3.1.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/59/2a/d4b0901f40f0a789fad754844659484fe40998ffdc92f2efe830cbd7f8e3/dxsp-4.2.9.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-07 12:31:23] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.2.1.tar.gz tmp/openprotein_python-0.2.1.post1.tar.gz --markdown 20230807/o/openprotein-python/0.2.1-0.2.1.post1/diff.md --exclude *.pyd
+[2023-08-07 12:31:23] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/63/74/684af0e25ef0a97680cd9b7196947d9a11b522225f648b8721f88e96627f/jinaai-0.2.5.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-07 12:31:23] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.8.tar.gz tmp/findmyorder-1.7.9.tar.gz --markdown 20230807/f/findmyorder/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-07 12:31:23] INFO root fetch - processPackages [py-unite-db]: Downloading https://files.pythonhosted.org/packages/da/b4/9d952976482308272c8b77bd0b78320e31ae292c1cad5e9df1c333220886/py-unite-db-0.3.0.tar.gz
+[2023-08-07 12:31:23] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-08-07 12:31:23] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-3.1.4.tar.gz tmp/iamlistening-3.1.5.tar.gz --markdown 20230807/i/iamlistening/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/cc/e4/2b6a0b76bc706bde0877750429c544819de5ac6ea27b0dc04e807b57d3c7/felupe-7.6.1.tar.gz
+[2023-08-07 12:31:24] INFO root fetch - processPackages [seotools]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [seotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seotools-0.1.1.tar.gz tmp/seotools-0.1.2.tar.gz --markdown 20230807/s/seotools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [gamey]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [gamey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamey-0.3.tar.gz tmp/gamey-0.3.1.tar.gz --markdown 20230807/g/gamey/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.2.8.tar.gz tmp/dxsp-4.2.9.tar.gz --markdown 20230807/d/dxsp/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [jinaai]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [jinaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai-0.2.4.tar.gz tmp/jinaai-0.2.5.tar.gz --markdown 20230807/j/jinaai/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [py-unite-db]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [py-unite-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-unite-db-0.2.1.tar.gz tmp/py-unite-db-0.3.0.tar.gz --markdown 20230807/p/py-unite-db/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 12:31:24] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2023-08-07 12:31:24] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-7.6.0.tar.gz tmp/felupe-7.6.1.tar.gz --markdown 20230807/f/felupe/7.6.0-7.6.1/diff.md --exclude *.pyd
+[2023-08-07 12:31:25] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.8.tar.gz]
+[2023-08-07 12:31:25] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.9.tar.gz]
+[2023-08-07 12:31:25] INFO root fetch - processPackages [thunno2]: Start processing: ansys-tools-repo-sync
+[2023-08-07 12:31:25] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-08-07 12:31:25] INFO root fetch - processPackages [ansys-tools-repo-sync]: New version: [0.1.dev0] Old Version: [0.1.8]
+[2023-08-07 12:31:25] INFO root fetch - processPackages [ansys-tools-repo-sync]: Downloading https://files.pythonhosted.org/packages/78/5d/8320057ea8d5b40d5305db460c24747a3e296391d934c22988ac0afc8f0e/ansys-tools-repo-sync-0.1.8.tar.gz
+[2023-08-07 12:31:26] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.8.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.9.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [findmyorder]: Start processing: megfile
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.1.post1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [openprotein-python]: Start processing: Geode-Explicit
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [megfile]: New version: [2.2.1] Old Version: [2.2.0.post1]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.3.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [gamey]: Remove: archive file [/home/abi/fetcher/tmp/gamey-0.3.1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [gamey]: Start processing: wopo
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [gamey]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.4.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.5.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [iamlistening]: Start processing: Geode-Hybrid
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [ansys-tools-repo-sync]: Downloading https://files.pythonhosted.org/packages/6f/34/860a0a9e1570a298c437ea640dd7f3ef696b2f60736228ba30bfe091e43b/ansys.tools.repo_sync-0.1.dev0.tar.gz
+[2023-08-07 12:31:26] INFO root fetch - processPackages [seotools]: Remove: archive file [/home/abi/fetcher/tmp/seotools-0.1.1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [seotools]: Remove: archive file [/home/abi/fetcher/tmp/seotools-0.1.2.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [seotools]: Start processing: Geode-SimplexGeosciences
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [seotools]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.1.4rc1] Old Version: [4.1.3rc1]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [ansys-tools-repo-sync]: executing diffoscope
+[2023-08-07 12:31:26] INFO root fetch - processPackages [ansys-tools-repo-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-tools-repo-sync-0.1.8.tar.gz tmp/ansys.tools.repo_sync-0.1.dev0.tar.gz --markdown 20230807/a/ansys-tools-repo-sync/0.1.8-0.1.dev0/diff.md --exclude *.pyd
+[2023-08-07 12:31:26] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/54/38/ea24c7e4e44a2044301bede184209f2bee88dda37ba2d90265f47376601a/megfile-2.2.0.post1-py3-none-any.whl
+[2023-08-07 12:31:26] INFO root fetch - processPackages [wopo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.4.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.5.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [jinaai]: Start processing: Connectome-Spatial-Smoothing
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [jinaai]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-SimplexGeosciences]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.5rc1] Old Version: [2.0.4rc2]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.8.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.9.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [py-unite-db]: Remove: archive file [/home/abi/fetcher/tmp/py-unite-db-0.2.1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [py-unite-db]: Remove: archive file [/home/abi/fetcher/tmp/py-unite-db-0.3.0.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [py-unite-db]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/c7/34/e99c6d466172188db8154d5b7722f8233e47d12935b676a8bf6c58d3db8d/Geode_Explicit-4.1.3rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [wopo]: Downloading https://files.pythonhosted.org/packages/ad/b2/5d1f95ff308caf2cf17f2b838a4a31733fab254c6ea1490bd1362ef886f8/wopo-0.0.1.tar.gz
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/00/28/3b3567478d51925b6058bc41189cebd8cfddac62fab3c9ea79aa76814fe7/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl
+[2023-08-07 12:31:26] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/f6/48/f013781f2d6b887add982098d6507440651df68ed02a644e1b8ee051a362/megfile-2.2.1-py3-none-any.whl
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/52/59/e98655628cc9afde75d9c345a829d28c2a5b82441bf3d0207f1cd8e7ed36/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:31:26] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.6.0.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.6.1.tar.gz]
+[2023-08-07 12:31:26] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2023-08-07 12:31:26] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Downloading https://files.pythonhosted.org/packages/1f/07/f898c44a01385d871c1565a22a4d7d2dd5c1f3109690afc6f16fa2559fd8/Connectome_Spatial_Smoothing-0.1.3.tar.gz
+[2023-08-07 12:31:27] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-08-07 12:31:27] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.2.0.post1-py3-none-any.whl.zip tmp/megfile-2.2.1-py3-none-any.whl.zip --markdown 20230807/m/megfile/2.2.0.post1-2.2.1/diff.md --exclude *.pyd
+[2023-08-07 12:31:27] INFO root fetch - processPackages [wopo]: Downloading https://files.pythonhosted.org/packages/8f/36/bed6398980b38c95599e44709decffaaf49f172117a2db16151bbb523789/wopo-0.0.2.tar.gz
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Downloading https://files.pythonhosted.org/packages/cf/cf/ced7f89bbbd6006138c0601a57fa983ab91d7adc68e5987548b14477b5ce/Connectome_Spatial_Smoothing-0.1.4.tar.gz
+[2023-08-07 12:31:27] INFO root fetch - processPackages [wopo]: executing diffoscope
+[2023-08-07 12:31:27] INFO root fetch - processPackages [wopo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wopo-0.0.1.tar.gz tmp/wopo-0.0.2.tar.gz --markdown 20230807/w/wopo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 12:31:27] INFO root fetch - processPackages [ansys-tools-repo-sync]: Remove: archive file [/home/abi/fetcher/tmp/ansys-tools-repo-sync-0.1.8.tar.gz]
+[2023-08-07 12:31:27] INFO root fetch - processPackages [ansys-tools-repo-sync]: Remove: archive file [/home/abi/fetcher/tmp/ansys.tools.repo_sync-0.1.dev0.tar.gz]
+[2023-08-07 12:31:27] INFO root fetch - main [MainThread]: End processing [ansys-tools-repo-sync]: success
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: executing diffoscope
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Connectome_Spatial_Smoothing-0.1.3.tar.gz tmp/Connectome_Spatial_Smoothing-0.1.4.tar.gz --markdown 20230807/C/Connectome-Spatial-Smoothing/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/ed/03/8f6248d00eb1d56f8ff701133adc8dc339585dccfc8667dbaae46d88087a/Geode_Hybrid-2.0.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/29/8e/16e92054b13d9d2cdd05333871ae151d3d25f6fa841fe2fdc2facb53f0e2/Geode_Explicit-4.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.0.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/G/Geode-Hybrid/2.0.4rc2-2.0.5rc1/diff.md --exclude *.pyd
+[2023-08-07 12:31:27] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/4c/58/1162cb5c63073d3de621bbd1b5a11c806229ec54098ff31fa31c9e263110/Geode_SimplexGeosciences-2.0.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Geode-SimplexGeosciences]: executing diffoscope
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Geode-SimplexGeosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_SimplexGeosciences-2.0.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/G/Geode-SimplexGeosciences/2.0.3rc1-2.0.4rc1/diff.md --exclude *.pyd
+[2023-08-07 12:31:28] INFO root fetch - processPackages [wopo]: Remove: archive file [/home/abi/fetcher/tmp/wopo-0.0.1.tar.gz]
+[2023-08-07 12:31:28] INFO root fetch - processPackages [wopo]: Remove: archive file [/home/abi/fetcher/tmp/wopo-0.0.2.tar.gz]
+[2023-08-07 12:31:28] INFO root fetch - main [MainThread]: End processing [wopo]: success
+[2023-08-07 12:31:28] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.2.0.post1-py3-none-any.whl.zip]
+[2023-08-07 12:31:28] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.2.1-py3-none-any.whl.zip]
+[2023-08-07 12:31:28] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.1.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/G/Geode-Explicit/4.1.3rc1-4.1.4rc1/diff.md --exclude *.pyd
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Remove: archive file [/home/abi/fetcher/tmp/Connectome_Spatial_Smoothing-0.1.3.tar.gz]
+[2023-08-07 12:31:28] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Remove: archive file [/home/abi/fetcher/tmp/Connectome_Spatial_Smoothing-0.1.4.tar.gz]
+[2023-08-07 12:31:28] INFO root fetch - main [MainThread]: End processing [Connectome-Spatial-Smoothing]: success
+[2023-08-07 12:31:29] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:31:29] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:31:29] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-08-07 12:31:29] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Remove: archive file [/home/abi/fetcher/tmp/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:31:29] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Remove: archive file [/home/abi/fetcher/tmp/Geode_SimplexGeosciences-2.0.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:31:29] INFO root fetch - main [MainThread]: End processing [Geode-SimplexGeosciences]: success
+[2023-08-07 12:31:30] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:31:30] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:31:30] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-08-07 12:31:30] INFO root fetch - main [MainThread]: Store serial: [19204277]
