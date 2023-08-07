@@ -5371,3 +5371,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:05:15] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
 [2023-08-07 04:05:15] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-07 04:05:15] INFO root fetch - main [MainThread]: Store serial: [19199683]
+[2023-08-07 04:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199683]
+[2023-08-07 04:10:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-07 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eliasliu
+[2023-08-07 04:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2023-08-07 04:10:24] INFO root fetch - processPackages [eliasliu]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 04:10:24] INFO root fetch - processPackages [atksh-utils]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-07 04:10:24] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/b4/aa/be99b4164765f391605125d4470387806e84f6245255fbc406f9334b8f42/atksh-utils-0.4.1.tar.gz
+[2023-08-07 04:10:24] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/b5/1f/50bbfb25ab36114a5dc019b6983683f1a929906e4afce8bdb47103b6b787/eliasliu-0.1.1.tar.gz
+[2023-08-07 04:10:24] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/b1/af/94f9b2b7c91291105302334ede06b2dfb3dffeb50e881b34670b19936356/eliasliu-0.1.2.tar.gz
+[2023-08-07 04:10:24] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/3b/b0/163e073bd5f461ab45f7fa9ab81076f26be83604cc1e7f743e5bc94e3a2c/atksh-utils-0.4.2.tar.gz
+[2023-08-07 04:10:24] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 04:10:24] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.1.tar.gz tmp/eliasliu-0.1.2.tar.gz --markdown 20230807/e/eliasliu/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 04:10:24] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-07 04:10:24] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.4.1.tar.gz tmp/atksh-utils-0.4.2.tar.gz --markdown 20230807/a/atksh-utils/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-07 04:10:25] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.1.tar.gz]
+[2023-08-07 04:10:25] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.2.tar.gz]
+[2023-08-07 04:10:25] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 04:10:25] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.4.1.tar.gz]
+[2023-08-07 04:10:25] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.4.2.tar.gz]
+[2023-08-07 04:10:25] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-07 04:10:25] INFO root fetch - main [MainThread]: Store serial: [19199690]
