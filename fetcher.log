@@ -16229,3 +16229,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:36:42] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc1-py3-none-any.whl.zip]
 [2023-08-07 12:36:42] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
 [2023-08-07 12:36:42] INFO root fetch - main [MainThread]: Store serial: [19204322]
+[2023-08-07 12:41:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204322]
+[2023-08-07 12:41:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-07 12:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: switchinglogfilehandlers
+[2023-08-07 12:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-recaptcha-authorizer
+[2023-08-07 12:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Connectome-Spatial-Smoothing
+[2023-08-07 12:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Implicit
+[2023-08-07 12:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2023-08-07 12:41:52] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230806] Old Version: [1.0.0.dev20230805]
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 12:41:52] WARNING root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Skipping, unable to determine old version
+[2023-08-07 12:41:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-recaptcha-authorizer] error
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Downloading https://files.pythonhosted.org/packages/1f/07/f898c44a01385d871c1565a22a4d7d2dd5c1f3109690afc6f16fa2559fd8/Connectome_Spatial_Smoothing-0.1.3.tar.gz
+[2023-08-07 12:41:52] INFO root fetch - processPackages [switchinglogfilehandlers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.2.1rc1] Old Version: [2.2.0rc1]
+[2023-08-07 12:41:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/ba/27/135e64c7886b9793524ae8cbac8d83abba8ba043451a7c846083c61d78e5/skypilot-nightly-1.0.0.dev20230805.tar.gz
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Downloading https://files.pythonhosted.org/packages/cf/cf/ced7f89bbbd6006138c0601a57fa983ab91d7adc68e5987548b14477b5ce/Connectome_Spatial_Smoothing-0.1.4.tar.gz
+[2023-08-07 12:41:52] INFO root fetch - processPackages [switchinglogfilehandlers]: Downloading https://files.pythonhosted.org/packages/fc/7f/b792f2a5bc32568c7b462dd9eccc555ddccdfba3b941ca7d86c081ebcac2/switchinglogfilehandlers-0.0.3.tar.gz
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/31/a7/17ae5428a9d46cf0bc0910a99a13e1f233106ddd9cd7fd58dab7cd10a46c/Geode_Implicit-2.2.0rc1-cp39-cp39-win_amd64.whl
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: executing diffoscope
+[2023-08-07 12:41:52] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Connectome_Spatial_Smoothing-0.1.3.tar.gz tmp/Connectome_Spatial_Smoothing-0.1.4.tar.gz --markdown 20230807/C/Connectome-Spatial-Smoothing/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 12:41:52] INFO root fetch - processPackages [switchinglogfilehandlers]: Downloading https://files.pythonhosted.org/packages/d7/51/c618de3a7f327a6e550765ff7d2da49a860f07d676f65ebbbbce11f4a2c8/switchinglogfilehandlers-0.0.4.tar.gz
+[2023-08-07 12:41:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/45/30/0f69cefbcac5a6925b0e0b289b21cb0657260b615fc785017a9f6e7f06cc/skypilot-nightly-1.0.0.dev20230806.tar.gz
+[2023-08-07 12:41:53] INFO root fetch - processPackages [switchinglogfilehandlers]: executing diffoscope
+[2023-08-07 12:41:53] INFO root fetch - processPackages [switchinglogfilehandlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchinglogfilehandlers-0.0.3.tar.gz tmp/switchinglogfilehandlers-0.0.4.tar.gz --markdown 20230807/s/switchinglogfilehandlers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 12:41:53] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-07 12:41:53] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230805.tar.gz tmp/skypilot-nightly-1.0.0.dev20230806.tar.gz --markdown 20230807/s/skypilot-nightly/1.0.0.dev20230805-1.0.0.dev20230806/diff.md --exclude *.pyd
+[2023-08-07 12:41:53] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Remove: archive file [/home/abi/fetcher/tmp/Connectome_Spatial_Smoothing-0.1.3.tar.gz]
+[2023-08-07 12:41:53] INFO root fetch - processPackages [Connectome-Spatial-Smoothing]: Remove: archive file [/home/abi/fetcher/tmp/Connectome_Spatial_Smoothing-0.1.4.tar.gz]
+[2023-08-07 12:41:53] INFO root fetch - main [MainThread]: End processing [Connectome-Spatial-Smoothing]: success
+[2023-08-07 12:41:53] INFO root fetch - processPackages [switchinglogfilehandlers]: Remove: archive file [/home/abi/fetcher/tmp/switchinglogfilehandlers-0.0.3.tar.gz]
+[2023-08-07 12:41:53] INFO root fetch - processPackages [switchinglogfilehandlers]: Remove: archive file [/home/abi/fetcher/tmp/switchinglogfilehandlers-0.0.4.tar.gz]
+[2023-08-07 12:41:53] INFO root fetch - main [MainThread]: End processing [switchinglogfilehandlers]: success
+[2023-08-07 12:41:53] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/a3/65/51c7680d2d36dd77deb60c660d4a58485b57f72307051f1e9eb36306fac1/Geode_Implicit-2.2.1rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 12:41:54] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-08-07 12:41:54] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.2.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.2.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230807/G/Geode-Implicit/2.2.0rc1-2.2.1rc1/diff.md --exclude *.pyd
+[2023-08-07 12:41:55] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230805.tar.gz]
+[2023-08-07 12:41:55] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230806.tar.gz]
+[2023-08-07 12:41:55] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-07 12:41:55] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.2.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:41:55] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.2.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-07 12:41:55] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-08-07 12:41:55] INFO root fetch - main [MainThread]: Store serial: [19204345]
