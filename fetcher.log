@@ -21121,3 +21121,192 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:10:02] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
 [2023-08-07 16:10:02] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
 [2023-08-07 16:10:02] INFO root fetch - main [MainThread]: Store serial: [19206497]
+[2023-08-07 16:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206497]
+[2023-08-07 16:15:13] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s2vit
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iLCDirac
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PigBotFramework
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: objtoolbox
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: detool
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feedendum
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: b-aws-websocket-api
+[2023-08-07 16:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-adding
+[2023-08-07 16:15:13] INFO root fetch - processPackages [objtoolbox]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 16:15:13] WARNING root fetch - processPackages [s2vit]: Skipping, unable to determine old version
+[2023-08-07 16:15:13] INFO root fetch - processPackages [s2vit]: Start processing: p2pfl
+[2023-08-07 16:15:13] INFO root fetch - main [MainThread]: End processing [s2vit] error
+[2023-08-07 16:15:13] INFO root fetch - processPackages [detool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [p2pfl]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/ea/cc/44c319225d3593c67b2cee97f840e93c8c9939dea465b5c4595323c404f4/objtoolbox-0.0.3.tar.gz
+[2023-08-07 16:15:13] INFO root fetch - processPackages [feedendum]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [iLCDirac]: New version: [34.0.0a8] Old Version: [34.0.0a7]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [PigBotFramework]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [b-aws-websocket-api]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-08-07 16:15:13] WARNING root fetch - processPackages [test-adding]: Skipping, unable to determine old version
+[2023-08-07 16:15:13] INFO root fetch - processPackages [test-adding]: Start processing: pulumi-wavefront
+[2023-08-07 16:15:13] INFO root fetch - main [MainThread]: End processing [test-adding] error
+[2023-08-07 16:15:13] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/b5/1e/43e19db96e4baea057f5ddf343b9e88cb0934288e90cf6d5be3bc762a33d/detool-1.0.8.tar.gz
+[2023-08-07 16:15:13] INFO root fetch - processPackages [pulumi-wavefront]: New version: [2.0.0a1691413352] Old Version: [2.0.0a1691054469]
+[2023-08-07 16:15:13] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-08-07 16:15:13] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-08-07 16:15:13] INFO root fetch - processPackages [p2pfl]: Downloading https://files.pythonhosted.org/packages/6b/b5/b45be5898d97745bb5ddd4792ef54b6142af141a4aca5a06fce242a2e06d/p2pfl-0.1.6.tar.gz
+[2023-08-07 16:15:13] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/6a/9d/4aa8c05cb41c156748dcfb3eca43d63ffec9a46f725da2a3458f8f1ed558/iLCDirac-34.0.0a7.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [feedendum]: Downloading https://files.pythonhosted.org/packages/d6/55/ec4cf08c8a909f75f13714cb9e6628095e286421425e74667ba0a8def05e/feedendum-0.2.0.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/f8/4d/e2cc89443175a66d119936422c90235ae9984f132aac861e107f7aa412a0/pulumi_wavefront-2.0.0a1691054469.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [PigBotFramework]: Downloading https://files.pythonhosted.org/packages/49/ec/9fb3b77384d7d7ab87c675a8586c1c1d45a15849d6c3babc4de326eaad70/PigBotFramework-4.1.8.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [objtoolbox]: Downloading https://files.pythonhosted.org/packages/66/f7/c7762c1c71651132ae9b3db739267a674091ba1320a5d02ee887b3c31e07/objtoolbox-0.0.4.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [b-aws-websocket-api]: Downloading https://files.pythonhosted.org/packages/ef/1e/3425957ba93923537c7361a82b4baf76adb1ef303371f41df14dac901bcd/b_aws_websocket_api-1.1.1.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/01/4b/99a7cd429958e6401506016436fd2578fedec5c796efb092377a087bac4d/detool-1.0.9.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [objtoolbox]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [objtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objtoolbox-0.0.3.tar.gz tmp/objtoolbox-0.0.4.tar.gz --markdown 20230807/o/objtoolbox/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [detool]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [detool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detool-1.0.8.tar.gz tmp/detool-1.0.9.tar.gz --markdown 20230807/d/detool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [p2pfl]: Downloading https://files.pythonhosted.org/packages/fa/47/646a5d9f1f468848bf07d54c1358471e337ebd457898e4cc5db5ed4106b7/p2pfl-0.1.7.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/ee/c1/ae3fbe6d9840238570f05580afa90d720bb8f7e1a2502fb09eea83533df3/pulumi_wavefront-2.0.0a1691413352.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [feedendum]: Downloading https://files.pythonhosted.org/packages/57/6e/cd572ad0ca46fa04384468b516d8e1182d8591602591a08482d9a605a593/feedendum-0.3.0.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/b0/da/44b1431ac2e1c09c5e7a47ee231b177f91fae6645571c3dea884a07a441e/iLCDirac-34.0.0a8.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [p2pfl]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [p2pfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2pfl-0.1.6.tar.gz tmp/p2pfl-0.1.7.tar.gz --markdown 20230807/p/p2pfl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [b-aws-websocket-api]: Downloading https://files.pythonhosted.org/packages/08/d2/9bc765d48414a952e69ce6ccc334801350f763528d14508816b5eb9eeb03/b_aws_websocket_api-2.0.0.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [PigBotFramework]: Downloading https://files.pythonhosted.org/packages/6d/e2/f7fce21072ffc19fed3e3321ea9f987e729929562f7e3b32bc14018a6bf8/PigBotFramework-4.1.9.tar.gz
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230807/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230807/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [feedendum]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [feedendum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedendum-0.2.0.tar.gz tmp/feedendum-0.3.0.tar.gz --markdown 20230807/f/feedendum/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-2.0.0a1691054469.tar.gz tmp/pulumi_wavefront-2.0.0a1691413352.tar.gz --markdown 20230807/p/pulumi-wavefront/2.0.0a1691054469-2.0.0a1691413352/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [b-aws-websocket-api]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [b-aws-websocket-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_aws_websocket_api-1.1.1.tar.gz tmp/b_aws_websocket_api-2.0.0.tar.gz --markdown 20230807/b/b-aws-websocket-api/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [iLCDirac]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [iLCDirac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iLCDirac-34.0.0a7.tar.gz tmp/iLCDirac-34.0.0a8.tar.gz --markdown 20230807/i/iLCDirac/34.0.0a7-34.0.0a8/diff.md --exclude *.pyd
+[2023-08-07 16:15:14] INFO root fetch - processPackages [PigBotFramework]: executing diffoscope
+[2023-08-07 16:15:14] INFO root fetch - processPackages [PigBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PigBotFramework-4.1.8.tar.gz tmp/PigBotFramework-4.1.9.tar.gz --markdown 20230807/P/PigBotFramework/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-07 16:15:15] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.0.8.tar.gz]
+[2023-08-07 16:15:15] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.0.9.tar.gz]
+[2023-08-07 16:15:15] INFO root fetch - processPackages [detool]: Start processing: varvamp
+[2023-08-07 16:15:15] INFO root fetch - main [MainThread]: End processing [detool]: success
+[2023-08-07 16:15:15] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.3.tar.gz]
+[2023-08-07 16:15:15] INFO root fetch - processPackages [objtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/objtoolbox-0.0.4.tar.gz]
+[2023-08-07 16:15:15] INFO root fetch - processPackages [objtoolbox]: Start processing: fuckyou-sort
+[2023-08-07 16:15:15] INFO root fetch - main [MainThread]: End processing [objtoolbox]: success
+[2023-08-07 16:15:16] INFO root fetch - processPackages [varvamp]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-07 16:15:16] WARNING root fetch - processPackages [fuckyou-sort]: Skipping, unable to determine old version
+[2023-08-07 16:15:16] INFO root fetch - processPackages [fuckyou-sort]: Start processing: pulumi-mongodbatlas
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [fuckyou-sort] error
+[2023-08-07 16:15:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/7d/b7/86412a2090ea6ac0d37387c40d57485fe726d5c7eee1a97c06cdfe0c9d3a/varvamp-0.9.1.tar.gz
+[2023-08-07 16:15:16] INFO root fetch - processPackages [p2pfl]: Remove: archive file [/home/abi/fetcher/tmp/p2pfl-0.1.6.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [p2pfl]: Remove: archive file [/home/abi/fetcher/tmp/p2pfl-0.1.7.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [p2pfl]: Start processing: seismic2dreem
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [p2pfl]: success
+[2023-08-07 16:15:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2023-08-07 16:15:16] INFO root fetch - processPackages [feedendum]: Remove: archive file [/home/abi/fetcher/tmp/feedendum-0.2.0.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [feedendum]: Remove: archive file [/home/abi/fetcher/tmp/feedendum-0.3.0.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [feedendum]: Start processing: test-multiping
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [feedendum]: success
+[2023-08-07 16:15:16] INFO root fetch - processPackages [b-aws-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/b_aws_websocket_api-1.1.1.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [b-aws-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/b_aws_websocket_api-2.0.0.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [b-aws-websocket-api]: Start processing: vgs-api-client
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [b-aws-websocket-api]: success
+[2023-08-07 16:15:16] INFO root fetch - processPackages [seismic2dreem]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/f6/83/731991505c86392830b49b5e39710da76b70dc879d4e0e022fe9b67d4238/varvamp-0.9.2.tar.gz
+[2023-08-07 16:15:16] INFO root fetch - processPackages [PigBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/PigBotFramework-4.1.8.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [PigBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/PigBotFramework-4.1.9.tar.gz]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [PigBotFramework]: Start processing: dark-matter
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [PigBotFramework]: success
+[2023-08-07 16:15:16] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-08-07 16:15:16] WARNING root fetch - processPackages [test-multiping]: Skipping, unable to determine old version
+[2023-08-07 16:15:16] INFO root fetch - processPackages [test-multiping]: Start processing: moto-ext
+[2023-08-07 16:15:16] INFO root fetch - main [MainThread]: End processing [test-multiping] error
+[2023-08-07 16:15:16] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-08-07 16:15:16] INFO root fetch - processPackages [seismic2dreem]: Downloading https://files.pythonhosted.org/packages/7d/f4/aa748c13c391aa35e48fd79343805d917c862da4bee82254749975c3fe8a/seismic2dreem-0.0.2.tar.gz
+[2023-08-07 16:15:16] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2023-08-07 16:15:16] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-0.9.1.tar.gz tmp/varvamp-0.9.2.tar.gz --markdown 20230807/v/varvamp/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-07 16:15:16] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-08-07 16:15:16] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-08-07 16:15:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2023-08-07 16:15:17] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-08-07 16:15:17] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-08-07 16:15:17] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-08-07 16:15:17] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20230807/p/pulumi-mongodbatlas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-08-07 16:15:17] INFO root fetch - processPackages [seismic2dreem]: Downloading https://files.pythonhosted.org/packages/bd/8d/b175a2bc8f0e07b2af007d3279e81c5292ab80173ff4d267942e3fe40fdd/seismic2dreem-0.0.3.tar.gz
+[2023-08-07 16:15:17] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691054469.tar.gz]
+[2023-08-07 16:15:17] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-2.0.0a1691413352.tar.gz]
+[2023-08-07 16:15:17] INFO root fetch - processPackages [pulumi-wavefront]: Start processing: Tikdan
+[2023-08-07 16:15:17] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-08-07 16:15:17] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-08-07 16:15:17] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-08-07 16:15:17] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230807/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-08-07 16:15:17] INFO root fetch - processPackages [seismic2dreem]: executing diffoscope
+[2023-08-07 16:15:17] INFO root fetch - processPackages [seismic2dreem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismic2dreem-0.0.2.tar.gz tmp/seismic2dreem-0.0.3.tar.gz --markdown 20230807/s/seismic2dreem/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-07 16:15:17] WARNING root fetch - processPackages [Tikdan]: Skipping, unable to determine old version
+[2023-08-07 16:15:17] INFO root fetch - processPackages [Tikdan]: Start processing: bump-my-version
+[2023-08-07 16:15:17] INFO root fetch - main [MainThread]: End processing [Tikdan] error
+[2023-08-07 16:15:17] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 16:15:17] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:15:17] INFO root fetch - processPackages [bump-my-version]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-07 16:15:17] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/3c/1b/968b77cd543457a0765cbcc3eba9b0e9622f941bb55e206010a0e23fd767/bump-my-version-0.9.1.tar.gz
+[2023-08-07 16:15:18] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/f8/34/e274cf63e2ef75cc3861078cd12992e1c20dc2d82fc9cb0fe006f777fb25/bump-my-version-0.9.2.tar.gz
+[2023-08-07 16:15:18] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.9.1.tar.gz]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.9.2.tar.gz]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [varvamp]: Start processing: p3do
+[2023-08-07 16:15:18] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2023-08-07 16:15:18] INFO root fetch - processPackages [p3do]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [bump-my-version]: executing diffoscope
+[2023-08-07 16:15:18] INFO root fetch - processPackages [bump-my-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-my-version-0.9.1.tar.gz tmp/bump-my-version-0.9.2.tar.gz --markdown 20230807/b/bump-my-version/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-07 16:15:18] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/3f/cb/e155e7e4f3030ff59787a55cbea0aa3b420a79f652fc1946c502f0469f1c/p3do-0.7.2.tar.gz
+[2023-08-07 16:15:18] INFO root fetch - processPackages [seismic2dreem]: Remove: archive file [/home/abi/fetcher/tmp/seismic2dreem-0.0.2.tar.gz]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [seismic2dreem]: Remove: archive file [/home/abi/fetcher/tmp/seismic2dreem-0.0.3.tar.gz]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [seismic2dreem]: Start processing: prevo
+[2023-08-07 16:15:18] INFO root fetch - main [MainThread]: End processing [seismic2dreem]: success
+[2023-08-07 16:15:18] INFO root fetch - processPackages [prevo]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-08-07 16:15:18] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-08-07 16:15:18] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-08-07 16:15:18] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/62/6d/75bd845fd5c7b88641e9bb007b4388e517bc0babd828f82d5f4e3b63a3f2/p3do-0.8.0.tar.gz
+[2023-08-07 16:15:19] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/58/ec/5d4f8aee7df3016880ad1c2bf6fdd3fa1ddd7327146334a5af5a1fe73b81/prevo-0.8.1.tar.gz
+[2023-08-07 16:15:19] INFO root fetch - processPackages [p3do]: executing diffoscope
+[2023-08-07 16:15:19] INFO root fetch - processPackages [p3do]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3do-0.7.2.tar.gz tmp/p3do-0.8.0.tar.gz --markdown 20230807/p/p3do/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-08-07 16:15:19] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a1/2c/103d5cb88114dc2ce6ed9a27dfbd66d1d31dca7b4a1fa2496bf3ae5ee96b/moto-ext-4.1.9.post1.tar.gz
+[2023-08-07 16:15:19] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/26/f3/2e237b95ea66098709c5f36c7124c87b977ae797e141696103b35a9f04bc/prevo-0.9.0.tar.gz
+[2023-08-07 16:15:19] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-34.0.0a7.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-34.0.0a8.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - main [MainThread]: End processing [iLCDirac]: success
+[2023-08-07 16:15:19] INFO root fetch - processPackages [prevo]: executing diffoscope
+[2023-08-07 16:15:19] INFO root fetch - processPackages [prevo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prevo-0.8.1.tar.gz tmp/prevo-0.9.0.tar.gz --markdown 20230807/p/prevo/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 16:15:19] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-08-07 16:15:19] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.9.1.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.9.2.tar.gz]
+[2023-08-07 16:15:19] INFO root fetch - main [MainThread]: End processing [bump-my-version]: success
+[2023-08-07 16:15:20] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.2.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.8.0.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - main [MainThread]: End processing [p3do]: success
+[2023-08-07 16:15:20] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-08-07 16:15:20] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-08-07 16:15:20] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230807/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-08-07 16:15:20] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.8.1.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.9.0.tar.gz]
+[2023-08-07 16:15:20] INFO root fetch - main [MainThread]: End processing [prevo]: success
+[2023-08-07 16:15:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-08-07 16:15:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-08-07 16:15:26] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-08-07 16:15:29] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-08-07 16:15:29] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-08-07 16:15:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-08-07 16:18:02] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.8.post1.tar.gz]
+[2023-08-07 16:18:02] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
+[2023-08-07 16:18:02] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2023-08-07 16:18:02] INFO root fetch - main [MainThread]: Store serial: [19206579]
