@@ -16163,3 +16163,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:31:30] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-07 12:31:30] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2023-08-07 12:31:30] INFO root fetch - main [MainThread]: Store serial: [19204277]
+[2023-08-07 12:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204277]
+[2023-08-07 12:36:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpy-symmetry
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DSTRIAL1
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-app-framework
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OntoAnon
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bot-response-validator
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embedding-search
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deafrica-tools
+[2023-08-07 12:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spai
+[2023-08-07 12:36:39] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-07 12:36:39] INFO root fetch - processPackages [OntoAnon]: New version: [1.0.0] Old Version: [0.9]
+[2023-08-07 12:36:39] INFO root fetch - processPackages [spai]: New version: [2023.8.7] Old Version: [2023.7.4]
+[2023-08-07 12:36:39] INFO root fetch - processPackages [deafrica-tools]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-07 12:36:39] WARNING root fetch - processPackages [DSTRIAL1]: Skipping, unable to determine old version
+[2023-08-07 12:36:39] INFO root fetch - main [MainThread]: End processing [DSTRIAL1] error
+[2023-08-07 12:36:39] WARNING root fetch - processPackages [bot-response-validator]: Skipping, unable to determine old version
+[2023-08-07 12:36:39] WARNING root fetch - processPackages [embedding-search]: Skipping, unable to determine old version
+[2023-08-07 12:36:39] INFO root fetch - main [MainThread]: End processing [bot-response-validator] error
+[2023-08-07 12:36:39] INFO root fetch - main [MainThread]: End processing [embedding-search] error
+[2023-08-07 12:36:39] INFO root fetch - processPackages [rpy-symmetry]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 12:36:39] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-07 12:36:39] INFO root fetch - processPackages [smart-app-framework]: New version: [2.3.0rc1] Old Version: [2.2.0rc8]
+[2023-08-07 12:36:40] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [OntoAnon]: Downloading https://files.pythonhosted.org/packages/51/c2/55d5c4a6c7f048b2cbb597b1596e3e12181cd64b38d4981fae298a061cd4/ontoanon-0.9.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/f4/f0/fa3620f674fd19b5b095466f557d5940657dbb51c622d5bcf5c11c905225/deafrica_tools-2.0.2.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/bc/d3/efd6321fbbaf12bd666e292638197ffc8521a55dc1e1a7b781fe142bf687/smart_app_framework-2.2.0rc8-py3-none-any.whl
+[2023-08-07 12:36:40] INFO root fetch - processPackages [rpy-symmetry]: Downloading https://files.pythonhosted.org/packages/cf/d0/cdb4ba7dde624eaf311d1e043b972080f3594adc9d240b0c1226cc7658fc/rpy_symmetry-0.0.1.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-07 12:36:40] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230807/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-07 12:36:40] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/17/cd/00db025228a8c4ae7db02486df54776f3de9f3b20130d8e6f6a8a048168f/deafrica_tools-2.0.3.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [OntoAnon]: Downloading https://files.pythonhosted.org/packages/2f/fe/472f6b574212fda0ac2f34e3a687649050f6e9d18532d7e4e7e015342fab/OntoAnon-1.0.0.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [rpy-symmetry]: Downloading https://files.pythonhosted.org/packages/95/32/9b23ead5f6fe269b6f9563282a33cc99ffb8582f1b736cf6e035a34bc6f4/rpy_symmetry-0.0.2.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/75/9a/10a9e99273a4fb451e21f800b6892ce624b58c9afede1aa3150d09268972/smart_app_framework-2.3.0rc1-py3-none-any.whl
+[2023-08-07 12:36:40] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2023-08-07 12:36:40] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica_tools-2.0.2.tar.gz tmp/deafrica_tools-2.0.3.tar.gz --markdown 20230807/d/deafrica-tools/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-07 12:36:40] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/13/47/9b01cae2127a46aca950df30aa775d786b0ec85befd54aa2fb07e28f6532/spai-2023.8.7.tar.gz
+[2023-08-07 12:36:40] INFO root fetch - processPackages [OntoAnon]: executing diffoscope
+[2023-08-07 12:36:40] INFO root fetch - processPackages [OntoAnon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoanon-0.9.tar.gz tmp/OntoAnon-1.0.0.tar.gz --markdown 20230807/O/OntoAnon/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-07 12:36:40] INFO root fetch - processPackages [rpy-symmetry]: executing diffoscope
+[2023-08-07 12:36:40] INFO root fetch - processPackages [rpy-symmetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpy_symmetry-0.0.1.tar.gz tmp/rpy_symmetry-0.0.2.tar.gz --markdown 20230807/r/rpy-symmetry/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 12:36:40] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-08-07 12:36:40] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.2.0rc8-py3-none-any.whl.zip tmp/smart_app_framework-2.3.0rc1-py3-none-any.whl.zip --markdown 20230807/s/smart-app-framework/2.2.0rc8-2.3.0rc1/diff.md --exclude *.pyd
+[2023-08-07 12:36:41] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-08-07 12:36:41] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.4.tar.gz tmp/spai-2023.8.7.tar.gz --markdown 20230807/s/spai/2023.7.4-2023.8.7/diff.md --exclude *.pyd
+[2023-08-07 12:36:41] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-07 12:36:41] INFO root fetch - processPackages [OntoAnon]: Remove: archive file [/home/abi/fetcher/tmp/ontoanon-0.9.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - processPackages [OntoAnon]: Remove: archive file [/home/abi/fetcher/tmp/OntoAnon-1.0.0.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - main [MainThread]: End processing [OntoAnon]: success
+[2023-08-07 12:36:41] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.0.2.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.0.3.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2023-08-07 12:36:41] INFO root fetch - processPackages [rpy-symmetry]: Remove: archive file [/home/abi/fetcher/tmp/rpy_symmetry-0.0.1.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - processPackages [rpy-symmetry]: Remove: archive file [/home/abi/fetcher/tmp/rpy_symmetry-0.0.2.tar.gz]
+[2023-08-07 12:36:41] INFO root fetch - main [MainThread]: End processing [rpy-symmetry]: success
+[2023-08-07 12:36:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-08-07 12:36:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.8.7.tar.gz]
+[2023-08-07 12:36:42] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-08-07 12:36:42] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc8-py3-none-any.whl.zip]
+[2023-08-07 12:36:42] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc1-py3-none-any.whl.zip]
+[2023-08-07 12:36:42] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-08-07 12:36:42] INFO root fetch - main [MainThread]: Store serial: [19204322]
