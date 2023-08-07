@@ -18423,3 +18423,113 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:17:02] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-11.1.0a2.tar.gz]
 [2023-08-07 14:17:02] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2023-08-07 14:17:02] INFO root fetch - main [MainThread]: Store serial: [19205233]
+[2023-08-07 14:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205233]
+[2023-08-07 14:22:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlglot-doris
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boticordpy
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphsignal
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampacks
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calfcv
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viur-core
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coretex
+[2023-08-07 14:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sign-language-translator
+[2023-08-07 14:22:11] INFO root fetch - processPackages [boticordpy]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.15.0.dev20230807] Old Version: [2.15.0.dev20230806]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [sign-language-translator]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [sampacks]: New version: [0.9] Old Version: [0.8]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-07 14:22:11] INFO root fetch - processPackages [viur-core]: New version: [3.5.0b2] Old Version: [3.5.0b1]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/19/38/32d7d8833954c754e8af3344d99f88412bb857085add678f99fd991b3cc5/boticordpy-3.0.1.tar.gz
+[2023-08-07 14:22:11] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.0.3.dev3] Old Version: [1.0.2.dev3]
+[2023-08-07 14:22:11] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-07 14:22:12] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/12/a1/ec1defabcd8bf488f3c8616c1c7a6c2205b820426ca05e55c2703121e1b0/sampacks-0.8.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/f1/d1/9dc88ec86e1ef18f5774b6b8be34e2df6af8b568ada0c675484863bc61c4/sqlglot-doris-1.0.2.dev3.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/70/d7/962894f21b47d7cac652ec69e95734b1717bb04e76511cbab7fa14340c6f/sign_language_translator-0.5.0.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/0f/56/d57ee5b3ae6c2846a29c1365e6e952494e9ff9dfb32e692981664d0bef9b/tf_nightly_intel-2.15.0.dev20230806-cp39-cp39-win_amd64.whl
+[2023-08-07 14:22:12] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/71/ee/53c98d2d5f9962fb994409373710b5f62c1ea371f683ddbb3f6e2fed2fc9/boticordpy-3.0.2.tar.gz
+[2023-08-07 14:22:12] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 185154916>=10485760
+[2023-08-07 14:22:12] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: circuitpython-adt7410
+[2023-08-07 14:22:12] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-08-07 14:22:12] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/29/ab/ad96e697aa952c8c9f8782db681345e426b71b507a79cec9dd4cfc3c9abc/viur_core-3.5.0b1-py3-none-any.whl
+[2023-08-07 14:22:12] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230807/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 14:22:12] INFO root fetch - processPackages [boticordpy]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [boticordpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boticordpy-3.0.1.tar.gz tmp/boticordpy-3.0.2.tar.gz --markdown 20230807/b/boticordpy/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-07 14:22:12] WARNING root fetch - processPackages [circuitpython-adt7410]: Skipping, unable to determine old version
+[2023-08-07 14:22:12] INFO root fetch - processPackages [circuitpython-adt7410]: Start processing: finflo
+[2023-08-07 14:22:12] INFO root fetch - main [MainThread]: End processing [circuitpython-adt7410] error
+[2023-08-07 14:22:12] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230807/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 14:22:12] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sampacks]: Downloading https://files.pythonhosted.org/packages/85/ca/1d60f873ea462768c2faa871d4b62071c7966e17ec527e3e4327f31664ff/sampacks-0.9-py3-none-any.whl
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/d8/8f/b8ca4623d424342d2708a0a1a47d6e9eb9f38a44d52f7473981f026d4842/sign_language_translator-0.6.0.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sampacks]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sampacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampacks-0.8.tar.gz tmp/sampacks-0.9-py3-none-any.whl.zip --markdown 20230807/s/sampacks/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-07 14:22:12] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sign-language-translator]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [sign-language-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sign_language_translator-0.5.0.tar.gz tmp/sign_language_translator-0.6.0.tar.gz --markdown 20230807/s/sign-language-translator/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-07 14:22:12] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-08-07 14:22:12] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230807/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:22:13] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-08-07 14:22:13] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230807/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-07 14:22:13] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-08-07 14:22:13] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/97/c8/2f48c2056aa410bdad2f51e30825f802d649a07391c96bf26919a32e0e0a/viur_core-3.5.0b2-py3-none-any.whl
+[2023-08-07 14:22:13] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-08-07 14:22:13] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230807/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:22:13] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/6c/26/1a5b2a813495d3d688d83ce4c49cc7af6819c8a34864c616ab649ad0eba1/sqlglot-doris-1.0.3.dev3.tar.gz
+[2023-08-07 14:22:13] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2023-08-07 14:22:13] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.5.0b1-py3-none-any.whl.zip tmp/viur_core-3.5.0b2-py3-none-any.whl.zip --markdown 20230807/v/viur-core/3.5.0b1-3.5.0b2/diff.md --exclude *.pyd
+[2023-08-07 14:22:13] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-07 14:22:13] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-07 14:22:13] INFO root fetch - processPackages [calfcv]: Start processing: ayt-api
+[2023-08-07 14:22:13] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-07 14:22:13] INFO root fetch - processPackages [sqlglot-doris]: executing diffoscope
+[2023-08-07 14:22:13] INFO root fetch - processPackages [sqlglot-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-doris-1.0.2.dev3.tar.gz tmp/sqlglot-doris-1.0.3.dev3.tar.gz --markdown 20230807/s/sqlglot-doris/1.0.2.dev3-1.0.3.dev3/diff.md --exclude *.pyd
+[2023-08-07 14:22:13] INFO root fetch - processPackages [ayt-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.1.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.2.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [boticordpy]: success
+[2023-08-07 14:22:14] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.8.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [sampacks]: Remove: archive file [/home/abi/fetcher/tmp/sampacks-0.9-py3-none-any.whl.zip]
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [sampacks]: success
+[2023-08-07 14:22:14] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/5e/89/d0edf9dda1b23f7fe84491510b316624d3ae8354151250c7496d556c0f0f/ayt-api-0.1.3.tar.gz
+[2023-08-07 14:22:14] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 14:22:14] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/fd/61/a123284c233c4bc668149a7f222340360b9b654af1b18e23df5f8c01372d/ayt-api-0.1.4.tar.gz
+[2023-08-07 14:22:14] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.5.0.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.6.0.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [sign-language-translator]: success
+[2023-08-07 14:22:14] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [ayt-api]: executing diffoscope
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-08-07 14:22:14] INFO root fetch - processPackages [ayt-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayt-api-0.1.3.tar.gz tmp/ayt-api-0.1.4.tar.gz --markdown 20230807/a/ayt-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 14:22:14] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.4.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.5.tar.gz]
+[2023-08-07 14:22:14] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-08-07 14:22:15] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-08-07 14:22:15] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-08-07 14:22:15] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-08-07 14:22:15] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.5.0b1-py3-none-any.whl.zip]
+[2023-08-07 14:22:15] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.5.0b2-py3-none-any.whl.zip]
+[2023-08-07 14:22:15] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2023-08-07 14:22:15] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.3.tar.gz]
+[2023-08-07 14:22:15] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.4.tar.gz]
+[2023-08-07 14:22:15] INFO root fetch - main [MainThread]: End processing [ayt-api]: success
+[2023-08-07 14:22:18] INFO root fetch - processPackages [sqlglot-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-doris-1.0.2.dev3.tar.gz]
+[2023-08-07 14:22:18] INFO root fetch - processPackages [sqlglot-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-doris-1.0.3.dev3.tar.gz]
+[2023-08-07 14:22:18] INFO root fetch - main [MainThread]: End processing [sqlglot-doris]: success
+[2023-08-07 14:22:18] INFO root fetch - main [MainThread]: Store serial: [19205282]
