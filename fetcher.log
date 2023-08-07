@@ -21310,3 +21310,154 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:18:02] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
 [2023-08-07 16:18:02] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2023-08-07 16:18:02] INFO root fetch - main [MainThread]: Store serial: [19206579]
+[2023-08-07 16:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206579]
+[2023-08-07 16:23:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-coalesce
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybiolib
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitxt
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jinjafx-server
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image2gps
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfinterface
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deTELpy
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dark-matter
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ob-dj-store
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-stock-warehouse-flow
+[2023-08-07 16:23:12] INFO root fetch - processPackages [cfinterface]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [image2gps]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [shipyard-coalesce]: New version: [0.1.3a0] Old Version: [0.1.3]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-08-07 16:23:12] WARNING root fetch - processPackages [deTELpy]: Skipping, unable to determine old version
+[2023-08-07 16:23:12] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: New version: [14.0.2.0.1] Old Version: [14.0.2.0.0]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [deTELpy]: Start processing: moosez
+[2023-08-07 16:23:12] INFO root fetch - main [MainThread]: End processing [deTELpy] error
+[2023-08-07 16:23:12] INFO root fetch - processPackages [jinjafx-server]: New version: [23.8.0] Old Version: [23.6.0]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2023-08-07 16:23:12] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-08-07 16:23:12] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/30/e1/416968902f70396b80ef27b817b52ed5f94a9f9b8fe8b783d2eb8085bdc6/cfinterface-1.5.2.tar.gz
+[2023-08-07 16:23:12] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-07 16:23:13] INFO root fetch - processPackages [image2gps]: Downloading https://files.pythonhosted.org/packages/99/f3/7cc8290d4deae1f624997ab69e4ce2aa0a689aea82432f5033c7c0b7264f/image2gps-1.2.0.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [shipyard-coalesce]: Downloading https://files.pythonhosted.org/packages/11/25/ee7dcabe03d180e6ade5abae8ddc6df7ae1f31568ead6fdee57a1271f360/shipyard_coalesce-0.1.3.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: Downloading https://files.pythonhosted.org/packages/03/9d/fca852c40c217b2ca114f95364a882051830d5587827e115830c038a4d16/odoo14_addon_stock_warehouse_flow-14.0.2.0.0-py3-none-any.whl
+[2023-08-07 16:23:13] INFO root fetch - processPackages [jinjafx-server]: Downloading https://files.pythonhosted.org/packages/6a/2b/c1e7b80b742ffe8c74bc493dd3d5d36ada52ee7bc2a85d8940919be30841/jinjafx_server-23.6.0.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/10/31/7120d3a2aff8d3fb3934b8d9b0003ce6bfc2370de6c14b73d00794ffdbe8/cfinterface-1.5.3.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [image2gps]: Downloading https://files.pythonhosted.org/packages/3d/fb/9be91e45c3cd73139db195cbd3ba586fec2c8539b6c957a324d54d8e991a/image2gps-1.3.0.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [shipyard-coalesce]: Downloading https://files.pythonhosted.org/packages/f5/bb/a7c796be3ace91b8de8edd982d4053d116f495bcdee7d95827036f3ee992/shipyard_coalesce-0.1.3a0.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [cfinterface]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [cfinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfinterface-1.5.2.tar.gz tmp/cfinterface-1.5.3.tar.gz --markdown 20230807/c/cfinterface/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [image2gps]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [image2gps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2gps-1.2.0.tar.gz tmp/image2gps-1.3.0.tar.gz --markdown 20230807/i/image2gps/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [jinjafx-server]: Downloading https://files.pythonhosted.org/packages/88/7c/280435ec60c4ffe99a0643028b0c417153dc322501535ad5b181440f59c9/jinjafx_server-23.8.0.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: Downloading https://files.pythonhosted.org/packages/0c/a6/55952e35c32a2a5e433144d6568e56f1169515d7351bdacd8a5c704dfd03/odoo14_addon_stock_warehouse_flow-14.0.2.0.1-py3-none-any.whl
+[2023-08-07 16:23:13] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230807/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2023-08-07 16:23:13] INFO root fetch - processPackages [shipyard-coalesce]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [shipyard-coalesce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_coalesce-0.1.3.tar.gz tmp/shipyard_coalesce-0.1.3a0.tar.gz --markdown 20230807/s/shipyard-coalesce/0.1.3-0.1.3a0/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230807/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [jinjafx-server]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [jinjafx-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjafx_server-23.6.0.tar.gz tmp/jinjafx_server-23.8.0.tar.gz --markdown 20230807/j/jinjafx-server/23.6.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_warehouse_flow-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_stock_warehouse_flow-14.0.2.0.1-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-stock-warehouse-flow/14.0.2.0.0-14.0.2.0.1/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230807/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-08-07 16:23:13] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2023-08-07 16:23:13] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20230807/o/ob-dj-store/0.0.9.7-0.0.9.8/diff.md --exclude *.pyd
+[2023-08-07 16:23:15] INFO root fetch - processPackages [image2gps]: Remove: archive file [/home/abi/fetcher/tmp/image2gps-1.2.0.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [image2gps]: Remove: archive file [/home/abi/fetcher/tmp/image2gps-1.3.0.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [image2gps]: Start processing: rcplus-alloy-common
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [image2gps]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [rcplus-alloy-common]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [shipyard-coalesce]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_coalesce-0.1.3.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [shipyard-coalesce]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_coalesce-0.1.3a0.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [shipyard-coalesce]: Start processing: gdal2numpy
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [shipyard-coalesce]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [moosez]: Start processing: wxdat
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [rcplus-alloy-common]: Downloading https://files.pythonhosted.org/packages/cb/b6/8d56e9c7b88bff665941242a1d1c248df07a91d85e0ee1a2dab205a7b81e/rcplus_alloy_common-1.2.1.tar.gz
+[2023-08-07 16:23:15] INFO root fetch - processPackages [wxdat]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [jinjafx-server]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx_server-23.6.0.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [jinjafx-server]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx_server-23.8.0.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [jinjafx-server]: Start processing: oarepo-published-service
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [jinjafx-server]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_warehouse_flow-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_warehouse_flow-14.0.2.0.1-py3-none-any.whl.zip]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-flow]: Start processing: dark-matter
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-warehouse-flow]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-07 16:23:15] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [unitxt]: Start processing: spanishconjugator
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-08-07 16:23:15] INFO root fetch - processPackages [cfinterface]: Remove: archive file [/home/abi/fetcher/tmp/cfinterface-1.5.2.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [cfinterface]: Remove: archive file [/home/abi/fetcher/tmp/cfinterface-1.5.3.tar.gz]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [cfinterface]: Start processing: spanishconjugator
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [cfinterface]: success
+[2023-08-07 16:23:15] WARNING root fetch - processPackages [oarepo-published-service]: Skipping, unable to determine old version
+[2023-08-07 16:23:15] INFO root fetch - main [MainThread]: End processing [oarepo-published-service] error
+[2023-08-07 16:23:15] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-07 16:23:15] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/14/72/bdcf54035e92d006713cb1f29e3a281cb7f12b5ce4071d9ae816ae33a2f2/wxdat-1.3.3.tar.gz
+[2023-08-07 16:23:15] INFO root fetch - processPackages [rcplus-alloy-common]: Downloading https://files.pythonhosted.org/packages/5d/31/6104e9160988dc2833d7c6f8c679c828ac8a01e4e26d3b4ec0eebc171138/rcplus_alloy_common-1.3.0.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-07 16:23:16] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-08-07 16:23:16] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.7.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230807/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] INFO root fetch - processPackages [rcplus-alloy-common]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [rcplus-alloy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcplus_alloy_common-1.2.1.tar.gz tmp/rcplus_alloy_common-1.3.0.tar.gz --markdown 20230807/r/rcplus-alloy-common/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230807/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-08-07 16:23:16] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/59/07/a0b175c93569ca339cee07110928a9420c9d9efec1a7677a8a23d128b06d/wxdat-1.3.4.tar.gz
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230807/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230807/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] INFO root fetch - processPackages [wxdat]: executing diffoscope
+[2023-08-07 16:23:16] INFO root fetch - processPackages [wxdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxdat-1.3.3.tar.gz tmp/wxdat-1.3.4.tar.gz --markdown 20230807/w/wxdat/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-07 16:23:16] ERROR root fetch - processPackages [dark-matter]: Diffoscope failed: time="2023-08-07T16:23:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/dark-matter-4.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/dark-matter-4.0.9.tar.gz: No such file or directory
+
+[2023-08-07 16:23:16] INFO root fetch - main [MainThread]: End processing [dark-matter] error
+[2023-08-07 16:23:17] INFO root fetch - processPackages [rcplus-alloy-common]: Remove: archive file [/home/abi/fetcher/tmp/rcplus_alloy_common-1.2.1.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - processPackages [rcplus-alloy-common]: Remove: archive file [/home/abi/fetcher/tmp/rcplus_alloy_common-1.3.0.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [rcplus-alloy-common]: success
+[2023-08-07 16:23:17] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-07 16:23:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-07 16:23:17] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.3.3.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.3.4.tar.gz]
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [wxdat]: success
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-07 16:23:17] INFO root fetch - main [MainThread]: Store serial: [19206638]
