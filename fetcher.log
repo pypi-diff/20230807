@@ -17020,3 +17020,141 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:13:55] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.3.0.tar.gz]
 [2023-08-07 13:13:55] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2023-08-07 13:13:55] INFO root fetch - main [MainThread]: Store serial: [19204693]
+[2023-08-07 13:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204693]
+[2023-08-07 13:19:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mafese
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: token-throttler
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: survey-report-generator
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grimoire-elk-public-inbox
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-text-input-dnd-sortable
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu121
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiofauna
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu118
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hifibgc
+[2023-08-07 13:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ydata-synthetic
+[2023-08-07 13:19:04] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [hifibgc]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [grimoire-elk-public-inbox]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [token-throttler]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [mafese]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 13:19:04] WARNING root fetch - processPackages [st-text-input-dnd-sortable]: Skipping, unable to determine old version
+[2023-08-07 13:19:04] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Start processing: nvfuser-cu117
+[2023-08-07 13:19:04] INFO root fetch - main [MainThread]: End processing [st-text-input-dnd-sortable] error
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [ydata-synthetic]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/62/50/371282e8571888cdcda7032e59677699c51fbcf14b8de9067e676ba9edbc/survey_report_generator-0.0.3.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [hifibgc]: Downloading https://files.pythonhosted.org/packages/44/76/7572b4c1cd265ad6093509dcdfb6fad6f384124fad5ab2a2b9b031323d3d/hifibgc-0.1.0a1.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [grimoire-elk-public-inbox]: Downloading https://files.pythonhosted.org/packages/ed/e3/92f64fcda1feedc64b20a0a6b531ce85d03327cce8bc8901d9b0c7cd72e2/grimoire_elk_public_inbox-0.1.2.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:04] INFO root fetch - processPackages [ydata-synthetic]: Downloading https://files.pythonhosted.org/packages/d3/53/316dd16bba27e547c85b42851eb393eb82412f9513c029b6ad8073d7ff8b/ydata-synthetic-1.2.0.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:04] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [token-throttler]: Downloading https://files.pythonhosted.org/packages/64/2e/14ba25cfe3a4836114b3a01a8ea3c3a0bbd39a04b66364ef620eca6e061b/token_throttler-1.3.0.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/09/b0/1220710dfaa268ed98054f4e7c31ba2058cabfe6c43ccf764d06d1b0f153/mafese-0.1.8.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:04] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/fd/f2/e53aa9afd334c4eb6c132342fc17af4d0a8e3d589ef7645aa8196738d72d/survey_report_generator-0.0.4.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [hifibgc]: Downloading https://files.pythonhosted.org/packages/92/c3/742ad914248f08771a39b1eeb45c50d870d9de9fe4b689830697866225d2/hifibgc-0.1.0a2.tar.gz
+[2023-08-07 13:19:04] INFO root fetch - processPackages [grimoire-elk-public-inbox]: Downloading https://files.pythonhosted.org/packages/65/3d/fecf526e30bae7e83d85c785ee8698e034de14fca6225542c9316ebc3a34/grimoire_elk_public_inbox-0.1.3.tar.gz
+[2023-08-07 13:19:04] WARNING root fetch - processPackages [hifibgc]: Skipping package: exceeds size limit 28351755>=10485760
+[2023-08-07 13:19:04] INFO root fetch - processPackages [hifibgc]: Start processing: wbFontParts
+[2023-08-07 13:19:04] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-08-07 13:19:05] INFO root fetch - processPackages [wbFontParts]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 13:19:05] INFO root fetch - processPackages [ydata-synthetic]: Downloading https://files.pythonhosted.org/packages/9f/62/553ab3b9e04559477e32a09fe15ddcc26fe2f7054b9745a8abfa2b89da5d/ydata-synthetic-1.3.0.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [grimoire-elk-public-inbox]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [grimoire-elk-public-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire_elk_public_inbox-0.1.2.tar.gz tmp/grimoire_elk_public_inbox-0.1.3.tar.gz --markdown 20230807/g/grimoire-elk-public-inbox/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [token-throttler]: Downloading https://files.pythonhosted.org/packages/4e/6a/9019f715213a455d9bb50b6c780e84eeb7f4768930f431593ca883ff2e81/token_throttler-1.4.0.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [wbFontParts]: Downloading https://files.pythonhosted.org/packages/f5/a4/f0f4644e6153394920e0e6ee80242ed7185ef85bd40179c176cd21f57b4e/wbFontParts-0.2.1.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [ydata-synthetic]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [ydata-synthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydata-synthetic-1.2.0.tar.gz tmp/ydata-synthetic-1.3.0.tar.gz --markdown 20230807/y/ydata-synthetic/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.3.tar.gz tmp/survey_report_generator-0.0.4.tar.gz --markdown 20230807/s/survey-report-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [token-throttler]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [token-throttler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/token_throttler-1.3.0.tar.gz tmp/token_throttler-1.4.0.tar.gz --markdown 20230807/t/token-throttler/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230807/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [wbFontParts]: Downloading https://files.pythonhosted.org/packages/08/9d/98cf5b308400f1eb7772aa45d69816fc8c9170f9d8ee4fe363b34ae9d60c/wbFontParts-0.2.2.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [wbFontParts]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [wbFontParts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbFontParts-0.2.1.tar.gz tmp/wbFontParts-0.2.2.tar.gz --markdown 20230807/w/wbFontParts/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:05] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/95/9c/453410815079421951e337090639b615280d556923cfe6139558436e3476/mafese-0.1.9.tar.gz
+[2023-08-07 13:19:05] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-08-07 13:19:05] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-07 13:19:05] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:06] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 13:19:06] INFO root fetch - processPackages [mafese]: executing diffoscope
+[2023-08-07 13:19:06] INFO root fetch - processPackages [mafese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafese-0.1.8.tar.gz tmp/mafese-0.1.9.tar.gz --markdown 20230807/m/mafese/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 13:19:06] INFO root fetch - processPackages [grimoire-elk-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk_public_inbox-0.1.2.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [grimoire-elk-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk_public_inbox-0.1.3.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [grimoire-elk-public-inbox]: Start processing: pyacaia-async
+[2023-08-07 13:19:06] INFO root fetch - main [MainThread]: End processing [grimoire-elk-public-inbox]: success
+[2023-08-07 13:19:06] INFO root fetch - processPackages [pyacaia-async]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [token-throttler]: Remove: archive file [/home/abi/fetcher/tmp/token_throttler-1.3.0.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [token-throttler]: Remove: archive file [/home/abi/fetcher/tmp/token_throttler-1.4.0.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [token-throttler]: Start processing: pekat-vision-sdk
+[2023-08-07 13:19:06] INFO root fetch - main [MainThread]: End processing [token-throttler]: success
+[2023-08-07 13:19:06] INFO root fetch - processPackages [pekat-vision-sdk]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [aiofauna]: Start processing: ml-management
+[2023-08-07 13:19:06] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-08-07 13:19:06] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/9d/d8/d833baaba49c6c651ee928d63bbf8e774e6761801e83feb7d6ae169d9e69/pyacaia_async-0.0.6.tar.gz
+[2023-08-07 13:19:06] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.3.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.4.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [survey-report-generator]: Start processing: pyppbox-ultralytics
+[2023-08-07 13:19:06] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-07 13:19:06] INFO root fetch - processPackages [ml-management]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [pekat-vision-sdk]: Downloading https://files.pythonhosted.org/packages/da/91/02e29d6e167d5a70b3c425b122c42a3c073425a30e1920dc745d54673b88/pekat_vision_sdk-1.4.2.tar.gz
+[2023-08-07 13:19:06] INFO root fetch - processPackages [pyppbox-ultralytics]: New version: [8.0.149] Old Version: [8.0.145]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [wbFontParts]: Remove: archive file [/home/abi/fetcher/tmp/wbFontParts-0.2.1.tar.gz]
+[2023-08-07 13:19:06] INFO root fetch - processPackages [wbFontParts]: Remove: archive file [/home/abi/fetcher/tmp/wbFontParts-0.2.2.tar.gz]
+[2023-08-07 13:19:07] INFO root fetch - main [MainThread]: End processing [wbFontParts]: success
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ydata-synthetic]: Remove: archive file [/home/abi/fetcher/tmp/ydata-synthetic-1.2.0.tar.gz]
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ydata-synthetic]: Remove: archive file [/home/abi/fetcher/tmp/ydata-synthetic-1.3.0.tar.gz]
+[2023-08-07 13:19:07] INFO root fetch - main [MainThread]: End processing [ydata-synthetic]: success
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/66/71/3c052df1ea39515e44422b953f5c02c0848796309f6741d5822e3d230754/pyacaia_async-0.0.7.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/b8/22/e5e0ccef59694a2050ea9a4dd1ba88187c226d6a625d3ef138c31868ad12/ml-management-0.0.47.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/1c/ce/222371f40ba1b79bf1ec32ac2ab002efa07609915e4fbe6412303acba51a/pyppbox-ultralytics-8.0.145.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pekat-vision-sdk]: Downloading https://files.pythonhosted.org/packages/bc/b9/ff844c4a2f64e357de123c8c211dd4c0427d82788c9006f872ae9046404e/pekat_vision_sdk-1.4.3.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyacaia-async]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyacaia-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacaia_async-0.0.6.tar.gz tmp/pyacaia_async-0.0.7.tar.gz --markdown 20230807/p/pyacaia-async/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pekat-vision-sdk]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pekat-vision-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pekat_vision_sdk-1.4.2.tar.gz tmp/pekat_vision_sdk-1.4.3.tar.gz --markdown 20230807/p/pekat-vision-sdk/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-07 13:19:07] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230807/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/6d/cd/4a0d73ccc64649bb6dcea37a298154221a2c30857f3fef7a4e1d2ea16c09/ml-management-0.0.48.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/bb/28/3231fb214191baa6bae4f07d6d10aa80ac0fbc61c9f84b75dd1c1d66834e/pyppbox-ultralytics-8.0.149.tar.gz
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.47.tar.gz tmp/ml-management-0.0.48.tar.gz --markdown 20230807/m/ml-management/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyppbox-ultralytics]: executing diffoscope
+[2023-08-07 13:19:07] INFO root fetch - processPackages [pyppbox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-ultralytics-8.0.145.tar.gz tmp/pyppbox-ultralytics-8.0.149.tar.gz --markdown 20230807/p/pyppbox-ultralytics/8.0.145-8.0.149/diff.md --exclude *.pyd
+[2023-08-07 13:19:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-08-07 13:19:08] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.6.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.7.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
+[2023-08-07 13:19:08] INFO root fetch - processPackages [pekat-vision-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pekat_vision_sdk-1.4.2.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - processPackages [pekat-vision-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pekat_vision_sdk-1.4.3.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - main [MainThread]: End processing [pekat-vision-sdk]: success
+[2023-08-07 13:19:08] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.8.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.9.tar.gz]
+[2023-08-07 13:19:08] INFO root fetch - main [MainThread]: End processing [mafese]: success
+[2023-08-07 13:19:09] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.47.tar.gz]
+[2023-08-07 13:19:09] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.48.tar.gz]
+[2023-08-07 13:19:09] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-08-07 13:19:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:09] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:09] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-08-07 13:19:09] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:09] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-07 13:19:09] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-08-07 13:19:09] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-ultralytics-8.0.145.tar.gz]
+[2023-08-07 13:19:09] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-ultralytics-8.0.149.tar.gz]
+[2023-08-07 13:19:09] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics]: success
+[2023-08-07 13:19:09] INFO root fetch - main [MainThread]: Store serial: [19204756]
