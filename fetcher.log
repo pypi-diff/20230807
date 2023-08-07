@@ -10359,3 +10359,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 10:00:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.5.0.tar.gz]
 [2023-08-07 10:00:16] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-08-07 10:00:16] INFO root fetch - main [MainThread]: Store serial: [19202072]
+[2023-08-07 10:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19202072]
+[2023-08-07 10:05:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 10:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ElementEmbeddings
+[2023-08-07 10:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-terminal-manager
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-fixed-asset-useful-life-estimation-change
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-fixed-asset
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corals
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iotPervasiveServiceSDK
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Spire.Presentation-for-Python
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mnzipcode
+[2023-08-07 10:05:26] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/5f/e2/a91db216b6585773e98daed9b6003c62f6513d187091c3c16103f9e260ef/iotPervasiveServiceSDK-0.0.6.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [corals]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.0]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.0]
+[2023-08-07 10:05:26] WARNING root fetch - processPackages [Spire.Presentation-for-Python]: Skipping, unable to determine old version
+[2023-08-07 10:05:26] INFO root fetch - processPackages [Spire.Presentation-for-Python]: Start processing: odoo-addon-stock-picking-origin-reference-sale
+[2023-08-07 10:05:26] INFO root fetch - main [MainThread]: End processing [Spire.Presentation-for-Python] error
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ElementEmbeddings]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [tf-nightly]: New version: [2.15.0.dev20230807] Old Version: [2.15.0.dev20230806]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [corals]: Downloading https://files.pythonhosted.org/packages/ca/7c/2076089149093952c0fa5ecc68b3267475ac8260a8abbbe53217770be424/corals-0.1.5.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/8f/37/cfe7ccebf6c175c8158b42d4ea8d35b2e4cc6ae54aee52f1f2022658291f/ssh_terminal_manager-0.9.4.tar.gz
+[2023-08-07 10:05:26] WARNING root fetch - processPackages [odoo-addon-stock-picking-origin-reference-sale]: Skipping, unable to determine old version
+[2023-08-07 10:05:26] INFO root fetch - processPackages [odoo-addon-stock-picking-origin-reference-sale]: Start processing: pyserialsensors
+[2023-08-07 10:05:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-origin-reference-sale] error
+[2023-08-07 10:05:26] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Downloading https://files.pythonhosted.org/packages/94/8c/4a3614cad72a00a0972cb2633718d69f21cac3e9908a43af61eea49bb5a9/odoo14_addon_ssi_fixed_asset-14.0.1.6.0-py3-none-any.whl
+[2023-08-07 10:05:26] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Downloading https://files.pythonhosted.org/packages/8d/22/74367a7c74848e4dddb48dd495a6738521b28ad138b9995bcf01bfc4f0c8/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.1.0-py3-none-any.whl
+[2023-08-07 10:05:26] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/3a/4d/6d8e1c875751f984a2a0a299a3ff98a30a544afe9a170122e4663162364f/iotPervasiveServiceSDK-0.0.7.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/79/0f/2c9d5cdb8beb39dadd7a1abfc31e1a0a3a8f1728fdbb36d5fcf85ecaa5eb/mnzipcode-0.1.1.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [pyserialsensors]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 10:05:26] INFO root fetch - processPackages [ElementEmbeddings]: Downloading https://files.pythonhosted.org/packages/31/53/d5dc42fac812ce7cfa1365b6613d60a414c601c05dc517a3a4dff8e38a2e/ElementEmbeddings-0.2.0.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/d1/2f/7495988b97a5d135a7d51255cf23ff9539a30dc09b9f49e772c0fb0c4dbf/tf_nightly-2.15.0.dev20230806-cp39-cp39-win_amd64.whl
+[2023-08-07 10:05:26] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-07 10:05:26] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-07 10:05:26] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.6.tar.gz tmp/iotPervasiveServiceSDK-0.0.7.tar.gz --markdown 20230807/i/iotPervasiveServiceSDK/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [corals]: Downloading https://files.pythonhosted.org/packages/21/43/691097ca6ede7e9ff39e3b79528a47540f3a071b82de0af5c67057be864b/corals-0.1.6.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyserialsensors]: Downloading https://files.pythonhosted.org/packages/12/27/68f188be45bc820443164e2745d599dc1a63e4b5322e3cbb3f58335b0d2f/pyserialsensors-0.9.8.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/19/19/943a69c41b92ee33fa335b44ffee39e14b61ddd10779054013ca0c81c666/ssh_terminal_manager-0.9.5.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/8f/15/ad984862b846b8c4623897f0d24734a17eab3ed685f5892ffe531c760817/mnzipcode-0.1.2.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [corals]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [corals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corals-0.1.5.tar.gz tmp/corals-0.1.6.tar.gz --markdown 20230807/c/corals/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Downloading https://files.pythonhosted.org/packages/b9/12/b98fca4cb5644a76c4947ab5a0e8b29a8bc5811c67b8168c3bde6860cad5/odoo14_addon_ssi_fixed_asset-14.0.1.7.0-py3-none-any.whl
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.9.4.tar.gz tmp/ssh_terminal_manager-0.9.5.tar.gz --markdown 20230807/s/ssh-terminal-manager/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/3b/83/f51d55d135bcb941e04142a54655793d8980ee122cb494446a34a527ebaf/tf_nightly-2.15.0.dev20230807-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Downloading https://files.pythonhosted.org/packages/00/db/ef29c7a1508ae8aae1afd11b86c1cd7ca5d227813b10f07ff179e1fefc52/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.2.0-py3-none-any.whl
+[2023-08-07 10:05:27] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491817679>=10485760
+[2023-08-07 10:05:27] INFO root fetch - processPackages [tf-nightly]: Start processing: quant-alchemy
+[2023-08-07 10:05:27] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ElementEmbeddings]: Downloading https://files.pythonhosted.org/packages/76/9c/f6f36af96567e784deca7bf688577707a20730193519e56cefcb4a9c8ad6/ElementEmbeddings-0.3.0.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [quant-alchemy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyserialsensors]: Downloading https://files.pythonhosted.org/packages/3a/b4/da59afccd1adb56ed0b7ace9eb66d71eeab442631fa3925a8d21c71c7668/pyserialsensors-0.9.9.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_fixed_asset-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_fixed_asset-14.0.1.7.0-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-ssi-fixed-asset/14.0.1.6.0-14.0.1.7.0/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230807/o/odoo14-addon-ssi-fixed-asset-useful-life-estimation-change/14.0.1.1.0-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.1.tar.gz tmp/mnzipcode-0.1.2.tar.gz --markdown 20230807/m/mnzipcode/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230807/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/2b/d7/eef59885a7daeec28d3b7133617d826423b6f68bfd0344644355d8d71285/quant-alchemy-0.1.6.tar.gz
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyserialsensors]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [pyserialsensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserialsensors-0.9.8.tar.gz tmp/pyserialsensors-0.9.9.tar.gz --markdown 20230807/p/pyserialsensors/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ElementEmbeddings]: executing diffoscope
+[2023-08-07 10:05:27] INFO root fetch - processPackages [ElementEmbeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElementEmbeddings-0.2.0.tar.gz tmp/ElementEmbeddings-0.3.0.tar.gz --markdown 20230807/E/ElementEmbeddings/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 10:05:27] INFO root fetch - processPackages [quant-alchemy]: Downloading https://files.pythonhosted.org/packages/46/60/465f77aa7e7a6f64d417b7a9d1baf8214bbdb4570f1e1550a99950948205/quant-alchemy-0.1.7.tar.gz
+[2023-08-07 10:05:28] INFO root fetch - processPackages [quant-alchemy]: executing diffoscope
+[2023-08-07 10:05:28] INFO root fetch - processPackages [quant-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant-alchemy-0.1.6.tar.gz tmp/quant-alchemy-0.1.7.tar.gz --markdown 20230807/q/quant-alchemy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-07 10:05:28] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.6.tar.gz]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.7.tar.gz]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Start processing: dhlab
+[2023-08-07 10:05:28] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-07 10:05:28] INFO root fetch - processPackages [dhlab]: New version: [3.0.0a3] Old Version: [2.9.5]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [dhlab]: Downloading https://files.pythonhosted.org/packages/96/12/682694afb8df183445e1f14f2c5736711a39be73e49d6a9c41a9610079a8/dhlab-2.9.5.tar.gz
+[2023-08-07 10:05:28] INFO root fetch - processPackages [dhlab]: Downloading https://files.pythonhosted.org/packages/0b/6f/103a1f658f00a88fa0f36e48d2554fd471cb26be63b2fb1984ffd2700459/dhlab-3.0.0a3.tar.gz
+[2023-08-07 10:05:28] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.9.4.tar.gz]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.9.5.tar.gz]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: mealpy
+[2023-08-07 10:05:28] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-08-07 10:05:28] INFO root fetch - processPackages [dhlab]: executing diffoscope
+[2023-08-07 10:05:28] INFO root fetch - processPackages [dhlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhlab-2.9.5.tar.gz tmp/dhlab-3.0.0a3.tar.gz --markdown 20230807/d/dhlab/2.9.5-3.0.0a3/diff.md --exclude *.pyd
+[2023-08-07 10:05:28] INFO root fetch - processPackages [mealpy]: New version: [2.5.4a6] Old Version: [2.5.4a5]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.1.tar.gz]
+[2023-08-07 10:05:28] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.2.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: Start processing: apiclient-gonzalo123
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fixed_asset_useful_life_estimation_change-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: Start processing: mnzipcode
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset-useful-life-estimation-change]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [apiclient-gonzalo123]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [corals]: Remove: archive file [/home/abi/fetcher/tmp/corals-0.1.5.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [corals]: Remove: archive file [/home/abi/fetcher/tmp/corals-0.1.6.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [corals]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/79/0f/2c9d5cdb8beb39dadd7a1abfc31e1a0a3a8f1728fdbb36d5fcf85ecaa5eb/mnzipcode-0.1.1.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/06/81/ee2602d6efadda639bf1c504ba2f0154b980314cbc3a57be3e88da8af2ec/mealpy-2.5.4a5.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fixed_asset-14.0.1.6.0-py3-none-any.whl.zip]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [odoo14-addon-ssi-fixed-asset]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_fixed_asset-14.0.1.7.0-py3-none-any.whl.zip]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fixed-asset]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [pyserialsensors]: Remove: archive file [/home/abi/fetcher/tmp/pyserialsensors-0.9.8.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [pyserialsensors]: Remove: archive file [/home/abi/fetcher/tmp/pyserialsensors-0.9.9.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [pyserialsensors]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [apiclient-gonzalo123]: Downloading https://files.pythonhosted.org/packages/58/e6/0836ed9f31b1b9f864bccd4be7873e56abbd92de06aa570cac705a376a5b/apiclient-gonzalo123-1.0.1.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: Downloading https://files.pythonhosted.org/packages/8f/15/ad984862b846b8c4623897f0d24734a17eab3ed685f5892ffe531c760817/mnzipcode-0.1.2.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [ElementEmbeddings]: Remove: archive file [/home/abi/fetcher/tmp/ElementEmbeddings-0.2.0.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [ElementEmbeddings]: Remove: archive file [/home/abi/fetcher/tmp/ElementEmbeddings-0.3.0.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [ElementEmbeddings]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.6.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - processPackages [quant-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/quant-alchemy-0.1.7.tar.gz]
+[2023-08-07 10:05:29] INFO root fetch - main [MainThread]: End processing [quant-alchemy]: success
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: executing diffoscope
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mnzipcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnzipcode-0.1.1.tar.gz tmp/mnzipcode-0.1.2.tar.gz --markdown 20230807/m/mnzipcode/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/d9/41/10c7a1e51aac8e80a225e7876f79921fd8df2347412fa7db3b5107a56fe8/mealpy-2.5.4a6.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [apiclient-gonzalo123]: Downloading https://files.pythonhosted.org/packages/0e/86/23c49cada197db50684f340a03685db900db53f33cc236343034196f1ad6/apiclient-gonzalo123-1.0.2.tar.gz
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mealpy]: executing diffoscope
+[2023-08-07 10:05:29] INFO root fetch - processPackages [mealpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mealpy-2.5.4a5.tar.gz tmp/mealpy-2.5.4a6.tar.gz --markdown 20230807/m/mealpy/2.5.4a5-2.5.4a6/diff.md --exclude *.pyd
+[2023-08-07 10:05:29] INFO root fetch - processPackages [apiclient-gonzalo123]: executing diffoscope
+[2023-08-07 10:05:29] INFO root fetch - processPackages [apiclient-gonzalo123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiclient-gonzalo123-1.0.1.tar.gz tmp/apiclient-gonzalo123-1.0.2.tar.gz --markdown 20230807/a/apiclient-gonzalo123/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-07 10:05:30] INFO root fetch - processPackages [dhlab]: Remove: archive file [/home/abi/fetcher/tmp/dhlab-2.9.5.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - processPackages [dhlab]: Remove: archive file [/home/abi/fetcher/tmp/dhlab-3.0.0a3.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - main [MainThread]: End processing [dhlab]: success
+[2023-08-07 10:05:30] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.1.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - processPackages [mnzipcode]: Remove: archive file [/home/abi/fetcher/tmp/mnzipcode-0.1.2.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - main [MainThread]: End processing [mnzipcode]: success
+[2023-08-07 10:05:30] INFO root fetch - processPackages [apiclient-gonzalo123]: Remove: archive file [/home/abi/fetcher/tmp/apiclient-gonzalo123-1.0.1.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - processPackages [apiclient-gonzalo123]: Remove: archive file [/home/abi/fetcher/tmp/apiclient-gonzalo123-1.0.2.tar.gz]
+[2023-08-07 10:05:30] INFO root fetch - main [MainThread]: End processing [apiclient-gonzalo123]: success
+[2023-08-07 10:05:31] INFO root fetch - processPackages [mealpy]: Remove: archive file [/home/abi/fetcher/tmp/mealpy-2.5.4a5.tar.gz]
+[2023-08-07 10:05:31] INFO root fetch - processPackages [mealpy]: Remove: archive file [/home/abi/fetcher/tmp/mealpy-2.5.4a6.tar.gz]
+[2023-08-07 10:05:31] INFO root fetch - main [MainThread]: End processing [mealpy]: success
+[2023-08-07 10:05:31] INFO root fetch - main [MainThread]: Store serial: [19202125]
