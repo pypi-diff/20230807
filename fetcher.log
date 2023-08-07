@@ -17991,3 +17991,60 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:50:55] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.3.tar.gz]
 [2023-08-07 13:50:55] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
 [2023-08-07 13:50:55] INFO root fetch - main [MainThread]: Store serial: [19205051]
+[2023-08-07 13:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205051]
+[2023-08-07 13:56:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluepyefe
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: french-cities
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockchain-todo
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dve-lumipy-preview
+[2023-08-07 13:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: urlincode2
+[2023-08-07 13:56:04] INFO root fetch - processPackages [french-cities]: New version: [0.1.1a3] Old Version: [0.1.1a1]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [bluepyefe]: New version: [2.3.0] Old Version: [2.2.72]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [fastlane-bot]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [blockchain-todo]: New version: [1.0] Old Version: [0.9]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/08/57/99d94c72940b427aff9c8528d3b14aabee62768fb8c49c5ea5142b68d5cd/french_cities-0.1.1a1.tar.gz
+[2023-08-07 13:56:04] INFO root fetch - processPackages [urlincode2]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 13:56:04] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/00/67/72af895420a56c7320eb06e9ac357741a7a558951118b7357162634f6a39/bluepyefe-2.2.72.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/8d/2a/1c9403c45cf364e8a04e59357c10a48c41832453569b6ec30a603e915861/fastlane_bot-2.7.0-py3-none-any.whl
+[2023-08-07 13:56:05] INFO root fetch - processPackages [urlincode2]: Downloading https://files.pythonhosted.org/packages/9f/80/193da4e73bce3378eb5eb7bb8ba14a84334f40768c3e4bc01c067a101342/urlincode2-0.5.4.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [blockchain-todo]: Downloading https://files.pythonhosted.org/packages/ce/dc/81a4622526d7f7ff0b4e8ae1d2e26d4064c8b6381f13a3138a3b64064af8/blockchain_todo-0.9.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-08-07 13:56:05] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/f8/c9/6fe789dc1525ded4c80565534039047b0e38efc127f17e8b499299cca23b/french_cities-0.1.1a3.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.1a1.tar.gz tmp/french_cities-0.1.1a3.tar.gz --markdown 20230807/f/french-cities/0.1.1a1-0.1.1a3/diff.md --exclude *.pyd
+[2023-08-07 13:56:05] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/97/5b/c081748b2ec1a9a403425ea05d9a4f09e98e2aac619462e6b9e84035fe6b/fastlane_bot-2.7.1-py3-none-any.whl
+[2023-08-07 13:56:05] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/a0/43/c9c8f2e682dd513322f58bfac84b771ab957b402e3d26754b379e7eb0c6c/bluepyefe-2.3.0.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [blockchain-todo]: Downloading https://files.pythonhosted.org/packages/9b/18/2f990a3c414dd7738a5a3a28e1e3ca945006539e5cb33be608883366dee2/blockchain_todo-1.0.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [urlincode2]: Downloading https://files.pythonhosted.org/packages/c9/e3/0c8e7f757f6266018086b456a51b7a6878b723411aa125ca7cf598121ad8/urlincode2-0.5.5.tar.gz
+[2023-08-07 13:56:05] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-08-07 13:56:05] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.72.tar.gz tmp/bluepyefe-2.3.0.tar.gz --markdown 20230807/b/bluepyefe/2.2.72-2.3.0/diff.md --exclude *.pyd
+[2023-08-07 13:56:05] INFO root fetch - processPackages [blockchain-todo]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [blockchain-todo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain_todo-0.9.tar.gz tmp/blockchain_todo-1.0.tar.gz --markdown 20230807/b/blockchain-todo/0.9-1.0/diff.md --exclude *.pyd
+[2023-08-07 13:56:05] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-2.7.0-py3-none-any.whl.zip tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip --markdown 20230807/f/fastlane-bot/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-08-07 13:56:05] INFO root fetch - processPackages [urlincode2]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [urlincode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlincode2-0.5.4.tar.gz tmp/urlincode2-0.5.5.tar.gz --markdown 20230807/u/urlincode2/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-08-07 13:56:05] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-08-07 13:56:05] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230807/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 13:56:06] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a1.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a3.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-08-07 13:56:06] INFO root fetch - processPackages [urlincode2]: Remove: archive file [/home/abi/fetcher/tmp/urlincode2-0.5.4.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - processPackages [urlincode2]: Remove: archive file [/home/abi/fetcher/tmp/urlincode2-0.5.5.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - main [MainThread]: End processing [urlincode2]: success
+[2023-08-07 13:56:06] INFO root fetch - processPackages [blockchain-todo]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_todo-0.9.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - processPackages [blockchain-todo]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_todo-1.0.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - main [MainThread]: End processing [blockchain-todo]: success
+[2023-08-07 13:56:06] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.72.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.0.tar.gz]
+[2023-08-07 13:56:06] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-08-07 13:56:07] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.0-py3-none-any.whl.zip]
+[2023-08-07 13:56:07] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip]
+[2023-08-07 13:56:07] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-08-07 13:56:07] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-08-07 13:56:07] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-08-07 13:56:07] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-08-07 13:56:07] INFO root fetch - main [MainThread]: Store serial: [19205066]
