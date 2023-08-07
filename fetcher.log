@@ -5790,3 +5790,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 04:41:51] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
 [2023-08-07 04:41:51] INFO root fetch - main [MainThread]: End processing [pipfontingpkg]: success
 [2023-08-07 04:41:51] INFO root fetch - main [MainThread]: Store serial: [19199854]
+[2023-08-07 04:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199854]
+[2023-08-07 04:46:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: red-postgres
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lognflow
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyenphase
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azdev
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flagai
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-incursions
+[2023-08-07 04:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepydatapeek
+[2023-08-07 04:46:59] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [flagai]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [aa-incursions]: New version: [0.2.0a0] Old Version: [0.1.0a0]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [sleepydatapeek]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [red-postgres]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [lognflow]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 04:46:59] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-07 04:46:59] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/98/22/d2b1c5f142a8f53936648742c4cb1ada45830dd1d414a5eac2d03c990dae/flagai-1.7.3.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [red-postgres]: Downloading https://files.pythonhosted.org/packages/77/9a/f594589b066e992a238598bbe3930dc199bc49a6f56fdcae804697cc9dc3/red-postgres-0.1.3.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [aa-incursions]: Downloading https://files.pythonhosted.org/packages/2c/c8/6344187c6dcdc5e16304c279114a11c170b01868f167bef750aa59bbf5d7/aa_incursions-0.1.0a0.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/06/6e/1bbc8c68d0a6c77ec19428bc2edb5d52d0f9110f87fd8b355b3643711272/sleepydatapeek-0.2.1.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/35/52/17af48f1ae69033b8379f6035142e0c4c3f80f44faf61642a8c3a363928e/lognflow-0.8.4.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/a5/42/b01c16d25a184e28d676083bd5becfcb05b95d66c2a5dfb1615f518b2d1d/flagai-1.7.4-py3-none-any.whl
+[2023-08-07 04:47:00] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230807/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [red-postgres]: Downloading https://files.pythonhosted.org/packages/de/04/8fa824c944c2a971737e3500cd21faa7b102d4a3e3c8d10bef39e95f86f1/red-postgres-0.1.5.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [flagai]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [flagai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagai-1.7.3.tar.gz tmp/flagai-1.7.4-py3-none-any.whl.zip --markdown 20230807/f/flagai/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [sleepydatapeek]: Downloading https://files.pythonhosted.org/packages/3a/f0/bae1f0ec1688ee9edc0554b399a445b1fffa2aab492e63f90984952dfe7e/sleepydatapeek-0.2.2.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [aa-incursions]: Downloading https://files.pythonhosted.org/packages/46/32/c35947bccec6b73204272008b5f0f1458741f81f7785a086f8cc74be5ae3/aa_incursions-0.2.0a0.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/90/8d/a2bb175699c17eb39d65ec75cce48ccdd762ec0cfe893ee6338b11d3d736/lognflow-0.8.5.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-08-07 04:47:00] INFO root fetch - processPackages [sleepydatapeek]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [sleepydatapeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepydatapeek-0.2.1.tar.gz tmp/sleepydatapeek-0.2.2.tar.gz --markdown 20230807/s/sleepydatapeek/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [aa-incursions]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [aa-incursions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_incursions-0.1.0a0.tar.gz tmp/aa_incursions-0.2.0a0.tar.gz --markdown 20230807/a/aa-incursions/0.1.0a0-0.2.0a0/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [red-postgres]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [red-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red-postgres-0.1.3.tar.gz tmp/red-postgres-0.1.5.tar.gz --markdown 20230807/r/red-postgres/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.8.4.tar.gz tmp/lognflow-0.8.5.tar.gz --markdown 20230807/l/lognflow/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-07 04:47:00] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-08-07 04:47:00] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230807/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 04:47:01] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-07 04:47:01] INFO root fetch - processPackages [red-postgres]: Remove: archive file [/home/abi/fetcher/tmp/red-postgres-0.1.3.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [red-postgres]: Remove: archive file [/home/abi/fetcher/tmp/red-postgres-0.1.5.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [red-postgres]: success
+[2023-08-07 04:47:01] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.3.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.4-py3-none-any.whl.zip]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [flagai]: success
+[2023-08-07 04:47:01] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.4.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.8.5.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-08-07 04:47:01] INFO root fetch - processPackages [aa-incursions]: Remove: archive file [/home/abi/fetcher/tmp/aa_incursions-0.1.0a0.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [aa-incursions]: Remove: archive file [/home/abi/fetcher/tmp/aa_incursions-0.2.0a0.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [aa-incursions]: success
+[2023-08-07 04:47:01] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.2.1.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - processPackages [sleepydatapeek]: Remove: archive file [/home/abi/fetcher/tmp/sleepydatapeek-0.2.2.tar.gz]
+[2023-08-07 04:47:01] INFO root fetch - main [MainThread]: End processing [sleepydatapeek]: success
+[2023-08-07 04:47:02] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-08-07 04:47:02] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-08-07 04:47:02] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-08-07 04:47:02] INFO root fetch - main [MainThread]: Store serial: [19199876]
