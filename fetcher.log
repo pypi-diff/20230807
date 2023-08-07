@@ -22681,3 +22681,139 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 17:16:01] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
 [2023-08-07 17:16:01] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
 [2023-08-07 17:16:01] INFO root fetch - main [MainThread]: Store serial: [19207173]
+[2023-08-07 17:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19207173]
+[2023-08-07 17:21:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-astrolab
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmdeploy
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starplot
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyplotbrookings
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foundrytools-cli
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plutoplots
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stemia
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psbs
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webants
+[2023-08-07 17:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TEST-TC
+[2023-08-07 17:21:10] INFO root fetch - processPackages [starplot]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [plutoplots]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [psbs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [lmdeploy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [pyplotbrookings]: New version: [0.2.1] Old Version: [0.2]
+[2023-08-07 17:21:10] WARNING root fetch - processPackages [webants]: Skipping, unable to determine old version
+[2023-08-07 17:21:10] INFO root fetch - processPackages [webants]: Start processing: gimera
+[2023-08-07 17:21:10] INFO root fetch - main [MainThread]: End processing [webants] error
+[2023-08-07 17:21:10] INFO root fetch - processPackages [stemia]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [foundrytools-cli]: New version: [1.0.2.1] Old Version: [1.0.1]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/be/5c/f04496aaa6f69e1f5039f2e21c951f370b7c6cccd8c9d3574f4bdd53f11e/starplot-0.2.0.tar.gz
+[2023-08-07 17:21:10] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-07 17:21:10] WARNING root fetch - processPackages [starplot]: Skipping package: exceeds size limit 19169081>=10485760
+[2023-08-07 17:21:10] INFO root fetch - processPackages [starplot]: Start processing: cougar
+[2023-08-07 17:21:10] INFO root fetch - main [MainThread]: End processing [starplot] error
+[2023-08-07 17:21:10] INFO root fetch - processPackages [plutoplots]: Downloading https://files.pythonhosted.org/packages/7b/20/ae36fae243159a1b898b69cc37b7f0ab8f4a5f736254aea6d66602adbbb3/plutoplots-0.3.1.tar.gz
+[2023-08-07 17:21:10] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2023-08-07 17:21:10] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/f8/d5/574b306092b6863512cc508e2786672655735392516e2abc2b58116c7d24/psbs-0.2.2.tar.gz
+[2023-08-07 17:21:10] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/07/46/98702720f32bac96544e1f23e158ddc0235517222ef1936aebb87d3de560/foundrytools-cli-1.0.1.tar.gz
+[2023-08-07 17:21:10] INFO root fetch - processPackages [cougar]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-07 17:21:10] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/57/5f/7995c19a9bff8c5b2c8a515cf6bb4c33cd10503957813fb76bd6d4d79ddf/lmdeploy-0.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-07 17:21:11] INFO root fetch - processPackages [pyplotbrookings]: Downloading https://files.pythonhosted.org/packages/db/43/b2363fcefbe628d2e3b3cda7abdb577ea933858db3f3aea85a307ab69199/pyplotbrookings-0.2.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/83/78/c65eb041e47ec49b93641339990e8e15a1132f316c6144557d0d142dd9d5/stemia-0.7.2.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/c7/7e/16a9c8c4158e7a6d585ead156a4546b54bc0f93c70c2fad74fa733c07167/cougar-0.3.6.tar.gz
+[2023-08-07 17:21:11] WARNING root fetch - processPackages [lmdeploy]: Skipping package: exceeds size limit 67911744>=10485760
+[2023-08-07 17:21:11] INFO root fetch - processPackages [lmdeploy]: Start processing: leprikon
+[2023-08-07 17:21:11] INFO root fetch - main [MainThread]: End processing [lmdeploy] error
+[2023-08-07 17:21:11] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [leprikon]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-08-07 17:21:11] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/03/39/70f5fa36460ef84aa7067e3efeec8527f609a32750039ea1af8b09dc3d27/psbs-0.2.3.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230807/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [plutoplots]: Downloading https://files.pythonhosted.org/packages/d0/19/6377fdf88de0a397105cd51e749150d973f133226bae74d0e9229f5c15a2/plutoplots-0.3.2.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/92/43/922951fa8bc6e9876f491201279f908fb2fd1efa32886cf11389ad0a7d3c/leprikon-3.5.3.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/53/9e/cb39ebd3466c6c91671510af0e537605d63f9c3cc4e0929b6c7030db2fa3/foundrytools-cli-1.0.2.1.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [stemia]: Downloading https://files.pythonhosted.org/packages/1c/48/9ee4058f8ffb122d7bc3a05a35a69fb6cb0651cff1375f76b3a8c022432b/stemia-0.7.3.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20230807/g/gimera/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [psbs]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [psbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psbs-0.2.2.tar.gz tmp/psbs-0.2.3.tar.gz --markdown 20230807/p/psbs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/d7/54/c4b3e7b37e576f52be53af14b853b4b688676a2b4cafd15fa6dbf73b9075/cougar-0.3.7.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [pyplotbrookings]: Downloading https://files.pythonhosted.org/packages/df/21/3209b1c9e062eacb317750c32ed69a43cfd6d401290d486bdeffa2948e25/pyplotbrookings-0.2.1.tar.gz
+[2023-08-07 17:21:11] INFO root fetch - processPackages [plutoplots]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [plutoplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutoplots-0.3.1.tar.gz tmp/plutoplots-0.3.2.tar.gz --markdown 20230807/p/plutoplots/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [stemia]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [stemia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemia-0.7.2.tar.gz tmp/stemia-0.7.3.tar.gz --markdown 20230807/s/stemia/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230807/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [foundrytools-cli]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [foundrytools-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundrytools-cli-1.0.1.tar.gz tmp/foundrytools-cli-1.0.2.1.tar.gz --markdown 20230807/f/foundrytools-cli/1.0.1-1.0.2.1/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.3.6.tar.gz tmp/cougar-0.3.7.tar.gz --markdown 20230807/c/cougar/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-07 17:21:11] INFO root fetch - processPackages [pyplotbrookings]: executing diffoscope
+[2023-08-07 17:21:11] INFO root fetch - processPackages [pyplotbrookings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotbrookings-0.2.tar.gz tmp/pyplotbrookings-0.2.1.tar.gz --markdown 20230807/p/pyplotbrookings/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-08-07 17:21:12] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/23/07/3166444a363dd14da18f113cc7c079626a2d9cda7d354269948cfe7ba457/leprikon-3.5.4.tar.gz
+[2023-08-07 17:21:12] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2023-08-07 17:21:12] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.5.3.tar.gz tmp/leprikon-3.5.4.tar.gz --markdown 20230807/l/leprikon/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TEST-TC]: Start processing: django-query-tools
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [django-query-tools]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [gimera]: Start processing: TDCRPy
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [plutoplots]: Remove: archive file [/home/abi/fetcher/tmp/plutoplots-0.3.1.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [plutoplots]: Remove: archive file [/home/abi/fetcher/tmp/plutoplots-0.3.2.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [plutoplots]: Start processing: rearth
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [plutoplots]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.2.2.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.2.3.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [psbs]: Start processing: jaclang
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [psbs]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.6.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.7.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/57/9d/ca8021a33b34af50f17ee9ac8bb782a7c60527f05e8b618782b5076bce18/django_query_tools-0.2.1.tar.gz
+[2023-08-07 17:21:13] WARNING root fetch - processPackages [rearth]: Skipping, unable to determine old version
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [rearth] error
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-07 17:21:13] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [jaclang]: New version: [2.0.0] Old Version: [0.0.4]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.7.2.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [stemia]: Remove: archive file [/home/abi/fetcher/tmp/stemia-0.7.3.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [stemia]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.0.1.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.0.2.1.tar.gz]
+[2023-08-07 17:21:13] INFO root fetch - main [MainThread]: End processing [foundrytools-cli]: success
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-07 17:21:13] INFO root fetch - processPackages [jaclang]: Downloading https://files.pythonhosted.org/packages/ea/64/7b1b1eb82d4eacc811cb4be2f35d093359f0f7638eeb874388aea6c8cf75/jaclang-0.0.4.tar.gz
+[2023-08-07 17:21:13] INFO root fetch - processPackages [django-query-tools]: Downloading https://files.pythonhosted.org/packages/24/62/aeff01693790d518069840feca1013cc639bb93019c31cb8279ac40d4d18/django_query_tools-0.3.0-py3-none-any.whl
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-07 17:21:13] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230807/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 17:21:13] INFO root fetch - processPackages [django-query-tools]: executing diffoscope
+[2023-08-07 17:21:13] INFO root fetch - processPackages [django-query-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_tools-0.2.1.tar.gz tmp/django_query_tools-0.3.0-py3-none-any.whl.zip --markdown 20230807/d/django-query-tools/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 17:21:14] INFO root fetch - processPackages [pyplotbrookings]: Remove: archive file [/home/abi/fetcher/tmp/pyplotbrookings-0.2.tar.gz]
+[2023-08-07 17:21:14] INFO root fetch - processPackages [pyplotbrookings]: Remove: archive file [/home/abi/fetcher/tmp/pyplotbrookings-0.2.1.tar.gz]
+[2023-08-07 17:21:14] INFO root fetch - main [MainThread]: End processing [pyplotbrookings]: success
+[2023-08-07 17:21:14] INFO root fetch - processPackages [jaclang]: Downloading https://files.pythonhosted.org/packages/94/b0/bdf17fc987c8f38d62f97fa732e1217fdda9bd1d7fbd35b02fd17b512258/jaclang-2.0.0.tar.gz
+[2023-08-07 17:21:14] INFO root fetch - processPackages [jaclang]: executing diffoscope
+[2023-08-07 17:21:14] INFO root fetch - processPackages [jaclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaclang-0.0.4.tar.gz tmp/jaclang-2.0.0.tar.gz --markdown 20230807/j/jaclang/0.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 17:21:14] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.2.1.tar.gz]
+[2023-08-07 17:21:14] INFO root fetch - processPackages [django-query-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_query_tools-0.3.0-py3-none-any.whl.zip]
+[2023-08-07 17:21:14] INFO root fetch - main [MainThread]: End processing [django-query-tools]: success
+[2023-08-07 17:21:14] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-07 17:21:14] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-07 17:21:14] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-07 17:21:15] INFO root fetch - processPackages [jaclang]: Remove: archive file [/home/abi/fetcher/tmp/jaclang-0.0.4.tar.gz]
+[2023-08-07 17:21:15] INFO root fetch - processPackages [jaclang]: Remove: archive file [/home/abi/fetcher/tmp/jaclang-2.0.0.tar.gz]
+[2023-08-07 17:21:15] INFO root fetch - main [MainThread]: End processing [jaclang]: success
+[2023-08-07 17:21:15] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.5.3.tar.gz]
+[2023-08-07 17:21:15] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.5.4.tar.gz]
+[2023-08-07 17:21:15] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2023-08-07 17:21:15] INFO root fetch - main [MainThread]: Store serial: [19207254]
