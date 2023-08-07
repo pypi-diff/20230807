@@ -7280,3 +7280,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 06:49:43] INFO root fetch - processPackages [pydisadm]: Remove: archive file [/home/abi/fetcher/tmp/pydisadm-2.0.0.tar.gz]
 [2023-08-07 06:49:43] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
 [2023-08-07 06:49:43] INFO root fetch - main [MainThread]: Store serial: [19200548]
+[2023-08-07 06:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200548]
+[2023-08-07 06:54:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OCRTest
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RuletaEuropea
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: material-zui
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheapcone
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkey-sklearn
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leetquery
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HaploDynamics
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ivy-memory
+[2023-08-07 06:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyColorIT
+[2023-08-07 06:54:52] INFO root fetch - processPackages [HaploDynamics]: New version: [0.2b0] Old Version: [0.1b9]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [RuletaEuropea]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [adafri]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [checkey-sklearn]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-07 06:54:52] WARNING root fetch - processPackages [cheapcone]: Skipping, unable to determine old version
+[2023-08-07 06:54:52] INFO root fetch - processPackages [cheapcone]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-07 06:54:52] INFO root fetch - main [MainThread]: End processing [cheapcone] error
+[2023-08-07 06:54:52] INFO root fetch - processPackages [material-zui]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-07 06:54:52] WARNING root fetch - processPackages [PyColorIT]: Skipping, unable to determine old version
+[2023-08-07 06:54:52] INFO root fetch - processPackages [PyColorIT]: Start processing: ivy-builder
+[2023-08-07 06:54:52] INFO root fetch - main [MainThread]: End processing [PyColorIT] error
+[2023-08-07 06:54:52] WARNING root fetch - processPackages [leetquery]: Skipping, unable to determine old version
+[2023-08-07 06:54:52] INFO root fetch - main [MainThread]: End processing [leetquery] error
+[2023-08-07 06:54:52] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/9b/22/8e429e0c06e4417ddcf5abc981eb55b4a02319909197029dd93991c2fc08/HaploDynamics-0.1b9.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [OCRTest]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [ivy-memory]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/26/5b/b357a8a997ceb06cdbff04276a2b226834dbc11c68cd55a7635c0972d079/RuletaEuropea-0.1.4.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/54/88/b7aab8bd0bc054f73082055d2383e7999c8e236205b901372fcc041812cb/adafri-0.0.75.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.1] Old Version: [0.4.0.2]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [ivy-builder]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-07 06:54:52] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/c8/ae/6b483d5124665b04a2972f59ecdbe173c326aea8c6df490383caa9d79b47/material_zui-0.1.5.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [OCRTest]: Downloading https://files.pythonhosted.org/packages/67/43/4009a4376e5cdf0c38fd5ae95141fd6a60320667e6258d83e29f888d0396/OCRTest-0.0.4.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [ivy-memory]: Downloading https://files.pythonhosted.org/packages/44/98/621d033e1400656a5ad463e4fb2a75af5c9c854f27a5cbc4b51c3f3d273b/ivy-memory-1.1.8.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [checkey-sklearn]: Downloading https://files.pythonhosted.org/packages/32/3f/0c434a4801fa54bd60787c26852988ec8876c73df5a3db27c31351bf40eb/checkey-sklearn-0.0.1.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [ivy-builder]: Downloading https://files.pythonhosted.org/packages/49/6e/f213135b53f50e91540f058763f6d77f88c8e1ae3a426420d4d902e09602/ivy-builder-1.1.8.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [RuletaEuropea]: Downloading https://files.pythonhosted.org/packages/6a/79/0e5b71dfea4dba854f00c2903a5c1f3b23197e7ae3c090c6f2e9520c955b/RuletaEuropea-0.1.5.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/8d/82/8b53b388dde7b2071f961feb7321ef6f18b951e85830fbb186eb9a39cb15/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/c1/59/bac0fc30fdc1ef0be43fb249c219d1523927f3d0a22f1f3074b05e25a5f2/HaploDynamics-0.2b0.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/8b/16/21b4612a42ae713ed2e990842e0e5b6b1c2d86fc3a58b7ef42933b654349/adafri-0.0.76.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/a2/d6/508db7b5f2a39257ac73ad11226efc155bdb9bf33006890d52f382b98583/material_zui-0.1.6.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-07 06:54:52] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b9.tar.gz tmp/HaploDynamics-0.2b0.tar.gz --markdown 20230807/H/HaploDynamics/0.1b9-0.2b0/diff.md --exclude *.pyd
+[2023-08-07 06:54:52] INFO root fetch - processPackages [OCRTest]: Downloading https://files.pythonhosted.org/packages/52/dd/f20d23811bd7ce1b8487d908d038276c492692b67495fd04ca956f8b0ba5/OCRTest-0.0.5.tar.gz
+[2023-08-07 06:54:52] INFO root fetch - processPackages [RuletaEuropea]: executing diffoscope
+[2023-08-07 06:54:52] INFO root fetch - processPackages [RuletaEuropea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RuletaEuropea-0.1.4.tar.gz tmp/RuletaEuropea-0.1.5.tar.gz --markdown 20230807/R/RuletaEuropea/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 06:54:52] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-07 06:54:52] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.75.tar.gz tmp/adafri-0.0.76.tar.gz --markdown 20230807/a/adafri/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-08-07 06:54:52] INFO root fetch - processPackages [checkey-sklearn]: Downloading https://files.pythonhosted.org/packages/2d/9f/d915d247b14d8571189389ea42c9d93c3f359dc6ef4e872e9982ba816de1/checkey-sklearn-0.1.0.tar.gz
+[2023-08-07 06:54:53] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.5.tar.gz tmp/material_zui-0.1.6.tar.gz --markdown 20230807/m/material-zui/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-07 06:54:53] INFO root fetch - processPackages [OCRTest]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [OCRTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OCRTest-0.0.4.tar.gz tmp/OCRTest-0.0.5.tar.gz --markdown 20230807/O/OCRTest/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-memory]: Downloading https://files.pythonhosted.org/packages/85/ac/c82785b498247341329efb6dd042b8a92f00db3d90f0e12a35277e9b814d/ivy-memory-1.1.9.tar.gz
+[2023-08-07 06:54:53] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/5b/56/6d5f3c849b923aba0d834ae9d72ceecf932c8f57af15bd6c3201875d1b56/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-builder]: Downloading https://files.pythonhosted.org/packages/65/f8/940c183d08eaff3e8763645e20f82fa5306d89cd23b5b3a8731aff151de1/ivy-builder-1.1.9.tar.gz
+[2023-08-07 06:54:53] INFO root fetch - processPackages [checkey-sklearn]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [checkey-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkey-sklearn-0.0.1.tar.gz tmp/checkey-sklearn-0.1.0.tar.gz --markdown 20230807/c/checkey-sklearn/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-memory]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-memory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-memory-1.1.8.tar.gz tmp/ivy-memory-1.1.9.tar.gz --markdown 20230807/i/ivy-memory/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-builder]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [ivy-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivy-builder-1.1.8.tar.gz tmp/ivy-builder-1.1.9.tar.gz --markdown 20230807/i/ivy-builder/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-07 06:54:53] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-07 06:54:53] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz --markdown 20230807/n/nonebot-plugin-stable-diffusion-diao/0.4.0.2-0.4.1/diff.md --exclude *.pyd
+[2023-08-07 06:54:54] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b9.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.2b0.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [OCRTest]: Remove: archive file [/home/abi/fetcher/tmp/OCRTest-0.0.4.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [OCRTest]: Remove: archive file [/home/abi/fetcher/tmp/OCRTest-0.0.5.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [OCRTest]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.75.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.76.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.4.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [RuletaEuropea]: Remove: archive file [/home/abi/fetcher/tmp/RuletaEuropea-0.1.5.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [RuletaEuropea]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [checkey-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/checkey-sklearn-0.0.1.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [checkey-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/checkey-sklearn-0.1.0.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [checkey-sklearn]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [ivy-memory]: Remove: archive file [/home/abi/fetcher/tmp/ivy-memory-1.1.8.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [ivy-memory]: Remove: archive file [/home/abi/fetcher/tmp/ivy-memory-1.1.9.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [ivy-memory]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [ivy-builder]: Remove: archive file [/home/abi/fetcher/tmp/ivy-builder-1.1.8.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [ivy-builder]: Remove: archive file [/home/abi/fetcher/tmp/ivy-builder-1.1.9.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.2.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [ivy-builder]: success
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-07 06:54:54] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.5.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.6.tar.gz]
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-08-07 06:54:54] INFO root fetch - main [MainThread]: Store serial: [19200589]
