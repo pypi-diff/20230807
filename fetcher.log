@@ -15164,3 +15164,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 11:51:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.5.1.tar.gz]
 [2023-08-07 11:51:08] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-08-07 11:51:08] INFO root fetch - main [MainThread]: Store serial: [19203793]
+[2023-08-07 11:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19203793]
+[2023-08-07 11:56:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DYCodeBase
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-line-refund-to-invoice-qty
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyntcli
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfipy
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invision-client-python
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-templates
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image2layout-computer-vision
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metapensiero.sphinx.patchdb
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frogmouth
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forecastmanager
+[2023-08-07 11:56:18] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [DYCodeBase]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [invision-client-python]: New version: [1.3.0b1] Old Version: [1.0.0]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [frogmouth]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ansys-templates]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [forecastmanager]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [dfipy]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [pyntcli]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7f/62/61093686ed412da04da71c0d28e6eb2df14cff15867b1956d5cabf291b93/image2layout_computer_vision-0.1.3.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: New version: [4.0.dev9] Old Version: [4.0.dev8]
+[2023-08-07 11:56:18] INFO root fetch - processPackages [DYCodeBase]: Downloading https://files.pythonhosted.org/packages/ef/c9/2449f824fe4dd052d5d28a82c7780e42338837eee0c9cd3f9615baa3e76d/DYCodeBase-0.0.1.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [invision-client-python]: Downloading https://files.pythonhosted.org/packages/b2/9f/c3185275034c7e762beff835d59634afcc491e34e6606de8e0ec4d5e8b27/invision-client-python-1.0.0.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/49/46/40bb734e13c492a809a5b4ca9090132100ba1d6c29b6c0a3a1eda659d54d/pyntcli-0.1.58-py3-none-any.whl
+[2023-08-07 11:56:18] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/ab/4a/504b69b16b7f920c4149f7d7c43be36a70f8a462dff716cd639b0385892d/dfipy-1.0.2.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/1f/37/f1c035f0a385d836adbcd311340f65bc2d145a333e1332f1ddaa46f7567a/ansys_templates-1.2.1.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Downloading https://files.pythonhosted.org/packages/7c/ba/e47604f2903154df8fea4889111ffb418777f7ba9d68413bc76977bb49e3/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl
+[2023-08-07 11:56:18] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/9e/eb/9700a9b558246c6ed57d3ce5c23a98538b6c0e82ce9325b4e1b86cca0fea/frogmouth-0.8.0.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/f0/bb/77ea2e3f642b3711e6f64013b3a68b7135a496e378eac2d904ce5755df76/forecastmanager-0.1.4.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/54/0d/aa9f86c22f3461324cc9ea3fdb0f28b790deac0cd3c128395d7e6e13e91e/image2layout_computer_vision-0.1.4.tar.gz
+[2023-08-07 11:56:18] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/e5/02/5722e9ce47fdffc5f57c12e70a4d798ff9db9d74b5ee55b87ecf1a911b4f/metapensiero.sphinx.patchdb-4.0.dev8.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.1.3.tar.gz tmp/image2layout_computer_vision-0.1.4.tar.gz --markdown 20230807/i/image2layout-computer-vision/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [DYCodeBase]: Downloading https://files.pythonhosted.org/packages/51/d6/10a0b69d4a01da76ea38b5d63ce6a5c3849ea6f22c6d0f8e4b74a219c676/DYCodeBase-0.0.2.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/4a/c1/5466913f4ec847ec7ec92b82691bf1185ee4d73d5b13c52179c8d8713372/dfipy-2.0.0.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [invision-client-python]: Downloading https://files.pythonhosted.org/packages/b8/f7/8a216b9b9981d82c70642c1da5a4a2eecf354d7219d7f7abf8cb70bd35be/invision-client-python-1.3.0b1.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/b3/f2/2da3da008bc52e852566eab46c572be4dee065a1881318532d63b0a7d6cf/pyntcli-0.1.59-py3-none-any.whl
+[2023-08-07 11:56:19] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/a5/b1/011c3e6a7c429a5e21b02a4b2aaa058c77b109055ba6cf6786089cf696aa/frogmouth-0.9.0.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Downloading https://files.pythonhosted.org/packages/6d/63/a66532671a113a033f40c7d4f0688fe770070dc8503cd5e7d5a62c9033c3/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-07 11:56:19] INFO root fetch - processPackages [DYCodeBase]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [DYCodeBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DYCodeBase-0.0.1.tar.gz tmp/DYCodeBase-0.0.2.tar.gz --markdown 20230807/D/DYCodeBase/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/d2/52/c3cdd3b90118fc30bce12bd97965af06e69c169cbae514b0d0c4016aa6b8/forecastmanager-0.1.5.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [dfipy]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [dfipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfipy-1.0.2.tar.gz tmp/dfipy-2.0.0.tar.gz --markdown 20230807/d/dfipy/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/df/7d/ebcaa6d244f57a6a253f2d266df1bba8075e424824ef0a1994b09ea48467/ansys_templates-1.2.2.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Downloading https://files.pythonhosted.org/packages/d3/5b/f7e1da5696e2ab5d814b0e0045be1c4bf2c39571fb7bfbe06d970143172f/metapensiero.sphinx.patchdb-4.0.dev9.tar.gz
+[2023-08-07 11:56:19] INFO root fetch - processPackages [invision-client-python]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [invision-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invision-client-python-1.0.0.tar.gz tmp/invision-client-python-1.3.0b1.tar.gz --markdown 20230807/i/invision-client-python/1.0.0-1.3.0b1/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.58-py3-none-any.whl.zip tmp/pyntcli-0.1.59-py3-none-any.whl.zip --markdown 20230807/p/pyntcli/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.8.0.tar.gz tmp/frogmouth-0.9.0.tar.gz --markdown 20230807/f/frogmouth/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-sale-line-refund-to-invoice-qty/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metapensiero.sphinx.patchdb-4.0.dev8.tar.gz tmp/metapensiero.sphinx.patchdb-4.0.dev9.tar.gz --markdown 20230807/m/metapensiero.sphinx.patchdb/4.0.dev8-4.0.dev9/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.2.1.tar.gz tmp/ansys_templates-1.2.2.tar.gz --markdown 20230807/a/ansys-templates/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-07 11:56:19] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-08-07 11:56:19] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.1.4.tar.gz tmp/forecastmanager-0.1.5.tar.gz --markdown 20230807/f/forecastmanager/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 11:56:20] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.3.tar.gz]
+[2023-08-07 11:56:20] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.4.tar.gz]
+[2023-08-07 11:56:20] INFO root fetch - processPackages [image2layout-computer-vision]: Start processing: nonebot-plugin-lostark-wandering-trader
+[2023-08-07 11:56:20] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-07 11:56:20] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 11:56:20] INFO root fetch - processPackages [DYCodeBase]: Remove: archive file [/home/abi/fetcher/tmp/DYCodeBase-0.0.1.tar.gz]
+[2023-08-07 11:56:20] INFO root fetch - processPackages [DYCodeBase]: Remove: archive file [/home/abi/fetcher/tmp/DYCodeBase-0.0.2.tar.gz]
+[2023-08-07 11:56:20] INFO root fetch - processPackages [DYCodeBase]: Start processing: trailblazer
+[2023-08-07 11:56:20] INFO root fetch - main [MainThread]: End processing [DYCodeBase]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/a5/75/8e2ff41ed8900111a6dc477f614d161fa1e1fe7e5d0e5e85c4cf436b4334/nonebot_plugin_lostark_wandering_trader-0.0.6.tar.gz
+[2023-08-07 11:56:21] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-1.0.2.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-2.0.0.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [dfipy]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/5f/a3/e0e03b09b6097730a9178aa49d8034dde35b8cc79a7a34a47c1dea7fea56/nonebot_plugin_lostark_wandering_trader-0.0.7.tar.gz
+[2023-08-07 11:56:21] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.58-py3-none-any.whl.zip]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.59-py3-none-any.whl.zip]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: executing diffoscope
+[2023-08-07 11:56:21] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_lostark_wandering_trader-0.0.6.tar.gz tmp/nonebot_plugin_lostark_wandering_trader-0.0.7.tar.gz --markdown 20230807/n/nonebot-plugin-lostark-wandering-trader/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 11:56:21] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-08-07 11:56:21] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-line-refund-to-invoice-qty]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-08-07 11:56:21] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230807/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-08-07 11:56:21] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.8.0.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.9.0.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [invision-client-python]: Remove: archive file [/home/abi/fetcher/tmp/invision-client-python-1.0.0.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [invision-client-python]: Remove: archive file [/home/abi/fetcher/tmp/invision-client-python-1.3.0b1.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [invision-client-python]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev8.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [metapensiero.sphinx.patchdb]: Remove: archive file [/home/abi/fetcher/tmp/metapensiero.sphinx.patchdb-4.0.dev9.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [metapensiero.sphinx.patchdb]: success
+[2023-08-07 11:56:21] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.1.4.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.1.5.tar.gz]
+[2023-08-07 11:56:21] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-08-07 11:56:22] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.6.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.7.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lostark-wandering-trader]: success
+[2023-08-07 11:56:22] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.1.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.2.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-08-07 11:56:22] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-08-07 11:56:22] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-08-07 11:56:22] INFO root fetch - main [MainThread]: Store serial: [19203832]
