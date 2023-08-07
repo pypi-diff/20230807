@@ -18815,3 +18815,105 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 14:38:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-08-07 14:38:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-08-07 14:38:24] INFO root fetch - main [MainThread]: Store serial: [19205429]
+[2023-08-07 14:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19205429]
+[2023-08-07 14:43:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joseki
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zou
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IOmatchbox
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iman
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-inference
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fletbox
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coveo-systools
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codeboxapi
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-feedback
+[2023-08-07 14:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utfuzz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [utfuzz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [joseki]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/42/85/242aab42bfb8b9ca8c95e761eac562c944cea8bcf7431fb3be1d8359aa12/joseki-2.3.0.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [streamlit-feedback]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [coveo-systools]: New version: [2.0.9] Old Version: [2.0.8a1]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [fletbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [IOmatchbox]: New version: [0.23] Old Version: [0.22]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [iman]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 14:43:33] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/2e/f1/a56a6566312163bf160191d5e86d385cdbdb5d8e4be5864560dc53e151da/utfuzz-0.1.0.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [IOmatchbox]: Downloading https://files.pythonhosted.org/packages/f8/42/1210fc4dfe4fd2183150621a1629650a719df061fd85710a77fddc253a3f/IOmatchbox-0.22.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [streamlit-feedback]: Downloading https://files.pythonhosted.org/packages/42/84/5f503024a723f564b6241fd312af43dbec2c800a9451b1a83af6d84fa01d/streamlit-feedback-0.0.6.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/8b/97/65384eb30e546b96491d0c9d89a8af26c64a8a7850e45e44f39311ffbd6a/iman-0.0.97.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/98/f1/c69483f4a59fe8268dc9116d8ee5704a21da547a040f9518639fb1bea709/fletbox-0.1.0.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/20/86/21b83aa25c92841c8caee97c0785f57c4a8b383ed8c3666252072eefc7a4/codeboxapi-0.0.8.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [coveo-systools]: Downloading https://files.pythonhosted.org/packages/2d/6e/e7b2df907811ea72bdaa2a341f3b2f786654de91c875179699f2f33db51a/coveo-systools-2.0.8a1.tar.gz
+[2023-08-07 14:43:33] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-08-07 14:43:33] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/7a/e2/297779f66ca4bdc709c202db9f742f912b30a3bd02d8f8bb2a600c3fcd66/qwak_inference-0.1.7.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/6f/d4/15ef67953543a898996eb9b304a6496d61fa3b247d1cd60af1d7161289a7/joseki-2.4.0.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [utfuzz]: Downloading https://files.pythonhosted.org/packages/00/21/b2e8577d974e7783cf2c6906bc58da0031b4e42275b4ee2bb2536e0840a3/utfuzz-0.1.1.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [IOmatchbox]: Downloading https://files.pythonhosted.org/packages/54/14/7c653f2d6750c323863f5c686a3abdf79a8e5041dd9f952fa7e883513e22/IOmatchbox-0.23.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [joseki]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [joseki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joseki-2.3.0.tar.gz tmp/joseki-2.4.0.tar.gz --markdown 20230807/j/joseki/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [streamlit-feedback]: Downloading https://files.pythonhosted.org/packages/85/0a/78e75e5b9ccf9841f566874a39045b511fffd6bbeb1b6cc7c32e7b06521c/streamlit-feedback-0.0.7.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/92/25/f0514155ff42756110d20e7bc0a52ea2f9560df54459ba58164e1a153bfe/fletbox-0.1.1.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/27/c9/d2912b4bb4c27ce062b640c6ec5b881550c8322e09b7a7c647d172513a6e/iman-0.0.98.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/d2/3b/e642baf16566658f1f911336a06142027f0286a8d3da3dbf55d3757ccfc6/qwak_inference-0.1.8.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [coveo-systools]: Downloading https://files.pythonhosted.org/packages/31/65/cd55b546e8dce3337f95fbfabc2a6e35347a8a0478c4118e212271f6d305/coveo-systools-2.0.9.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [IOmatchbox]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [IOmatchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOmatchbox-0.22.tar.gz tmp/IOmatchbox-0.23.tar.gz --markdown 20230807/I/IOmatchbox/0.22-0.23/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.1.0.tar.gz tmp/fletbox-0.1.1.tar.gz --markdown 20230807/f/fletbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [utfuzz]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [utfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utfuzz-0.1.0.tar.gz tmp/utfuzz-0.1.1.tar.gz --markdown 20230807/u/utfuzz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/85/1e/7c6eda9373b99ecefa347632a0386195e4693118d2e8438b74efcbfddc11/codeboxapi-0.0.9.tar.gz
+[2023-08-07 14:43:34] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-08-07 14:43:34] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.97.tar.gz tmp/iman-0.0.98.tar.gz --markdown 20230807/i/iman/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [streamlit-feedback]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [streamlit-feedback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-feedback-0.0.6.tar.gz tmp/streamlit-feedback-0.0.7.tar.gz --markdown 20230807/s/streamlit-feedback/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.1.7.tar.gz tmp/qwak_inference-0.1.8.tar.gz --markdown 20230807/q/qwak-inference/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [coveo-systools]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [coveo-systools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo-systools-2.0.8a1.tar.gz tmp/coveo-systools-2.0.9.tar.gz --markdown 20230807/c/coveo-systools/2.0.8a1-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.8.tar.gz tmp/codeboxapi-0.0.9.tar.gz --markdown 20230807/c/codeboxapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 14:43:34] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-08-07 14:43:34] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230807/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 14:43:35] INFO root fetch - processPackages [IOmatchbox]: Remove: archive file [/home/abi/fetcher/tmp/IOmatchbox-0.22.tar.gz]
+[2023-08-07 14:43:35] INFO root fetch - processPackages [IOmatchbox]: Remove: archive file [/home/abi/fetcher/tmp/IOmatchbox-0.23.tar.gz]
+[2023-08-07 14:43:35] INFO root fetch - processPackages [IOmatchbox]: Start processing: kcli
+[2023-08-07 14:43:35] INFO root fetch - main [MainThread]: End processing [IOmatchbox]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.0.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [utfuzz]: Remove: archive file [/home/abi/fetcher/tmp/utfuzz-0.1.1.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [utfuzz]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.1.0.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.1.1.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.3.0.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.4.0.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [joseki]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202308071243] Old Version: [99.0.202308041932]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [coveo-systools]: Remove: archive file [/home/abi/fetcher/tmp/coveo-systools-2.0.8a1.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [coveo-systools]: Remove: archive file [/home/abi/fetcher/tmp/coveo-systools-2.0.9.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [coveo-systools]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.8.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.9.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.7.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.8.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.97.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.98.tar.gz]
+[2023-08-07 14:43:36] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-07 14:43:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c4/0c/5d9b1728244c585fe540be1eb2858e55418414bba2e68a6cfb6f2bd26041/kcli-99.0.202308041932-py3-none-any.whl
+[2023-08-07 14:43:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d1/d9/dde28517d25c36b98c547f3aedec4a9c8777e0d8eb9bd4768b1e56b03a17/kcli-99.0.202308071243-py3-none-any.whl
+[2023-08-07 14:43:37] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2023-08-07 14:43:37] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2023-08-07 14:43:37] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-08-07 14:43:37] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-08-07 14:43:37] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202308041932-py3-none-any.whl.zip tmp/kcli-99.0.202308071243-py3-none-any.whl.zip --markdown 20230807/k/kcli/99.0.202308041932-99.0.202308071243/diff.md --exclude *.pyd
+[2023-08-07 14:43:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308041932-py3-none-any.whl.zip]
+[2023-08-07 14:43:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308071243-py3-none-any.whl.zip]
+[2023-08-07 14:43:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-08-07 14:43:57] INFO root fetch - processPackages [streamlit-feedback]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-feedback-0.0.6.tar.gz]
+[2023-08-07 14:43:57] INFO root fetch - processPackages [streamlit-feedback]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-feedback-0.0.7.tar.gz]
+[2023-08-07 14:43:57] INFO root fetch - main [MainThread]: End processing [streamlit-feedback]: success
+[2023-08-07 14:43:57] INFO root fetch - main [MainThread]: Store serial: [19205474]
