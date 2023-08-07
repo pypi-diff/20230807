@@ -8207,3 +8207,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 08:08:08] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
 [2023-08-07 08:08:08] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-07 08:08:08] INFO root fetch - main [MainThread]: Store serial: [19201011]
+[2023-08-07 08:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19201011]
+[2023-08-07 08:13:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddochi
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-redis
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loq0
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jzd
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-grafana
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thinc
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vijay-test-poetry-1
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wkey
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ExoScanner
+[2023-08-07 08:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-image
+[2023-08-07 08:13:17] INFO root fetch - processPackages [loq0]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 08:13:17] WARNING root fetch - processPackages [wkey]: Skipping, unable to determine old version
+[2023-08-07 08:13:17] INFO root fetch - processPackages [wkey]: Start processing: cdk8s-operator
+[2023-08-07 08:13:17] INFO root fetch - main [MainThread]: End processing [wkey] error
+[2023-08-07 08:13:17] INFO root fetch - processPackages [jzd]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [ExoScanner]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 08:13:17] WARNING root fetch - processPackages [ddochi]: Skipping, unable to determine old version
+[2023-08-07 08:13:17] INFO root fetch - main [MainThread]: End processing [ddochi] error
+[2023-08-07 08:13:17] WARNING root fetch - processPackages [vijay-test-poetry-1]: Skipping, unable to determine old version
+[2023-08-07 08:13:17] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1] error
+[2023-08-07 08:13:17] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/f4/29/ba12511d98ebfda969978ea28d8ccc3f16217eb7e8000452e242fbc43561/loq0-0.0.3.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-07 08:13:17] ERROR root fetch - processPackages [jzd]: Unable to fetch info: No such project/version 'jzd' 1.0.0
+[2023-08-07 08:13:17] INFO root fetch - main [MainThread]: End processing [jzd] error
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [thinc]: New version: [9.0.0.dev3] Old Version: [9.0.0.dev2]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [ExoScanner]: Downloading https://files.pythonhosted.org/packages/5b/03/790ae4513f1e9d40284b3f293c297b9db2d168946fa71e4f7075cc6dd856/ExoScanner-0.2.3.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/1b/ff/0e5670a3c09c86dd3dedb7a7fb6ad9ada5b2b964f12c090f09ccd02b2f79/loq0-0.0.4.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230807/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-07 08:13:17] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/87/35/48c099bd5d5c59957a5faf9d38d2e35d7c566aa39345154600578d435432/thinc-9.0.0.dev2.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230807/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 08:13:17] INFO root fetch - processPackages [ExoScanner]: Downloading https://files.pythonhosted.org/packages/4f/d8/11b21ac3452800f279ff65b2459f0440c8271e4dc8516dd1e65e9c899af9/ExoScanner-0.2.4.tar.gz
+[2023-08-07 08:13:17] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-08-07 08:13:17] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.3.tar.gz tmp/loq0-0.0.4.tar.gz --markdown 20230807/l/loq0/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 08:13:17] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-07 08:13:18] INFO root fetch - processPackages [ExoScanner]: executing diffoscope
+[2023-08-07 08:13:18] INFO root fetch - processPackages [ExoScanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoScanner-0.2.3.tar.gz tmp/ExoScanner-0.2.4.tar.gz --markdown 20230807/E/ExoScanner/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230807/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230807/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-07 08:13:18] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/f3/1d/9f4edb18e953b555f8fc8d4e4babdb8376a0af844207d88b96489188fcfc/thinc-9.0.0.dev3.tar.gz
+[2023-08-07 08:13:18] INFO root fetch - processPackages [thinc]: executing diffoscope
+[2023-08-07 08:13:18] INFO root fetch - processPackages [thinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinc-9.0.0.dev2.tar.gz tmp/thinc-9.0.0.dev3.tar.gz --markdown 20230807/t/thinc/9.0.0.dev2-9.0.0.dev3/diff.md --exclude *.pyd
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-07 08:13:18] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.3.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.4.tar.gz]
+[2023-08-07 08:13:18] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-08-07 08:13:19] INFO root fetch - processPackages [ExoScanner]: Remove: archive file [/home/abi/fetcher/tmp/ExoScanner-0.2.3.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - processPackages [ExoScanner]: Remove: archive file [/home/abi/fetcher/tmp/ExoScanner-0.2.4.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - main [MainThread]: End processing [ExoScanner]: success
+[2023-08-07 08:13:19] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-07 08:13:19] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-07 08:13:19] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-07 08:13:20] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev2.tar.gz]
+[2023-08-07 08:13:20] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev3.tar.gz]
+[2023-08-07 08:13:20] INFO root fetch - main [MainThread]: End processing [thinc]: success
+[2023-08-07 08:13:20] INFO root fetch - main [MainThread]: Store serial: [19201077]
