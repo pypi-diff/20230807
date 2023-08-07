@@ -16899,3 +16899,124 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 13:08:26] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.6.6.tar.gz]
 [2023-08-07 13:08:26] INFO root fetch - main [MainThread]: End processing [ganga]: success
 [2023-08-07 13:08:26] INFO root fetch - main [MainThread]: Store serial: [19204638]
+[2023-08-07 13:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204638]
+[2023-08-07 13:13:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-recaptcha-authorizer
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DyGraph
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sotrans-fastapi-keycloak
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntcli
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apideck
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: likeinterface
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xlab-util
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hezar
+[2023-08-07 13:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hades-nlp
+[2023-08-07 13:13:36] INFO root fetch - processPackages [hezar]: New version: [0.21.2] Old Version: [0.21.1]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [pyntcli]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [likeinterface]: New version: [1.1a0] Old Version: [1.1.1a0]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [apideck]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-08-07 13:13:36] WARNING root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Skipping, unable to determine old version
+[2023-08-07 13:13:36] INFO root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Start processing: xlab-util
+[2023-08-07 13:13:36] INFO root fetch - main [MainThread]: End processing [cdk-lambda-recaptcha-authorizer] error
+[2023-08-07 13:13:36] INFO root fetch - processPackages [DyGraph]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [xlab-util]: New version: [0.6] Old Version: [0.5]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [hades-nlp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [xlab-util]: New version: [0.6] Old Version: [0.5]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/d8/39/c2e5445905375a0d967eca8d3e04bda1b3e3824bccc235ec8d51f61d727c/sotrans_fastapi_keycloak-0.0.8.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/49/46/40bb734e13c492a809a5b4ca9090132100ba1d6c29b6c0a3a1eda659d54d/pyntcli-0.1.58-py3-none-any.whl
+[2023-08-07 13:13:36] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/61/fc/95e301c5ba04f8b1b9431333cb2f8ccd208b3b0a1e99a48aef6ed4704c62/hezar-0.21.1.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/69/cd/6a7bc86b7bfecd625554ac3eaf9c48a8f2aa86507a567237cddda05b1b4c/likeinterface-1.1.1a0.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/dc/87/972317ddffb2c41adca809022c854452220bc9b0694e2dc095ba20fc4a37/apideck-0.2.3.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [kodexa]: New version: [6.3.35784354851] Old Version: [6.3.35731243382]
+[2023-08-07 13:13:36] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/43/8f/14d5d1cf248157730a9ff7ba858baf6ddf51d3c087fe1f08c78f9b0d0da3/xlab-util-0.5.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/43/8f/14d5d1cf248157730a9ff7ba858baf6ddf51d3c087fe1f08c78f9b0d0da3/xlab-util-0.5.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [hades-nlp]: Downloading https://files.pythonhosted.org/packages/63/e3/02410d2b22d02f8c2560c814855bd9b05d55a945e798c44531f4f5ea15ed/hades_nlp-0.1.1.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/22/ac/715eff348a6b899fe8fa552656eab2ab8a54d523543a4829f937df74ce34/sotrans_fastapi_keycloak-0.0.9.tar.gz
+[2023-08-07 13:13:36] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/f8/78/1fd37b16f2d94595a076940038fa06ce6f2828d56f019c88763e55f920d9/DyGraph-0.0.3.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz --markdown 20230807/s/sotrans-fastapi-keycloak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/b3/f2/2da3da008bc52e852566eab46c572be4dee065a1881318532d63b0a7d6cf/pyntcli-0.1.59-py3-none-any.whl
+[2023-08-07 13:13:37] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/f2/8f/b927b31fccd31c8aaa8842b259b19b9aa6c33a90ce21bc68186d0aa12728/kodexa-6.3.35731243382.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b4/a5/242c3f091ad331edef2529661d3a6d2b8ba609874dd41e9d54e015240ca0/likeinterface-1.1a0.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/90/a3/72cd5a20da6fb1d44067e8aa3f412049d218e7124fdf7406edd268f5eb35/apideck-0.3.0.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/80/47/53e6ae6c8e2b4af0512f269f6084672afac1ac7a69535e2cb8c4d52770de/hezar-0.21.2.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/e7/c4/912854684b751c49ec794489e2435e748fea2ed0078ce496cac452c14414/xlab-util-0.6.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/e7/c4/912854684b751c49ec794489e2435e748fea2ed0078ce496cac452c14414/xlab-util-0.6.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hades-nlp]: Downloading https://files.pythonhosted.org/packages/f9/9c/0584f7eadeacc610312511a7ea840a2c34809236836ea557db99f8ef59c9/hades_nlp-0.1.2.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.58-py3-none-any.whl.zip tmp/pyntcli-0.1.59-py3-none-any.whl.zip --markdown 20230807/p/pyntcli/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [likeinterface]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [likeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeinterface-1.1.1a0.tar.gz tmp/likeinterface-1.1a0.tar.gz --markdown 20230807/l/likeinterface/1.1.1a0-1.1a0/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-0.2.3.tar.gz tmp/apideck-0.3.0.tar.gz --markdown 20230807/a/apideck/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.21.1.tar.gz tmp/hezar-0.21.2.tar.gz --markdown 20230807/h/hezar/0.21.1-0.21.2/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/75/19/ce9f4ac68befce6105a752da9ca6279e25f4ea143bb6d58b2094422eaab5/DyGraph-0.0.4.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/6b/83/477c27e03ac5ac5a8c48fc304c38bf4697e47da4372cd08607cd7f53307b/kodexa-6.3.35784354851.tar.gz
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.5.tar.gz tmp/xlab-util-0.6.tar.gz --markdown 20230807/x/xlab-util/0.5-0.6/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.5.tar.gz tmp/xlab-util-0.6.tar.gz --markdown 20230807/x/xlab-util/0.5-0.6/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hades-nlp]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [hades-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hades_nlp-0.1.1.tar.gz tmp/hades_nlp-0.1.2.tar.gz --markdown 20230807/h/hades-nlp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [DyGraph]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [DyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DyGraph-0.0.3.tar.gz tmp/DyGraph-0.0.4.tar.gz --markdown 20230807/D/DyGraph/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-07 13:13:37] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-08-07 13:13:37] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35731243382.tar.gz tmp/kodexa-6.3.35784354851.tar.gz --markdown 20230807/k/kodexa/6.3.35731243382-6.3.35784354851/diff.md --exclude *.pyd
+[2023-08-07 13:13:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.8.tar.gz]
+[2023-08-07 13:13:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.9.tar.gz]
+[2023-08-07 13:13:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Start processing: dataframe-api-compat
+[2023-08-07 13:13:38] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-07 13:13:38] INFO root fetch - processPackages [dataframe-api-compat]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [dataframe-api-compat]: Downloading https://files.pythonhosted.org/packages/18/fd/5f43ca6e86e2e6c9b751ee76474a5c011eae66fad9b0ee40af30d4409863/dataframe_api_compat-0.1.7.tar.gz
+[2023-08-07 13:13:39] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.5.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.6.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [xlab-util]: Start processing: akriml
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [xlab-util]: Start processing: strawberry-django-auth
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [dataframe-api-compat]: Downloading https://files.pythonhosted.org/packages/ac/f2/85eb91451facf55fe8ade35290e4279c720a3fb4b0e9ae60ecb79c77f297/dataframe_api_compat-0.1.8.tar.gz
+[2023-08-07 13:13:39] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.1.1a0.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.1a0.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [likeinterface]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.58-py3-none-any.whl.zip]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.59-py3-none-any.whl.zip]
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [hades-nlp]: Remove: archive file [/home/abi/fetcher/tmp/hades_nlp-0.1.1.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [hades-nlp]: Remove: archive file [/home/abi/fetcher/tmp/hades_nlp-0.1.2.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [hades-nlp]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [strawberry-django-auth]: New version: [0.376.0] Old Version: [0.375.0]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [dataframe-api-compat]: executing diffoscope
+[2023-08-07 13:13:39] INFO root fetch - processPackages [dataframe-api-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframe_api_compat-0.1.7.tar.gz tmp/dataframe_api_compat-0.1.8.tar.gz --markdown 20230807/d/dataframe-api-compat/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-07 13:13:39] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.3.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.4.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [DyGraph]: success
+[2023-08-07 13:13:39] INFO root fetch - processPackages [akriml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [strawberry-django-auth]: Downloading https://files.pythonhosted.org/packages/c6/e9/9a851cb715bd4e06e87941bf6dda7fb80d0c691a9dddcc66272f89465249/strawberry_django_auth-0.375.0.tar.gz
+[2023-08-07 13:13:39] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35731243382.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35784354851.tar.gz]
+[2023-08-07 13:13:39] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-08-07 13:13:40] INFO root fetch - processPackages [akriml]: Downloading https://files.pythonhosted.org/packages/6c/96/aa101ae24c3fa9813d7fdd4c9677e5fc0746eb41d578a8bf359d9a397ad7/akriml-0.0.1.tar.gz
+[2023-08-07 13:13:40] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.1.tar.gz]
+[2023-08-07 13:13:40] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.2.tar.gz]
+[2023-08-07 13:13:40] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-07 13:13:40] INFO root fetch - processPackages [akriml]: Downloading https://files.pythonhosted.org/packages/8a/b4/426044d51fb8e57c3e92837819aaf71e229c65add9e553de469b8fc92749/akriml-0.0.2.tar.gz
+[2023-08-07 13:13:40] INFO root fetch - processPackages [akriml]: executing diffoscope
+[2023-08-07 13:13:40] INFO root fetch - processPackages [akriml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akriml-0.0.1.tar.gz tmp/akriml-0.0.2.tar.gz --markdown 20230807/a/akriml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-07 13:13:40] INFO root fetch - processPackages [dataframe-api-compat]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_api_compat-0.1.7.tar.gz]
+[2023-08-07 13:13:40] INFO root fetch - processPackages [dataframe-api-compat]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_api_compat-0.1.8.tar.gz]
+[2023-08-07 13:13:40] INFO root fetch - main [MainThread]: End processing [dataframe-api-compat]: success
+[2023-08-07 13:13:40] INFO root fetch - processPackages [strawberry-django-auth]: Downloading https://files.pythonhosted.org/packages/90/6e/6032e0dc6ebd601134b0ed8ab06ced5c1301822ba292bc900712745018a9/strawberry_django_auth-0.376.0.tar.gz
+[2023-08-07 13:13:40] INFO root fetch - processPackages [strawberry-django-auth]: executing diffoscope
+[2023-08-07 13:13:40] INFO root fetch - processPackages [strawberry-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth-0.375.0.tar.gz tmp/strawberry_django_auth-0.376.0.tar.gz --markdown 20230807/s/strawberry-django-auth/0.375.0-0.376.0/diff.md --exclude *.pyd
+[2023-08-07 13:13:41] INFO root fetch - processPackages [akriml]: Remove: archive file [/home/abi/fetcher/tmp/akriml-0.0.1.tar.gz]
+[2023-08-07 13:13:41] INFO root fetch - processPackages [akriml]: Remove: archive file [/home/abi/fetcher/tmp/akriml-0.0.2.tar.gz]
+[2023-08-07 13:13:41] INFO root fetch - main [MainThread]: End processing [akriml]: success
+[2023-08-07 13:13:41] INFO root fetch - processPackages [strawberry-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth-0.375.0.tar.gz]
+[2023-08-07 13:13:41] INFO root fetch - processPackages [strawberry-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth-0.376.0.tar.gz]
+[2023-08-07 13:13:41] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth]: success
+[2023-08-07 13:13:55] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.2.3.tar.gz]
+[2023-08-07 13:13:55] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.3.0.tar.gz]
+[2023-08-07 13:13:55] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2023-08-07 13:13:55] INFO root fetch - main [MainThread]: Store serial: [19204693]
