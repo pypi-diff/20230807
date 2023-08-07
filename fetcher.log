@@ -21587,3 +21587,111 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:28:30] INFO root fetch - processPackages [wells-data-pipeline-cores]: Remove: archive file [/home/abi/fetcher/tmp/wells-data-pipeline-cores-0.0.4.tar.gz]
 [2023-08-07 16:28:30] INFO root fetch - main [MainThread]: End processing [wells-data-pipeline-cores]: success
 [2023-08-07 16:28:30] INFO root fetch - main [MainThread]: Store serial: [19206693]
+[2023-08-07 16:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206693]
+[2023-08-07 16:33:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbutils3-gonzalo123
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eqt
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wyvern-ai
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deezer-oauth-cli
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemaker-pytorch-inference
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deTELpy
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pvipy
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leetquery
+[2023-08-07 16:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: detool
+[2023-08-07 16:33:39] WARNING root fetch - processPackages [leetquery]: Skipping, unable to determine old version
+[2023-08-07 16:33:39] INFO root fetch - processPackages [leetquery]: Start processing: TDCRPy
+[2023-08-07 16:33:39] INFO root fetch - main [MainThread]: End processing [leetquery] error
+[2023-08-07 16:33:39] WARNING root fetch - processPackages [dbutils3-gonzalo123]: Skipping, unable to determine old version
+[2023-08-07 16:33:39] INFO root fetch - processPackages [dbutils3-gonzalo123]: Start processing: tickit
+[2023-08-07 16:33:39] INFO root fetch - main [MainThread]: End processing [dbutils3-gonzalo123] error
+[2023-08-07 16:33:39] WARNING root fetch - processPackages [deTELpy]: Skipping, unable to determine old version
+[2023-08-07 16:33:39] INFO root fetch - processPackages [deTELpy]: Start processing: pyrocks
+[2023-08-07 16:33:39] INFO root fetch - main [MainThread]: End processing [deTELpy] error
+[2023-08-07 16:33:39] INFO root fetch - processPackages [detool]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [cg]: New version: [40.6.1] Old Version: [40.6.0]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [eqt]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-07 16:33:39] WARNING root fetch - processPackages [wyvern-ai]: Skipping, unable to determine old version
+[2023-08-07 16:33:39] INFO root fetch - processPackages [wyvern-ai]: Start processing: RobertCommonIO
+[2023-08-07 16:33:39] INFO root fetch - main [MainThread]: End processing [wyvern-ai] error
+[2023-08-07 16:33:39] INFO root fetch - processPackages [deezer-oauth-cli]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [sagemaker-pytorch-inference]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [pvipy]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-07 16:33:39] INFO root fetch - processPackages [tickit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-07 16:33:40] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/1c/33/d33d4e9251722bfee906f3542f3c3901541b5202b1729413796a5a7a79bf/detool-1.1.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4a/49/2f596195380c80cc0d0b7c547e6c2da45eb79a3c8018cba707d493c04284/cg-40.6.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.44] Old Version: [0.1.43]
+[2023-08-07 16:33:40] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Downloading https://files.pythonhosted.org/packages/81/e9/24f9535fd48ac37ed743b058b01952b902b24d63b73bc364b5bedda88bbd/sagemaker_pytorch_inference-2.0.8.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [eqt]: Downloading https://files.pythonhosted.org/packages/26/f3/46e879bcbc80b9a8a3a2336a1d4ad4ffd640c91c33ba2a44f4ae4e529754/eqt-0.7.0-py3-none-any.whl
+[2023-08-07 16:33:40] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/64/2d/c18d89abe9a231cfc63a741871db52be1658fdf2b3c7d97c49f8a12cd0bc/deezer_oauth_cli-1.0.1.tar.gz
+[2023-08-07 16:33:40] WARNING root fetch - processPackages [pyrocks]: Skipping, unable to determine old version
+[2023-08-07 16:33:40] INFO root fetch - processPackages [pyrocks]: Start processing: prefect-monte-carlo
+[2023-08-07 16:33:40] INFO root fetch - main [MainThread]: End processing [pyrocks] error
+[2023-08-07 16:33:40] INFO root fetch - processPackages [pvipy]: Downloading https://files.pythonhosted.org/packages/ed/3e/aef1a40d37bb075d9cd5b5bc328694fe612130146b1209fb8a30239c8548/pvipy-0.4.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/cf/30/783ead1d7f538bbc380d6007c6bd2c1a0722cb770fe9958a97cb6edd0011/tickit-0.3.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/36/e8/c6ad913cabebdb32fdee80c3df8e4dade9cc9fd51b9775da4d4ca346f989/RobertCommonIO-0.1.43.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [prefect-monte-carlo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-07 16:33:40] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230807/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:33:40] INFO root fetch - processPackages [detool]: Downloading https://files.pythonhosted.org/packages/45/ff/eba222054327ca2f0dda1c06e4693caf552165b2ece6869e516199db2507/detool-1.1.1.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Downloading https://files.pythonhosted.org/packages/c5/a4/3166199dcbbf8310cee5278ae9b5903d4cc706c5605cb968aafa96941976/sagemaker_pytorch_inference-2.0.9.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [prefect-monte-carlo]: Downloading https://files.pythonhosted.org/packages/6a/e0/eda4f44cb35b3579f57d2897c893d96c20f4ecaeb345a9b3fc984517a448/prefect-monte-carlo-0.1.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/08/82/55920cc2bb7ee82a04f54161238db32e547d2b0baf5c4c1ebf31fa18393d/deezer_oauth_cli-1.1.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [pvipy]: Downloading https://files.pythonhosted.org/packages/57/0a/ac8a173cab1e3486bfd26b0618a24d8b5efc5073d4d6e0ced8203adba217/pvipy-0.5.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [detool]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [detool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detool-1.1.0.tar.gz tmp/detool-1.1.1.tar.gz --markdown 20230807/d/detool/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-07 16:33:40] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/b4/78/2b3da2a261846562a68bcb4bef6605ff834cda8665101d08fa204d202134/RobertCommonIO-0.1.44.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/a1/e8/0b7fe3bae9809663b2625b5c68171c55787be0dff2f5d01eba9aab6d00bc/tickit-0.4.0.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [sagemaker-pytorch-inference]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [sagemaker-pytorch-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker_pytorch_inference-2.0.8.tar.gz tmp/sagemaker_pytorch_inference-2.0.9.tar.gz --markdown 20230807/s/sagemaker-pytorch-inference/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:33:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1e/f7/ef6c8fa69016e03fe0d3a6eaee9b113a1a0f61f6e5467235a1559a64cd5d/cg-40.6.1.tar.gz
+[2023-08-07 16:33:40] INFO root fetch - processPackages [deezer-oauth-cli]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [deezer-oauth-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_oauth_cli-1.0.1.tar.gz tmp/deezer_oauth_cli-1.1.0.tar.gz --markdown 20230807/d/deezer-oauth-cli/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:33:40] INFO root fetch - processPackages [pvipy]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [pvipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvipy-0.4.0.tar.gz tmp/pvipy-0.5.0.tar.gz --markdown 20230807/p/pvipy/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-07 16:33:40] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-08-07 16:33:40] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.43.tar.gz tmp/RobertCommonIO-0.1.44.tar.gz --markdown 20230807/R/RobertCommonIO/0.1.43-0.1.44/diff.md --exclude *.pyd
+[2023-08-07 16:33:41] INFO root fetch - processPackages [prefect-monte-carlo]: Downloading https://files.pythonhosted.org/packages/b4/f2/2992ec7fc3bc479a1eff481f84b2c6536743c938b2a2b9c33957a92cf8b9/prefect-monte-carlo-0.2.0.tar.gz
+[2023-08-07 16:33:41] INFO root fetch - processPackages [tickit]: executing diffoscope
+[2023-08-07 16:33:41] INFO root fetch - processPackages [tickit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickit-0.3.0.tar.gz tmp/tickit-0.4.0.tar.gz --markdown 20230807/t/tickit/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-07 16:33:41] INFO root fetch - processPackages [eqt]: Downloading https://files.pythonhosted.org/packages/5a/22/9c7fa3812317974a1aafcd65567fd783a3a431479bdefedcf7a3b6a3e154/eqt-0.7.1.tar.gz
+[2023-08-07 16:33:41] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-08-07 16:33:41] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.6.0.tar.gz tmp/cg-40.6.1.tar.gz --markdown 20230807/c/cg/40.6.0-40.6.1/diff.md --exclude *.pyd
+[2023-08-07 16:33:41] INFO root fetch - processPackages [prefect-monte-carlo]: executing diffoscope
+[2023-08-07 16:33:41] INFO root fetch - processPackages [prefect-monte-carlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-monte-carlo-0.1.0.tar.gz tmp/prefect-monte-carlo-0.2.0.tar.gz --markdown 20230807/p/prefect-monte-carlo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-07 16:33:41] INFO root fetch - processPackages [eqt]: executing diffoscope
+[2023-08-07 16:33:41] INFO root fetch - processPackages [eqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqt-0.7.0-py3-none-any.whl.zip tmp/eqt-0.7.1.tar.gz --markdown 20230807/e/eqt/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-07 16:33:41] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-07 16:33:41] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-07 16:33:41] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-07 16:33:41] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.1.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [detool]: Remove: archive file [/home/abi/fetcher/tmp/detool-1.1.1.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [detool]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_pytorch_inference-2.0.8.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_pytorch_inference-2.0.9.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [sagemaker-pytorch-inference]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.0.1.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.1.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [deezer-oauth-cli]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [pvipy]: Remove: archive file [/home/abi/fetcher/tmp/pvipy-0.4.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [pvipy]: Remove: archive file [/home/abi/fetcher/tmp/pvipy-0.5.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [pvipy]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.43.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.44.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [eqt]: Remove: archive file [/home/abi/fetcher/tmp/eqt-0.7.0-py3-none-any.whl.zip]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [eqt]: Remove: archive file [/home/abi/fetcher/tmp/eqt-0.7.1.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [eqt]: success
+[2023-08-07 16:33:42] INFO root fetch - processPackages [prefect-monte-carlo]: Remove: archive file [/home/abi/fetcher/tmp/prefect-monte-carlo-0.1.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - processPackages [prefect-monte-carlo]: Remove: archive file [/home/abi/fetcher/tmp/prefect-monte-carlo-0.2.0.tar.gz]
+[2023-08-07 16:33:42] INFO root fetch - main [MainThread]: End processing [prefect-monte-carlo]: success
+[2023-08-07 16:33:43] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.3.0.tar.gz]
+[2023-08-07 16:33:43] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.4.0.tar.gz]
+[2023-08-07 16:33:43] INFO root fetch - main [MainThread]: End processing [tickit]: success
+[2023-08-07 16:33:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.6.0.tar.gz]
+[2023-08-07 16:33:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.6.1.tar.gz]
+[2023-08-07 16:33:47] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-08-07 16:33:47] INFO root fetch - main [MainThread]: Store serial: [19206741]
