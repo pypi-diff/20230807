@@ -22139,3 +22139,88 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 16:54:45] INFO root fetch - processPackages [datarobotx]: Remove: archive file [/home/abi/fetcher/tmp/datarobotx-0.1.9-py3-none-any.whl.zip]
 [2023-08-07 16:54:45] INFO root fetch - main [MainThread]: End processing [datarobotx]: success
 [2023-08-07 16:54:45] INFO root fetch - main [MainThread]: Store serial: [19206951]
+[2023-08-07 16:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206951]
+[2023-08-07 16:59:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tikdan
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncryptV2
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdfobj
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuantumInformation
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bia-bob
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finflo
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biopax-explorer
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browniebroke-utils
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythoncryptV2
+[2023-08-07 16:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TelegramContract2vCard
+[2023-08-07 16:59:54] WARNING root fetch - processPackages [TelegramContract2vCard]: Skipping, unable to determine old version
+[2023-08-07 16:59:54] INFO root fetch - processPackages [TelegramContract2vCard]: Start processing: tulflow
+[2023-08-07 16:59:54] INFO root fetch - main [MainThread]: End processing [TelegramContract2vCard] error
+[2023-08-07 16:59:55] INFO root fetch - processPackages [bia-bob]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-07 16:59:55] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-07 16:59:55] WARNING root fetch - processPackages [tikdan]: Skipping, unable to determine old version
+[2023-08-07 16:59:55] INFO root fetch - processPackages [tikdan]: Start processing: gdal2numpy
+[2023-08-07 16:59:55] INFO root fetch - main [MainThread]: End processing [tikdan] error
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-07 16:59:55] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 16:59:55] INFO root fetch - processPackages [browniebroke-utils]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-07 16:59:55] WARNING root fetch - processPackages [rdfobj]: Skipping, unable to determine old version
+[2023-08-07 16:59:55] INFO root fetch - main [MainThread]: End processing [rdfobj] error
+[2023-08-07 16:59:55] INFO root fetch - processPackages [QuantumInformation]: New version: [1.2] Old Version: [1.1]
+[2023-08-07 16:59:55] WARNING root fetch - processPackages [biopax-explorer]: Skipping, unable to determine old version
+[2023-08-07 16:59:55] INFO root fetch - main [MainThread]: End processing [biopax-explorer] error
+[2023-08-07 16:59:55] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/cc/f7/828b4f40a4ad47435df042709e0ba95c723a99a78c7a46c8ec3999809974/bia-bob-0.1.2.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [tulflow]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-07 16:59:55] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: Downloading https://files.pythonhosted.org/packages/8b/d1/80eeb4866398560337dce5d8cf89562e3bd0d0ae27c5f50465895ba0cab6/pythoncryptV2-1.0.0.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: Downloading https://files.pythonhosted.org/packages/8b/d1/80eeb4866398560337dce5d8cf89562e3bd0d0ae27c5f50465895ba0cab6/pythoncryptV2-1.0.0.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/25/8c/0a91f550080edcd9f1ca66263779acf0c7d50cf50acd8bdd43f4f678432a/browniebroke_utils-1.0.1.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [QuantumInformation]: Downloading https://files.pythonhosted.org/packages/0f/e2/3d4650663335679ddc0fbb338b3f252f37413a6942b860a8dc94fc077e73/QuantumInformation-1.1.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [tulflow]: Downloading https://files.pythonhosted.org/packages/f4/7c/45a9493df23690fddf27c99549d35603b9934ad44593cbdb05e591d8c779/tulflow-0.9.2.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/0d/80/12da4b1a9a81281ba83e597a5ea846a77cc2b3ffbef996d2f6a803c5d6df/bia-bob-0.1.3.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: Downloading https://files.pythonhosted.org/packages/b5/64/d2ae025ddaa6e710a9dc7f6187922c7268040e26396c3a071204b8bc52df/pythoncryptV2-1.1.0.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230807/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: Downloading https://files.pythonhosted.org/packages/b5/64/d2ae025ddaa6e710a9dc7f6187922c7268040e26396c3a071204b8bc52df/pythoncryptV2-1.1.0.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230807/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 16:59:55] INFO root fetch - processPackages [bia-bob]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [bia-bob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia-bob-0.1.2.tar.gz tmp/bia-bob-0.1.3.tar.gz --markdown 20230807/b/bia-bob/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-07 16:59:55] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/b4/cc/fa24fec23af029e05cadb5313003fe35030c3b1ef1c514c3e91107ac3829/browniebroke_utils-1.1.0.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [QuantumInformation]: Downloading https://files.pythonhosted.org/packages/6b/bb/16602d81f7e3fbb5dd1395b0a437d1350a19985d434fc5679f9788f2cadd/QuantumInformation-1.2.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [tulflow]: Downloading https://files.pythonhosted.org/packages/dc/6d/d40df82d484677def3451f78effe9a7adf77da344ad063147d8f2799c173/tulflow-0.9.3.tar.gz
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptV2-1.0.0.tar.gz tmp/pythoncryptV2-1.1.0.tar.gz --markdown 20230807/p/pythoncryptV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [pythoncryptV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptV2-1.0.0.tar.gz tmp/pythoncryptV2-1.1.0.tar.gz --markdown 20230807/p/pythoncryptV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:59:55] INFO root fetch - processPackages [QuantumInformation]: executing diffoscope
+[2023-08-07 16:59:55] INFO root fetch - processPackages [QuantumInformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumInformation-1.1.tar.gz tmp/QuantumInformation-1.2.tar.gz --markdown 20230807/Q/QuantumInformation/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-07 16:59:56] INFO root fetch - processPackages [browniebroke-utils]: executing diffoscope
+[2023-08-07 16:59:56] INFO root fetch - processPackages [browniebroke-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browniebroke_utils-1.0.1.tar.gz tmp/browniebroke_utils-1.1.0.tar.gz --markdown 20230807/b/browniebroke-utils/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-07 16:59:56] INFO root fetch - processPackages [tulflow]: executing diffoscope
+[2023-08-07 16:59:56] INFO root fetch - processPackages [tulflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulflow-0.9.2.tar.gz tmp/tulflow-0.9.3.tar.gz --markdown 20230807/t/tulflow/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-07 16:59:57] INFO root fetch - processPackages [pythoncryptV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptV2-1.0.0.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [pythoncryptV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptV2-1.1.0.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [pythoncryptV2]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.1.2.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.1.3.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [bia-bob]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [QuantumInformation]: Remove: archive file [/home/abi/fetcher/tmp/QuantumInformation-1.1.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [QuantumInformation]: Remove: archive file [/home/abi/fetcher/tmp/QuantumInformation-1.2.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [QuantumInformation]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [tulflow]: Remove: archive file [/home/abi/fetcher/tmp/tulflow-0.9.2.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [tulflow]: Remove: archive file [/home/abi/fetcher/tmp/tulflow-0.9.3.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [tulflow]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-1.0.1.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-1.1.0.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [browniebroke-utils]: success
+[2023-08-07 16:59:57] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: End processing [pythoncryptV2]: success
+[2023-08-07 16:59:57] INFO root fetch - main [MainThread]: Store serial: [19206995]
