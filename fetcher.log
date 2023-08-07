@@ -16271,3 +16271,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-07 12:41:55] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.2.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-07 12:41:55] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2023-08-07 12:41:55] INFO root fetch - main [MainThread]: Store serial: [19204345]
+[2023-08-07 12:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19204345]
+[2023-08-07 12:47:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: via-api
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssb-project-cli
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ZW-geo
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jtree
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spai
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-power-ops
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysubgroup
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: talkytrend
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-heweather
+[2023-08-07 12:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ST7735
+[2023-08-07 12:47:04] INFO root fetch - processPackages [via-api]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [spai]: New version: [2023.8.7] Old Version: [2023.7.4]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [nonebot-plugin-heweather]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ssb-project-cli]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/b3/6d/210ef3dac51de3a01d9919143382b2e82f5d06e587b9a4cee6f21d2d4013/via-api-2.5.0.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [jtree]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ZW-geo]: New version: [2.230805] Old Version: [2.230804]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [pysubgroup]: New version: [0.7.5] Old Version: [0.7.3]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ST7735]: New version: [0.0.5] Old Version: [0.0.4.post1]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-07 12:47:04] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/35/e3/552887f385bce0be7161acfeea7b4a2623d8a50587db36328d90ee01f293/nonebot_plugin_heweather-0.6.8.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ssb-project-cli]: Downloading https://files.pythonhosted.org/packages/b6/4e/70991737b2ad8a1c08b83cb63c6a0c5a52b327c0d14da76f47d2647ef689/ssb_project_cli-1.1.2.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ZW-geo]: Downloading https://files.pythonhosted.org/packages/b7/a9/37166b6f1df24f0dc68d4c90037e904f5736a9e39f6894cdbfa534756f92/ZW_geo-2.230804-cp39-cp39-win_amd64.whl
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ST7735]: Downloading https://files.pythonhosted.org/packages/98/41/73ffb032e069a07619580044f9f740982b2b761c20d31ab72940ff5423d2/ST7735-0.0.4.post1.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [jtree]: Downloading https://files.pythonhosted.org/packages/36/06/486e4a896ad86ecb63847a7049ac839ee06075917e88d3ce8e8326ab4d9d/jtree-0.2.3.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [pysubgroup]: Downloading https://files.pythonhosted.org/packages/c0/a8/af663f05b59005f3e579f6dbb38de95dd0b4da18ab5300d95ea13a12ce4a/pysubgroup-0.7.3.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/6f/b5/ef47b543339c8efcbae8331bb6ac127f2613b54a86b74d6757af476b71e0/via-api-2.6.0.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [ssb-project-cli]: Downloading https://files.pythonhosted.org/packages/ca/8a/e7b9664d8eda17baf7e781c21f883d6eb3975735f54ca085d527a91e3f04/ssb_project_cli-1.1.3.tar.gz
+[2023-08-07 12:47:04] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-08-07 12:47:04] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230807/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-07 12:47:04] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-07 12:47:04] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.5.0.tar.gz tmp/via-api-2.6.0.tar.gz --markdown 20230807/v/via-api/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-08-07 12:47:04] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/0d/d7/d4f9aa2b1e6642cb18bc9366d93b4922b894bd71ac751e416ea548ad1853/nonebot_plugin_heweather-0.6.9.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ST7735]: Downloading https://files.pythonhosted.org/packages/38/52/02f1b24507d7049ac46da90618a6781612dd9ff4ffd1b9c4e8c1c2bc3d2d/ST7735-0.0.5.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ssb-project-cli]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ssb-project-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_project_cli-1.1.2.tar.gz tmp/ssb_project_cli-1.1.3.tar.gz --markdown 20230807/s/ssb-project-cli/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [pysubgroup]: Downloading https://files.pythonhosted.org/packages/c2/66/6229144110f0c9bdf916ccf9629197840b036c7db5f4accd5e471996d6b7/pysubgroup-0.7.5.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [nonebot-plugin-heweather]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [nonebot-plugin-heweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_heweather-0.6.8.tar.gz tmp/nonebot_plugin_heweather-0.6.9.tar.gz --markdown 20230807/n/nonebot-plugin-heweather/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [jtree]: Downloading https://files.pythonhosted.org/packages/51/33/354e15ab3412c2d9fdfbbee61875094398da909c8331f94d1d4d3e2a8743/jtree-0.2.4.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ST7735]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ST7735]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ST7735-0.0.4.post1.tar.gz tmp/ST7735-0.0.5.tar.gz --markdown 20230807/S/ST7735/0.0.4.post1-0.0.5/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ZW-geo]: Downloading https://files.pythonhosted.org/packages/55/ad/9b7f1631b5543e7511163c106648a8be942308043c9ce3d4cf70a6a8cbeb/ZW_geo-2.230805-cp39-cp39-win_amd64.whl
+[2023-08-07 12:47:05] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/13/47/9b01cae2127a46aca950df30aa775d786b0ec85befd54aa2fb07e28f6532/spai-2023.8.7.tar.gz
+[2023-08-07 12:47:05] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230807/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [jtree]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [jtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtree-0.2.3.tar.gz tmp/jtree-0.2.4.tar.gz --markdown 20230807/j/jtree/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [pysubgroup]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [pysubgroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubgroup-0.7.3.tar.gz tmp/pysubgroup-0.7.5.tar.gz --markdown 20230807/p/pysubgroup/0.7.3-0.7.5/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ZW-geo]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [ZW-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZW_geo-2.230804-cp39-cp39-win_amd64.whl.zip tmp/ZW_geo-2.230805-cp39-cp39-win_amd64.whl.zip --markdown 20230807/Z/ZW-geo/2.230804-2.230805/diff.md --exclude *.pyd
+[2023-08-07 12:47:05] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-08-07 12:47:05] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.4.tar.gz tmp/spai-2023.8.7.tar.gz --markdown 20230807/s/spai/2023.7.4-2023.8.7/diff.md --exclude *.pyd
+[2023-08-07 12:47:06] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [talkytrend]: Start processing: openseries
+[2023-08-07 12:47:06] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-08-07 12:47:06] INFO root fetch - processPackages [openseries]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.5.0.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.6.0.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [via-api]: Start processing: lime-stable
+[2023-08-07 12:47:06] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-07 12:47:06] INFO root fetch - processPackages [ssb-project-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssb_project_cli-1.1.2.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [ssb-project-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssb_project_cli-1.1.3.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [ssb-project-cli]: Start processing: mercuryclient
+[2023-08-07 12:47:06] INFO root fetch - main [MainThread]: End processing [ssb-project-cli]: success
+[2023-08-07 12:47:06] INFO root fetch - processPackages [lime-stable]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/83/d0/876c741115d8341254e1dc1b1e91e94b68635304b7a8b92bf49358e82ad3/openseries-1.1.2-py3-none-any.whl
+[2023-08-07 12:47:06] INFO root fetch - processPackages [ST7735]: Remove: archive file [/home/abi/fetcher/tmp/ST7735-0.0.4.post1.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [ST7735]: Remove: archive file [/home/abi/fetcher/tmp/ST7735-0.0.5.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - main [MainThread]: End processing [ST7735]: success
+[2023-08-07 12:47:06] INFO root fetch - processPackages [mercuryclient]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9b/2d/322b07b77aff36888e5222bda0bf4d62b9b966d482a135fea26e94f4b357/lime-stable-0.9.8.tar.gz
+[2023-08-07 12:47:06] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.8.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.9.tar.gz]
+[2023-08-07 12:47:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-heweather]: success
+[2023-08-07 12:47:06] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/8d/f1/735f86bb672833f2d3c57fdf4b3df3a84f43b494bd5a86cad9c6c0e55814/openseries-1.1.3-py3-none-any.whl
+[2023-08-07 12:47:06] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/77/4b/b676103be9e7f6c83049a6dfb9206a5b1f62da6b3c5df7af5a9db98e40ef/mercuryclient-1.8.1.tar.gz
+[2023-08-07 12:47:07] INFO root fetch - processPackages [jtree]: Remove: archive file [/home/abi/fetcher/tmp/jtree-0.2.3.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [jtree]: Remove: archive file [/home/abi/fetcher/tmp/jtree-0.2.4.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [jtree]: success
+[2023-08-07 12:47:07] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/a3/88/4940908e003bc08dbc00ea92ef8b91f35daf8e9bce7d0f3e00551b160e56/lime-stable-0.9.9.tar.gz
+[2023-08-07 12:47:07] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-08-07 12:47:07] INFO root fetch - processPackages [ZW-geo]: Remove: archive file [/home/abi/fetcher/tmp/ZW_geo-2.230804-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [ZW-geo]: Remove: archive file [/home/abi/fetcher/tmp/ZW_geo-2.230805-cp39-cp39-win_amd64.whl.zip]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [ZW-geo]: success
+[2023-08-07 12:47:07] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-08-07 12:47:07] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-1.1.2-py3-none-any.whl.zip tmp/openseries-1.1.3-py3-none-any.whl.zip --markdown 20230807/o/openseries/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-07 12:47:07] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2023-08-07 12:47:07] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-0.9.8.tar.gz tmp/lime-stable-0.9.9.tar.gz --markdown 20230807/l/lime-stable/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-07 12:47:07] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/a2/73/6aa0418cd86b78fbb7d37d5f4f5ae947a55dfe0134866a805c5361b3354e/mercuryclient-1.9.0.tar.gz
+[2023-08-07 12:47:07] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.8.7.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-08-07 12:47:07] INFO root fetch - processPackages [pysubgroup]: Remove: archive file [/home/abi/fetcher/tmp/pysubgroup-0.7.3.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [pysubgroup]: Remove: archive file [/home/abi/fetcher/tmp/pysubgroup-0.7.5.tar.gz]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [pysubgroup]: success
+[2023-08-07 12:47:07] INFO root fetch - processPackages [mercuryclient]: executing diffoscope
+[2023-08-07 12:47:07] INFO root fetch - processPackages [mercuryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercuryclient-1.8.1.tar.gz tmp/mercuryclient-1.9.0.tar.gz --markdown 20230807/m/mercuryclient/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-08-07 12:47:07] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.1.2-py3-none-any.whl.zip]
+[2023-08-07 12:47:07] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.1.3-py3-none-any.whl.zip]
+[2023-08-07 12:47:07] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-08-07 12:47:08] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.8.tar.gz]
+[2023-08-07 12:47:08] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.9.tar.gz]
+[2023-08-07 12:47:08] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2023-08-07 12:47:08] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.8.1.tar.gz]
+[2023-08-07 12:47:08] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.9.0.tar.gz]
+[2023-08-07 12:47:08] INFO root fetch - main [MainThread]: End processing [mercuryclient]: success
+[2023-08-07 12:47:08] INFO root fetch - main [MainThread]: Store serial: [19204388]
