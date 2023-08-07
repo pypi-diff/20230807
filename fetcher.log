@@ -6260,3 +6260,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:18:16] INFO root fetch - processPackages [pyskynet]: Remove: archive file [/home/abi/fetcher/tmp/pyskynet-0.2.0.tar.gz]
 [2023-08-07 05:18:16] INFO root fetch - main [MainThread]: End processing [pyskynet]: success
 [2023-08-07 05:18:16] INFO root fetch - main [MainThread]: Store serial: [19200045]
+[2023-08-07 05:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19200045]
+[2023-08-07 05:23:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-custom
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysr
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-ad-sdk
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-website-sale-product-brand
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hologres-vector
+[2023-08-07 05:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owoscanner
+[2023-08-07 05:23:25] INFO root fetch - processPackages [selenium-custom]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-08-07 05:23:25] WARNING root fetch - processPackages [hologres-vector]: Skipping, unable to determine old version
+[2023-08-07 05:23:25] INFO root fetch - main [MainThread]: End processing [hologres-vector] error
+[2023-08-07 05:23:25] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/14/7d/4c58e911bad015447a8ee25a11484969b612eab939f8645825a3497649a8/selenium-custom-4.2.0.tar.gz
+[2023-08-07 05:23:25] WARNING root fetch - processPackages [owoscanner]: Skipping, unable to determine old version
+[2023-08-07 05:23:25] INFO root fetch - main [MainThread]: End processing [owoscanner] error
+[2023-08-07 05:23:25] INFO root fetch - processPackages [amazon-ad-sdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-07 05:23:25] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-08-07 05:23:25] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-07 05:23:25] INFO root fetch - processPackages [selenium-custom]: Downloading https://files.pythonhosted.org/packages/27/4a/8c3f38f7332e88bb9ffb405d5077576f1f843903aa67bf948775ca7fa81c/selenium-custom-4.2.1.tar.gz
+[2023-08-07 05:23:25] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/17/ac/2e72cf177f79e833a414317b98dede04e3040d740bece1973d3e8577cb69/odoo_addon_website_sale_product_brand-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-07 05:23:25] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/cc/89/e096706d7a42b137187663f3eccb46257abea8a5e9a97e8c81b0f56882a5/amazon_ad_sdk-0.2.7.tar.gz
+[2023-08-07 05:23:25] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2023-08-07 05:23:25] INFO root fetch - processPackages [selenium-custom]: executing diffoscope
+[2023-08-07 05:23:25] INFO root fetch - processPackages [selenium-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-custom-4.2.0.tar.gz tmp/selenium-custom-4.2.1.tar.gz --markdown 20230807/s/selenium-custom/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-08-07 05:23:25] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/86/5d/81064a73ea226f6a0104c3c02770685649707cc9575e8efe69d74a4e55dc/odoo_addon_website_sale_product_brand-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-07 05:23:25] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/7e/d1/399e79eadad063622704f18afb1a7ae38b21b2120d1e4004bb0c4e9a576b/amazon_ad_sdk-0.2.8.tar.gz
+[2023-08-07 05:23:25] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2023-08-07 05:23:26] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: executing diffoscope
+[2023-08-07 05:23:26] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230807/o/odoo-addon-website-sale-product-brand/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-08-07 05:23:26] INFO root fetch - processPackages [amazon-ad-sdk]: executing diffoscope
+[2023-08-07 05:23:26] INFO root fetch - processPackages [amazon-ad-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_ad_sdk-0.2.7.tar.gz tmp/amazon_ad_sdk-0.2.8.tar.gz --markdown 20230807/a/amazon-ad-sdk/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-07 05:23:26] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2023-08-07 05:23:26] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20230807/p/pysr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-07 05:23:26] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.0.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - processPackages [selenium-custom]: Remove: archive file [/home/abi/fetcher/tmp/selenium-custom-4.2.1.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - main [MainThread]: End processing [selenium-custom]: success
+[2023-08-07 05:23:26] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.7.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.8.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - main [MainThread]: End processing [amazon-ad-sdk]: success
+[2023-08-07 05:23:26] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.4.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
+[2023-08-07 05:23:26] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2023-08-07 05:23:27] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-07 05:23:27] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-07 05:23:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-brand]: success
+[2023-08-07 05:23:27] INFO root fetch - main [MainThread]: Store serial: [19200068]
