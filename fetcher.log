@@ -20559,3 +20559,161 @@ AssertionError: tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip does not
 [2023-08-07 15:48:59] INFO root fetch - processPackages [micropython-ds1841]: Remove: archive file [/home/abi/fetcher/tmp/micropython-ds1841-0.1.2.tar.gz]
 [2023-08-07 15:48:59] INFO root fetch - main [MainThread]: End processing [micropython-ds1841]: success
 [2023-08-07 15:48:59] INFO root fetch - main [MainThread]: Store serial: [19206213]
+[2023-08-07 15:54:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19206213]
+[2023-08-07 15:54:08] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task4
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-connect
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-blocks
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor-dev
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: french-cities
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrunch
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micropython-mlx90393
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-dps310
+[2023-08-07 15:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smile-id-core
+[2023-08-07 15:54:08] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.44] Old Version: [9.1.43]
+[2023-08-07 15:54:08] INFO root fetch - processPackages [task4]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-07 15:54:08] INFO root fetch - processPackages [french-cities]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-08-07 15:54:08] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:54:08] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:54:08] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/17/a3/0d723b666bdf337cdf5c8bc20b00a27e2bd603a835ff2dffab9c3a8d99ed/databricks-connect-9.1.43.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [wagtail-blocks]: New version: [0.8.1] Old Version: [0.7.2]
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-dps310]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-mlx90393]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:54:09] INFO root fetch - processPackages [smile-id-core]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-07 15:54:09] INFO root fetch - processPackages [scrunch]: New version: [6.5.2039.post1691416186] Old Version: [6.5.2038.post1691195849]
+[2023-08-07 15:54:09] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257231459>=10485760
+[2023-08-07 15:54:09] INFO root fetch - processPackages [databricks-connect]: Start processing: chaincrafter
+[2023-08-07 15:54:09] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-08-07 15:54:09] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/f8/c9/6fe789dc1525ded4c80565534039047b0e38efc127f17e8b499299cca23b/french_cities-0.1.1a3.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [task4]: Downloading https://files.pythonhosted.org/packages/ea/8a/82e54ed63ba61c798e5d8a5423e75e8d98520d31c4390370e4b52ebea683/task4-0.1.0.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [wagtail-blocks]: Downloading https://files.pythonhosted.org/packages/de/5a/2407ce650099ecc7d18c607fe9aa05cf46b97322c799de8f23628413678b/wagtail_blocks-0.7.2.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-dps310]: Downloading https://files.pythonhosted.org/packages/27/ca/38ee95cef0b9290547c2d03154261e553c74d5d596e77d872b15f58e6c05/micropython-dps310-0.1.1.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-mlx90393]: Downloading https://files.pythonhosted.org/packages/12/f1/37ca9826e9c0819684ac32494c0ca91202fe96b1b820a969b7c6fd4c2aca/micropython-mlx90393-0.1.1.tar.gz
+[2023-08-07 15:54:09] WARNING root fetch - processPackages [chaincrafter]: Skipping, unable to determine old version
+[2023-08-07 15:54:09] INFO root fetch - processPackages [chaincrafter]: Start processing: chaincrafter-py
+[2023-08-07 15:54:09] INFO root fetch - main [MainThread]: End processing [chaincrafter] error
+[2023-08-07 15:54:09] INFO root fetch - processPackages [smile-id-core]: Downloading https://files.pythonhosted.org/packages/b1/74/7e2df980d824836a6b78dfb5a8aa5cc834bdbf782c28faaba631e793cc14/smile_id_core-2.1.0.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/0c/c5/4b0998b225dca01836de2d57f20acb6e0a80c8a8a65c1fd2dce8338316f4/scrunch-6.5.2038.post1691195849.tar.gz
+[2023-08-07 15:54:09] ERROR root fetch - processPackages [chaincrafter-py]: Unable to get metadata: No such project 'chaincrafter-py'
+[2023-08-07 15:54:09] INFO root fetch - processPackages [chaincrafter-py]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-08-07 15:54:09] INFO root fetch - main [MainThread]: End processing [chaincrafter-py] error
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-07 15:54:09] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/76/e3/d4c84125321a4bf402b378f4968428a3ea974fa6c3e0ff9aa2fa6646ec17/french_cities-0.1.1a4.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-dps310]: Downloading https://files.pythonhosted.org/packages/76/bf/e6d9cb3ea9d862025a6537189a7cd4510a8cc682d10c093988fc3d04fcde/micropython-dps310-0.1.2.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [micropython-mlx90393]: Downloading https://files.pythonhosted.org/packages/e9/33/c8a54c7f69fd25a80f2b211c7770d149adf8e144165e928437bcbf04b480/micropython-mlx90393-0.1.2.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [wagtail-blocks]: Downloading https://files.pythonhosted.org/packages/7f/98/687cae15cb4648b3f9590f092a66908def0e8313cfa3116317c3f3b4ede3/wagtail_blocks-0.8.1.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/73/ba/34ba185fb4a63ef2da776b625c98db12f9262f18a4867e13cb69fc517ee1/scrunch-6.5.2039.post1691416186.tar.gz
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230807/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-08-07 15:54:09] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230807/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:54:09] INFO root fetch - processPackages [smile-id-core]: Downloading https://files.pythonhosted.org/packages/02/5d/411a7e11e572390cf27bc015147934733286923790879474710f6a299d29/smile_id_core-2.1.1.tar.gz
+[2023-08-07 15:54:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-08-07 15:54:10] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.1a3.tar.gz tmp/french_cities-0.1.1a4.tar.gz --markdown 20230807/f/french-cities/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [micropython-dps310]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [micropython-dps310]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-dps310-0.1.1.tar.gz tmp/micropython-dps310-0.1.2.tar.gz --markdown 20230807/m/micropython-dps310/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [micropython-mlx90393]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [micropython-mlx90393]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-mlx90393-0.1.1.tar.gz tmp/micropython-mlx90393-0.1.2.tar.gz --markdown 20230807/m/micropython-mlx90393/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [wagtail-blocks]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [wagtail-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_blocks-0.7.2.tar.gz tmp/wagtail_blocks-0.8.1.tar.gz --markdown 20230807/w/wagtail-blocks/0.7.2-0.8.1/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [smile-id-core]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [smile-id-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smile_id_core-2.1.0.tar.gz tmp/smile_id_core-2.1.1.tar.gz --markdown 20230807/s/smile-id-core/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2038.post1691195849.tar.gz tmp/scrunch-6.5.2039.post1691416186.tar.gz --markdown 20230807/s/scrunch/6.5.2038.post1691195849-6.5.2039.post1691416186/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [task4]: Downloading https://files.pythonhosted.org/packages/98/af/bbce376ac6e9ead209d0f0227a1f065dc29126b9398e12245e997d27563f/task4-0.1.2.tar.gz
+[2023-08-07 15:54:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-08-07 15:54:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230807/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-07 15:54:10] INFO root fetch - processPackages [task4]: executing diffoscope
+[2023-08-07 15:54:10] INFO root fetch - processPackages [task4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task4-0.1.0.tar.gz tmp/task4-0.1.2.tar.gz --markdown 20230807/t/task4/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:11] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a3.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a4.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [french-cities]: Start processing: eumdac
+[2023-08-07 15:54:11] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-08-07 15:54:11] INFO root fetch - processPackages [eumdac]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor]: Start processing: txtadv-nightly
+[2023-08-07 15:54:11] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-08-07 15:54:11] INFO root fetch - processPackages [txtadv-nightly]: New version: [110105103104116108121110105103104116108121.2] Old Version: [110105103104116108121110105103104116108121.1]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mlx90393-0.1.1.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mlx90393-0.1.2.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [je-editor-dev]: Start processing: micropython-bmp581
+[2023-08-07 15:54:11] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-mlx90393]: Start processing: magnum-cluster-api
+[2023-08-07 15:54:11] INFO root fetch - main [MainThread]: End processing [micropython-mlx90393]: success
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-dps310]: Remove: archive file [/home/abi/fetcher/tmp/micropython-dps310-0.1.1.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-dps310]: Remove: archive file [/home/abi/fetcher/tmp/micropython-dps310-0.1.2.tar.gz]
+[2023-08-07 15:54:11] INFO root fetch - processPackages [micropython-dps310]: Start processing: micropython-kx132
+[2023-08-07 15:54:11] INFO root fetch - main [MainThread]: End processing [micropython-dps310]: success
+[2023-08-07 15:54:12] INFO root fetch - processPackages [eumdac]: Downloading https://files.pythonhosted.org/packages/f8/3c/5f5b4e23b519f48ed19c52ec66d5675b34454497df5627bc98d92b36533a/eumdac-2.0.0.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [smile-id-core]: Remove: archive file [/home/abi/fetcher/tmp/smile_id_core-2.1.0.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [smile-id-core]: Remove: archive file [/home/abi/fetcher/tmp/smile_id_core-2.1.1.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [smile-id-core]: Start processing: iparapheur-provisioning
+[2023-08-07 15:54:12] INFO root fetch - main [MainThread]: End processing [smile-id-core]: success
+[2023-08-07 15:54:12] INFO root fetch - processPackages [magnum-cluster-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-kx132]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2038.post1691195849.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2039.post1691416186.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-07 15:54:12] INFO root fetch - processPackages [txtadv-nightly]: Downloading https://files.pythonhosted.org/packages/97/d7/08bd2f0379e0f2240dbdc5076c1b405e2141a01a6eb272abaa4de5afbe78/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-08-07 15:54:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-08-07 15:54:12] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-bmp581]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-07 15:54:12] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/8b/7d/9313a57a43806e221cc3b5a941378ea4d201a95c0f821b13bd0526459553/magnum_cluster_api-0.9.0.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-kx132]: Downloading https://files.pythonhosted.org/packages/2e/d6/cfedbd16c212cfbeddcf59c617607454d4aef5f265b99a5b65e6ac141c71/micropython-kx132-0.1.1.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [eumdac]: Downloading https://files.pythonhosted.org/packages/0d/f7/b703beb685e0a500f4dd3d16fe5c3446820f9abb8924411d649a75f62056/eumdac-2.0.1.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/d2/d2/7b0c59946ac18de32f283a4bf84bc647907ea96bd634665b6a8ca3d656b8/iparapheur-provisioning-1.7.3.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [txtadv-nightly]: Downloading https://files.pythonhosted.org/packages/b5/88/9cc1e8c563aee9d14b8cbfbded791d6a5e304e527b667365c22bdbb5eacc/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-bmp581]: Downloading https://files.pythonhosted.org/packages/a3/3d/b99e6fa5d087c8c20105e1835f3df27bc56d129f03aee100805244afe85e/micropython-bmp581-0.1.1.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [eumdac]: executing diffoscope
+[2023-08-07 15:54:12] INFO root fetch - processPackages [eumdac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eumdac-2.0.0.tar.gz tmp/eumdac-2.0.1.tar.gz --markdown 20230807/e/eumdac/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-07 15:54:12] INFO root fetch - processPackages [txtadv-nightly]: executing diffoscope
+[2023-08-07 15:54:12] INFO root fetch - processPackages [txtadv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz tmp/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz --markdown 20230807/t/txtadv-nightly/110105103104116108121110105103104116108121.1-110105103104116108121110105103104116108121.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-kx132]: Downloading https://files.pythonhosted.org/packages/3f/60/d3b045b3bd607b06897a664974df9d78f41d226f6123e495627dfe610e2e/micropython-kx132-0.1.2.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/39/75/14193a7cd9c532c51617bb942c84e06b274406ce03bb5d7db5696a11ccfa/magnum_cluster_api-0.9.1.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/ff/44/1f28d9f828eeaf702ab4851d6d14fa36209110945ac7dc2eb640852a73da/iparapheur-provisioning-1.7.4.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [micropython-bmp581]: Downloading https://files.pythonhosted.org/packages/01/3a/73c83394cc1a675e430c4c4a5d525d729e28158dc8c4c8dafb3aebd088e0/micropython-bmp581-0.1.2.tar.gz
+[2023-08-07 15:54:12] INFO root fetch - processPackages [magnum-cluster-api]: executing diffoscope
+[2023-08-07 15:54:12] INFO root fetch - processPackages [magnum-cluster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_cluster_api-0.9.0.tar.gz tmp/magnum_cluster_api-0.9.1.tar.gz --markdown 20230807/m/magnum-cluster-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-07 15:54:13] INFO root fetch - processPackages [micropython-kx132]: executing diffoscope
+[2023-08-07 15:54:13] INFO root fetch - processPackages [micropython-kx132]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-kx132-0.1.1.tar.gz tmp/micropython-kx132-0.1.2.tar.gz --markdown 20230807/m/micropython-kx132/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:13] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-08-07 15:54:13] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.7.3.tar.gz tmp/iparapheur-provisioning-1.7.4.tar.gz --markdown 20230807/i/iparapheur-provisioning/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-08-07 15:54:13] INFO root fetch - processPackages [micropython-bmp581]: executing diffoscope
+[2023-08-07 15:54:13] INFO root fetch - processPackages [micropython-bmp581]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-bmp581-0.1.1.tar.gz tmp/micropython-bmp581-0.1.2.tar.gz --markdown 20230807/m/micropython-bmp581/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-07 15:54:13] INFO root fetch - processPackages [txtadv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/txtadv_nightly-110105103104116108121110105103104116108121.1.tar.gz]
+[2023-08-07 15:54:13] INFO root fetch - processPackages [txtadv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/txtadv_nightly-110105103104116108121110105103104116108121.2.tar.gz]
+[2023-08-07 15:54:13] INFO root fetch - main [MainThread]: End processing [txtadv-nightly]: success
+[2023-08-07 15:54:14] INFO root fetch - processPackages [eumdac]: Remove: archive file [/home/abi/fetcher/tmp/eumdac-2.0.0.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - processPackages [eumdac]: Remove: archive file [/home/abi/fetcher/tmp/eumdac-2.0.1.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - main [MainThread]: End processing [eumdac]: success
+[2023-08-07 15:54:14] INFO root fetch - processPackages [micropython-kx132]: Remove: archive file [/home/abi/fetcher/tmp/micropython-kx132-0.1.1.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - processPackages [micropython-kx132]: Remove: archive file [/home/abi/fetcher/tmp/micropython-kx132-0.1.2.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - main [MainThread]: End processing [micropython-kx132]: success
+[2023-08-07 15:54:14] INFO root fetch - processPackages [micropython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmp581-0.1.1.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - processPackages [micropython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/micropython-bmp581-0.1.2.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - main [MainThread]: End processing [micropython-bmp581]: success
+[2023-08-07 15:54:14] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.9.0.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.9.1.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - main [MainThread]: End processing [magnum-cluster-api]: success
+[2023-08-07 15:54:14] INFO root fetch - processPackages [task4]: Remove: archive file [/home/abi/fetcher/tmp/task4-0.1.0.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - processPackages [task4]: Remove: archive file [/home/abi/fetcher/tmp/task4-0.1.2.tar.gz]
+[2023-08-07 15:54:14] INFO root fetch - main [MainThread]: End processing [task4]: success
+[2023-08-07 15:54:15] INFO root fetch - processPackages [wagtail-blocks]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_blocks-0.7.2.tar.gz]
+[2023-08-07 15:54:15] INFO root fetch - processPackages [wagtail-blocks]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_blocks-0.8.1.tar.gz]
+[2023-08-07 15:54:15] INFO root fetch - main [MainThread]: End processing [wagtail-blocks]: success
+[2023-08-07 15:54:15] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.7.3.tar.gz]
+[2023-08-07 15:54:15] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.7.4.tar.gz]
+[2023-08-07 15:54:15] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-08-07 15:54:15] INFO root fetch - main [MainThread]: Store serial: [19206279]
