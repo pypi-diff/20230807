@@ -6028,3 +6028,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-07 05:02:35] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
 [2023-08-07 05:02:35] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
 [2023-08-07 05:02:35] INFO root fetch - main [MainThread]: Store serial: [19199945]
+[2023-08-07 05:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19199945]
+[2023-08-07 05:07:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HTMLTestRunner-rv
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YandexHome
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-tax
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owologger
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantpyml
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yafti
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HTMLTestRunner-rv
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eliasliu
+[2023-08-07 05:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: injective-py
+[2023-08-07 05:07:43] INFO root fetch - processPackages [eliasliu]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [HTMLTestRunner-rv]: New version: [1.1.2] Old Version: [1.0.18]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [HTMLTestRunner-rv]: New version: [1.1.2] Old Version: [1.0.18]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-07 05:07:43] WARNING root fetch - processPackages [owologger]: Skipping, unable to determine old version
+[2023-08-07 05:07:43] INFO root fetch - processPackages [owologger]: Start processing: WinDbg-Copilot
+[2023-08-07 05:07:43] INFO root fetch - main [MainThread]: End processing [owologger] error
+[2023-08-07 05:07:43] INFO root fetch - processPackages [yafti]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/4f/f0/caa6ed9613493547ae0324ee86bb80e6507558e4958a98be0c5eac034c79/eliasliu-0.1.4.tar.gz
+[2023-08-07 05:07:43] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-07 05:07:43] WARNING root fetch - processPackages [quantpyml]: Skipping, unable to determine old version
+[2023-08-07 05:07:43] INFO root fetch - processPackages [quantpyml]: Start processing: named-arrays
+[2023-08-07 05:07:43] INFO root fetch - main [MainThread]: End processing [quantpyml] error
+[2023-08-07 05:07:43] INFO root fetch - processPackages [antchain-tax]: New version: [1.6.2] Old Version: [1.6.16]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [injective-py]: New version: [0.7.0.5] Old Version: [0.7.0.4]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [WinDbg-Copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-07 05:07:43] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/37/82/8315e0869ef6e0fc25e2450658fce535af861e390d6098e9d9f1bc0beba0/HTMLTestRunner-rv-1.0.18.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/df/62/51149bb44c5792084a241683ae22cf8c53538fb0956a89d33fa5d09f8963/antchain_tax-1.6.16.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/37/82/8315e0869ef6e0fc25e2450658fce535af861e390d6098e9d9f1bc0beba0/HTMLTestRunner-rv-1.0.18.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/fc/a6/c1a3b480b1567a82dd8b77f0caa3b0825355cad7aaa585296492f794361e/yafti-0.7.0.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/f4/d6/96af54bf46eb5a46de532c7235cdc519039bb5d6e66a34d8ce17b265d727/injective-py-0.7.0.4.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [named-arrays]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-07 05:07:44] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/c6/1f/7d360dc475d6035149d0b95307f7b5d7743b979f0b7f496b08c69fc23e11/eliasliu-0.1.5.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/78/c9/2d3f7e338d8a136913791a8a5899c9f83fa9a07bac25119db01d1caebb50/HTMLTestRunner-rv-1.1.2.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [WinDbg-Copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/2f/d5/6842a74d254d550ef9d68cfdfaafaedb2695288f5526383108184d7d2abf/named_arrays-0.1.4.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.4.tar.gz tmp/eliasliu-0.1.5.tar.gz --markdown 20230807/e/eliasliu/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230807/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230807/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: Downloading https://files.pythonhosted.org/packages/78/c9/2d3f7e338d8a136913791a8a5899c9f83fa9a07bac25119db01d1caebb50/HTMLTestRunner-rv-1.1.2.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/1a/8b/8a20f6f53f95abb35c6a2129abac26b9c3cde4f40e136cd0596fc0556384/antchain_tax-1.6.2.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/fb/12/7fb6abdd5e002cae1844753b435d5bbc79c4477a4c6b757b05c3a87637b9/yafti-0.7.1.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [WinDbg-Copilot]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [WinDbg-Copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230807/W/WinDbg-Copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTMLTestRunner-rv-1.0.18.tar.gz tmp/HTMLTestRunner-rv-1.1.2.tar.gz --markdown 20230807/H/HTMLTestRunner-rv/1.0.18-1.1.2/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/9d/c4/5a071cdf0cb7ba522e21b108a0d560ae437fa2516df614fe752cd82792fc/injective-py-0.7.0.5.tar.gz
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [HTMLTestRunner-rv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTMLTestRunner-rv-1.0.18.tar.gz tmp/HTMLTestRunner-rv-1.1.2.tar.gz --markdown 20230807/H/HTMLTestRunner-rv/1.0.18-1.1.2/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [antchain-tax]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [antchain-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_tax-1.6.16.tar.gz tmp/antchain_tax-1.6.2.tar.gz --markdown 20230807/a/antchain-tax/1.6.16-1.6.2/diff.md --exclude *.pyd
+[2023-08-07 05:07:44] INFO root fetch - processPackages [yafti]: executing diffoscope
+[2023-08-07 05:07:44] INFO root fetch - processPackages [yafti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafti-0.7.0.tar.gz tmp/yafti-0.7.1.tar.gz --markdown 20230807/y/yafti/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-07 05:07:45] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-08-07 05:07:45] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.7.0.4.tar.gz tmp/injective-py-0.7.0.5.tar.gz --markdown 20230807/i/injective-py/0.7.0.4-0.7.0.5/diff.md --exclude *.pyd
+[2023-08-07 05:07:45] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/bd/b4/f3accd1c6f23ca66701f6561575f81919a2b7b1b4fee5718bb8de0f274bc/named_arrays-0.1.5.tar.gz
+[2023-08-07 05:07:45] INFO root fetch - processPackages [named-arrays]: executing diffoscope
+[2023-08-07 05:07:45] INFO root fetch - processPackages [named-arrays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230807:/home/abi/fetcher/20230807:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named_arrays-0.1.4.tar.gz tmp/named_arrays-0.1.5.tar.gz --markdown 20230807/n/named-arrays/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-07 05:07:46] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [WinDbg-Copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [WinDbg-Copilot]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.4.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.5.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [yafti]: Remove: archive file [/home/abi/fetcher/tmp/yafti-0.7.0.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [yafti]: Remove: archive file [/home/abi/fetcher/tmp/yafti-0.7.1.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [yafti]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.6.16.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.6.2.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [antchain-tax]: success
+[2023-08-07 05:07:46] INFO root fetch - processPackages [HTMLTestRunner-rv]: Remove: archive file [/home/abi/fetcher/tmp/HTMLTestRunner-rv-1.0.18.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - processPackages [HTMLTestRunner-rv]: Remove: archive file [/home/abi/fetcher/tmp/HTMLTestRunner-rv-1.1.2.tar.gz]
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [HTMLTestRunner-rv]: success
+[2023-08-07 05:07:46] INFO root fetch - main [MainThread]: End processing [HTMLTestRunner-rv]: success
+[2023-08-07 05:07:47] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named_arrays-0.1.4.tar.gz]
+[2023-08-07 05:07:47] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named_arrays-0.1.5.tar.gz]
+[2023-08-07 05:07:47] INFO root fetch - main [MainThread]: End processing [named-arrays]: success
+[2023-08-07 05:07:48] INFO root fetch - processPackages [injective-py]: Remove: archive file [/home/abi/fetcher/tmp/injective-py-0.7.0.4.tar.gz]
+[2023-08-07 05:07:48] INFO root fetch - processPackages [injective-py]: Remove: archive file [/home/abi/fetcher/tmp/injective-py-0.7.0.5.tar.gz]
+[2023-08-07 05:07:48] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-08-07 05:07:48] INFO root fetch - main [MainThread]: Store serial: [19199983]
